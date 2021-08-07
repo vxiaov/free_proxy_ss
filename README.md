@@ -11,12 +11,19 @@
 ## 安装v2ray 客户端
 
 安卓客户端下载地址: [https://github.com/2dust/v2rayNG/releases/latest](https://github.com/2dust/v2rayNG/releases/latest) 
+
 或通过GooglePlay下载.
 <a href="https://play.google.com/store/apps/details?id=com.v2ray.ang">
 <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="165" height="64" />
 </a>
 
+iOS客户端(Kitsunebi)下载地址： [https://itunes.apple.com/us/app/kitsunebi-proxy-utility/id1446584073?mt=8](https://itunes.apple.com/us/app/kitsunebi-proxy-utility/id1446584073?mt=8)
+
+
 电脑客户端下载地址: [https://github.com/v2fly/v2ray-core/releases](https://github.com/v2fly/v2ray-core/releases)
+
+
+更多客户端支持可以访问 [https://www.v2ray.com/awesome/tools.html](https://www.v2ray.com/awesome/tools.html) 了解。
 
 ## 使用方法
 
