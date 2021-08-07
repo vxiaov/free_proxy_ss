@@ -8,15 +8,15 @@
 
 可以加入 [@free_proxy_001](https://t.me/free_proxy_001) TG群组交流讨论。
 
-## 安装v2rayNG 
+## 安装v2ray 客户端
 
-安卓客户端下载地址: https://github.com/2dust/v2rayNG/releases/latest 
+安卓客户端下载地址: [https://github.com/2dust/v2rayNG/releases/latest](https://github.com/2dust/v2rayNG/releases/latest) 
 或通过GooglePlay下载.
 <a href="https://play.google.com/store/apps/details?id=com.v2ray.ang">
 <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="165" height="64" />
 </a>
 
-电脑客户端下载地址: https://www.v2ray.com/chapter_00/install.html
+电脑客户端下载地址: [https://github.com/v2fly/v2ray-core/releases](https://github.com/v2fly/v2ray-core/releases)
 
 ## 使用方法
 
