@@ -6,7 +6,7 @@
 
 欢迎大家Star !
 
-可以加入 [@free_proxy_001](https://t.me/free_proxy_001) TG群组交流。
+可以加入 [@free_proxy_001](https://t.me/free_proxy_001) TG群组交流讨论。
 
 ## 安装v2rayNG 
 
