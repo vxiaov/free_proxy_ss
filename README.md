@@ -20,14 +20,17 @@
 | v2ray| [v2rayN-支持ss/v2ray](https://github.com/2dust/v2rayN/releases),[Qv2ray客户端](https://github.com/Qv2ray/Qv2ray/releases),<a href="https://play.google.com/store/apps/details?id=com.v2ray.ang"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="165" height="64" /></a>| [v2ray官方客户端](https://github.com/v2fly/v2ray-core/releases),[Qv2ray客户端](https://github.com/Qv2ray/Qv2ray/releases)| [v2ray官方客户端](https://github.com/v2fly/v2ray-core/releases),[Qv2ray客户端](https://github.com/Qv2ray/Qv2ray/releases)| [v2rayNG](https://github.com/2dust/v2rayNG/releases/latest)| [Kitsunebi客户端](https://itunes.apple.com/us/app/kitsunebi-proxy-utility/id1446584073?mt=8)|
 
 
+> SSR客户端更新订阅如果有问题就换个版本吧，可以使用 `SSR安卓个人维护版本` 是没问题的。
+
 
 更多客户端支持可以访问 [https://www.v2ray.com/awesome/tools.html](https://www.v2ray.com/awesome/tools.html) 了解。
 
 ## 订阅源使用方法
 
-1. 安装v2ray客户端 
+1. 安装v2ray客户端(支持ss和v2ray配置)
 2. 添加订阅源地址 `https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free`
 3. 更新订阅源
+
 
 完成更新后客户端就会显示可用结点了,选择一个启用试试吧。
 
