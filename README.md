@@ -35,6 +35,9 @@ INFO[0002] RESTful API listening at: 127.0.0.1:9090
 ```
 如果看到上面信息，就说明已经正确下载了远程订阅地址的配置信息了，默认设置是一小时更新一次(100+可用结点)。
 
+小猫咪客户端下载地址：
+- Linux/Win/Mac : https://github.com/Dreamacro/clash/releases/latest
+- Android客户端 : <a href="https://play.google.com/store/apps/details?id=com.github.kr328.clash"><img width="200px" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"/></a> or [Releases](https://github.com/Kr328/ClashForAndroid/releases)
 
 ## 客户端
 > 客户端工具很多，为安全期间尽量从Github、GooglePlay等平台下载安装包。
