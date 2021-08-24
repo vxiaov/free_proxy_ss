@@ -1,0 +1,56 @@
+port: 7890
+socks-port: 1080
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+
+# 设置代理提供者(远程订阅地址+本地订阅文件)
+proxy-providers:
+  provider01:
+    type: http
+	url: "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml"
+    path: ./provider_local.yaml
+    health-check:
+      enable: true
+      interval: 3600
+      url: http://www.gstatic.com/generate_204
+
+  provider02:
+    type: file
+    path: ./provider_local.yaml
+    health-check:
+      enable: true
+      interval: 3600
+      url: http://www.gstatic.com/generate_204
+
+proxy-groups:
+  - name: PROXY
+    type: select
+    use:	# 引入 proxy-provider 使用 use 关键字
+      - provider01
+      - provider02
+
+
+rules:
+  - PROCESS-NAME,v2ray,DIRECT
+  - PROCESS-NAME,Surge%203,DIRECT
+  - PROCESS-NAME,ss-local,DIRECT
+  - PROCESS-NAME,privoxy,DIRECT
+  - PROCESS-NAME,trojan,DIRECT
+  - PROCESS-NAME,trojan-go,DIRECT
+  - PROCESS-NAME,naive,DIRECT
+  - PROCESS-NAME,Thunder,DIRECT
+  - PROCESS-NAME,DownloadService,DIRECT
+  - PROCESS-NAME,qBittorrent,DIRECT
+  - PROCESS-NAME,Transmission,DIRECT
+  - PROCESS-NAME,fdm,DIRECT
+  - PROCESS-NAME,aria2c,DIRECT
+  - PROCESS-NAME,Folx,DIRECT
+  - PROCESS-NAME,NetTransport,DIRECT
+  - PROCESS-NAME,uTorrent,DIRECT
+  - PROCESS-NAME,WebTorrent,DIRECT
+  - GEOIP,,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,PROXY
+
