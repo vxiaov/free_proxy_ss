@@ -11,11 +11,30 @@
 ## Clash订阅配置(新增)
 > 小猫咪Clash提供了远程自动更新结点的功能，非常容易使用。因此这里也提供了一份远程订阅地址。
 
-使用方法：
+
+Linux客户端使用方法:
+```
+# 以配置目录为`~/clash`为例
+mkdir ~/clash
+
+# 下载基础配置文件
+wget -O ~/clash/config.xml -c https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/config.yaml
+
+# 启动clash客户端
+clash-cli -d ~/clash
 
 ```
 
+正常情况下输出内容为：
 ```
+INFO[0000] Start initial provider provider01            
+INFO[0002] Start initial provider provider02            
+INFO[0002] HTTP proxy listening at: :7890               
+INFO[0002] SOCKS5 proxy listening at: :1080             
+INFO[0002] RESTful API listening at: 127.0.0.1:9090 
+```
+如果看到上面信息，就说明已经正确下载了远程订阅地址的配置信息了，默认设置是一小时更新一次(100+可用结点)。
+
 
 ## 客户端
 > 客户端工具很多，为安全期间尽量从Github、GooglePlay等平台下载安装包。
