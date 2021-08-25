@@ -5,17 +5,17 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 
+# 配置规则参考文档： https://github.com/Dreamacro/clash/wiki/configuration
 # 设置代理提供者(远程订阅地址+本地订阅文件)
 proxy-providers:
   provider01:
     type: http
-	url: "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml"
-    path: ./provider_local.yaml
+    url: "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml"
+    path: ./provider_remote.yaml
     health-check:
       enable: true
       interval: 3600
       url: http://www.gstatic.com/generate_204
-
   provider02:
     type: file
     path: ./provider_local.yaml
@@ -24,12 +24,27 @@ proxy-providers:
       interval: 3600
       url: http://www.gstatic.com/generate_204
 
+# 类型选择 简介
+# select : 用于选择代理或代理组, 可以通过 RESTful API 来切换代理，建议在 GUI 中使用
+# load-balance : 相同eTLD+1的请求将拨号到同一个代理。
+# url-test : 通过对 URL 的速度进行基准测试来选择将使用哪个代理。
+# fallback : 按优先级选择可用的策略。通过访问 URL 来测试可用性，就像自动 url-test 组一样。
+# relay : 中继链接代理。代理不应包含中继。不支持 UDP。 流量：冲突 <-> http <-> vmess <-> ss1 <-> ss2 <-> Internet 
+#  
+# 推荐选择：
+#   命令行服务建议选择 url-test / fallback / load-balance
+#   GUI窗口 官方建议选择 select ，当然也推荐使用url-test 自动检测可用性。
 proxy-groups:
   - name: PROXY
-    type: select
+    type: url-test   # load-balance, select, relay, fallback, url-test
     use:	# 引入 proxy-provider 使用 use 关键字
-      - provider01
-      - provider02
+      - provider01   # 远程代理列表订阅地址
+      # - provider02   # 本地代理列表文件
+    tolerance: 150
+    # lazy: true
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    # strategy: consistent-hashing # or round-robin  # 负载均衡策略
 
 
 rules:
