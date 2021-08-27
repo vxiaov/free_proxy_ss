@@ -1,0 +1,57 @@
+#!/bin/sh
+# Clash 服务管理脚本 #
+# Author: https://github.com/Awkee
+# 文件名： clashctl
+
+CMD="/koolshare/bin/clash -d /koolshare/clash"
+app="clash"
+
+usage()
+{
+cat <<END
+使用帮助:
+    ${app} <start|stop|status>
+参数介绍：
+    start:  启动服务
+    stop:   停止服务
+    status: 状态检查
+END
+
+}
+
+start()
+{
+    echo "${app} 开始运行:"
+    cd
+    if status >/dev/null 2>&1
+    then
+        echo "$app 已经运行了"
+    else
+        nohup ${CMD}  > /dev/null 2>&1 &
+    fi
+    status
+}
+
+status()
+{
+    ps | grep ${app} | grep -v grep |grep -v /bin/sh | grep -v " vi "
+}
+
+stop()
+{
+    echo "开始停止服务 ..."
+    status | awk '{ print $1 }' | xargs kill
+    echo "检查是否停止成功："
+    status
+}
+
+str_cmd="${1:-start}"
+
+case "${str_cmd}" in
+    start|stop|status)
+        ${str_cmd}
+        ;;
+    *)
+        usage
+        ;;
+esac
