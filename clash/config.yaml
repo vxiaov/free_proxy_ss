@@ -73,7 +73,7 @@ proxy-groups:
     type: url-test   # load-balance, select, relay, fallback, url-test
     use:             # 引入 proxy-provider 使用 use 关键字
       - provider01   # 远程代理列表订阅地址
-      - provider02   # 本地代理列表文件
+	# - provider02   # 本地代理列表文件
     # tolerance: 150
     # lazy: true
     url: http://www.gstatic.com/generate_204
