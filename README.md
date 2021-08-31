@@ -11,14 +11,22 @@
 ## Clash订阅配置(新增)
 > 小猫咪Clash提供了远程自动更新结点的功能，非常容易使用。因此这里也提供了一份远程订阅地址。
 
+配置文件下载：
+- GitHub原始链接(可能下载失败)： https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/config.yaml
+- 使用CDN加速链接(推荐)： https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/config.yaml
 
-Linux客户端使用方法:
+### Clash订阅节点更新地址(每小时更新)
+> 代理节点包含ss/ssr/vmess,均来源于网络
+
+- Clash订阅地址: https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/clash.provider.yaml
+
+### Linux客户端使用方法:
 ```
 # 以配置目录为`~/clash`为例
 mkdir ~/clash
 
 # 下载基础配置文件
-wget -O ~/clash/config.xml -c https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/config.yaml
+wget -O ~/clash/config.xml -c https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/config.yaml
 
 # 启动clash客户端
 clash-cli -d ~/clash
