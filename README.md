@@ -11,9 +11,11 @@
 ## Clash订阅配置(新增)
 > 小猫咪Clash提供了远程自动更新结点的功能，非常容易使用。因此这里也提供了一份远程订阅地址。
 
+
 配置文件下载：
 - GitHub原始链接(可能下载失败)： https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/config.yaml
 - 使用CDN加速链接(推荐)： https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/config.yaml
+
 
 ### Clash订阅节点更新地址(每小时更新)
 > 代理节点包含ss/ssr/vmess,均来源于网络
@@ -45,6 +47,8 @@ INFO[0002] RESTful API listening at: 127.0.0.1:9090
 
 小猫咪客户端下载地址：
 - Arm路由器(斐逊K3可用): [clash-for-arm](https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash-for-arm)
+- 斐讯K3路由器梅林AM380固件可用的Clash插件： [Clash for meilin 380](https://github.com/learnhard-cn/clash)
+- openwrt固件可用KoolClash插件: [Koolshare-Clash](https://github.com/SukkaW/Koolshare-Clash)
 - Linux/Win/Mac : [官方Clash](https://github.com/Dreamacro/clash/releases/latest)
 - Android客户端 : <a href="https://play.google.com/store/apps/details?id=com.github.kr328.clash"><img width="200px" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"/></a> or [Releases](https://github.com/Kr328/ClashForAndroid/releases)
 
