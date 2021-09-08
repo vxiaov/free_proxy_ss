@@ -46,7 +46,7 @@ INFO[0002] RESTful API listening at: 127.0.0.1:9090
 如果看到上面信息，就说明已经正确下载了远程订阅地址的配置信息了，默认设置是一小时更新一次(100+可用结点)。
 
 小猫咪客户端下载地址：
-- Arm路由器(斐逊K3可用): [clash-for-arm](https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash-for-arm)
+- Arm路由器(斐逊K3可用): [clash premium](https://github.com/Dreamacro/clash/releases/tag/premium)
 - 斐讯K3路由器梅林AM380固件可用的Clash插件： [Clash for meilin 380](https://github.com/learnhard-cn/clash)
 - openwrt固件可用KoolClash插件: [Koolshare-Clash](https://github.com/SukkaW/Koolshare-Clash)
 - Linux/Win/Mac : [官方Clash](https://github.com/Dreamacro/clash/releases/latest)
