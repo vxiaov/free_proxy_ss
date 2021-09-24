@@ -20,7 +20,8 @@
 ### Clash订阅节点更新地址(每小时更新)
 > 代理节点包含ss/ssr/vmess,均来源于网络
 
-- Clash订阅地址: https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/clash.provider.yaml
+- Clash订阅地址(使用CDN链接,有延迟): https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/clash.provider.yaml
+- Clash订阅地址(原地址，需要通过代理访问): https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml
 
 ### Linux客户端使用方法:
 ```
