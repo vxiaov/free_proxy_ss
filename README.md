@@ -36,8 +36,8 @@
 mkdir ~/clash
 
 # 下载基础配置文件
-wget -O ~/clash/config.xml -c https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/config.yaml
-wget -O ~/clash/provider_local.xml -c https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/clash.provider.yaml
+# wget -O ~/clash/config.xml -c https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/config.yaml
+wget -O ~/clash/config.xml -c https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/config.yaml
 
 # 启动clash客户端
 clash-cli -d ~/clash
