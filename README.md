@@ -8,9 +8,15 @@
 
 可以订阅 [@free_proxy_001](https://t.me/free_proxy_001) Telegram电报频道，这里会定期发布可用代理。
 
-## Clash订阅配置(新增)
+## Clash订阅配置
 > 小猫咪Clash提供了远程自动更新结点的功能，非常容易使用。因此这里也提供了一份远程订阅地址。
 
+
+使用Clash配置，大多数人都使用一个启动配置文件config.yaml包含所有代理节点信息, 原本这里提供的Clash配置是拆分为两个，启动配置文件`clash/config.yaml`不包含代理节点信息，`clash/clash.provider.yaml`中包含变化的节点信息。 
+
+但是很多人不会用，导致反馈不好用。
+
+因此，这里提供了一个包含代理节点的Clash启动配置文件[config.yaml](https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/config.yaml) , 这个配置就是所谓的拿来即用的配置了
 
 配置文件下载：
 - GitHub原始链接(可能下载失败)： https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/config.yaml
@@ -22,6 +28,7 @@
 
 - Clash订阅地址(使用CDN链接,有延迟): https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/clash.provider.yaml
 - Clash订阅地址(原地址，需要通过代理访问): https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml
+
 
 ### Linux客户端使用方法:
 ```
