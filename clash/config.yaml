@@ -36,14 +36,6 @@ dns:
 # 配置规则参考文档： https://github.com/Dreamacro/clash/wiki/configuration
 # 设置代理提供者(远程订阅地址+本地订阅文件)
 proxy-providers:
-  provider01:
-    type: http
-    url: https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/clash.provider.yaml
-    path: ./provider_remote.yaml
-    health-check:
-      enable: true
-      interval: 3600
-      url: http://www.gstatic.com/generate_204
   provider02:
     type: file
     path: ./provider_local.yaml
@@ -66,7 +58,6 @@ proxy-groups:
   - name: PROXY
     type: select     # load-balance, select, relay, fallback, url-test
     use:             # 引入 proxy-provider 使用 use 关键字
-      - provider01   # 远程代理列表订阅地址
       - provider02   # 本地代理列表文件
     # tolerance: 150
     # lazy: true
