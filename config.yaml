@@ -343,6 +343,26 @@ proxies:
   port: 38033
   cipher: aes-256-gcm
   password: xpQwyV4W5FdA6NMANJJx73US
+- name: 🇨🇳中国-福建-泉州-ssr-117.28.242.137:9359
+  type: ssr
+  server: 117.28.242.137
+  password: '73117962'
+  obfs: plain
+  protocol: origin
+  port: 9359
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇨🇳中国-福建-泉州-ssr-117.28.243.169:8333
+  type: ssr
+  server: 117.28.243.169
+  password: passfw2xs4e!
+  obfs: plain
+  protocol: origin
+  port: 8333
+  cipher: rc4-md5
+  protocol-param: ''
+  obfs-param: ''
 - name: 🇨🇳中国-香港-0-v2ray-65.52.190.89:10122
   type: vmess
   server: 65.52.190.89
@@ -373,16 +393,6 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /index
-- name: 🇨🇳中国-香港-0-v2ray-13.75.49.183:2001
-  type: vmess
-  server: 13.75.49.183
-  network: ws
-  port: 2001
-  uuid: 061d58fe-06d8-339c-b47d-62a4a3c71fe1
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /index
 - name: 🇺🇸美国-科罗拉多-0-v2ray-143.198.237.214:27489
   type: vmess
   server: 143.198.237.214
@@ -393,6 +403,26 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 🇨🇳中国-香港-0-v2ray-13.94.56.27:10102
+  type: vmess
+  server: 13.94.56.27
+  network: ws
+  port: 10102
+  uuid: 061d58fe-06d8-339c-b47d-62a4a3c71fe1
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /index
+- name: 🇯🇵日本-东京都-东京-v2ray-20.194.171.236:10200
+  type: vmess
+  server: 20.194.171.236
+  network: ws
+  port: 10200
+  uuid: 061d58fe-06d8-339c-b47d-62a4a3c71fe1
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /index
 
 proxy-groups:
 # 类型选择 简介
@@ -457,10 +487,13 @@ proxy-groups:
   - 🇷🇴罗马尼亚-布加勒斯特-0-ss-45.89.173.205:48938
   - 🇷🇴罗马尼亚-布加勒斯特-0-ss-45.89.173.205:41676
   - 🇳🇴挪威-Oslo-0-ss-91.219.215.19:31944
+  - 🇯🇵日本-东京都-东京-v2ray-20.194.171.236:10200
   - 🇮🇹意大利-米兰-米兰-ss-82.102.26.94:38742
   - 🇩🇪德国-黑森-0-ss-145.239.1.137:7307
   - 🇨🇳中国-香港-0-v2ray-65.52.190.89:10122
-  - 🇨🇳中国-香港-0-v2ray-13.75.49.183:2001
+  - 🇨🇳中国-香港-0-v2ray-13.94.56.27:10102
+  - 🇨🇳中国-福建-泉州-ssr-117.28.243.169:8333
+  - 🇨🇳中国-福建-泉州-ssr-117.28.242.137:9359
   - 🇨🇳中国-台湾-0-v2ray-111.249.131.237:20102
   - 🇨🇳中国-上海-上海-ss-101.91.121.247:50004
   - 🇦🇿阿塞拜疆-0-0-ss-62.212.239.53:48938
