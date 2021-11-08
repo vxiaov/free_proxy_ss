@@ -347,26 +347,6 @@ proxies:
   cipher: rc4-md5
   protocol-param: ''
   obfs-param: ''
-- name: 🇳🇱荷兰-0-0-v2ray-45.128.75.3:65367
-  type: vmess
-  server: 45.128.75.3
-  network: ws
-  port: 65367
-  uuid: ae888f86-b8e7-461b-9ea5-fe3f3d0d1bab
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: ''
-- name: 🇺🇸美国-德克萨斯-0-v2ray-159.223.75.43:56776
-  type: vmess
-  server: 159.223.75.43
-  network: ws
-  port: 56776
-  uuid: 2a1620a3-dc12-4d2e-faa9-809028d3e191
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
 - name: 🇺🇸美国-加利福尼亚-0-v2ray-173.82.192.61:49357
   type: vmess
   server: 173.82.192.61
@@ -377,22 +357,32 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 🇸🇬新加坡-0-0-v2ray-139.59.122.24:34715
-  type: vmess
-  server: 139.59.122.24
-  network: ws
-  port: 34715
-  uuid: 28eeec13-db80-4cb9-9d30-060f4257d729
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
 - name: 🇸🇬新加坡-0-0-v2ray-139.59.254.17:12081
   type: vmess
   server: 139.59.254.17
   network: ws
   port: 12081
   uuid: 39f1943b-282e-44a4-9f56-5d59107d919e
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 🇳🇱荷兰-0-0-v2ray-45.128.75.3:65367
+  type: vmess
+  server: 45.128.75.3
+  network: ws
+  port: 65367
+  uuid: ae888f86-b8e7-461b-9ea5-fe3f3d0d1bab
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 🇸🇬新加坡-0-0-v2ray-139.59.122.24:34715
+  type: vmess
+  server: 139.59.122.24
+  network: ws
+  port: 34715
+  uuid: 28eeec13-db80-4cb9-9d30-060f4257d729
   alterId: 4
   cipher: auto
   tls: false
@@ -485,7 +475,6 @@ proxy-groups:
   - 🇺🇸美国-新泽西-0-ss-156.146.62.37:35294
   - 🇺🇸美国-新泽西-0-ss-156.146.62.37:32971
   - 🇺🇸美国-德克萨斯-0-v2ray-159.223.76.179:25337
-  - 🇺🇸美国-德克萨斯-0-v2ray-159.223.75.43:56776
   - 🇺🇸美国-德克萨斯-0-v2ray-159.223.75.14:41462
   - 🇺🇸美国-加利福尼亚-0-v2ray-173.82.192.61:49357
   - 🇺🇸美国-佐治亚-亚特兰大-ss-66.115.154.131:47027
