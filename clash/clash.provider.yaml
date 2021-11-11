@@ -1,77 +1,77 @@
 proxies:
-- cipher: aes-256-gcm
-  port: 48938
-  server: 156.146.62.37
-  password: 4ejJ8n5ddLuYDUHGXJre2ufJ
-  name: 美国-新泽西-0-ss-156.146.62.37:48938
-  type: ss
-- cipher: aes-256-gcm
-  port: 39556
-  server: 185.124.240.146
-  password: g4AfpNELpdYEeLYhM8XCX9se
-  name: 美国-加利福尼亚-费利蒙-ss-185.124.240.146:39556
-  type: ss
-- cipher: aes-256-gcm
-  port: 42304
-  server: 198.8.92.84
-  password: p26v2JwhQVHDHsXk66fXt56r
-  name: 美国-佐治亚-亚特兰大-ss-198.8.92.84:42304
-  type: ss
-- cipher: aes-256-gcm
-  port: 8091
-  server: 198.57.27.218
-  password: PCnnH6SQSnfoS27
-  name: 加拿大-安大略-多伦多-ss-198.57.27.218:8091
-  type: ss
-- cipher: aes-256-gcm
-  port: 41676
-  server: 198.8.92.84
-  password: z6pH3RyttkRWhJ5tpRyt6dYk
-  name: 美国-佐治亚-亚特兰大-ss-198.8.92.84:41676
-  type: ss
-- cipher: aes-256-gcm
-  port: 49396
-  server: 156.146.62.37
-  password: BdRWC38L5JUDMTYNNxJGcUwB
+- type: ss
+  cipher: aes-256-gcm
   name: 美国-新泽西-0-ss-156.146.62.37:49396
-  type: ss
-- cipher: aes-256-gcm
-  port: 44628
   server: 156.146.62.37
-  password: VASQbVcukHfdBGmeS9L7Z8TT
-  name: 美国-新泽西-0-ss-156.146.62.37:44628
-  type: ss
-- cipher: aes-256-gcm
-  port: 44820
+  port: 49396
+  password: BdRWC38L5JUDMTYNNxJGcUwB
+- type: ss
+  cipher: aes-256-gcm
+  name: 美国-新泽西-0-ss-156.146.62.37:48938
   server: 156.146.62.37
-  password: jspgz9G3VmvBMCgMUWLBaZHu
-  name: 美国-新泽西-0-ss-156.146.62.37:44820
-  type: ss
-- cipher: aes-256-gcm
-  port: 36460
-  server: 198.8.92.84
-  password: yUXad7DGF8L5cTShEpnp2N6z
+  port: 48938
+  password: 4ejJ8n5ddLuYDUHGXJre2ufJ
+- type: ss
+  cipher: aes-256-gcm
   name: 美国-佐治亚-亚特兰大-ss-198.8.92.84:36460
-  type: ss
-- cipher: aes-256-gcm
-  port: 44820
   server: 198.8.92.84
-  password: jspgz9G3VmvBMCgMUWLBaZHu
+  port: 36460
+  password: yUXad7DGF8L5cTShEpnp2N6z
+- type: ss
+  cipher: aes-256-gcm
   name: 美国-佐治亚-亚特兰大-ss-198.8.92.84:44820
-  type: ss
-- cipher: aes-256-gcm
-  port: 47861
+  server: 198.8.92.84
+  port: 44820
+  password: jspgz9G3VmvBMCgMUWLBaZHu
+- type: ss
+  cipher: aes-256-gcm
+  name: 美国-佐治亚-亚特兰大-ss-198.8.92.84:42304
+  server: 198.8.92.84
+  port: 42304
+  password: p26v2JwhQVHDHsXk66fXt56r
+- type: ss
+  cipher: aes-256-gcm
+  name: 美国-新泽西-0-ss-156.146.62.37:44628
   server: 156.146.62.37
-  password: LJcChRsGQRhywrtXUU55TLTu
+  port: 44628
+  password: VASQbVcukHfdBGmeS9L7Z8TT
+- type: ss
+  cipher: aes-256-gcm
+  name: 美国-佐治亚-亚特兰大-ss-198.8.92.84:41676
+  server: 198.8.92.84
+  port: 41676
+  password: z6pH3RyttkRWhJ5tpRyt6dYk
+- type: ss
+  cipher: aes-256-gcm
   name: 美国-新泽西-0-ss-156.146.62.37:47861
-  type: ss
-- cipher: auto
+  server: 156.146.62.37
+  port: 47861
+  password: LJcChRsGQRhywrtXUU55TLTu
+- type: ss
+  cipher: aes-256-gcm
+  name: 美国-加利福尼亚-费利蒙-ss-185.124.240.146:39556
+  server: 185.124.240.146
+  port: 39556
+  password: g4AfpNELpdYEeLYhM8XCX9se
+- type: ss
+  cipher: aes-256-gcm
+  name: 美国-新泽西-0-ss-156.146.62.37:44820
+  server: 156.146.62.37
+  port: 44820
+  password: jspgz9G3VmvBMCgMUWLBaZHu
+- type: ss
+  cipher: aes-256-gcm
+  name: 加拿大-安大略-多伦多-ss-198.57.27.218:8091
+  server: 198.57.27.218
+  port: 8091
+  password: PCnnH6SQSnfoS27
+- type: vmess
+  cipher: auto
+  alterId: 4
+  name: 美国-德克萨斯-0-v2ray-159.223.67.223:58443
+  server: 159.223.67.223
   port: 58443
   ws-path: /
-  server: 159.223.67.223
-  alterId: 4
   uuid: 07c40cf6-db51-4179-cce7-5607cc0d301b
-  tls: false
-  name: 美国-德克萨斯-0-v2ray-159.223.67.223:58443
   network: ws
-  type: vmess
+  tls: false
