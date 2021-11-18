@@ -32,26 +32,6 @@ dns:
     # geoip设置为false时有效： 不匹配`ipcidr`地址时会使用`nameserver`结果，匹配`ipcidr`地址时使用`fallback`结果。
     ipcidr:
     - 240.0.0.0/4
-
-
-# 配置规则参考文档： https://github.com/Dreamacro/clash/wiki/configuration
-# 设置代理提供者(远程订阅地址+本地订阅文件)
-# proxy-providers:
-#   provider_file:
-#     type: file
-#     path: ./provider_local.yaml
-#     health-check:
-#       enable: true
-#       interval: 600
-#       url: http://www.gstatic.com/generate_204
-#   provider_url:
-#     type: file
-#     path: ./provider_remote.yaml
-#     health-check:
-#       enable: true
-#       interval: 600
-#       url: http://www.gstatic.com/generate_204
-#
 #
 # DIY组保留的个人节点
 proxies:
