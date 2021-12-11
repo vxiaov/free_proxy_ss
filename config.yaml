@@ -4,10 +4,21 @@ redir-port: 3333 # 透明代理端口
 allow-lan: true
 mode: Rule
 log-level: info
+# Outbound interface name
+interface-name: en0
+# When set to false, resolver won't translate hostnames to IPv6 addresses
+ipv6: false
 external-controller: 0.0.0.0:9090
 secret: route
 hosts:
   router.asus.com: 192.168.50.1
+profile:
+  # Store the `select` results in $HOME/.config/clash/.cache
+  # set false If you don't want this behavior
+  # when two different configurations have groups with the same name, the selected values are shared
+  store-selected: true
+  # persistence fakeip
+  store-fake-ip: false
 # 透明代理开启DNS
 dns:
   enable: true
@@ -640,12 +651,822 @@ proxies:
     port: 7306
     cipher: aes-256-gcm
     password: FoOiGlkAA9yPEGP
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.107.226.48:8090-可用-直连-仅支持美国地区NF自制剧"
+    type: ss
+    server: 38.107.226.48
+    port: 8090
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "\U0001F1F7\U0001F1FA:俄罗斯-ss-5.188.108.155:889-可用-直连-仅支持波兰地区NF自制剧"
+    type: ss
+    server: 5.188.108.155
+    port: 889
+    cipher: chacha20-ietf-poly1305
+    password: KhS1x8JT7p58RIp7gz
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:5003-可用-直连-仅支持加拿大地区NF自制剧"
+    type: ss
+    server: 134.195.196.3
+    port: 5003
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.61:3389-可用-直连-仅支持美国地区NF自制剧"
+    type: ss
+    server: 167.88.63.61
+    port: 3389
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.202:443-可用-直连-仅支持美国地区NF自制剧"
+    type: ss
+    server: 38.68.134.202
+    port: 443
+    cipher: aes-256-gcm
+    password: pKEW8JPByTVTLtM
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.107.226.48:3389-可用-直连-仅支持美国地区NF自制剧"
+    type: ss
+    server: 38.107.226.48
+    port: 3389
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "\U0001F1F8\U0001F1EC:新加坡-ss-172.107.233.234:2375-可用-直连-仅支持西班牙地区NF自制剧"
+    type: ss
+    server: 172.107.233.234
+    port: 2375
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-118.107.244.112:3306-可用-中转:118.107.244.111-仅支持香港地区NF自制剧"
+    type: ss
+    server: 118.107.244.112
+    port: 3306
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "\U0001F1F8\U0001F1EC:新加坡-ss-81.90.189.18:801-可用-直连-仅支持新加坡地区NF自制剧"
+    type: ss
+    server: 81.90.189.18
+    port: 801
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.91.100.200:7306-可用-直连-仅支持美国地区NF自制剧"
+    type: ss
+    server: 38.91.100.200
+    port: 7306
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "\U0001F1E8\U0001F1E6:加拿大-ss-198.57.27.152:8091-可用-直连-仅支持加拿大地区NF自制剧"
+    type: ss
+    server: 198.57.27.152
+    port: 8091
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.86.135.27:5003-可用-直连-仅支持美国地区NF自制剧"
+    type: ss
+    server: 38.86.135.27
+    port: 5003
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-84.17.37.55:8389-可用-直连-仅支持香港地区NF自制剧"
+    type: ss
+    server: 84.17.37.55
+    port: 8389
+    cipher: chacha20-ietf-poly1305
+    password: tjwRqQvteAjt3xFmbZTA
+  - name: "\U0001F1F1\U0001F1FA:卢森堡-ss-213.167.242.16:443-可用-直连-仅支持卢森堡地区NF自制剧"
+    type: ss
+    server: 213.167.242.16
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: BDybfjpcRuiW
+  - name: "\U0001F1F9\U0001F1F7:土耳其-ss-185.17.113.234:809-被墙-直连-解锁土耳其地区NF非自制剧"
+    type: ss
+    server: 185.17.113.234
+    port: 809
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.121.43.71:3306-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.121.43.71
+    port: 3306
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.19:7306-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.63.19
+    port: 7306
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.102:7306-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.75.136.102
+    port: 7306
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.116:8090-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.75.136.116
+    port: 8090
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.190:5003-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.68.134.190
+    port: 5003
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.68:7307-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.62.68
+    port: 7307
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.114.114.69:8091-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.114.114.69
+    port: 8091
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-194.124.76.241:809-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 194.124.76.241
+    port: 809
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.28:7306-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.63.28
+    port: 7306
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.135.239:3306-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.68.135.239
+    port: 3306
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.58:7307-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.75.136.58
+    port: 7307
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.121.43.71:2376-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.121.43.71
+    port: 2376
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.68:5003-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.62.68
+    port: 5003
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.21:3389-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.75.136.21
+    port: 3389
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.107:7307-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.63.107
+    port: 7307
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.68:8091-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.62.68
+    port: 8091
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.135.19:8090-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.68.135.19
+    port: 8090
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.191:5004-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.68.134.191
+    port: 5004
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "\U0001F1E8\U0001F1E6:加拿大-ss-72.140.224.197:806-被墙-直连-解锁加拿大地区NF非自制剧"
+    type: ss
+    server: 72.140.224.197
+    port: 806
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.82:2375-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.63.82
+    port: 2375
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.135.93:3389-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.68.135.93
+    port: 3389
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.191:8080-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.68.134.191
+    port: 8080
+    cipher: aes-256-gcm
+    password: KixLvKzwjekG00rm
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.58:3389-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.75.136.58
+    port: 3389
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.79:7307-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.63.79
+    port: 7307
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.89:8080-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.63.89
+    port: 8080
+    cipher: aes-256-gcm
+    password: KixLvKzwjekG00rm
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-162.251.61.221:805-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 162.251.61.221
+    port: 805
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "\U0001F1EF\U0001F1F5:日本-ss-185.172.113.156:809-被墙-中转:185.160.24.224-解锁日本地区NF非自制剧"
+    type: ss
+    server: 185.172.113.156
+    port: 809
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.28:8091-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.63.28
+    port: 8091
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.45:3389-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.75.136.45
+    port: 3389
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.108:2375-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.63.108
+    port: 2375
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.75.137.187:3306-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.75.137.187
+    port: 3306
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.74:5003-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.63.74
+    port: 5003
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.89:5004-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.63.89
+    port: 5004
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.37:2375-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.68.134.37
+    port: 2375
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.89:8090-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.63.89
+    port: 8090
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.102:2376-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.75.136.102
+    port: 2376
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "\U0001F1E9\U0001F1EA:德国-ss-18.185.63.41:809-被墙-直连-解锁德国地区NF非自制剧"
+    type: ss
+    server: 18.185.63.41
+    port: 809
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.135.19:2375-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.68.135.19
+    port: 2375
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.50:2375-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.63.50
+    port: 2375
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "\U0001F1EF\U0001F1F5:日本-ss-185.172.113.156:808-被墙-中转:185.160.24.224-解锁日本地区NF非自制剧"
+    type: ss
+    server: 185.172.113.156
+    port: 808
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.114.114.69:5003-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.114.114.69
+    port: 5003
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "\U0001F1EF\U0001F1F5:日本-ss-45.66.134.210:809-被墙-直连-解锁日本地区NF非自制剧"
+    type: ss
+    server: 45.66.134.210
+    port: 809
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.71:8090-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.63.71
+    port: 8090
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.114.114.67:8091-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.114.114.67
+    port: 8091
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.107:2376-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.63.107
+    port: 2376
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.71:5004-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.63.71
+    port: 5004
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.58:8090-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.75.136.58
+    port: 8090
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.93:8090-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.75.136.93
+    port: 8090
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.135.93:5003-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.68.135.93
+    port: 5003
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.79:3306-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.63.79
+    port: 3306
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.34:3389-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.62.34
+    port: 3389
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.62:8090-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.62.62
+    port: 8090
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.190:8090-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.68.134.190
+    port: 8090
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.69:2375-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.68.134.69
+    port: 2375
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.114.114.69:3306-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.114.114.69
+    port: 3306
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.135.19:5004-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.68.135.19
+    port: 5004
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "\U0001F1F9\U0001F1F7:土耳其-ss-185.17.113.234:804-被墙-直连-解锁土耳其地区NF非自制剧"
+    type: ss
+    server: 185.17.113.234
+    port: 804
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.93:2376-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.75.136.93
+    port: 2376
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.79:7306-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.63.79
+    port: 7306
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.85:443-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.68.134.85
+    port: 443
+    cipher: aes-256-gcm
+    password: pKEW8JPByTVTLtM
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.202:2376-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.68.134.202
+    port: 2376
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.23:2375-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.68.134.23
+    port: 2375
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.71:7307-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.63.71
+    port: 7307
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.75.137.187:7306-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.75.137.187
+    port: 7306
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.117:5003-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.75.136.117
+    port: 5003
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.135.19:3389-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.68.135.19
+    port: 3389
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "\U0001F1EF\U0001F1F5:日本-ss-185.172.113.156:810-被墙-中转:185.160.24.224-解锁日本地区NF非自制剧"
+    type: ss
+    server: 185.172.113.156
+    port: 810
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.23:5004-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.68.134.23
+    port: 5004
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.69:3389-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.68.134.69
+    port: 3389
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "\U0001F1E8\U0001F1E6:加拿大-ss-72.140.224.197:801-被墙-直连-解锁加拿大地区NF非自制剧"
+    type: ss
+    server: 72.140.224.197
+    port: 801
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.49:8090-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.75.136.49
+    port: 8090
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.61:5004-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.63.61
+    port: 5004
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.121.43.71:8091-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.121.43.71
+    port: 8091
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.75.137.187:5004-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.75.137.187
+    port: 5004
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.89:2376-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.63.89
+    port: 2376
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.119:2375-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.63.119
+    port: 2375
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.117:8090-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.75.136.117
+    port: 8090
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.135.93:443-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.68.135.93
+    port: 443
+    cipher: aes-256-gcm
+    password: pKEW8JPByTVTLtM
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.196:802-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.68.134.196
+    port: 802
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.135.93:7307-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.68.135.93
+    port: 7307
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.58:5004-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.75.136.58
+    port: 5004
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.191:2376-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.68.134.191
+    port: 2376
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.135.93:8091-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.68.135.93
+    port: 8091
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.28:7307-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.63.28
+    port: 7307
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.62:5004-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.62.62
+    port: 5004
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.135.239:7307-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.68.135.239
+    port: 7307
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.85:5003-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.68.134.85
+    port: 5003
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.34:443-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.62.34
+    port: 443
+    cipher: aes-256-gcm
+    password: pKEW8JPByTVTLtM
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.119:7307-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.63.119
+    port: 7307
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "\U0001F1EF\U0001F1F5:日本-ss-185.172.113.156:806-被墙-中转:185.160.24.224-解锁日本地区NF非自制剧"
+    type: ss
+    server: 185.172.113.156
+    port: 806
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.74:443-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.63.74
+    port: 443
+    cipher: aes-256-gcm
+    password: pKEW8JPByTVTLtM
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.114.114.67:7307-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.114.114.67
+    port: 7307
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.28:2376-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.63.28
+    port: 2376
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.34:8080-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.62.34
+    port: 8080
+    cipher: aes-256-gcm
+    password: KixLvKzwjekG00rm
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.116:8080-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.75.136.116
+    port: 8080
+    cipher: aes-256-gcm
+    password: KixLvKzwjekG00rm
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.190:7307-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.68.134.190
+    port: 7307
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.79:443-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.63.79
+    port: 443
+    cipher: aes-256-gcm
+    password: pKEW8JPByTVTLtM
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.82:2376-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.63.82
+    port: 2376
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.121.43.71:443-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.121.43.71
+    port: 443
+    cipher: aes-256-gcm
+    password: pKEW8JPByTVTLtM
   - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.190:3389-可用-直连-仅支持美国地区NF自制剧"
     type: ss
     server: 38.68.134.190
     port: 3389
     cipher: aes-256-gcm
     password: Y6R9pAtvxxzmGC
+  - name: "\U0001F1F8\U0001F1EC:新加坡-ss-217.197.161.244:800-可用-中转:81.90.188.38-不支持Netflix"
+    type: ss
+    server: 217.197.161.244
+    port: 800
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "\U0001F1F8\U0001F1EC:新加坡-ss-217.197.161.244:808-可用-中转:81.90.188.38-不支持Netflix"
+    type: ss
+    server: 217.197.161.244
+    port: 808
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "\U0001F1FA\U0001F1E6:乌克兰-ss-37.19.218.197:8388-可用-直连-仅支持乌克兰地区NF自制剧"
+    type: ss
+    server: 37.19.218.197
+    port: 8388
+    cipher: chacha20-ietf-poly1305
+    password: Mx6DztQqZb7j34FdWjER
+  - name: "\U0001F1E9\U0001F1EA:德国-ss-146.0.36.23:8080-可用-直连-仅支持德国地区NF自制剧"
+    type: ss
+    server: 146.0.36.23
+    port: 8080
+    cipher: aes-256-gcm
+    password: KixLvKzwjekG00rm
+  - name: "\U0001F1F2\U0001F1F9:马耳他-ss-185.89.238.36:989-可用-直连-仅支持马耳他地区NF自制剧"
+    type: ss
+    server: 185.89.238.36
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: "\U0001F1E9\U0001F1EA:德国-ss-146.0.36.23:7307-可用-直连-仅支持德国地区NF自制剧"
+    type: ss
+    server: 146.0.36.23
+    port: 7307
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "\U0001F1F8\U0001F1EC:新加坡-ss-217.197.161.244:802-可用-中转:81.90.188.38-仅支持新加坡地区NF自制剧"
+    type: ss
+    server: 217.197.161.244
+    port: 802
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "\U0001F1EF\U0001F1F5:日本-ss-84.17.34.8:8389-可用-直连-仅支持日本地区NF自制剧"
+    type: ss
+    server: 84.17.34.8
+    port: 8389
+    cipher: chacha20-ietf-poly1305
+    password: FuynHKjkzhBnmcLpaLKm
+  - name: "\U0001F1E8\U0001F1ED:瑞士-ss-169.38.107.52:8388-可用-直连-仅支持印度地区NF自制剧"
+    type: ss
+    server: 169.38.107.52
+    port: 8388
+    cipher: chacha20-ietf-poly1305
+    password: 7D4GYNDaFy4eebe47tvF
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.190:5003-可用-直连-仅支持美国地区NF自制剧"
+    type: ss
+    server: 38.68.134.190
+    port: 5003
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "\U0001F1E8\U0001F1E6:加拿大-ss-71.19.249.109:8389-可用-直连-仅支持加拿大地区NF自制剧"
+    type: ss
+    server: 71.19.249.109
+    port: 8389
+    cipher: chacha20-ietf-poly1305
+    password: QBLw4rLXQ6ebxpWwSKDL
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-118.107.244.112:7307-可用-中转:118.107.244.111-仅支持香港地区NF自制剧"
+    type: ss
+    server: 118.107.244.112
+    port: 7307
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "\U0001F1F8\U0001F1EA:瑞典-ss-45.83.91.66:8389-可用-直连-仅支持瑞典地区NF自制剧"
+    type: ss
+    server: 45.83.91.66
+    port: 8389
+    cipher: chacha20-ietf-poly1305
+    password: fAmKHf3Dft78ZyzL9kYF
+  - name: "\U0001F1E9\U0001F1EA:德国-ss-146.0.36.23:8090-可用-直连-仅支持德国地区NF自制剧"
+    type: ss
+    server: 146.0.36.23
+    port: 8090
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "\U0001F1F8\U0001F1EC:新加坡-ss-217.197.161.244:806-可用-中转:81.90.188.38-仅支持新加坡地区NF自制剧"
+    type: ss
+    server: 217.197.161.244
+    port: 806
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-59.125.11.158:8158-可用-中转:59.125.11.159-仅支持台湾地区NF自制剧"
+    type: ss
+    server: 59.125.11.158
+    port: 8158
+    cipher: rc4-md5
+    password: passinfo123
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.190:7307-可用-直连-仅支持美国地区NF自制剧"
+    type: ss
+    server: 38.68.134.190
+    port: 7307
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "\U0001F1F8\U0001F1EC:新加坡-ss-217.197.161.244:801-可用-中转:81.90.188.38-仅支持新加坡地区NF自制剧"
+    type: ss
+    server: 217.197.161.244
+    port: 801
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-101.91.121.247:50004-可用-直连-完全不支持NF"
+    type: ss
+    server: 101.91.121.247
+    port: 50004
+    cipher: aes-256-cfb
+    password: "4415934295"
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-70.39.71.2:8389-可用-直连-仅支持美国地区NF自制剧"
+    type: ss
+    server: 70.39.71.2
+    port: 8389
+    cipher: chacha20-ietf-poly1305
+    password: XkH8z99cQguQ8ywK5jhV
+  - name: "\U0001F1E8\U0001F1E6:加拿大-ss-184.75.208.234:8389-可用-直连-仅支持加拿大地区NF自制剧"
+    type: ss
+    server: 184.75.208.234
+    port: 8389
+    cipher: chacha20-ietf-poly1305
+    password: 47GH3wQRw7V4Zhd35bFs
 # 配置规则参考文档： https://github.com/Dreamacro/clash/wiki/configuration
 # 设置代理提供者(远程订阅地址+本地订阅文件)
 proxy-providers:
@@ -709,10 +1530,13 @@ proxy-groups:
     proxies:
       - DIY组
       - DIRECT
+      - "\U0001F1FA\U0001F1F8:美国-ss-70.39.71.2:8389-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.91.100.200:8080-可用-直连-仅支持美国地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.91.100.200:7306-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.91.100.130:7307-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.91.100.130:2376-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.91.100.130:2375-可用-直连-仅支持美国地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.86.135.27:5003-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.37:8080-可用-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.37:7307-可用-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.37:7306-可用-直连-解锁美国地区NF非自制剧"
@@ -721,10 +1545,15 @@ proxy-groups:
       - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.202:7307-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.202:7306-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.202:5003-可用-直连-仅支持美国地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.202:443-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.202:2375-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.190:8080-可用-直连-仅支持美国地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.190:7307-可用-直连-仅支持美国地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.190:5003-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.190:3389-可用-直连-仅支持美国地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.107.226.48:8090-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.107.226.48:5003-可用-直连-仅支持美国地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.107.226.48:3389-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.107.226.48:2376-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.107.226.48:2375-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.74:8091-可用-直连-仅支持美国地区NF自制剧"
@@ -732,6 +1561,7 @@ proxy-groups:
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.74:7306-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.74:3389-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.74:3306-可用-直连-仅支持美国地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.61:3389-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.61.130:8080-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-142.202.48.34:8091-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-142.202.48.34:8080-可用-直连-仅支持美国地区NF自制剧"
@@ -745,6 +1575,7 @@ proxy-groups:
       - "\U0001F1FA\U0001F1F8:美国-ss-142.202.48.108:2375-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:7307-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:5004-可用-直连-仅支持加拿大地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:5003-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:3306-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:2375-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.12:8091-可用-直连-仅支持加拿大地区NF自制剧"
@@ -753,17 +1584,27 @@ proxy-groups:
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.12:5004-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.12:2375-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1E6:乌克兰-ss-37.19.218.197:8389-可用-直连-仅支持乌克兰地区NF自制剧"
+      - "\U0001F1FA\U0001F1E6:乌克兰-ss-37.19.218.197:8388-可用-直连-仅支持乌克兰地区NF自制剧"
       - "\U0001F1F8\U0001F1EC:新加坡-ss-81.90.189.18:812-可用-直连-仅支持新加坡地区NF自制剧"
       - "\U0001F1F8\U0001F1EC:新加坡-ss-81.90.189.18:805-可用-直连-仅支持新加坡地区NF自制剧"
       - "\U0001F1F8\U0001F1EC:新加坡-ss-81.90.189.18:802-可用-直连-仅支持新加坡地区NF自制剧"
+      - "\U0001F1F8\U0001F1EC:新加坡-ss-81.90.189.18:801-可用-直连-仅支持新加坡地区NF自制剧"
       - "\U0001F1F8\U0001F1EC:新加坡-ss-81.90.189.18:800-可用-直连-仅支持新加坡地区NF自制剧"
       - "\U0001F1F8\U0001F1EC:新加坡-ss-217.197.161.244:808-可用-中转:81.90.188.38-仅支持新加坡地区NF自制剧"
+      - "\U0001F1F8\U0001F1EC:新加坡-ss-217.197.161.244:808-可用-中转:81.90.188.38-不支持Netflix"
+      - "\U0001F1F8\U0001F1EC:新加坡-ss-217.197.161.244:806-可用-中转:81.90.188.38-仅支持新加坡地区NF自制剧"
       - "\U0001F1F8\U0001F1EC:新加坡-ss-217.197.161.244:805-可用-中转:81.90.188.38-仅支持新加坡地区NF自制剧"
+      - "\U0001F1F8\U0001F1EC:新加坡-ss-217.197.161.244:802-可用-中转:81.90.188.38-仅支持新加坡地区NF自制剧"
+      - "\U0001F1F8\U0001F1EC:新加坡-ss-217.197.161.244:801-可用-中转:81.90.188.38-仅支持新加坡地区NF自制剧"
+      - "\U0001F1F8\U0001F1EC:新加坡-ss-217.197.161.244:800-可用-中转:81.90.188.38-不支持Netflix"
       - "\U0001F1F8\U0001F1EC:新加坡-ss-172.107.233.234:8090-可用-直连-仅支持西班牙地区NF自制剧"
       - "\U0001F1F8\U0001F1EC:新加坡-ss-172.107.233.234:7306-可用-直连-仅支持西班牙地区NF自制剧"
       - "\U0001F1F8\U0001F1EC:新加坡-ss-172.107.233.234:2376-可用-直连-仅支持西班牙地区NF自制剧"
+      - "\U0001F1F8\U0001F1EC:新加坡-ss-172.107.233.234:2375-可用-直连-仅支持西班牙地区NF自制剧"
+      - "\U0001F1F8\U0001F1EA:瑞典-ss-45.83.91.66:8389-可用-直连-仅支持瑞典地区NF自制剧"
       - "\U0001F1F8\U0001F1EA:瑞典-ss-188.126.89.174:8389-可用-直连-仅支持芬兰地区NF自制剧"
       - "\U0001F1F7\U0001F1FA:俄罗斯-ss-5.188.108.155:890-可用-直连-仅支持波兰地区NF自制剧"
+      - "\U0001F1F7\U0001F1FA:俄罗斯-ss-5.188.108.155:889-可用-直连-仅支持波兰地区NF自制剧"
       - "\U0001F1F3\U0001F1F4:挪威-ss-46.29.219.246:7307-可用-直连-解锁挪威地区NF非自制剧"
       - "\U0001F1F3\U0001F1F4:挪威-ss-46.29.218.6:8090-可用-直连-仅支持挪威地区NF自制剧"
       - "\U0001F1F3\U0001F1F4:挪威-ss-46.29.218.6:8008-可用-直连-仅支持挪威地区NF自制剧"
@@ -771,7 +1612,10 @@ proxy-groups:
       - "\U0001F1F3\U0001F1F4:挪威-ss-46.29.218.6:443-可用-直连-仅支持挪威地区NF自制剧"
       - "\U0001F1F3\U0001F1F4:挪威-ss-46.29.218.6:2375-可用-直连-仅支持挪威地区NF自制剧"
       - "\U0001F1F2\U0001F1FD:墨西哥-ss-169.57.35.97:8389-可用-直连-仅支持墨西哥地区NF自制剧"
+      - "\U0001F1F2\U0001F1F9:马耳他-ss-185.89.238.36:989-可用-直连-仅支持马耳他地区NF自制剧"
+      - "\U0001F1F1\U0001F1FA:卢森堡-ss-213.167.242.16:443-可用-直连-仅支持卢森堡地区NF自制剧"
       - "\U0001F1F0\U0001F1F7:韩国-ss-141.164.35.41:5004-可用-直连-完全不支持NF"
+      - "\U0001F1EF\U0001F1F5:日本-ss-84.17.34.8:8389-可用-直连-仅支持日本地区NF自制剧"
       - "\U0001F1EC\U0001F1E7:英国-ss-77.243.177.78:8389-可用-直连-仅支持英国地区NF自制剧"
       - "\U0001F1EC\U0001F1E7:英国-ss-145.239.7.164:7307-可用-直连-完全不支持NF"
       - "\U0001F1EC\U0001F1E7:英国-ss-145.239.7.164:443-可用-直连-完全不支持NF"
@@ -785,6 +1629,9 @@ proxy-groups:
       - "\U0001F1E9\U0001F1EA:德国-ss-172.105.251.193:8080-可用-直连-仅支持德国地区NF自制剧"
       - "\U0001F1E9\U0001F1EA:德国-ss-172.105.251.193:7306-可用-直连-仅支持德国地区NF自制剧"
       - "\U0001F1E9\U0001F1EA:德国-ss-172.105.251.193:5003-可用-直连-仅支持德国地区NF自制剧"
+      - "\U0001F1E9\U0001F1EA:德国-ss-146.0.36.23:8090-可用-直连-仅支持德国地区NF自制剧"
+      - "\U0001F1E9\U0001F1EA:德国-ss-146.0.36.23:8080-可用-直连-仅支持德国地区NF自制剧"
+      - "\U0001F1E9\U0001F1EA:德国-ss-146.0.36.23:7307-可用-直连-仅支持德国地区NF自制剧"
       - "\U0001F1E9\U0001F1EA:德国-ss-146.0.36.23:3389-可用-直连-仅支持德国地区NF自制剧"
       - "\U0001F1E9\U0001F1EA:德国-ss-146.0.36.23:2375-可用-直连-仅支持德国地区NF自制剧"
       - "\U0001F1E9\U0001F1EA:德国-ss-145.239.1.137:8091-可用-中转:51.38.122.98-完全不支持NF"
@@ -798,6 +1645,13 @@ proxy-groups:
       - "\U0001F1E9\U0001F1EA:德国-ss-141.95.0.23:805-可用-直连-完全不支持NF"
       - "\U0001F1E9\U0001F1EA:德国-ss-141.95.0.23:801-可用-直连-完全不支持NF"
       - "\U0001F1E9\U0001F1EA:德国-ss-141.95.0.23:800-可用-直连-完全不支持NF"
+      - "\U0001F1E8\U0001F1F3:中国-ss-84.17.37.55:8389-可用-直连-仅支持香港地区NF自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-ss-59.125.11.158:8158-可用-中转:59.125.11.159-仅支持台湾地区NF自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-ss-118.107.244.112:7307-可用-中转:118.107.244.111-仅支持香港地区NF自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-ss-118.107.244.112:3306-可用-中转:118.107.244.111-仅支持香港地区NF自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-ss-101.91.121.247:50004-可用-直连-完全不支持NF"
+      - "\U0001F1E8\U0001F1ED:瑞士-ss-169.38.107.52:8388-可用-直连-仅支持印度地区NF自制剧"
+      - "\U0001F1E8\U0001F1E6:加拿大-ss-71.19.249.109:8389-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1E8\U0001F1E6:加拿大-ss-198.57.27.218:8091-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1E8\U0001F1E6:加拿大-ss-198.57.27.218:5003-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1E8\U0001F1E6:加拿大-ss-198.57.27.218:443-可用-直连-仅支持加拿大地区NF自制剧"
@@ -808,8 +1662,10 @@ proxy-groups:
       - "\U0001F1E8\U0001F1E6:加拿大-ss-198.57.27.184:5003-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1E8\U0001F1E6:加拿大-ss-198.57.27.184:443-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1E8\U0001F1E6:加拿大-ss-198.57.27.184:2376-可用-直连-仅支持加拿大地区NF自制剧"
+      - "\U0001F1E8\U0001F1E6:加拿大-ss-198.57.27.152:8091-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1E8\U0001F1E6:加拿大-ss-198.57.27.152:5003-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1E8\U0001F1E6:加拿大-ss-198.57.27.152:443-可用-直连-仅支持加拿大地区NF自制剧"
+      - "\U0001F1E8\U0001F1E6:加拿大-ss-184.75.208.234:8389-可用-直连-仅支持加拿大地区NF自制剧"
   - name: 被墙代理组
     type: select
     use: # 引入 proxy-provider 使用 use 关键字
@@ -818,6 +1674,106 @@ proxy-groups:
     interval: 300
     proxies:
       - DIRECT
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.75.137.187:7306-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.75.137.187:5004-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.75.137.187:3306-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.93:8090-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.93:2376-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.58:8090-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.58:7307-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.58:5004-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.58:3389-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.49:8090-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.45:3389-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.21:3389-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.117:8090-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.117:5003-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.116:8090-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.116:8080-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.102:7306-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.102:2376-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.135.93:8091-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.135.93:7307-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.135.93:5003-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.135.93:443-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.135.93:3389-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.135.239:7307-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.135.239:3306-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.135.19:8090-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.135.19:5004-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.135.19:3389-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.135.19:2375-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.85:5003-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.85:443-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.69:3389-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.69:2375-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.37:2375-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.23:5004-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.23:2375-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.202:2376-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.196:802-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.191:8080-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.191:5004-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.191:2376-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.190:8090-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.190:7307-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.190:5003-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.121.43.71:8091-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.121.43.71:443-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.121.43.71:3306-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.121.43.71:2376-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.114.114.69:8091-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.114.114.69:5003-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.114.114.69:3306-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.114.114.67:8091-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.114.114.67:7307-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-194.124.76.241:809-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.89:8090-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.89:8080-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.89:5004-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.89:2376-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.82:2376-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.82:2375-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.79:7307-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.79:7306-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.79:443-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.79:3306-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.74:5003-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.74:443-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.71:8090-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.71:7307-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.71:5004-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.61:5004-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.50:2375-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.28:8091-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.28:7307-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.28:7306-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.28:2376-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.19:7306-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.119:7307-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.119:2375-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.108:2375-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.107:7307-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.107:2376-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.68:8091-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.68:7307-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.68:5003-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.62:8090-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.62:5004-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.34:8080-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.34:443-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.34:3389-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-162.251.61.221:805-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1F9\U0001F1F7:土耳其-ss-185.17.113.234:809-被墙-直连-解锁土耳其地区NF非自制剧"
+      - "\U0001F1F9\U0001F1F7:土耳其-ss-185.17.113.234:804-被墙-直连-解锁土耳其地区NF非自制剧"
+      - "\U0001F1EF\U0001F1F5:日本-ss-45.66.134.210:809-被墙-直连-解锁日本地区NF非自制剧"
+      - "\U0001F1EF\U0001F1F5:日本-ss-185.172.113.156:810-被墙-中转:185.160.24.224-解锁日本地区NF非自制剧"
+      - "\U0001F1EF\U0001F1F5:日本-ss-185.172.113.156:809-被墙-中转:185.160.24.224-解锁日本地区NF非自制剧"
+      - "\U0001F1EF\U0001F1F5:日本-ss-185.172.113.156:808-被墙-中转:185.160.24.224-解锁日本地区NF非自制剧"
+      - "\U0001F1EF\U0001F1F5:日本-ss-185.172.113.156:806-被墙-中转:185.160.24.224-解锁日本地区NF非自制剧"
+      - "\U0001F1E9\U0001F1EA:德国-ss-18.185.63.41:809-被墙-直连-解锁德国地区NF非自制剧"
+      - "\U0001F1E8\U0001F1E6:加拿大-ss-72.140.224.197:806-被墙-直连-解锁加拿大地区NF非自制剧"
+      - "\U0001F1E8\U0001F1E6:加拿大-ss-72.140.224.197:801-被墙-直连-解锁加拿大地区NF非自制剧"
   - name: RELAY_PROXY
     # 中继代理组,不支持UDP协议。线路: clash <-> vmess <-> ss1 <-> ss2 <-> Internet
     type: relay
@@ -833,16 +1789,22 @@ proxy-groups:
     proxies:
       - DIRECT
       - "\U0001F1FA\U0001F1F8:美国-ss-38.91.100.200:8080-可用-直连-仅支持美国地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.91.100.200:7306-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.91.100.130:7307-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.91.100.130:2376-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.91.100.130:2375-可用-直连-仅支持美国地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.86.135.27:5003-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.202:7307-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.202:7306-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.202:5003-可用-直连-仅支持美国地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.202:443-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.202:2375-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.190:8080-可用-直连-仅支持美国地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.190:5003-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.190:3389-可用-直连-仅支持美国地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.107.226.48:8090-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.107.226.48:5003-可用-直连-仅支持美国地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.107.226.48:3389-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.107.226.48:2376-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.107.226.48:2375-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.74:8091-可用-直连-仅支持美国地区NF自制剧"
@@ -850,6 +1812,7 @@ proxy-groups:
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.74:7306-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.74:3389-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.74:3306-可用-直连-仅支持美国地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.61:3389-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.61.130:8080-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-142.202.48.34:8091-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-142.202.48.34:8080-可用-直连-仅支持美国地区NF自制剧"
@@ -863,6 +1826,7 @@ proxy-groups:
       - "\U0001F1FA\U0001F1F8:美国-ss-142.202.48.108:2375-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:7307-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:5004-可用-直连-仅支持加拿大地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:5003-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:3306-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:2375-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.12:8091-可用-直连-仅支持加拿大地区NF自制剧"
@@ -871,23 +1835,31 @@ proxy-groups:
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.12:5004-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.12:2375-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1E6:乌克兰-ss-37.19.218.197:8389-可用-直连-仅支持乌克兰地区NF自制剧"
+      - "\U0001F1FA\U0001F1E6:乌克兰-ss-37.19.218.197:8388-可用-直连-仅支持乌克兰地区NF自制剧"
       - "\U0001F1F8\U0001F1EC:新加坡-ss-81.90.189.18:812-可用-直连-仅支持新加坡地区NF自制剧"
       - "\U0001F1F8\U0001F1EC:新加坡-ss-81.90.189.18:805-可用-直连-仅支持新加坡地区NF自制剧"
       - "\U0001F1F8\U0001F1EC:新加坡-ss-81.90.189.18:802-可用-直连-仅支持新加坡地区NF自制剧"
+      - "\U0001F1F8\U0001F1EC:新加坡-ss-81.90.189.18:801-可用-直连-仅支持新加坡地区NF自制剧"
       - "\U0001F1F8\U0001F1EC:新加坡-ss-81.90.189.18:800-可用-直连-仅支持新加坡地区NF自制剧"
       - "\U0001F1F8\U0001F1EC:新加坡-ss-217.197.161.244:808-可用-中转:81.90.188.38-仅支持新加坡地区NF自制剧"
       - "\U0001F1F8\U0001F1EC:新加坡-ss-217.197.161.244:805-可用-中转:81.90.188.38-仅支持新加坡地区NF自制剧"
+      - "\U0001F1F8\U0001F1EC:新加坡-ss-217.197.161.244:802-可用-中转:81.90.188.38-仅支持新加坡地区NF自制剧"
       - "\U0001F1F8\U0001F1EC:新加坡-ss-172.107.233.234:8090-可用-直连-仅支持西班牙地区NF自制剧"
       - "\U0001F1F8\U0001F1EC:新加坡-ss-172.107.233.234:7306-可用-直连-仅支持西班牙地区NF自制剧"
       - "\U0001F1F8\U0001F1EC:新加坡-ss-172.107.233.234:2376-可用-直连-仅支持西班牙地区NF自制剧"
+      - "\U0001F1F8\U0001F1EC:新加坡-ss-172.107.233.234:2375-可用-直连-仅支持西班牙地区NF自制剧"
       - "\U0001F1F8\U0001F1EA:瑞典-ss-188.126.89.174:8389-可用-直连-仅支持芬兰地区NF自制剧"
       - "\U0001F1F7\U0001F1FA:俄罗斯-ss-5.188.108.155:890-可用-直连-仅支持波兰地区NF自制剧"
+      - "\U0001F1F7\U0001F1FA:俄罗斯-ss-5.188.108.155:889-可用-直连-仅支持波兰地区NF自制剧"
       - "\U0001F1F3\U0001F1F4:挪威-ss-46.29.218.6:8090-可用-直连-仅支持挪威地区NF自制剧"
       - "\U0001F1F3\U0001F1F4:挪威-ss-46.29.218.6:8008-可用-直连-仅支持挪威地区NF自制剧"
       - "\U0001F1F3\U0001F1F4:挪威-ss-46.29.218.6:7306-可用-直连-仅支持挪威地区NF自制剧"
       - "\U0001F1F3\U0001F1F4:挪威-ss-46.29.218.6:443-可用-直连-仅支持挪威地区NF自制剧"
       - "\U0001F1F3\U0001F1F4:挪威-ss-46.29.218.6:2375-可用-直连-仅支持挪威地区NF自制剧"
       - "\U0001F1F2\U0001F1FD:墨西哥-ss-169.57.35.97:8389-可用-直连-仅支持墨西哥地区NF自制剧"
+      - "\U0001F1F2\U0001F1F9:马耳他-ss-185.89.238.36:989-可用-直连-仅支持马耳他地区NF自制剧"
+      - "\U0001F1F1\U0001F1FA:卢森堡-ss-213.167.242.16:443-可用-直连-仅支持卢森堡地区NF自制剧"
+      - "\U0001F1EF\U0001F1F5:日本-ss-84.17.34.8:8389-可用-直连-仅支持日本地区NF自制剧"
       - "\U0001F1EC\U0001F1E7:英国-ss-77.243.177.78:8389-可用-直连-仅支持英国地区NF自制剧"
       - "\U0001F1E9\U0001F1EA:德国-ss-93.186.201.124:812-可用-直连-仅支持德国地区NF自制剧"
       - "\U0001F1E9\U0001F1EA:德国-ss-193.108.118.2:7306-可用-直连-仅支持德国地区NF自制剧"
@@ -896,8 +1868,13 @@ proxy-groups:
       - "\U0001F1E9\U0001F1EA:德国-ss-172.105.251.193:8080-可用-直连-仅支持德国地区NF自制剧"
       - "\U0001F1E9\U0001F1EA:德国-ss-172.105.251.193:7306-可用-直连-仅支持德国地区NF自制剧"
       - "\U0001F1E9\U0001F1EA:德国-ss-172.105.251.193:5003-可用-直连-仅支持德国地区NF自制剧"
+      - "\U0001F1E9\U0001F1EA:德国-ss-146.0.36.23:8080-可用-直连-仅支持德国地区NF自制剧"
+      - "\U0001F1E9\U0001F1EA:德国-ss-146.0.36.23:7307-可用-直连-仅支持德国地区NF自制剧"
       - "\U0001F1E9\U0001F1EA:德国-ss-146.0.36.23:3389-可用-直连-仅支持德国地区NF自制剧"
       - "\U0001F1E9\U0001F1EA:德国-ss-146.0.36.23:2375-可用-直连-仅支持德国地区NF自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-ss-84.17.37.55:8389-可用-直连-仅支持香港地区NF自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-ss-118.107.244.112:3306-可用-中转:118.107.244.111-仅支持香港地区NF自制剧"
+      - "\U0001F1E8\U0001F1ED:瑞士-ss-169.38.107.52:8388-可用-直连-仅支持印度地区NF自制剧"
       - "\U0001F1E8\U0001F1E6:加拿大-ss-198.57.27.218:8091-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1E8\U0001F1E6:加拿大-ss-198.57.27.218:5003-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1E8\U0001F1E6:加拿大-ss-198.57.27.218:443-可用-直连-仅支持加拿大地区NF自制剧"
@@ -908,6 +1885,7 @@ proxy-groups:
       - "\U0001F1E8\U0001F1E6:加拿大-ss-198.57.27.184:5003-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1E8\U0001F1E6:加拿大-ss-198.57.27.184:443-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1E8\U0001F1E6:加拿大-ss-198.57.27.184:2376-可用-直连-仅支持加拿大地区NF自制剧"
+      - "\U0001F1E8\U0001F1E6:加拿大-ss-198.57.27.152:8091-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1E8\U0001F1E6:加拿大-ss-198.57.27.152:5003-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1E8\U0001F1E6:加拿大-ss-198.57.27.152:443-可用-直连-仅支持加拿大地区NF自制剧"
   - name: 解锁Netflix非自制剧
