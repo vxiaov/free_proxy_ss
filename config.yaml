@@ -14,16 +14,12 @@ dns:
   ipv6: false
   listen: 0.0.0.0:1053
   default-nameserver:
-    - 114.114.114.114
-    - 8.8.8.8
+    - https://doh.pub/dns-query
   enhanced-mode: redir-host # redir-host or fake-ip
   fake-ip-range: 198.18.0.1/16 # Fake IP addresses pool CIDR
   use-hosts: false # lookup hosts and return IP record
   nameserver:
-    - 114.114.114.114 # default value
-    - 8.8.8.8 # default value
-    - https://1.1.1.1/dns-query # DNS over HTTPS
-    - tls://dns.rubyfish.cn:853 # DNS over TLS
+    - https://doh.pub/dns-query # default value
   # 提供 fallback 时，如果GEOIP非 CN 中国时使用 fallback 解析
   fallback:
     - tls://1.1.1.1:853 # cloudflare DNS over TLS
