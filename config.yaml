@@ -14,32 +14,30 @@ dns:
   ipv6: false
   listen: 0.0.0.0:1053
   default-nameserver:
-    - https://doh.pub/dns-query
+    - 114.114.114.114
+    - 8.8.8.8
   enhanced-mode: redir-host # redir-host or fake-ip
   fake-ip-range: 198.18.0.1/16 # Fake IP addresses pool CIDR
   use-hosts: false # lookup hosts and return IP record
   nameserver:
-    - https://doh.pub/dns-query # default value
+    - 114.114.114.114 # default value
+    - 8.8.8.8 # default value
+    - tls://dns.rubyfish.cn:853 # DNS over TLS
+    - https://1.1.1.1/dns-query # DNS over HTTPS
+    - dhcp://en0 # dns from dhcp
   # 提供 fallback 时，如果GEOIP非 CN 中国时使用 fallback 解析
   fallback:
-    - tls://1.1.1.1:853 # cloudflare DNS over TLS
-    - https://cloudflare-dns.com/dns-query # cloudflare DNS over HTTPS
     - https://dns.google/dns-query # Google DNS over HTTPS
+    - https://cloudflare-dns.com/dns-query # cloudflare DNS over HTTPS
     - tls://8.8.8.8:853 # Google DNS over TLS
+    - tls://1.1.1.1:853 # cloudflare DNS over TLS
   # 强制DNS解析使用`fallback`配置
   fallback-filter:
     # true: CN使用nameserver解析，非CN使用fallback
     geoip: true
-    geoip-code: CN
     # geoip设置为false时有效： 不匹配`ipcidr`地址时会使用`nameserver`结果，匹配`ipcidr`地址时使用`fallback`结果。
     ipcidr:
       - 240.0.0.0/4
-    domain:
-      - +.google.com
-      - +.facebook.com
-      - +.youtube.com
-      - +.twitter.com
-      - +.github.com
 # DIY组保留的个人节点
 proxies:
   - name: "\U0001F1E8\U0001F1E6:加拿大-ss-198.57.27.218:3389-可用-直连-仅支持加拿大地区NF自制剧"
@@ -701,8 +699,6 @@ proxy-groups:
       - provider_diy # 个人自定义的代理文件
     url: http://www.gstatic.com/generate_204
     interval: 300
-    proxies:
-      - DIRECT
   - name: PROXY
     type: select # load-balance, select, relay, fallback, url-test
     use: # 引入 proxy-provider 使用 use 关键字
