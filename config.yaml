@@ -6,17 +6,6 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 secret: route
-# Outbound interface name
-interface-name: en0
-# When set to false, resolver won't translate hostnames to IPv6 addresses
-ipv6: false
-profile:
-  # Store the `select` results in $HOME/.config/clash/.cache
-  # set false If you don't want this behavior
-  # when two different configurations have groups with the same name, the selected values are shared
-  store-selected: true
-  # persistence fakeip
-  store-fake-ip: false
 hosts:
   router.asus.com: 192.168.50.1
 # 透明代理开启DNS
@@ -28,22 +17,19 @@ dns:
   fake-ip-range: 198.18.0.1/16 # Fake IP addresses pool CIDR
   use-hosts: false # lookup hosts and return IP record
   nameserver:
-    - 119.29.29.29 # DNSpod 国内服务器
-    - 223.5.5.5 # 阿里云DNS服务器
-    - dhcp://en0 # DHCP获取的DNS服务器
-  # 提供 fallback 时，如果GEOIP非 CN 中国时使用 fallback 解析
-  fallback:
     - https://dns.google/dns-query # Google DNS over HTTPS
     - https://cloudflare-dns.com/dns-query # cloudflare DNS over HTTPS
+  # 提供 fallback 时，如果GEOIP非 CN 中国时使用 fallback 解析
+  fallback:
     - tls://8.8.8.8:853 # Google DNS over TLS
     - tls://1.1.1.1:853 # cloudflare DNS over TLS
-  # 强制DNS解析使用`fallback`配置
-  fallback-filter:
-    # true: CN使用nameserver解析，非CN使用fallback
-    geoip: true
-    # geoip设置为false时有效： 不匹配`ipcidr`地址时会使用`nameserver`结果，匹配`ipcidr`地址时使用`fallback`结果。
-    ipcidr:
-      - 240.0.0.0/4
+    # 强制DNS解析使用`fallback`配置
+    # fallback-filter:
+    #   # true: CN使用nameserver解析，非CN使用fallback
+    #   geoip: true
+    #   # geoip设置为false时有效： 不匹配`ipcidr`地址时会使用`nameserver`结果，匹配`ipcidr`地址时使用`fallback`结果。
+    #   ipcidr:
+    #     - 240.0.0.0/4
 # DIY组保留的个人节点
 proxies:
   - name: "\U0001F1E8\U0001F1E6:加拿大-ss-198.57.27.218:3389-可用-直连-仅支持加拿大地区NF自制剧"
@@ -874,12 +860,6 @@ proxies:
     port: 3389
     cipher: aes-256-gcm
     password: Y6R9pAtvxxzmGC
-  - name: :unknown-ss-gzcm.rokishi.cyou:10002-被墙-中转:218.190.242.108-解锁香港地区NF非自制剧
-    type: ss
-    server: gzcm.rokishi.cyou
-    port: 10002
-    cipher: chacha20-ietf-poly1305
-    password: d360a89a-3618-4573-91c9-3c3d7cd5df68
   - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.191:8080-被墙-直连-解锁美国地区NF非自制剧"
     type: ss
     server: 38.68.134.191
@@ -898,12 +878,6 @@ proxies:
     port: 7307
     cipher: aes-256-gcm
     password: FoOiGlkAA9yPEGP
-  - name: :unknown-ss-jmcm.rokishi.cyou:10059-被墙-中转:152.70.36.95-解锁韩国地区NF非自制剧
-    type: ss
-    server: jmcm.rokishi.cyou
-    port: 10059
-    cipher: chacha20-ietf-poly1305
-    password: d360a89a-3618-4573-91c9-3c3d7cd5df68
   - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.89:8080-被墙-直连-解锁美国地区NF非自制剧"
     type: ss
     server: 167.88.63.89
@@ -934,12 +908,6 @@ proxies:
     port: 3389
     cipher: aes-256-gcm
     password: Y6R9pAtvxxzmGC
-  - name: :unknown-ss-hzcm.rokishi.cyou:20007-被墙-中转:36.231.109.206-解锁台湾地区NF非自制剧
-    type: ss
-    server: hzcm.rokishi.cyou
-    port: 20007
-    cipher: chacha20-ietf-poly1305
-    password: d360a89a-3618-4573-91c9-3c3d7cd5df68
   - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.108:2375-被墙-直连-解锁美国地区NF非自制剧"
     type: ss
     server: 167.88.63.108
@@ -1126,12 +1094,6 @@ proxies:
     port: 7306
     cipher: aes-256-gcm
     password: FoOiGlkAA9yPEGP
-  - name: :unknown-ss-gz.cm.data2china.com:30046-被墙-中转:218.190.242.108-解锁香港地区NF非自制剧
-    type: ss
-    server: gz.cm.data2china.com
-    port: 30046
-    cipher: chacha20-ietf-poly1305
-    password: d360a89a-3618-4573-91c9-3c3d7cd5df68
   - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.85:443-被墙-直连-解锁美国地区NF非自制剧"
     type: ss
     server: 38.68.134.85
@@ -1216,12 +1178,6 @@ proxies:
     port: 5004
     cipher: aes-256-gcm
     password: g5MeD6Ft3CWlJId
-  - name: :unknown-ss-jmcm.rokishi.cyou:10012-被墙-中转:218.190.242.108-解锁香港地区NF非自制剧
-    type: ss
-    server: jmcm.rokishi.cyou
-    port: 10012
-    cipher: chacha20-ietf-poly1305
-    password: d360a89a-3618-4573-91c9-3c3d7cd5df68
   - name: "\U0001F1FA\U0001F1F8:美国-ss-38.121.43.71:8091-被墙-直连-解锁美国地区NF非自制剧"
     type: ss
     server: 38.121.43.71
@@ -1330,6 +1286,36 @@ proxies:
     port: 7307
     cipher: aes-256-gcm
     password: FoOiGlkAA9yPEGP
+  - name: "\U0001F1EF\U0001F1F5:日本-ss-185.172.113.156:806-被墙-中转:185.160.24.224-解锁日本地区NF非自制剧"
+    type: ss
+    server: 185.172.113.156
+    port: 806
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.74:443-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.63.74
+    port: 443
+    cipher: aes-256-gcm
+    password: pKEW8JPByTVTLtM
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.114.114.67:7307-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.114.114.67
+    port: 7307
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.28:2376-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.63.28
+    port: 2376
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.34:8080-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.62.34
+    port: 8080
+    cipher: aes-256-gcm
+    password: KixLvKzwjekG00rm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.190:3389-可用-直连-仅支持美国地区NF自制剧"
     type: ss
     server: 38.68.134.190
@@ -1718,6 +1704,7 @@ proxy-groups:
       - "\U0001F1FA\U0001F1F8:美国-ss-38.114.114.69:5003-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.114.114.69:3306-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.114.114.67:8091-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.114.114.67:7307-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-194.124.76.241:809-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.89:8090-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.89:8080-被墙-直连-解锁美国地区NF非自制剧"
@@ -1728,6 +1715,7 @@ proxy-groups:
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.79:7306-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.79:3306-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.74:5003-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.74:443-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.71:8090-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.71:7307-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.71:5004-被墙-直连-解锁美国地区NF非自制剧"
@@ -1736,6 +1724,7 @@ proxy-groups:
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.28:8091-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.28:7307-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.28:7306-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.28:2376-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.19:7306-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.119:7307-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.119:2375-被墙-直连-解锁美国地区NF非自制剧"
@@ -1747,6 +1736,7 @@ proxy-groups:
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.68:5003-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.62:8090-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.62:5004-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.34:8080-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.34:443-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.34:3389-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-162.251.61.221:805-被墙-直连-解锁美国地区NF非自制剧"
@@ -1756,19 +1746,15 @@ proxy-groups:
       - "\U0001F1EF\U0001F1F5:日本-ss-185.172.113.156:810-被墙-中转:185.160.24.224-解锁日本地区NF非自制剧"
       - "\U0001F1EF\U0001F1F5:日本-ss-185.172.113.156:809-被墙-中转:185.160.24.224-解锁日本地区NF非自制剧"
       - "\U0001F1EF\U0001F1F5:日本-ss-185.172.113.156:808-被墙-中转:185.160.24.224-解锁日本地区NF非自制剧"
+      - "\U0001F1EF\U0001F1F5:日本-ss-185.172.113.156:806-被墙-中转:185.160.24.224-解锁日本地区NF非自制剧"
       - "\U0001F1E9\U0001F1EA:德国-ss-18.185.63.41:809-被墙-直连-解锁德国地区NF非自制剧"
       - "\U0001F1E8\U0001F1E6:加拿大-ss-72.140.224.197:806-被墙-直连-解锁加拿大地区NF非自制剧"
       - "\U0001F1E8\U0001F1E6:加拿大-ss-72.140.224.197:801-被墙-直连-解锁加拿大地区NF非自制剧"
       - :unknown-ss-jmcm.rokishi.cyou:10089-被墙-中转:8.20.127.185-解锁德国地区NF非自制剧
       - :unknown-ss-jmcm.rokishi.cyou:10060-被墙-中转:152.70.36.95-解锁韩国地区NF非自制剧
-      - :unknown-ss-jmcm.rokishi.cyou:10059-被墙-中转:152.70.36.95-解锁韩国地区NF非自制剧
-      - :unknown-ss-jmcm.rokishi.cyou:10012-被墙-中转:218.190.242.108-解锁香港地区NF非自制剧
-      - :unknown-ss-hzcm.rokishi.cyou:20007-被墙-中转:36.231.109.206-解锁台湾地区NF非自制剧
       - :unknown-ss-hzcm.rokishi.cyou:20004-被墙-中转:152.70.36.95-解锁韩国地区NF非自制剧
       - :unknown-ss-gzcm.rokishi.cyou:20015-被墙-中转:8.20.127.185-解锁德国地区NF非自制剧
       - :unknown-ss-gzcm.rokishi.cyou:20004-被墙-中转:152.70.36.95-解锁韩国地区NF非自制剧
-      - :unknown-ss-gzcm.rokishi.cyou:10002-被墙-中转:218.190.242.108-解锁香港地区NF非自制剧
-      - :unknown-ss-gz.cm.data2china.com:30046-被墙-中转:218.190.242.108-解锁香港地区NF非自制剧
   - name: RELAY_PROXY
     # 中继代理组,不支持UDP协议。线路: clash <-> vmess <-> ss1 <-> ss2 <-> Internet
     type: relay
@@ -2058,4 +2044,4 @@ rules:
   - RULE-SET,greatfire,PROXY
   - RULE-SET,telegramcidr,PROXY
   - GEOIP,CN,DIRECT,no-resolve
-  - MATCH,DIRECT
+  - MATCH,PROXY
