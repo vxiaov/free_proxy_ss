@@ -95,12 +95,6 @@ proxies:
     password: 2V7N5kGUghaLxF4aUqTw
     port: 8389
     cipher: chacha20-ietf-poly1305
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.93:8080-可用-直连-仅支持美国地区NF自制剧"
-    type: ss
-    server: 38.75.136.93
-    password: KixLvKzwjekG00rm
-    port: 8080
-    cipher: aes-256-gcm
   - name: "\U0001F1F8\U0001F1EA:瑞典-ss-45.83.91.66:8389-可用-直连-仅支持瑞典地区NF自制剧"
     type: ss
     server: 45.83.91.66
@@ -257,12 +251,6 @@ proxies:
     password: PCnnH6SQSnfoS27
     port: 8090
     cipher: aes-256-gcm
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.202:2376-被墙-直连-解锁美国地区NF非自制剧"
-    type: ss
-    server: 38.68.134.202
-    password: faBAoD54k87UJG7
-    port: 2376
-    cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.69:3389-被墙-直连-解锁美国地区NF非自制剧"
     type: ss
     server: 38.68.134.69
@@ -280,12 +268,6 @@ proxies:
     server: 167.88.62.34
     password: FoOiGlkAA9yPEGP
     port: 7306
-    cipher: aes-256-gcm
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.85:8080-被墙-直连-解锁美国地区NF非自制剧"
-    type: ss
-    server: 38.68.134.85
-    password: KixLvKzwjekG00rm
-    port: 8080
     cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.62:5004-被墙-直连-解锁美国地区NF非自制剧"
     type: ss
@@ -431,6 +413,12 @@ proxies:
     password: bFfLrvbG3GjjNSxKBWt5
     port: 8389
     cipher: chacha20-ietf-poly1305
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.93:8080-可用-直连-仅支持美国地区NF自制剧"
+    type: ss
+    server: 38.75.136.93
+    password: KixLvKzwjekG00rm
+    port: 8080
+    cipher: aes-256-gcm
   - name: "\U0001F1E8\U0001F1F3:中国-ss-84.17.37.55:8389-可用-直连-仅支持香港地区NF自制剧"
     type: ss
     server: 84.17.37.55
@@ -629,11 +617,23 @@ proxies:
     password: PCnnH6SQSnfoS27
     port: 8091
     cipher: aes-256-gcm
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.202:5004-被墙-直连-解锁美国地区NF非自制剧"
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.196:805-被墙-直连-解锁美国地区NF非自制剧"
     type: ss
-    server: 38.68.134.202
-    password: g5MeD6Ft3CWlJId
-    port: 5004
+    server: 38.68.134.196
+    password: G!yBwPWH3Vao
+    port: 805
+    cipher: chacha20-ietf-poly1305
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.191:7306-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 38.68.134.191
+    password: FoOiGlkAA9yPEGP
+    port: 7306
+    cipher: aes-256-gcm
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.34:2376-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.62.34
+    password: faBAoD54k87UJG7
+    port: 2376
     cipher: aes-256-gcm
   - name: "\U0001F1E8\U0001F1E6:加拿大-trojan-t3.ssrsub.com:156-可用-中转:45.62.247.153-仅支持加拿大地区NF自制剧"
     type: trojan
@@ -801,7 +801,6 @@ proxy-groups:
       - "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.58:7307-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.68.135.239:2375-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.68.135.19:8090-被墙-直连-解锁美国地区NF非自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.85:8080-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.85:5004-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.85:3306-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.69:8091-被墙-直连-解锁美国地区NF非自制剧"
@@ -811,10 +810,10 @@ proxy-groups:
       - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.37:7307-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.37:2375-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.23:7306-被墙-直连-解锁美国地区NF非自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.202:5004-被墙-直连-解锁美国地区NF非自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.202:2376-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.196:812-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.196:805-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.191:8080-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.191:7306-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.190:8090-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.190:5003-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.135:809-被墙-中转:38.68.134.196-解锁美国地区NF非自制剧"
@@ -823,6 +822,7 @@ proxy-groups:
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.62:3389-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.34:7306-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.34:5003-被墙-直连-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.34:2376-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1F9\U0001F1F7:土耳其-ss-185.17.113.234:809-被墙-直连-解锁土耳其地区NF非自制剧"
       - "\U0001F1F3\U0001F1F4:挪威-ss-46.29.219.246:5601-被墙-直连-解锁挪威地区NF非自制剧"
       - "\U0001F1F3\U0001F1F4:挪威-ss-46.29.219.246:5600-被墙-直连-解锁挪威地区NF非自制剧"
