@@ -299,6 +299,57 @@ proxies:
     password: G!yBwPWH3Vao
     port: 801
     cipher: chacha20-ietf-poly1305
+  - name: "\U0001F1EB\U0001F1F7:法国-ssr-fr-am1-4.eqsunshine.com:8181-可用-中转:15.236.122.201-解锁法国地区NF非自制剧"
+    type: ssr
+    server: fr-am1-4.eqsunshine.com
+    password: X3LKnwp5C
+    obfs: tls1.2_ticket_auth
+    protocol: origin
+    port: 8181
+    cipher: aes-256-cfb
+    protocol-param: ""
+    obfs-param: ""
+  - name: "\U0001F1EB\U0001F1F7:法国-ssr-15.236.122.201:8181-可用-直连-解锁法国地区NF非自制剧"
+    type: ssr
+    server: 15.236.122.201
+    password: X3LKnwp5C
+    obfs: tls1.2_ticket_auth
+    protocol: origin
+    port: 8181
+    cipher: aes-256-cfb
+    protocol-param: ""
+    obfs-param: ""
+  - name: "\U0001F1FA\U0001F1F8:美国-ssr-34.220.180.26:8080-可用-直连-解锁美国地区NF非自制剧"
+    type: ssr
+    server: 34.220.180.26
+    password: vGndzdmPB
+    obfs: tls1.2_ticket_auth
+    protocol: origin
+    port: 8080
+    cipher: aes-256-cfb
+    protocol-param: ""
+    obfs-param: ""
+  - name: "\U0001F1FA\U0001F1F8:美国-ssr-us-am11.eqnode.net:8080-可用-中转:34.220.180.26-解锁美国地区NF非自制剧"
+    type: ssr
+    server: us-am11.eqnode.net
+    password: vGndzdmPB
+    obfs: tls1.2_ticket_auth
+    protocol: origin
+    port: 8080
+    cipher: aes-256-cfb
+    protocol-param: ""
+    obfs-param: ""
+  - name: "\U0001F1F3\U0001F1F1:荷兰-vmess-oz.mooncloud.bike:2053-可用-中转:45.148.31.161-解锁芬兰地区NF非自制剧"
+    type: vmess
+    server: oz.mooncloud.bike
+    network: ws
+    port: 2053
+    uuid: c6aa6b6f-66b2-4755-a12e-48c8836fa0ec
+    alterId: 4
+    cipher: auto
+    udp: false
+    tls: true
+    ws-path: /
   - name: "\U0001F1E8\U0001F1E6:加拿大-trojan-t1.ssrsub.com:8443-可用-中转:142.47.89.64-解锁加拿大地区NF非自制剧"
     type: trojan
     server: t1.ssrsub.com
