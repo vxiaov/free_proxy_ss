@@ -37,6 +37,8 @@ dns:
 proxies: []
 # 配置规则参考文档： https://github.com/Dreamacro/clash/wiki/configuration
 # 设置代理提供者(远程订阅地址+本地订阅文件)
+# 使用CDN链接： https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/providers/
+# 使用原始链接: https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/providers/
 proxy-providers:
   provider_url:
     # 免费订阅源代理组
@@ -51,7 +53,7 @@ proxy-providers:
   provider_free:
     # 墙内可用代理组
     type: http
-    url: "https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/providers/provider_free.yaml"
+    url: "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/providers/provider_free.yaml"
     interval: 3600
     path: ./providers/provider_free.yaml
     health-check:
@@ -61,7 +63,7 @@ proxy-providers:
   provider_outwall:
     # 被墙代理组
     type: http
-    url: "https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/providers/provider_outwall.yaml"
+    url: "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/providers/provider_outwall.yaml"
     interval: 3600
     path: ./providers/provider_outwall.yaml
     health-check:
@@ -71,7 +73,7 @@ proxy-providers:
   provider_netflix:
     # 解锁Netflix代理组
     type: http
-    url: "https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/providers/provider_netflix.yaml"
+    url: "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/providers/provider_netflix.yaml"
     interval: 3600
     path: ./providers/provider_netflix.yaml
     health-check:
@@ -81,7 +83,7 @@ proxy-providers:
   provider_home_netflix:
     # 解锁Netflix代理组
     type: http
-    url: "https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/providers/provider_home_netflix.yaml"
+    url: "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/providers/provider_home_netflix.yaml"
     interval: 3600
     path: ./providers/provider_home_netflix.yaml
     health-check:
