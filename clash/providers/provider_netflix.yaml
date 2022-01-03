@@ -239,12 +239,6 @@ proxies:
     password: passinfo123
     port: 4173
     cipher: rc4-md5
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-117.28.243.154:6145-可用-中转:210.61.156.145-解锁台湾地区NF非自制剧"
-    type: ss
-    server: 117.28.243.154
-    password: passinfo123
-    port: 6145
-    cipher: rc4-md5
   - name: "\U0001F1E9\U0001F1EA:德国-ss-194.233.65.67:989-被墙-直连-解锁新加坡地区NF非自制剧"
     type: ss
     server: 194.233.65.67
@@ -321,26 +315,6 @@ proxies:
     cipher: aes-256-cfb
     protocol-param: ""
     obfs-param: ""
-  - name: "\U0001F1FA\U0001F1F8:美国-ssr-34.220.180.26:8080-可用-直连-解锁美国地区NF非自制剧"
-    type: ssr
-    server: 34.220.180.26
-    password: vGndzdmPB
-    obfs: tls1.2_ticket_auth
-    protocol: origin
-    port: 8080
-    cipher: aes-256-cfb
-    protocol-param: ""
-    obfs-param: ""
-  - name: "\U0001F1FA\U0001F1F8:美国-ssr-us-am11.eqnode.net:8080-可用-中转:34.220.180.26-解锁美国地区NF非自制剧"
-    type: ssr
-    server: us-am11.eqnode.net
-    password: vGndzdmPB
-    obfs: tls1.2_ticket_auth
-    protocol: origin
-    port: 8080
-    cipher: aes-256-cfb
-    protocol-param: ""
-    obfs-param: ""
   - name: "\U0001F1EB\U0001F1F7:法国-ssr-fr-am1-4.eqsunshine.com:8181-可用-中转:15.236.122.201-解锁法国地区NF非自制剧"
     type: ssr
     server: fr-am1-4.eqsunshine.com
@@ -362,6 +336,17 @@ proxies:
     udp: false
     tls: true
     ws-path: /
+  - name: "\U0001F1E8\U0001F1F3:中国-vmess-hk-gz-hk-hkt-v2-b.cdn.savoy.click:60188-可用-中转:58.153.175.195-解锁香港地区NF非自制剧"
+    type: vmess
+    server: hk-gz-hk-hkt-v2-b.cdn.savoy.click
+    network: ws
+    port: 60188
+    uuid: d42019f2-f144-4189-9caf-419ee54f7cab
+    alterId: 4
+    cipher: auto
+    udp: false
+    tls: true
+    ws-path: /je5x3pBN1vez3NQudNkB
   - name: "\U0001F1E8\U0001F1E6:加拿大-trojan-t1.ssrsub.com:8443-可用-中转:142.47.89.64-解锁加拿大地区NF非自制剧"
     type: trojan
     server: t1.ssrsub.com
@@ -370,3 +355,10 @@ proxies:
     skip-cert-verify: false
     sni: t1.ssrsub.com
     port: 8443
+  - name: "\U0001F1E8\U0001F1F3:中国-trojan-hk-gz-hk-hkt-tr-b.cdn.savoy.click:60189-可用-中转:58.153.175.195-解锁香港地区NF非自制剧"
+    type: trojan
+    server: hk-gz-hk-hkt-tr-b.cdn.savoy.click
+    password: SfobRIcergHchqBFzzua
+    udp: true
+    skip-cert-verify: true
+    port: 60189
