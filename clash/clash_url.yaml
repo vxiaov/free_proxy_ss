@@ -102,7 +102,7 @@ proxy-providers:
 #   GUI窗口 官方建议选择 select ，当然也推荐使用url-test 自动检测可用性。
 proxy-groups:
   # 保留的自定义节点
-  - name: DIY组
+  - name: 免费CDN更新源
     type: select # load-balance, select, relay, fallback, url-test
     use: # 引入 proxy-provider 使用 use 关键字
       - provider_url  # 个人自定义的代理文件
@@ -116,7 +116,6 @@ proxy-groups:
     interval: 300
     # strategy: consistent-hashing # or round-robin  # 负载均衡策略
     proxies:
-      - DIY组
       - DIRECT
   - name: 被墙代理组
     type: select
@@ -159,12 +158,12 @@ proxy-groups:
       - PROXY
       - 被墙代理组
   - name: 中继组-三级代理
-    # 中继代理组,不支持UDP协议。线路: clash <-> DIY组 <-> PROXY <-> 被墙代理组 <-> Internet
+    # 中继代理组,不支持UDP协议。线路: clash <-> 免费CDN更新源 <-> PROXY <-> 被墙代理组 <-> Internet
     type: relay
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - DIY组
+      - 免费CDN更新源
       - PROXY
       - 被墙代理组
   - name: NETFLIX_PROXY
@@ -172,7 +171,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - DIY组
+      - 免费CDN更新源
       - 解锁Netflix非自制剧
       - 仅支持Netflix自制剧
       - 中继组-两级代理
@@ -184,7 +183,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - DIY组
+      - 免费CDN更新源
       - 解锁Netflix非自制剧
       - 仅支持Netflix自制剧
       - 中继组-两级代理
@@ -195,7 +194,7 @@ proxy-groups:
     interval: 300
     proxies:
       - DIRECT
-      - DIY组
+      - 免费CDN更新源
       - PROXY
       - 解锁Netflix非自制剧
       - 仅支持Netflix自制剧
@@ -206,7 +205,7 @@ proxy-groups:
     interval: 300
     proxies:
       - DIRECT
-      - DIY组
+      - 免费CDN更新源
       - PROXY
       - 解锁Netflix非自制剧
       - 仅支持Netflix自制剧
@@ -216,7 +215,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - DIY组
+      - 免费CDN更新源
       - PROXY
       - 解锁Netflix非自制剧
       - 仅支持Netflix自制剧
