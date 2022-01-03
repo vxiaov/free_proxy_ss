@@ -109,7 +109,6 @@ proxy-groups:
   - name: PROXY
     type: select # load-balance, select, relay, fallback, url-test
     use: # 引入 proxy-provider 使用 use 关键字
-      - provider_url
       - provider_free
     url: http://www.gstatic.com/generate_204
     interval: 300
@@ -140,7 +139,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - DIY组
       - DIRECT
   - name: 中继组-解锁奈飞
     # 中继代理组,不支持UDP协议。线路: clash <-> PROXY <-> 解锁Netflix非自制剧 <-> Internet
