@@ -545,12 +545,6 @@ proxies:
     password: bFfLrvbG3GjjNSxKBWt5
     port: 8389
     cipher: chacha20-ietf-poly1305
-  - name: "\U0001F1EF\U0001F1F5:日本-ss-172.105.232.147:8888-可用-直连-不支持Netflix"
-    type: ss
-    server: 172.105.232.147
-    password: Y6R9pAtvxxzmGC
-    port: 8888
-    cipher: aes-256-gcm
   - name: "\U0001F1E8\U0001F1F3:中国-ss-43.154.157.216:60151-可用-直连-仅支持新加坡地区NF自制剧"
     type: ss
     server: 43.154.157.216
@@ -635,6 +629,12 @@ proxies:
     password: NK4wZejCzDfPdWXTK4FW
     port: 8389
     cipher: chacha20-ietf-poly1305
+  - name: "\U0001F1EC\U0001F1E7:英国-ss-217.138.193.42:8389-可用-直连-仅支持阿联酋地区NF自制剧"
+    type: ss
+    server: 217.138.193.42
+    password: kGm85U8ewgPXbKr5LGxc
+    port: 8389
+    cipher: chacha20-ietf-poly1305
   - name: "\U0001F1FA\U0001F1F8:美国-ss-23.19.26.246:10515-可用-直连-仅支持美国地区NF自制剧"
     type: ss
     server: 23.19.26.246
@@ -662,13 +662,13 @@ proxies:
     udp: false
     tls: true
     ws-path: /je5x3pBN1vez3NQudNkB
-  - name: "\U0001F1E8\U0001F1F3:中国-trojan-jp-tyo-04-tr.cdn.savoy.click:889-可用-中转:103.142.141.9-仅支持日本地区NF自制剧"
+  - name: "\U0001F1E8\U0001F1F3:中国-trojan-hk-hkg-sh-hk-02-tr.cdn.savoy.click:21089-可用-中转:103.138.75.13-仅支持香港地区NF自制剧"
     type: trojan
-    server: jp-tyo-04-tr.cdn.savoy.click
+    server: hk-hkg-sh-hk-02-tr.cdn.savoy.click
     password: SfobRIcergHchqBFzzua
     udp: true
     skip-cert-verify: true
-    port: 889
+    port: 21089
 # 配置规则参考文档： https://github.com/Dreamacro/clash/wiki/configuration
 # 设置代理提供者(远程订阅地址+本地订阅文件)
 proxy-providers:
@@ -803,11 +803,11 @@ proxy-groups:
       - "\U0001F1F3\U0001F1F4:挪威-ss-46.29.218.6:2375-可用-直连-仅支持挪威地区NF自制剧"
       - "\U0001F1F3\U0001F1F1:荷兰-ss-45.140.169.176:10055-可用-直连-仅支持俄罗斯联邦地区NF自制剧"
       - "\U0001F1F2\U0001F1FD:墨西哥-ss-169.57.35.97:8389-可用-直连-仅支持墨西哥地区NF自制剧"
-      - "\U0001F1EF\U0001F1F5:日本-ss-172.105.232.147:8888-可用-直连-不支持Netflix"
       - "\U0001F1EF\U0001F1F5:日本-ss-139.162.116.154:7002-可用-直连-不支持Netflix"
       - "\U0001F1EE\U0001F1F1:以色列-ss-212.199.61.55:8388-可用-直连-仅支持以色列地区NF自制剧"
       - "\U0001F1EC\U0001F1F7:希腊-ss-185.51.134.210:8389-可用-直连-仅支持希腊地区NF自制剧"
       - "\U0001F1EC\U0001F1E7:英国-ss-217.138.221.42:8389-可用-直连-仅支持保加利亚地区NF自制剧"
+      - "\U0001F1EC\U0001F1E7:英国-ss-217.138.193.42:8389-可用-直连-仅支持阿联酋地区NF自制剧"
       - "\U0001F1EB\U0001F1F7:法国-ss-62.210.209.50:8009-可用-直连-仅支持法国地区NF自制剧"
       - "\U0001F1EB\U0001F1F7:法国-ss-62.210.209.50:8000-可用-直连-仅支持法国地区NF自制剧"
       - "\U0001F1EB\U0001F1F7:法国-ss-62.210.209.50:7307-可用-直连-仅支持法国地区NF自制剧"
@@ -823,7 +823,7 @@ proxy-groups:
       - "\U0001F1E9\U0001F1EA:德国-ss-145.239.1.137:2376-可用-中转:51.38.122.98-完全不支持NF"
       - "\U0001F1E9\U0001F1EA:德国-ss-141.95.0.26:826-可用-中转:54.38.217.138-完全不支持NF"
       - "\U0001F1E8\U0001F1F3:中国-vmess-tw-tpe-h-v2.cdn.savoy.click:988-可用-中转:114.37.191.190-仅支持台湾地区NF自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-trojan-jp-tyo-04-tr.cdn.savoy.click:889-可用-中转:103.142.141.9-仅支持日本地区NF自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-trojan-hk-hkg-sh-hk-02-tr.cdn.savoy.click:21089-可用-中转:103.138.75.13-仅支持香港地区NF自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-x.gotout.work:30041-可用-中转:5.180.78.73-仅支持新加坡地区NF自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-ieplin.ctcloudvip.com:10010-可用-中转:103.136.127.193-解锁新加坡地区NF非自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-ieplcm.ctcloudvip.com:10002-可用-中转:103.138.75.175-解锁香港地区NF非自制剧"
@@ -933,6 +933,7 @@ proxy-groups:
       - "\U0001F1EE\U0001F1F1:以色列-ss-212.199.61.55:8388-可用-直连-仅支持以色列地区NF自制剧"
       - "\U0001F1EC\U0001F1F7:希腊-ss-185.51.134.210:8389-可用-直连-仅支持希腊地区NF自制剧"
       - "\U0001F1EC\U0001F1E7:英国-ss-217.138.221.42:8389-可用-直连-仅支持保加利亚地区NF自制剧"
+      - "\U0001F1EC\U0001F1E7:英国-ss-217.138.193.42:8389-可用-直连-仅支持阿联酋地区NF自制剧"
       - "\U0001F1EB\U0001F1F7:法国-ss-62.210.209.50:8009-可用-直连-仅支持法国地区NF自制剧"
       - "\U0001F1EB\U0001F1F7:法国-ss-62.210.209.50:8000-可用-直连-仅支持法国地区NF自制剧"
       - "\U0001F1EB\U0001F1F7:法国-ss-62.210.209.50:7307-可用-直连-仅支持法国地区NF自制剧"
@@ -942,7 +943,7 @@ proxy-groups:
       - "\U0001F1E9\U0001F1F0:丹麦-ss-37.120.194.82:8389-可用-直连-仅支持丹麦地区NF自制剧"
       - "\U0001F1E9\U0001F1EA:德国-ssr-de-am2.eqnode.net:8080-可用-中转:3.124.12.30-仅支持德国地区NF自制剧"
       - "\U0001F1E8\U0001F1F3:中国-vmess-tw-tpe-h-v2.cdn.savoy.click:988-可用-中转:114.37.191.190-仅支持台湾地区NF自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-trojan-jp-tyo-04-tr.cdn.savoy.click:889-可用-中转:103.142.141.9-仅支持日本地区NF自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-trojan-hk-hkg-sh-hk-02-tr.cdn.savoy.click:21089-可用-中转:103.138.75.13-仅支持香港地区NF自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-x.gotout.work:30041-可用-中转:5.180.78.73-仅支持新加坡地区NF自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-84.17.37.55:8388-可用-直连-仅支持香港地区NF自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-43.154.157.216:60151-可用-直连-仅支持新加坡地区NF自制剧"
