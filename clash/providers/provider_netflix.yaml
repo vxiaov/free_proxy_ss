@@ -245,13 +245,23 @@ proxies:
     password: 13f91d7fd2461aa8ac178d360d94b2a8
     port: 3212
     cipher: aes-256-gcm
-  - name: "\U0001F1E9\U0001F1EA:德国-ssr-de-am2.eqnode.net:8080-可用-中转:3.124.12.30-解锁德国地区NF非自制剧"
+  - name: :unknown-ssr-fr-am1-4.eqsunshine.com:8181-可用-中转:15.236.122.201-解锁法国地区NF非自制剧
     type: ssr
-    server: de-am2.eqnode.net
-    password: 82BMko4lE
+    server: fr-am1-4.eqsunshine.com
+    password: X3LKnwp5C
     obfs: tls1.2_ticket_auth
     protocol: origin
-    port: 8080
+    port: 8181
+    cipher: aes-256-cfb
+    protocol-param: ""
+    obfs-param: ""
+  - name: "\U0001F1EB\U0001F1F7:法国-ssr-15.236.122.201:8181-可用-直连-解锁法国地区NF非自制剧"
+    type: ssr
+    server: 15.236.122.201
+    password: X3LKnwp5C
+    obfs: tls1.2_ticket_auth
+    protocol: origin
+    port: 8181
     cipher: aes-256-cfb
     protocol-param: ""
     obfs-param: ""
@@ -265,27 +275,23 @@ proxies:
     cipher: aes-256-cfb
     protocol-param: ""
     obfs-param: ""
-  - name: "\U0001F1EB\U0001F1F7:法国-ssr-fr-am1-4.eqsunshine.com:8181-可用-中转:15.236.122.201-解锁法国地区NF非自制剧"
+  - name: "\U0001F1FA\U0001F1F8:美国-ssr-34.219.236.31:8081-可用-直连-解锁美国地区NF非自制剧"
     type: ssr
-    server: fr-am1-4.eqsunshine.com
-    password: X3LKnwp5C
+    server: 34.219.236.31
+    password: YFVrXZgRo
     obfs: tls1.2_ticket_auth
     protocol: origin
-    port: 8181
+    port: 8081
     cipher: aes-256-cfb
     protocol-param: ""
     obfs-param: ""
-  - name: "\U0001F1F7\U0001F1FA:俄罗斯-trojan-t7.ssrsub.com:8443-可用-中转:194.87.238.109-解锁俄罗斯联邦地区NF非自制剧"
-    type: trojan
-    server: t7.ssrsub.com
-    password: 7644049b-79e1-4c3b-b621-0a464ab47db4
-    udp: true
-    skip-cert-verify: true
-    port: 8443
-  - name: "\U0001F1E8\U0001F1E6:加拿大-trojan-t1.ssrsub.com:8443-可用-中转:142.47.89.64-解锁加拿大地区NF非自制剧"
-    type: trojan
-    server: t1.ssrsub.com
-    password: 7644049b-79e1-4c3b-b621-0a464ab47db4
-    udp: true
-    skip-cert-verify: true
-    port: 8443
+  - name: :unknown-ssr-de-am2.eqnode.net:8080-可用-中转:3.124.12.30-解锁德国地区NF非自制剧
+    type: ssr
+    server: de-am2.eqnode.net
+    password: 82BMko4lE
+    obfs: tls1.2_ticket_auth
+    protocol: origin
+    port: 8080
+    cipher: aes-256-cfb
+    protocol-param: ""
+    obfs-param: ""
