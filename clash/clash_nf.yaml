@@ -244,6 +244,12 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt
     path: ./ruleset/private.yaml
     interval: 86400
+  direct:
+    type: http
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt
+    path: ./ruleset/direct.yaml
+    interval: 86400
   gfw:
     type: http
     behavior: domain
@@ -322,6 +328,7 @@ rules:
   - DOMAIN,clash.razord.top,DIRECT
   - DOMAIN,yacd.haishan.me,DIRECT
   - RULE-SET,private,DIRECT
+  - RULE-SET,direct,DIRECT
   - RULE-SET,reject,REJECT
   # > Netflix
   - DOMAIN-SUFFIX,netflix.com,NETFLIX_PROXY
