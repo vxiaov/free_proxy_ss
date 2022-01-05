@@ -140,14 +140,23 @@ proxy-groups:
     proxies:
       - DIY组
       - DIRECT
+  - name: 解锁Netflix合并组
+    type: select
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - DIY组
+      - 被墙代理组
+      - 仅支持Netflix自制剧
+      - 解锁Netflix非自制剧
   - name: 中继组-解锁奈飞
-    # 中继代理组,不支持UDP协议。线路: clash <-> PROXY <-> 解锁Netflix非自制剧 <-> Internet
+    # 中继代理组,不支持UDP协议。线路: clash <-> PROXY <-> 解锁Netflix合并组 <-> Internet
     type: relay
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - PROXY
-      - 解锁Netflix非自制剧
+      - 解锁Netflix合并组
   - name: 中继组-两级代理
     # 中继代理组,不支持UDP协议。线路: clash <-> PROXY <-> 被墙代理组 <-> Internet
     type: relay
@@ -179,6 +188,7 @@ proxy-groups:
     interval: 300
     proxies:
       - DIY组
+      - PROXY
       - 解锁Netflix非自制剧
       - 仅支持Netflix自制剧
       - 中继组-解锁奈飞
@@ -227,8 +237,9 @@ proxy-groups:
       - PROXY
       - 解锁Netflix非自制剧
       - 仅支持Netflix自制剧
-      - 中继组-两级代理
       - 中继组-解锁奈飞
+      - 中继组-两级代理
+      - 中继组-两级DIY代理
       - DIRECT
 
 rule-providers:
