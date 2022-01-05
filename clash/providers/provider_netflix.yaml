@@ -1,4 +1,24 @@
 proxies:
+  - name: "\U0001F1E9\U0001F1EA:德国-ssr-de-am2.eqnode.net:8080-可用-中转:3.124.12.30-解锁德国地区NF非自制剧"
+    type: ssr
+    server: de-am2.eqnode.net
+    password: 82BMko4lE
+    obfs: tls1.2_ticket_auth
+    protocol: origin
+    port: 8080
+    cipher: aes-256-cfb
+    protocol-param: ""
+    obfs-param: ""
+  - name: "\U0001F1E9\U0001F1EA:德国-ssr-3.124.12.30:8080-可用-直连-解锁德国地区NF非自制剧"
+    type: ssr
+    server: 3.124.12.30
+    password: 82BMko4lE
+    obfs: tls1.2_ticket_auth
+    protocol: origin
+    port: 8080
+    cipher: aes-256-cfb
+    protocol-param: ""
+    obfs-param: ""
   - name: "\U0001F1EB\U0001F1F7:法国-ssr-fr-am1-4.eqsunshine.com:8181-可用-中转:15.236.122.201-解锁法国地区NF非自制剧"
     type: ssr
     server: fr-am1-4.eqsunshine.com
@@ -9,14 +29,3 @@ proxies:
     cipher: aes-256-cfb
     protocol-param: ""
     obfs-param: ""
-  - name: "\U0001F1E8\U0001F1F3:中国-vmess-sh-hk-hgc-100m-v2.cdn.savoy.click:20188-可用-中转:223.16.17.179-解锁香港地区NF非自制剧"
-    type: vmess
-    server: sh-hk-hgc-100m-v2.cdn.savoy.click
-    network: ws
-    port: 20188
-    uuid: d42019f2-f144-4189-9caf-419ee54f7cab
-    alterId: 4
-    cipher: auto
-    udp: false
-    tls: true
-    ws-path: /je5x3pBN1vez3NQudNkB
