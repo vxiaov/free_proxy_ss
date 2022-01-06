@@ -53,7 +53,7 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
-- name: 🇯🇵:日本-ss-172.104.82.126:443-可用-直连-不支持Netflix
+- name: 🇯🇵:日本-ss-172.104.82.126:443-可用-直连-仅支持日本地区NF自制剧
   type: ss
   server: 172.104.82.126
   password: pKEW8JPByTVTLtM
@@ -70,6 +70,12 @@ proxies:
   server: 38.75.136.93
   password: kDWvXYZoTBcGkC4
   port: 8881
+  cipher: aes-256-gcm
+- name: 🇦🇺:澳大利亚-ss-172.105.180.227:6379-可用-直连-仅支持澳大利亚地区NF自制剧
+  type: ss
+  server: 172.105.180.227
+  password: zDNVedRFPQexG9v
+  port: 6379
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-169.197.142.39:8119-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
@@ -101,12 +107,24 @@ proxies:
   password: KixLvKzwjekG00rm
   port: 8000
   cipher: aes-256-gcm
+- name: 🇦🇺:澳大利亚-ss-172.105.180.227:7002-可用-直连-仅支持澳大利亚地区NF自制剧
+  type: ss
+  server: 172.105.180.227
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-70.39.71.2:8388-可用-直连-仅支持美国地区NF自制剧
   type: ss
   server: 70.39.71.2
   password: XkH8z99cQguQ8ywK5jhV
   port: 8388
   cipher: chacha20-ietf-poly1305
+- name: 🇦🇺:澳大利亚-ss-172.105.180.227:5003-可用-直连-仅支持澳大利亚地区NF自制剧
+  type: ss
+  server: 172.105.180.227
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-169.197.142.39:5000-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 169.197.142.39
@@ -119,11 +137,23 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
+- name: 🇦🇺:澳大利亚-ss-172.105.180.227:3306-可用-直连-仅支持澳大利亚地区NF自制剧
+  type: ss
+  server: 172.105.180.227
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-38.91.102.86:5001-可用-直连-仅支持美国地区NF自制剧
   type: ss
   server: 38.91.102.86
   password: Y6R9pAtvxxzmGC
   port: 5001
+  cipher: aes-256-gcm
+- name: 🇦🇺:澳大利亚-ss-172.105.180.227:443-可用-直连-仅支持澳大利亚地区NF自制剧
+  type: ss
+  server: 172.105.180.227
+  password: pKEW8JPByTVTLtM
+  port: 443
   cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-43.154.157.216:60151-可用-直连-仅支持香港地区NF自制剧
   type: ss
@@ -149,12 +179,6 @@ proxies:
   password: fAmKHf3Dft78ZyzL9kYF
   port: 8389
   cipher: chacha20-ietf-poly1305
-- name: 🇩🇪:德国-ss-145.239.1.137:2375-可用-中转:51.38.122.98-完全不支持NF
-  type: ss
-  server: 145.239.1.137
-  password: faBAoD54k87UJG7
-  port: 2375
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-169.197.142.39:9102-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 169.197.142.39
@@ -167,6 +191,12 @@ proxies:
   password: cNbqVVyUfbJFZ6S8EgRH
   port: 8389
   cipher: chacha20-ietf-poly1305
+- name: 🇸🇬:新加坡-ss-139.99.62.207:5000-可用-直连-完全不支持NF
+  type: ss
+  server: 139.99.62.207
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  cipher: aes-256-gcm
 - name: 🇨🇦:加拿大-ss-198.57.27.218:7307-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 198.57.27.218
@@ -184,6 +214,12 @@ proxies:
   server: 38.75.136.93
   password: kDWvXYZoTBcGkC4
   port: 8882
+  cipher: aes-256-gcm
+- name: 🇨🇦:加拿大-ss-198.57.27.218:8091-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 198.57.27.218
+  password: PCnnH6SQSnfoS27
+  port: 8091
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-38.91.102.86:8008-可用-直连-仅支持美国地区NF自制剧
   type: ss
@@ -299,18 +335,6 @@ proxies:
   password: PCnnH6SQSnfoS27
   port: 8090
   cipher: aes-256-gcm
-- name: 🇩🇪:德国-ss-145.239.1.137:5004-可用-中转:51.38.122.98-完全不支持NF
-  type: ss
-  server: 145.239.1.137
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  cipher: aes-256-gcm
-- name: 🇦🇺:澳大利亚-ss-172.105.180.227:3389-可用-直连-不支持Netflix
-  type: ss
-  server: 172.105.180.227
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  cipher: aes-256-gcm
 - name: 🇳🇴:挪威-ss-46.29.218.6:8090-可用-直连-仅支持挪威地区NF自制剧
   type: ss
   server: 46.29.218.6
@@ -359,12 +383,6 @@ proxies:
   password: kDWvXYZoTBcGkC4
   port: 8881
   cipher: aes-256-gcm
-- name: 🇯🇵:日本-ss-172.105.232.147:8888-可用-直连-不支持Netflix
-  type: ss
-  server: 172.105.232.147
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  cipher: aes-256-gcm
 - name: 🇫🇷:法国-ss-62.210.209.50:6697-可用-直连-仅支持法国地区NF自制剧
   type: ss
   server: 62.210.209.50
@@ -401,12 +419,6 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
-- name: 🇩🇪:德国-ss-141.95.0.26:826-可用-中转:54.38.217.138-完全不支持NF
-  type: ss
-  server: 141.95.0.26
-  password: sF43Xt2gONqcgFX563
-  port: 826
-  cipher: chacha20-ietf-poly1305
 - name: 🇨🇦:加拿大-ss-198.57.27.218:7306-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 198.57.27.218
@@ -443,6 +455,12 @@ proxies:
   password: AsLgDbA45KTMXumtzWhf
   port: 8389
   cipher: chacha20-ietf-poly1305
+- name: 🇩🇪:德国-ss-145.239.1.137:5003-可用-中转:51.38.122.98-完全不支持NF
+  type: ss
+  server: 145.239.1.137
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  cipher: aes-256-gcm
 - name: 🇬🇧:英国-ss-217.138.193.42:8389-可用-直连-仅支持阿联酋地区NF自制剧
   type: ss
   server: 217.138.193.42
@@ -467,41 +485,41 @@ proxies:
   password: VPPqaR4qpLmNw37jaJg6
   port: 8389
   cipher: chacha20-ietf-poly1305
+- name: 🇦🇺:澳大利亚-ss-172.105.180.227:3306-可用-直连-不支持Netflix
+  type: ss
+  server: 172.105.180.227
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-211.99.96.13:17852-可用-中转:103.149.162.117-仅支持香港地区NF自制剧
   type: ss
   server: 211.99.96.13
   password: 25rmp7CQ
   port: 17852
   cipher: xchacha20-ietf-poly1305
-- name: 🇦🇺:澳大利亚-ss-172.105.180.227:443-可用-直连-仅支持澳大利亚地区NF自制剧
-  type: ss
-  server: 172.105.180.227
-  password: pKEW8JPByTVTLtM
-  port: 443
-  cipher: aes-256-gcm
 - name: 🇬🇧:英国-ss-217.138.221.42:8389-可用-直连-仅支持保加利亚地区NF自制剧
   type: ss
   server: 217.138.221.42
   password: r4MP5DzDNmAqbBHzbSXw
   port: 8389
   cipher: chacha20-ietf-poly1305
+- name: 🇩🇪:德国-ss-145.239.1.137:2375-可用-中转:51.38.122.98-完全不支持NF
+  type: ss
+  server: 145.239.1.137
+  password: faBAoD54k87UJG7
+  port: 2375
+  cipher: aes-256-gcm
 - name: 🇳🇱:荷兰-ss-45.140.169.176:10055-可用-直连-仅支持俄罗斯联邦地区NF自制剧
   type: ss
   server: 45.140.169.176
   password: dongtaiwang.com
   port: 10055
   cipher: aes-256-gcm
-- name: 🇯🇵:日本-ss-139.162.116.154:7002-可用-直连-仅支持日本地区NF自制剧
+- name: 🇯🇵:日本-ss-139.162.116.154:7002-可用-直连-不支持Netflix
   type: ss
   server: 139.162.116.154
   password: RexnBgU7EV5ADxG
   port: 7002
-  cipher: aes-256-gcm
-- name: 🇨🇦:加拿大-ss-198.57.27.218:8091-可用-直连-仅支持加拿大地区NF自制剧
-  type: ss
-  server: 198.57.27.218
-  password: PCnnH6SQSnfoS27
-  port: 8091
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-69.39.239.72:8388-可用-直连-仅支持美国地区NF自制剧
   type: ss
@@ -521,6 +539,12 @@ proxies:
   password: t8BFcaM3GSCw5FHbph27
   port: 8389
   cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-211.99.96.16:17852-可用-中转:103.149.162.120-仅支持香港地区NF自制剧
+  type: ss
+  server: 211.99.96.16
+  password: 25rmp7CQ
+  port: 17852
+  cipher: xchacha20-ietf-poly1305
 - name: 🇲🇽:墨西哥-ss-169.57.35.97:8389-可用-直连-仅支持墨西哥地区NF自制剧
   type: ss
   server: 169.57.35.97
@@ -557,30 +581,18 @@ proxies:
   password: scDj68fv6xkMg2np9RgW
   port: 8389
   cipher: chacha20-ietf-poly1305
-- name: 🇸🇬:新加坡-ss-139.99.62.207:8888-可用-直连-完全不支持NF
-  type: ss
-  server: 139.99.62.207
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-101.91.121.247:50004-可用-直连-完全不支持NF
   type: ss
   server: 101.91.121.247
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
-- name: 🇦🇺:澳大利亚-ss-172.105.180.227:5601-可用-直连-仅支持澳大利亚地区NF自制剧
+- name: 🇩🇪:德国-ss-141.95.0.26:826-可用-中转:54.38.217.138-完全不支持NF
   type: ss
-  server: 172.105.180.227
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-117.28.243.173:4173-可用-中转:206.119.125.97-解锁香港地区NF非自制剧
-  type: ss
-  server: 117.28.243.173
-  password: passinfo123
-  port: 4173
-  cipher: rc4-md5
+  server: 141.95.0.26
+  password: sF43Xt2gONqcgFX563
+  port: 826
+  cipher: chacha20-ietf-poly1305
 - name: 🇳🇿:新西兰-ss-103.108.94.226:8389-可用-直连-仅支持新西兰地区NF自制剧
   type: ss
   server: 103.108.94.226
@@ -641,16 +653,6 @@ proxies:
   type: ssr
   server: de-am2.eqnode.net
   password: 82BMko4lE
-  obfs: tls1.2_ticket_auth
-  protocol: origin
-  port: 8080
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
-- name: 🇺🇸:美国-ssr-34.220.180.26:8080-可用-直连-解锁美国地区NF非自制剧
-  type: ssr
-  server: 34.220.180.26
-  password: vGndzdmPB
   obfs: tls1.2_ticket_auth
   protocol: origin
   port: 8080
