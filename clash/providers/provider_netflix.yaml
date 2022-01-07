@@ -41,18 +41,24 @@ proxies:
   password: G!yBwPWH3Vao
   port: 810
   cipher: chacha20-ietf-poly1305
-- name: 🇳🇴:挪威-ss-46.29.218.146:8888-被墙-直连-解锁挪威地区NF非自制剧
+- name: 🇳🇴:挪威-ss-46.29.218.146:8090-被墙-直连-解锁挪威地区NF非自制剧
   type: ss
   server: 46.29.218.146
-  password: Y6R9pAtvxxzmGC
-  port: 8888
+  password: PCnnH6SQSnfoS27
+  port: 8090
   cipher: aes-256-gcm
-- name: 🇳🇴:挪威-ss-46.29.219.246:8091-被墙-直连-解锁挪威地区NF非自制剧
+- name: 🇳🇴:挪威-ss-46.29.219.246:5601-被墙-直连-解锁挪威地区NF非自制剧
   type: ss
   server: 46.29.219.246
-  password: PCnnH6SQSnfoS27
-  port: 8091
+  password: Y6R9pAtvxxzmGC
+  port: 5601
   cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-62.216.92.167:811-被墙-中转:62.216.92.165-解锁香港地区NF非自制剧
+  type: ss
+  server: 62.216.92.167
+  password: G!yBwPWH3Vao
+  port: 811
+  cipher: chacha20-ietf-poly1305
 - name: 🇳🇴:挪威-ss-46.29.219.246:5004-被墙-直连-解锁挪威地区NF非自制剧
   type: ss
   server: 46.29.219.246
@@ -83,12 +89,6 @@ proxies:
   password: cdBIDV42DCwnfIN
   port: 8118
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-62.216.92.167:808-被墙-中转:62.216.92.165-解锁香港地区NF非自制剧
-  type: ss
-  server: 62.216.92.167
-  password: G!yBwPWH3Vao
-  port: 808
-  cipher: chacha20-ietf-poly1305
 - name: 🇳🇴:挪威-ss-46.29.219.246:8882-被墙-直连-解锁挪威地区NF非自制剧
   type: ss
   server: 46.29.219.246
@@ -131,12 +131,24 @@ proxies:
   password: 25rmp7CQ
   port: 17852
   cipher: xchacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-59.125.11.158:8158-被墙-中转:59.125.11.159-解锁台湾地区NF非自制剧
+- name: 🇨🇳:中国-ss-117.28.243.154:6145-可用-中转:210.61.156.145-解锁台湾地区NF非自制剧
   type: ss
-  server: 59.125.11.158
+  server: 117.28.243.154
   password: passinfo123
-  port: 8158
+  port: 6145
   cipher: rc4-md5
+- name: 🇹🇷:土耳其-ss-185.17.113.234:804-被墙-直连-解锁土耳其地区NF非自制剧
+  type: ss
+  server: 185.17.113.234
+  password: G!yBwPWH3Vao
+  port: 804
+  cipher: chacha20-ietf-poly1305
+- name: 🇯🇵:日本-ss-5.181.5.136:811-被墙-直连-解锁日本地区NF非自制剧
+  type: ss
+  server: 5.181.5.136
+  password: G!yBwPWH3Vao
+  port: 811
+  cipher: chacha20-ietf-poly1305
 - name: 🇮🇱:以色列-ss-185.162.125.91:50004-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
   server: 185.162.125.91
@@ -187,17 +199,6 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 🇺🇸:美国-vmess-v6.ssrsub.com:8443-可用-中转:195.133.48.9-解锁俄罗斯联邦地区NF非自制剧
-  type: vmess
-  server: v6.ssrsub.com
-  network: ws
-  port: 8443
-  uuid: e6c36d58-6070-4b55-a437-146e6b53ec57
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /ssrsub
 - name: 🇸🇪:瑞典-vmess-se.oceancloud.asia:12100-可用-中转:176.126.70.189-解锁瑞典地区NF非自制剧
   type: vmess
   server: se.oceancloud.asia
@@ -214,28 +215,6 @@ proxies:
   server: v10.ssrsub.com
   network: ws
   port: 166
-  uuid: e6c36d58-6070-4b55-a437-146e6b53ec57
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /ssrsub
-- name: 🇺🇸:美国-vmess-v3.ssrsub.com:443-可用-中转:176.119.157.182-解锁俄罗斯联邦地区NF非自制剧
-  type: vmess
-  server: v3.ssrsub.com
-  network: ws
-  port: 443
-  uuid: e6c36d58-6070-4b55-a437-146e6b53ec57
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /ssrsub
-- name: 🇺🇸:美国-vmess-v4.ssrsub.com:8443-可用-中转:93.95.97.120-解锁俄罗斯联邦地区NF非自制剧
-  type: vmess
-  server: v4.ssrsub.com
-  network: ws
-  port: 8443
   uuid: e6c36d58-6070-4b55-a437-146e6b53ec57
   alterId: 4
   cipher: auto
