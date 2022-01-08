@@ -215,12 +215,6 @@ proxy-groups:
       - DIRECT
 
 rule-providers:
-  all_ads:
-    type: http
-    behavior: domain
-    url: https://cdn.jsdelivr.net/gh/privacy-protection-tools/anti-AD@master/anti-ad-clash.yaml
-    path: ./ruleset/google.yaml
-    interval: 86400
   google:
     type: http
     behavior: domain
@@ -319,7 +313,6 @@ rules:
   - RULE-SET,private,DIRECT
   - RULE-SET,direct,DIRECT
   - RULE-SET,reject,REJECT
-  - RULE-SET,all_ads,REJECT
   # > Netflix
   - DOMAIN-SUFFIX,netflix.com,NETFLIX_PROXY
   - DOMAIN-SUFFIX,netflix.net,NETFLIX_PROXY
