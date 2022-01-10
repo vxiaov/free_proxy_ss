@@ -5,12 +5,6 @@ proxies:
   password: cdBIDV42DCwnfIN
   port: 8118
   cipher: aes-256-gcm
-- name: 🇦🇺:澳大利亚-ss-172.105.180.227:8091-可用-直连-仅支持澳大利亚地区NF自制剧
-  type: ss
-  server: 172.105.180.227
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  cipher: aes-256-gcm
 - name: 🇫🇷:法国-ss-62.210.209.50:8000-可用-直连-仅支持法国地区NF自制剧
   type: ss
   server: 62.210.209.50
@@ -71,17 +65,23 @@ proxies:
   password: TEzjfAYq2IjtuoS
   port: 6697
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-118.107.244.112:8091-可用-中转:118.107.244.111-仅支持香港地区NF自制剧
+- name: 🇨🇳:中国-ss-118.107.244.112:9101-可用-中转:118.107.244.111-仅支持香港地区NF自制剧
   type: ss
   server: 118.107.244.112
-  password: PCnnH6SQSnfoS27
-  port: 8091
+  password: e4FCWrgpkji3QY
+  port: 9101
   cipher: aes-256-gcm
 - name: 🇨🇦:加拿大-ss-198.57.27.218:8090-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 198.57.27.218
   password: PCnnH6SQSnfoS27
   port: 8090
+  cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-118.107.244.112:6379-可用-中转:118.107.244.111-仅支持香港地区NF自制剧
+  type: ss
+  server: 118.107.244.112
+  password: zDNVedRFPQexG9v
+  port: 6379
   cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-84.17.37.55:8389-可用-直连-仅支持香港地区NF自制剧
   type: ss
@@ -179,12 +179,6 @@ proxies:
   password: PCnnH6SQSnfoS27
   port: 8090
   cipher: aes-256-gcm
-- name: 🇯🇵:日本-ss-172.105.232.147:8888-可用-直连-仅支持日本地区NF自制剧
-  type: ss
-  server: 172.105.232.147
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  cipher: aes-256-gcm
 - name: 🇦🇹:奥地利-ss-37.120.212.162:8389-可用-直连-仅支持奥地利地区NF自制剧
   type: ss
   server: 37.120.212.162
@@ -215,12 +209,6 @@ proxies:
   password: g5MeD6Ft3CWlJId
   port: 5004
   cipher: aes-256-gcm
-- name: 🇮🇱:以色列-ss-212.199.61.55:8389-可用-直连-仅支持以色列地区NF自制剧
-  type: ss
-  server: 212.199.61.55
-  password: scDj68fv6xkMg2np9RgW
-  port: 8389
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-172.99.190.87:5601-可用-直连-仅支持英国地区NF自制剧
   type: ss
   server: 172.99.190.87
@@ -233,17 +221,29 @@ proxies:
   password: g5MeD6Ft3CWlJId
   port: 5004
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-38.75.136.93:9102-可用-直连-仅支持美国地区NF自制剧
+  type: ss
+  server: 38.75.136.93
+  password: e4FCWrgpkji3QY
+  port: 9102
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-38.75.136.93:7001-可用-直连-仅支持美国地区NF自制剧
+  type: ss
+  server: 38.75.136.93
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-118.107.244.112:8881-可用-中转:118.107.244.111-仅支持香港地区NF自制剧
+  type: ss
+  server: 118.107.244.112
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  cipher: aes-256-gcm
 - name: 🇫🇷:法国-ss-62.210.209.50:8881-可用-直连-仅支持法国地区NF自制剧
   type: ss
   server: 62.210.209.50
   password: kDWvXYZoTBcGkC4
   port: 8881
-  cipher: aes-256-gcm
-- name: 🇦🇺:澳大利亚-ss-172.105.180.227:5004-可用-直连-仅支持澳大利亚地区NF自制剧
-  type: ss
-  server: 172.105.180.227
-  password: g5MeD6Ft3CWlJId
-  port: 5004
   cipher: aes-256-gcm
 - name: 🇵🇹:葡萄牙-ss-185.90.57.152:8388-可用-直连-仅支持葡萄牙地区NF自制剧
   type: ss
@@ -281,6 +281,12 @@ proxies:
   password: kDWvXYZoTBcGkC4
   port: 8881
   cipher: aes-256-gcm
+- name: 🇦🇺:澳大利亚-ss-172.105.180.227:443-可用-直连-仅支持澳大利亚地区NF自制剧
+  type: ss
+  server: 172.105.180.227
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
 - name: 🇷🇺:俄罗斯-ss-82.202.220.242:8389-可用-直连-仅支持俄罗斯联邦地区NF自制剧
   type: ss
   server: 82.202.220.242
@@ -304,6 +310,12 @@ proxies:
   server: 46.29.218.6
   password: faBAoD54k87UJG7
   port: 2375
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-38.75.136.93:5001-可用-直连-仅支持美国地区NF自制剧
+  type: ss
+  server: 38.75.136.93
+  password: Y6R9pAtvxxzmGC
+  port: 5001
   cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-84.17.37.55:8388-可用-直连-仅支持香港地区NF自制剧
   type: ss
@@ -335,17 +347,17 @@ proxies:
   password: mTrN2fMYeWJwrkWpTnL2
   port: 8389
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-38.75.136.93:8882-可用-直连-仅支持美国地区NF自制剧
+- name: 🇦🇺:澳大利亚-ss-172.105.180.227:6697-可用-直连-仅支持澳大利亚地区NF自制剧
   type: ss
-  server: 38.75.136.93
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-38.75.136.93:6679-可用-直连-仅支持美国地区NF自制剧
-  type: ss
-  server: 38.75.136.93
+  server: 172.105.180.227
   password: TEzjfAYq2IjtuoS
-  port: 6679
+  port: 6697
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-38.75.136.93:7306-可用-直连-仅支持美国地区NF自制剧
+  type: ss
+  server: 38.75.136.93
+  password: FoOiGlkAA9yPEGP
+  port: 7306
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-70.39.71.2:8389-可用-直连-仅支持美国地区NF自制剧
   type: ss
@@ -353,11 +365,11 @@ proxies:
   password: XkH8z99cQguQ8ywK5jhV
   port: 8389
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-38.75.136.93:9101-可用-直连-仅支持美国地区NF自制剧
+- name: 🇺🇸:美国-ss-38.75.136.93:8000-可用-直连-仅支持美国地区NF自制剧
   type: ss
   server: 38.75.136.93
-  password: e4FCWrgpkji3QY
-  port: 9101
+  password: KixLvKzwjekG00rm
+  port: 8000
   cipher: aes-256-gcm
 - name: 🇬🇧:英国-ss-89.238.177.234:8389-可用-直连-仅支持荷兰地区NF自制剧
   type: ss
@@ -365,11 +377,11 @@ proxies:
   password: VPPqaR4qpLmNw37jaJg6
   port: 8389
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-118.107.244.112:6379-可用-中转:118.107.244.111-仅支持香港地区NF自制剧
+- name: 🇨🇳:中国-ss-118.107.244.112:8091-可用-中转:118.107.244.111-仅支持香港地区NF自制剧
   type: ss
   server: 118.107.244.112
-  password: zDNVedRFPQexG9v
-  port: 6379
+  password: PCnnH6SQSnfoS27
+  port: 8091
   cipher: aes-256-gcm
 - name: 🇫🇷:法国-ss-37.120.136.234:8389-可用-直连-仅支持法国地区NF自制剧
   type: ss
@@ -377,18 +389,6 @@ proxies:
   password: Xd2xnHT8tYkVt5BDk92b
   port: 8389
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-118.107.244.112:5601-可用-中转:118.107.244.111-仅支持香港地区NF自制剧
-  type: ss
-  server: 118.107.244.112
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-38.75.136.93:5601-可用-直连-仅支持美国地区NF自制剧
-  type: ss
-  server: 38.75.136.93
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  cipher: aes-256-gcm
 - name: 🇨🇦:加拿大-ss-198.57.27.218:7307-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 198.57.27.218
@@ -400,6 +400,12 @@ proxies:
   server: 82.202.220.242
   password: Kw6hMXQ2Z7ey7mf2Uqyr
   port: 8388
+  cipher: chacha20-ietf-poly1305
+- name: 🇮🇱:以色列-ss-212.199.61.55:8389-可用-直连-仅支持以色列地区NF自制剧
+  type: ss
+  server: 212.199.61.55
+  password: scDj68fv6xkMg2np9RgW
+  port: 8389
   cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-70.32.0.208:8389-可用-直连-仅支持美国地区NF自制剧
   type: ss
@@ -425,11 +431,11 @@ proxies:
   password: PCnnH6SQSnfoS27
   port: 8091
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-38.75.136.93:7002-可用-直连-仅支持美国地区NF自制剧
+- name: 🇦🇺:澳大利亚-ss-172.105.180.227:5601-可用-直连-仅支持澳大利亚地区NF自制剧
   type: ss
-  server: 38.75.136.93
-  password: RexnBgU7EV5ADxG
-  port: 7002
+  server: 172.105.180.227
+  password: Y6R9pAtvxxzmGC
+  port: 5601
   cipher: aes-256-gcm
 - name: 🇮🇱:以色列-ss-212.199.61.55:8388-可用-直连-仅支持以色列地区NF自制剧
   type: ss
@@ -443,24 +449,12 @@ proxies:
   password: qSnstpCypymLvPeyLRqf
   port: 8389
   cipher: chacha20-ietf-poly1305
-- name: 🇦🇺:澳大利亚-ss-172.105.180.227:8888-可用-直连-仅支持澳大利亚地区NF自制剧
-  type: ss
-  server: 172.105.180.227
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  cipher: aes-256-gcm
 - name: 🇧🇪:比利时-ss-5.253.204.194:8389-可用-直连-仅支持卢森堡地区NF自制剧
   type: ss
   server: 5.253.204.194
   password: qLzS7DF9qRYxJTHfckhC
   port: 8389
   cipher: chacha20-ietf-poly1305
-- name: 🇦🇺:澳大利亚-ss-172.105.180.227:8882-可用-直连-仅支持澳大利亚地区NF自制剧
-  type: ss
-  server: 172.105.180.227
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  cipher: aes-256-gcm
 - name: 🇧🇪:比利时-ss-77.243.191.178:8389-可用-直连-仅支持比利时地区NF自制剧
   type: ss
   server: 77.243.191.178
@@ -479,11 +473,17 @@ proxies:
   password: r4MP5DzDNmAqbBHzbSXw
   port: 8389
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-118.107.244.112:3306-可用-中转:118.107.244.111-仅支持香港地区NF自制剧
+- name: 🇦🇺:澳大利亚-ss-172.105.180.227:8118-可用-直连-仅支持澳大利亚地区NF自制剧
   type: ss
-  server: 118.107.244.112
-  password: Y6R9pAtvxxzmGC
-  port: 3306
+  server: 172.105.180.227
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  cipher: aes-256-gcm
+- name: 🇦🇺:澳大利亚-ss-172.105.180.227:8000-可用-直连-仅支持澳大利亚地区NF自制剧
+  type: ss
+  server: 172.105.180.227
+  password: KixLvKzwjekG00rm
+  port: 8000
   cipher: aes-256-gcm
 - name: 🇷🇺:俄罗斯-ss-213.183.53.191:9010-可用-直连-仅支持俄罗斯联邦地区NF自制剧
   type: ss
@@ -521,9 +521,3 @@ proxies:
   password: passinfo123
   port: 8076
   cipher: rc4-md5
-- name: 🇦🇺:澳大利亚-ss-172.105.180.227:5600-可用-直连-仅支持澳大利亚地区NF自制剧
-  type: ss
-  server: 172.105.180.227
-  password: Y6R9pAtvxxzmGC
-  port: 5600
-  cipher: aes-256-gcm
