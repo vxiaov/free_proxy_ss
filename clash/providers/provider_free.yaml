@@ -293,7 +293,7 @@ proxies:
   password: 1f6aca3cebd21a4cd5a80718ed16b74c
   port: 5002
   cipher: aes-256-gcm
-- name: 🇯🇵:日本-ss-172.105.232.147:8888-可用-直连-不支持Netflix
+- name: 🇯🇵:日本-ss-172.105.232.147:8888-可用-直连-仅支持日本地区NF自制剧
   type: ss
   server: 172.105.232.147
   password: Y6R9pAtvxxzmGC
@@ -353,6 +353,12 @@ proxies:
   password: g5MeD6Ft3CWlJId
   port: 5004
   cipher: aes-256-gcm
+- name: 🇳🇱:荷兰-ss-45.133.181.58:8389-可用-直连-仅支持新加坡地区NF自制剧
+  type: ss
+  server: 45.133.181.58
+  password: qzj5NqakK4YvYYU87eFF
+  port: 8389
+  cipher: chacha20-ietf-poly1305
 - name: 🇫🇷:法国-ss-62.210.209.50:8881-可用-直连-仅支持法国地区NF自制剧
   type: ss
   server: 62.210.209.50
@@ -443,6 +449,12 @@ proxies:
   password: 3Q5yYEGGMu8jU2p25aWL
   port: 8389
   cipher: chacha20-ietf-poly1305
+- name: 🇯🇵:日本-ss-172.104.82.126:443-可用-直连-不支持Netflix
+  type: ss
+  server: 172.104.82.126
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
 - name: 🇸🇪:瑞典-ss-45.83.91.66:8389-可用-直连-仅支持瑞典地区NF自制剧
   type: ss
   server: 45.83.91.66
@@ -461,12 +473,6 @@ proxies:
   password: passinfo123
   port: 8036
   cipher: rc4-md5
-- name: 🇯🇵:日本-ss-139.162.116.154:7002-可用-直连-仅支持日本地区NF自制剧
-  type: ss
-  server: 139.162.116.154
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-70.39.71.2:8389-可用-直连-仅支持美国地区NF自制剧
   type: ss
   server: 70.39.71.2
@@ -503,12 +509,6 @@ proxies:
   password: scDj68fv6xkMg2np9RgW
   port: 8389
   cipher: chacha20-ietf-poly1305
-- name: 🇳🇱:荷兰-ss-45.133.181.58:8389-可用-直连-仅支持新加坡地区NF自制剧
-  type: ss
-  server: 45.133.181.58
-  password: qzj5NqakK4YvYYU87eFF
-  port: 8389
-  cipher: chacha20-ietf-poly1305
 - name: 🇨🇦:加拿大-ss-198.57.27.218:443-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 198.57.27.218
@@ -526,12 +526,6 @@ proxies:
   server: 37.120.137.82
   password: EGTHtnGhcnggx5yBYSqS
   port: 8389
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-103.140.126.18:8478-可用-直连-完全不支持NF
-  type: ss
-  server: 103.140.126.18
-  password: ljqdalu13..
-  port: 8478
   cipher: chacha20-ietf-poly1305
 - name: 🇷🇴:罗马尼亚-ss-188.214.152.194:8389-可用-直连-仅支持越南地区NF自制剧
   type: ss
@@ -623,20 +617,3 @@ proxies:
   password: GU3kqh2ZSkzFkRBp4hxy
   port: 8389
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-117.28.243.220:8076-可用-中转:180.215.208.76-仅支持香港地区NF自制剧
-  type: ss
-  server: 117.28.243.220
-  password: passinfo123
-  port: 8076
-  cipher: rc4-md5
-- name: 🇳🇱:荷兰-vmess-178.62.224.119:8888-可用-中转:8.21.8.95-解锁荷兰地区NF非自制剧
-  type: vmess
-  server: 178.62.224.119
-  network: ws
-  port: 8888
-  uuid: b85b6cbb-ec13-41c6-ba97-52ad48d63c5c
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
