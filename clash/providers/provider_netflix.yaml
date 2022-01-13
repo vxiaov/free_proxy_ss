@@ -1,16 +1,4 @@
 proxies:
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-cu.googo.in:21002-可用-中转:45.11.92.70-解锁美国地区NF非自制剧"
-    type: ss
-    server: cu.googo.in
-    password: a6583148-6f03-49f8-b636-2f295fb3953e
-    port: 21002
-    cipher: chacha20-ietf-poly1305
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-120.232.214.36:5002-可用-中转:8.25.96.100-解锁新加坡地区NF非自制剧"
-    type: ss
-    server: 120.232.214.36
-    password: 1f6aca3cebd21a4cd5a80718ed16b74c
-    port: 5002
-    cipher: aes-256-gcm
   - name: "\U0001F1E8\U0001F1F3:中国-ss-103.76.84.36:8478-可用-直连-解锁香港地区NF非自制剧"
     type: ss
     server: 103.76.84.36
@@ -124,6 +112,12 @@ proxies:
     server: 38.68.134.196
     password: G!yBwPWH3Vao
     port: 808
+    cipher: chacha20-ietf-poly1305
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-203.160.55.200:8478-被墙-直连-解锁香港地区NF非自制剧"
+    type: ss
+    server: 203.160.55.200
+    password: ljqdalu13..
+    port: 8478
     cipher: chacha20-ietf-poly1305
   - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.23:2375-被墙-直连-解锁美国地区NF非自制剧"
     type: ss
@@ -311,12 +305,6 @@ proxies:
     password: KixLvKzwjekG00rm
     port: 8080
     cipher: aes-256-gcm
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.135.93:443-被墙-直连-解锁美国地区NF非自制剧"
-    type: ss
-    server: 38.68.135.93
-    password: pKEW8JPByTVTLtM
-    port: 443
-    cipher: aes-256-gcm
   - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:21701-可用-中转:210.61.201.126-解锁台湾地区NF非自制剧"
     type: ss
     server: 14.29.124.174
@@ -335,12 +323,6 @@ proxies:
     password: ljqdalu13..
     port: 8478
     cipher: chacha20-ietf-poly1305
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-117.28.243.220:8036-可用-中转:203.69.151.35-解锁台湾地区NF非自制剧"
-    type: ss
-    server: 117.28.243.220
-    password: passinfo123
-    port: 8036
-    cipher: rc4-md5
   - name: "\U0001F1FA\U0001F1F8:美国-vmess-jp1.ftnodes1.xyz:80-可用-中转:203.138.145.48-解锁日本地区NF非自制剧"
     type: vmess
     server: jp1.ftnodes1.xyz
@@ -352,28 +334,6 @@ proxies:
     udp: false
     tls: false
     ws-path: /
-  - name: "\U0001F1E8\U0001F1F3:中国-vmess-hkg2.besnow.xyz:443-可用-中转:43.229.153.243-解锁香港地区NF非自制剧"
-    type: vmess
-    server: hkg2.besnow.xyz
-    network: ws
-    port: 443
-    uuid: 1e283523-db22-4e57-bf3f-dac0c116ec2b
-    alterId: 4
-    cipher: auto
-    udp: false
-    tls: true
-    ws-path: /cctv13/hd.m3u8
-  - name: "\U0001F1E8\U0001F1F3:中国-vmess-jm.04.nkeo.top:49001-可用-中转:218.189.130.219-解锁香港地区NF非自制剧"
-    type: vmess
-    server: jm.04.nkeo.top
-    network: ws
-    port: 49001
-    uuid: 2fc746e5-14ee-3635-bcf1-94a4287ed134
-    alterId: 4
-    cipher: auto
-    udp: false
-    tls: false
-    ws-path: /hgchk
   - name: "\U0001F1E8\U0001F1F3:中国-vmess-vipdedi.boom.ovh:65521-可用-中转:146.56.104.89-解锁韩国地区NF非自制剧"
     type: vmess
     server: vipdedi.boom.ovh
