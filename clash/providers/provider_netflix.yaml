@@ -11,12 +11,6 @@ proxies:
     password: Y6R9pAtvxxzmGC
     port: 5601
     cipher: aes-256-gcm
-  - name: "\U0001F1EC\U0001F1E7:英国-ss-185.237.98.69:3212-可用-直连-解锁英国地区NF非自制剧"
-    type: ss
-    server: 185.237.98.69
-    password: 13f91d7fd2461aa8ac178d360d94b2a8
-    port: 3212
-    cipher: aes-256-gcm
   - name: "\U0001F1E8\U0001F1F3:中国-ss-203.160.55.200:8478-可用-直连-解锁香港地区NF非自制剧"
     type: ss
     server: 203.160.55.200
@@ -353,12 +347,12 @@ proxies:
     password: passinfo123
     port: 8076
     cipher: rc4-md5
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-117.28.243.220:8036-可用-中转:203.69.151.35-解锁台湾地区NF非自制剧"
+  - name: "\U0001F1EC\U0001F1E7:英国-ss-185.237.98.69:3212-可用-直连-解锁英国地区NF非自制剧"
     type: ss
-    server: 117.28.243.220
-    password: passinfo123
-    port: 8036
-    cipher: rc4-md5
+    server: 185.237.98.69
+    password: 13f91d7fd2461aa8ac178d360d94b2a8
+    port: 3212
+    cipher: aes-256-gcm
   - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:20700-可用-中转:210.61.201.105-解锁台湾地区NF非自制剧"
     type: ss
     server: 14.29.124.174
@@ -371,9 +365,77 @@ proxies:
     password: QazEdcTgb159@$*
     port: 21701
     cipher: aes-128-cfb
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-117.28.243.154:6145-可用-中转:210.61.156.145-解锁台湾地区NF非自制剧"
-    type: ss
-    server: 117.28.243.154
-    password: passinfo123
-    port: 6145
-    cipher: rc4-md5
+  - name: "\U0001F1FA\U0001F1F8:美国-vmess-v4.ssrsub.com:166-可用-中转:152.69.196.142-解锁日本地区NF非自制剧"
+    type: vmess
+    server: v4.ssrsub.com
+    network: ws
+    port: 166
+    uuid: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28
+    alterId: 4
+    cipher: auto
+    udp: false
+    tls: true
+    ws-path: /ssrsub
+  - name: "\U0001F1F0\U0001F1F7:韩国-vmess-v11.ssrsub.com:166-可用-中转:193.123.232.214-解锁韩国地区NF非自制剧"
+    type: vmess
+    server: v11.ssrsub.com
+    network: ws
+    port: 166
+    uuid: b3f4826a-01e1-438a-8cb4-becb9e8b140c
+    alterId: 4
+    cipher: auto
+    udp: false
+    tls: true
+    ws-path: /ssrsub
+  - name: "\U0001F1E6\U0001F1FA:澳大利亚-vmess-v10.ssrsub.com:166-可用-中转:129.154.51.66-解锁韩国地区NF非自制剧"
+    type: vmess
+    server: v10.ssrsub.com
+    network: ws
+    port: 166
+    uuid: b3f4826a-01e1-438a-8cb4-becb9e8b140c
+    alterId: 4
+    cipher: auto
+    udp: false
+    tls: true
+    ws-path: /ssrsub
+  - name: "\U0001F1E8\U0001F1F3:中国-vmess-61.220.28.198:9233-可用-直连-解锁台湾地区NF非自制剧"
+    type: vmess
+    server: 61.220.28.198
+    network: ws
+    port: 9233
+    uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9
+    alterId: 4
+    cipher: auto
+    udp: false
+    tls: false
+    ws-path: /
+  - name: "\U0001F1FA\U0001F1F8:美国-vmess-v3.ssrsub.com:443-可用-中转:176.119.157.182-解锁俄罗斯联邦地区NF非自制剧"
+    type: vmess
+    server: v3.ssrsub.com
+    network: ws
+    port: 443
+    uuid: b3f4826a-01e1-438a-8cb4-becb9e8b140c
+    alterId: 4
+    cipher: auto
+    udp: false
+    tls: true
+    ws-path: /ssrsub
+  - name: "\U0001F1FA\U0001F1F8:美国-vmess-v6.ssrsub.com:166-可用-中转:150.230.201.100-解锁日本地区NF非自制剧"
+    type: vmess
+    server: v6.ssrsub.com
+    network: ws
+    port: 166
+    uuid: b3f4826a-01e1-438a-8cb4-becb9e8b140c
+    alterId: 4
+    cipher: auto
+    udp: false
+    tls: true
+    ws-path: /ssrsub
+  - name: "\U0001F1FA\U0001F1F8:美国-trojan-t10.ssrsub.com:8443-可用-中转:152.70.37.167-解锁韩国地区NF非自制剧"
+    type: trojan
+    server: t10.ssrsub.com
+    password: b3f4826a-01e1-438a-8cb4-becb9e8b140c
+    udp: false
+    skip-cert-verify: false
+    sni: t10.ssrsub.com
+    port: 8443
