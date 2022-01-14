@@ -41,11 +41,23 @@ proxies:
     password: Y6R9pAtvxxzmGC
     port: 3389
     cipher: aes-256-gcm
+  - name: :欧洲-ss-149.7.16.10:9102-可用-直连-仅支持加拿大地区NF自制剧
+    type: ss
+    server: 149.7.16.10
+    password: e4FCWrgpkji3QY
+    port: 9102
+    cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.93:8080-可用-直连-仅支持美国地区NF自制剧"
     type: ss
     server: 38.75.136.93
     password: KixLvKzwjekG00rm
     port: 8080
+    cipher: aes-256-gcm
+  - name: "\U0001F1EB\U0001F1F7:法国-ss-62.210.209.50:7307-可用-直连-仅支持法国地区NF自制剧"
+    type: ss
+    server: 62.210.209.50
+    password: FoOiGlkAA9yPEGP
+    port: 7307
     cipher: aes-256-gcm
   - name: "\U0001F1F8\U0001F1EC:新加坡-ss-84.17.38.144:8389-可用-直连-仅支持新加坡地区NF自制剧"
     type: ss
@@ -53,6 +65,12 @@ proxies:
     password: gTYdduTTEBBdVZ4LcBnT
     port: 8389
     cipher: chacha20-ietf-poly1305
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.143.66.71:443-可用-直连-仅支持美国地区NF自制剧"
+    type: ss
+    server: 38.143.66.71
+    password: pKEW8JPByTVTLtM
+    port: 443
+    cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-108.165.196.212:2340-可用-中转:108.165.196.219-仅支持美国地区NF自制剧"
     type: ss
     server: 108.165.196.212
@@ -125,12 +143,6 @@ proxies:
     password: KixLvKzwjekG00rm
     port: 8000
     cipher: aes-256-gcm
-  - name: "\U0001F1F3\U0001F1F4:挪威-ss-46.29.218.6:6379-可用-直连-仅支持挪威地区NF自制剧"
-    type: ss
-    server: 46.29.218.6
-    password: zDNVedRFPQexG9v
-    port: 6379
-    cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-38.143.66.71:6379-可用-直连-仅支持美国地区NF自制剧"
     type: ss
     server: 38.143.66.71
@@ -197,17 +209,17 @@ proxies:
     password: pKEW8JPByTVTLtM
     port: 443
     cipher: aes-256-gcm
+  - name: "\U0001F1F3\U0001F1F4:挪威-ss-46.29.218.6:443-可用-直连-仅支持挪威地区NF自制剧"
+    type: ss
+    server: 46.29.218.6
+    password: pKEW8JPByTVTLtM
+    port: 443
+    cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.12:7306-可用-直连-仅支持加拿大地区NF自制剧"
     type: ss
     server: 134.195.196.12
     password: FoOiGlkAA9yPEGP
     port: 7306
-    cipher: aes-256-gcm
-  - name: "\U0001F1E6\U0001F1FA:澳大利亚-ss-172.105.180.227:5003-可用-直连-仅支持澳大利亚地区NF自制剧"
-    type: ss
-    server: 172.105.180.227
-    password: g5MeD6Ft3CWlJId
-    port: 5003
     cipher: aes-256-gcm
   - name: "\U0001F1EE\U0001F1F1:以色列-ss-212.199.61.55:8388-可用-直连-仅支持以色列地区NF自制剧"
     type: ss
@@ -221,24 +233,12 @@ proxies:
     password: pKEW8JPByTVTLtM
     port: 443
     cipher: aes-256-gcm
-  - name: "\U0001F1F5\U0001F1F9:葡萄牙-ss-185.90.57.152:8388-可用-直连-仅支持葡萄牙地区NF自制剧"
-    type: ss
-    server: 185.90.57.152
-    password: qSnstpCypymLvPeyLRqf
-    port: 8388
-    cipher: chacha20-ietf-poly1305
   - name: "\U0001F1E6\U0001F1FA:澳大利亚-ss-172.105.180.227:8118-可用-直连-仅支持澳大利亚地区NF自制剧"
     type: ss
     server: 172.105.180.227
     password: cdBIDV42DCwnfIN
     port: 8118
     cipher: aes-256-gcm
-  - name: "\U0001F1F5\U0001F1F9:葡萄牙-ss-185.90.57.152:8389-可用-直连-仅支持葡萄牙地区NF自制剧"
-    type: ss
-    server: 185.90.57.152
-    password: qSnstpCypymLvPeyLRqf
-    port: 8389
-    cipher: chacha20-ietf-poly1305
   - name: "\U0001F1F7\U0001F1FA:俄罗斯-ss-5.188.108.155:890-可用-直连-仅支持波兰地区NF自制剧"
     type: ss
     server: 5.188.108.155
@@ -383,6 +383,12 @@ proxies:
     password: Y6R9pAtvxxzmGC
     port: 3389
     cipher: aes-256-gcm
+  - name: "\U0001F1E6\U0001F1FA:澳大利亚-ss-172.105.180.227:2375-可用-直连-仅支持澳大利亚地区NF自制剧"
+    type: ss
+    server: 172.105.180.227
+    password: faBAoD54k87UJG7
+    port: 2375
+    cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.61.60:7002-可用-直连-仅支持美国地区NF自制剧"
     type: ss
     server: 167.88.61.60
@@ -437,12 +443,6 @@ proxies:
     password: dongtaiwang.com
     port: 10515
     cipher: aes-256-gcm
-  - name: "\U0001F1EB\U0001F1F7:法国-ss-62.210.209.50:8881-可用-直连-仅支持法国地区NF自制剧"
-    type: ss
-    server: 62.210.209.50
-    password: kDWvXYZoTBcGkC4
-    port: 8881
-    cipher: aes-256-gcm
   - name: "\U0001F1E9\U0001F1EA:德国-ss-167.86.82.191:443-可用-直连-仅支持德国地区NF自制剧"
     type: ss
     server: 167.86.82.191
@@ -491,11 +491,11 @@ proxies:
     password: fAmKHf3Dft78ZyzL9kYF
     port: 8389
     cipher: chacha20-ietf-poly1305
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.143.66.71:8008-可用-直连-仅支持美国地区NF自制剧"
+  - name: :欧洲-ss-149.7.16.10:8118-可用-直连-仅支持加拿大地区NF自制剧
     type: ss
-    server: 38.143.66.71
-    password: XKFKl2rULjIp74
-    port: 8008
+    server: 149.7.16.10
+    password: cdBIDV42DCwnfIN
+    port: 8118
     cipher: aes-256-gcm
   - name: "\U0001F1EC\U0001F1E7:英国-ss-217.138.193.42:8389-可用-直连-仅支持阿联酋地区NF自制剧"
     type: ss
@@ -521,12 +521,6 @@ proxies:
     password: KixLvKzwjekG00rm
     port: 8080
     cipher: aes-256-gcm
-  - name: "\U0001F1E9\U0001F1F0:丹麦-ss-37.120.194.82:8389-可用-直连-仅支持丹麦地区NF自制剧"
-    type: ss
-    server: 37.120.194.82
-    password: 2V7N5kGUghaLxF4aUqTw
-    port: 8389
-    cipher: chacha20-ietf-poly1305
   - name: "\U0001F1F1\U0001F1FA:卢森堡-ss-172.255.248.35:989-可用-直连-仅支持卢森堡地区NF自制剧"
     type: ss
     server: 172.255.248.35
@@ -587,18 +581,18 @@ proxies:
     password: qLzS7DF9qRYxJTHfckhC
     port: 8389
     cipher: chacha20-ietf-poly1305
-  - name: "\U0001F1E7\U0001F1F7:巴西-ss-131.255.4.219:989-可用-直连-仅支持阿根廷地区NF自制剧"
-    type: ss
-    server: 131.255.4.219
-    password: f8f7aCzcPKbsF8p3
-    port: 989
-    cipher: aes-256-cfb
   - name: "\U0001F1E8\U0001F1ED:瑞士-ss-37.120.137.82:8389-可用-直连-仅支持瑞士地区NF自制剧"
     type: ss
     server: 37.120.137.82
     password: EGTHtnGhcnggx5yBYSqS
     port: 8389
     cipher: chacha20-ietf-poly1305
+  - name: "\U0001F1EF\U0001F1F5:日本-ss-172.104.82.126:443-可用-直连-仅支持日本地区NF自制剧"
+    type: ss
+    server: 172.104.82.126
+    password: pKEW8JPByTVTLtM
+    port: 443
+    cipher: aes-256-gcm
   - name: "\U0001F1F8\U0001F1EC:新加坡-ss-188.214.125.106:8389-可用-直连-仅支持新加坡地区NF自制剧"
     type: ss
     server: 188.214.125.106
@@ -659,6 +653,12 @@ proxies:
     password: VPPqaR4qpLmNw37jaJg6
     port: 8389
     cipher: chacha20-ietf-poly1305
+  - name: "\U0001F1E9\U0001F1F0:丹麦-ss-37.120.194.82:8389-可用-直连-仅支持丹麦地区NF自制剧"
+    type: ss
+    server: 37.120.194.82
+    password: 2V7N5kGUghaLxF4aUqTw
+    port: 8389
+    cipher: chacha20-ietf-poly1305
   - name: "\U0001F1FA\U0001F1F8:美国-ssr-13.36.167.144:8181-可用-直连-仅支持法国地区NF自制剧"
     type: ssr
     server: 13.36.167.144
@@ -669,17 +669,6 @@ proxies:
     cipher: aes-256-cfb
     protocol-param: ""
     obfs-param: ""
-  - name: "\U0001F1FA\U0001F1F8:美国-vmess-v5.ssrsub.com:8443-可用-中转:194.87.234.71-仅支持俄罗斯联邦地区NF自制剧"
-    type: vmess
-    server: v5.ssrsub.com
-    network: ws
-    port: 8443
-    uuid: b3f4826a-01e1-438a-8cb4-becb9e8b140c
-    alterId: 4
-    cipher: auto
-    udp: false
-    tls: true
-    ws-path: /ssrsub
   - name: "\U0001F1FA\U0001F1F8:美国-vmess-v2.ssrsub.com:8443-可用-中转:193.38.51.192-仅支持俄罗斯联邦地区NF自制剧"
     type: vmess
     server: v2.ssrsub.com
@@ -724,6 +713,17 @@ proxies:
     udp: false
     tls: false
     ws-path: /
+  - name: "\U0001F1FA\U0001F1F8:美国-vmess-targoo2.mirror.cn.com:443-可用-中转:109.236.63.136-仅支持美国地区NF自制剧"
+    type: vmess
+    server: targoo2.mirror.cn.com
+    network: ws
+    port: 443
+    uuid: 349fd062-d61b-4979-a6d6-1b4935ffbf89
+    alterId: 4
+    cipher: auto
+    udp: false
+    tls: true
+    ws-path: /
   - name: "\U0001F1F8\U0001F1EC:新加坡-vmess-v7.ssrsub.com:8443-可用-中转:157.230.248.246-仅支持新加坡地区NF自制剧"
     type: vmess
     server: v7.ssrsub.com
@@ -753,26 +753,4 @@ proxies:
     udp: false
     skip-cert-verify: false
     sni: t7.ssrsub.com
-    port: 8443
-  - name: "\U0001F1E8\U0001F1F3:中国-trojan-s2.upyun.online:12340-可用-中转:209.141.32.55-仅支持美国地区NF自制剧"
-    type: trojan
-    server: s2.upyun.online
-    password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
-    udp: true
-    skip-cert-verify: true
-    port: 12340
-  - name: "\U0001F1F8\U0001F1EC:新加坡-trojan-sg27.holiganfan.com:10088-可用-中转:18.141.200.183-仅支持新加坡地区NF自制剧"
-    type: trojan
-    server: sg27.holiganfan.com
-    password: 8ce38f17-b2be-453a-8d25-deec1a0aabba
-    udp: true
-    skip-cert-verify: true
-    port: 10088
-  - name: "\U0001F1E8\U0001F1E6:加拿大-trojan-t1.ssrsub.com:8443-可用-中转:142.47.89.64-仅支持加拿大地区NF自制剧"
-    type: trojan
-    server: t1.ssrsub.com
-    password: b3f4826a-01e1-438a-8cb4-becb9e8b140c
-    udp: false
-    skip-cert-verify: false
-    sni: t1.ssrsub.com
     port: 8443
