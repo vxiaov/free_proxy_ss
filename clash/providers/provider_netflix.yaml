@@ -1,10 +1,4 @@
 proxies:
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.135.19:8080-可用-直连-解锁美国地区NF非自制剧"
-    type: ss
-    server: 38.68.135.19
-    password: KixLvKzwjekG00rm
-    port: 8080
-    cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.68:3389-可用-直连-解锁美国地区NF非自制剧"
     type: ss
     server: 167.88.62.68
@@ -47,6 +41,12 @@ proxies:
     password: cdBIDV42DCwnfIN
     port: 8119
     cipher: aes-256-gcm
+  - name: :孟加拉-ss-103.145.72.36:2333-可用-直连-解锁香港地区NF非自制剧
+    type: ss
+    server: 103.145.72.36
+    password: dce3585f-4ce5-4931-8997-89c484496017
+    port: 2333
+    cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.135.19:3389-可用-直连-解锁美国地区NF非自制剧"
     type: ss
     server: 38.68.135.19
@@ -65,12 +65,6 @@ proxies:
     password: PCnnH6SQSnfoS27
     port: 8091
     cipher: aes-256-gcm
-  - name: "\U0001F1EF\U0001F1F5:日本-ss-5.181.5.136:811-可用-直连-解锁日本地区NF非自制剧"
-    type: ss
-    server: 5.181.5.136
-    password: G!yBwPWH3Vao
-    port: 811
-    cipher: chacha20-ietf-poly1305
   - name: "\U0001F1F3\U0001F1F4:挪威-ss-46.29.218.146:8888-可用-直连-解锁挪威地区NF非自制剧"
     type: ss
     server: 46.29.218.146
@@ -94,6 +88,12 @@ proxies:
     server: 38.68.134.69
     password: Y6R9pAtvxxzmGC
     port: 3306
+    cipher: aes-256-gcm
+  - name: :孟加拉-ss-103.145.72.108:2333-可用-直连-解锁香港地区NF非自制剧
+    type: ss
+    server: 103.145.72.108
+    password: dce3585f-4ce5-4931-8997-89c484496017
+    port: 2333
     cipher: aes-256-gcm
   - name: "\U0001F1F3\U0001F1F4:挪威-ss-46.29.218.146:6679-可用-直连-解锁挪威地区NF非自制剧"
     type: ss
@@ -136,3 +136,10 @@ proxies:
     udp: false
     tls: true
     ws-path: /
+  - name: "\U0001F1FA\U0001F1F8:美国-trojan-t10.ssrsub.com:8443-可用-中转:152.70.37.167-解锁韩国地区NF非自制剧"
+    type: trojan
+    server: t10.ssrsub.com
+    password: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28
+    udp: true
+    skip-cert-verify: true
+    port: 8443
