@@ -542,7 +542,7 @@ proxies:
   - name: "\U0001F1EF\U0001F1F5:日本-ss-jp_g_aws_m.hudaye.space:55487-可用-中转:52.194.218.216-仅支持日本地区NF自制剧"
     type: ss
     server: jp_g_aws_m.hudaye.space
-    password: dce3585f-4ce5-4931-8997-89c484496017
+    password: 619fe51f-4161-4f82-92db-e0eb17f68b5e
     port: 55487
     cipher: chacha20-ietf-poly1305
   - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.23:8091-可用-直连-仅支持美国地区NF自制剧"
@@ -651,17 +651,17 @@ proxies:
     cipher: aes-128-cfb
     protocol-param: ""
     obfs-param: ""
-  - name: "\U0001F1F0\U0001F1F7:韩国-vmess-v11.ssrsub.com:166-可用-中转:193.123.232.214-解锁韩国地区NF非自制剧"
+  - name: "\U0001F1FA\U0001F1F8:美国-vmess-45.61.162.49:443-可用-直连-仅支持美国地区NF自制剧"
     type: vmess
-    server: v11.ssrsub.com
+    server: 45.61.162.49
     network: ws
-    port: 166
-    uuid: 51273235-0995-455e-96e4-83b1811b4cab
+    port: 443
+    uuid: bf1d5087-c522-42c8-9f64-4dd772f8fcea
     alterId: 4
     cipher: auto
     udp: false
-    tls: true
-    ws-path: /ssrsub
+    tls: false
+    ws-path: /TS/recharge/tzUrl.html
   - name: "\U0001F1F7\U0001F1FA:俄罗斯-trojan-t6.ssrsub.com:8443-可用-中转:195.133.48.9-解锁俄罗斯联邦地区NF非自制剧"
     type: trojan
     server: t6.ssrsub.com
@@ -688,6 +688,7 @@ proxy-groups:
     interval: 300
     proxies:
       - DIRECT
+      - "\U0001F1FA\U0001F1F8:美国-vmess-45.61.162.49:443-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.91.100.200:8080-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.91.100.200:7306-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.93:5500-可用-直连-仅支持美国地区NF自制剧"
@@ -760,7 +761,6 @@ proxy-groups:
       - "\U0001F1F3\U0001F1F4:挪威-ss-46.29.218.170:9101-可用-直连-解锁挪威地区NF非自制剧"
       - "\U0001F1F3\U0001F1F1:荷兰-ss-45.133.181.58:8388-可用-直连-仅支持新加坡地区NF自制剧"
       - "\U0001F1F2\U0001F1FE:马来西亚-ss-223.25.246.4:8388-可用-直连-仅支持马来西亚地区NF自制剧"
-      - "\U0001F1F0\U0001F1F7:韩国-vmess-v11.ssrsub.com:166-可用-中转:193.123.232.214-解锁韩国地区NF非自制剧"
       - "\U0001F1F0\U0001F1F7:韩国-ss-158.247.209.92:5003-可用-直连-完全不支持NF"
       - "\U0001F1F0\U0001F1F7:韩国-ss-158.247.203.40:8118-可用-直连-完全不支持NF"
       - "\U0001F1F0\U0001F1F7:韩国-ss-158.247.203.40:6379-可用-直连-完全不支持NF"
@@ -804,6 +804,7 @@ proxy-groups:
     interval: 300
     proxies:
       - DIRECT
+      - "\U0001F1FA\U0001F1F8:美国-vmess-45.61.162.49:443-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.91.100.200:8080-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.91.100.200:7306-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.93:5500-可用-直连-仅支持美国地区NF自制剧"
@@ -904,7 +905,6 @@ proxy-groups:
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.34:2376-可用-直连-解锁美国地区NF非自制剧"
       - "\U0001F1F7\U0001F1FA:俄罗斯-trojan-t6.ssrsub.com:8443-可用-中转:195.133.48.9-解锁俄罗斯联邦地区NF非自制剧"
       - "\U0001F1F3\U0001F1F4:挪威-ss-46.29.218.170:9101-可用-直连-解锁挪威地区NF非自制剧"
-      - "\U0001F1F0\U0001F1F7:韩国-vmess-v11.ssrsub.com:166-可用-中转:193.123.232.214-解锁韩国地区NF非自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ssr-106.52.33.67:40378-可用-中转:223.26.73.194-解锁台湾地区NF非自制剧"
   - name: 入口代理组
     # 中继代理组,不支持UDP协议。线路: clash <-> vmess <-> ss1 <-> ss2 <-> Internet
