@@ -59,12 +59,6 @@ proxies:
     password: faBAoD54k87UJG7
     port: 2376
     cipher: aes-256-gcm
-  - name: "\U0001F1F8\U0001F1EC:新加坡-ss-54.169.160.235:26222-可用-直连-解锁新加坡地区NF非自制剧"
-    type: ss
-    server: 54.169.160.235
-    password: PVuX4LgbRq
-    port: 26222
-    cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.128:8882-可用-直连-仅支持加拿大地区NF自制剧"
     type: ss
     server: 134.195.196.128
@@ -274,6 +268,12 @@ proxies:
     server: 193.108.118.182
     password: XKFKl2rULjIp74
     port: 8009
+    cipher: aes-256-gcm
+  - name: "\U0001F1EF\U0001F1F5:日本-ss-85.208.110.2:8090-可用-直连-仅支持日本地区NF自制剧"
+    type: ss
+    server: 85.208.110.2
+    password: PCnnH6SQSnfoS27
+    port: 8090
     cipher: aes-256-gcm
   - name: "\U0001F1F7\U0001F1F4:罗马尼亚-ss-188.214.122.138:8389-可用-直连-仅支持埃及地区NF自制剧"
     type: ss
@@ -605,7 +605,7 @@ proxies:
     password: Y6R9pAtvxxzmGC
     port: 5601
     cipher: aes-256-gcm
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-120.233.150.200:50202-可用-中转:111.252.169.51-仅支持台湾地区NF自制剧"
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-120.233.150.200:50202-可用-中转:111.252.201.212-解锁台湾地区NF非自制剧"
     type: ss
     server: 120.233.150.200
     password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9
@@ -941,12 +941,6 @@ proxies:
     password: Y6R9pAtvxxzmGC
     port: 5600
     cipher: aes-256-gcm
-  - name: "\U0001F1EF\U0001F1F5:日本-ss-158.247.226.61:7001-可用-直连-完全不支持NF"
-    type: ss
-    server: 158.247.226.61
-    password: RexnBgU7EV5ADxG
-    port: 7001
-    cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.81:8091-可用-直连-仅支持加拿大地区NF自制剧"
     type: ss
     server: 134.195.196.81
@@ -982,6 +976,12 @@ proxies:
     server: 149.202.82.172
     password: g5MeD6Ft3CWlJId
     port: 5003
+    cipher: aes-256-gcm
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.217:7002-可用-直连-仅支持加拿大地区NF自制剧"
+    type: ss
+    server: 134.195.196.217
+    password: RexnBgU7EV5ADxG
+    port: 7002
     cipher: aes-256-gcm
   - name: "\U0001F1F8\U0001F1EC:新加坡-ss-139.99.62.207:8888-可用-直连-完全不支持NF"
     type: ss
@@ -1115,15 +1115,15 @@ proxies:
     password: Y6R9pAtvxxzmGC
     port: 3389
     cipher: aes-256-gcm
-  - name: "\U0001F1EC\U0001F1F7:希腊-ss-185.51.134.210:8389-可用-直连-仅支持希腊地区NF自制剧"
-    type: ss
-    server: 185.51.134.210
-    password: mTrN2fMYeWJwrkWpTnL2
-    port: 8389
-    cipher: chacha20-ietf-poly1305
   - name: "\U0001F1E8\U0001F1E6:加拿大-ss-198.57.27.241:7307-可用-直连-仅支持加拿大地区NF自制剧"
     type: ss
     server: 198.57.27.241
+    password: FoOiGlkAA9yPEGP
+    port: 7307
+    cipher: aes-256-gcm
+  - name: "\U0001F1EF\U0001F1F5:日本-ss-158.247.224.123:7307-可用-直连-完全不支持NF"
+    type: ss
+    server: 158.247.224.123
     password: FoOiGlkAA9yPEGP
     port: 7307
     cipher: aes-256-gcm
