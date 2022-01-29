@@ -623,17 +623,17 @@ proxies:
     password: PCnnH6SQSnfoS27
     port: 8091
     cipher: aes-256-gcm
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.198.252:2376-可用-直连-不支持Netflix"
+    type: ss
+    server: 134.195.198.252
+    password: faBAoD54k87UJG7
+    port: 2376
+    cipher: aes-256-gcm
   - name: "\U0001F1E8\U0001F1E6:加拿大-ss-198.57.27.152:7307-可用-直连-不支持Netflix"
     type: ss
     server: 198.57.27.152
     password: FoOiGlkAA9yPEGP
     port: 7307
-    cipher: aes-256-gcm
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.71:5003-被墙-直连-解锁美国地区NF非自制剧"
-    type: ss
-    server: 167.88.63.71
-    password: g5MeD6Ft3CWlJId
-    port: 5003
     cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-104.149.149.158:50004-可用-直连-仅支持美国地区NF自制剧"
     type: ss
@@ -740,6 +740,7 @@ proxy-groups:
       - "\U0001F1FA\U0001F1F8:美国-ss-142.202.48.114:5003-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-142.202.48.105:8091-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-142.202.48.105:3306-可用-直连-仅支持美国地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.198.252:2376-可用-直连-不支持Netflix"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.44:5004-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.214:8882-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.214:8000-可用-直连-不支持Netflix"
@@ -797,7 +798,6 @@ proxy-groups:
     interval: 300
     proxies:
       - DIRECT
-      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.71:5003-被墙-直连-解锁美国地区NF非自制剧"
   - name: 仅支持Netflix自制剧
     type: select
     url: http://www.gstatic.com/generate_204
