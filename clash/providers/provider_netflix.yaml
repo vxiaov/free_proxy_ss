@@ -1,57 +1,45 @@
 proxies:
-- name: 🇺🇸:美国-ss-167.88.63.74:2376-可用-直连-解锁美国地区NF非自制剧
+- name: 🇺🇸:美国-ss-167.88.63.61:8119-可用-直连-解锁美国地区NF非自制剧
   type: ss
-  server: 167.88.63.74
+  server: 167.88.63.61
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-38.68.134.37:2376-可用-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 38.68.134.37
   password: faBAoD54k87UJG7
   port: 2376
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-38.68.135.93:8080-可用-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 38.68.135.93
+  password: KixLvKzwjekG00rm
+  port: 8080
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-167.88.63.74:7306-可用-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.63.74
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-167.88.63.74:443-可用-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.63.74
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-38.68.134.37:2375-可用-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 38.68.134.37
+  password: faBAoD54k87UJG7
+  port: 2375
   cipher: aes-256-gcm
 - name: 🇳🇴:挪威-ss-46.29.219.246:5601-可用-直连-解锁挪威地区NF非自制剧
   type: ss
   server: 46.29.219.246
   password: Y6R9pAtvxxzmGC
   port: 5601
-  cipher: aes-256-gcm
-- name: 🇳🇴:挪威-ss-46.29.219.246:5600-可用-直连-解锁挪威地区NF非自制剧
-  type: ss
-  server: 46.29.219.246
-  password: Y6R9pAtvxxzmGC
-  port: 5600
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-38.68.135.93:443-可用-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 38.68.135.93
-  password: pKEW8JPByTVTLtM
-  port: 443
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.63.74:8091-可用-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.63.74
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.63.61:8118-可用-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.63.61
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.63.74:2375-可用-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.63.74
-  password: faBAoD54k87UJG7
-  port: 2375
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.63.61:8888-可用-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.63.61
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.63.74:8090-可用-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.63.74
-  password: PCnnH6SQSnfoS27
-  port: 8090
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.63.71:5003-被墙-直连-解锁美国地区NF非自制剧
   type: ss
@@ -353,13 +341,19 @@ proxies:
   password: g5MeD6Ft3CWlJId
   port: 5004
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ssr-13.38.75.17:8181-可用-直连-解锁法国地区NF非自制剧
+- name: 🇨🇳:中国-ss-14.29.124.174:20700-可用-中转:210.61.201.105-解锁台湾地区NF非自制剧
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 20700
+  cipher: aes-128-cfb
+- name: 🇯🇵:日本-ssr-54.168.200.100:8081-可用-直连-解锁日本地区NF非自制剧
   type: ssr
-  server: 13.38.75.17
-  password: gVWc0WaJn
+  server: 54.168.200.100
+  password: 3H2aN5Gnm
   obfs: tls1.2_ticket_auth
   protocol: origin
-  port: 8181
+  port: 8081
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
@@ -373,19 +367,9 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 🇯🇵:日本-ssr-54.168.200.100:8081-可用-直连-解锁日本地区NF非自制剧
-  type: ssr
-  server: 54.168.200.100
-  password: 3H2aN5Gnm
-  obfs: tls1.2_ticket_auth
-  protocol: origin
-  port: 8081
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
-- name: 🇰🇷:韩国-vmess-v11.ssrsub.com:166-可用-中转:193.123.232.214-解锁韩国地区NF非自制剧
+- name: 🇺🇸:美国-vmess-v4.ssrsub.com:166-可用-中转:152.69.196.142-解锁日本地区NF非自制剧
   type: vmess
-  server: v11.ssrsub.com
+  server: v4.ssrsub.com
   network: ws
   port: 166
   uuid: 535c9eef-40a3-4767-9253-706b0b128ed5
@@ -394,22 +378,11 @@ proxies:
   udp: false
   tls: true
   ws-path: /ssrsub
-- name: 🇯🇵:日本-vmess-linode.jp.tgproxy.wtf:28888-可用-中转:8.37.43.7-解锁日本地区NF非自制剧
+- name: 🇺🇸:美国-vmess-v3.ssrsub.com:443-可用-中转:176.119.157.182-解锁俄罗斯联邦地区NF非自制剧
   type: vmess
-  server: linode.jp.tgproxy.wtf
+  server: v3.ssrsub.com
   network: ws
-  port: 28888
-  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /theuploadapi
-- name: 🇺🇸:美国-vmess-v4.ssrsub.com:166-可用-中转:152.69.196.142-解锁日本地区NF非自制剧
-  type: vmess
-  server: v4.ssrsub.com
-  network: ws
-  port: 166
+  port: 443
   uuid: 535c9eef-40a3-4767-9253-706b0b128ed5
   alterId: 4
   cipher: auto
