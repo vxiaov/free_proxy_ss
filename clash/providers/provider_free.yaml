@@ -353,12 +353,6 @@ proxies:
     password: faBAoD54k87UJG7
     port: 2376
     cipher: aes-256-gcm
-  - name: "\U0001F1EF\U0001F1F5:日本-ss-172.105.232.147:5004-可用-直连-不支持Netflix"
-    type: ss
-    server: 172.105.232.147
-    password: g5MeD6Ft3CWlJId
-    port: 5004
-    cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-192.46.209.17:8119-可用-直连-仅支持印度地区NF自制剧"
     type: ss
     server: 192.46.209.17
@@ -659,12 +653,6 @@ proxies:
     password: FoOiGlkAA9yPEGP
     port: 7306
     cipher: aes-256-gcm
-  - name: "\U0001F1EF\U0001F1F5:日本-ss-139.162.116.239:8118-可用-直连-仅支持日本地区NF自制剧"
-    type: ss
-    server: 139.162.116.239
-    password: cdBIDV42DCwnfIN
-    port: 8118
-    cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-172.104.207.231:8091-可用-直连-仅支持印度地区NF自制剧"
     type: ss
     server: 172.104.207.231
@@ -851,6 +839,12 @@ proxies:
     password: KixLvKzwjekG00rm
     port: 5500
     cipher: aes-256-gcm
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-117.164.185.71:12576-可用-中转:1.65.202.24-解锁台湾地区NF非自制剧"
+    type: ss
+    server: 117.164.185.71
+    password: 29bbe1a0-e2d2-4e83-975b-6dcec7e2e700
+    port: 12576
+    cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-38.107.226.48:5601-可用-直连-仅支持美国地区NF自制剧"
     type: ss
     server: 38.107.226.48
@@ -898,12 +892,6 @@ proxies:
     server: 134.195.196.44
     password: PCnnH6SQSnfoS27
     port: 8091
-    cipher: aes-256-gcm
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-101.230.149.38:32634-可用-中转:203.175.13.240-解锁香港地区NF非自制剧"
-    type: ss
-    server: 101.230.149.38
-    password: 22efb2e7-d417-4fb3-bfb7-9e62ac6aa038
-    port: 32634
     cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-142.202.48.34:8009-可用-直连-仅支持美国地区NF自制剧"
     type: ss
@@ -1047,22 +1035,10 @@ proxies:
     cipher: aes-128-cfb
     protocol-param: ""
     obfs-param: ""
-  - name: "\U0001F1F0\U0001F1F7:韩国-vmess-v11.ssrsub.com:166-可用-中转:193.123.232.214-解锁韩国地区NF非自制剧"
-    type: vmess
-    server: v11.ssrsub.com
-    network: ws
-    port: 166
-    uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e
-    alterId: 4
-    cipher: auto
-    udp: false
-    tls: true
-    ws-path: /ssrsub
-  - name: "\U0001F1FA\U0001F1F8:美国-trojan-t9.ssrsub.com:8443-可用-中转:150.230.215.123-解锁日本地区NF非自制剧"
+  - name: "\U0001F1E8\U0001F1F3:中国-trojan-keli.scsevers.cf:443-可用-中转:116.48.233.185-仅支持香港地区NF自制剧"
     type: trojan
-    server: t9.ssrsub.com
-    password: 916251fa-6aa5-459d-b7a1-968b49a01e4e
+    server: keli.scsevers.cf
+    password: sharecentre
     udp: true
     skip-cert-verify: true
-    sni: t9.ssrsub.com
-    port: 8443
+    port: 443
