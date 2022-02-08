@@ -1,4 +1,10 @@
 proxies:
+- name: 🇺🇸:美国-ss-167.88.63.28:3389-可用-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.63.28
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.63.71:5003-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.63.71
@@ -23,6 +29,12 @@ proxies:
   password: G!yBwPWH3Vao
   port: 807
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-167.88.63.74:443-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.63.74
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-38.68.134.85:7307-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 38.68.134.85
@@ -34,6 +46,12 @@ proxies:
   server: 167.88.63.108
   password: faBAoD54k87UJG7
   port: 2376
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-38.75.136.58:3389-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 38.75.136.58
+  password: Y6R9pAtvxxzmGC
+  port: 3389
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.62.104:5500-被墙-直连-解锁美国地区NF非自制剧
   type: ss
@@ -136,12 +154,6 @@ proxies:
   server: 38.68.134.190
   password: Y6R9pAtvxxzmGC
   port: 3389
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-38.75.136.58:5003-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 38.75.136.58
-  password: g5MeD6Ft3CWlJId
-  port: 5003
   cipher: aes-256-gcm
 - name: 🇳🇴:挪威-ss-46.29.218.6:6379-被墙-直连-解锁挪威地区NF非自制剧
   type: ss
@@ -293,9 +305,84 @@ proxies:
   password: G!yBwPWH3Vao
   port: 810
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-38.75.137.187:2376-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 38.75.137.187
-  password: faBAoD54k87UJG7
-  port: 2376
-  cipher: aes-256-gcm
+- name: 🇨🇳:中国-ssr-106.52.33.67:40326-可用-中转:223.26.73.194-解锁台湾地区NF非自制剧
+  type: ssr
+  server: 106.52.33.67
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 40326
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇨🇳:中国-ssr-106.52.33.67:40341-可用-中转:223.26.73.194-解锁台湾地区NF非自制剧
+  type: ssr
+  server: 106.52.33.67
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 40341
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇨🇳:中国-ssr-106.52.33.67:40378-可用-中转:223.26.73.194-解锁台湾地区NF非自制剧
+  type: ssr
+  server: 106.52.33.67
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 40378
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇺🇸:美国-ssr-13.38.75.17:8181-可用-直连-解锁法国地区NF非自制剧
+  type: ssr
+  server: 13.38.75.17
+  password: gVWc0WaJn
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8181
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇨🇳:中国-ssr-106.52.33.67:40306-可用-中转:223.26.73.194-解锁台湾地区NF非自制剧
+  type: ssr
+  server: 106.52.33.67
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 40306
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇨🇳:中国-ssr-106.52.33.67:40344-可用-中转:223.26.73.194-解锁台湾地区NF非自制剧
+  type: ssr
+  server: 106.52.33.67
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 40344
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬:新加坡-ssr-54.169.137.68:8181-可用-直连-解锁新加坡地区NF非自制剧
+  type: ssr
+  server: 54.169.137.68
+  password: kKdNNt2HZ
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8181
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇰🇷:韩国-vmess-v11.ssrsub.com:166-可用-中转:193.123.232.214-解锁韩国地区NF非自制剧
+  type: vmess
+  server: v11.ssrsub.com
+  network: ws
+  port: 166
+  uuid: 535c9eef-40a3-4767-9253-706b0b128ed5
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /ssrsub
