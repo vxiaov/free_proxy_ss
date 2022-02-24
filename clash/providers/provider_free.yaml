@@ -257,12 +257,6 @@ proxies:
   password: e4FCWrgpkji3QY
   port: 9102
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-gzyd.wozcjd.xyz:11320-可用-中转:103.173.155.125-解锁越南地区NF非自制剧
-  type: ss
-  server: gzyd.wozcjd.xyz
-  password: c753e8a8-e180-4e76-a486-c917273d718b
-  port: 11320
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-134.195.196.200:7002-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 134.195.196.200
@@ -281,12 +275,6 @@ proxies:
   password: FoOiGlkAA9yPEGP
   port: 7306
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-120.232.192.187:11320-可用-中转:103.173.155.125-解锁越南地区NF非自制剧
-  type: ss
-  server: 120.232.192.187
-  password: c753e8a8-e180-4e76-a486-c917273d718b
-  port: 11320
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-169.197.141.91:5004-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 169.197.141.91
@@ -322,6 +310,12 @@ proxies:
   server: 117.28.243.220
   password: passinfo123
   port: 8221
+  cipher: rc4-md5
+- name: 🇨🇳:中国-ss-117.28.243.141:6149-可用-中转:49.51.170.149-仅支持德国地区NF自制剧
+  type: ss
+  server: 117.28.243.141
+  password: passinfo123
+  port: 6149
   cipher: rc4-md5
 - name: 🇨🇳:中国-ss-117.28.243.220:8147-可用-中转:119.28.245.147-仅支持印度地区NF自制剧
   type: ss
@@ -383,6 +377,12 @@ proxies:
   password: passinfo123
   port: 6112
   cipher: rc4-md5
+- name: 🇨🇳:中国-ss-117.28.243.220:8186-可用-中转:151.106.4.186-仅支持法国地区NF自制剧
+  type: ss
+  server: 117.28.243.220
+  password: passinfo123
+  port: 8186
+  cipher: rc4-md5
 - name: 🇨🇳:中国-ss-117.28.243.154:6145-可用-中转:210.61.156.145-解锁台湾地区NF非自制剧
   type: ss
   server: 117.28.243.154
@@ -395,6 +395,16 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
+- name: 🇮🇳:印度-ssr-52.66.194.122:8080-可用-直连-仅支持印度地区NF自制剧
+  type: ssr
+  server: 52.66.194.122
+  password: fD0KP8PWA
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8080
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 🇬🇧:英国-ssr-uk-am3-5.eqsunshine.com:8181-可用-中转:35.177.152.213-仅支持英国地区NF自制剧
   type: ssr
   server: uk-am3-5.eqsunshine.com
@@ -505,16 +515,6 @@ proxies:
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 🇨🇳:中国-ssr-159.75.50.77:40026-可用-中转:210.61.201.124-解锁台湾地区NF非自制剧
-  type: ssr
-  server: 159.75.50.77
-  password: QazEdcTgb159@$*
-  obfs: plain
-  protocol: origin
-  port: 40026
-  cipher: aes-128-cfb
-  protocol-param: ''
-  obfs-param: ''
 - name: 🇨🇳:中国-ssr-159.75.50.77:40033-可用-中转:210.61.201.124-解锁台湾地区NF非自制剧
   type: ssr
   server: 159.75.50.77
@@ -532,6 +532,16 @@ proxies:
   obfs: plain
   protocol: origin
   port: 40306
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇨🇳:中国-ssr-159.75.50.77:40067-可用-中转:210.61.201.124-解锁台湾地区NF非自制剧
+  type: ssr
+  server: 159.75.50.77
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 40067
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
@@ -605,6 +615,16 @@ proxies:
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
+- name: 🇮🇳:印度-ssr-in-am2.eqnode.net:8080-可用-中转:52.66.194.122-仅支持印度地区NF自制剧
+  type: ssr
+  server: in-am2.eqnode.net
+  password: fD0KP8PWA
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8080
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 🇯🇵:日本-ssr-54.199.162.25:8081-可用-直连-解锁日本地区NF非自制剧
   type: ssr
   server: 54.199.162.25
@@ -612,16 +632,6 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol: origin
   port: 8081
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
-- name: 🇺🇸:美国-ssr-sy-am2.eqsunshine.com:443-可用-中转:13.211.233.204-仅支持澳大利亚地区NF自制剧
-  type: ssr
-  server: sy-am2.eqsunshine.com
-  password: Jz8r4gLNP
-  obfs: tls1.2_ticket_auth
-  protocol: origin
-  port: 443
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
