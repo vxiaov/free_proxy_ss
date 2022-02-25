@@ -23,6 +23,12 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 5001
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-134.195.196.147:6697-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 134.195.196.147
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.193:5600-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 134.195.196.193
@@ -70,12 +76,6 @@ proxies:
   server: 172.99.190.205
   password: TEzjfAYq2IjtuoS
   port: 6679
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-134.195.196.147:7002-可用-直连-仅支持加拿大地区NF自制剧
-  type: ss
-  server: 134.195.196.147
-  password: RexnBgU7EV5ADxG
-  port: 7002
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.200:6679-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
@@ -220,12 +220,6 @@ proxies:
   server: 117.28.243.141
   password: passinfo123
   port: 6112
-  cipher: rc4-md5
-- name: 🇨🇳:中国-ss-117.28.243.220:8186-可用-中转:151.106.4.186-仅支持法国地区NF自制剧
-  type: ss
-  server: 117.28.243.220
-  password: passinfo123
-  port: 8186
   cipher: rc4-md5
 - name: 🇺🇸:美国-ss-169.197.141.91:5004-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
@@ -373,69 +367,3 @@ proxies:
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 🇨🇳:中国-vmess-jike1-gzyd.jiserver.xyz:29893-可用-中转:31.25.89.27-仅支持德国地区NF自制剧
-  type: vmess
-  server: jike1-gzyd.jiserver.xyz
-  network: ws
-  port: 29893
-  uuid: 57d899db-bd20-3c52-b4e9-cf1b4070b328
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /jike1
-- name: 🇨🇳:中国-vmess-shlt.jiserver.xyz:39403-可用-中转:212.107.31.248-仅支持日本地区NF自制剧
-  type: vmess
-  server: shlt.jiserver.xyz
-  network: ws
-  port: 39403
-  uuid: 57d899db-bd20-3c52-b4e9-cf1b4070b328
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /jike1
-- name: 🇨🇳:中国-vmess-shlt.jiserver.xyz:39401-可用-中转:212.107.31.248-仅支持日本地区NF自制剧
-  type: vmess
-  server: shlt.jiserver.xyz
-  network: ws
-  port: 39401
-  uuid: 57d899db-bd20-3c52-b4e9-cf1b4070b328
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /jike1
-- name: 🇨🇳:中国-vmess-jike-gzyd.jiserver.xyz:29853-可用-中转:185.212.61.23-仅支持新加坡地区NF自制剧
-  type: vmess
-  server: jike-gzyd.jiserver.xyz
-  network: ws
-  port: 29853
-  uuid: 57d899db-bd20-3c52-b4e9-cf1b4070b328
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /jike1
-- name: 🇨🇳:中国-vmess-jike1-gzyd.jiserver.xyz:39601-可用-中转:38.94.110.192-仅支持美国地区NF自制剧
-  type: vmess
-  server: jike1-gzyd.jiserver.xyz
-  network: ws
-  port: 39601
-  uuid: 57d899db-bd20-3c52-b4e9-cf1b4070b328
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /jike1
-- name: 🇨🇳:中国-vmess-jike1-gzyd.jiserver.xyz:38555-可用-中转:192.53.114.180-仅支持新加坡地区NF自制剧
-  type: vmess
-  server: jike1-gzyd.jiserver.xyz
-  network: ws
-  port: 38555
-  uuid: 57d899db-bd20-3c52-b4e9-cf1b4070b328
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /jike1
