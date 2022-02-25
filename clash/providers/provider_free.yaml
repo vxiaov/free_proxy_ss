@@ -1,4 +1,10 @@
 proxies:
+- name: 🇺🇸:美国-ss-172.99.190.188:5601-可用-直连-仅支持英国地区NF自制剧
+  type: ss
+  server: 172.99.190.188
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.193:5001-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 134.195.196.193
@@ -10,6 +16,12 @@ proxies:
   server: 149.202.82.172
   password: Y6R9pAtvxxzmGC
   port: 8888
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-172.99.190.188:443-可用-直连-仅支持英国地区NF自制剧
+  type: ss
+  server: 172.99.190.188
+  password: pKEW8JPByTVTLtM
+  port: 443
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.147:8882-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
@@ -34,12 +46,6 @@ proxies:
   server: 134.195.196.147
   password: PCnnH6SQSnfoS27
   port: 8090
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-172.99.190.188:2376-可用-直连-仅支持英国地区NF自制剧
-  type: ss
-  server: 172.99.190.188
-  password: faBAoD54k87UJG7
-  port: 2376
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.147:5601-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
@@ -137,11 +143,11 @@ proxies:
   password: cdBIDV42DCwnfIN
   port: 8118
   cipher: aes-256-gcm
-- name: 🇫🇷:法国-ss-149.202.82.172:6379-可用-直连-完全不支持NF
+- name: 🇫🇷:法国-ss-149.202.82.172:2376-可用-直连-完全不支持NF
   type: ss
   server: 149.202.82.172
-  password: zDNVedRFPQexG9v
-  port: 6379
+  password: faBAoD54k87UJG7
+  port: 2376
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.193:8090-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
@@ -155,24 +161,12 @@ proxies:
   password: kDWvXYZoTBcGkC4
   port: 8881
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-172.99.190.188:8119-可用-直连-仅支持英国地区NF自制剧
-  type: ss
-  server: 172.99.190.188
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.200:9102-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 134.195.196.200
   password: e4FCWrgpkji3QY
   port: 9102
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-gzyd.wozcjd.xyz:11320-可用-中转:103.173.155.125-解锁越南地区NF非自制剧
-  type: ss
-  server: gzyd.wozcjd.xyz
-  password: c753e8a8-e180-4e76-a486-c917273d718b
-  port: 11320
-  cipher: chacha20-ietf-poly1305
 - name: 🇨🇳:中国-ss-120.197.85.13:11320-可用-中转:103.173.155.125-解锁越南地区NF非自制剧
   type: ss
   server: 120.197.85.13
@@ -263,6 +257,12 @@ proxies:
   password: passinfo123
   port: 6149
   cipher: rc4-md5
+- name: 🇨🇳:中国-ss-gzyd.wozcjd.xyz:11320-可用-中转:103.173.155.125-解锁越南地区NF非自制剧
+  type: ss
+  server: gzyd.wozcjd.xyz
+  password: c753e8a8-e180-4e76-a486-c917273d718b
+  port: 11320
+  cipher: chacha20-ietf-poly1305
 - name: 🇨🇳:中国-ss-117.28.243.164:8007-可用-中转:59.125.11.159-仅支持台湾地区NF自制剧
   type: ss
   server: 117.28.243.164
@@ -287,6 +287,12 @@ proxies:
   password: passinfo123
   port: 8329
   cipher: rc4-md5
+- name: 🇨🇳:中国-ss-117.28.243.173:4173-可用-中转:206.119.125.97-仅支持香港地区NF自制剧
+  type: ss
+  server: 117.28.243.173
+  password: passinfo123
+  port: 4173
+  cipher: rc4-md5
 - name: 🇨🇳:中国-ss-117.28.243.220:8045-可用-中转:162.62.34.45-仅支持俄罗斯联邦地区NF自制剧
   type: ss
   server: 117.28.243.220
@@ -310,6 +316,12 @@ proxies:
   server: 117.28.243.141
   password: passinfo123
   port: 6112
+  cipher: rc4-md5
+- name: 🇨🇳:中国-ss-117.28.243.220:8186-可用-中转:151.106.4.186-仅支持法国地区NF自制剧
+  type: ss
+  server: 117.28.243.220
+  password: passinfo123
+  port: 8186
   cipher: rc4-md5
 - name: 🇺🇸:美国-ss-169.197.141.91:5004-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
@@ -343,7 +355,7 @@ proxies:
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 🇺🇸:美国-ssr-13.213.8.208:8181-可用-直连-不支持Netflix
+- name: 🇺🇸:美国-ssr-13.213.8.208:8181-可用-直连-仅支持新加坡地区NF自制剧
   type: ssr
   server: 13.213.8.208
   password: kKdNNt2HZ
@@ -503,16 +515,6 @@ proxies:
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 🇨🇳:中国-ssr-106.52.33.67:40326-可用-中转:223.26.73.194-仅支持台湾地区NF自制剧
-  type: ssr
-  server: 106.52.33.67
-  password: QazEdcTgb159@$*
-  obfs: plain
-  protocol: origin
-  port: 40326
-  cipher: aes-128-cfb
-  protocol-param: ''
-  obfs-param: ''
 - name: 🇮🇳:印度-ssr-in-am2.eqnode.net:8080-可用-中转:52.66.194.122-仅支持印度地区NF自制剧
   type: ssr
   server: in-am2.eqnode.net
@@ -521,6 +523,16 @@ proxies:
   protocol: origin
   port: 8080
   cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇨🇳:中国-ssr-106.52.33.67:40368-可用-中转:223.26.73.194-仅支持台湾地区NF自制剧
+  type: ssr
+  server: 106.52.33.67
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 40368
+  cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
 - name: 🇨🇳:中国-vmess-120.233.73.15:65015-可用-中转:51.79.206.247-完全不支持NF
