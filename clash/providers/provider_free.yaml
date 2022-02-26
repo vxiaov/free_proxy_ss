@@ -41,12 +41,6 @@ proxies:
   password: zDNVedRFPQexG9v
   port: 6379
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-134.195.196.147:8882-可用-直连-仅支持加拿大地区NF自制剧
-  type: ss
-  server: 134.195.196.147
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-172.99.190.188:7307-可用-直连-仅支持英国地区NF自制剧
   type: ss
   server: 172.99.190.188
@@ -77,12 +71,6 @@ proxies:
   password: RexnBgU7EV5ADxG
   port: 7002
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-134.195.196.147:8090-可用-直连-仅支持加拿大地区NF自制剧
-  type: ss
-  server: 134.195.196.147
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-172.99.190.205:8090-可用-直连-仅支持英国地区NF自制剧
   type: ss
   server: 172.99.190.205
@@ -92,6 +80,12 @@ proxies:
 - name: 🇫🇷:法国-ss-149.202.82.172:8009-可用-直连-完全不支持NF
   type: ss
   server: 149.202.82.172
+  password: XKFKl2rULjIp74
+  port: 8009
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-134.195.196.147:8009-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 134.195.196.147
   password: XKFKl2rULjIp74
   port: 8009
   cipher: aes-256-gcm
@@ -106,6 +100,12 @@ proxies:
   server: 134.195.196.147
   password: zDNVedRFPQexG9v
   port: 6379
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-134.195.196.147:5500-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 134.195.196.147
+  password: KixLvKzwjekG00rm
+  port: 5500
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-172.99.190.205:6679-可用-直连-仅支持英国地区NF自制剧
   type: ss
@@ -167,6 +167,12 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 5601
   cipher: aes-256-gcm
+- name: 🇷🇺:俄罗斯-ss-5.188.111.182:826-可用-直连-仅支持美国地区NF自制剧
+  type: ss
+  server: 5.188.111.182
+  password: sF43Xt2gONqcgFX563
+  port: 826
+  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-169.197.141.91:6379-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 169.197.141.91
@@ -203,7 +209,7 @@ proxies:
   password: passinfo123
   port: 8239
   cipher: rc4-md5
-- name: 🇨🇳:中国-ss-117.28.243.220:8036-可用-中转:203.69.151.35-仅支持台湾地区NF自制剧
+- name: 🇨🇳:中国-ss-117.28.243.220:8036-可用-中转:203.69.151.35-解锁台湾地区NF非自制剧
   type: ss
   server: 117.28.243.220
   password: passinfo123
@@ -221,7 +227,7 @@ proxies:
   password: passinfo123
   port: 8147
   cipher: rc4-md5
-- name: 🇨🇳:中国-ss-117.28.243.164:8007-可用-中转:59.125.11.159-解锁台湾地区NF非自制剧
+- name: 🇨🇳:中国-ss-117.28.243.164:8007-可用-中转:59.125.11.159-仅支持台湾地区NF自制剧
   type: ss
   server: 117.28.243.164
   password: passinfo123
@@ -250,6 +256,12 @@ proxies:
   server: 117.28.243.173
   password: passinfo123
   port: 4173
+  cipher: rc4-md5
+- name: 🇨🇳:中国-ss-117.28.243.220:8254-可用-中转:206.119.125.102-解锁香港地区NF非自制剧
+  type: ss
+  server: 117.28.243.220
+  password: passinfo123
+  port: 8254
   cipher: rc4-md5
 - name: 🇨🇳:中国-ss-117.28.243.220:8045-可用-中转:162.62.34.45-仅支持俄罗斯联邦地区NF自制剧
   type: ss
