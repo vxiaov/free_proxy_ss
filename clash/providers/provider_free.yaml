@@ -5,17 +5,23 @@ proxies:
   password: KixLvKzwjekG00rm
   port: 8080
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-172.99.190.188:5601-可用-直连-仅支持英国地区NF自制剧
+- name: 🇫🇷:法国-ss-149.202.82.172:6697-可用-直连-完全不支持NF
   type: ss
-  server: 172.99.190.188
-  password: Y6R9pAtvxxzmGC
-  port: 5601
+  server: 149.202.82.172
+  password: TEzjfAYq2IjtuoS
+  port: 6697
   cipher: aes-256-gcm
 - name: 🇫🇷:法国-ss-149.202.82.172:5500-可用-直连-完全不支持NF
   type: ss
   server: 149.202.82.172
   password: KixLvKzwjekG00rm
   port: 5500
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-172.99.190.188:443-可用-直连-仅支持英国地区NF自制剧
+  type: ss
+  server: 172.99.190.188
+  password: pKEW8JPByTVTLtM
+  port: 443
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.147:8882-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
@@ -137,6 +143,12 @@ proxies:
   password: kDWvXYZoTBcGkC4
   port: 8881
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-gzyd.wozcjd.xyz:11320-可用-中转:103.173.155.125-解锁越南地区NF非自制剧
+  type: ss
+  server: gzyd.wozcjd.xyz
+  password: c753e8a8-e180-4e76-a486-c917273d718b
+  port: 11320
+  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-172.99.190.188:9101-可用-直连-仅支持英国地区NF自制剧
   type: ss
   server: 172.99.190.188
@@ -154,12 +166,6 @@ proxies:
   server: 134.195.196.193
   password: kDWvXYZoTBcGkC4
   port: 8882
-  cipher: aes-256-gcm
-- name: 🇫🇷:法国-ss-149.202.82.172:7002-可用-直连-完全不支持NF
-  type: ss
-  server: 149.202.82.172
-  password: RexnBgU7EV5ADxG
-  port: 7002
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-172.99.190.92:443-可用-直连-仅支持英国地区NF自制剧
   type: ss
@@ -179,12 +185,6 @@ proxies:
   password: zDNVedRFPQexG9v
   port: 6379
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-117.28.243.220:8076-可用-中转:180.215.208.76-解锁香港地区NF非自制剧
-  type: ss
-  server: 117.28.243.220
-  password: passinfo123
-  port: 8076
-  cipher: rc4-md5
 - name: 🇺🇸:美国-ss-169.197.141.91:5001-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 169.197.141.91
@@ -202,6 +202,12 @@ proxies:
   server: 206.119.125.70
   password: passinfo123
   port: 8282
+  cipher: rc4-md5
+- name: 🇨🇳:中国-ss-117.28.243.220:8036-可用-中转:203.69.151.35-解锁台湾地区NF非自制剧
+  type: ss
+  server: 117.28.243.220
+  password: passinfo123
+  port: 8036
   cipher: rc4-md5
 - name: 🇨🇳:中国-ss-117.28.243.141:6149-可用-中转:49.51.170.149-仅支持德国地区NF自制剧
   type: ss
