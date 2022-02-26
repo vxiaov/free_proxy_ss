@@ -149,6 +149,12 @@ proxies:
   password: c753e8a8-e180-4e76-a486-c917273d718b
   port: 11320
   cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-www.125368.cloud:22345-可用-中转:159.223.77.22-不支持Netflix
+  type: ss
+  server: www.125368.cloud
+  password: '0'
+  port: 22345
+  cipher: chacha20-ietf-poly1305
 - name: 🇫🇷:法国-ss-51.255.66.185:7306-可用-直连-完全不支持NF
   type: ss
   server: 51.255.66.185
@@ -490,69 +496,3 @@ proxies:
   udp: false
   tls: true
   ws-path: /
-- name: 🇨🇳:中国-vmess-c4jrauwu5v.eastasia.cloudapp.azure.com:61690-可用-中转:3.110.170.234-仅支持印度地区NF自制剧
-  type: vmess
-  server: c4jrauwu5v.eastasia.cloudapp.azure.com
-  network: ws
-  port: 61690
-  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-microsoft.uwpapp.chacha20.xyz:443-可用-中转:18.162.52.65-仅支持香港地区NF自制剧
-  type: vmess
-  server: microsoft.uwpapp.chacha20.xyz
-  network: ws
-  port: 443
-  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /uwpstore
-- name: 🇺🇸:美国-vmess-onedrive.chacha20.xyz:443-可用-中转:16.162.119.184-仅支持香港地区NF自制剧
-  type: vmess
-  server: onedrive.chacha20.xyz
-  network: ws
-  port: 443
-  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /onedrive
-- name: 🇺🇸:美国-vmess-microsoft.data.chacha20.xyz:443-可用-中转:18.166.75.23-仅支持香港地区NF自制剧
-  type: vmess
-  server: microsoft.data.chacha20.xyz
-  network: ws
-  port: 443
-  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /download
-- name: 🇨🇳:中国-vmess-c4jrauwu5v.eastasia.cloudapp.azure.com:59572-可用-中转:138.2.122.32-解锁韩国地区NF非自制剧
-  type: vmess
-  server: c4jrauwu5v.eastasia.cloudapp.azure.com
-  network: ws
-  port: 59572
-  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-update.office.chacha20.xyz:443-可用-中转:16.163.148.70-仅支持香港地区NF自制剧
-  type: vmess
-  server: update.office.chacha20.xyz
-  network: ws
-  port: 443
-  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /version
