@@ -41,6 +41,12 @@ proxies:
   password: KixLvKzwjekG00rm
   port: 5500
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-172.99.190.205:6379-可用-直连-仅支持英国地区NF自制剧
+  type: ss
+  server: 172.99.190.205
+  password: zDNVedRFPQexG9v
+  port: 6379
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.147:8882-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 134.195.196.147
@@ -137,17 +143,11 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 8888
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-134.195.196.193:6379-可用-直连-仅支持加拿大地区NF自制剧
+- name: 🇺🇸:美国-ss-134.195.196.193:443-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 134.195.196.193
-  password: zDNVedRFPQexG9v
-  port: 6379
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-172.99.190.205:8091-可用-直连-仅支持英国地区NF自制剧
-  type: ss
-  server: 172.99.190.205
-  password: PCnnH6SQSnfoS27
-  port: 8091
+  password: pKEW8JPByTVTLtM
+  port: 443
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-172.99.190.188:9102-可用-直连-仅支持英国地区NF自制剧
   type: ss
@@ -221,6 +221,12 @@ proxies:
   password: passinfo123
   port: 8282
   cipher: rc4-md5
+- name: 🇨🇳:中国-ss-117.28.243.220:8036-可用-中转:203.69.151.35-解锁台湾地区NF非自制剧
+  type: ss
+  server: 117.28.243.220
+  password: passinfo123
+  port: 8036
+  cipher: rc4-md5
 - name: 🇨🇳:中国-ss-117.28.243.141:6149-可用-中转:49.51.170.149-仅支持德国地区NF自制剧
   type: ss
   server: 117.28.243.141
@@ -280,6 +286,12 @@ proxies:
   server: 117.28.243.141
   password: passinfo123
   port: 6112
+  cipher: rc4-md5
+- name: 🇨🇳:中国-ss-117.28.243.220:8186-可用-中转:151.106.4.186-仅支持法国地区NF自制剧
+  type: ss
+  server: 117.28.243.220
+  password: passinfo123
+  port: 8186
   cipher: rc4-md5
 - name: 🇺🇸:美国-ss-169.197.141.91:5004-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
@@ -463,6 +475,17 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
+- name: 🇺🇸:美国-vmess-033.AP.POP.BIGAIRPORT.NET:12356-可用-中转:35.76.107.189-不支持Netflix
+  type: vmess
+  server: 033.AP.POP.BIGAIRPORT.NET
+  network: ws
+  port: 12356
+  uuid: cdda042c-0efd-4e49-9550-d8a6fc9f2254
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇨🇳:中国-vmess-hk-az-5.licom.ga:80-可用-中转:104.208.109.130-仅支持香港地区NF自制剧
   type: vmess
   server: hk-az-5.licom.ga
@@ -485,28 +508,6 @@ proxies:
   udp: false
   tls: true
   ws-path: /
-- name: 🇨🇳:中国-vmess-120.233.10.245:39201-可用-中转:1.164.139.95-解锁台湾地区NF非自制剧
-  type: vmess
-  server: 120.233.10.245
-  network: ws
-  port: 39201
-  uuid: 868c63d1-e59c-3634-a93f-fc1d50c67cc0
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /jike1
-- name: 🇨🇳:中国-vmess-120.233.10.254:38567-可用-中转:192.46.229.145-仅支持新加坡地区NF自制剧
-  type: vmess
-  server: 120.233.10.254
-  network: ws
-  port: 38567
-  uuid: 868c63d1-e59c-3634-a93f-fc1d50c67cc0
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /jike1
 - name: 🇯🇵:日本-vmess-172.105.222.98:80-可用-直连-仅支持日本地区NF自制剧
   type: vmess
   server: 172.105.222.98
