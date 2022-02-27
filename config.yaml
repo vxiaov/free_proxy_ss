@@ -645,17 +645,6 @@ proxies:
     cipher: aes-128-cfb
     protocol-param: ""
     obfs-param: ""
-  - name: "\U0001F1EF\U0001F1F5:日本-vmess-3.ezydfdd.com:443-可用-中转:103.228.168.182-解锁日本地区NF非自制剧"
-    type: vmess
-    server: 3.ezydfdd.com
-    network: ws
-    port: 443
-    uuid: 71398e51-4573-46b5-aa21-22e210f2979b
-    alterId: 4
-    cipher: auto
-    udp: false
-    tls: true
-    ws-path: /qwe
 # 类型选择 简介
 # select : 用于选择代理或代理组, 可以通过 RESTful API 来切换代理，建议在 GUI 中使用
 # load-balance : 相同eTLD+1的请求将拨号到同一个代理。
@@ -704,7 +693,6 @@ proxy-groups:
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.147:443-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-13.213.70.155:25147-可用-直连-仅支持新加坡地区NF自制剧"
       - "\U0001F1F8\U0001F1EC:新加坡-ss-52.221.188.166:35641-可用-直连-仅支持新加坡地区NF自制剧"
-      - "\U0001F1EF\U0001F1F5:日本-vmess-3.ezydfdd.com:443-可用-中转:103.228.168.182-解锁日本地区NF非自制剧"
       - "\U0001F1EB\U0001F1F7:法国-ss-62.210.209.50:3306-可用-直连-仅支持法国地区NF自制剧"
       - "\U0001F1EB\U0001F1F7:法国-ss-51.255.66.185:7306-可用-直连-完全不支持NF"
       - "\U0001F1EB\U0001F1F7:法国-ss-149.202.82.172:9101-可用-直连-完全不支持NF"
@@ -835,7 +823,6 @@ proxy-groups:
       - DIRECT
       - "\U0001F1FA\U0001F1F8:美国-ss-gzyd.wozcjd.xyz:11320-可用-中转:103.173.155.125-解锁越南地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-20.205.113.33:11320-可用-中转:103.173.155.125-解锁越南地区NF非自制剧"
-      - "\U0001F1EF\U0001F1F5:日本-vmess-3.ezydfdd.com:443-可用-中转:103.228.168.182-解锁日本地区NF非自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-117.28.243.164:8007-可用-中转:59.125.11.159-解锁台湾地区NF非自制剧"
   - name: 入口代理组
     # 中继代理组,不支持UDP协议。线路: clash <-> vmess <-> ss1 <-> ss2 <-> Internet
