@@ -1,28 +1,4 @@
 proxies:
-- name: 🇺🇸:美国-ss-167.88.63.99:8090-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.63.99
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.63.107:2375-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.63.107
-  password: faBAoD54k87UJG7
-  port: 2375
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-38.75.137.187:2375-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 38.75.137.187
-  password: faBAoD54k87UJG7
-  port: 2375
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.63.99:8091-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.63.99
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-38.68.134.37:8090-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 38.68.134.37
@@ -227,36 +203,48 @@ proxies:
   password: passinfo123
   port: 8007
   cipher: rc4-md5
-- name: 🇨🇳:中国-ss-117.28.243.220:8254-可用-中转:206.119.125.102-解锁香港地区NF非自制剧
+- name: 🇨🇳:中国-ss-117.28.243.173:4173-可用-中转:206.119.125.97-解锁香港地区NF非自制剧
   type: ss
-  server: 117.28.243.220
+  server: 117.28.243.173
   password: passinfo123
-  port: 8254
+  port: 4173
   cipher: rc4-md5
-- name: 🇺🇸:美国-ss-38.75.137.187:2376-被墙-直连-解锁美国地区NF非自制剧
+- name: 🇺🇸:美国-ss-38.75.137.187:8080-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 38.75.137.187
-  password: faBAoD54k87UJG7
-  port: 2376
+  password: KixLvKzwjekG00rm
+  port: 8080
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-38.68.134.196:812-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 38.68.134.196
-  password: G!yBwPWH3Vao
-  port: 812
-  cipher: chacha20-ietf-poly1305
-- name: 🇮🇱:以色列-ss-31.133.100.49:50004-被墙-直连-解锁以色列地区NF非自制剧
-  type: ss
-  server: 31.133.100.49
-  password: '4415934295'
-  port: 50004
-  cipher: aes-256-cfb
 - name: 🇨🇳:中国-ss-59.125.11.158:8158-被墙-中转:59.125.11.159-解锁台湾地区NF非自制剧
   type: ss
   server: 59.125.11.158
   password: passinfo123
   port: 8158
   cipher: rc4-md5
+- name: 🇺🇸:美国-ss-167.88.63.99:8090-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.63.99
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-167.88.63.107:2375-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.63.107
+  password: faBAoD54k87UJG7
+  port: 2375
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-38.75.137.187:2375-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 38.75.137.187
+  password: faBAoD54k87UJG7
+  port: 2375
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-167.88.63.99:8091-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.63.99
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  cipher: aes-256-gcm
 - name: 🇷🇺:俄罗斯-ss-83.217.9.76:989-被墙-直连-解锁俄罗斯联邦地区NF非自制剧
   type: ss
   server: 83.217.9.76
@@ -333,6 +321,16 @@ proxies:
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
+- name: 🇨🇳:中国-ssr-118.107.44.6:8329-可用-直连-解锁香港地区NF非自制剧
+  type: ssr
+  server: 118.107.44.6
+  password: passinfo123
+  obfs: plain
+  protocol: origin
+  port: 8329
+  cipher: rc4-md5
+  protocol-param: ''
+  obfs-param: ''
 - name: 🇨🇳:中国-ssr-106.52.33.67:40344-可用-中转:223.26.73.194-解锁台湾地区NF非自制剧
   type: ssr
   server: 106.52.33.67
@@ -343,3 +341,47 @@ proxies:
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
+- name: 🇻🇳:越南-vmess-45.125.236.247:50021-可用-直连-解锁越南地区NF非自制剧
+  type: vmess
+  server: 45.125.236.247
+  network: ws
+  port: 50021
+  uuid: 5e362a52-86fa-4372-eb9c-daf276c48cd7
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇺🇸:美国-vmess-154.17.0.117:54080-可用-直连-解锁美国地区NF非自制剧
+  type: vmess
+  server: 154.17.0.117
+  network: ws
+  port: 54080
+  uuid: 2ba66a53-87a5-47eb-bb27-b2d2c4833a32
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇨🇳:中国-vmess-61.222.202.140:33792-可用-直连-解锁台湾地区NF非自制剧
+  type: vmess
+  server: 61.222.202.140
+  network: ws
+  port: 33792
+  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇦🇺:澳大利亚-vmess-129.154.54.75:33004-可用-直连-解锁韩国地区NF非自制剧
+  type: vmess
+  server: 129.154.54.75
+  network: ws
+  port: 33004
+  uuid: 4f14695c-31b9-45bf-ca34-1d82170fc100
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
