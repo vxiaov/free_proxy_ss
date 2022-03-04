@@ -101,12 +101,6 @@ proxies:
   password: KixLvKzwjekG00rm
   port: 8080
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.61.175:6379-可用-直连-仅支持美国地区NF自制剧
-  type: ss
-  server: 167.88.61.175
-  password: zDNVedRFPQexG9v
-  port: 6379
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-38.143.66.71:8080-可用-直连-仅支持美国地区NF自制剧
   type: ss
   server: 38.143.66.71
@@ -281,12 +275,12 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 5001
   cipher: aes-256-gcm
-- name: 🇨🇦:加拿大-ss-198.57.27.172:8009-可用-直连-仅支持加拿大地区NF自制剧
+- name: 🇮🇹:意大利-ss-158.58.173.240:812-可用-中转:158.58.173.54-仅支持意大利地区NF自制剧
   type: ss
-  server: 198.57.27.172
-  password: XKFKl2rULjIp74
-  port: 8009
-  cipher: aes-256-gcm
+  server: 158.58.173.240
+  password: G!yBwPWH3Vao
+  port: 812
+  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-38.91.100.102:6379-可用-直连-仅支持美国地区NF自制剧
   type: ss
   server: 38.91.100.102
@@ -341,6 +335,12 @@ proxies:
   password: FoOiGlkAA9yPEGP
   port: 7307
   cipher: aes-256-gcm
+- name: 🇯🇵:日本-ss-85.208.110.138:5003-可用-直连-仅支持日本地区NF自制剧
+  type: ss
+  server: 85.208.110.138
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  cipher: aes-256-gcm
 - name: 🇷🇴:罗马尼亚-ss-188.241.83.130:809-可用-直连-仅支持法国地区NF自制剧
   type: ss
   server: 188.241.83.130
@@ -352,6 +352,12 @@ proxies:
   server: 145.239.7.164
   password: Y6R9pAtvxxzmGC
   port: 3389
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-167.88.61.175:8090-可用-直连-仅支持美国地区NF自制剧
+  type: ss
+  server: 167.88.61.175
+  password: PCnnH6SQSnfoS27
+  port: 8090
   cipher: aes-256-gcm
 - name: 🇩🇪:德国-ss-85.114.138.92:809-可用-直连-仅支持德国地区NF自制剧
   type: ss
@@ -377,12 +383,6 @@ proxies:
   password: FoOiGlkAA9yPEGP
   port: 7307
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-117.28.243.220:8076-可用-中转:180.215.208.76-仅支持香港地区NF自制剧
-  type: ss
-  server: 117.28.243.220
-  password: passinfo123
-  port: 8076
-  cipher: rc4-md5
 - name: 🇨🇳:中国-ss-117.28.243.220:8223-可用-中转:49.51.163.223-仅支持德国地区NF自制剧
   type: ss
   server: 117.28.243.220
@@ -485,19 +485,13 @@ proxies:
   password: FoOiGlkAA9yPEGP
   port: 7306
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-117.28.243.173:4173-可用-中转:206.119.125.98-解锁香港地区NF非自制剧
-  type: ss
-  server: 117.28.243.173
-  password: passinfo123
-  port: 4173
-  cipher: rc4-md5
 - name: 🇺🇸:美国-ss-38.91.102.86:8009-可用-直连-仅支持美国地区NF自制剧
   type: ss
   server: 38.91.102.86
   password: XKFKl2rULjIp74
   port: 8009
   cipher: aes-256-gcm
-- name: 🇯🇵:日本-ss-172.104.82.126:443-可用-直连-不支持Netflix
+- name: 🇯🇵:日本-ss-172.104.82.126:443-可用-直连-仅支持日本地区NF自制剧
   type: ss
   server: 172.104.82.126
   password: pKEW8JPByTVTLtM
