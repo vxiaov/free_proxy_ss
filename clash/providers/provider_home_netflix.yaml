@@ -113,24 +113,12 @@ proxies:
   password: RexnBgU7EV5ADxG
   port: 7002
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-134.195.196.3:443-可用-直连-仅支持加拿大地区NF自制剧
-  type: ss
-  server: 134.195.196.3
-  password: pKEW8JPByTVTLtM
-  port: 443
-  cipher: aes-256-gcm
 - name: 🇸🇬:新加坡-ss-172.104.168.83:8118-可用-直连-仅支持新加坡地区NF自制剧
   type: ss
   server: 172.104.168.83
   password: cdBIDV42DCwnfIN
   port: 8118
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-158.101.23.126:2222-可用-直连-仅支持美国地区NF自制剧
-  type: ss
-  server: 158.101.23.126
-  password: miaoge110
-  port: 2222
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-134.195.196.227:8888-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 134.195.196.227
@@ -203,6 +191,12 @@ proxies:
   password: FoOiGlkAA9yPEGP
   port: 7306
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-134.195.196.3:9101-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 134.195.196.3
+  password: e4FCWrgpkji3QY
+  port: 9101
+  cipher: aes-256-gcm
 - name: 🇸🇬:新加坡-ss-172.104.168.83:7307-可用-直连-仅支持新加坡地区NF自制剧
   type: ss
   server: 172.104.168.83
@@ -251,6 +245,12 @@ proxies:
   password: passinfo123
   port: 6149
   cipher: rc4-md5
+- name: 🇨🇳:中国-ss-117.28.243.164:8007-可用-中转:59.125.11.159-仅支持台湾地区NF自制剧
+  type: ss
+  server: 117.28.243.164
+  password: passinfo123
+  port: 8007
+  cipher: rc4-md5
 - name: 🇺🇸:美国-ss-107.148.211.118:8450-可用-中转:107.148.211.117-仅支持美国地区NF自制剧
   type: ss
   server: 107.148.211.118
@@ -281,23 +281,14 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
-- name: 🇨🇦:加拿大-ssr-ca-am3.eqnode.net:8080-可用-中转:15.222.4.204-仅支持加拿大地区NF自制剧
-  type: ssr
-  server: ca-am3.eqnode.net
-  password: 4axflHccX
-  obfs: tls1.2_ticket_auth
-  protocol: origin
-  port: 8080
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
-- name: 🇨🇳:中国-ssr-117.28.243.165:8051-可用-中转:206.119.125.85-仅支持香港地区NF自制剧
-  type: ssr
-  server: 117.28.243.165
-  password: passinfo123
-  obfs: plain
-  protocol: origin
-  port: 8051
-  cipher: rc4-md5
-  protocol-param: ''
-  obfs-param: ''
+- name: 🇨🇳:中国-vmess-hkaz2.scsevers.cf:28384-可用-中转:40.83.89.62-仅支持香港地区NF自制剧
+  type: vmess
+  server: hkaz2.scsevers.cf
+  network: ws
+  port: 28384
+  uuid: 99edaf0e-a24c-432c-edb4-ed0f2bd01af1
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
