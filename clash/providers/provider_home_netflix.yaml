@@ -245,3 +245,24 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ssr-13.40.120.115:8181-可用-直连-仅支持英国地区NF自制剧
+  type: ssr
+  server: 13.40.120.115
+  password: PNRbp3j9B
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8181
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇺🇸:美国-vmess-gongyius1.yigeweizhuang.com:2096-可用-中转:170.187.148.157-仅支持美国地区NF自制剧
+  type: vmess
+  server: gongyius1.yigeweizhuang.com
+  network: ws
+  port: 2096
+  uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /

@@ -251,18 +251,6 @@ proxies:
   password: RexnBgU7EV5ADxG
   port: 7001
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-14.29.124.174:20700-可用-中转:210.61.201.105-解锁台湾地区NF非自制剧
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 20700
-  cipher: aes-128-cfb
-- name: 🇬🇧:英国-ss-145.239.7.164:2376-可用-直连-完全不支持NF
-  type: ss
-  server: 145.239.7.164
-  password: faBAoD54k87UJG7
-  port: 2376
-  cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-117.28.243.141:6149-可用-中转:162.62.127.108-仅支持德国地区NF自制剧
   type: ss
   server: 117.28.243.141
@@ -299,6 +287,12 @@ proxies:
   password: passinfo123
   port: 8045
   cipher: rc4-md5
+- name: 🇬🇧:英国-ss-145.239.7.164:3389-可用-直连-完全不支持NF
+  type: ss
+  server: 145.239.7.164
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-117.28.243.141:6112-可用-中转:162.62.232.177-仅支持德国地区NF自制剧
   type: ss
   server: 117.28.243.141
@@ -323,3 +317,35 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ssr-13.40.120.115:8181-可用-直连-仅支持英国地区NF自制剧
+  type: ssr
+  server: 13.40.120.115
+  password: PNRbp3j9B
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8181
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇨🇭:瑞士-vmess-sw.gfwglass.tk:443-可用-中转:140.238.175.202-解锁瑞士地区NF非自制剧
+  type: vmess
+  server: sw.gfwglass.tk
+  network: ws
+  port: 443
+  uuid: 5f90fd9b-c4a4-44bb-b706-2e92ffe1259a
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /
+- name: 🇺🇸:美国-vmess-gongyius1.yigeweizhuang.com:2096-可用-中转:170.187.148.157-仅支持美国地区NF自制剧
+  type: vmess
+  server: gongyius1.yigeweizhuang.com
+  network: ws
+  port: 2096
+  uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /
