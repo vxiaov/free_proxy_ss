@@ -35,12 +35,6 @@ proxies:
   password: e4FCWrgpkji3QY
   port: 9102
   cipher: aes-256-gcm
-- name: 🇩🇪:德国-ss-141.95.0.26:826-可用-中转:54.38.217.138-不支持Netflix
-  type: ss
-  server: 141.95.0.26
-  password: sF43Xt2gONqcgFX563
-  port: 826
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-134.195.196.187:8881-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 134.195.196.187
@@ -137,7 +131,7 @@ proxies:
   password: XKFKl2rULjIp74
   port: 8009
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-sy.44044.xyz:25117-可用-中转:103.181.13.30-不支持Netflix
+- name: 🇨🇳:中国-ss-sy.44044.xyz:25117-可用-中转:103.181.13.30-解锁香港地区NF非自制剧
   type: ss
   server: sy.44044.xyz
   password: a7997951-8649-4e93-a727-2e1945b96f6c
@@ -154,12 +148,6 @@ proxies:
   server: 134.195.196.3
   password: XKFKl2rULjIp74
   port: 8008
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-172.99.190.92:443-可用-直连-仅支持英国地区NF自制剧
-  type: ss
-  server: 172.99.190.92
-  password: pKEW8JPByTVTLtM
-  port: 443
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-169.197.142.99:6679-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
@@ -197,12 +185,6 @@ proxies:
   password: dRUCE7YmtoVp
   port: 10119
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-172.99.190.92:7307-可用-直连-仅支持英国地区NF自制剧
-  type: ss
-  server: 172.99.190.92
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-vpn01.nfeng6.pp.ua:443-可用-中转:142.202.48.108-仅支持美国地区NF自制剧
   type: ss
   server: vpn01.nfeng6.pp.ua
@@ -215,12 +197,6 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-117.28.243.220:8223-可用-中转:49.51.163.223-不支持Netflix
-  type: ss
-  server: 117.28.243.220
-  password: passinfo123
-  port: 8223
-  cipher: rc4-md5
 - name: 🇬🇧:英国-ss-145.239.7.164:443-可用-直连-完全不支持NF
   type: ss
   server: 145.239.7.164
@@ -245,18 +221,18 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-gyc.44044.xyz:25005-可用-中转:103.181.13.30-不支持Netflix
+  type: ss
+  server: gyc.44044.xyz
+  password: a7997951-8649-4e93-a727-2e1945b96f6c
+  port: 25005
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-172.99.190.92:7002-可用-直连-仅支持英国地区NF自制剧
   type: ss
   server: 172.99.190.92
   password: RexnBgU7EV5ADxG
   port: 7002
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-117.28.243.220:8221-可用-中转:49.51.92.225-仅支持加拿大地区NF自制剧
-  type: ss
-  server: 117.28.243.220
-  password: passinfo123
-  port: 8221
-  cipher: rc4-md5
 - name: 🇨🇳:中国-ss-117.28.243.141:6149-可用-中转:162.62.127.108-仅支持德国地区NF自制剧
   type: ss
   server: 117.28.243.141
@@ -269,24 +245,54 @@ proxies:
   password: FoOiGlkAA9yPEGP
   port: 7307
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-134.195.196.12:8881-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 134.195.196.12
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-134.195.196.12:7002-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 134.195.196.12
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-117.28.243.164:8007-可用-中转:59.125.11.159-仅支持台湾地区NF自制剧
   type: ss
   server: 117.28.243.164
   password: passinfo123
   port: 8007
   cipher: rc4-md5
+- name: 🇺🇸:美国-ss-134.195.196.12:9101-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 134.195.196.12
+  password: e4FCWrgpkji3QY
+  port: 9101
+  cipher: aes-256-gcm
 - name: 🇫🇷:法国-ss-51.255.66.185:7306-可用-直连-完全不支持NF
   type: ss
   server: 51.255.66.185
   password: FoOiGlkAA9yPEGP
   port: 7306
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-sy.44044.xyz:25117-可用-中转:103.181.13.30-解锁香港地区NF非自制剧
+- name: 🇺🇸:美国-ss-134.195.196.12:8000-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
-  server: sy.44044.xyz
-  password: a7997951-8649-4e93-a727-2e1945b96f6c
-  port: 25117
+  server: 134.195.196.12
+  password: KixLvKzwjekG00rm
+  port: 8000
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-134.195.196.12:8009-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 134.195.196.12
+  password: XKFKl2rULjIp74
+  port: 8009
+  cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-117.28.243.173:4173-可用-中转:206.119.125.98-解锁香港地区NF非自制剧
+  type: ss
+  server: 117.28.243.173
+  password: passinfo123
+  port: 4173
+  cipher: rc4-md5
 - name: 🇬🇧:英国-ss-145.239.7.164:3389-可用-直连-完全不支持NF
   type: ss
   server: 145.239.7.164
