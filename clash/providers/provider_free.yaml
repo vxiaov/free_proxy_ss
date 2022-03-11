@@ -1,7 +1,13 @@
 proxies:
-- name: 🇺🇸:美国-ss-169.197.142.99:443-可用-直连-仅支持加拿大地区NF自制剧
+- name: 🇺🇸:美国-ss-169.197.142.99:443-可用-直连-不支持Netflix
   type: ss
   server: 169.197.142.99
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-142.202.48.108:443-可用-直连-仅支持美国地区NF自制剧
+  type: ss
+  server: 142.202.48.108
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
@@ -17,11 +23,11 @@ proxies:
   password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467
   port: 21211
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-134.195.196.81:9101-可用-直连-仅支持加拿大地区NF自制剧
+- name: 🇺🇸:美国-ss-134.195.196.68:443-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
-  server: 134.195.196.81
-  password: e4FCWrgpkji3QY
-  port: 9101
+  server: 134.195.196.68
+  password: pKEW8JPByTVTLtM
+  port: 443
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.68:8009-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
@@ -29,11 +35,11 @@ proxies:
   password: XKFKl2rULjIp74
   port: 8009
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-134.195.196.81:8881-可用-直连-仅支持加拿大地区NF自制剧
+- name: 🇩🇪:德国-ss-172.105.59.32:5004-可用-直连-仅支持印度地区NF自制剧
   type: ss
-  server: 134.195.196.81
-  password: kDWvXYZoTBcGkC4
-  port: 8881
+  server: 172.105.59.32
+  password: g5MeD6Ft3CWlJId
+  port: 5004
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.3:8882-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
@@ -107,12 +113,6 @@ proxies:
   password: kDWvXYZoTBcGkC4
   port: 8882
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-cm.chashao.buzz:21203-可用-中转:101.78.155.122-解锁香港地区NF非自制剧
-  type: ss
-  server: cm.chashao.buzz
-  password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467
-  port: 21203
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-134.195.196.187:7001-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 134.195.196.187
@@ -161,12 +161,6 @@ proxies:
   password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467
   port: 21214
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-cm1.chashao.buzz:21203-可用-中转:101.78.155.122-解锁香港地区NF非自制剧
-  type: ss
-  server: cm1.chashao.buzz
-  password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467
-  port: 21203
-  cipher: chacha20-ietf-poly1305
 - name: 🇨🇳:中国-ss-cu.chashao.buzz:21205-可用-中转:50.7.61.79-仅支持日本地区NF自制剧
   type: ss
   server: cu.chashao.buzz
@@ -185,6 +179,12 @@ proxies:
   password: zDNVedRFPQexG9v
   port: 6379
   cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-104.208.109.91:18129-可用-直连-仅支持香港地区NF自制剧
+  type: ss
+  server: 104.208.109.91
+  password: Xf79nvcgs3Xj
+  port: 18129
+  cipher: chacha20-ietf-poly1305
 - name: 🇨🇳:中国-ss-cm.chashao.buzz:21213-可用-中转:159.65.50.159-仅支持英国地区NF自制剧
   type: ss
   server: cm.chashao.buzz
@@ -202,6 +202,12 @@ proxies:
   server: 172.99.190.92
   password: pKEW8JPByTVTLtM
   port: 443
+  cipher: aes-256-gcm
+- name: 🇫🇷:法国-ss-51.255.66.185:7002-可用-直连-完全不支持NF
+  type: ss
+  server: 51.255.66.185
+  password: RexnBgU7EV5ADxG
+  port: 7002
   cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-cm.chashao.buzz:21214-可用-中转:142.93.48.168-仅支持美国地区NF自制剧
   type: ss
@@ -269,12 +275,6 @@ proxies:
   password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467
   port: 21206
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-cm.chashao.buzz:21215-可用-中转:159.223.119.235-解锁美国地区NF非自制剧
-  type: ss
-  server: cm.chashao.buzz
-  password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467
-  port: 21215
-  cipher: chacha20-ietf-poly1305
 - name: 🇨🇳:中国-ss-cm.chashao.buzz:21208-可用-中转:158.247.223.108-完全不支持NF
   type: ss
   server: cm.chashao.buzz
@@ -311,17 +311,23 @@ proxies:
   password: FoOiGlkAA9yPEGP
   port: 7307
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-vpn01.nfeng6.pp.ua:443-可用-中转:142.202.48.108-仅支持美国地区NF自制剧
-  type: ss
-  server: vpn01.nfeng6.pp.ua
-  password: pKEW8JPByTVTLtM
-  port: 443
-  cipher: aes-256-gcm
 - name: 🇫🇷:法国-ss-51.255.66.185:7307-可用-直连-完全不支持NF
   type: ss
   server: 51.255.66.185
   password: FoOiGlkAA9yPEGP
   port: 7307
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-134.195.196.81:9101-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 134.195.196.81
+  password: e4FCWrgpkji3QY
+  port: 9101
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-134.195.196.81:8881-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 134.195.196.81
+  password: kDWvXYZoTBcGkC4
+  port: 8881
   cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-117.28.243.220:8223-可用-中转:49.51.163.223-仅支持德国地区NF自制剧
   type: ss
@@ -335,12 +341,12 @@ proxies:
   password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467
   port: 21206
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-134.195.196.68:5500-可用-直连-仅支持加拿大地区NF自制剧
+- name: 🇨🇳:中国-ss-117.28.243.165:8050-可用-中转:206.119.125.80-解锁香港地区NF非自制剧
   type: ss
-  server: 134.195.196.68
-  password: KixLvKzwjekG00rm
-  port: 5500
-  cipher: aes-256-gcm
+  server: 117.28.243.165
+  password: passinfo123
+  port: 8050
+  cipher: rc4-md5
 - name: 🇺🇸:美国-ss-172.99.190.92:7002-可用-直连-仅支持英国地区NF自制剧
   type: ss
   server: 172.99.190.92
@@ -371,12 +377,6 @@ proxies:
   password: TEzjfAYq2IjtuoS
   port: 6679
   cipher: aes-256-gcm
-- name: 🇫🇷:法国-ss-51.255.66.185:7002-可用-直连-完全不支持NF
-  type: ss
-  server: 51.255.66.185
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  cipher: aes-256-gcm
 - name: 🇬🇧:英国-ss-145.239.7.164:3389-可用-直连-完全不支持NF
   type: ss
   server: 145.239.7.164
@@ -389,30 +389,42 @@ proxies:
   password: passinfo123
   port: 8186
   cipher: rc4-md5
-- name: 🇨🇳:中国-ss-117.28.243.154:6145-可用-中转:210.61.156.147-解锁台湾地区NF非自制剧
-  type: ss
-  server: 117.28.243.154
-  password: passinfo123
-  port: 6145
-  cipher: rc4-md5
 - name: 🇺🇸:美国-ss-134.195.196.81:8118-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 134.195.196.81
   password: cdBIDV42DCwnfIN
   port: 8118
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-14.29.124.174:21701-可用-中转:210.61.201.126-解锁台湾地区NF非自制剧
+- name: 🇺🇸:美国-ss-vpn01.nfeng6.pp.ua:443-可用-中转:142.202.48.108-仅支持美国地区NF自制剧
   type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 21701
-  cipher: aes-128-cfb
+  server: vpn01.nfeng6.pp.ua
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-cm.chashao.buzz:21203-可用-中转:101.78.155.122-解锁香港地区NF非自制剧
+  type: ss
+  server: cm.chashao.buzz
+  password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467
+  port: 21203
+  cipher: chacha20-ietf-poly1305
 - name: 🇬🇧:英国-ss-145.239.7.164:443-可用-直连-完全不支持NF
   type: ss
   server: 145.239.7.164
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-cm1.chashao.buzz:21203-可用-中转:101.78.155.122-解锁香港地区NF非自制剧
+  type: ss
+  server: cm1.chashao.buzz
+  password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467
+  port: 21203
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-cm.chashao.buzz:21215-可用-中转:159.223.119.235-解锁美国地区NF非自制剧
+  type: ss
+  server: cm.chashao.buzz
+  password: a0bd91e1-1e8f-41c6-8a68-baf8e94fa467
+  port: 21215
+  cipher: chacha20-ietf-poly1305
 - name: 🇬🇧:英国-ss-145.239.7.164:2376-可用-直连-完全不支持NF
   type: ss
   server: 145.239.7.164
@@ -424,18 +436,6 @@ proxies:
   server: 117.28.243.220
   password: passinfo123
   port: 8147
-  cipher: rc4-md5
-- name: 🇺🇸:美国-ss-142.202.48.108:443-可用-直连-仅支持美国地区NF自制剧
-  type: ss
-  server: 142.202.48.108
-  password: pKEW8JPByTVTLtM
-  port: 443
-  cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-117.28.243.154:6188-可用-中转:60.249.17.189-解锁台湾地区NF非自制剧
-  type: ss
-  server: 117.28.243.154
-  password: passinfo123
-  port: 6188
   cipher: rc4-md5
 - name: 🇨🇳:中国-ss-117.28.243.220:8045-可用-中转:162.62.34.45-仅支持俄罗斯联邦地区NF自制剧
   type: ss
