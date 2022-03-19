@@ -101,6 +101,12 @@ proxies:
   password: e4FCWrgpkji3QY
   port: 9102
   cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-36.158.228.185:61000-可用-中转:165.22.63.183-仅支持新加坡地区NF自制剧
+  type: ss
+  server: 36.158.228.185
+  password: 71g@112sa2vGHA
+  port: 61000
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.81:8008-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 134.195.196.81
@@ -191,18 +197,18 @@ proxies:
   password: zDNVedRFPQexG9v
   port: 6379
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-142.93.168.188:21612-可用-直连-仅支持德国地区NF自制剧
-  type: ss
-  server: 142.93.168.188
-  password: zUOC2CcSPiEX
-  port: 21612
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-172.99.190.92:7307-可用-直连-仅支持英国地区NF自制剧
   type: ss
   server: 172.99.190.92
   password: FoOiGlkAA9yPEGP
   port: 7307
   cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-117.28.243.220:8147-可用-中转:119.28.245.147-仅支持印度地区NF自制剧
+  type: ss
+  server: 117.28.243.220
+  password: passinfo123
+  port: 8147
+  cipher: rc4-md5
 - name: 🇨🇳:中国-ss-117.28.243.220:8045-可用-中转:162.62.34.45-仅支持俄罗斯联邦地区NF自制剧
   type: ss
   server: 117.28.243.220
@@ -227,6 +233,17 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   cipher: aes-256-cfb
+- name: 🇺🇸:美国-vmess-kr.rnmtq.gq:63470-可用-中转:20.194.60.181-仅支持韩国地区NF自制剧
+  type: vmess
+  server: kr.rnmtq.gq
+  network: ws
+  port: 63470
+  uuid: cb8ab285-fafc-45f6-87bc-97a7a2f27f9f
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇺🇸:美国-vmess-v2ray.ifuckgfw.ga:8443-可用-中转:195.123.219.27-仅支持荷兰地区NF自制剧
   type: vmess
   server: v2ray.ifuckgfw.ga
