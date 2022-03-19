@@ -11,12 +11,6 @@ proxies:
   password: e4FCWrgpkji3QY
   port: 9102
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-169.197.142.99:8090-可用-直连-仅支持加拿大地区NF自制剧
-  type: ss
-  server: 169.197.142.99
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.81:2376-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 134.195.196.81
@@ -118,6 +112,12 @@ proxies:
   server: 169.197.142.4
   password: e4FCWrgpkji3QY
   port: 9101
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-167.88.61.175:443-可用-直连-仅支持美国地区NF自制剧
+  type: ss
+  server: 167.88.61.175
+  password: pKEW8JPByTVTLtM
+  port: 443
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-vpn01.nfeng6.pp.ua:443-可用-中转:142.202.48.108-仅支持美国地区NF自制剧
   type: ss
@@ -227,23 +227,6 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   cipher: aes-256-cfb
-- name: 🇰🇷:韩国-ss-13.125.239.214:443-可用-直连-仅支持韩国地区NF自制剧
-  type: ss
-  server: 13.125.239.214
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
-- name: 🇺🇸:美国-vmess-kr.rnmtq.gq:63470-可用-中转:20.194.60.181-仅支持韩国地区NF自制剧
-  type: vmess
-  server: kr.rnmtq.gq
-  network: ws
-  port: 63470
-  uuid: cb8ab285-fafc-45f6-87bc-97a7a2f27f9f
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
 - name: 🇺🇸:美国-vmess-v2ray.ifuckgfw.ga:8443-可用-中转:195.123.219.27-仅支持荷兰地区NF自制剧
   type: vmess
   server: v2ray.ifuckgfw.ga
