@@ -1,4 +1,10 @@
 proxies:
+- name: 🇺🇸:美国-ss-134.195.196.187:443-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 134.195.196.187
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-169.197.142.4:9102-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 169.197.142.4
@@ -71,11 +77,23 @@ proxies:
   password: g5MeD6Ft3CWlJId
   port: 5003
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-134.195.196.81:5600-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 134.195.196.81
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-169.197.142.4:8000-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 169.197.142.4
   password: KixLvKzwjekG00rm
   port: 8000
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-169.197.142.4:5600-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 169.197.142.4
+  password: Y6R9pAtvxxzmGC
+  port: 5600
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-vpn01.nfeng6.pp.ua:443-可用-中转:142.202.48.108-仅支持美国地区NF自制剧
   type: ss
@@ -88,12 +106,6 @@ proxies:
   server: 169.197.142.4
   password: Y6R9pAtvxxzmGC
   port: 8888
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-169.197.142.4:5000-可用-直连-仅支持加拿大地区NF自制剧
-  type: ss
-  server: 169.197.142.4
-  password: Y6R9pAtvxxzmGC
-  port: 5000
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.3:5600-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
@@ -143,12 +155,6 @@ proxies:
   password: KixLvKzwjekG00rm
   port: 8080
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-134.195.196.81:7306-可用-直连-仅支持加拿大地区NF自制剧
-  type: ss
-  server: 134.195.196.81
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-142.93.168.188:21612-可用-直连-仅支持德国地区NF自制剧
   type: ss
   server: 142.93.168.188
@@ -160,6 +166,12 @@ proxies:
   server: 134.195.196.187
   password: FoOiGlkAA9yPEGP
   port: 7306
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-134.195.196.3:443-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 134.195.196.3
+  password: pKEW8JPByTVTLtM
+  port: 443
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.187:8091-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
@@ -221,17 +233,6 @@ proxies:
   password: QazEdcTgb159@$*
   port: 21791
   cipher: aes-128-cfb
-- name: 🇯🇵:日本-vmess-lin1.free80ml.tk:80-可用-中转:139.162.73.69-仅支持日本地区NF自制剧
-  type: vmess
-  server: lin1.free80ml.tk
-  network: ws
-  port: 80
-  uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
 - name: 🇯🇵:日本-vmess-jp-group-a-direct.node001.xyz:8880-可用-中转:18.183.97.194-仅支持日本地区NF自制剧
   type: vmess
   server: jp-group-a-direct.node001.xyz
