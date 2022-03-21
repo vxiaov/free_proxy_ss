@@ -35,6 +35,12 @@ dns:
       - 240.0.0.0/4
 # 个人节点
 proxies:
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-colagzcm.jumpwallsocks.online:41006-可用-中转:147.135.110.7-不支持Netflix"
+    type: ss
+    server: colagzcm.jumpwallsocks.online
+    password: f238b431-ba39-427d-9bbd-2440c30ef211
+    port: 41006
+    cipher: chacha20-ietf-poly1305
   - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.81:3306-可用-直连-仅支持加拿大地区NF自制剧"
     type: ss
     server: 134.195.196.81
@@ -53,11 +59,29 @@ proxies:
     password: g5MeD6Ft3CWlJId
     port: 5004
     cipher: aes-256-gcm
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-colagzcm.jumpwallsocks.online:41002-可用-中转:172.99.233.172-解锁美国地区NF非自制剧"
+    type: ss
+    server: colagzcm.jumpwallsocks.online
+    password: f238b431-ba39-427d-9bbd-2440c30ef211
+    port: 41002
+    cipher: chacha20-ietf-poly1305
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-colagzcm.jumpwallsocks.online:42002-可用-中转:109.166.36.98-解锁日本地区NF非自制剧"
+    type: ss
+    server: colagzcm.jumpwallsocks.online
+    password: f238b431-ba39-427d-9bbd-2440c30ef211
+    port: 42002
+    cipher: chacha20-ietf-poly1305
   - name: "\U0001F1FA\U0001F1F8:美国-ss-169.197.142.4:2376-可用-直连-仅支持加拿大地区NF自制剧"
     type: ss
     server: 169.197.142.4
     password: faBAoD54k87UJG7
     port: 2376
+    cipher: aes-256-gcm
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.187:8118-可用-直连-仅支持加拿大地区NF自制剧"
+    type: ss
+    server: 134.195.196.187
+    password: cdBIDV42DCwnfIN
+    port: 8118
     cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-169.197.142.4:3389-可用-直连-仅支持加拿大地区NF自制剧"
     type: ss
@@ -95,6 +119,12 @@ proxies:
     password: pKEW8JPByTVTLtM
     port: 443
     cipher: aes-256-gcm
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-colagzcm.jumpwallsocks.online:41003-可用-中转:209.141.57.241-仅支持美国地区NF自制剧"
+    type: ss
+    server: colagzcm.jumpwallsocks.online
+    password: f238b431-ba39-427d-9bbd-2440c30ef211
+    port: 41003
+    cipher: chacha20-ietf-poly1305
   - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.81:5003-可用-直连-仅支持加拿大地区NF自制剧"
     type: ss
     server: 134.195.196.81
@@ -119,12 +149,6 @@ proxies:
     password: XKFKl2rULjIp74
     port: 8008
     cipher: aes-256-gcm
-  - name: "\U0001F1F0\U0001F1F7:韩国-ss-141.164.39.146:6697-可用-直连-完全不支持NF"
-    type: ss
-    server: 141.164.39.146
-    password: TEzjfAYq2IjtuoS
-    port: 6697
-    cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.187:9102-可用-直连-仅支持加拿大地区NF自制剧"
     type: ss
     server: 134.195.196.187
@@ -136,6 +160,12 @@ proxies:
     server: 134.195.196.3
     password: cdBIDV42DCwnfIN
     port: 8118
+    cipher: aes-256-gcm
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-172.99.190.92:7306-可用-直连-仅支持英国地区NF自制剧"
+    type: ss
+    server: 172.99.190.92
+    password: FoOiGlkAA9yPEGP
+    port: 7306
     cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-172.99.190.92:9102-可用-直连-仅支持英国地区NF自制剧"
     type: ss
@@ -197,6 +227,12 @@ proxies:
     password: KixLvKzwjekG00rm
     port: 8080
     cipher: aes-256-gcm
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:8882-可用-直连-仅支持加拿大地区NF自制剧"
+    type: ss
+    server: 134.195.196.3
+    password: kDWvXYZoTBcGkC4
+    port: 8882
+    cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:8008-可用-直连-仅支持加拿大地区NF自制剧"
     type: ss
     server: 134.195.196.3
@@ -221,24 +257,18 @@ proxies:
     password: Y6R9pAtvxxzmGC
     port: 8888
     cipher: aes-256-gcm
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:7307-可用-直连-仅支持加拿大地区NF自制剧"
-    type: ss
-    server: 134.195.196.3
-    password: FoOiGlkAA9yPEGP
-    port: 7307
-    cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.187:7002-可用-直连-仅支持加拿大地区NF自制剧"
     type: ss
     server: 134.195.196.187
     password: RexnBgU7EV5ADxG
     port: 7002
     cipher: aes-256-gcm
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.187:9101-可用-直连-仅支持加拿大地区NF自制剧"
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-colagzcm.jumpwallsocks.online:40001-可用-中转:218.188.148.4-解锁新加坡地区NF非自制剧"
     type: ss
-    server: 134.195.196.187
-    password: e4FCWrgpkji3QY
-    port: 9101
-    cipher: aes-256-gcm
+    server: colagzcm.jumpwallsocks.online
+    password: f238b431-ba39-427d-9bbd-2440c30ef211
+    port: 40001
+    cipher: chacha20-ietf-poly1305
   - name: "\U0001F1FA\U0001F1F8:美国-ss-142.93.168.188:21612-可用-直连-仅支持德国地区NF自制剧"
     type: ss
     server: 142.93.168.188
@@ -287,17 +317,11 @@ proxies:
     password: G!yBwPWH3Vao
     port: 802
     cipher: chacha20-ietf-poly1305
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-colagzcm.jumpwallsocks.online:42001-被墙-中转:109.166.36.98-解锁日本地区NF非自制剧"
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-colagzcm.jumpwallsocks.online:42001-被墙-中转:109.166.36.98-解锁日本地区NF非自制剧"
     type: ss
     server: colagzcm.jumpwallsocks.online
     password: f238b431-ba39-427d-9bbd-2440c30ef211
     port: 42001
-    cipher: chacha20-ietf-poly1305
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-colagzcm.jumpwallsocks.online:41006-被墙-中转:147.135.110.7-解锁美国地区NF非自制剧"
-    type: ss
-    server: colagzcm.jumpwallsocks.online
-    password: f238b431-ba39-427d-9bbd-2440c30ef211
-    port: 41006
     cipher: chacha20-ietf-poly1305
   - name: "\U0001F1EF\U0001F1F5:日本-ss-45.66.134.176:811-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧"
     type: ss
@@ -329,13 +353,7 @@ proxies:
     password: Y6R9pAtvxxzmGC
     port: 3306
     cipher: aes-256-gcm
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-colagzcm.jumpwallsocks.online:41002-被墙-中转:172.99.233.172-解锁美国地区NF非自制剧"
-    type: ss
-    server: colagzcm.jumpwallsocks.online
-    password: f238b431-ba39-427d-9bbd-2440c30ef211
-    port: 41002
-    cipher: chacha20-ietf-poly1305
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-colagzcm.jumpwallsocks.online:40002-被墙-中转:218.188.148.4-解锁新加坡地区NF非自制剧"
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-colagzcm.jumpwallsocks.online:40002-被墙-中转:218.188.148.4-解锁新加坡地区NF非自制剧"
     type: ss
     server: colagzcm.jumpwallsocks.online
     password: f238b431-ba39-427d-9bbd-2440c30ef211
@@ -425,12 +443,6 @@ proxies:
     password: G!yBwPWH3Vao
     port: 806
     cipher: chacha20-ietf-poly1305
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-colagzcm.jumpwallsocks.online:40001-被墙-中转:218.188.148.4-解锁新加坡地区NF非自制剧"
-    type: ss
-    server: colagzcm.jumpwallsocks.online
-    password: f238b431-ba39-427d-9bbd-2440c30ef211
-    port: 40001
-    cipher: chacha20-ietf-poly1305
   - name: "\U0001F1FA\U0001F1F8:美国-ss-38.121.43.51:2376-被墙-直连-解锁美国地区NF非自制剧"
     type: ss
     server: 38.121.43.51
@@ -460,12 +472,6 @@ proxies:
     server: 45.66.134.176
     password: G!yBwPWH3Vao
     port: 802
-    cipher: chacha20-ietf-poly1305
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-colagzcm.jumpwallsocks.online:42002-被墙-中转:109.166.36.98-解锁日本地区NF非自制剧"
-    type: ss
-    server: colagzcm.jumpwallsocks.online
-    password: f238b431-ba39-427d-9bbd-2440c30ef211
-    port: 42002
     cipher: chacha20-ietf-poly1305
   - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.117:5601-被墙-直连-解锁美国地区NF非自制剧"
     type: ss
@@ -497,12 +503,12 @@ proxies:
     password: cdBIDV42DCwnfIN
     port: 8118
     cipher: aes-256-gcm
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-180.163.62.91:46168-可用-中转:129.227.10.138-仅支持韩国地区NF自制剧"
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-colagzcm.jumpwallsocks.online:43004-被墙-中转:103.164.138.203-解锁越南地区NF非自制剧"
     type: ss
-    server: 180.163.62.91
-    password: QazEdcTgb159@$*
-    port: 46168
-    cipher: aes-128-cfb
+    server: colagzcm.jumpwallsocks.online
+    password: f238b431-ba39-427d-9bbd-2440c30ef211
+    port: 43004
+    cipher: chacha20-ietf-poly1305
   - name: "\U0001F1E8\U0001F1F3:中国-ss-180.163.62.91:26054-可用-中转:129.227.4.173-仅支持韩国地区NF自制剧"
     type: ss
     server: 180.163.62.91
@@ -533,6 +539,12 @@ proxies:
     password: QazEdcTgb159@$*
     port: 46188
     cipher: aes-128-cfb
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-colagzcm.jumpwallsocks.online:41006-可用-中转:147.135.110.7-解锁美国地区NF非自制剧"
+    type: ss
+    server: colagzcm.jumpwallsocks.online
+    password: f238b431-ba39-427d-9bbd-2440c30ef211
+    port: 41006
+    cipher: chacha20-ietf-poly1305
   - name: "\U0001F1E8\U0001F1F3:中国-ss-117.28.243.220:8045-可用-中转:162.62.34.45-仅支持俄罗斯联邦地区NF自制剧"
     type: ss
     server: 117.28.243.220
@@ -545,6 +557,12 @@ proxies:
     password: FoOiGlkAA9yPEGP
     port: 7306
     cipher: aes-256-gcm
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-180.163.62.91:22001-可用-中转:129.227.10.155-仅支持韩国地区NF自制剧"
+    type: ss
+    server: 180.163.62.91
+    password: QazEdcTgb159@$*
+    port: 22001
+    cipher: aes-128-cfb
   - name: "\U0001F1FA\U0001F1F8:美国-ss-169.197.142.99:9101-可用-直连-仅支持加拿大地区NF自制剧"
     type: ss
     server: 169.197.142.99
@@ -557,12 +575,12 @@ proxies:
     password: TEzjfAYq2IjtuoS
     port: 6679
     cipher: aes-256-gcm
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-172.99.190.92:7307-可用-直连-仅支持英国地区NF自制剧"
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:21791-可用-中转:210.61.201.126-仅支持台湾地区NF自制剧"
     type: ss
-    server: 172.99.190.92
-    password: FoOiGlkAA9yPEGP
-    port: 7307
-    cipher: aes-256-gcm
+    server: 14.29.124.174
+    password: QazEdcTgb159@$*
+    port: 21791
+    cipher: aes-128-cfb
   - name: "\U0001F1E8\U0001F1F3:中国-ss-fkgfw-prod.i.sxl.cn:443-可用-中转:13.70.7.164-仅支持香港地区NF自制剧"
     type: ss
     server: fkgfw-prod.i.sxl.cn
@@ -575,65 +593,47 @@ proxies:
     password: QazEdcTgb159@$*
     port: 45098
     cipher: aes-128-cfb
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-colagzcm.jumpwallsocks.online:41005-可用-中转:158.51.78.252-解锁加拿大地区NF非自制剧"
+    type: ss
+    server: colagzcm.jumpwallsocks.online
+    password: f238b431-ba39-427d-9bbd-2440c30ef211
+    port: 41005
+    cipher: chacha20-ietf-poly1305
   - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:21500-可用-中转:210.61.201.124-仅支持台湾地区NF自制剧"
     type: ss
     server: 14.29.124.174
     password: QazEdcTgb159@$*
     port: 21500
     cipher: aes-128-cfb
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-117.28.243.154:6188-可用-中转:60.249.17.189-解锁台湾地区NF非自制剧"
+    type: ss
+    server: 117.28.243.154
+    password: passinfo123
+    port: 6188
+    cipher: rc4-md5
   - name: "\U0001F1E8\U0001F1F3:中国-ss-117.28.243.164:8007-可用-中转:59.125.11.159-解锁台湾地区NF非自制剧"
     type: ss
     server: 117.28.243.164
     password: passinfo123
     port: 8007
     cipher: rc4-md5
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-1.14.165.96:45024-可用-中转:210.61.201.126-仅支持台湾地区NF自制剧"
+    type: ss
+    server: 1.14.165.96
+    password: QazEdcTgb159@$*
+    port: 45024
+    cipher: aes-128-cfb
   - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:21508-可用-中转:210.61.201.124-仅支持台湾地区NF自制剧"
     type: ss
     server: 14.29.124.174
     password: QazEdcTgb159@$*
     port: 21508
     cipher: aes-128-cfb
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-vpn01.nfeng6.pp.ua:443-可用-中转:142.202.48.108-仅支持美国地区NF自制剧"
-    type: ss
-    server: vpn01.nfeng6.pp.ua
-    password: pKEW8JPByTVTLtM
-    port: 443
-    cipher: aes-256-gcm
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-180.163.62.91:26238-可用-中转:129.227.4.176-不支持Netflix"
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-180.163.62.91:22003-可用-中转:129.227.10.157-仅支持韩国地区NF自制剧"
     type: ss
     server: 180.163.62.91
     password: QazEdcTgb159@$*
-    port: 26238
-    cipher: aes-128-cfb
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-180.163.62.91:25021-可用-中转:129.227.10.216-仅支持韩国地区NF自制剧"
-    type: ss
-    server: 180.163.62.91
-    password: QazEdcTgb159@$*
-    port: 25021
-    cipher: aes-128-cfb
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-180.163.62.91:22007-可用-中转:129.227.10.161-仅支持韩国地区NF自制剧"
-    type: ss
-    server: 180.163.62.91
-    password: QazEdcTgb159@$*
-    port: 22007
-    cipher: aes-128-cfb
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-1.14.165.96:45042-可用-中转:210.61.201.126-仅支持台湾地区NF自制剧"
-    type: ss
-    server: 1.14.165.96
-    password: QazEdcTgb159@$*
-    port: 45042
-    cipher: aes-128-cfb
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:20700-可用-中转:210.61.201.105-仅支持台湾地区NF自制剧"
-    type: ss
-    server: 14.29.124.174
-    password: QazEdcTgb159@$*
-    port: 20700
-    cipher: aes-128-cfb
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-1.14.165.96:45081-可用-中转:210.61.201.126-仅支持台湾地区NF自制剧"
-    type: ss
-    server: 1.14.165.96
-    password: QazEdcTgb159@$*
-    port: 45081
+    port: 22003
     cipher: aes-128-cfb
   - name: "\U0001F1E8\U0001F1F3:中国-ssr-118.107.44.6:8329-被墙-中转:118.107.44.5-解锁香港地区NF非自制剧"
     type: ssr
@@ -656,14 +656,13 @@ proxies:
     udp: false
     tls: false
     ws-path: /
-  - name: "\U0001F1FA\U0001F1F8:美国-trojan-hk-az-4.licom.ga:44332-可用-中转:20.24.68.59-解锁日本地区NF非自制剧"
+  - name: "\U0001F1E8\U0001F1F3:中国-trojan-colagzcm.jumpwallsocks.online:33005-可用-中转:103.136.127.184-解锁新加坡地区NF非自制剧"
     type: trojan
-    server: hk-az-4.licom.ga
-    password: f81e990e-1283-48f9-9eff-acacad6fb661
+    server: colagzcm.jumpwallsocks.online
+    password: f238b431-ba39-427d-9bbd-2440c30ef211
     udp: true
     skip-cert-verify: true
-    sni: hk-az-4.licom.ga
-    port: 44332
+    port: 33005
 # 类型选择 简介
 # select : 用于选择代理或代理组, 可以通过 RESTful API 来切换代理，建议在 GUI 中使用
 # load-balance : 相同eTLD+1的请求将拨号到同一个代理。
@@ -683,11 +682,13 @@ proxy-groups:
     proxies:
       - DIRECT
       - "\U0001F1FA\U0001F1F8:美国-vmess-jp-group-a-direct.node001.xyz:80-可用-中转:35.76.107.49-仅支持日本地区NF自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-trojan-hk-az-4.licom.ga:44332-可用-中转:20.24.68.59-解锁日本地区NF非自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-ss-vpn01.nfeng6.pp.ua:443-可用-中转:142.202.48.108-仅支持美国地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-colagzcm.jumpwallsocks.online:42002-可用-中转:109.166.36.98-解锁日本地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-colagzcm.jumpwallsocks.online:41003-可用-中转:209.141.57.241-仅支持美国地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-colagzcm.jumpwallsocks.online:41002-可用-中转:172.99.233.172-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-colagzcm.jumpwallsocks.online:40001-可用-中转:218.188.148.4-解锁新加坡地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-172.99.190.92:9102-可用-直连-仅支持英国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-172.99.190.92:8888-可用-直连-仅支持英国地区NF自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-ss-172.99.190.92:7307-可用-直连-仅支持英国地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-172.99.190.92:7306-可用-直连-仅支持英国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-172.99.190.92:7002-可用-直连-仅支持英国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-172.99.190.92:443-可用-直连-仅支持英国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-169.197.142.99:9101-可用-直连-仅支持加拿大地区NF自制剧"
@@ -713,37 +714,38 @@ proxy-groups:
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.68:8008-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.68:5001-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.68:443-可用-直连-仅支持加拿大地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:8882-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:8881-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:8118-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:8008-可用-直连-仅支持加拿大地区NF自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:7307-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:6379-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.187:9102-可用-直连-仅支持加拿大地区NF自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.187:9101-可用-直连-仅支持加拿大地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.187:8118-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.187:8091-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.187:7002-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.187:5000-可用-直连-仅支持加拿大地区NF自制剧"
-      - "\U0001F1F0\U0001F1F7:韩国-ss-141.164.39.146:6697-可用-直连-完全不支持NF"
       - "\U0001F1EB\U0001F1F7:法国-ss-51.255.66.185:8080-可用-直连-完全不支持NF"
       - "\U0001F1EB\U0001F1F7:法国-ss-51.255.66.185:7307-可用-直连-完全不支持NF"
       - "\U0001F1EB\U0001F1F7:法国-ss-51.255.66.185:7306-可用-直连-完全不支持NF"
       - "\U0001F1EB\U0001F1F7:法国-ss-51.255.66.185:7002-可用-直连-完全不支持NF"
       - "\U0001F1EB\U0001F1F7:法国-ss-51.255.66.185:443-可用-直连-完全不支持NF"
+      - "\U0001F1E8\U0001F1F3:中国-trojan-colagzcm.jumpwallsocks.online:33005-可用-中转:103.136.127.184-解锁新加坡地区NF非自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-fkgfw-prod.i.sxl.cn:443-可用-中转:13.70.7.164-仅支持香港地区NF自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-ss-colagzcm.jumpwallsocks.online:41006-可用-中转:147.135.110.7-解锁美国地区NF非自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-ss-colagzcm.jumpwallsocks.online:41006-可用-中转:147.135.110.7-不支持Netflix"
+      - "\U0001F1E8\U0001F1F3:中国-ss-colagzcm.jumpwallsocks.online:41005-可用-中转:158.51.78.252-解锁加拿大地区NF非自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-180.163.62.91:46188-可用-中转:129.227.10.139-仅支持韩国地区NF自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-180.163.62.91:46168-可用-中转:129.227.10.138-仅支持韩国地区NF自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-180.163.62.91:26238-可用-中转:129.227.4.176-不支持Netflix"
       - "\U0001F1E8\U0001F1F3:中国-ss-180.163.62.91:26054-可用-中转:129.227.4.173-仅支持韩国地区NF自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-180.163.62.91:25021-可用-中转:129.227.10.216-仅支持韩国地区NF自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-180.163.62.91:22007-可用-中转:129.227.10.161-仅支持韩国地区NF自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-ss-180.163.62.91:22003-可用-中转:129.227.10.157-仅支持韩国地区NF自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-ss-180.163.62.91:22001-可用-中转:129.227.10.155-仅支持韩国地区NF自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:21791-可用-中转:210.61.201.126-仅支持台湾地区NF自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:21508-可用-中转:210.61.201.124-仅支持台湾地区NF自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:21500-可用-中转:210.61.201.124-仅支持台湾地区NF自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:20700-可用-中转:210.61.201.105-仅支持台湾地区NF自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-117.28.243.220:8045-可用-中转:162.62.34.45-仅支持俄罗斯联邦地区NF自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-117.28.243.164:8007-可用-中转:59.125.11.159-解锁台湾地区NF非自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-ss-117.28.243.154:6188-可用-中转:60.249.17.189-解锁台湾地区NF非自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-1.14.165.96:45098-可用-中转:210.61.201.126-仅支持台湾地区NF自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-1.14.165.96:45081-可用-中转:210.61.201.126-仅支持台湾地区NF自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-1.14.165.96:45042-可用-中转:210.61.201.126-仅支持台湾地区NF自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-ss-1.14.165.96:45024-可用-中转:210.61.201.126-仅支持台湾地区NF自制剧"
   - name: 被墙代理组
     type: select
     url: http://www.gstatic.com/generate_204
@@ -751,8 +753,11 @@ proxy-groups:
     proxies:
       - DIRECT
       - "\U0001F1FA\U0001F1F8:美国-ss-colagzcm.jumpwallsocks.online:44002-被墙-中转:129.154.55.160-解锁韩国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-colagzcm.jumpwallsocks.online:43004-被墙-中转:103.164.138.203-解锁越南地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-colagzcm.jumpwallsocks.online:43003-被墙-中转:185.78.165.177-解锁泰国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-colagzcm.jumpwallsocks.online:42001-被墙-中转:109.166.36.98-解锁日本地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-colagzcm.jumpwallsocks.online:41009-被墙-中转:147.135.110.7-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-colagzcm.jumpwallsocks.online:40002-被墙-中转:218.188.148.4-解锁新加坡地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.75.137.187:8080-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.75.137.187:5003-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.75.137.187:3306-被墙-直连-解锁美国地区NF非自制剧"
@@ -779,13 +784,7 @@ proxy-groups:
       - "\U0001F1EF\U0001F1F5:日本-ss-45.66.134.176:802-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧"
       - "\U0001F1EF\U0001F1F5:日本-ss-185.160.24.217:805-被墙-直连-解锁日本地区NF非自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ssr-118.107.44.6:8329-被墙-中转:118.107.44.5-解锁香港地区NF非自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-colagzcm.jumpwallsocks.online:42002-被墙-中转:109.166.36.98-解锁日本地区NF非自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-colagzcm.jumpwallsocks.online:42001-被墙-中转:109.166.36.98-解锁日本地区NF非自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-colagzcm.jumpwallsocks.online:41006-被墙-中转:147.135.110.7-解锁美国地区NF非自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-colagzcm.jumpwallsocks.online:41005-被墙-中转:158.51.78.252-解锁加拿大地区NF非自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-colagzcm.jumpwallsocks.online:41002-被墙-中转:172.99.233.172-解锁美国地区NF非自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-colagzcm.jumpwallsocks.online:40002-被墙-中转:218.188.148.4-解锁新加坡地区NF非自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-colagzcm.jumpwallsocks.online:40001-被墙-中转:218.188.148.4-解锁新加坡地区NF非自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-62.216.92.167:812-被墙-中转:62.216.92.165-解锁香港地区NF非自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-62.216.92.167:810-被墙-中转:62.216.92.165-解锁香港地区NF非自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-62.216.92.167:807-被墙-中转:62.216.92.165-解锁香港地区NF非自制剧"
@@ -798,10 +797,10 @@ proxy-groups:
     proxies:
       - DIRECT
       - "\U0001F1FA\U0001F1F8:美国-vmess-jp-group-a-direct.node001.xyz:80-可用-中转:35.76.107.49-仅支持日本地区NF自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-ss-vpn01.nfeng6.pp.ua:443-可用-中转:142.202.48.108-仅支持美国地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-colagzcm.jumpwallsocks.online:41003-可用-中转:209.141.57.241-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-172.99.190.92:9102-可用-直连-仅支持英国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-172.99.190.92:8888-可用-直连-仅支持英国地区NF自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-ss-172.99.190.92:7307-可用-直连-仅支持英国地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-172.99.190.92:7306-可用-直连-仅支持英国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-172.99.190.92:7002-可用-直连-仅支持英国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-172.99.190.92:443-可用-直连-仅支持英国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-169.197.142.99:9101-可用-直连-仅支持加拿大地区NF自制剧"
@@ -827,37 +826,41 @@ proxy-groups:
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.68:8008-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.68:5001-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.68:443-可用-直连-仅支持加拿大地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:8882-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:8881-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:8118-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:8008-可用-直连-仅支持加拿大地区NF自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:7307-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:6379-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.187:9102-可用-直连-仅支持加拿大地区NF自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.187:9101-可用-直连-仅支持加拿大地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.187:8118-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.187:8091-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.187:7002-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.187:5000-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-fkgfw-prod.i.sxl.cn:443-可用-中转:13.70.7.164-仅支持香港地区NF自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-180.163.62.91:46188-可用-中转:129.227.10.139-仅支持韩国地区NF自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-180.163.62.91:46168-可用-中转:129.227.10.138-仅支持韩国地区NF自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-180.163.62.91:26054-可用-中转:129.227.4.173-仅支持韩国地区NF自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-180.163.62.91:25021-可用-中转:129.227.10.216-仅支持韩国地区NF自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-180.163.62.91:22007-可用-中转:129.227.10.161-仅支持韩国地区NF自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-ss-180.163.62.91:22003-可用-中转:129.227.10.157-仅支持韩国地区NF自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-ss-180.163.62.91:22001-可用-中转:129.227.10.155-仅支持韩国地区NF自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:21791-可用-中转:210.61.201.126-仅支持台湾地区NF自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:21508-可用-中转:210.61.201.124-仅支持台湾地区NF自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:21500-可用-中转:210.61.201.124-仅支持台湾地区NF自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:20700-可用-中转:210.61.201.105-仅支持台湾地区NF自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-117.28.243.220:8045-可用-中转:162.62.34.45-仅支持俄罗斯联邦地区NF自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-1.14.165.96:45098-可用-中转:210.61.201.126-仅支持台湾地区NF自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-1.14.165.96:45081-可用-中转:210.61.201.126-仅支持台湾地区NF自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-1.14.165.96:45042-可用-中转:210.61.201.126-仅支持台湾地区NF自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-ss-1.14.165.96:45024-可用-中转:210.61.201.126-仅支持台湾地区NF自制剧"
   - name: 解锁Netflix非自制剧
     type: select
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - DIRECT
-      - "\U0001F1FA\U0001F1F8:美国-trojan-hk-az-4.licom.ga:44332-可用-中转:20.24.68.59-解锁日本地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-colagzcm.jumpwallsocks.online:42002-可用-中转:109.166.36.98-解锁日本地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-colagzcm.jumpwallsocks.online:41002-可用-中转:172.99.233.172-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-colagzcm.jumpwallsocks.online:40001-可用-中转:218.188.148.4-解锁新加坡地区NF非自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-trojan-colagzcm.jumpwallsocks.online:33005-可用-中转:103.136.127.184-解锁新加坡地区NF非自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-ss-colagzcm.jumpwallsocks.online:41006-可用-中转:147.135.110.7-解锁美国地区NF非自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-ss-colagzcm.jumpwallsocks.online:41005-可用-中转:158.51.78.252-解锁加拿大地区NF非自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-117.28.243.164:8007-可用-中转:59.125.11.159-解锁台湾地区NF非自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-ss-117.28.243.154:6188-可用-中转:60.249.17.189-解锁台湾地区NF非自制剧"
   - name: 入口代理组
     # 中继代理组,不支持UDP协议。线路: clash <-> vmess <-> ss1 <-> ss2 <-> Internet
     type: select
