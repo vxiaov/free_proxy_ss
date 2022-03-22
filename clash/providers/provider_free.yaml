@@ -35,12 +35,6 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
-- name: 🇨🇦:加拿大-ss-52.232.130.180:500-可用-直连-仅支持加拿大地区NF自制剧
-  type: ss
-  server: 52.232.130.180
-  password: '@VPNFolder'
-  port: 500
-  cipher: aes-128-gcm
 - name: 🇺🇸:美国-ss-172.99.190.92:7306-可用-直连-仅支持英国地区NF自制剧
   type: ss
   server: 172.99.190.92
@@ -143,6 +137,12 @@ proxies:
   password: e4FCWrgpkji3QY
   port: 9102
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-169.197.142.99:443-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 169.197.142.99
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.68:8090-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 134.195.196.68
@@ -191,7 +191,7 @@ proxies:
   password: TEzjfAYq2IjtuoS
   port: 6679
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-52.161.38.63:500-可用-直连-仅支持美国地区NF自制剧
+- name: 🇺🇸:美国-ss-52.161.38.63:500-可用-直连-不支持Netflix
   type: ss
   server: 52.161.38.63
   password: '@VPNFolder'
@@ -227,19 +227,13 @@ proxies:
   password: '@VPNFolder'
   port: 500
   cipher: aes-128-gcm
-- name: 🇺🇸:美国-ss-169.197.142.99:8091-可用-直连-仅支持加拿大地区NF自制剧
-  type: ss
-  server: 169.197.142.99
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  cipher: aes-256-gcm
 - name: 🇸🇬:新加坡-ss-139.99.69.80:7306-可用-直连-完全不支持NF
   type: ss
   server: 139.99.69.80
   password: FoOiGlkAA9yPEGP
   port: 7306
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-20.25.107.72:500-可用-直连-仅支持美国地区NF自制剧
+- name: 🇺🇸:美国-ss-20.25.107.72:500-可用-直连-不支持Netflix
   type: ss
   server: 20.25.107.72
   password: '@VPNFolder'
@@ -275,3 +269,14 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
+- name: 🇨🇳:中国-vmess-gzbgp.netgo.top:21181-可用-中转:18.177.233.206-仅支持日本地区NF自制剧
+  type: vmess
+  server: gzbgp.netgo.top
+  network: ws
+  port: 21181
+  uuid: 98614294-7216-3ba0-af91-a1893d1ea5bb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
