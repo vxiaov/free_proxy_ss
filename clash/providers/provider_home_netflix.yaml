@@ -53,6 +53,12 @@ proxies:
   password: faBAoD54k87UJG7
   port: 2376
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-134.195.196.68:443-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 134.195.196.68
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.187:8881-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 134.195.196.187
@@ -65,23 +71,17 @@ proxies:
   password: KixLvKzwjekG00rm
   port: 5500
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-120.241.73.93:39087-可用-中转:172.104.110.44-仅支持日本地区NF自制剧
-  type: ss
-  server: 120.241.73.93
-  password: d61795a4-4b62-4fee-9d7b-9a4bbd0c4e77
-  port: 39087
-  cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-120.241.73.93:35087-可用-中转:172.104.110.44-仅支持日本地区NF自制剧
-  type: ss
-  server: 120.241.73.93
-  password: d61795a4-4b62-4fee-9d7b-9a4bbd0c4e77
-  port: 35087
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-172.99.190.92:7306-可用-直连-仅支持英国地区NF自制剧
   type: ss
   server: 172.99.190.92
   password: FoOiGlkAA9yPEGP
   port: 7306
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-134.195.196.187:2375-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 134.195.196.187
+  password: faBAoD54k87UJG7
+  port: 2375
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.51:443-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
@@ -179,12 +179,6 @@ proxies:
   password: KixLvKzwjekG00rm
   port: 5500
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-134.195.196.187:8882-可用-直连-仅支持加拿大地区NF自制剧
-  type: ss
-  server: 134.195.196.187
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.81:8008-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 134.195.196.81
@@ -215,12 +209,6 @@ proxies:
   password: d61795a4-4b62-4fee-9d7b-9a4bbd0c4e77
   port: 34087
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-134.195.196.68:8090-可用-直连-仅支持加拿大地区NF自制剧
-  type: ss
-  server: 134.195.196.68
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.3:7306-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 134.195.196.3
@@ -238,6 +226,12 @@ proxies:
   server: 167.88.63.108
   password: TEzjfAYq2IjtuoS
   port: 6697
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-142.202.48.108:443-可用-直连-仅支持美国地区NF自制剧
+  type: ss
+  server: 142.202.48.108
+  password: pKEW8JPByTVTLtM
+  port: 443
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-172.99.190.92:8888-可用-直连-仅支持英国地区NF自制剧
   type: ss
@@ -263,6 +257,18 @@ proxies:
   password: d61795a4-4b62-4fee-9d7b-9a4bbd0c4e77
   port: 11087
   cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-120.241.73.93:38087-可用-中转:172.104.110.44-仅支持日本地区NF自制剧
+  type: ss
+  server: 120.241.73.93
+  password: d61795a4-4b62-4fee-9d7b-9a4bbd0c4e77
+  port: 38087
+  cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-120.241.73.93:32087-可用-中转:172.104.110.44-仅支持日本地区NF自制剧
+  type: ss
+  server: 120.241.73.93
+  password: d61795a4-4b62-4fee-9d7b-9a4bbd0c4e77
+  port: 32087
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-38.75.137.66:7001-可用-直连-仅支持美国地区NF自制剧
   type: ss
   server: 38.75.137.66
@@ -275,14 +281,3 @@ proxies:
   password: passinfo123
   port: 8007
   cipher: rc4-md5
-- name: 🇳🇱:荷兰-vmess-ru2.peakerselling.com:443-可用-中转:45.130.146.141-仅支持俄罗斯联邦地区NF自制剧
-  type: vmess
-  server: ru2.peakerselling.com
-  network: ws
-  port: 443
-  uuid: d3435521-3d1f-37f7-ab48-f5302bc6a4fb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /helloman
