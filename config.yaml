@@ -191,12 +191,6 @@ proxies:
     password: pKEW8JPByTVTLtM
     port: 443
     cipher: aes-256-gcm
-  - name: "\U0001F1F8\U0001F1EC:新加坡-ss-45.118.133.51:6697-可用-直连-仅支持新加坡地区NF自制剧"
-    type: ss
-    server: 45.118.133.51
-    password: TEzjfAYq2IjtuoS
-    port: 6697
-    cipher: aes-256-gcm
   - name: "\U0001F1F8\U0001F1EC:新加坡-ss-45.118.133.51:8881-可用-直连-仅支持新加坡地区NF自制剧"
     type: ss
     server: 45.118.133.51
@@ -226,6 +220,12 @@ proxies:
     server: 169.197.142.99
     password: TEzjfAYq2IjtuoS
     port: 6679
+    cipher: aes-256-gcm
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-172.99.190.92:443-可用-直连-仅支持英国地区NF自制剧"
+    type: ss
+    server: 172.99.190.92
+    password: pKEW8JPByTVTLtM
+    port: 443
     cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-169.197.142.99:5001-可用-直连-仅支持加拿大地区NF自制剧"
     type: ss
@@ -377,11 +377,11 @@ proxies:
     password: cdBIDV42DCwnfIN
     port: 8118
     cipher: aes-256-gcm
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.68:8118-可用-直连-仅支持加拿大地区NF自制剧"
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.68:6697-可用-直连-仅支持加拿大地区NF自制剧"
     type: ss
     server: 134.195.196.68
-    password: cdBIDV42DCwnfIN
-    port: 8118
+    password: TEzjfAYq2IjtuoS
+    port: 6697
     cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.51:3389-可用-直连-仅支持加拿大地区NF自制剧"
     type: ss
@@ -401,12 +401,6 @@ proxies:
     password: TEzjfAYq2IjtuoS
     port: 6679
     cipher: aes-256-gcm
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-172.99.190.92:443-可用-直连-仅支持英国地区NF自制剧"
-    type: ss
-    server: 172.99.190.92
-    password: pKEW8JPByTVTLtM
-    port: 443
-    cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.51:8119-可用-直连-仅支持加拿大地区NF自制剧"
     type: ss
     server: 134.195.196.51
@@ -419,35 +413,16 @@ proxies:
     password: pKEW8JPByTVTLtM
     port: 443
     cipher: aes-256-gcm
-  - name: "\U0001F1F3\U0001F1F1:荷兰-ss-213.183.51.171:9061-可用-直连-仅支持荷兰地区NF自制剧"
-    type: ss
-    server: 213.183.51.171
-    password: 4R3hUfZ2FHhDmNcP
-    port: 9061
-    cipher: aes-256-cfb
   - name: "\U0001F1E8\U0001F1F3:中国-ss-101.91.121.247:50004-可用-直连-完全不支持NF"
     type: ss
     server: 101.91.121.247
     password: "4415934295"
     port: 50004
     cipher: aes-256-cfb
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-centralchina1.cloudlink123.com:37005-可用-中转:223.17.169.150-仅支持香港地区NF自制剧"
-    type: ss
-    server: centralchina1.cloudlink123.com
-    password: d96cf6fe-7b12-4233-8243-15258f74ea92
-    port: 37005
-    cipher: aes-128-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-trojan-us2.tcpbbr.net:443-可用-中转:96.126.100.236-仅支持美国地区NF自制剧"
     type: trojan
     server: us2.tcpbbr.net
     password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d
-    udp: true
-    skip-cert-verify: true
-    port: 443
-  - name: "\U0001F1FA\U0001F1F8:美国-trojan-jgwcc1.gaox.ml:443-可用-中转:138.2.126.190-解锁韩国地区NF非自制剧"
-    type: trojan
-    server: jgwcc1.gaox.ml
-    password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
     udp: true
     skip-cert-verify: true
     port: 443
@@ -470,7 +445,6 @@ proxy-groups:
     proxies:
       - DIRECT
       - "\U0001F1FA\U0001F1F8:美国-trojan-us2.tcpbbr.net:443-可用-中转:96.126.100.236-仅支持美国地区NF自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-trojan-jgwcc1.gaox.ml:443-可用-中转:138.2.126.190-解锁韩国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-vpn01.nfeng6.pp.ua:443-可用-中转:142.202.48.108-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-172.99.190.92:9102-可用-直连-仅支持英国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-172.99.190.92:8888-可用-直连-仅支持英国地区NF自制剧"
@@ -488,8 +462,8 @@ proxy-groups:
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.81:7306-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.81:5500-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.81:2376-可用-直连-仅支持加拿大地区NF自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.68:8118-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.68:7002-可用-直连-仅支持加拿大地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.68:6697-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.68:5601-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.68:5001-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.68:443-可用-直连-仅支持加拿大地区NF自制剧"
@@ -510,9 +484,6 @@ proxy-groups:
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.187:5003-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1F8\U0001F1EC:新加坡-ss-45.118.133.51:8881-可用-直连-仅支持新加坡地区NF自制剧"
       - "\U0001F1F8\U0001F1EC:新加坡-ss-45.118.133.51:8091-可用-直连-仅支持新加坡地区NF自制剧"
-      - "\U0001F1F8\U0001F1EC:新加坡-ss-45.118.133.51:6697-可用-直连-仅支持新加坡地区NF自制剧"
-      - "\U0001F1F3\U0001F1F1:荷兰-ss-213.183.51.171:9061-可用-直连-仅支持荷兰地区NF自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-centralchina1.cloudlink123.com:37005-可用-中转:223.17.169.150-仅支持香港地区NF自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-101.91.121.247:50004-可用-直连-完全不支持NF"
   - name: 被墙代理组
     type: select
@@ -568,8 +539,8 @@ proxy-groups:
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.81:7306-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.81:5500-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.81:2376-可用-直连-仅支持加拿大地区NF自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.68:8118-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.68:7002-可用-直连-仅支持加拿大地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.68:6697-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.68:5601-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.68:5001-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.68:443-可用-直连-仅支持加拿大地区NF自制剧"
@@ -590,16 +561,12 @@ proxy-groups:
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.187:5003-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1F8\U0001F1EC:新加坡-ss-45.118.133.51:8881-可用-直连-仅支持新加坡地区NF自制剧"
       - "\U0001F1F8\U0001F1EC:新加坡-ss-45.118.133.51:8091-可用-直连-仅支持新加坡地区NF自制剧"
-      - "\U0001F1F8\U0001F1EC:新加坡-ss-45.118.133.51:6697-可用-直连-仅支持新加坡地区NF自制剧"
-      - "\U0001F1F3\U0001F1F1:荷兰-ss-213.183.51.171:9061-可用-直连-仅支持荷兰地区NF自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-centralchina1.cloudlink123.com:37005-可用-中转:223.17.169.150-仅支持香港地区NF自制剧"
   - name: 解锁Netflix非自制剧
     type: select
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - DIRECT
-      - "\U0001F1FA\U0001F1F8:美国-trojan-jgwcc1.gaox.ml:443-可用-中转:138.2.126.190-解锁韩国地区NF非自制剧"
   - name: 入口代理组
     # 中继代理组,不支持UDP协议。线路: clash <-> vmess <-> ss1 <-> ss2 <-> Internet
     type: select
