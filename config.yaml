@@ -71,23 +71,11 @@ proxies:
     password: KixLvKzwjekG00rm
     port: 5500
     cipher: aes-256-gcm
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.51:8119-可用-直连-仅支持加拿大地区NF自制剧"
-    type: ss
-    server: 134.195.196.51
-    password: cdBIDV42DCwnfIN
-    port: 8119
-    cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-169.197.142.99:7001-可用-直连-仅支持加拿大地区NF自制剧"
     type: ss
     server: 169.197.142.99
     password: RexnBgU7EV5ADxG
     port: 7001
-    cipher: aes-256-gcm
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:3306-可用-直连-仅支持加拿大地区NF自制剧"
-    type: ss
-    server: 134.195.196.3
-    password: Y6R9pAtvxxzmGC
-    port: 3306
     cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-142.202.48.108:443-可用-直连-仅支持美国地区NF自制剧"
     type: ss
@@ -100,12 +88,6 @@ proxies:
     server: 134.195.196.3
     password: RexnBgU7EV5ADxG
     port: 7002
-    cipher: aes-256-gcm
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:8881-可用-直连-仅支持加拿大地区NF自制剧"
-    type: ss
-    server: 134.195.196.3
-    password: kDWvXYZoTBcGkC4
-    port: 8881
     cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-169.197.142.99:8091-可用-直连-仅支持加拿大地区NF自制剧"
     type: ss
@@ -131,18 +113,6 @@ proxies:
     password: PCnnH6SQSnfoS27
     port: 8090
     cipher: aes-256-gcm
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:9101-可用-直连-仅支持加拿大地区NF自制剧"
-    type: ss
-    server: 134.195.196.3
-    password: e4FCWrgpkji3QY
-    port: 9101
-    cipher: aes-256-gcm
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-169.197.142.99:8090-可用-直连-仅支持加拿大地区NF自制剧"
-    type: ss
-    server: 169.197.142.99
-    password: PCnnH6SQSnfoS27
-    port: 8090
-    cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-vpn01.nfeng6.pp.ua:443-可用-中转:142.202.48.108-仅支持美国地区NF自制剧"
     type: ss
     server: vpn01.nfeng6.pp.ua
@@ -155,7 +125,7 @@ proxies:
     password: TEzjfAYq2IjtuoS
     port: 6697
     cipher: aes-256-gcm
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-169.197.142.99:6679-可用-直连-仅支持加拿大地区NF自制剧"
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-169.197.142.99:6679-可用-直连-不支持Netflix"
     type: ss
     server: 169.197.142.99
     password: TEzjfAYq2IjtuoS
@@ -179,6 +149,12 @@ proxies:
     password: G!yBwPWH3Vao
     port: 802
     cipher: chacha20-ietf-poly1305
+  - name: :波黑-ss-185.99.3.108:50024-被墙-中转:185.99.3.143-解锁美国地区NF非自制剧
+    type: ss
+    server: 185.99.3.108
+    password: b2jDPHUQxCNa2KmGHZjy7C4B
+    port: 50024
+    cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-38.68.134.48:9101-被墙-直连-解锁美国地区NF非自制剧"
     type: ss
     server: 38.68.134.48
@@ -281,11 +257,53 @@ proxies:
     password: cdBIDV42DCwnfIN
     port: 8118
     cipher: aes-256-gcm
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:6379-可用-直连-仅支持加拿大地区NF自制剧"
+    type: ss
+    server: 134.195.196.3
+    password: zDNVedRFPQexG9v
+    port: 6379
+    cipher: aes-256-gcm
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:5600-可用-直连-仅支持加拿大地区NF自制剧"
+    type: ss
+    server: 134.195.196.3
+    password: Y6R9pAtvxxzmGC
+    port: 5600
+    cipher: aes-256-gcm
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-169.197.142.99:443-可用-直连-仅支持加拿大地区NF自制剧"
+    type: ss
+    server: 169.197.142.99
+    password: pKEW8JPByTVTLtM
+    port: 443
+    cipher: aes-256-gcm
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-169.197.142.99:9101-可用-直连-仅支持加拿大地区NF自制剧"
+    type: ss
+    server: 169.197.142.99
+    password: e4FCWrgpkji3QY
+    port: 9101
+    cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.51:3389-可用-直连-仅支持加拿大地区NF自制剧"
     type: ss
     server: 134.195.196.51
     password: Y6R9pAtvxxzmGC
     port: 3389
+    cipher: aes-256-gcm
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:3306-可用-直连-仅支持加拿大地区NF自制剧"
+    type: ss
+    server: 134.195.196.3
+    password: Y6R9pAtvxxzmGC
+    port: 3306
+    cipher: aes-256-gcm
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.51:443-可用-直连-仅支持加拿大地区NF自制剧"
+    type: ss
+    server: 134.195.196.51
+    password: pKEW8JPByTVTLtM
+    port: 443
+    cipher: aes-256-gcm
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.51:6679-可用-直连-不支持Netflix"
+    type: ss
+    server: 134.195.196.51
+    password: TEzjfAYq2IjtuoS
+    port: 6679
     cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-172.99.190.92:9102-可用-直连-仅支持英国地区NF自制剧"
     type: ss
@@ -293,11 +311,11 @@ proxies:
     password: e4FCWrgpkji3QY
     port: 9102
     cipher: aes-256-gcm
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:8008-可用-直连-不支持Netflix"
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.51:8119-可用-直连-不支持Netflix"
     type: ss
-    server: 134.195.196.3
-    password: XKFKl2rULjIp74
-    port: 8008
+    server: 134.195.196.51
+    password: cdBIDV42DCwnfIN
+    port: 8119
     cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-172.99.190.92:6379-可用-直连-仅支持英国地区NF自制剧"
     type: ss
@@ -317,6 +335,12 @@ proxies:
     password: FoOiGlkAA9yPEGP
     port: 7307
     cipher: aes-256-gcm
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.51:7306-可用-直连-不支持Netflix"
+    type: ss
+    server: 134.195.196.51
+    password: FoOiGlkAA9yPEGP
+    port: 7306
+    cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-172.99.190.92:7002-可用-直连-仅支持英国地区NF自制剧"
     type: ss
     server: 172.99.190.92
@@ -329,20 +353,6 @@ proxies:
     password: "4415934295"
     port: 50004
     cipher: aes-256-cfb
-  - name: "\U0001F1FA\U0001F1F8:美国-trojan-hk-az-zz.licom.ga:48211-可用-中转:52.140.218.219-仅支持日本地区NF自制剧"
-    type: trojan
-    server: hk-az-zz.licom.ga
-    password: f81e990e-1283-48f9-9eff-acacad6fb661
-    udp: true
-    skip-cert-verify: true
-    port: 48211
-  - name: "\U0001F1FA\U0001F1F8:美国-trojan-jgwdj1.gaox.ml:443-可用-中转:152.70.110.253-解锁日本地区NF非自制剧"
-    type: trojan
-    server: jgwdj1.gaox.ml
-    password: e8553fc5-f3a0-409c-ac06-1cd93b026cf4
-    udp: true
-    skip-cert-verify: true
-    port: 443
 # 类型选择 简介
 # select : 用于选择代理或代理组, 可以通过 RESTful API 来切换代理，建议在 GUI 中使用
 # load-balance : 相同eTLD+1的请求将拨号到同一个代理。
@@ -361,8 +371,6 @@ proxy-groups:
     interval: 300
     proxies:
       - DIRECT
-      - "\U0001F1FA\U0001F1F8:美国-trojan-jgwdj1.gaox.ml:443-可用-中转:152.70.110.253-解锁日本地区NF非自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-trojan-hk-az-zz.licom.ga:48211-可用-中转:52.140.218.219-仅支持日本地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-vpn01.nfeng6.pp.ua:443-可用-中转:142.202.48.108-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-172.99.190.92:9102-可用-直连-仅支持英国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-172.99.190.92:7307-可用-直连-仅支持英国地区NF自制剧"
@@ -375,22 +383,25 @@ proxy-groups:
       - "\U0001F1FA\U0001F1F8:美国-ss-172.99.188.71:5601-可用-直连-仅支持荷兰地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-172.99.188.71:5500-可用-直连-仅支持荷兰地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-169.197.142.99:9102-可用-直连-仅支持加拿大地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-169.197.142.99:9101-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-169.197.142.99:8091-可用-直连-仅支持加拿大地区NF自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-ss-169.197.142.99:8090-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-169.197.142.99:7001-可用-直连-仅支持加拿大地区NF自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-ss-169.197.142.99:6679-可用-直连-仅支持加拿大地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-169.197.142.99:6679-可用-直连-不支持Netflix"
+      - "\U0001F1FA\U0001F1F8:美国-ss-169.197.142.99:443-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.108:8888-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-142.202.48.108:443-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.51:8881-可用-直连-仅支持加拿大地区NF自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.51:8119-可用-直连-仅支持加拿大地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.51:8119-可用-直连-不支持Netflix"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.51:8090-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.51:7306-可用-直连-仅支持加拿大地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.51:7306-可用-直连-不支持Netflix"
+      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.51:6679-可用-直连-不支持Netflix"
+      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.51:443-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.51:3389-可用-直连-仅支持加拿大地区NF自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:9101-可用-直连-仅支持加拿大地区NF自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:8881-可用-直连-仅支持加拿大地区NF自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:8008-可用-直连-不支持Netflix"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:7002-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:6697-可用-直连-仅支持加拿大地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:6379-可用-直连-仅支持加拿大地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:5600-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:3306-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-101.91.121.247:50004-可用-直连-完全不支持NF"
   - name: 被墙代理组
@@ -418,13 +429,13 @@ proxy-groups:
       - "\U0001F1EF\U0001F1F5:日本-ss-89.31.126.150:812-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧"
       - "\U0001F1EF\U0001F1F5:日本-ss-89.31.126.150:802-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧"
       - "\U0001F1EF\U0001F1F5:日本-ss-185.160.24.217:805-被墙-直连-解锁日本地区NF非自制剧"
+      - :波黑-ss-185.99.3.108:50024-被墙-中转:185.99.3.143-解锁美国地区NF非自制剧
   - name: 仅支持Netflix自制剧
     type: select
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - DIRECT
-      - "\U0001F1FA\U0001F1F8:美国-trojan-hk-az-zz.licom.ga:48211-可用-中转:52.140.218.219-仅支持日本地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-vpn01.nfeng6.pp.ua:443-可用-中转:142.202.48.108-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-172.99.190.92:9102-可用-直连-仅支持英国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-172.99.190.92:7307-可用-直连-仅支持英国地区NF自制剧"
@@ -437,21 +448,21 @@ proxy-groups:
       - "\U0001F1FA\U0001F1F8:美国-ss-172.99.188.71:5601-可用-直连-仅支持荷兰地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-172.99.188.71:5500-可用-直连-仅支持荷兰地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-169.197.142.99:9102-可用-直连-仅支持加拿大地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-169.197.142.99:9101-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-169.197.142.99:8091-可用-直连-仅支持加拿大地区NF自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-ss-169.197.142.99:8090-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-169.197.142.99:7001-可用-直连-仅支持加拿大地区NF自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-ss-169.197.142.99:6679-可用-直连-仅支持加拿大地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-169.197.142.99:443-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.63.108:8888-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-142.202.48.108:443-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.51:8881-可用-直连-仅支持加拿大地区NF自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.51:8119-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.51:8090-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.51:7306-可用-直连-仅支持加拿大地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.51:443-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.51:3389-可用-直连-仅支持加拿大地区NF自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:9101-可用-直连-仅支持加拿大地区NF自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:8881-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:7002-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:6697-可用-直连-仅支持加拿大地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:6379-可用-直连-仅支持加拿大地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:5600-可用-直连-仅支持加拿大地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.3:3306-可用-直连-仅支持加拿大地区NF自制剧"
   - name: 解锁Netflix非自制剧
     type: select
@@ -459,7 +470,6 @@ proxy-groups:
     interval: 300
     proxies:
       - DIRECT
-      - "\U0001F1FA\U0001F1F8:美国-trojan-jgwdj1.gaox.ml:443-可用-中转:152.70.110.253-解锁日本地区NF非自制剧"
   - name: 入口代理组
     # 中继代理组,不支持UDP协议。线路: clash <-> vmess <-> ss1 <-> ss2 <-> Internet
     type: select
