@@ -5,12 +5,6 @@ proxies:
   password: e4FCWrgpkji3QY
   port: 9102
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-101.33.125.235:16056-可用-直连-仅支持香港地区NF自制剧
-  type: ss
-  server: 101.33.125.235
-  password: 76763f2a-7c79-498d-b0d3-986ad0f294cf
-  port: 16056
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-134.195.196.51:5601-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 134.195.196.51
@@ -40,12 +34,6 @@ proxies:
   server: 134.195.196.51
   password: KixLvKzwjekG00rm
   port: 8000
-  cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-211.99.115.24:11403-可用-中转:185.217.108.46-仅支持德国地区NF自制剧
-  type: ss
-  server: 211.99.115.24
-  password: zAdhDSabeh
-  port: 11403
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.51:3389-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
@@ -95,24 +83,6 @@ proxies:
   password: e4FCWrgpkji3QY
   port: 9101
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-211.99.115.24:11854-可用-中转:46.101.59.147-仅支持英国地区NF自制剧
-  type: ss
-  server: 211.99.115.24
-  password: zAdhDSabeh
-  port: 11854
-  cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-211.99.115.24:11551-可用-中转:188.166.24.99-仅支持荷兰地区NF自制剧
-  type: ss
-  server: 211.99.115.24
-  password: zAdhDSabeh
-  port: 11551
-  cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-211.99.115.24:11851-可用-中转:35.176.84.45-仅支持英国地区NF自制剧
-  type: ss
-  server: 211.99.115.24
-  password: zAdhDSabeh
-  port: 11851
-  cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-211.99.115.24:11651-可用-中转:213.183.56.235-仅支持俄罗斯联邦地区NF自制剧
   type: ss
   server: 211.99.115.24
@@ -131,11 +101,23 @@ proxies:
   password: zAdhDSabeh
   port: 11405
   cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-101.33.125.235:16056-可用-直连-仅支持香港地区NF自制剧
+  type: ss
+  server: 101.33.125.235
+  password: 76763f2a-7c79-498d-b0d3-986ad0f294cf
+  port: 16056
+  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-169.197.142.99:7002-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 169.197.142.99
   password: RexnBgU7EV5ADxG
   port: 7002
+  cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-211.99.115.24:11851-可用-中转:35.176.84.45-仅支持英国地区NF自制剧
+  type: ss
+  server: 211.99.115.24
+  password: zAdhDSabeh
+  port: 11851
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.63.108:3306-可用-直连-仅支持美国地区NF自制剧
   type: ss
@@ -148,24 +130,6 @@ proxies:
   server: 211.99.115.24
   password: zAdhDSabeh
   port: 11302
-  cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-211.99.115.24:11406-可用-中转:18.156.69.227-仅支持德国地区NF自制剧
-  type: ss
-  server: 211.99.115.24
-  password: zAdhDSabeh
-  port: 11406
-  cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-211.99.115.24:11402-可用-中转:185.217.108.38-仅支持德国地区NF自制剧
-  type: ss
-  server: 211.99.115.24
-  password: zAdhDSabeh
-  port: 11402
-  cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-211.99.115.24:11601-可用-中转:37.235.53.236-仅支持西班牙地区NF自制剧
-  type: ss
-  server: 211.99.115.24
-  password: zAdhDSabeh
-  port: 11601
   cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-211.99.115.24:11501-可用-中转:176.105.253.109-仅支持波兰地区NF自制剧
   type: ss
@@ -191,9 +155,80 @@ proxies:
   password: zAdhDSabeh
   port: 11552
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-211.99.115.24:11853-可用-中转:134.209.24.181-仅支持英国地区NF自制剧
-  type: ss
-  server: 211.99.115.24
-  password: zAdhDSabeh
-  port: 11853
-  cipher: aes-256-gcm
+- name: 🇨🇳:中国-vmess-aws-hk06.xiaohouzi.club:443-可用-中转:43.132.155.16-仅支持香港地区NF自制剧
+  type: vmess
+  server: aws-hk06.xiaohouzi.club
+  network: ws
+  port: 443
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
+- name: 🇨🇳:中国-vmess-azhk096.xiaohouzi.club:10082-可用-中转:43.135.68.234-仅支持香港地区NF自制剧
+  type: vmess
+  server: azhk096.xiaohouzi.club
+  network: ws
+  port: 10082
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
+- name: 🇨🇳:中国-vmess-awv094.xiaohouzi.club:10082-可用-中转:43.129.21.105-仅支持香港地区NF自制剧
+  type: vmess
+  server: awv094.xiaohouzi.club
+  network: ws
+  port: 10082
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
+- name: 🇨🇳:中国-vmess-azhk095.xiaohouzi.club:10051-可用-中转:43.132.168.243-仅支持香港地区NF自制剧
+  type: vmess
+  server: azhk095.xiaohouzi.club
+  network: ws
+  port: 10051
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
+- name: 🇨🇳:中国-vmess-azhk01.xiaohouzi.club:10050-可用-中转:43.154.176.127-仅支持香港地区NF自制剧
+  type: vmess
+  server: azhk01.xiaohouzi.club
+  network: ws
+  port: 10050
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
+- name: 🇷🇺:俄罗斯-vmess-v2-r02.xiaohouzi.club:10082-可用-中转:194.147.33.175-仅支持俄罗斯联邦地区NF自制剧
+  type: vmess
+  server: v2-r02.xiaohouzi.club
+  network: ws
+  port: 10082
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
+- name: 🇨🇳:中国-vmess-shk01.xiaohouzi.club:10050-可用-中转:43.129.181.54-仅支持香港地区NF自制剧
+  type: vmess
+  server: shk01.xiaohouzi.club
+  network: ws
+  port: 10050
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
