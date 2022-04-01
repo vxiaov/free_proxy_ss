@@ -23,29 +23,17 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 3389
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-134.195.196.51:8008-可用-直连-仅支持加拿大地区NF自制剧
+- name: 🇺🇸:美国-ss-134.195.196.51:8882-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 134.195.196.51
-  password: XKFKl2rULjIp74
-  port: 8008
+  password: kDWvXYZoTBcGkC4
+  port: 8882
   cipher: aes-256-gcm
 - name: 🇯🇵:日本-ss-158.247.224.121:2376-可用-直连-完全不支持NF
   type: ss
   server: 158.247.224.121
   password: faBAoD54k87UJG7
   port: 2376
-  cipher: aes-256-gcm
-- name: 🇯🇵:日本-ss-158.247.224.121:8009-可用-直连-完全不支持NF
-  type: ss
-  server: 158.247.224.121
-  password: XKFKl2rULjIp74
-  port: 8009
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-169.197.142.99:7001-可用-直连-仅支持加拿大地区NF自制剧
-  type: ss
-  server: 169.197.142.99
-  password: RexnBgU7EV5ADxG
-  port: 7001
   cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-14.29.124.168:25218-可用-直连-完全不支持NF
   type: ss
@@ -77,51 +65,12 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
-- name: 🇬🇧:英国-ss-uk.london1.vpntester.net:15256-可用-中转:5.188.5.190-不支持Netflix
-  type: ss
-  server: uk.london1.vpntester.net
-  password: 4SGLMZ7Z83fN
-  port: 15256
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-169.197.142.99:9101-可用-直连-仅支持加拿大地区NF自制剧
+- name: 🇺🇸:美国-ss-169.197.142.99:7001-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 169.197.142.99
-  password: e4FCWrgpkji3QY
-  port: 9101
+  password: RexnBgU7EV5ADxG
+  port: 7001
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-vmess-usa1.foreign-expat-tv.win:443-可用-中转:79.133.110.58-仅支持美国地区NF自制剧
-  type: vmess
-  server: usa1.foreign-expat-tv.win
-  network: ws
-  port: 443
-  uuid: b25b367d-cbea-35f5-a6b3-afdfdc1e49a6
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /v2ray
-- name: 🇨🇳:中国-vmess-mc.xiaohouzi.club:28324-可用-中转:141.164.63.101-完全不支持NF
-  type: vmess
-  server: mc.xiaohouzi.club
-  network: ws
-  port: 28324
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /v2ray
-- name: 🇺🇸:美国-vmess-104.168.13.8:41342-可用-直连-完全不支持NF
-  type: vmess
-  server: 104.168.13.8
-  network: ws
-  port: 41342
-  uuid: 3aa90670-6d21-4287-eec5-0cd0b21d579a
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
 - name: 🇨🇳:中国-vmess-bgp.xiaohouzi.club:28522-可用-中转:158.247.200.102-完全不支持NF
   type: vmess
   server: bgp.xiaohouzi.club
@@ -133,25 +82,14 @@ proxies:
   udp: false
   tls: false
   ws-path: /v2ray
-- name: 🇯🇵:日本-vmess-jp2.foreign-expat-tv.win:443-可用-中转:172.104.107.45-仅支持日本地区NF自制剧
+- name: 🇺🇸:美国-vmess-hk2.foreign-expat-tv.win:443-可用-中转:5.188.33.182-仅支持香港地区NF自制剧
   type: vmess
-  server: jp2.foreign-expat-tv.win
+  server: hk2.foreign-expat-tv.win
   network: ws
   port: 443
-  uuid: 34b0d6c3-f393-3df1-9a1e-15307ed18ae2
+  uuid: 75313310-76ad-3ca0-80ec-d1d82a889286
   alterId: 4
   cipher: auto
   udp: false
   tls: true
   ws-path: /v2ray
-- name: 🇨🇳:中国-vmess-h3.shopbuy.club:443-可用-中转:42.3.74.5-解锁香港地区NF非自制剧
-  type: vmess
-  server: h3.shopbuy.club
-  network: ws
-  port: 443
-  uuid: 92261659-55a6-4b43-85d2-d3d3f30ca8eb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /KoUJaiN8
