@@ -1,22 +1,4 @@
 proxies:
-- name: 🇺🇸:美国-ss-134.195.196.51:5601-可用-直连-仅支持加拿大地区NF自制剧
-  type: ss
-  server: 134.195.196.51
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-134.195.196.51:8090-可用-直连-仅支持加拿大地区NF自制剧
-  type: ss
-  server: 134.195.196.51
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-134.195.196.51:8000-可用-直连-仅支持加拿大地区NF自制剧
-  type: ss
-  server: 134.195.196.51
-  password: KixLvKzwjekG00rm
-  port: 8000
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.51:3389-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 134.195.196.51
@@ -29,11 +11,29 @@ proxies:
   password: dfMsIC3vOiUhM9tP
   port: 64132
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-134.195.196.51:9101-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 134.195.196.51
+  password: e4FCWrgpkji3QY
+  port: 9101
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-169.197.142.99:6679-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 169.197.142.99
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.51:5001-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 134.195.196.51
   password: Y6R9pAtvxxzmGC
   port: 5001
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-134.195.196.51:8882-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 134.195.196.51
+  password: kDWvXYZoTBcGkC4
+  port: 8882
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.198.211:443-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
@@ -41,11 +41,11 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-169.197.142.99:9101-可用-直连-仅支持加拿大地区NF自制剧
+- name: 🇺🇸:美国-ss-134.195.196.51:5500-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
-  server: 169.197.142.99
-  password: e4FCWrgpkji3QY
-  port: 9101
+  server: 134.195.196.51
+  password: KixLvKzwjekG00rm
+  port: 5500
   cipher: aes-256-gcm
 - name: 🇯🇵:日本-ss-158.247.224.121:2376-可用-直连-完全不支持NF
   type: ss
@@ -77,18 +77,12 @@ proxies:
   password: QazEdcTgb159@$*
   port: 25218
   cipher: aes-128-cfb
-- name: 🇺🇸:美国-ss-169.197.142.99:8090-可用-直连-仅支持加拿大地区NF自制剧
+- name: 🇨🇳:中国-ss-fkgfw-prod.i.sxl.cn:443-可用-中转:13.70.7.164-仅支持香港地区NF自制剧
   type: ss
-  server: 169.197.142.99
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-91.90.195.47:28096-可用-直连-仅支持美国地区NF自制剧
-  type: ss
-  server: 91.90.195.47
-  password: sMyA7g3B8Vf4V9ny
-  port: 28096
-  cipher: aes-256-gcm
+  server: fkgfw-prod.i.sxl.cn
+  password: E4DNMf73kHPrd8Qq7aqGPf7f
+  port: 443
+  cipher: aes-256-cfb
 - name: 🇨🇳:中国-ss-101.91.121.247:50004-可用-直连-完全不支持NF
   type: ss
   server: 101.91.121.247
@@ -101,24 +95,18 @@ proxies:
   password: 4SGLMZ7Z83fN
   port: 15256
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-169.197.142.99:9101-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 169.197.142.99
+  password: e4FCWrgpkji3QY
+  port: 9101
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-34.216.75.173:443-可用-直连-仅支持美国地区NF自制剧
   type: ss
   server: 34.216.75.173
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-fkgfw-prod.i.sxl.cn:443-可用-中转:13.70.7.164-仅支持香港地区NF自制剧
-  type: ss
-  server: fkgfw-prod.i.sxl.cn
-  password: E4DNMf73kHPrd8Qq7aqGPf7f
-  port: 443
-  cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-169.197.142.99:7001-可用-直连-仅支持加拿大地区NF自制剧
-  type: ss
-  server: 169.197.142.99
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  cipher: aes-256-gcm
 - name: 🇨🇳:中国-vmess-bgp.xiaohouzi.club:28518-可用-中转:141.164.34.7-完全不支持NF
   type: vmess
   server: bgp.xiaohouzi.club
@@ -146,17 +134,6 @@ proxies:
   server: mc.xiaohouzi.club
   network: ws
   port: 28324
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /v2ray
-- name: 🇨🇳:中国-vmess-hk-azure02.xiaohouzi.club:10051-可用-中转:43.154.175.235-仅支持香港地区NF自制剧
-  type: vmess
-  server: hk-azure02.xiaohouzi.club
-  network: ws
-  port: 10051
   uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
   alterId: 4
   cipher: auto
@@ -212,17 +189,6 @@ proxies:
   server: bgp.xiaohouzi.club
   network: ws
   port: 28522
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /v2ray
-- name: 🇨🇳:中国-vmess-bgp.xiaohouzi.club:28523-可用-中转:141.164.51.228-完全不支持NF
-  type: vmess
-  server: bgp.xiaohouzi.club
-  network: ws
-  port: 28523
   uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
   alterId: 4
   cipher: auto
