@@ -53,12 +53,6 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 3389
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-169.197.142.99:6697-可用-直连-仅支持加拿大地区NF自制剧
-  type: ss
-  server: 169.197.142.99
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.51:8882-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 134.195.196.51
@@ -77,6 +71,12 @@ proxies:
   password: 8e0963c2-1309-4213-a572-5e8e7476c224
   port: 101
   cipher: aes-128-gcm
+- name: 🇺🇸:美国-ss-169.197.142.99:7002-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 169.197.142.99
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.63.108:443-可用-直连-仅支持美国地区NF自制剧
   type: ss
   server: 167.88.63.108
@@ -89,6 +89,12 @@ proxies:
   password: 4SGLMZ7Z83fN
   port: 15256
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-34.216.75.173:443-可用-直连-仅支持美国地区NF自制剧
+  type: ss
+  server: 34.216.75.173
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:25218-可用-直连-完全不支持NF
   type: ss
   server: 14.29.124.168
@@ -107,6 +113,17 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
+- name: 🇯🇵:日本-vmess-scjp.scsevers.cf:11312-可用-中转:164.70.102.40-解锁日本地区NF非自制剧
+  type: vmess
+  server: scjp.scsevers.cf
+  network: ws
+  port: 11312
+  uuid: 71f2e024-6b64-4f37-dba3-dc25614ccce8
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇳🇱:荷兰-vmess-us06.xiaohouzi.club:10082-可用-中转:45.137.97.71-仅支持美国地区NF自制剧
   type: vmess
   server: us06.xiaohouzi.club
@@ -118,7 +135,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /v2ray
-- name: 🇨🇳:中国-vmess-shk02.xiaohouzi.club:10053-可用-中转:43.154.163.21-仅支持香港地区NF自制剧
+- name: 🇨🇳:中国-vmess-shk02.xiaohouzi.club:10053-可用-中转:43.154.163.21-不支持Netflix
   type: vmess
   server: shk02.xiaohouzi.club
   network: ws
