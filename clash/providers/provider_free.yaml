@@ -179,12 +179,6 @@ proxies:
   password: zAdhDSabeh
   port: 11501
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-211.99.115.24:11052-可用-中转:103.156.243.51-解锁台湾地区NF非自制剧
-  type: ss
-  server: 211.99.115.24
-  password: zAdhDSabeh
-  port: 11052
-  cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-211.99.115.24:11118-可用-中转:178.128.215.69-不支持Netflix
   type: ss
   server: 211.99.115.24
@@ -335,6 +329,18 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-211.99.115.24:11051-可用-中转:103.156.242.115-解锁台湾地区NF非自制剧
+  type: ss
+  server: 211.99.115.24
+  password: zAdhDSabeh
+  port: 11051
+  cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-211.99.115.24:11052-可用-中转:103.156.243.51-解锁台湾地区NF非自制剧
+  type: ss
+  server: 211.99.115.24
+  password: zAdhDSabeh
+  port: 11052
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-34.216.75.173:443-可用-直连-仅支持美国地区NF自制剧
   type: ss
   server: 34.216.75.173
@@ -347,6 +353,17 @@ proxies:
   password: E4DNMf73kHPrd8Qq7aqGPf7f
   port: 443
   cipher: aes-256-cfb
+- name: 🇨🇳:中国-vmess-azhk03.xiaohouzi.club:10050-可用-中转:43.154.177.153-仅支持香港地区NF自制剧
+  type: vmess
+  server: azhk03.xiaohouzi.club
+  network: ws
+  port: 10050
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
 - name: 🇨🇳:中国-vmess-bgp.xiaohouzi.club:28522-可用-中转:158.247.200.102-完全不支持NF
   type: vmess
   server: bgp.xiaohouzi.club
