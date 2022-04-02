@@ -1,16 +1,4 @@
 proxies:
-- name: 🇺🇸:美国-ss-hk2.aead.ml:101-可用-中转:20.222.51.255-仅支持日本地区NF自制剧
-  type: ss
-  server: hk2.aead.ml
-  password: 8e0963c2-1309-4213-a572-5e8e7476c224
-  port: 101
-  cipher: aes-128-gcm
-- name: 🇺🇸:美国-ss-169.197.142.99:7002-可用-直连-仅支持加拿大地区NF自制剧
-  type: ss
-  server: 169.197.142.99
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-169.197.142.99:8118-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 169.197.142.99
@@ -23,17 +11,17 @@ proxies:
   password: e4FCWrgpkji3QY
   port: 9102
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-hk1.aead.ml:101-可用-中转:20.222.51.255-仅支持日本地区NF自制剧
-  type: ss
-  server: hk1.aead.ml
-  password: 8e0963c2-1309-4213-a572-5e8e7476c224
-  port: 101
-  cipher: aes-128-gcm
 - name: 🇺🇸:美国-ss-169.197.142.99:9101-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 169.197.142.99
   password: e4FCWrgpkji3QY
   port: 9101
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-169.197.142.99:7002-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 169.197.142.99
+  password: RexnBgU7EV5ADxG
+  port: 7002
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-169.197.142.99:8091-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
@@ -71,17 +59,6 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
-- name: 🇯🇵:日本-vmess-scjp.scsevers.cf:11312-可用-中转:164.70.102.40-解锁日本地区NF非自制剧
-  type: vmess
-  server: scjp.scsevers.cf
-  network: ws
-  port: 11312
-  uuid: 71f2e024-6b64-4f37-dba3-dc25614ccce8
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
 - name: 🇳🇱:荷兰-vmess-us06.xiaohouzi.club:10082-可用-中转:45.137.97.71-仅支持美国地区NF自制剧
   type: vmess
   server: us06.xiaohouzi.club
