@@ -23,17 +23,17 @@ proxies:
   password: 8e0963c2-1309-4213-a572-5e8e7476c224
   port: 101
   cipher: aes-128-gcm
-- name: 🇺🇸:美国-ss-134.195.196.51:7002-可用-直连-仅支持加拿大地区NF自制剧
-  type: ss
-  server: 134.195.196.51
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-169.197.142.99:443-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 169.197.142.99
   password: pKEW8JPByTVTLtM
   port: 443
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-167.88.63.108:8090-可用-直连-仅支持美国地区NF自制剧
+  type: ss
+  server: 167.88.63.108
+  password: PCnnH6SQSnfoS27
+  port: 8090
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.51:8090-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
@@ -53,17 +53,17 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 3389
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-38.114.114.185:7002-可用-直连-仅支持美国地区NF自制剧
-  type: ss
-  server: 38.114.114.185
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-169.197.142.99:6697-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 169.197.142.99
   password: TEzjfAYq2IjtuoS
   port: 6697
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-134.195.196.51:8882-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 134.195.196.51
+  password: kDWvXYZoTBcGkC4
+  port: 8882
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-169.197.142.99:9101-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
@@ -77,35 +77,11 @@ proxies:
   password: 8e0963c2-1309-4213-a572-5e8e7476c224
   port: 101
   cipher: aes-128-gcm
-- name: 🇺🇸:美国-ss-172.99.190.39:8080-可用-直连-仅支持英国地区NF自制剧
+- name: 🇺🇸:美国-ss-167.88.63.108:443-可用-直连-仅支持美国地区NF自制剧
   type: ss
-  server: 172.99.190.39
-  password: KixLvKzwjekG00rm
-  port: 8080
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-172.99.190.39:8882-可用-直连-仅支持英国地区NF自制剧
-  type: ss
-  server: 172.99.190.39
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-172.99.190.39:5003-可用-直连-仅支持英国地区NF自制剧
-  type: ss
-  server: 172.99.190.39
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-172.99.190.39:8118-可用-直连-仅支持英国地区NF自制剧
-  type: ss
-  server: 172.99.190.39
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-172.99.190.39:8091-可用-直连-仅支持英国地区NF自制剧
-  type: ss
-  server: 172.99.190.39
-  password: PCnnH6SQSnfoS27
-  port: 8091
+  server: 167.88.63.108
+  password: pKEW8JPByTVTLtM
+  port: 443
   cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-fkgfw-prod.i.sxl.cn:443-可用-中转:13.70.7.164-仅支持香港地区NF自制剧
   type: ss
@@ -113,23 +89,6 @@ proxies:
   password: E4DNMf73kHPrd8Qq7aqGPf7f
   port: 443
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-180.163.62.91:46188-可用-中转:129.227.10.139-仅支持韩国地区NF自制剧
-  type: ss
-  server: 180.163.62.91
-  password: QazEdcTgb159@$*
-  port: 46188
-  cipher: aes-128-cfb
-- name: 🇷🇺:俄罗斯-vmess-vv01.xiaohouzi.club:10083-可用-中转:45.11.92.117-仅支持美国地区NF自制剧
-  type: vmess
-  server: vv01.xiaohouzi.club
-  network: ws
-  port: 10083
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /v2ray
 - name: 🇳🇱:荷兰-vmess-us06.xiaohouzi.club:10082-可用-中转:45.137.97.71-仅支持美国地区NF自制剧
   type: vmess
   server: us06.xiaohouzi.club
