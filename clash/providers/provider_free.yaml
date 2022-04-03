@@ -29,23 +29,11 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 3389
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-169.197.141.109:8888-可用-直连-仅支持加拿大地区NF自制剧
-  type: ss
-  server: 169.197.141.109
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.51:9102-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 134.195.196.51
   password: e4FCWrgpkji3QY
   port: 9102
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-169.197.142.99:7002-可用-直连-仅支持加拿大地区NF自制剧
-  type: ss
-  server: 169.197.142.99
-  password: RexnBgU7EV5ADxG
-  port: 7002
   cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-14.29.124.174:11041-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
   type: ss
@@ -101,6 +89,18 @@ proxies:
   password: QazEdcTgb159@$*
   port: 25218
   cipher: aes-128-cfb
+- name: 🇺🇸:美国-ss-169.197.142.99:7002-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 169.197.142.99
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-34.216.75.173:443-可用-直连-仅支持美国地区NF自制剧
+  type: ss
+  server: 34.216.75.173
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:16011-可用-中转:129.227.144.141-仅支持香港地区NF自制剧
   type: ss
   server: 14.29.124.168
@@ -119,25 +119,3 @@ proxies:
   password: QazEdcTgb159@$*
   port: 46188
   cipher: aes-128-cfb
-- name: 🇫🇷:法国-vmess-107.191.47.91:10110-可用-直连-完全不支持NF
-  type: vmess
-  server: 107.191.47.91
-  network: ws
-  port: 10110
-  uuid: 29430b3d-f83f-3c74-94a2-e8c1a459219f
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /v2ray
-- name: 🇺🇸:美国-vmess-fr.dadiangan.xyz:24534-可用-中转:20.111.46.100-仅支持法国地区NF自制剧
-  type: vmess
-  server: fr.dadiangan.xyz
-  network: ws
-  port: 24534
-  uuid: 9de3e9ba-18ce-4cd8-81a3-e4ed47fc7d41
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /dadiangan
