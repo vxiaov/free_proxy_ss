@@ -1,10 +1,4 @@
 proxies:
-- name: 🇺🇸:美国-ss-an011.oioav.com:10086-可用-中转:20.239.71.43-仅支持香港地区NF自制剧
-  type: ss
-  server: an011.oioav.com
-  password: 55af954a-7634-4f28-8acf-8a64ca9fc4cd
-  port: 10086
-  cipher: chacha20-ietf-poly1305
 - name: 🇨🇦:加拿大-ss-198.57.27.225:8008-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 198.57.27.225
@@ -23,6 +17,12 @@ proxies:
   password: PCnnH6SQSnfoS27
   port: 8091
   cipher: aes-256-gcm
+- name: 🇨🇦:加拿大-ss-198.57.27.225:443-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 198.57.27.225
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
 - name: 🇨🇦:加拿大-ss-198.57.27.225:8888-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 198.57.27.225
@@ -35,30 +35,12 @@ proxies:
   password: cdBIDV42DCwnfIN
   port: 8118
   cipher: aes-256-gcm
-- name: 🇨🇦:加拿大-ss-198.57.27.225:9102-可用-直连-仅支持加拿大地区NF自制剧
-  type: ss
-  server: 198.57.27.225
-  password: e4FCWrgpkji3QY
-  port: 9102
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.63.60:2376-可用-直连-仅支持美国地区NF自制剧
   type: ss
   server: 167.88.63.60
   password: faBAoD54k87UJG7
   port: 2376
   cipher: aes-256-gcm
-- name: 🇷🇺:俄罗斯-ss-213.183.53.177:9053-可用-直连-仅支持俄罗斯联邦地区NF自制剧
-  type: ss
-  server: 213.183.53.177
-  password: SBM7R883jBmnqe6C
-  port: 9053
-  cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-180.163.62.91:10065-可用-中转:129.227.4.81-仅支持韩国地区NF自制剧
-  type: ss
-  server: 180.163.62.91
-  password: QazEdcTgb159@$*
-  port: 10065
-  cipher: aes-128-cfb
 - name: :0-ss-103.172.116.9:9097-可用-直连-仅支持新加坡地区NF自制剧
   type: ss
   server: 103.172.116.9
@@ -71,6 +53,12 @@ proxies:
   password: KnJGad3FqTvjqbaX
   port: 9014
   cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-117.28.242.137:9359-可用-中转:103.136.187.150-仅支持香港地区NF自制剧
+  type: ss
+  server: 117.28.242.137
+  password: '73117962'
+  port: 9359
+  cipher: aes-256-cfb
 - name: :0-ss-103.172.116.9:9018-可用-直连-仅支持新加坡地区NF自制剧
   type: ss
   server: 103.172.116.9
@@ -82,12 +70,6 @@ proxies:
   server: hkchiansax2.msservicevip.pw
   password: '73117962'
   port: 9359
-  cipher: aes-256-cfb
-- name: :0-ss-103.172.116.6:9070-可用-直连-仅支持新加坡地区NF自制剧
-  type: ss
-  server: 103.172.116.6
-  password: bf7v334KKDV3YDhH
-  port: 9070
   cipher: aes-256-cfb
 - name: 🇺🇸:美国-ss-167.172.135.97:25453-可用-直连-仅支持美国地区NF自制剧
   type: ss
@@ -119,21 +101,15 @@ proxies:
   password: XPtzA9sCug3SPR4c
   port: 9025
   cipher: aes-256-cfb
-- name: :0-ss-103.172.116.9:9008-可用-直连-仅支持新加坡地区NF自制剧
-  type: ss
-  server: 103.172.116.9
-  password: y9VURyNzJWNRYEGQ
-  port: 9008
-  cipher: aes-256-cfb
 - name: 🇷🇺:俄罗斯-ss-213.183.53.177:9007-可用-直连-仅支持俄罗斯联邦地区NF自制剧
   type: ss
   server: 213.183.53.177
   password: kSPmvwdFzGMMW5pY
   port: 9007
   cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-217.30.10.63:9041-可用-直连-仅支持波兰地区NF自制剧
+- name: :0-ss-103.172.116.9:9041-可用-直连-仅支持新加坡地区NF自制剧
   type: ss
-  server: 217.30.10.63
+  server: 103.172.116.9
   password: U6qnYRhfyDmn8sgn
   port: 9041
   cipher: aes-256-cfb
@@ -159,13 +135,13 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 🇷🇺:俄罗斯-ssr-213.183.53.177:9042-可用-直连-仅支持俄罗斯联邦地区NF自制剧
+- name: 🇷🇺:俄罗斯-ssr-213.183.53.177:9027-可用-直连-仅支持俄罗斯联邦地区NF自制剧
   type: ssr
   server: 213.183.53.177
-  password: S7KwUu7yBy58S3Ga
+  password: EXN3S3eQpjE7EJu8
   obfs: plain
   protocol: origin
-  port: 9042
+  port: 9027
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
@@ -179,13 +155,23 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 🇨🇳:中国-ssr-117.28.242.137:9359-可用-中转:103.136.187.29-仅支持香港地区NF自制剧
+- name: 🇷🇺:俄罗斯-ssr-213.183.53.177:9033-可用-直连-仅支持俄罗斯联邦地区NF自制剧
   type: ssr
-  server: 117.28.242.137
-  password: '73117962'
+  server: 213.183.53.177
+  password: UTJA57ypk2XKQpnm
   obfs: plain
   protocol: origin
-  port: 9359
+  port: 9033
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇺🇸:美国-ssr-in-am2.eqnode.net:8080-可用-中转:3.111.198.192-仅支持印度地区NF自制剧
+  type: ssr
+  server: in-am2.eqnode.net
+  password: fD0KP8PWA
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8080
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
@@ -222,6 +208,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇺🇸:美国-vmess-1.v2tk.tk:443-可用-中转:20.239.149.144-仅支持香港地区NF自制剧
+  type: vmess
+  server: 1.v2tk.tk
+  network: ws
+  port: 443
+  uuid: f0e10fe1-b01d-4ecc-9fcc-550badc7d1f8
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /upload
 - name: 🇺🇸:美国-vmess-20.222.21.105:80-可用-直连-仅支持日本地区NF自制剧
   type: vmess
   server: 20.222.21.105
@@ -244,28 +241,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /TS/recharge/tzUrl.html
-- name: 🇺🇸:美国-vmess-20.205.113.88:80-可用-直连-仅支持香港地区NF自制剧
-  type: vmess
-  server: 20.205.113.88
-  network: ws
-  port: 80
-  uuid: 46935c0a-5bb7-4828-9a7d-7fb3f7c2e0a6
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /TS/recharge/tzUrl.html
-- name: 🇺🇸:美国-vmess-an011.oioav.com:11011-可用-中转:20.239.71.43-仅支持香港地区NF自制剧
-  type: vmess
-  server: an011.oioav.com
-  network: ws
-  port: 11011
-  uuid: 55af954a-7634-4f28-8acf-8a64ca9fc4cd
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /oioav
 - name: 🇺🇸:美国-vmess-20.222.21.105:443-可用-直连-仅支持日本地区NF自制剧
   type: vmess
   server: 20.222.21.105
