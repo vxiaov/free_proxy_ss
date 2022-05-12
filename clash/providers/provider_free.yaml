@@ -53,7 +53,7 @@ proxies:
   password: G!yBwPWH3Vao
   port: 800
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-38.121.43.91:8008-可用-直连-仅支持美国地区NF自制剧
+- name: 🇺🇸:美国-ss-38.121.43.91:8008-可用-直连-解锁美国地区NF非自制剧
   type: ss
   server: 38.121.43.91
   password: XKFKl2rULjIp74
@@ -215,7 +215,7 @@ proxies:
   password: f2fa64af-619b-4b09-9e6c-3f9ff6de077c
   port: 45251
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-117.28.242.137:9359-可用-中转:119.247.226.48-仅支持香港地区NF自制剧
+- name: 🇨🇳:中国-ss-117.28.242.137:9359-可用-中转:103.136.187.150-仅支持香港地区NF自制剧
   type: ss
   server: 117.28.242.137
   password: '73117962'
@@ -239,6 +239,12 @@ proxies:
   password: BNmAXXxAHYpTRdzu
   port: 9020
   cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24015-可用-中转:223.26.73.202-解锁台湾地区NF非自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24015
+  cipher: aes-128-cfb
 - name: 🇳🇱:荷兰-ss-92.38.184.228:55231-可用-直连-不支持Netflix
   type: ss
   server: 92.38.184.228
@@ -263,12 +269,6 @@ proxies:
   password: QazEdcTgb159@$*
   port: 10064
   cipher: aes-128-cfb
-- name: 🇺🇸:美国-ss-62.216.91.229:9080-可用-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 62.216.91.229
-  password: VP8ZPxQpJtZRCjfZ
-  port: 9080
-  cipher: aes-256-cfb
 - name: 🇷🇺:俄罗斯-ss-213.183.53.177:9007-可用-直连-仅支持俄罗斯联邦地区NF自制剧
   type: ss
   server: 213.183.53.177
@@ -286,6 +286,12 @@ proxies:
   server: 51.195.136.209
   password: '4415934295'
   port: 50004
+  cipher: aes-256-cfb
+- name: 🇷🇺:俄罗斯-ss-217.30.10.64:9033-可用-直连-仅支持波兰地区NF自制剧
+  type: ss
+  server: 217.30.10.64
+  password: UTJA57ypk2XKQpnm
+  port: 9033
   cipher: aes-256-cfb
 - name: 🇷🇺:俄罗斯-ss-213.183.53.177:9015-可用-直连-仅支持俄罗斯联邦地区NF自制剧
   type: ss
@@ -313,17 +319,7 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 🇨🇳:中国-ssr-117.28.242.137:9359-可用-中转:42.2.114.129-仅支持香港地区NF自制剧
-  type: ssr
-  server: 117.28.242.137
-  password: '73117962'
-  obfs: plain
-  protocol: origin
-  port: 9359
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
-- name: 🇨🇳:中国-ssr-hkchiansax2.msservicevip.pw:9359-可用-中转:103.136.187.150-仅支持香港地区NF自制剧
+- name: 🇨🇳:中国-ssr-hkchiansax2.msservicevip.pw:9359-可用-中转:42.2.114.129-仅支持香港地区NF自制剧
   type: ssr
   server: hkchiansax2.msservicevip.pw
   password: '73117962'
@@ -354,33 +350,11 @@ proxies:
   udp: false
   tls: false
   ws-path: /jike1
-- name: 🇨🇳:中国-vmess-jike1-cccn2.jiserver.xyz:27805-可用-中转:31.25.89.91-仅支持德国地区NF自制剧
-  type: vmess
-  server: jike1-cccn2.jiserver.xyz
-  network: ws
-  port: 27805
-  uuid: 221828e0-4192-342c-99fc-9a0af6e06823
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /jike1
 - name: 🇨🇳:中国-vmess-jike-gzyd.jiserver.xyz:29707-可用-中转:212.107.28.192-仅支持香港地区NF自制剧
   type: vmess
   server: jike-gzyd.jiserver.xyz
   network: ws
   port: 29707
-  uuid: 221828e0-4192-342c-99fc-9a0af6e06823
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /jike1
-- name: 🇨🇳:中国-vmess-jike1-cccn2.jiserver.xyz:32603-可用-中转:38.94.110.192-解锁美国地区NF非自制剧
-  type: vmess
-  server: jike1-cccn2.jiserver.xyz
-  network: ws
-  port: 32603
   uuid: 221828e0-4192-342c-99fc-9a0af6e06823
   alterId: 4
   cipher: auto
@@ -431,17 +405,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /TS/recharge/tzUrl.html
-- name: 🇨🇳:中国-vmess-jike-gzyd.jiserver.xyz:39453-可用-中转:171.22.195.169-解锁香港地区NF非自制剧
-  type: vmess
-  server: jike-gzyd.jiserver.xyz
-  network: ws
-  port: 39453
-  uuid: 221828e0-4192-342c-99fc-9a0af6e06823
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /jike1
 - name: 🇨🇳:中国-vmess-shlt.jiserver.xyz:29891-可用-中转:31.25.89.91-仅支持德国地区NF自制剧
   type: vmess
   server: shlt.jiserver.xyz
@@ -453,6 +416,28 @@ proxies:
   udp: false
   tls: false
   ws-path: /jike1
+- name: 🇺🇸:美国-vmess-1.ezydfdd.com:443-可用-中转:15.204.18.140-完全不支持NF
+  type: vmess
+  server: 1.ezydfdd.com
+  network: ws
+  port: 443
+  uuid: 4ee48ad8-178c-40a2-9c52-a14e90a06e49
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /nmsl
+- name: 🇺🇸:美国-vmess-v2ray.wefuckgfw.ga:8443-可用-中转:5.34.182.87-仅支持乌克兰地区NF自制剧
+  type: vmess
+  server: v2ray.wefuckgfw.ga
+  network: ws
+  port: 8443
+  uuid: f20fd86a-ca89-11ec-9385-52ac00ea1411
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /E94olUFf/
 - name: 🇨🇳:中国-vmess-an011.oioav.com:11011-可用-中转:104.208.109.171-仅支持香港地区NF自制剧
   type: vmess
   server: an011.oioav.com
@@ -486,17 +471,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /jike1
-- name: 🇺🇸:美国-vmess-v1.ssrsub.com:8443-可用-中转:193.38.51.192-仅支持俄罗斯联邦地区NF自制剧
-  type: vmess
-  server: v1.ssrsub.com
-  network: ws
-  port: 8443
-  uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /ssrsub
 - name: 🇺🇸:美国-vmess-kr-direct-cdn.node001.xyz:2086-可用-中转:3.38.146.0-仅支持韩国地区NF自制剧
   type: vmess
   server: kr-direct-cdn.node001.xyz
@@ -530,44 +504,55 @@ proxies:
   udp: false
   tls: true
   ws-path: /upload
-- name: 🇨🇳:中国-vmess-jike1-gzyd.jiserver.xyz:38555-可用-中转:192.53.114.180-仅支持新加坡地区NF自制剧
+- name: 🇺🇸:美国-vmess-v2.ssrsub.com:8443-可用-中转:176.119.157.182-解锁俄罗斯联邦地区NF非自制剧
   type: vmess
-  server: jike1-gzyd.jiserver.xyz
+  server: v2.ssrsub.com
   network: ws
-  port: 38555
-  uuid: 221828e0-4192-342c-99fc-9a0af6e06823
+  port: 8443
+  uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256
   alterId: 4
   cipher: auto
   udp: false
-  tls: false
-  ws-path: /jike1
-- name: 🇨🇳:中国-vmess-jike-cccn2.jiserver.xyz:39399-可用-中转:195.133.52.13-不支持Netflix
+  tls: true
+  ws-path: /ssrsub
+- name: 🇮🇷:伊朗-vmess-asr-farda.ir:49110-可用-中转:193.108.118.79-仅支持德国地区NF自制剧
   type: vmess
-  server: jike-cccn2.jiserver.xyz
+  server: asr-farda.ir
   network: ws
-  port: 39399
-  uuid: 221828e0-4192-342c-99fc-9a0af6e06823
+  port: 49110
+  uuid: 47bce6b8-c260-11ec-b514-000c297a3bfd
   alterId: 4
   cipher: auto
   udp: false
-  tls: false
-  ws-path: /jike1
-- name: 🇨🇳:中国-vmess-jike1-gzyd.jiserver.xyz:39601-可用-中转:38.94.110.192-解锁美国地区NF非自制剧
+  tls: true
+  ws-path: /pdOa1847/
+- name: 🇺🇸:美国-vmess-v4.ssrsub.com:8443-可用-中转:194.87.238.162-仅支持俄罗斯联邦地区NF自制剧
   type: vmess
-  server: jike1-gzyd.jiserver.xyz
+  server: v4.ssrsub.com
   network: ws
-  port: 39601
-  uuid: 221828e0-4192-342c-99fc-9a0af6e06823
+  port: 8443
+  uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256
   alterId: 4
   cipher: auto
   udp: false
-  tls: false
-  ws-path: /jike1
+  tls: true
+  ws-path: /ssrsub
 - name: 🇨🇳:中国-vmess-jike-gzyd.jiserver.xyz:29709-可用-中转:212.107.28.192-仅支持香港地区NF自制剧
   type: vmess
   server: jike-gzyd.jiserver.xyz
   network: ws
   port: 29709
+  uuid: 221828e0-4192-342c-99fc-9a0af6e06823
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /jike1
+- name: 🇨🇳:中国-vmess-jike-gzyd.jiserver.xyz:31861-可用-中转:36.227.218.159-解锁台湾地区NF非自制剧
+  type: vmess
+  server: jike-gzyd.jiserver.xyz
+  network: ws
+  port: 31861
   uuid: 221828e0-4192-342c-99fc-9a0af6e06823
   alterId: 4
   cipher: auto
@@ -585,6 +570,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /mg
+- name: 🇺🇸:美国-vmess-us02.gogogoo.cyou:443-可用-中转:205.185.115.241-仅支持美国地区NF自制剧
+  type: vmess
+  server: us02.gogogoo.cyou
+  network: ws
+  port: 443
+  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /go
 - name: 🇺🇸:美国-vmess-www.sysucc.ga:443-可用-中转:185.243.56.154-仅支持美国地区NF自制剧
   type: vmess
   server: www.sysucc.ga
