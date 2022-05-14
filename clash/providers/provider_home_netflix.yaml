@@ -1,16 +1,22 @@
 proxies:
-- name: 🇨🇳:中国-ss-cn1.relay.iepl.pw:50300-可用-中转:50.7.159.155-仅支持日本地区NF自制剧
+- name: 🇨🇳:中国-ss-cn1.relay.iepl.pw:50300-可用-中转:50.7.159.154-仅支持日本地区NF自制剧
   type: ss
   server: cn1.relay.iepl.pw
   password: 40825843-2e84-4433-a4c0-829948eb620b
   port: 50300
   cipher: aes-128-gcm
-- name: 🇨🇳:中国-ss-cn1.relay.iepl.pw:50600-可用-中转:185.147.35.13-仅支持美国地区NF自制剧
+- name: 🇨🇳:中国-ss-cn1.relay.iepl.pw:50600-可用-中转:185.147.35.15-仅支持美国地区NF自制剧
   type: ss
   server: cn1.relay.iepl.pw
   password: 40825843-2e84-4433-a4c0-829948eb620b
   port: 50600
   cipher: aes-128-gcm
+- name: 🇦🇺:澳大利亚-ss-185.167.116.252:9005-可用-直连-仅支持澳大利亚地区NF自制剧
+  type: ss
+  server: 185.167.116.252
+  password: ZET59LF6DvCC8KVt
+  port: 9005
+  cipher: aes-256-cfb
 - name: :0-ss-103.172.116.9:9097-可用-直连-仅支持新加坡地区NF自制剧
   type: ss
   server: 103.172.116.9
@@ -53,7 +59,7 @@ proxies:
   password: QazEdcTgb159@$*
   port: 24015
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-cn1.relay.iepl.pw:50200-可用-中转:111.252.163.78-仅支持台湾地区NF自制剧
+- name: 🇨🇳:中国-ss-cn1.relay.iepl.pw:50200-可用-中转:61.224.100.83-仅支持台湾地区NF自制剧
   type: ss
   server: cn1.relay.iepl.pw
   password: 40825843-2e84-4433-a4c0-829948eb620b
@@ -71,24 +77,30 @@ proxies:
   password: f8npKgNzdkss2ytn
   port: 9088
   cipher: aes-256-cfb
-- name: 🇦🇺:澳大利亚-ss-185.167.116.252:9050-可用-直连-仅支持澳大利亚地区NF自制剧
-  type: ss
-  server: 185.167.116.252
-  password: FG5ddLsMPbV5CutE
-  port: 9050
-  cipher: aes-256-cfb
 - name: :0-ss-103.172.116.9:9003-可用-直连-仅支持新加坡地区NF自制剧
   type: ss
   server: 103.172.116.9
   password: JdmRK9gMEqFgs8nP
   port: 9003
   cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-cn1.relay.iepl.pw:50300-可用-中转:50.7.159.155-仅支持日本地区NF自制剧
+  type: ss
+  server: cn1.relay.iepl.pw
+  password: 40825843-2e84-4433-a4c0-829948eb620b
+  port: 50300
+  cipher: aes-128-gcm
 - name: 🇨🇳:中国-ss-180.163.62.91:10064-可用-中转:129.227.4.80-仅支持韩国地区NF自制剧
   type: ss
   server: 180.163.62.91
   password: QazEdcTgb159@$*
   port: 10064
   cipher: aes-128-cfb
+- name: 🇺🇸:美国-ss-62.216.91.229:9080-可用-直连-仅支持美国地区NF自制剧
+  type: ss
+  server: 62.216.91.229
+  password: VP8ZPxQpJtZRCjfZ
+  port: 9080
+  cipher: aes-256-cfb
 - name: 🇺🇸:美国-ss-157.230.41.220:29596-可用-直连-仅支持新加坡地区NF自制剧
   type: ss
   server: 157.230.41.220
@@ -107,7 +119,7 @@ proxies:
   password: M3t2ZEQcMGRWBjRa
   port: 9011
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-cn1.relay.iepl.pw:50600-可用-中转:185.147.35.15-仅支持美国地区NF自制剧
+- name: 🇨🇳:中国-ss-cn1.relay.iepl.pw:50600-可用-中转:185.147.35.13-仅支持美国地区NF自制剧
   type: ss
   server: cn1.relay.iepl.pw
   password: 40825843-2e84-4433-a4c0-829948eb620b
@@ -400,6 +412,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
+- name: 🇺🇸:美国-vmess-lu1.gogogoo.cyou:443-可用-中转:107.189.11.246-仅支持卢森堡地区NF自制剧
+  type: vmess
+  server: lu1.gogogoo.cyou
+  network: ws
+  port: 443
+  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /go
 - name: 🇨🇳:中国-vmess-zzcm07.bdate.xyz:1260-可用-中转:5.188.150.116-仅支持俄罗斯联邦地区NF自制剧
   type: vmess
   server: zzcm07.bdate.xyz
@@ -422,6 +445,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
+- name: 🇺🇸:美国-vmess-xr-1.herokuapp.com:443-可用-中转:3.85.171.88-仅支持美国地区NF自制剧
+  type: vmess
+  server: xr-1.herokuapp.com
+  network: ws
+  port: 443
+  uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess
 - name: 🇨🇳:中国-vmess-zzcm08.bdate.xyz:1320-可用-中转:1.174.67.89-仅支持台湾地区NF自制剧
   type: vmess
   server: zzcm08.bdate.xyz
@@ -466,6 +500,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
+- name: 🇺🇸:美国-vmess-v3.ssrsub.com:443-可用-中转:194.87.234.71-仅支持俄罗斯联邦地区NF自制剧
+  type: vmess
+  server: v3.ssrsub.com
+  network: ws
+  port: 443
+  uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /api/v3/download.getFile
 - name: 🇨🇳:中国-vmess-zzcm08.bdate.xyz:2840-可用-中转:61.238.5.230-仅支持香港地区NF自制剧
   type: vmess
   server: zzcm08.bdate.xyz
@@ -664,6 +709,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
+- name: 🇺🇸:美国-vmess-v1.ssrsub.com:443-可用-中转:193.38.51.192-仅支持俄罗斯联邦地区NF自制剧
+  type: vmess
+  server: v1.ssrsub.com
+  network: ws
+  port: 443
+  uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /api/v3/download.getFile
 - name: 🇨🇳:中国-vmess-zzcm01.bdate.xyz:1420-可用-中转:20.205.98.2-仅支持香港地区NF自制剧
   type: vmess
   server: zzcm01.bdate.xyz
