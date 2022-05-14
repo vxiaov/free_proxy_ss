@@ -5,12 +5,6 @@ proxies:
   password: SBM7R883jBmnqe6C
   port: 9053
   cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-217.30.10.63:9032-可用-直连-仅支持波兰地区NF自制剧
-  type: ss
-  server: 217.30.10.63
-  password: UWZQeLRWnkqgkseq
-  port: 9032
-  cipher: aes-256-cfb
 - name: 🇷🇺:俄罗斯-ss-217.30.10.64:9003-可用-直连-仅支持波兰地区NF自制剧
   type: ss
   server: 217.30.10.64
@@ -29,6 +23,12 @@ proxies:
   password: c3NtHJ5ujV2tGDfj
   port: 9084
   cipher: aes-256-cfb
+- name: 🇷🇺:俄罗斯-ss-217.30.10.63:9000-可用-直连-仅支持波兰地区NF自制剧
+  type: ss
+  server: 217.30.10.63
+  password: a3GFYt36Sm82Vys9
+  port: 9000
+  cipher: aes-256-cfb
 - name: 🇰🇷:韩国-ss-61.111.128.153:8888-可用-直连-仅支持韩国地区NF自制剧
   type: ss
   server: 61.111.128.153
@@ -41,11 +41,23 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-217.30.10.64:9037-可用-直连-仅支持波兰地区NF自制剧
+- name: 🇨🇳:中国-ss-117.28.242.137:9359-可用-中转:103.136.187.29-仅支持香港地区NF自制剧
   type: ss
-  server: 217.30.10.64
-  password: TN2YqghxeFDKZfLU
-  port: 9037
+  server: 117.28.242.137
+  password: '73117962'
+  port: 9359
+  cipher: aes-256-cfb
+- name: 🇧🇬:保加利亚-ss-213.183.63.218:9098-可用-直连-仅支持保加利亚地区NF自制剧
+  type: ss
+  server: 213.183.63.218
+  password: aLpQtfEZe445QyHk
+  port: 9098
+  cipher: aes-256-cfb
+- name: 🇧🇬:保加利亚-ss-213.183.63.218:9024-可用-直连-仅支持保加利亚地区NF自制剧
+  type: ss
+  server: 213.183.63.218
+  password: BejrQvtu9sqUeNuZ
+  port: 9024
   cipher: aes-256-cfb
 - name: 🇧🇬:保加利亚-ss-213.183.63.218:9019-可用-直连-仅支持保加利亚地区NF自制剧
   type: ss
@@ -65,12 +77,6 @@ proxies:
   password: e6c1cf51375c407d92d110881a825acb
   port: 29596
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-169.197.142.216:8881-可用-直连-仅支持加拿大地区NF自制剧
-  type: ss
-  server: 169.197.142.216
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  cipher: aes-256-gcm
 - name: :0-ss-103.172.116.9:9027-可用-直连-仅支持新加坡地区NF自制剧
   type: ss
   server: 103.172.116.9
@@ -107,28 +113,6 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 🇺🇸:美国-vmess-v3.ssrsub.com:443-可用-中转:194.87.234.71-仅支持俄罗斯联邦地区NF自制剧
-  type: vmess
-  server: v3.ssrsub.com
-  network: ws
-  port: 443
-  uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /api/v3/download.getFile
-- name: 🇺🇸:美国-vmess-bai-piao-wang-zhe.98848.xyz:52722-可用-中转:137.184.223.144-仅支持美国地区NF自制剧
-  type: vmess
-  server: bai-piao-wang-zhe.98848.xyz
-  network: ws
-  port: 52722
-  uuid: 2a0623d5-f1a0-4c10-b992-c26e50aa058a
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /bit.ly/36b6iJh
 - name: 🇨🇳:中国-vmess-zzcm08.bdate.xyz:2840-可用-中转:61.238.5.230-仅支持香港地区NF自制剧
   type: vmess
   server: zzcm08.bdate.xyz
@@ -151,14 +135,3 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
-- name: 🇺🇸:美国-vmess-v1.ssrsub.com:443-可用-中转:193.38.51.192-仅支持俄罗斯联邦地区NF自制剧
-  type: vmess
-  server: v1.ssrsub.com
-  network: ws
-  port: 443
-  uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /api/v3/download.getFile

@@ -29,12 +29,6 @@ proxies:
   password: QazEdcTgb159@$*
   port: 25259
   cipher: aes-128-cfb
-- name: 🇷🇺:俄罗斯-ss-217.30.10.63:9032-可用-直连-仅支持波兰地区NF自制剧
-  type: ss
-  server: 217.30.10.63
-  password: UWZQeLRWnkqgkseq
-  port: 9032
-  cipher: aes-256-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:25287-可用-直连-完全不支持NF
   type: ss
   server: 14.29.124.168
@@ -59,6 +53,12 @@ proxies:
   password: c3NtHJ5ujV2tGDfj
   port: 9084
   cipher: aes-256-cfb
+- name: 🇷🇺:俄罗斯-ss-217.30.10.63:9000-可用-直连-仅支持波兰地区NF自制剧
+  type: ss
+  server: 217.30.10.63
+  password: a3GFYt36Sm82Vys9
+  port: 9000
+  cipher: aes-256-cfb
 - name: 🇰🇷:韩国-ss-61.111.128.153:8888-可用-直连-仅支持韩国地区NF自制剧
   type: ss
   server: 61.111.128.153
@@ -71,17 +71,29 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-217.30.10.64:9037-可用-直连-仅支持波兰地区NF自制剧
+- name: 🇨🇳:中国-ss-117.28.242.137:9359-可用-中转:103.136.187.29-仅支持香港地区NF自制剧
+  type: ss
+  server: 117.28.242.137
+  password: '73117962'
+  port: 9359
+  cipher: aes-256-cfb
+- name: 🇷🇺:俄罗斯-ss-217.30.10.64:9037-可用-直连-不支持Netflix
   type: ss
   server: 217.30.10.64
   password: TN2YqghxeFDKZfLU
   port: 9037
   cipher: aes-256-cfb
-- name: :0-ss-103.172.116.9:9088-可用-直连-不支持Netflix
+- name: 🇧🇬:保加利亚-ss-213.183.63.218:9098-可用-直连-仅支持保加利亚地区NF自制剧
   type: ss
-  server: 103.172.116.9
-  password: f8npKgNzdkss2ytn
-  port: 9088
+  server: 213.183.63.218
+  password: aLpQtfEZe445QyHk
+  port: 9098
+  cipher: aes-256-cfb
+- name: 🇧🇬:保加利亚-ss-213.183.63.218:9024-可用-直连-仅支持保加利亚地区NF自制剧
+  type: ss
+  server: 213.183.63.218
+  password: BejrQvtu9sqUeNuZ
+  port: 9024
   cipher: aes-256-cfb
 - name: 🇧🇬:保加利亚-ss-213.183.63.218:9019-可用-直连-仅支持保加利亚地区NF自制剧
   type: ss
@@ -101,12 +113,30 @@ proxies:
   password: e6c1cf51375c407d92d110881a825acb
   port: 29596
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-169.197.142.216:8881-可用-直连-仅支持加拿大地区NF自制剧
+- name: 🇧🇬:保加利亚-ss-213.183.63.218:9040-可用-直连-不支持Netflix
   type: ss
-  server: 169.197.142.216
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  cipher: aes-256-gcm
+  server: 213.183.63.218
+  password: p9z5BVADH2YFs3MN
+  port: 9040
+  cipher: aes-256-cfb
+- name: 🇷🇺:俄罗斯-ss-217.30.10.63:9042-可用-直连-不支持Netflix
+  type: ss
+  server: 217.30.10.63
+  password: S7KwUu7yBy58S3Ga
+  port: 9042
+  cipher: aes-256-cfb
+- name: 🇷🇺:俄罗斯-ss-217.30.10.63:9064-可用-直连-不支持Netflix
+  type: ss
+  server: 217.30.10.63
+  password: cp8pRSUAyLhTfVWH
+  port: 9064
+  cipher: aes-256-cfb
+- name: 🇷🇺:俄罗斯-ss-217.30.10.63:9038-可用-直连-不支持Netflix
+  type: ss
+  server: 217.30.10.63
+  password: gYCYXfkUQEs2TaJQ
+  port: 9038
+  cipher: aes-256-cfb
 - name: :0-ss-103.172.116.9:9027-可用-直连-仅支持新加坡地区NF自制剧
   type: ss
   server: 103.172.116.9
@@ -143,18 +173,27 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 🇺🇸:美国-vmess-v3.ssrsub.com:443-可用-中转:194.87.234.71-仅支持俄罗斯联邦地区NF自制剧
-  type: vmess
-  server: v3.ssrsub.com
-  network: ws
-  port: 443
-  uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /api/v3/download.getFile
-- name: 🇺🇸:美国-vmess-bai-piao-wang-zhe.98848.xyz:52722-可用-中转:137.184.223.144-仅支持美国地区NF自制剧
+- name: 🇷🇺:俄罗斯-ssr-213.183.53.177:9024-可用-直连-不支持Netflix
+  type: ssr
+  server: 213.183.53.177
+  password: BejrQvtu9sqUeNuZ
+  obfs: plain
+  protocol: origin
+  port: 9024
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇷🇺:俄罗斯-ssr-213.183.53.177:9006-可用-直连-不支持Netflix
+  type: ssr
+  server: 213.183.53.177
+  password: FAdUvMJUq5vDgKEq
+  obfs: plain
+  protocol: origin
+  port: 9006
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇺🇸:美国-vmess-bai-piao-wang-zhe.98848.xyz:52722-可用-中转:137.184.223.144-不支持Netflix
   type: vmess
   server: bai-piao-wang-zhe.98848.xyz
   network: ws
@@ -165,7 +204,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /bit.ly/36b6iJh
-- name: 🇺🇸:美国-vmess-xr-1.herokuapp.com:443-可用-中转:3.236.68.166-解锁美国地区NF非自制剧
+- name: 🇺🇸:美国-vmess-xr-1.herokuapp.com:443-可用-中转:35.175.152.104-解锁美国地区NF非自制剧
   type: vmess
   server: xr-1.herokuapp.com
   network: ws
@@ -220,6 +259,17 @@ proxies:
   udp: false
   tls: true
   ws-path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess
+- name: 🇺🇸:美国-vmess-aa.houdinix.space:26267-可用-中转:104.207.151.173-不支持Netflix
+  type: vmess
+  server: aa.houdinix.space
+  network: ws
+  port: 26267
+  uuid: 9757cdba-c75b-4b94-9e31-7956dc7d852a
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /wis
 - name: 🇺🇸:美国-vmess-xr-5.herokuapp.com:443-可用-中转:34.231.247.197-解锁美国地区NF非自制剧
   type: vmess
   server: xr-5.herokuapp.com
@@ -231,14 +281,3 @@ proxies:
   udp: false
   tls: true
   ws-path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess
-- name: 🇺🇸:美国-vmess-v1.ssrsub.com:443-可用-中转:193.38.51.192-仅支持俄罗斯联邦地区NF自制剧
-  type: vmess
-  server: v1.ssrsub.com
-  network: ws
-  port: 443
-  uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /api/v3/download.getFile
