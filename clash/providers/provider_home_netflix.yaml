@@ -5,29 +5,23 @@ proxies:
   password: SBM7R883jBmnqe6C
   port: 9053
   cipher: aes-256-cfb
+- name: :0-ss-103.172.116.9:9097-可用-直连-仅支持新加坡地区NF自制剧
+  type: ss
+  server: 103.172.116.9
+  password: Sn5B7jTqr76aCJT8
+  port: 9097
+  cipher: aes-256-cfb
 - name: 🇷🇺:俄罗斯-ss-217.30.10.64:9003-可用-直连-仅支持波兰地区NF自制剧
   type: ss
   server: 217.30.10.64
   password: JdmRK9gMEqFgs8nP
   port: 9003
   cipher: aes-256-cfb
-- name: :0-ss-103.172.116.6:9097-可用-直连-仅支持新加坡地区NF自制剧
-  type: ss
-  server: 103.172.116.6
-  password: Sn5B7jTqr76aCJT8
-  port: 9097
-  cipher: aes-256-cfb
 - name: 🇷🇺:俄罗斯-ss-213.183.53.177:9084-可用-直连-仅支持俄罗斯联邦地区NF自制剧
   type: ss
   server: 213.183.53.177
   password: c3NtHJ5ujV2tGDfj
   port: 9084
-  cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-217.30.10.63:9000-可用-直连-仅支持波兰地区NF自制剧
-  type: ss
-  server: 217.30.10.63
-  password: a3GFYt36Sm82Vys9
-  port: 9000
   cipher: aes-256-cfb
 - name: 🇰🇷:韩国-ss-61.111.128.153:8888-可用-直连-仅支持韩国地区NF自制剧
   type: ss
@@ -41,23 +35,11 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-117.28.242.137:9359-可用-中转:103.136.187.29-仅支持香港地区NF自制剧
+- name: 🇦🇺:澳大利亚-ss-185.167.116.252:9041-可用-直连-仅支持澳大利亚地区NF自制剧
   type: ss
-  server: 117.28.242.137
-  password: '73117962'
-  port: 9359
-  cipher: aes-256-cfb
-- name: 🇧🇬:保加利亚-ss-213.183.63.218:9098-可用-直连-仅支持保加利亚地区NF自制剧
-  type: ss
-  server: 213.183.63.218
-  password: aLpQtfEZe445QyHk
-  port: 9098
-  cipher: aes-256-cfb
-- name: 🇧🇬:保加利亚-ss-213.183.63.218:9024-可用-直连-仅支持保加利亚地区NF自制剧
-  type: ss
-  server: 213.183.63.218
-  password: BejrQvtu9sqUeNuZ
-  port: 9024
+  server: 185.167.116.252
+  password: U6qnYRhfyDmn8sgn
+  port: 9041
   cipher: aes-256-cfb
 - name: 🇧🇬:保加利亚-ss-213.183.63.218:9019-可用-直连-仅支持保加利亚地区NF自制剧
   type: ss
@@ -83,26 +65,6 @@ proxies:
   password: EXN3S3eQpjE7EJu8
   port: 9027
   cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ssr-213.183.53.177:9097-可用-直连-仅支持俄罗斯联邦地区NF自制剧
-  type: ssr
-  server: 213.183.53.177
-  password: Sn5B7jTqr76aCJT8
-  obfs: plain
-  protocol: origin
-  port: 9097
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
-- name: 🇷🇺:俄罗斯-ssr-213.183.53.177:9019-可用-直连-仅支持俄罗斯联邦地区NF自制剧
-  type: ssr
-  server: 213.183.53.177
-  password: GA9KzeEgvfxNrgmM
-  obfs: plain
-  protocol: origin
-  port: 9019
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
 - name: 🇷🇺:俄罗斯-ssr-213.183.53.177:9064-可用-直连-仅支持俄罗斯联邦地区NF自制剧
   type: ssr
   server: 213.183.53.177
@@ -113,6 +75,48 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
+- name: 🇷🇺:俄罗斯-ssr-213.183.53.177:9001-可用-直连-仅支持俄罗斯联邦地区NF自制剧
+  type: ssr
+  server: 213.183.53.177
+  password: UkXRsXvR6buDMG2Y
+  obfs: plain
+  protocol: origin
+  port: 9001
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇷🇺:俄罗斯-ssr-213.183.53.177:9098-可用-直连-仅支持俄罗斯联邦地区NF自制剧
+  type: ssr
+  server: 213.183.53.177
+  password: aLpQtfEZe445QyHk
+  obfs: plain
+  protocol: origin
+  port: 9098
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇺🇸:美国-vmess-xr-5.herokuapp.com:443-可用-中转:3.81.28.185-仅支持美国地区NF自制剧
+  type: vmess
+  server: xr-5.herokuapp.com
+  network: ws
+  port: 443
+  uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess
+- name: 🇨🇳:中国-vmess-zzcm07.bdate.xyz:1420-可用-中转:20.205.98.2-仅支持香港地区NF自制剧
+  type: vmess
+  server: zzcm07.bdate.xyz
+  network: ws
+  port: 1420
+  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /hls/cctv5phd.m3u8
 - name: 🇨🇳:中国-vmess-zzcm08.bdate.xyz:2840-可用-中转:61.238.5.230-仅支持香港地区NF自制剧
   type: vmess
   server: zzcm08.bdate.xyz
@@ -129,6 +133,171 @@ proxies:
   server: zzcm04.bdate.xyz
   network: ws
   port: 1020
+  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /hls/cctv5phd.m3u8
+- name: 🇨🇳:中国-vmess-zzcm07.bdate.xyz:1580-可用-中转:107.167.2.8-仅支持美国地区NF自制剧
+  type: vmess
+  server: zzcm07.bdate.xyz
+  network: ws
+  port: 1580
+  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /hls/cctv5phd.m3u8
+- name: 🇨🇳:中国-vmess-zzcm07.bdate.xyz:1510-可用-中转:1.174.71.214-仅支持台湾地区NF自制剧
+  type: vmess
+  server: zzcm07.bdate.xyz
+  network: ws
+  port: 1510
+  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /hls/cctv5phd.m3u8
+- name: 🇨🇳:中国-vmess-zzcm01.bdate.xyz:1320-可用-中转:1.174.67.89-仅支持台湾地区NF自制剧
+  type: vmess
+  server: zzcm01.bdate.xyz
+  network: ws
+  port: 1320
+  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /hls/cctv5phd.m3u8
+- name: 🇨🇳:中国-vmess-zzcm07.bdate.xyz:1260-可用-中转:5.188.150.116-仅支持俄罗斯联邦地区NF自制剧
+  type: vmess
+  server: zzcm07.bdate.xyz
+  network: ws
+  port: 1260
+  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /hls/cctv5phd.m3u8
+- name: 🇨🇳:中国-vmess-zzcm01.bdate.xyz:1510-可用-中转:1.174.71.214-仅支持台湾地区NF自制剧
+  type: vmess
+  server: zzcm01.bdate.xyz
+  network: ws
+  port: 1510
+  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /hls/cctv5phd.m3u8
+- name: 🇺🇸:美国-vmess-xr-1.herokuapp.com:443-可用-中转:52.91.50.140-仅支持美国地区NF自制剧
+  type: vmess
+  server: xr-1.herokuapp.com
+  network: ws
+  port: 443
+  uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess
+- name: 🇨🇳:中国-vmess-zzcm07.bdate.xyz:1030-可用-中转:210.6.209.22-仅支持香港地区NF自制剧
+  type: vmess
+  server: zzcm07.bdate.xyz
+  network: ws
+  port: 1030
+  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /hls/cctv5phd.m3u8
+- name: 🇨🇳:中国-vmess-zzcm01.bdate.xyz:1420-可用-中转:20.205.98.2-仅支持香港地区NF自制剧
+  type: vmess
+  server: zzcm01.bdate.xyz
+  network: ws
+  port: 1420
+  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /hls/cctv5phd.m3u8
+- name: 🇨🇳:中国-vmess-zzcm01.bdate.xyz:1360-可用-中转:139.28.207.27-仅支持英国地区NF自制剧
+  type: vmess
+  server: zzcm01.bdate.xyz
+  network: ws
+  port: 1360
+  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /hls/cctv5phd.m3u8
+- name: 🇨🇳:中国-vmess-zzcm01.bdate.xyz:1030-可用-中转:210.6.209.22-仅支持香港地区NF自制剧
+  type: vmess
+  server: zzcm01.bdate.xyz
+  network: ws
+  port: 1030
+  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /hls/cctv5phd.m3u8
+- name: 🇨🇳:中国-vmess-zzcm07.bdate.xyz:1980-可用-中转:170.187.249.95-仅支持印度地区NF自制剧
+  type: vmess
+  server: zzcm07.bdate.xyz
+  network: ws
+  port: 1980
+  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /hls/cctv5phd.m3u8
+- name: 🇨🇳:中国-vmess-zzcm07.bdate.xyz:1360-可用-中转:139.28.207.27-仅支持英国地区NF自制剧
+  type: vmess
+  server: zzcm07.bdate.xyz
+  network: ws
+  port: 1360
+  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /hls/cctv5phd.m3u8
+- name: 🇨🇳:中国-vmess-zzcm01.bdate.xyz:1580-可用-中转:107.167.2.8-仅支持美国地区NF自制剧
+  type: vmess
+  server: zzcm01.bdate.xyz
+  network: ws
+  port: 1580
+  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /hls/cctv5phd.m3u8
+- name: 🇨🇳:中国-vmess-zzcm07.bdate.xyz:1320-可用-中转:1.174.67.89-仅支持台湾地区NF自制剧
+  type: vmess
+  server: zzcm07.bdate.xyz
+  network: ws
+  port: 1320
+  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /hls/cctv5phd.m3u8
+- name: 🇨🇳:中国-vmess-zzcm01.bdate.xyz:1980-可用-中转:170.187.249.95-仅支持印度地区NF自制剧
+  type: vmess
+  server: zzcm01.bdate.xyz
+  network: ws
+  port: 1980
   uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
   alterId: 4
   cipher: auto
