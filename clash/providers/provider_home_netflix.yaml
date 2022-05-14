@@ -1,4 +1,10 @@
 proxies:
+- name: 🇨🇳:中国-ss-183.240.124.200:44811-可用-中转:220.136.51.51-仅支持台湾地区NF自制剧
+  type: ss
+  server: 183.240.124.200
+  password: fcae85b5-baf0-4c5a-ba80-5f513e70512a
+  port: 44811
+  cipher: aes-128-gcm
 - name: 🇷🇺:俄罗斯-ss-213.183.53.177:9084-可用-直连-仅支持俄罗斯联邦地区NF自制剧
   type: ss
   server: 213.183.53.177
@@ -22,12 +28,6 @@ proxies:
   server: 183.240.124.200
   password: fcae85b5-baf0-4c5a-ba80-5f513e70512a
   port: 44817
-  cipher: aes-128-gcm
-- name: 🇨🇳:中国-ss-183.240.124.200:25600-可用-中转:220.136.51.51-仅支持台湾地区NF自制剧
-  type: ss
-  server: 183.240.124.200
-  password: fcae85b5-baf0-4c5a-ba80-5f513e70512a
-  port: 25600
   cipher: aes-128-gcm
 - name: 🇷🇺:俄罗斯-ss-213.183.53.177:9007-可用-直连-仅支持俄罗斯联邦地区NF自制剧
   type: ss
@@ -53,12 +53,28 @@ proxies:
   password: f63gg8EruDnUrmz4
   port: 9010
   cipher: aes-256-cfb
-- name: :0-ss-103.172.116.9:9027-可用-直连-仅支持新加坡地区NF自制剧
+- name: 🇩🇪:德国-ss-49.12.203.80:40960-可用-直连-仅支持德国地区NF自制剧
   type: ss
-  server: 103.172.116.9
-  password: EXN3S3eQpjE7EJu8
-  port: 9027
+  server: 49.12.203.80
+  password: 6kA7b3f9Aw2508erQ3W7D4
+  port: 40960
+  cipher: aes-256-gcm
+- name: 🇷🇺:俄罗斯-ss-217.30.10.63:9010-可用-直连-仅支持波兰地区NF自制剧
+  type: ss
+  server: 217.30.10.63
+  password: f63gg8EruDnUrmz4
+  port: 9010
   cipher: aes-256-cfb
+- name: 🇷🇺:俄罗斯-ssr-213.183.53.177:9019-可用-直连-仅支持俄罗斯联邦地区NF自制剧
+  type: ssr
+  server: 213.183.53.177
+  password: GA9KzeEgvfxNrgmM
+  obfs: plain
+  protocol: origin
+  port: 9019
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 🇷🇺:俄罗斯-ssr-213.183.53.177:9064-可用-直连-仅支持俄罗斯联邦地区NF自制剧
   type: ssr
   server: 213.183.53.177
@@ -79,13 +95,23 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 🇷🇺:俄罗斯-ssr-213.183.53.177:9020-可用-直连-仅支持俄罗斯联邦地区NF自制剧
+- name: 🇨🇳:中国-ssr-117.28.242.137:9359-可用-中转:103.136.187.199-仅支持香港地区NF自制剧
   type: ssr
-  server: 213.183.53.177
-  password: BNmAXXxAHYpTRdzu
+  server: 117.28.242.137
+  password: '73117962'
   obfs: plain
   protocol: origin
-  port: 9020
+  port: 9359
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇨🇳:中国-ssr-hkchiansax2.msservicevip.pw:9359-可用-中转:103.136.187.199-仅支持香港地区NF自制剧
+  type: ssr
+  server: hkchiansax2.msservicevip.pw
+  password: '73117962'
+  obfs: plain
+  protocol: origin
+  port: 9359
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
@@ -122,28 +148,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
-- name: 🇺🇸:美国-vmess-hk-c3.myuuusss.com:80-可用-中转:20.239.130.89-仅支持香港地区NF自制剧
-  type: vmess
-  server: hk-c3.myuuusss.com
-  network: ws
-  port: 80
-  uuid: cf998f5b-85d9-4798-871d-e0e7916fff04
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇸🇬:新加坡-vmess-bai-piao-wang-zhe-iplc2.98848.xyz:443-可用-中转:139.59.247.231-仅支持新加坡地区NF自制剧
-  type: vmess
-  server: bai-piao-wang-zhe-iplc2.98848.xyz
-  network: ws
-  port: 443
-  uuid: b23ecb07-1cd3-4490-b4eb-4d32cd0b9249
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /YouTube-bai-piao-wang-zhe_vws
 - name: 🇨🇳:中国-vmess-zzcm08.bdate.xyz:1280-可用-中转:220.246.150.90-仅支持香港地区NF自制剧
   type: vmess
   server: zzcm08.bdate.xyz
