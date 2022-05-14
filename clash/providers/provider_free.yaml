@@ -11,7 +11,7 @@ proxies:
   password: 40825843-2e84-4433-a4c0-829948eb620b
   port: 50300
   cipher: aes-128-gcm
-- name: 🇨🇦:加拿大-ss-72.140.224.197:801-可用-直连-解锁加拿大地区NF非自制剧
+- name: 🇨🇦:加拿大-ss-72.140.224.197:801-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 72.140.224.197
   password: G!yBwPWH3Vao
@@ -23,23 +23,23 @@ proxies:
   password: KixLvKzwjekG00rm
   port: 8000
   cipher: aes-256-gcm
-- name: 🇨🇦:加拿大-ss-72.140.224.197:811-可用-直连-解锁加拿大地区NF非自制剧
+- name: 🇨🇦:加拿大-ss-72.140.224.197:811-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 72.140.224.197
   password: G!yBwPWH3Vao
   port: 811
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-142.202.48.43:443-可用-直连-仅支持美国地区NF自制剧
-  type: ss
-  server: 142.202.48.43
-  password: pKEW8JPByTVTLtM
-  port: 443
-  cipher: aes-256-gcm
 - name: 🇩🇪:德国-ss-145.239.1.100:8882-可用-直连-完全不支持NF
   type: ss
   server: 145.239.1.100
   password: kDWvXYZoTBcGkC4
   port: 8882
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-134.195.196.24:8091-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 134.195.196.24
+  password: PCnnH6SQSnfoS27
+  port: 8091
   cipher: aes-256-gcm
 - name: 🇩🇪:德国-ss-145.239.1.100:2376-可用-直连-完全不支持NF
   type: ss
@@ -65,25 +65,19 @@ proxies:
   password: FoOiGlkAA9yPEGP
   port: 7306
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-cn1.relay.iepl.pw:50600-可用-中转:185.147.35.15-仅支持美国地区NF自制剧
+- name: 🇨🇳:中国-ss-cn1.relay.iepl.pw:50600-可用-中转:185.147.35.13-仅支持美国地区NF自制剧
   type: ss
   server: cn1.relay.iepl.pw
   password: 40825843-2e84-4433-a4c0-829948eb620b
   port: 50600
   cipher: aes-128-gcm
-- name: 🇺🇸:美国-ss-142.202.48.43:8091-可用-直连-仅支持美国地区NF自制剧
-  type: ss
-  server: 142.202.48.43
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.24:3389-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 134.195.196.24
   password: Y6R9pAtvxxzmGC
   port: 3389
   cipher: aes-256-gcm
-- name: 🇨🇦:加拿大-ss-72.140.224.197:806-可用-直连-解锁加拿大地区NF非自制剧
+- name: 🇨🇦:加拿大-ss-72.140.224.197:806-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 72.140.224.197
   password: G!yBwPWH3Vao
@@ -95,12 +89,6 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-169.197.141.15:5000-可用-直连-仅支持加拿大地区NF自制剧
-  type: ss
-  server: 169.197.141.15
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-14.29.124.168:25283-可用-直连-完全不支持NF
   type: ss
   server: 14.29.124.168
@@ -161,18 +149,12 @@ proxies:
   password: fG2artUmHfNT2cX7
   port: 9018
   cipher: aes-256-cfb
-- name: 🇨🇦:加拿大-ss-72.140.224.197:800-可用-直连-解锁加拿大地区NF非自制剧
+- name: 🇨🇦:加拿大-ss-72.140.224.197:800-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 72.140.224.197
   password: G!yBwPWH3Vao
   port: 800
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-142.202.48.43:8091-可用-直连-不支持Netflix
-  type: ss
-  server: 142.202.48.43
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-cn1.relay.iepl.pw:50200-可用-中转:61.224.100.83-仅支持台湾地区NF自制剧
   type: ss
   server: cn1.relay.iepl.pw
@@ -191,18 +173,18 @@ proxies:
   password: f8npKgNzdkss2ytn
   port: 9088
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-134.195.196.206:5001-可用-直连-仅支持加拿大地区NF自制剧
-  type: ss
-  server: 134.195.196.206
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  cipher: aes-256-gcm
 - name: :0-ss-103.172.116.9:9003-可用-直连-仅支持新加坡地区NF自制剧
   type: ss
   server: 103.172.116.9
   password: JdmRK9gMEqFgs8nP
   port: 9003
   cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-cn1.relay.iepl.pw:50300-可用-中转:50.7.159.154-仅支持日本地区NF自制剧
+  type: ss
+  server: cn1.relay.iepl.pw
+  password: 40825843-2e84-4433-a4c0-829948eb620b
+  port: 50300
+  cipher: aes-128-gcm
 - name: 🇨🇳:中国-ss-180.163.62.91:10064-可用-中转:129.227.4.80-仅支持韩国地区NF自制剧
   type: ss
   server: 180.163.62.91
@@ -227,7 +209,7 @@ proxies:
   password: M3t2ZEQcMGRWBjRa
   port: 9011
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-cn1.relay.iepl.pw:50600-可用-中转:185.147.35.13-仅支持美国地区NF自制剧
+- name: 🇨🇳:中国-ss-cn1.relay.iepl.pw:50600-可用-中转:185.147.35.15-仅支持美国地区NF自制剧
   type: ss
   server: cn1.relay.iepl.pw
   password: 40825843-2e84-4433-a4c0-829948eb620b
@@ -289,6 +271,26 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
+- name: 🇨🇳:中国-ssr-117.28.242.137:9359-可用-中转:42.2.114.129-仅支持香港地区NF自制剧
+  type: ssr
+  server: 117.28.242.137
+  password: '73117962'
+  obfs: plain
+  protocol: origin
+  port: 9359
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇨🇳:中国-ssr-hkchiansax2.msservicevip.pw:9359-可用-中转:103.136.187.29-仅支持香港地区NF自制剧
+  type: ssr
+  server: hkchiansax2.msservicevip.pw
+  password: '73117962'
+  obfs: plain
+  protocol: origin
+  port: 9359
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 🇺🇸:美国-ssr-us-am32-5.eqnode.net:8081-可用-中转:34.210.71.43-解锁美国地区NF非自制剧
   type: ssr
   server: us-am32-5.eqnode.net
@@ -299,6 +301,17 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
+- name: 🇺🇸:美国-vmess-v3.ssrsub.com:443-可用-中转:194.87.234.71-仅支持俄罗斯联邦地区NF自制剧
+  type: vmess
+  server: v3.ssrsub.com
+  network: ws
+  port: 443
+  uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /api/v3/download.getFile
 - name: 🇨🇳:中国-vmess-zzcm01.bdate.xyz:1370-可用-中转:45.153.48.248-完全不支持NF
   type: vmess
   server: zzcm01.bdate.xyz
@@ -348,17 +361,6 @@ proxies:
   server: zzcm08.bdate.xyz
   network: ws
   port: 1980
-  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /hls/cctv5phd.m3u8
-- name: 🇨🇳:中国-vmess-zzcm09.bdate.xyz:1280-可用-中转:220.246.150.90-仅支持香港地区NF自制剧
-  type: vmess
-  server: zzcm09.bdate.xyz
-  network: ws
-  port: 1280
   uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
   alterId: 4
   cipher: auto
@@ -497,6 +499,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
+- name: 🇺🇸:美国-vmess-bai-piao-wang-zhe-iplc.98848.xyz:11459-可用-中转:143.110.227.174-仅支持美国地区NF自制剧
+  type: vmess
+  server: bai-piao-wang-zhe-iplc.98848.xyz
+  network: ws
+  port: 11459
+  uuid: 7ef159a7-2c15-45ca-f5c3-b9798143afaa
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /bit.ly/36b6iJh
 - name: 🇨🇳:中国-vmess-zzcm08.bdate.xyz:1360-可用-中转:139.28.207.27-仅支持英国地区NF自制剧
   type: vmess
   server: zzcm08.bdate.xyz
@@ -563,6 +576,17 @@ proxies:
   udp: false
   tls: true
   ws-path: /vmess-share/?ed=2048
+- name: 🇯🇵:日本-vmess-45.76.173.250:65340-可用-直连-完全不支持NF
+  type: vmess
+  server: 45.76.173.250
+  network: ws
+  port: 65340
+  uuid: b620d78a-d3a7-496f-af32-565185473eb8
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /5Ci3h6YB/
 - name: 🇨🇳:中国-vmess-zzcm09.bdate.xyz:1040-可用-中转:20.205.6.212-仅支持香港地区NF自制剧
   type: vmess
   server: zzcm09.bdate.xyz
@@ -684,6 +708,17 @@ proxies:
   udp: false
   tls: true
   ws-path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess
+- name: 🇺🇸:美国-vmess-bai-piao-wang-zhe.98848.xyz:443-可用-中转:137.184.223.144-解锁美国地区NF非自制剧
+  type: vmess
+  server: bai-piao-wang-zhe.98848.xyz
+  network: ws
+  port: 443
+  uuid: f4a6a397-0007-4e45-800c-16d8a7a587ed
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /YouTube-bai-piao-wang-zhe_vws
 - name: :0-vmess-hcm4.aqvpn.me:80-可用-中转:103.167.198.231-解锁越南地区NF非自制剧
   type: vmess
   server: hcm4.aqvpn.me
