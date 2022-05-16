@@ -299,12 +299,16 @@ proxies:
   password: G!yBwPWH3Vao
   port: 805
   cipher: chacha20-ietf-poly1305
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.125:9088-可用-直连-解锁瑞士地区NF非自制剧
-  type: ss
-  server: 185.126.116.125
-  password: f8npKgNzdkss2ytn
-  port: 9088
+- name: 🇺🇸:美国-ssr-us-am32-5.eqnode.net:8081-可用-中转:34.213.163.70-解锁美国地区NF非自制剧
+  type: ssr
+  server: us-am32-5.eqnode.net
+  password: YFVrXZgRo
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
   cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 🇨🇳:中国-vmess-zzcm09.bdate.xyz:1930-可用-中转:114.47.39.42-解锁台湾地区NF非自制剧
   type: vmess
   server: zzcm09.bdate.xyz
@@ -316,39 +320,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
-- name: 🇨🇳:中国-vmess-zzcm04.bdate.xyz:1350-可用-中转:83.229.87.191-解锁希腊地区NF非自制剧
+- name: :0-vmess-hcm4.aqvpn.me:80-可用-中转:103.167.198.231-解锁越南地区NF非自制剧
   type: vmess
-  server: zzcm04.bdate.xyz
+  server: hcm4.aqvpn.me
   network: ws
-  port: 1350
-  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
+  port: 80
+  uuid: fc1905c5-8a19-4948-9f0d-e6e5427bc72f
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /hls/cctv5phd.m3u8
-- name: 🇨🇳:中国-vmess-zzcm04.bdate.xyz:1280-可用-中转:220.246.150.90-解锁香港地区NF非自制剧
-  type: vmess
-  server: zzcm04.bdate.xyz
-  network: ws
-  port: 1280
-  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /hls/cctv5phd.m3u8
-- name: 🇨🇳:中国-vmess-b24.v2.gay:1280-可用-中转:220.246.150.90-解锁香港地区NF非自制剧
-  type: vmess
-  server: b24.v2.gay
-  network: ws
-  port: 1280
-  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /hls/cctv5phd.m3u8
+  ws-path: ''
 - name: 🇨🇳:中国-vmess-zzcm09.bdate.xyz:1350-可用-中转:83.229.87.191-解锁希腊地区NF非自制剧
   type: vmess
   server: zzcm09.bdate.xyz
@@ -396,17 +378,6 @@ proxies:
 - name: 🇨🇳:中国-vmess-zzcm01.bdate.xyz:1280-可用-中转:220.246.150.90-解锁香港地区NF非自制剧
   type: vmess
   server: zzcm01.bdate.xyz
-  network: ws
-  port: 1280
-  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /hls/cctv5phd.m3u8
-- name: 🇨🇳:中国-vmess-zzcm07.bdate.xyz:1280-可用-中转:220.246.150.90-解锁香港地区NF非自制剧
-  type: vmess
-  server: zzcm07.bdate.xyz
   network: ws
   port: 1280
   uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
