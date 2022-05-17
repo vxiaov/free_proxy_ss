@@ -5,24 +5,18 @@ proxies:
   password: fcae85b5-baf0-4c5a-ba80-5f513e70512a
   port: 44812
   cipher: aes-128-gcm
-- name: 🇨🇳:中国-ss-w2.v2mmy.xyz:44825-可用-中转:213.170.203.171-仅支持英国地区NF自制剧
-  type: ss
-  server: w2.v2mmy.xyz
-  password: fcae85b5-baf0-4c5a-ba80-5f513e70512a
-  port: 44825
-  cipher: aes-128-gcm
 - name: 🇷🇺:俄罗斯-ss-213.183.53.177:9053-可用-直连-仅支持俄罗斯联邦地区NF自制剧
   type: ss
   server: 213.183.53.177
   password: SBM7R883jBmnqe6C
   port: 9053
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-180.163.62.91:10065-可用-中转:129.227.4.81-仅支持韩国地区NF自制剧
+- name: 🇷🇺:俄罗斯-ss-217.30.10.64:9003-可用-直连-仅支持波兰地区NF自制剧
   type: ss
-  server: 180.163.62.91
-  password: QazEdcTgb159@$*
-  port: 10065
-  cipher: aes-128-cfb
+  server: 217.30.10.64
+  password: JdmRK9gMEqFgs8nP
+  port: 9003
+  cipher: aes-256-cfb
 - name: 🇷🇺:俄罗斯-ss-213.183.53.177:9084-可用-直连-仅支持俄罗斯联邦地区NF自制剧
   type: ss
   server: 213.183.53.177
@@ -47,35 +41,23 @@ proxies:
   password: fG2artUmHfNT2cX7
   port: 9018
   cipher: aes-256-cfb
-- name: 🇦🇺:澳大利亚-ss-185.167.116.252:9041-可用-直连-仅支持澳大利亚地区NF自制剧
-  type: ss
-  server: 185.167.116.252
-  password: U6qnYRhfyDmn8sgn
-  port: 9041
-  cipher: aes-256-cfb
 - name: 🇷🇺:俄罗斯-ss-217.30.10.64:9046-可用-直连-仅支持波兰地区NF自制剧
   type: ss
   server: 217.30.10.64
   password: NvS8N4Vf8qAGPSCL
   port: 9046
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:24015-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+- name: 🇳🇱:荷兰-ss-213.183.59.190:9045-可用-直连-仅支持荷兰地区NF自制剧
   type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24015
-  cipher: aes-128-cfb
+  server: 213.183.59.190
+  password: Lp27rqyJq72bZsqX
+  port: 9045
+  cipher: aes-256-cfb
 - name: 🇳🇱:荷兰-ss-213.183.59.229:9020-可用-直连-仅支持荷兰地区NF自制剧
   type: ss
   server: 213.183.59.229
   password: BNmAXXxAHYpTRdzu
   port: 9020
-  cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-217.30.10.64:9037-可用-直连-仅支持波兰地区NF自制剧
-  type: ss
-  server: 217.30.10.64
-  password: TN2YqghxeFDKZfLU
-  port: 9037
   cipher: aes-256-cfb
 - name: :0-ss-103.172.116.9:9003-可用-直连-仅支持新加坡地区NF自制剧
   type: ss
@@ -101,17 +83,17 @@ proxies:
   password: GA9KzeEgvfxNrgmM
   port: 9019
   cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-217.30.10.63:9046-可用-直连-仅支持波兰地区NF自制剧
-  type: ss
-  server: 217.30.10.63
-  password: NvS8N4Vf8qAGPSCL
-  port: 9046
-  cipher: aes-256-cfb
 - name: 🇺🇸:美国-ss-157.230.41.220:29596-可用-直连-仅支持新加坡地区NF自制剧
   type: ss
   server: 157.230.41.220
   password: e6c1cf51375c407d92d110881a825acb
   port: 29596
+  cipher: aes-256-cfb
+- name: 🇦🇺:澳大利亚-ss-185.167.116.252:9097-可用-直连-仅支持澳大利亚地区NF自制剧
+  type: ss
+  server: 185.167.116.252
+  password: Sn5B7jTqr76aCJT8
+  port: 9097
   cipher: aes-256-cfb
 - name: :0-ss-103.172.116.9:9011-可用-直连-仅支持新加坡地区NF自制剧
   type: ss
@@ -155,6 +137,17 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
+- name: 🇺🇸:美国-vmess-v3.ssrsub.com:443-可用-中转:194.87.234.71-仅支持俄罗斯联邦地区NF自制剧
+  type: vmess
+  server: v3.ssrsub.com
+  network: ws
+  port: 443
+  uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /api/v3/download.getFile
 - name: 🇺🇸:美国-vmess-node.774.gs:8443-可用-中转:198.211.9.198-仅支持美国地区NF自制剧
   type: vmess
   server: node.774.gs
@@ -166,17 +159,6 @@ proxies:
   udp: false
   tls: true
   ws-path: /
-- name: 🇺🇸:美国-vmess-v2-5.godlight.xyz:26943-可用-中转:13.209.84.97-仅支持韩国地区NF自制剧
-  type: vmess
-  server: v2-5.godlight.xyz
-  network: ws
-  port: 26943
-  uuid: 767e55a4-43fa-4301-a9c2-ad30eaa9f61a
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /71h4b3s1f53
 - name: 🇺🇸:美国-vmess-v4.ssrsub.com:443-可用-中转:194.87.238.162-仅支持俄罗斯联邦地区NF自制剧
   type: vmess
   server: v4.ssrsub.com
@@ -188,14 +170,25 @@ proxies:
   udp: false
   tls: true
   ws-path: /api/v3/download.getFile
-- name: 🇺🇸:美国-vmess-bai-piao-wang-zhe-iplc8.98848.xyz:443-可用-中转:143.110.233.176-仅支持美国地区NF自制剧
+- name: 🇺🇸:美国-vmess-v5.ssrsub.com:443-可用-中转:194.87.238.109-仅支持俄罗斯联邦地区NF自制剧
   type: vmess
-  server: bai-piao-wang-zhe-iplc8.98848.xyz
+  server: v5.ssrsub.com
   network: ws
   port: 443
-  uuid: 8ac13614-d93e-4aab-a546-6a00e8360fb1
+  uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2
   alterId: 4
   cipher: auto
   udp: false
   tls: true
-  ws-path: /YouTube-bai-piao-wang-zhe_vws
+  ws-path: /api/v3/download.getFile
+- name: 🇺🇸:美国-vmess-v1.ssrsub.com:443-可用-中转:193.38.51.192-仅支持俄罗斯联邦地区NF自制剧
+  type: vmess
+  server: v1.ssrsub.com
+  network: ws
+  port: 443
+  uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /api/v3/download.getFile
