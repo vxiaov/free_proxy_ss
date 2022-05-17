@@ -1,27 +1,57 @@
 proxies:
+- name: 🇺🇸:美国-ss-c8s2.jamjams.net:30162-可用-中转:45.78.11.116-仅支持美国地区NF自制剧
+  type: ss
+  server: c8s2.jamjams.net
+  password: eWh5br48eraTyoJS
+  port: 30162
+  cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-bb01.nfeng6.pp.ua:16040-可用-中转:8.39.126.45-仅支持台湾地区NF自制剧
+  type: ss
+  server: bb01.nfeng6.pp.ua
+  password: bzUdYJ4JzjGfIwhG
+  port: 16040
+  cipher: aes-128-gcm
+- name: 🇨🇳:中国-ss-bb01.nfeng6.pp.ua:26220-可用-中转:111.90.151.44-仅支持马来西亚地区NF自制剧
+  type: ss
+  server: bb01.nfeng6.pp.ua
+  password: bzUdYJ4JzjGfIwhG
+  port: 26220
+  cipher: aes-128-gcm
+- name: 🇨🇳:中国-ss-bb01.nfeng6.pp.ua:26210-可用-中转:165.154.233.81-仅支持新加坡地区NF自制剧
+  type: ss
+  server: bb01.nfeng6.pp.ua
+  password: bzUdYJ4JzjGfIwhG
+  port: 26210
+  cipher: aes-128-gcm
+- name: 🇨🇳:中国-ss-bb01.nfeng6.pp.ua:26230-可用-中转:8.36.216.117-仅支持南非地区NF自制剧
+  type: ss
+  server: bb01.nfeng6.pp.ua
+  password: bzUdYJ4JzjGfIwhG
+  port: 26230
+  cipher: aes-128-gcm
 - name: 🇺🇸:美国-ss-20.214.184.4:8313-可用-直连-仅支持韩国地区NF自制剧
   type: ss
   server: 20.214.184.4
   password: ljqdalu13..
   port: 8313
   cipher: chacha20-ietf-poly1305
+- name: :0-ss-103.172.116.9:9097-可用-直连-仅支持新加坡地区NF自制剧
+  type: ss
+  server: 103.172.116.9
+  password: Sn5B7jTqr76aCJT8
+  port: 9097
+  cipher: aes-256-cfb
 - name: 🇰🇷:韩国-ss-61.111.128.153:8888-可用-直连-仅支持韩国地区NF自制剧
   type: ss
   server: 61.111.128.153
   password: Xiongmao@^ios.ss
   port: 8888
   cipher: rc4-md5
-- name: :0-ss-103.172.116.9:9018-可用-直连-仅支持新加坡地区NF自制剧
+- name: 🇦🇺:澳大利亚-ss-185.167.116.252:9015-可用-直连-仅支持澳大利亚地区NF自制剧
   type: ss
-  server: 103.172.116.9
-  password: fG2artUmHfNT2cX7
-  port: 9018
-  cipher: aes-256-cfb
-- name: :0-ss-103.172.116.9:9088-可用-直连-仅支持新加坡地区NF自制剧
-  type: ss
-  server: 103.172.116.9
-  password: f8npKgNzdkss2ytn
-  port: 9088
+  server: 185.167.116.252
+  password: ZpNDDKRu9MagNvaf
+  port: 9015
   cipher: aes-256-cfb
 - name: 🇺🇸:美国-ss-157.230.41.220:29596-可用-直连-仅支持新加坡地区NF自制剧
   type: ss
@@ -40,12 +70,6 @@ proxies:
   server: 213.183.53.177
   password: ZpNDDKRu9MagNvaf
   port: 9015
-  cipher: aes-256-cfb
-- name: :0-ss-103.172.116.9:9027-可用-直连-仅支持新加坡地区NF自制剧
-  type: ss
-  server: 103.172.116.9
-  password: EXN3S3eQpjE7EJu8
-  port: 9027
   cipher: aes-256-cfb
 - name: 🇷🇺:俄罗斯-ssr-213.183.53.177:9060-可用-直连-仅支持俄罗斯联邦地区NF自制剧
   type: ssr
@@ -77,35 +101,67 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 🇷🇺:俄罗斯-ssr-213.183.53.177:9041-可用-直连-仅支持俄罗斯联邦地区NF自制剧
+- name: 🇷🇺:俄罗斯-ssr-213.183.53.177:9059-可用-直连-仅支持俄罗斯联邦地区NF自制剧
   type: ssr
   server: 213.183.53.177
-  password: U6qnYRhfyDmn8sgn
+  password: 9XwYyZsK8SNzQDtY
   obfs: plain
   protocol: origin
-  port: 9041
+  port: 9059
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 🇨🇳:中国-vmess-zzcm09.bdate.xyz:1510-可用-中转:1.174.64.50-仅支持台湾地区NF自制剧
+- name: 🇨🇳:中国-ssr-14.29.124.168:24079-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24079
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇯🇵:日本-vmess-v2.godlight.xyz:26944-可用-中转:18.179.42.198-仅支持日本地区NF自制剧
   type: vmess
-  server: zzcm09.bdate.xyz
+  server: v2.godlight.xyz
   network: ws
-  port: 1510
-  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
+  port: 26944
+  uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /dajdklw231f
+- name: 🇸🇬:新加坡-vmess-v2-3.godlight.xyz:26944-可用-中转:54.254.48.39-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: v2-3.godlight.xyz
+  network: ws
+  port: 26944
+  uuid: 6a52f259-4367-468c-a828-7b8283c2f059
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /f45361465j175
+- name: 🇨🇳:中国-vmess-45.82.78.151:80-可用-直连-仅支持香港地区NF自制剧
+  type: vmess
+  server: 45.82.78.151
+  network: ws
+  port: 80
+  uuid: bda51582-46f7-410c-b267-30b7f3681ac0
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /hls/cctv5phd.m3u8
-- name: 🇨🇳:中国-vmess-zzcm08.bdate.xyz:2570-可用-中转:58.176.122.113-仅支持香港地区NF自制剧
+  ws-path: ''
+- name: 🇸🇬:新加坡-vmess-v2-2.godlight.xyz:26944-可用-中转:52.77.183.4-仅支持新加坡地区NF自制剧
   type: vmess
-  server: zzcm08.bdate.xyz
+  server: v2-2.godlight.xyz
   network: ws
-  port: 2570
-  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
+  port: 26944
+  uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9
   alterId: 4
   cipher: auto
   udp: false
-  tls: false
-  ws-path: /hls/cctv5phd.m3u8
+  tls: true
+  ws-path: /54f634fs
