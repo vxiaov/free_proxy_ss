@@ -47,9 +47,21 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-167.88.63.74:443-可用-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.63.74
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-38.68.134.23:443-可用-直连-解锁美国地区NF非自制剧
   type: ss
   server: 38.68.134.23
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-38.68.134.202:443-可用-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 38.68.134.202
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
@@ -65,6 +77,18 @@ proxies:
   password: ffc92e68-2650-4636-b059-e7b981e89f8c
   port: 33704
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-167.88.63.114:8090-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.63.114
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-167.88.63.74:6679-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.63.74
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-38.68.134.23:3306-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 38.68.134.23
@@ -245,12 +269,6 @@ proxies:
   password: faBAoD54k87UJG7
   port: 2376
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.63.74:8080-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.63.74
-  password: KixLvKzwjekG00rm
-  port: 8080
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.63.61:7002-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.63.61
@@ -359,42 +377,18 @@ proxies:
   password: FoOiGlkAA9yPEGP
   port: 7307
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-38.68.134.202:2375-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 38.68.134.202
-  password: faBAoD54k87UJG7
-  port: 2375
-  cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-bb01.nfeng6.pp.ua:26230-可用-中转:8.36.216.117-解锁南非地区NF非自制剧
   type: ss
   server: bb01.nfeng6.pp.ua
   password: bzUdYJ4JzjGfIwhG
   port: 26230
   cipher: aes-128-gcm
-- name: 🇺🇸:美国-ss-167.88.63.74:443-可用-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.63.74
-  password: pKEW8JPByTVTLtM
-  port: 443
-  cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-bb01.nfeng6.pp.ua:16000-可用-中转:138.2.52.120-解锁日本地区NF非自制剧
   type: ss
   server: bb01.nfeng6.pp.ua
   password: bzUdYJ4JzjGfIwhG
   port: 16000
   cipher: aes-128-gcm
-- name: 🇨🇳:中国-ss-cn1.relay.iepl.pw:50200-可用-中转:111.252.141.201-解锁台湾地区NF非自制剧
-  type: ss
-  server: cn1.relay.iepl.pw
-  password: b6040656-96c5-4748-a73c-5a8f15ed7531
-  port: 50200
-  cipher: aes-128-gcm
-- name: 🇺🇸:美国-ss-38.68.134.202:443-可用-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 38.68.134.202
-  password: pKEW8JPByTVTLtM
-  port: 443
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-vmess-v2.ssrsub.com:443-可用-中转:176.119.157.182-解锁俄罗斯联邦地区NF非自制剧
   type: vmess
   server: v2.ssrsub.com
@@ -406,17 +400,6 @@ proxies:
   udp: false
   tls: true
   ws-path: /api/v3/download.getFile
-- name: 🇨🇳:中国-vmess-cu.mj-cn.cyou:16631-可用-中转:42.200.190.71-解锁香港地区NF非自制剧
-  type: vmess
-  server: cu.mj-cn.cyou
-  network: ws
-  port: 16631
-  uuid: 9e7ebd39-189f-489c-8b7e-c47ee4c530dc
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: ''
 - name: 🇨🇳:中国-vmess-tw99-direct.myn1des.com:2087-可用-中转:122.118.157.125-解锁台湾地区NF非自制剧
   type: vmess
   server: tw99-direct.myn1des.com
