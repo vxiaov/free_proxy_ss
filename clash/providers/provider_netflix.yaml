@@ -5,18 +5,24 @@ proxies:
   password: 54df1ad5-1323-4dd7-b7a1-a53202347526
   port: 45789
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-167.172.56.211:14512-可用-直连-解锁英国地区NF非自制剧
-  type: ss
-  server: 167.172.56.211
-  password: 54df1ad5-1323-4dd7-b7a1-a53202347526
-  port: 14512
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-167.88.63.89:443-可用-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.63.89
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-bb01.nfeng6.pp.ua:26240-可用-中转:220.158.232.132-解锁柬埔寨地区NF非自制剧
+  type: ss
+  server: bb01.nfeng6.pp.ua
+  password: bzUdYJ4JzjGfIwhG
+  port: 26240
+  cipher: aes-128-gcm
+- name: 🇨🇳:中国-ss-bb01.nfeng6.pp.ua:16000-可用-中转:138.2.52.120-解锁日本地区NF非自制剧
+  type: ss
+  server: bb01.nfeng6.pp.ua
+  password: bzUdYJ4JzjGfIwhG
+  port: 16000
+  cipher: aes-128-gcm
 - name: 🇺🇸:美国-ss-167.88.63.71:443-可用-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.63.71
@@ -46,6 +52,12 @@ proxies:
   server: 34.245.30.120
   password: 54df1ad5-1323-4dd7-b7a1-a53202347526
   port: 25465
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-hz.bgp.rx.naiun.pw:45392-可用-中转:114.24.22.79-解锁台湾地区NF非自制剧
+  type: ss
+  server: hz.bgp.rx.naiun.pw
+  password: 99ee69d6-e018-432d-ab85-bf95f67776a5
+  port: 45392
   cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-167.88.63.114:8090-被墙-直连-解锁美国地区NF非自制剧
   type: ss
@@ -305,12 +317,6 @@ proxies:
   password: PCnnH6SQSnfoS27
   port: 8090
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-bb01.nfeng6.pp.ua:26240-被墙-中转:220.158.232.132-解锁柬埔寨地区NF非自制剧
-  type: ss
-  server: bb01.nfeng6.pp.ua
-  password: bzUdYJ4JzjGfIwhG
-  port: 26240
-  cipher: aes-128-gcm
 - name: 🇺🇸:美国-ss-167.88.63.71:5004-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.63.71
@@ -347,41 +353,28 @@ proxies:
   password: PCnnH6SQSnfoS27
   port: 8090
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-bb01.nfeng6.pp.ua:26230-可用-中转:8.36.216.117-解锁南非地区NF非自制剧
+- name: 🇺🇸:美国-ss-167.88.63.89:2376-被墙-直连-解锁美国地区NF非自制剧
   type: ss
-  server: bb01.nfeng6.pp.ua
-  password: bzUdYJ4JzjGfIwhG
-  port: 26230
-  cipher: aes-128-gcm
+  server: 167.88.63.89
+  password: faBAoD54k87UJG7
+  port: 2376
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.62.68:443-可用-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.62.68
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-bb01.nfeng6.pp.ua:16000-可用-中转:138.2.52.120-解锁日本地区NF非自制剧
-  type: ss
-  server: bb01.nfeng6.pp.ua
-  password: bzUdYJ4JzjGfIwhG
-  port: 16000
-  cipher: aes-128-gcm
-- name: 🇮🇳:印度-ss-206.189.130.75:17745-可用-中转:8.34.69.32-解锁印度地区NF非自制剧
-  type: ss
-  server: 206.189.130.75
-  password: 54df1ad5-1323-4dd7-b7a1-a53202347526
-  port: 17745
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-vmess-v2.ssrsub.com:443-可用-中转:176.119.157.182-解锁俄罗斯联邦地区NF非自制剧
-  type: vmess
-  server: v2.ssrsub.com
-  network: ws
-  port: 443
-  uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /api/v3/download.getFile
+- name: 🇷🇴:罗马尼亚-ssr-185.126.116.125:9043-可用-直连-解锁瑞士地区NF非自制剧
+  type: ssr
+  server: 185.126.116.125
+  password: HSZuyJQcWe8dxNdF
+  obfs: plain
+  protocol: origin
+  port: 9043
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 🇨🇳:中国-vmess-zzcm08.bdate.xyz:1930-可用-中转:114.47.39.42-解锁台湾地区NF非自制剧
   type: vmess
   server: zzcm08.bdate.xyz
@@ -404,7 +397,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
-- name: 🇺🇸:美国-vmess-xr-4.herokuapp.com:443-可用-中转:35.172.218.191-解锁美国地区NF非自制剧
+- name: 🇺🇸:美国-vmess-xr-4.herokuapp.com:443-可用-中转:34.239.173.25-解锁美国地区NF非自制剧
   type: vmess
   server: xr-4.herokuapp.com
   network: ws
