@@ -1,16 +1,16 @@
 proxies:
+- name: 🇨🇳:中国-ss-sz.cm.poe.edu.pl:39412-可用-中转:185.248.186.108-解锁香港地区NF非自制剧
+  type: ss
+  server: sz.cm.poe.edu.pl
+  password: 788f6c4d-e0ee-41fd-8baf-b5c1f1c6c1be
+  port: 39412
+  cipher: chacha20-ietf-poly1305
 - name: 🇨🇳:中国-ss-bb01.nfeng6.pp.ua:26250-可用-中转:8.37.41.107-解锁阿根廷地区NF非自制剧
   type: ss
   server: bb01.nfeng6.pp.ua
   password: bzUdYJ4JzjGfIwhG
   port: 26250
   cipher: aes-128-gcm
-- name: 🇺🇸:美国-ss-20.226.30.239:45789-可用-直连-解锁巴西地区NF非自制剧
-  type: ss
-  server: 20.226.30.239
-  password: 54df1ad5-1323-4dd7-b7a1-a53202347526
-  port: 45789
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-167.88.63.89:443-可用-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.63.89
@@ -40,6 +40,12 @@ proxies:
   server: 167.88.62.68
   password: pKEW8JPByTVTLtM
   port: 443
+  cipher: aes-256-gcm
+- name: 🇯🇵:日本-ss-134.122.160.4:12235-可用-直连-解锁日本地区NF非自制剧
+  type: ss
+  server: 134.122.160.4
+  password: 1f9e7c79-ce39-44f3-bdbd-90ea117629b3
+  port: 12235
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.63.114:8090-被墙-直连-解锁美国地区NF非自制剧
   type: ss
@@ -131,12 +137,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 805
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-167.88.62.62:8090-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.62.62
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.62.68:5003-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.62.68
@@ -341,6 +341,12 @@ proxies:
   password: g5MeD6Ft3CWlJId
   port: 5004
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-38.107.226.241:7307-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 38.107.226.241
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.63.74:443-可用-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.63.74
@@ -369,25 +375,3 @@ proxies:
   udp: false
   tls: true
   ws-path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess
-- name: 🇺🇸:美国-vmess-v2ray.788644.xyz:443-可用-中转:146.56.155.195-解锁韩国地区NF非自制剧
-  type: vmess
-  server: v2ray.788644.xyz
-  network: ws
-  port: 443
-  uuid: 000fe881-b655-4212-b804-b00f9970d5aa
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /happy
-- name: 🇨🇳:中国-vmess-zzcm08.bdate.xyz:2570-可用-中转:58.176.122.113-解锁香港地区NF非自制剧
-  type: vmess
-  server: zzcm08.bdate.xyz
-  network: ws
-  port: 2570
-  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /hls/cctv5phd.m3u8
