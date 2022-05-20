@@ -5,7 +5,7 @@ proxies:
   password: bzUdYJ4JzjGfIwhG
   port: 26250
   cipher: aes-128-gcm
-- name: 🇨🇳:中国-ss-cn1.relay.iepl.pw:50200-可用-中转:111.252.170.51-解锁台湾地区NF非自制剧
+- name: 🇨🇳:中国-ss-cn1.relay.iepl.pw:50200-可用-中转:61.224.65.233-解锁台湾地区NF非自制剧
   type: ss
   server: cn1.relay.iepl.pw
   password: b6040656-96c5-4748-a73c-5a8f15ed7531
@@ -148,12 +148,6 @@ proxies:
   server: 167.88.63.74
   password: PCnnH6SQSnfoS27
   port: 8090
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-38.91.101.99:5500-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 38.91.101.99
-  password: KixLvKzwjekG00rm
-  port: 5500
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.63.61:8009-被墙-直连-解锁美国地区NF非自制剧
   type: ss
@@ -323,6 +317,12 @@ proxies:
   password: g5MeD6Ft3CWlJId
   port: 5004
   cipher: aes-256-gcm
+- name: 🇨🇦:加拿大-ss-72.140.224.195:803-被墙-直连-解锁加拿大地区NF非自制剧
+  type: ss
+  server: 72.140.224.195
+  password: G!yBwPWH3Vao
+  port: 803
+  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-167.88.63.74:443-可用-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.63.74
@@ -341,29 +341,28 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-35.166.114.193:443-可用-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 35.166.114.193
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
 - name: 🇺🇸:美国-ss-167.88.63.71:443-可用-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.63.71
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-cn1.relay.iepl.pw:50200-可用-中转:61.224.93.128-解锁台湾地区NF非自制剧
-  type: ss
-  server: cn1.relay.iepl.pw
-  password: b6040656-96c5-4748-a73c-5a8f15ed7531
-  port: 50200
-  cipher: aes-128-gcm
-- name: 🇺🇸:美国-vmess-v2.ssrsub.com:443-可用-中转:176.119.157.182-解锁俄罗斯联邦地区NF非自制剧
-  type: vmess
-  server: v2.ssrsub.com
-  network: ws
-  port: 443
-  uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /api/v3/download.getFile
+- name: 🇷🇴:罗马尼亚-ssr-185.126.116.125:9043-可用-直连-解锁瑞士地区NF非自制剧
+  type: ssr
+  server: 185.126.116.125
+  password: HSZuyJQcWe8dxNdF
+  obfs: plain
+  protocol: origin
+  port: 9043
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 🇨🇳:中国-vmess-zzcm09.bdate.xyz:1320-可用-中转:61.227.25.242-解锁台湾地区NF非自制剧
   type: vmess
   server: zzcm09.bdate.xyz
@@ -397,14 +396,3 @@ proxies:
   udp: false
   tls: true
   ws-path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess
-- name: 🇨🇳:中国-vmess-zzcm09.bdate.xyz:1510-可用-中转:114.47.72.218-解锁台湾地区NF非自制剧
-  type: vmess
-  server: zzcm09.bdate.xyz
-  network: ws
-  port: 1510
-  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /hls/cctv5phd.m3u8
