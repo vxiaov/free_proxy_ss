@@ -1,4 +1,16 @@
 proxies:
+- name: 🇺🇸:美国-ss-167.88.63.89:443-可用-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.63.89
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-167.88.63.74:443-可用-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.63.74
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.62.68:443-可用-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.62.68
@@ -305,12 +317,6 @@ proxies:
   password: FoOiGlkAA9yPEGP
   port: 7306
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.63.74:443-可用-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.63.74
-  password: pKEW8JPByTVTLtM
-  port: 443
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-38.68.134.23:443-可用-直连-解锁美国地区NF非自制剧
   type: ss
   server: 38.68.134.23
@@ -351,17 +357,6 @@ proxies:
   udp: false
   tls: true
   ws-path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess
-- name: 🇨🇳:中国-vmess-cmbe3-vdn.zhs.company:35055-可用-中转:42.98.39.60-解锁香港地区NF非自制剧
-  type: vmess
-  server: cmbe3-vdn.zhs.company
-  network: ws
-  port: 35055
-  uuid: 236ca3b1-897e-32b0-8c94-c5284d3bfd9b
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /zhs
 - name: 🇨🇳:中国-vmess-zzcm09.bdate.xyz:1510-可用-中转:114.47.101.113-解锁台湾地区NF非自制剧
   type: vmess
   server: zzcm09.bdate.xyz
@@ -373,14 +368,3 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
-- name: 🇺🇸:美国-vmess-ussj.dingzige.gq:80-可用-中转:91.217.139.71-解锁美国地区NF非自制剧
-  type: vmess
-  server: ussj.dingzige.gq
-  network: ws
-  port: 80
-  uuid: 5bb4d785-4933-44cb-a162-d9a74625d2ee
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
