@@ -215,12 +215,6 @@ proxies:
   password: PCnnH6SQSnfoS27
   port: 8091
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-bb01.nfeng6.pp.ua:26210-被墙-中转:165.154.233.81-解锁新加坡地区NF非自制剧
-  type: ss
-  server: bb01.nfeng6.pp.ua
-  password: bzUdYJ4JzjGfIwhG
-  port: 26210
-  cipher: aes-128-gcm
 - name: 🇺🇸:美国-ss-38.107.226.241:7307-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 38.107.226.241
@@ -305,6 +299,12 @@ proxies:
   password: faBAoD54k87UJG7
   port: 2376
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-167.88.63.89:7306-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.63.89
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-38.68.135.93:443-可用-直连-解锁美国地区NF非自制剧
   type: ss
   server: 38.68.135.93
@@ -329,25 +329,25 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-vmess-v2.ssrsub.com:443-可用-中转:176.119.157.182-解锁俄罗斯联邦地区NF非自制剧
+- name: 🇨🇳:中国-vmess-zzcm09.bdate.xyz:1320-可用-中转:114.47.86.59-解锁台湾地区NF非自制剧
   type: vmess
-  server: v2.ssrsub.com
+  server: zzcm09.bdate.xyz
   network: ws
-  port: 443
-  uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2
+  port: 1320
+  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
   alterId: 4
   cipher: auto
   udp: false
-  tls: true
-  ws-path: /api/v3/download.getFile
-- name: 🇺🇸:美国-vmess-xr-5.herokuapp.com:443-可用-中转:44.195.80.114-解锁美国地区NF非自制剧
+  tls: false
+  ws-path: /hls/cctv5phd.m3u8
+- name: 🇨🇳:中国-vmess-zzcm09.bdate.xyz:1510-可用-中转:114.47.101.113-解锁台湾地区NF非自制剧
   type: vmess
-  server: xr-5.herokuapp.com
+  server: zzcm09.bdate.xyz
   network: ws
-  port: 443
-  uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1
+  port: 1510
+  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
   alterId: 4
   cipher: auto
   udp: false
-  tls: true
-  ws-path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess
+  tls: false
+  ws-path: /hls/cctv5phd.m3u8
