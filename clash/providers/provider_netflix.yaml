@@ -1,16 +1,40 @@
 proxies:
+- name: 🇨🇳:中国-ss-sh.cm.jpbgp.fenglingcloud.com:21000-可用-中转:152.69.205.10-解锁日本地区NF非自制剧
+  type: ss
+  server: sh.cm.jpbgp.fenglingcloud.com
+  password: a4d30700-15ae-4b60-bbf8-c2378d2cdf18
+  port: 21000
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-bb01.nfeng6.pp.ua:26250-可用-中转:8.37.41.165-解锁阿根廷地区NF非自制剧
+  type: ss
+  server: bb01.nfeng6.pp.ua
+  password: bzUdYJ4JzjGfIwhG
+  port: 26250
+  cipher: aes-128-gcm
 - name: 🇺🇸:美国-ss-20.205.117.99:8313-可用-直连-解锁香港地区NF非自制剧
   type: ss
   server: 20.205.117.99
   password: ljqdalu13..
   port: 8313
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-bb01.nfeng6.pp.ua:26210-可用-中转:165.154.233.81-解锁新加坡地区NF非自制剧
+- name: 🇺🇸:美国-ss-167.88.63.74:443-可用-直连-解锁美国地区NF非自制剧
   type: ss
-  server: bb01.nfeng6.pp.ua
-  password: bzUdYJ4JzjGfIwhG
-  port: 26210
-  cipher: aes-128-gcm
+  server: 167.88.63.74
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-cm.fenglingcloud.com:37617-可用-中转:152.69.219.22-解锁新加坡地区NF非自制剧
+  type: ss
+  server: cm.fenglingcloud.com
+  password: a4d30700-15ae-4b60-bbf8-c2378d2cdf18
+  port: 37617
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-cm.fenglingcloud.com:37622-可用-中转:152.69.205.10-解锁日本地区NF非自制剧
+  type: ss
+  server: cm.fenglingcloud.com
+  password: a4d30700-15ae-4b60-bbf8-c2378d2cdf18
+  port: 37622
+  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-167.88.62.68:443-可用-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.62.68
@@ -119,12 +143,6 @@ proxies:
   password: PCnnH6SQSnfoS27
   port: 8090
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-bb01.nfeng6.pp.ua:16040-被墙-中转:8.39.126.31-解锁台湾地区NF非自制剧
-  type: ss
-  server: bb01.nfeng6.pp.ua
-  password: bzUdYJ4JzjGfIwhG
-  port: 16040
-  cipher: aes-128-gcm
 - name: 🇺🇸:美国-ss-38.68.134.135:809-被墙-中转:38.68.134.196-解锁美国地区NF非自制剧
   type: ss
   server: 38.68.134.135
@@ -239,6 +257,12 @@ proxies:
   password: G!yBwPWH3Vao
   port: 803
   cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-bb01.nfeng6.pp.ua:26210-被墙-中转:165.154.233.81-解锁新加坡地区NF非自制剧
+  type: ss
+  server: bb01.nfeng6.pp.ua
+  password: bzUdYJ4JzjGfIwhG
+  port: 26210
+  cipher: aes-128-gcm
 - name: 🇺🇸:美国-ss-38.107.226.241:7307-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 38.107.226.241
@@ -323,12 +347,6 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.63.74:443-可用-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.63.74
-  password: pKEW8JPByTVTLtM
-  port: 443
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.63.89:443-可用-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.63.89
@@ -361,28 +379,6 @@ proxies:
 - name: 🇺🇸:美国-vmess-xr-5.herokuapp.com:443-可用-中转:44.195.80.114-解锁美国地区NF非自制剧
   type: vmess
   server: xr-5.herokuapp.com
-  network: ws
-  port: 443
-  uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess
-- name: 🇨🇳:中国-vmess-cs.daxun.cyou:20631-可用-中转:114.37.151.140-解锁台湾地区NF非自制剧
-  type: vmess
-  server: cs.daxun.cyou
-  network: ws
-  port: 20631
-  uuid: 99591e4d-b11e-4488-b366-53f3b6787bba
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /hinet04
-- name: 🇺🇸:美国-vmess-xr-4.herokuapp.com:443-可用-中转:3.210.202.57-解锁美国地区NF非自制剧
-  type: vmess
-  server: xr-4.herokuapp.com
   network: ws
   port: 443
   uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1
