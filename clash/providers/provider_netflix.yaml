@@ -287,17 +287,11 @@ proxies:
   password: faBAoD54k87UJG7
   port: 2375
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.63.11:8091-被墙-直连-解锁美国地区NF非自制剧
+- name: 🇮🇳:印度-ss-206.189.130.75:17745-被墙-中转:8.34.69.32-解锁印度地区NF非自制剧
   type: ss
-  server: 167.88.63.11
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  cipher: aes-256-gcm
-- name: 🇯🇵:日本-ss-89.31.126.150:802-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧
-  type: ss
-  server: 89.31.126.150
-  password: G!yBwPWH3Vao
-  port: 802
+  server: 206.189.130.75
+  password: 54df1ad5-1323-4dd7-b7a1-a53202347526
+  port: 17745
   cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-167.88.62.68:443-可用-直连-解锁美国地区NF非自制剧
   type: ss
@@ -329,14 +323,41 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇮🇷:伊朗-vmess-srvf.myandroidplus1.ir:80-可用-中转:62.192.153.131-解锁德国地区NF非自制剧
+- name: 🇷🇺:俄罗斯-ss-5.183.179.166:9057-被墙-直连-解锁德国地区NF非自制剧
+  type: ss
+  server: 5.183.179.166
+  password: wjTugX3ZtHMB9c3Z
+  port: 9057
+  cipher: aes-256-cfb
+- name: 🇺🇸:美国-ssr-us-am32-5.eqnode.net:8081-可用-中转:34.220.156.86-解锁美国地区NF非自制剧
+  type: ssr
+  server: us-am32-5.eqnode.net
+  password: YFVrXZgRo
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇺🇸:美国-vmess-v2.ssrsub.com:443-可用-中转:176.119.157.182-解锁俄罗斯联邦地区NF非自制剧
   type: vmess
-  server: srvf.myandroidplus1.ir
+  server: v2.ssrsub.com
+  network: ws
+  port: 443
+  uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /api/v3/download.getFile
+- name: :0-vmess-hcm4.aqvpn.me:80-可用-中转:103.167.198.231-解锁越南地区NF非自制剧
+  type: vmess
+  server: hcm4.aqvpn.me
   network: ws
   port: 80
-  uuid: c1214c26-f0fc-2f0a-81b0-84d10f8d14dc
+  uuid: d00083c7-e3db-4707-a24d-5662912368ff
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /apiws
+  ws-path: /
