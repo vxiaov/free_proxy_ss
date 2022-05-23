@@ -1,19 +1,13 @@
 proxies:
+- name: 🇺🇸:美国-ss-167.88.62.68:443-可用-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.62.68
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.63.89:443-可用-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.63.89
-  password: pKEW8JPByTVTLtM
-  port: 443
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.63.11:443-可用-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.63.11
-  password: pKEW8JPByTVTLtM
-  port: 443
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.63.71:443-可用-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.63.71
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
@@ -323,12 +317,35 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 3389
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.62.68:443-可用-直连-解锁美国地区NF非自制剧
+- name: 🇺🇸:美国-ss-38.68.134.23:443-可用-直连-解锁美国地区NF非自制剧
   type: ss
-  server: 167.88.62.68
+  server: 38.68.134.23
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-167.88.63.11:443-可用-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.63.11
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-167.88.63.71:443-可用-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.63.71
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-vmess-v2.ssrsub.com:443-可用-中转:176.119.157.182-解锁俄罗斯联邦地区NF非自制剧
+  type: vmess
+  server: v2.ssrsub.com
+  network: ws
+  port: 443
+  uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /api/v3/download.getFile
 - name: 🇨🇳:中国-vmess-zzcm09.bdate.xyz:1320-可用-中转:114.47.86.59-解锁台湾地区NF非自制剧
   type: vmess
   server: zzcm09.bdate.xyz
@@ -340,6 +357,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
+- name: 🇮🇪:爱尔兰-vmess-lluucc3.herokuapp.com:443-可用-中转:52.51.149.163-解锁爱尔兰地区NF非自制剧
+  type: vmess
+  server: lluucc3.herokuapp.com
+  network: ws
+  port: 443
+  uuid: 7ff3d9c9-2153-4d3c-939d-697850c95b21
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /f495ba1f
 - name: 🇨🇳:中国-vmess-zzcm09.bdate.xyz:1510-可用-中转:114.47.101.113-解锁台湾地区NF非自制剧
   type: vmess
   server: zzcm09.bdate.xyz
