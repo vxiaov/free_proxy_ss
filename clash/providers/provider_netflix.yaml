@@ -11,6 +11,12 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-167.88.63.74:443-可用-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.63.74
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.62.68:443-可用-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.62.68
@@ -323,12 +329,16 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.63.74:443-可用-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.63.74
-  password: pKEW8JPByTVTLtM
-  port: 443
-  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ssr-us-am32-5.eqnode.net:8081-可用-中转:34.220.156.86-解锁美国地区NF非自制剧
+  type: ssr
+  server: us-am32-5.eqnode.net
+  password: YFVrXZgRo
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 🇺🇸:美国-vmess-v2.ssrsub.com:443-可用-中转:176.119.157.182-解锁俄罗斯联邦地区NF非自制剧
   type: vmess
   server: v2.ssrsub.com
@@ -340,3 +350,25 @@ proxies:
   udp: false
   tls: true
   ws-path: /api/v3/download.getFile
+- name: 🇮🇪:爱尔兰-vmess-lluucc3.herokuapp.com:443-可用-中转:52.51.149.163-解锁爱尔兰地区NF非自制剧
+  type: vmess
+  server: lluucc3.herokuapp.com
+  network: ws
+  port: 443
+  uuid: 7ff3d9c9-2153-4d3c-939d-697850c95b21
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /f495ba1f
+- name: 🇳🇱:荷兰-vmess-xiaocai.fly.dev:443-可用-中转:75.102.32.68-解锁香港地区NF非自制剧
+  type: vmess
+  server: xiaocai.fly.dev
+  network: ws
+  port: 443
+  uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess
