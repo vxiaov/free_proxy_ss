@@ -1,10 +1,4 @@
 proxies:
-- name: 🇺🇸:美国-ss-167.88.62.68:443-可用-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.62.68
-  password: pKEW8JPByTVTLtM
-  port: 443
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.63.71:443-可用-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.63.71
@@ -14,6 +8,12 @@ proxies:
 - name: 🇺🇸:美国-ss-38.68.134.23:443-可用-直连-解锁美国地区NF非自制剧
   type: ss
   server: 38.68.134.23
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-167.88.62.68:443-可用-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.62.68
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
@@ -323,6 +323,12 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-fkgfw-prod.i.sxl.cn:443-可用-中转:13.70.7.164-解锁香港地区NF非自制剧
+  type: ss
+  server: fkgfw-prod.i.sxl.cn
+  password: E4DNMf73kHPrd8Qq7aqGPf7f
+  port: 443
+  cipher: aes-256-cfb
 - name: 🇺🇸:美国-ss-167.88.63.89:443-可用-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.63.89
@@ -346,17 +352,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
-- name: 🇮🇪:爱尔兰-vmess-lluucc3.herokuapp.com:443-可用-中转:52.51.149.163-解锁爱尔兰地区NF非自制剧
-  type: vmess
-  server: lluucc3.herokuapp.com
-  network: ws
-  port: 443
-  uuid: 7ff3d9c9-2153-4d3c-939d-697850c95b21
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /f495ba1f
 - name: 🇨🇳:中国-vmess-zzcm09.bdate.xyz:1930-可用-中转:114.47.100.230-解锁台湾地区NF非自制剧
   type: vmess
   server: zzcm09.bdate.xyz
@@ -379,6 +374,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
+- name: 🇬🇧:英国-vmess-ru1.lolvps.xyz:40040-可用-中转:185.80.200.36-解锁加拿大地区NF非自制剧
+  type: vmess
+  server: ru1.lolvps.xyz
+  network: ws
+  port: 40040
+  uuid: 2b8e4fc6-0112-4b26-8c17-1bfef9a3ff99
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /6129CFHR
 - name: 🇨🇳:中国-vmess-b10.v2.gay:1930-可用-中转:114.47.100.230-解锁台湾地区NF非自制剧
   type: vmess
   server: b10.v2.gay
