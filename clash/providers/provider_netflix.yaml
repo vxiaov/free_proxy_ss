@@ -1,16 +1,4 @@
 proxies:
-- name: 🇺🇸:美国-ss-167.88.63.11:443-可用-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.63.11
-  password: pKEW8JPByTVTLtM
-  port: 443
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.63.74:443-可用-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.63.74
-  password: pKEW8JPByTVTLtM
-  port: 443
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.63.114:8090-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.63.114
@@ -311,35 +299,28 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 3389
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-38.68.134.23:443-可用-直连-解锁美国地区NF非自制剧
+- name: 🇺🇸:美国-ss-34.217.102.91:443-可用-直连-解锁美国地区NF非自制剧
   type: ss
-  server: 38.68.134.23
-  password: pKEW8JPByTVTLtM
+  server: 34.217.102.91
+  password: amazonskr05
   port: 443
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.62.68:443-可用-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.62.68
-  password: pKEW8JPByTVTLtM
-  port: 443
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.63.89:443-可用-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.63.89
-  password: pKEW8JPByTVTLtM
-  port: 443
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.63.71:443-可用-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.63.71
-  password: pKEW8JPByTVTLtM
-  port: 443
-  cipher: aes-256-gcm
+  cipher: aes-256-cfb
 - name: 🇨🇳:中国-vmess-zzcm09.bdate.xyz:1320-可用-中转:114.47.86.59-解锁台湾地区NF非自制剧
   type: vmess
   server: zzcm09.bdate.xyz
   network: ws
   port: 1320
+  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /hls/cctv5phd.m3u8
+- name: 🇨🇳:中国-vmess-zzcm09.bdate.xyz:1930-可用-中转:114.47.100.230-解锁台湾地区NF非自制剧
+  type: vmess
+  server: zzcm09.bdate.xyz
+  network: ws
+  port: 1930
   uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
   alterId: 4
   cipher: auto
