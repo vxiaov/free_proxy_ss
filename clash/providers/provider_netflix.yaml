@@ -251,12 +251,6 @@ proxies:
   password: FoOiGlkAA9yPEGP
   port: 7307
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.63.71:8090-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.63.71
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-38.107.226.241:7307-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 38.107.226.241
@@ -299,6 +293,12 @@ proxies:
   password: PCnnH6SQSnfoS27
   port: 8091
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-167.88.62.68:3389-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.62.68
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-147.182.151.24:20110-可用-直连-解锁加拿大地区NF非自制剧
   type: ss
   server: 147.182.151.24
@@ -311,36 +311,14 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-vmess-zzcm09.bdate.xyz:1320-可用-中转:114.47.78.179-解锁台湾地区NF非自制剧
+- name: 🇬🇧:英国-vmess-ru1.lolvps.xyz:40040-可用-中转:185.80.200.36-解锁加拿大地区NF非自制剧
   type: vmess
-  server: zzcm09.bdate.xyz
+  server: ru1.lolvps.xyz
   network: ws
-  port: 1320
-  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
+  port: 40040
+  uuid: 2b8e4fc6-0112-4b26-8c17-1bfef9a3ff99
   alterId: 4
   cipher: auto
   udp: false
-  tls: false
-  ws-path: /hls/cctv5phd.m3u8
-- name: 🇨🇳:中国-vmess-zzcm09.bdate.xyz:1930-可用-中转:114.47.100.230-解锁台湾地区NF非自制剧
-  type: vmess
-  server: zzcm09.bdate.xyz
-  network: ws
-  port: 1930
-  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /hls/cctv5phd.m3u8
-- name: 🇨🇳:中国-vmess-zzcm09.bdate.xyz:1510-可用-中转:61.227.26.30-解锁台湾地区NF非自制剧
-  type: vmess
-  server: zzcm09.bdate.xyz
-  network: ws
-  port: 1510
-  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /hls/cctv5phd.m3u8
+  tls: true
+  ws-path: /6129CFHR
