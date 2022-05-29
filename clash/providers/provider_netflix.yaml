@@ -1,4 +1,10 @@
 proxies:
+- name: 🇨🇳:中国-ss-yza2.hkbgp.wiki:10347-可用-中转:46.232.120.54-解锁新加坡地区NF非自制剧
+  type: ss
+  server: yza2.hkbgp.wiki
+  password: 1f2b603f-4400-4cb8-a12a-afe14cb641a0
+  port: 10347
+  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-162.251.61.221:802-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 162.251.61.221
@@ -299,30 +305,18 @@ proxies:
   password: faBAoD54k87UJG7
   port: 2375
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-14.29.124.168:24002-可用-中转:223.26.73.202-解锁台湾地区NF非自制剧
+- name: 🇨🇳:中国-ss-yza2.hkbgp.wiki:10347-可用-中转:46.232.120.16-解锁新加坡地区NF非自制剧
   type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24002
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:24008-可用-中转:223.26.73.202-解锁台湾地区NF非自制剧
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24008
-  cipher: aes-128-cfb
+  server: yza2.hkbgp.wiki
+  password: 1f2b603f-4400-4cb8-a12a-afe14cb641a0
+  port: 10347
+  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-167.88.62.68:443-可用-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.62.68
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-14.29.124.168:24007-可用-中转:223.26.73.202-解锁台湾地区NF非自制剧
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24007
-  cipher: aes-128-cfb
 - name: 🇺🇸:美国-ss-167.88.63.11:443-可用-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.63.11
@@ -335,6 +329,12 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
+- name: 🇯🇵:日本-ss-54.238.232.202:443-可用-直连-解锁日本地区NF非自制剧
+  type: ss
+  server: 54.238.232.202
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-ssr-185.126.116.125:9043-可用-直连-解锁瑞士地区NF非自制剧
   type: ssr
   server: 185.126.116.125
@@ -345,3 +345,14 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
+- name: 🇺🇸:美国-vmess-douban.babazhuji.com:443-可用-中转:3.138.37.63-解锁美国地区NF非自制剧
+  type: vmess
+  server: douban.babazhuji.com
+  network: ws
+  port: 443
+  uuid: 27848739-7e62-4138-9fd3-098a63964b6b
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /movies
