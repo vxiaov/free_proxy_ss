@@ -11,6 +11,12 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-167.88.62.68:443-可用-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.62.68
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-162.251.61.221:802-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 162.251.61.221
@@ -94,12 +100,6 @@ proxies:
   server: 167.88.63.17
   password: g5MeD6Ft3CWlJId
   port: 5003
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-38.114.114.145:2375-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 38.114.114.145
-  password: faBAoD54k87UJG7
-  port: 2375
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.62.68:3306-被墙-直连-解锁美国地区NF非自制剧
   type: ss
@@ -311,28 +311,23 @@ proxies:
   password: faBAoD54k87UJG7
   port: 2375
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.62.68:443-可用-直连-解锁美国地区NF非自制剧
+- name: 🇺🇸:美国-ss-167.88.63.60:8091-被墙-直连-解锁美国地区NF非自制剧
   type: ss
-  server: 167.88.62.68
-  password: pKEW8JPByTVTLtM
-  port: 443
+  server: 167.88.63.60
+  password: PCnnH6SQSnfoS27
+  port: 8091
   cipher: aes-256-gcm
-- name: 🇯🇵:日本-ss-54.238.232.202:443-可用-直连-解锁日本地区NF非自制剧
-  type: ss
-  server: 54.238.232.202
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
-- name: 🇺🇸:美国-ssr-us-am32-5.eqnode.net:8081-可用-中转:18.236.197.216-解锁美国地区NF非自制剧
-  type: ssr
-  server: us-am32-5.eqnode.net
-  password: YFVrXZgRo
-  obfs: tls1.2_ticket_auth
-  protocol: origin
-  port: 8081
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
+- name: 🇺🇸:美国-vmess-23.19.26.204:55212-可用-直连-解锁美国地区NF非自制剧
+  type: vmess
+  server: 23.19.26.204
+  network: ws
+  port: 55212
+  uuid: bb8a118d-dd20-4146-a989-2e24f1576b15
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /r76ofJah/
 - name: 🇺🇸:美国-vmess-douban.babazhuji.com:443-可用-中转:3.138.37.63-解锁美国地区NF非自制剧
   type: vmess
   server: douban.babazhuji.com
