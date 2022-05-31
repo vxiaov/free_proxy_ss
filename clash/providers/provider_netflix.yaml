@@ -329,12 +329,6 @@ proxies:
   password: FG5ddLsMPbV5CutE
   port: 9050
   cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-5.183.179.146:9033-可用-直连-解锁德国地区NF非自制剧
-  type: ss
-  server: 5.183.179.146
-  password: UTJA57ypk2XKQpnm
-  port: 9033
-  cipher: aes-256-cfb
 - name: 🇷🇺:俄罗斯-ss-5.183.179.139:9084-可用-直连-解锁德国地区NF非自制剧
   type: ss
   server: 5.183.179.139
@@ -419,6 +413,12 @@ proxies:
   password: f63gg8EruDnUrmz4
   port: 9010
   cipher: aes-256-cfb
+- name: 🇷🇺:俄罗斯-ss-5.183.179.146:9079-可用-直连-解锁德国地区NF非自制剧
+  type: ss
+  server: 5.183.179.146
+  password: TPqX8edgbAURcAMb
+  port: 9079
+  cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.125:9088-可用-直连-解锁瑞士地区NF非自制剧
   type: ss
   server: 185.126.116.125
@@ -479,6 +479,18 @@ proxies:
   password: NvS8N4Vf8qAGPSCL
   port: 9046
   cipher: aes-256-cfb
+- name: 🇺🇸:美国-ss-34.215.6.59:443-可用-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 34.215.6.59
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
+- name: 🇺🇸:美国-ss-34.211.206.44:443-可用-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 34.211.206.44
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.117:9050-可用-直连-解锁瑞士地区NF非自制剧
   type: ss
   server: 185.126.116.117
@@ -532,12 +544,6 @@ proxies:
   server: 5.183.179.146
   password: ZpNDDKRu9MagNvaf
   port: 9015
-  cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-34.215.6.59:443-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 34.215.6.59
-  password: amazonskr05
-  port: 443
   cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.125:9046-被墙-直连-解锁瑞士地区NF非自制剧
   type: ss
@@ -593,6 +599,23 @@ proxies:
   password: faBAoD54k87UJG7
   port: 2376
   cipher: aes-256-gcm
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.117:9024-被墙-直连-解锁瑞士地区NF非自制剧
+  type: ss
+  server: 185.126.116.117
+  password: BejrQvtu9sqUeNuZ
+  port: 9024
+  cipher: aes-256-cfb
+- name: 🇺🇸:美国-vmess-xr-5.herokuapp.com:443-可用-中转:34.204.50.54-解锁美国地区NF非自制剧
+  type: vmess
+  server: xr-5.herokuapp.com
+  network: ws
+  port: 443
+  uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess
 - name: 🇺🇸:美国-vmess-xr-4.herokuapp.com:443-可用-中转:18.208.219.80-解锁美国地区NF非自制剧
   type: vmess
   server: xr-4.herokuapp.com
@@ -604,6 +627,17 @@ proxies:
   udp: false
   tls: true
   ws-path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess
+- name: 🇺🇸:美国-vmess-douban.babazhuji.com:443-可用-中转:3.138.37.63-解锁美国地区NF非自制剧
+  type: vmess
+  server: douban.babazhuji.com
+  network: ws
+  port: 443
+  uuid: 27848739-7e62-4138-9fd3-098a63964b6b
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /movies
 - name: 🇺🇸:美国-vmess-oz.moonfree.top:443-可用-中转:8.42.52.45-解锁芬兰地区NF非自制剧
   type: vmess
   server: oz.moonfree.top
