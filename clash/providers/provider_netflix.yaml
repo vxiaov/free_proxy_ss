@@ -17,12 +17,6 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
-- name: 🇰🇷:韩国-ss-awskr2.698436.xyz:54356-可用-中转:54.180.108.15-解锁韩国地区NF非自制剧
-  type: ss
-  server: awskr2.698436.xyz
-  password: 5e04bdc6-6f09-4f5e-a3c7-edf4d3220ad3
-  port: 54356
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-162.251.61.221:802-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 162.251.61.221
@@ -88,6 +82,12 @@ proxies:
   server: 167.88.63.99
   password: FoOiGlkAA9yPEGP
   port: 7307
+  cipher: aes-256-gcm
+- name: 🇰🇷:韩国-ss-awskr2.698436.xyz:54356-被墙-中转:54.180.108.15-解锁韩国地区NF非自制剧
+  type: ss
+  server: awskr2.698436.xyz
+  password: 5e04bdc6-6f09-4f5e-a3c7-edf4d3220ad3
+  port: 54356
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.63.60:7001-被墙-直连-解锁美国地区NF非自制剧
   type: ss
@@ -317,12 +317,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 803
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-167.88.63.89:2375-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.63.89
-  password: faBAoD54k87UJG7
-  port: 2375
-  cipher: aes-256-gcm
 - name: 🇯🇵:日本-ss-13.112.89.177:443-可用-直连-解锁日本地区NF非自制剧
   type: ss
   server: 13.112.89.177
@@ -391,22 +385,44 @@ proxies:
   udp: false
   tls: false
   ws-path: /ny
-- name: 🇨🇳:中国-vmess-10.vip341.xyz:443-可用-中转:20.187.69.71-解锁香港地区NF非自制剧
+- name: 🇺🇸:美国-vmess-9.vip341.xyz:80-可用-中转:20.187.83.24-解锁香港地区NF非自制剧
   type: vmess
-  server: 10.vip341.xyz
+  server: 9.vip341.xyz
   network: ws
-  port: 443
+  port: 80
   uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb
   alterId: 4
   cipher: auto
   udp: false
   tls: false
   ws-path: /ny
-- name: 🇺🇸:美国-vmess-9.vip341.xyz:80-可用-中转:20.187.83.24-解锁香港地区NF非自制剧
+- name: 🇯🇵:日本-vmess-v2-1.godlight.xyz:250-可用-中转:18.182.0.41-解锁日本地区NF非自制剧
   type: vmess
-  server: 9.vip341.xyz
+  server: v2-1.godlight.xyz
   network: ws
-  port: 80
+  port: 250
+  uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /j75g1461x
+- name: 🇺🇸:美国-vmess-34.215.130.186:10089-可用-直连-解锁美国地区NF非自制剧
+  type: vmess
+  server: 34.215.130.186
+  network: ws
+  port: 10089
+  uuid: 3608c9dc-1eeb-48b0-b570-43074b4a0c9e
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇨🇳:中国-vmess-10.vip341.xyz:443-可用-中转:20.187.69.71-解锁香港地区NF非自制剧
+  type: vmess
+  server: 10.vip341.xyz
+  network: ws
+  port: 443
   uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb
   alterId: 4
   cipher: auto
