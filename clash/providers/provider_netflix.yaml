@@ -227,18 +227,6 @@ proxies:
   password: PCnnH6SQSnfoS27
   port: 8091
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.63.89:5003-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.63.89
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.63.89:7307-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.63.89
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.63.11:7307-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.63.11
@@ -323,6 +311,18 @@ proxies:
   password: RexnBgU7EV5ADxG
   port: 7002
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-162.251.61.221:806-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 162.251.61.221
+  password: G!yBwPWH3Vao
+  port: 806
+  cipher: chacha20-ietf-poly1305
+- name: 🇯🇵:日本-ss-45.66.134.176:803-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
+  type: ss
+  server: 45.66.134.176
+  password: G!yBwPWH3Vao
+  port: 803
+  cipher: chacha20-ietf-poly1305
 - name: 🇷🇺:俄罗斯-ss-5.183.179.141:9025-可用-直连-解锁德国地区NF非自制剧
   type: ss
   server: 5.183.179.141
@@ -340,12 +340,6 @@ proxies:
   server: 185.126.116.117
   password: KnJGad3FqTvjqbaX
   port: 9014
-  cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.117:9032-可用-直连-解锁瑞士地区NF非自制剧
-  type: ss
-  server: 185.126.116.117
-  password: UWZQeLRWnkqgkseq
-  port: 9032
   cipher: aes-256-cfb
 - name: 🇷🇺:俄罗斯-ss-5.183.179.148:9057-可用-直连-解锁德国地区NF非自制剧
   type: ss
@@ -371,17 +365,23 @@ proxies:
   password: 9XwYyZsK8SNzQDtY
   port: 9059
   cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-5.183.179.170:9024-可用-直连-解锁德国地区NF非自制剧
-  type: ss
-  server: 5.183.179.170
-  password: BejrQvtu9sqUeNuZ
-  port: 9024
-  cipher: aes-256-cfb
 - name: 🇷🇺:俄罗斯-ss-5.183.179.170:9019-可用-直连-解锁德国地区NF非自制剧
   type: ss
   server: 5.183.179.170
   password: GA9KzeEgvfxNrgmM
   port: 9019
+  cipher: aes-256-cfb
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.117:9027-可用-直连-解锁瑞士地区NF非自制剧
+  type: ss
+  server: 185.126.116.117
+  password: EXN3S3eQpjE7EJu8
+  port: 9027
+  cipher: aes-256-cfb
+- name: 🇷🇺:俄罗斯-ss-5.183.179.170:9070-可用-直连-解锁德国地区NF非自制剧
+  type: ss
+  server: 5.183.179.170
+  password: bf7v334KKDV3YDhH
+  port: 9070
   cipher: aes-256-cfb
 - name: 🇷🇺:俄罗斯-ss-5.183.179.141:9031-可用-直连-解锁德国地区NF非自制剧
   type: ss
@@ -443,6 +443,12 @@ proxies:
   password: M3t2ZEQcMGRWBjRa
   port: 9011
   cipher: aes-256-cfb
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.124:9020-可用-直连-解锁瑞士地区NF非自制剧
+  type: ss
+  server: 185.126.116.124
+  password: BNmAXXxAHYpTRdzu
+  port: 9020
+  cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.117:9094-可用-直连-解锁瑞士地区NF非自制剧
   type: ss
   server: 185.126.116.117
@@ -485,12 +491,6 @@ proxies:
   password: f63gg8EruDnUrmz4
   port: 9010
   cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.124:9041-可用-直连-解锁瑞士地区NF非自制剧
-  type: ss
-  server: 185.126.116.124
-  password: U6qnYRhfyDmn8sgn
-  port: 9041
-  cipher: aes-256-cfb
 - name: 🇺🇸:美国-ss-34.215.6.59:443-可用-直连-解锁美国地区NF非自制剧
   type: ss
   server: 34.215.6.59
@@ -509,6 +509,16 @@ proxies:
   password: rNBfNuuANFCAk7KB
   port: 9056
   cipher: aes-256-cfb
+- name: 🇷🇴:罗马尼亚-ssr-185.126.116.125:9043-可用-直连-解锁瑞士地区NF非自制剧
+  type: ssr
+  server: 185.126.116.125
+  password: HSZuyJQcWe8dxNdF
+  obfs: plain
+  protocol: origin
+  port: 9043
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 🇺🇸:美国-vmess-douban.babazhuji.com:443-可用-中转:3.138.37.63-解锁美国地区NF非自制剧
   type: vmess
   server: douban.babazhuji.com
