@@ -1,10 +1,4 @@
 proxies:
-- name: 🇨🇳:中国-ss-cdn2.myuuusss.com:20011-可用-中转:61.227.183.124-解锁台湾地区NF非自制剧
-  type: ss
-  server: cdn2.myuuusss.com
-  password: b195963c-2631-442d-ab3a-6e78df25d904
-  port: 20011
-  cipher: aes-128-gcm
 - name: 🇺🇸:美国-ss-167.88.62.68:443-可用-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.62.68
@@ -299,6 +293,12 @@ proxies:
   password: G!yBwPWH3Vao
   port: 802
   cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-cdn2.myuuusss.com:20011-可用-中转:61.227.183.124-解锁台湾地区NF非自制剧
+  type: ss
+  server: cdn2.myuuusss.com
+  password: b195963c-2631-442d-ab3a-6e78df25d904
+  port: 20011
+  cipher: aes-128-gcm
 - name: 🇦🇺:澳大利亚-ss-43.200.6.115:443-可用-直连-解锁韩国地区NF非自制剧
   type: ss
   server: 43.200.6.115
@@ -317,6 +317,12 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-54.214.170.7:443-可用-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 54.214.170.7
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
 - name: 🇷🇺:俄罗斯-ss-5.183.179.146:9093-被墙-直连-解锁德国地区NF非自制剧
   type: ss
   server: 5.183.179.146
@@ -329,28 +335,7 @@ proxies:
   password: NvS8N4Vf8qAGPSCL
   port: 9046
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-ssr-us-am32-5.eqnode.net:8081-可用-中转:54.202.186.153-解锁美国地区NF非自制剧
-  type: ssr
-  server: us-am32-5.eqnode.net
-  password: YFVrXZgRo
-  obfs: tls1.2_ticket_auth
-  protocol: origin
-  port: 8081
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
-- name: 🇺🇸:美国-vmess-sg01.czsx1624.tk:443-可用-中转:138.2.88.131-解锁新加坡地区NF非自制剧
-  type: vmess
-  server: sg01.czsx1624.tk
-  network: ws
-  port: 443
-  uuid: d002b422-eace-4e01-bf58-e4bb0bcfe7af
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /3a8545177/
-- name: 🇺🇸:美国-vmess-xr-5.herokuapp.com:443-可用-中转:44.204.211.47-解锁美国地区NF非自制剧
+- name: 🇺🇸:美国-vmess-xr-5.herokuapp.com:443-可用-中转:54.227.24.129-解锁美国地区NF非自制剧
   type: vmess
   server: xr-5.herokuapp.com
   network: ws
