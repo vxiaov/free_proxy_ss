@@ -1,7 +1,13 @@
 proxies:
-- name: 🇺🇸:美国-ss-167.88.62.68:443-可用-直连-解锁美国地区NF非自制剧
+- name: 🇺🇸:美国-ss-167.88.63.89:443-可用-直连-解锁美国地区NF非自制剧
   type: ss
-  server: 167.88.62.68
+  server: 167.88.63.89
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-167.88.63.11:443-可用-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.63.11
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
@@ -257,12 +263,6 @@ proxies:
   password: faBAoD54k87UJG7
   port: 2376
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.63.11:443-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.63.11
-  password: pKEW8JPByTVTLtM
-  port: 443
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.63.117:8119-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.63.117
@@ -275,12 +275,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 808
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-167.88.63.89:443-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.63.89
-  password: pKEW8JPByTVTLtM
-  port: 443
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.63.11:8090-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.63.11
@@ -305,23 +299,107 @@ proxies:
   password: RexnBgU7EV5ADxG
   port: 7002
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.63.11:443-可用-直连-解锁美国地区NF非自制剧
+- name: 🇺🇸:美国-ss-167.88.62.68:443-被墙-直连-解锁美国地区NF非自制剧
   type: ss
-  server: 167.88.63.11
+  server: 167.88.62.68
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.63.89:443-可用-直连-解锁美国地区NF非自制剧
+- name: 🇺🇸:美国-ss-162.251.61.221:806-被墙-直连-解锁美国地区NF非自制剧
   type: ss
-  server: 167.88.63.89
+  server: 162.251.61.221
+  password: G!yBwPWH3Vao
+  port: 806
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-167.88.62.68:443-可用-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.62.68
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-34.215.6.59:443-可用-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 34.215.6.59
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
+- name: 🇺🇸:美国-ss-54.214.170.7:443-可用-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 54.214.170.7
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
+- name: 🇺🇸:美国-vmess-sg01.czsx1624.tk:443-可用-中转:138.2.88.131-解锁新加坡地区NF非自制剧
+  type: vmess
+  server: sg01.czsx1624.tk
+  network: ws
+  port: 443
+  uuid: d002b422-eace-4e01-bf58-e4bb0bcfe7af
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /3a8545177/
+- name: 🇺🇸:美国-vmess-xr-5.herokuapp.com:443-可用-中转:44.204.211.47-解锁美国地区NF非自制剧
+  type: vmess
+  server: xr-5.herokuapp.com
+  network: ws
+  port: 443
+  uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess
+- name: 🇯🇵:日本-vmess-v2-1.godlight.xyz:250-可用-中转:18.182.0.41-解锁日本地区NF非自制剧
+  type: vmess
+  server: v2-1.godlight.xyz
+  network: ws
+  port: 250
+  uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /j75g1461x
+- name: 🇺🇸:美国-vmess-2.vip341.xyz:443-可用-中转:20.239.133.246-解锁香港地区NF非自制剧
+  type: vmess
+  server: 2.vip341.xyz
+  network: ws
+  port: 443
+  uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /ny
 - name: 🇺🇸:美国-vmess-zz.vip341.xyz:48008-可用-中转:3.36.91.31-解锁韩国地区NF非自制剧
   type: vmess
   server: zz.vip341.xyz
   network: ws
   port: 48008
+  uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /ny
+- name: 🇨🇳:中国-vmess-10.vip341.xyz:443-可用-中转:20.187.69.71-解锁香港地区NF非自制剧
+  type: vmess
+  server: 10.vip341.xyz
+  network: ws
+  port: 443
+  uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /ny
+- name: 🇺🇸:美国-vmess-9.vip341.xyz:80-可用-中转:20.187.83.24-解锁香港地区NF非自制剧
+  type: vmess
+  server: 9.vip341.xyz
+  network: ws
+  port: 80
   uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb
   alterId: 4
   cipher: auto
