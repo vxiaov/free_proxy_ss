@@ -125,6 +125,12 @@ proxies:
   password: FoOiGlkAA9yPEGP
   port: 7307
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-167.88.63.93:7002-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.63.93
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-162.251.61.221:800-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 162.251.61.221
@@ -299,12 +305,6 @@ proxies:
   password: KixLvKzwjekG00rm
   port: 5500
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-38.68.134.196:810-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 38.68.134.196
-  password: G!yBwPWH3Vao
-  port: 810
-  cipher: chacha20-ietf-poly1305
 - name: 🇦🇺:澳大利亚-ss-43.200.6.115:443-可用-直连-解锁韩国地区NF非自制剧
   type: ss
   server: 43.200.6.115
@@ -334,14 +334,3 @@ proxies:
   udp: false
   tls: true
   ws-path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess
-- name: 🇨🇳:中国-vmess-cn.zzv06.infonode.xyz:17016-可用-中转:132.226.232.133-解锁韩国地区NF非自制剧
-  type: vmess
-  server: cn.zzv06.infonode.xyz
-  network: ws
-  port: 17016
-  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /v2ray
