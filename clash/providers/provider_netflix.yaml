@@ -1,4 +1,16 @@
 proxies:
+- name: 🇨🇳:中国-ss-gz.bgp.rx.by.naiun.pw:45324-可用-中转:141.147.115.38-解锁英国地区NF非自制剧
+  type: ss
+  server: gz.bgp.rx.by.naiun.pw
+  password: 3da74dd2-47ba-456e-a13d-83f8d1fb6fa7
+  port: 45324
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-167.88.62.68:443-可用-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.62.68
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-162.251.61.221:802-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 162.251.61.221
@@ -95,12 +107,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 805
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-cdn2.myuuusss.com:20011-被墙-中转:61.227.215.145-解锁台湾地区NF非自制剧
-  type: ss
-  server: cdn2.myuuusss.com
-  password: b195963c-2631-442d-ab3a-6e78df25d904
-  port: 20011
-  cipher: aes-128-gcm
 - name: 🇯🇵:日本-ss-45.66.134.176:801-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
   type: ss
   server: 45.66.134.176
@@ -131,12 +137,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 800
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-167.88.62.68:443-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.62.68
-  password: pKEW8JPByTVTLtM
-  port: 443
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-162.251.61.221:806-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 162.251.61.221
@@ -149,6 +149,12 @@ proxies:
   password: G!yBwPWH3Vao
   port: 803
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-167.88.62.68:5004-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.62.68
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.63.99:2375-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.63.99
@@ -179,6 +185,12 @@ proxies:
   password: G!yBwPWH3Vao
   port: 802
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-34.215.6.59:443-可用-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 34.215.6.59
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
 - name: 🇷🇺:俄罗斯-ss-5.183.179.139:9046-被墙-直连-解锁德国地区NF非自制剧
   type: ss
   server: 5.183.179.139
@@ -191,17 +203,17 @@ proxies:
   password: wjTugX3ZtHMB9c3Z
   port: 9057
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-34.215.6.59:443-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 34.215.6.59
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.125:9046-被墙-直连-解锁瑞士地区NF非自制剧
   type: ss
   server: 185.126.116.125
   password: NvS8N4Vf8qAGPSCL
   port: 9046
+  cipher: aes-256-cfb
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.117:9088-被墙-直连-解锁瑞士地区NF非自制剧
+  type: ss
+  server: 185.126.116.117
+  password: f8npKgNzdkss2ytn
+  port: 9088
   cipher: aes-256-cfb
 - name: 🇨🇦:加拿大-ss-72.140.224.197:806-被墙-直连-解锁加拿大地区NF非自制剧
   type: ss
@@ -299,3 +311,31 @@ proxies:
   password: BejrQvtu9sqUeNuZ
   port: 9024
   cipher: aes-256-cfb
+- name: 🇷🇺:俄罗斯-ss-5.183.179.166:9020-被墙-直连-解锁德国地区NF非自制剧
+  type: ss
+  server: 5.183.179.166
+  password: BNmAXXxAHYpTRdzu
+  port: 9020
+  cipher: aes-256-cfb
+- name: 🇨🇳:中国-vmess-gz.bgp.rx.by.naiun.pw:45184-可用-中转:35.74.240.130-解锁日本地区NF非自制剧
+  type: vmess
+  server: gz.bgp.rx.by.naiun.pw
+  network: ws
+  port: 45184
+  uuid: 3da74dd2-47ba-456e-a13d-83f8d1fb6fa7
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇺🇸:美国-vmess-xr-5.herokuapp.com:443-可用-中转:54.227.24.129-解锁美国地区NF非自制剧
+  type: vmess
+  server: xr-5.herokuapp.com
+  network: ws
+  port: 443
+  uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess
