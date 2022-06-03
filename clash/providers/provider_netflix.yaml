@@ -143,12 +143,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 810
   cipher: chacha20-ietf-poly1305
-- name: 🇿🇦:南非-ss-102.130.118.99:50004-可用-直连-解锁南非地区NF非自制剧
-  type: ss
-  server: 102.130.118.99
-  password: '4415934295'
-  port: 50004
-  cipher: aes-256-cfb
 - name: 🇬🇧:英国-ss-83.229.73.60:50003-可用-直连-解锁以色列地区NF非自制剧
   type: ss
   server: 83.229.73.60
@@ -185,6 +179,12 @@ proxies:
   password: G!yBwPWH3Vao
   port: 806
   cipher: chacha20-ietf-poly1305
+- name: 🇷🇺:俄罗斯-ss-5.183.179.166:9038-被墙-直连-解锁德国地区NF非自制剧
+  type: ss
+  server: 5.183.179.166
+  password: gYCYXfkUQEs2TaJQ
+  port: 9038
+  cipher: aes-256-cfb
 - name: 🇷🇺:俄罗斯-ss-5.183.179.170:9050-被墙-直连-解锁德国地区NF非自制剧
   type: ss
   server: 5.183.179.170
@@ -275,12 +275,6 @@ proxies:
   password: BNmAXXxAHYpTRdzu
   port: 9020
   cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-5.183.179.166:9050-被墙-直连-解锁德国地区NF非自制剧
-  type: ss
-  server: 5.183.179.166
-  password: FG5ddLsMPbV5CutE
-  port: 9050
-  cipher: aes-256-cfb
 - name: 🇷🇺:俄罗斯-ss-5.183.179.170:9070-被墙-直连-解锁德国地区NF非自制剧
   type: ss
   server: 5.183.179.170
@@ -339,3 +333,14 @@ proxies:
   udp: false
   tls: true
   ws-path: /3a8545177/
+- name: 🇯🇵:日本-vmess-vpn.16vpn.top:80-可用-中转:146.56.148.47-解锁韩国地区NF非自制剧
+  type: vmess
+  server: vpn.16vpn.top
+  network: ws
+  port: 80
+  uuid: c01a6b53-df1d-44af-98d8-4f557ab1f444
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
