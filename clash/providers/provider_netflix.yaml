@@ -5,11 +5,23 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-162.251.61.221:802-被墙-直连-解锁美国地区NF非自制剧
+- name: 🇯🇵:日本-ss-45.66.134.176:807-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
   type: ss
-  server: 162.251.61.221
+  server: 45.66.134.176
   password: G!yBwPWH3Vao
-  port: 802
+  port: 807
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-167.88.62.68:8091-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.62.68
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  cipher: aes-256-gcm
+- name: 🇨🇦:加拿大-ss-72.140.224.197:805-被墙-直连-解锁加拿大地区NF非自制剧
+  type: ss
+  server: 72.140.224.197
+  password: G!yBwPWH3Vao
+  port: 805
   cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-167.88.62.68:5003-被墙-直连-解锁美国地区NF非自制剧
   type: ss
@@ -155,12 +167,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 802
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-167.88.62.68:8080-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.62.68
-  password: KixLvKzwjekG00rm
-  port: 8080
-  cipher: aes-256-gcm
 - name: 🇿🇦:南非-ss-102.130.118.99:50004-可用-直连-解锁南非地区NF非自制剧
   type: ss
   server: 102.130.118.99
@@ -173,12 +179,18 @@ proxies:
   password: '8460400130'
   port: 50003
   cipher: aes-256-cfb
-- name: 🇯🇵:日本-ss-45.66.134.176:807-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
+- name: 🇷🇺:俄罗斯-ss-5.183.179.139:9046-被墙-直连-解锁德国地区NF非自制剧
   type: ss
-  server: 45.66.134.176
-  password: G!yBwPWH3Vao
-  port: 807
-  cipher: chacha20-ietf-poly1305
+  server: 5.183.179.139
+  password: NvS8N4Vf8qAGPSCL
+  port: 9046
+  cipher: aes-256-cfb
+- name: 🇷🇺:俄罗斯-ss-5.183.179.166:9057-被墙-直连-解锁德国地区NF非自制剧
+  type: ss
+  server: 5.183.179.166
+  password: wjTugX3ZtHMB9c3Z
+  port: 9057
+  cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.125:9046-被墙-直连-解锁瑞士地区NF非自制剧
   type: ss
   server: 185.126.116.125
@@ -190,12 +202,6 @@ proxies:
   server: 72.140.224.197
   password: G!yBwPWH3Vao
   port: 806
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇦:加拿大-ss-72.140.224.197:805-被墙-直连-解锁加拿大地区NF非自制剧
-  type: ss
-  server: 72.140.224.197
-  password: G!yBwPWH3Vao
-  port: 805
   cipher: chacha20-ietf-poly1305
 - name: 🇷🇺:俄罗斯-ss-5.183.179.170:9050-被墙-直连-解锁德国地区NF非自制剧
   type: ss
@@ -311,13 +317,7 @@ proxies:
   password: daFYagqDdBdA6VTX
   port: 9073
   cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-5.183.179.170:9059-被墙-直连-解锁德国地区NF非自制剧
-  type: ss
-  server: 5.183.179.170
-  password: 9XwYyZsK8SNzQDtY
-  port: 9059
-  cipher: aes-256-cfb
-- name: 🇺🇸:美国-vmess-xr-5.herokuapp.com:443-可用-中转:54.227.24.129-解锁美国地区NF非自制剧
+- name: 🇺🇸:美国-vmess-xr-5.herokuapp.com:443-可用-中转:54.83.123.184-解锁美国地区NF非自制剧
   type: vmess
   server: xr-5.herokuapp.com
   network: ws
