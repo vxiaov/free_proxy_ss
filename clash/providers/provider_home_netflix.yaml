@@ -1,4 +1,10 @@
 proxies:
+- name: 🇩🇪:德国-ss-49.12.203.80:40960-可用-直连-仅支持德国地区NF自制剧
+  type: ss
+  server: 49.12.203.80
+  password: 6kA7b3f9Aw2508erQ3W7D4
+  port: 40960
+  cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-14.29.124.174:11033-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
   type: ss
   server: 14.29.124.174
@@ -17,17 +23,17 @@ proxies:
   password: QazEdcTgb159@$*
   port: 11020
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11009-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11009
-  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.174:11044-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
   type: ss
   server: 14.29.124.174
   password: QazEdcTgb159@$*
   port: 11044
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11009-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11009
   cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-b5d28a9.sd.gladns.com:8474-可用-中转:18.182.65.65-仅支持日本地区NF自制剧
   type: ss
@@ -41,18 +47,30 @@ proxies:
   password: QazEdcTgb159@$*
   port: 10064
   cipher: aes-128-cfb
-- name: 🇮🇸:冰岛-ss-37.235.49.158:989-可用-直连-仅支持冰岛地区NF自制剧
+- name: 🇨🇳:中国-ss-14.29.124.168:24006-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   type: ss
-  server: 37.235.49.158
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  cipher: aes-256-cfb
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24006
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24008-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24008
+  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-180.163.62.91:10065-可用-中转:129.227.4.81-仅支持韩国地区NF自制剧
   type: ss
   server: 180.163.62.91
   password: QazEdcTgb159@$*
   port: 10065
   cipher: aes-128-cfb
+- name: 🇬🇧:英国-ss-152.89.210.105:9056-可用-直连-仅支持英国地区NF自制剧
+  type: ss
+  server: 152.89.210.105
+  password: rNBfNuuANFCAk7KB
+  port: 9056
+  cipher: aes-256-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:24002-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   type: ss
   server: 14.29.124.168
@@ -77,25 +95,35 @@ proxies:
   password: QazEdcTgb159@$*
   port: 24007
   cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24005-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24005
+  cipher: aes-128-cfb
 - name: 🇺🇸:美国-ss-147.182.151.24:20110-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 147.182.151.24
   password: f5e0ecc4e6b84a668ee9ed98e0a30ca9
   port: 20110
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:24016-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24016
-  cipher: aes-128-cfb
-- name: 🇬🇧:英国-ssr-152.89.210.105:9073-可用-直连-仅支持英国地区NF自制剧
+- name: 🇬🇧:英国-ssr-152.89.210.105:9064-可用-直连-仅支持英国地区NF自制剧
   type: ssr
   server: 152.89.210.105
-  password: daFYagqDdBdA6VTX
+  password: cp8pRSUAyLhTfVWH
   obfs: plain
   protocol: origin
-  port: 9073
+  port: 9064
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇬🇧:英国-ssr-152.89.210.105:9046-可用-直连-仅支持英国地区NF自制剧
+  type: ssr
+  server: 152.89.210.105
+  password: NvS8N4Vf8qAGPSCL
+  obfs: plain
+  protocol: origin
+  port: 9046
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
@@ -130,6 +158,61 @@ proxies:
   udp: false
   tls: true
   ws-path: /howdy
+- name: 🇧🇷:巴西-vmess-cn.zzv05.infonode.xyz:17013-可用-中转:139.162.81.30-仅支持日本地区NF自制剧
+  type: vmess
+  server: cn.zzv05.infonode.xyz
+  network: ws
+  port: 17013
+  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
+- name: 🇺🇸:美国-vmess-bai-piao-wang-zhe-iplc6.98848.xyz:59959-可用-中转:143.198.66.103-仅支持美国地区NF自制剧
+  type: vmess
+  server: bai-piao-wang-zhe-iplc6.98848.xyz
+  network: ws
+  port: 59959
+  uuid: f7d26b5e-8d78-4154-85b6-d69ea8dea0ea
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /youtubt@白嫖王者
+- name: 🇧🇷:巴西-vmess-cn.zzv06.infonode.xyz:17013-可用-中转:139.162.81.30-仅支持日本地区NF自制剧
+  type: vmess
+  server: cn.zzv06.infonode.xyz
+  network: ws
+  port: 17013
+  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
+- name: 🇧🇷:巴西-vmess-cn.zzv02.infonode.xyz:17013-可用-中转:139.162.81.30-仅支持日本地区NF自制剧
+  type: vmess
+  server: cn.zzv02.infonode.xyz
+  network: ws
+  port: 17013
+  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
+- name: 🇧🇷:巴西-vmess-cn.zzv12.infonode.xyz:17013-可用-中转:139.162.81.30-仅支持日本地区NF自制剧
+  type: vmess
+  server: cn.zzv12.infonode.xyz
+  network: ws
+  port: 17013
+  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
 - name: 🇺🇸:美国-vmess-vus3.0bad.com:443-可用-中转:45.33.49.68-仅支持美国地区NF自制剧
   type: vmess
   server: vus3.0bad.com
@@ -141,14 +224,25 @@ proxies:
   udp: false
   tls: true
   ws-path: /chat
-- name: 🇺🇸:美国-vmess-hk.xxnmsl.com:80-可用-中转:20.24.193.43-仅支持香港地区NF自制剧
+- name: 🇧🇷:巴西-vmess-cn.zzv01.infonode.xyz:17013-可用-中转:139.162.81.30-仅支持日本地区NF自制剧
   type: vmess
-  server: hk.xxnmsl.com
+  server: cn.zzv01.infonode.xyz
   network: ws
-  port: 80
-  uuid: f295e664-3c47-4f0a-b337-02ba9cd01bf4
+  port: 17013
+  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /
+  ws-path: /v2ray
+- name: 🇧🇷:巴西-vmess-cn.zzv07.infonode.xyz:17013-可用-中转:139.162.81.30-仅支持日本地区NF自制剧
+  type: vmess
+  server: cn.zzv07.infonode.xyz
+  network: ws
+  port: 17013
+  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray

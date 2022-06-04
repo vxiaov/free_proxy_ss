@@ -17,6 +17,18 @@ proxies:
   password: G!yBwPWH3Vao
   port: 805
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-167.88.62.68:5003-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.62.68
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-167.88.63.99:7307-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.63.99
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-38.68.134.135:809-被墙-中转:38.68.134.196-解锁美国地区NF非自制剧
   type: ss
   server: 38.68.134.135
@@ -125,12 +137,6 @@ proxies:
   password: TEzjfAYq2IjtuoS
   port: 6697
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.62.68:5004-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.62.68
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.63.99:2375-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.63.99
@@ -155,6 +161,12 @@ proxies:
   password: G!yBwPWH3Vao
   port: 810
   cipher: chacha20-ietf-poly1305
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.125:9088-可用-直连-解锁瑞士地区NF非自制剧
+  type: ss
+  server: 185.126.116.125
+  password: f8npKgNzdkss2ytn
+  port: 9088
+  cipher: aes-256-cfb
 - name: 🇷🇺:俄罗斯-ss-5.183.179.139:9046-被墙-直连-解锁德国地区NF非自制剧
   type: ss
   server: 5.183.179.139
@@ -191,12 +203,6 @@ proxies:
   password: f8npKgNzdkss2ytn
   port: 9088
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-167.88.63.99:7307-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.63.99
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  cipher: aes-256-gcm
 - name: 🇷🇺:俄罗斯-ss-5.183.179.141:9045-被墙-直连-解锁德国地区NF非自制剧
   type: ss
   server: 5.183.179.141
@@ -299,6 +305,28 @@ proxies:
   password: 9XwYyZsK8SNzQDtY
   port: 9059
   cipher: aes-256-cfb
+- name: 🇺🇸:美国-vmess-138.2.52.84:23140-可用-直连-解锁日本地区NF非自制剧
+  type: vmess
+  server: 138.2.52.84
+  network: ws
+  port: 23140
+  uuid: e03f030e-87a6-4282-9656-461732cc3b1f
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇺🇸:美国-vmess-xr-5.herokuapp.com:443-可用-中转:18.232.179.180-解锁美国地区NF非自制剧
+  type: vmess
+  server: xr-5.herokuapp.com
+  network: ws
+  port: 443
+  uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess
 - name: :0-vmess-vietnam.hn14.shopvpn.net:80-可用-中转:103.182.17.179-解锁越南地区NF非自制剧
   type: vmess
   server: vietnam.hn14.shopvpn.net
@@ -310,3 +338,14 @@ proxies:
   udp: false
   tls: false
   ws-path: /shopvpn.net
+- name: 🇧🇷:巴西-vmess-cn.zzv07.infonode.xyz:17016-可用-中转:146.56.96.23-解锁韩国地区NF非自制剧
+  type: vmess
+  server: cn.zzv07.infonode.xyz
+  network: ws
+  port: 17016
+  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
