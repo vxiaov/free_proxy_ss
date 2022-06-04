@@ -311,31 +311,41 @@ proxies:
   password: G!yBwPWH3Vao
   port: 801
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-vmess-cn.zzv05.infonode.xyz:17016-可用-中转:146.56.114.149-解锁韩国地区NF非自制剧
+- name: 🇺🇸:美国-ssr-us-am32-5.eqnode.net:8081-可用-中转:54.202.186.153-解锁美国地区NF非自制剧
+  type: ssr
+  server: us-am32-5.eqnode.net
+  password: YFVrXZgRo
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇺🇸:美国-vmess-xr-5.herokuapp.com:443-可用-中转:54.83.123.184-解锁美国地区NF非自制剧
   type: vmess
-  server: cn.zzv05.infonode.xyz
+  server: xr-5.herokuapp.com
   network: ws
-  port: 17016
+  port: 443
+  uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess
+- name: 🇨🇳:中国-vmess-cn.zzv07.infonode.xyz:17015-可用-中转:152.69.208.130-解锁新加坡地区NF非自制剧
+  type: vmess
+  server: cn.zzv07.infonode.xyz
+  network: ws
+  port: 17015
   uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
   alterId: 4
   cipher: auto
   udp: false
   tls: false
   ws-path: /v2ray
-- name: 🇯🇵:日本-vmess-vpn.16vpn.top:80-可用-中转:146.56.148.47-解锁韩国地区NF非自制剧
+- name: 🇨🇳:中国-vmess-cn.zzv02.infonode.xyz:17016-可用-中转:146.56.114.149-解锁韩国地区NF非自制剧
   type: vmess
-  server: vpn.16vpn.top
-  network: ws
-  port: 80
-  uuid: c01a6b53-df1d-44af-98d8-4f557ab1f444
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇨🇳:中国-vmess-cn.zzv06.infonode.xyz:17016-可用-中转:146.56.114.149-解锁韩国地区NF非自制剧
-  type: vmess
-  server: cn.zzv06.infonode.xyz
+  server: cn.zzv02.infonode.xyz
   network: ws
   port: 17016
   uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
