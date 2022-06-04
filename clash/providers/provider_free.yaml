@@ -53,17 +53,11 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   cipher: aes-256-cfb
-- name: 🇬🇧:英国-ss-152.89.210.105:9056-可用-直连-仅支持英国地区NF自制剧
+- name: 🇨🇳:中国-ss-180.163.62.91:10065-可用-中转:129.227.4.81-仅支持韩国地区NF自制剧
   type: ss
-  server: 152.89.210.105
-  password: rNBfNuuANFCAk7KB
-  port: 9056
-  cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:24002-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
-  type: ss
-  server: 14.29.124.168
+  server: 180.163.62.91
   password: QazEdcTgb159@$*
-  port: 24002
+  port: 10065
   cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:24007-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   type: ss
@@ -71,31 +65,35 @@ proxies:
   password: QazEdcTgb159@$*
   port: 24007
   cipher: aes-128-cfb
-- name: 🇩🇪:德国-ss-49.12.203.80:40960-可用-直连-仅支持德国地区NF自制剧
+- name: 🇨🇳:中国-ss-14.29.124.174:11004-可用-中转:129.227.144.194-不支持Netflix
   type: ss
-  server: 49.12.203.80
-  password: 6kA7b3f9Aw2508erQ3W7D4
-  port: 40960
-  cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-14.29.124.168:24046-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11004
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24005-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   type: ss
   server: 14.29.124.168
   password: QazEdcTgb159@$*
-  port: 24046
+  port: 24005
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:24016-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24016
-  cipher: aes-128-cfb
-- name: 🇬🇧:英国-ssr-152.89.210.105:9050-可用-直连-不支持Netflix
+- name: 🇬🇧:英国-ssr-152.89.210.105:9088-可用-直连-仅支持英国地区NF自制剧
   type: ssr
   server: 152.89.210.105
-  password: FG5ddLsMPbV5CutE
+  password: f8npKgNzdkss2ytn
   obfs: plain
   protocol: origin
-  port: 9050
+  port: 9088
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇬🇧:英国-ssr-152.89.210.105:9073-可用-直连-仅支持英国地区NF自制剧
+  type: ssr
+  server: 152.89.210.105
+  password: daFYagqDdBdA6VTX
+  obfs: plain
+  protocol: origin
+  port: 9073
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
@@ -109,13 +107,13 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 🇬🇧:英国-ssr-152.89.210.105:9056-可用-直连-仅支持英国地区NF自制剧
+- name: 🇺🇸:美国-ssr-us-am32-5.eqnode.net:8081-可用-中转:54.185.129.206-仅支持美国地区NF自制剧
   type: ssr
-  server: 152.89.210.105
-  password: rNBfNuuANFCAk7KB
-  obfs: plain
+  server: us-am32-5.eqnode.net
+  password: YFVrXZgRo
+  obfs: tls1.2_ticket_auth
   protocol: origin
-  port: 9056
+  port: 8081
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
@@ -140,17 +138,39 @@ proxies:
   udp: false
   tls: true
   ws-path: /howdy
-- name: 🇺🇸:美国-vmess-rk59.moonfree.top:443-可用-中转:142.4.123.118-不支持Netflix
+- name: :0-vmess-vietnam.hn14.shopvpn.net:80-可用-中转:103.182.17.179-解锁越南地区NF非自制剧
   type: vmess
-  server: rk59.moonfree.top
+  server: vietnam.hn14.shopvpn.net
+  network: ws
+  port: 80
+  uuid: 23959a9d-be8b-45d7-b284-5a3f9f29039a
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /shopvpn.net
+- name: 🇺🇸:美国-vmess-vus3.0bad.com:443-可用-中转:45.33.49.68-仅支持美国地区NF自制剧
+  type: vmess
+  server: vus3.0bad.com
   network: ws
   port: 443
-  uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
   alterId: 4
   cipher: auto
   udp: false
   tls: true
-  ws-path: ''
+  ws-path: /chat
+- name: 🇺🇸:美国-vmess-hk.xxnmsl.com:80-可用-中转:20.24.193.43-仅支持香港地区NF自制剧
+  type: vmess
+  server: hk.xxnmsl.com
+  network: ws
+  port: 80
+  uuid: f295e664-3c47-4f0a-b337-02ba9cd01bf4
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇨🇳:中国-vmess-mc.xiaohouzi.club:28325-可用-中转:158.247.231.24-完全不支持NF
   type: vmess
   server: mc.xiaohouzi.club
@@ -162,17 +182,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /v2ray
-- name: 🇺🇸:美国-vmess-20.222.101.175:80-可用-直连-不支持Netflix
-  type: vmess
-  server: 20.222.101.175
-  network: ws
-  port: 80
-  uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: ''
 - name: 🇺🇸:美国-vmess-ruvds.testx.eu.org:443-可用-中转:195.133.197.45-完全不支持NF
   type: vmess
   server: ruvds.testx.eu.org
