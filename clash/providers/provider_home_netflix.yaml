@@ -1,7 +1,40 @@
 proxies:
+- name: 🇨🇳:中国-ss-14.29.124.174:11032-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11032
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11036-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11036
+  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-b5d28a9.sd.gladns.com:8474-可用-中转:18.182.65.65-仅支持日本地区NF自制剧
   type: ss
   server: b5d28a9.sd.gladns.com
   password: a501c82c72d790b8
   port: 8474
   cipher: chacha20-ietf-poly1305
+- name: 🇬🇧:英国-ssr-152.89.210.105:9093-可用-直连-仅支持英国地区NF自制剧
+  type: ssr
+  server: 152.89.210.105
+  password: wfLC2y7rzZyCmuyt
+  obfs: plain
+  protocol: origin
+  port: 9093
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬:新加坡-vmess-v2ray3.bonds.id:443-可用-中转:139.162.45.227-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: v2ray3.bonds.id
+  network: ws
+  port: 443
+  uuid: 014291fb-3808-4ae8-9303-e1f40d58bb4f
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /howdy
