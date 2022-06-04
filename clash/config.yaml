@@ -65,24 +65,6 @@ proxies:
   password: FoOiGlkAA9yPEGP
   port: 7307
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-38.68.134.135:809-被墙-中转:38.68.134.196-解锁美国地区NF非自制剧
-  type: ss
-  server: 38.68.134.135
-  password: G!yBwPWH3Vao
-  port: 809
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-167.88.62.104:443-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.62.104
-  password: pKEW8JPByTVTLtM
-  port: 443
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.62.68:3306-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.62.68
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-162.251.61.221:803-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 162.251.61.221
@@ -173,6 +155,12 @@ proxies:
   password: TEzjfAYq2IjtuoS
   port: 6697
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-167.88.62.68:5004-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.62.68
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.63.99:2375-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.63.99
@@ -197,23 +185,11 @@ proxies:
   password: G!yBwPWH3Vao
   port: 810
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-14.29.124.174:11045-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+- name: 🇨🇳:中国-ss-14.29.124.174:11033-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
   type: ss
   server: 14.29.124.174
   password: QazEdcTgb159@$*
-  port: 11045
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11032-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11032
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:24007-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24007
+  port: 11033
   cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.174:11031-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
   type: ss
@@ -221,24 +197,18 @@ proxies:
   password: QazEdcTgb159@$*
   port: 11031
   cipher: aes-128-cfb
-- name: 🇬🇧:英国-ss-152.89.210.105:9046-可用-直连-仅支持英国地区NF自制剧
-  type: ss
-  server: 152.89.210.105
-  password: NvS8N4Vf8qAGPSCL
-  port: 9046
-  cipher: aes-256-cfb
 - name: 🇨🇳:中国-ss-14.29.124.174:11020-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
   type: ss
   server: 14.29.124.174
   password: QazEdcTgb159@$*
   port: 11020
   cipher: aes-128-cfb
-- name: 🇬🇧:英国-ss-152.89.210.105:9037-可用-直连-仅支持英国地区NF自制剧
+- name: 🇨🇳:中国-ss-14.29.124.174:11009-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
   type: ss
-  server: 152.89.210.105
-  password: TN2YqghxeFDKZfLU
-  port: 9037
-  cipher: aes-256-cfb
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11009
+  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.174:11044-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
   type: ss
   server: 14.29.124.174
@@ -251,6 +221,12 @@ proxies:
   password: a501c82c72d790b8
   port: 8474
   cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-180.163.62.91:10064-可用-中转:129.227.4.80-仅支持韩国地区NF自制剧
+  type: ss
+  server: 180.163.62.91
+  password: QazEdcTgb159@$*
+  port: 10064
+  cipher: aes-128-cfb
 - name: 🇷🇺:俄罗斯-ss-185.4.65.6:21247-可用-中转:37.252.1.212-完全不支持NF
   type: ss
   server: 185.4.65.6
@@ -263,12 +239,42 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   cipher: aes-256-cfb
-- name: 🇳🇱:荷兰-ss-213.183.59.191:9073-可用-直连-仅支持荷兰地区NF自制剧
+- name: 🇬🇧:英国-ss-152.89.210.105:9056-可用-直连-仅支持英国地区NF自制剧
   type: ss
-  server: 213.183.59.191
-  password: daFYagqDdBdA6VTX
-  port: 9073
+  server: 152.89.210.105
+  password: rNBfNuuANFCAk7KB
+  port: 9056
   cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24002-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24002
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24007-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24007
+  cipher: aes-128-cfb
+- name: 🇩🇪:德国-ss-49.12.203.80:40960-可用-直连-仅支持德国地区NF自制剧
+  type: ss
+  server: 49.12.203.80
+  password: 6kA7b3f9Aw2508erQ3W7D4
+  port: 40960
+  cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-14.29.124.168:24046-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24046
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24016-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24016
+  cipher: aes-128-cfb
 - name: 🇷🇺:俄罗斯-ss-5.183.179.139:9046-被墙-直连-解锁德国地区NF非自制剧
   type: ss
   server: 5.183.179.139
@@ -280,30 +286,6 @@ proxies:
   server: 5.183.179.166
   password: wjTugX3ZtHMB9c3Z
   port: 9057
-  cipher: aes-256-cfb
-- name: 🇨🇦:加拿大-ss-72.140.224.197:806-被墙-直连-解锁加拿大地区NF非自制剧
-  type: ss
-  server: 72.140.224.197
-  password: G!yBwPWH3Vao
-  port: 806
-  cipher: chacha20-ietf-poly1305
-- name: 🇷🇺:俄罗斯-ss-5.183.179.166:9038-被墙-直连-解锁德国地区NF非自制剧
-  type: ss
-  server: 5.183.179.166
-  password: gYCYXfkUQEs2TaJQ
-  port: 9038
-  cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-5.183.179.170:9050-被墙-直连-解锁德国地区NF非自制剧
-  type: ss
-  server: 5.183.179.170
-  password: FG5ddLsMPbV5CutE
-  port: 9050
-  cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-5.183.179.141:9088-被墙-直连-解锁德国地区NF非自制剧
-  type: ss
-  server: 5.183.179.141
-  password: f8npKgNzdkss2ytn
-  port: 9088
   cipher: aes-256-cfb
 - name: 🇷🇺:俄罗斯-ss-5.183.179.141:9045-被墙-直连-解锁德国地区NF非自制剧
   type: ss
@@ -359,12 +341,24 @@ proxies:
   password: QWDDvVE9npNurQfA
   port: 9026
   cipher: aes-256-cfb
+- name: 🇺🇸:美国-ss-38.68.134.135:809-被墙-中转:38.68.134.196-解锁美国地区NF非自制剧
+  type: ss
+  server: 38.68.134.135
+  password: G!yBwPWH3Vao
+  port: 809
+  cipher: chacha20-ietf-poly1305
 - name: 🇷🇺:俄罗斯-ss-5.183.179.141:9079-被墙-直连-解锁德国地区NF非自制剧
   type: ss
   server: 5.183.179.141
   password: TPqX8edgbAURcAMb
   port: 9079
   cipher: aes-256-cfb
+- name: 🇺🇸:美国-ss-167.88.62.104:443-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.62.104
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
 - name: 🇷🇺:俄罗斯-ss-5.183.179.137:9056-被墙-直连-解锁德国地区NF非自制剧
   type: ss
   server: 5.183.179.137
@@ -377,6 +371,12 @@ proxies:
   password: BNmAXXxAHYpTRdzu
   port: 9020
   cipher: aes-256-cfb
+- name: 🇷🇺:俄罗斯-ss-5.183.179.166:9050-被墙-直连-解锁德国地区NF非自制剧
+  type: ss
+  server: 5.183.179.166
+  password: FG5ddLsMPbV5CutE
+  port: 9050
+  cipher: aes-256-cfb
 - name: 🇷🇺:俄罗斯-ss-5.183.179.170:9070-被墙-直连-解锁德国地区NF非自制剧
   type: ss
   server: 5.183.179.170
@@ -388,6 +388,12 @@ proxies:
   server: 185.126.116.117
   password: p9z5BVADH2YFs3MN
   port: 9040
+  cipher: aes-256-cfb
+- name: 🇷🇺:俄罗斯-ss-5.183.179.141:9031-被墙-直连-解锁德国地区NF非自制剧
+  type: ss
+  server: 5.183.179.141
+  password: BwcAUZk8hUFAkDGN
+  port: 9031
   cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.124:9073-被墙-直连-解锁瑞士地区NF非自制剧
   type: ss
@@ -407,7 +413,19 @@ proxies:
   password: Lp27rqyJq72bZsqX
   port: 9045
   cipher: aes-256-cfb
-- name: 🇬🇧:英国-ssr-152.89.210.105:9050-可用-直连-仅支持英国地区NF自制剧
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.125:9088-被墙-直连-解锁瑞士地区NF非自制剧
+  type: ss
+  server: 185.126.116.125
+  password: f8npKgNzdkss2ytn
+  port: 9088
+  cipher: aes-256-cfb
+- name: 🇷🇺:俄罗斯-ss-5.183.179.170:9000-被墙-直连-解锁德国地区NF非自制剧
+  type: ss
+  server: 5.183.179.170
+  password: a3GFYt36Sm82Vys9
+  port: 9000
+  cipher: aes-256-cfb
+- name: 🇬🇧:英国-ssr-152.89.210.105:9050-可用-直连-不支持Netflix
   type: ssr
   server: 152.89.210.105
   password: FG5ddLsMPbV5CutE
@@ -417,13 +435,13 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 🇬🇧:英国-ssr-152.89.210.105:9046-可用-直连-仅支持英国地区NF自制剧
+- name: 🇬🇧:英国-ssr-152.89.210.105:9038-可用-直连-仅支持英国地区NF自制剧
   type: ssr
   server: 152.89.210.105
-  password: NvS8N4Vf8qAGPSCL
+  password: gYCYXfkUQEs2TaJQ
   obfs: plain
   protocol: origin
-  port: 9046
+  port: 9038
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
@@ -437,17 +455,16 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 🇨🇳:中国-vmess-mc.xiaohouzi.club:28325-可用-中转:158.247.231.24-完全不支持NF
-  type: vmess
-  server: mc.xiaohouzi.club
-  network: ws
-  port: 28325
-  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /v2ray
+- name: 🇬🇧:英国-ssr-152.89.210.105:9093-可用-直连-仅支持英国地区NF自制剧
+  type: ssr
+  server: 152.89.210.105
+  password: wfLC2y7rzZyCmuyt
+  obfs: plain
+  protocol: origin
+  port: 9093
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 🇸🇬:新加坡-vmess-v2ray3.bonds.id:443-可用-中转:139.162.45.227-仅支持新加坡地区NF自制剧
   type: vmess
   server: v2ray3.bonds.id
@@ -459,6 +476,39 @@ proxies:
   udp: false
   tls: true
   ws-path: /howdy
+- name: 🇨🇳:中国-vmess-mc.xiaohouzi.club:28325-可用-中转:158.247.231.24-完全不支持NF
+  type: vmess
+  server: mc.xiaohouzi.club
+  network: ws
+  port: 28325
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
+- name: 🇺🇸:美国-vmess-20.222.101.175:80-可用-直连-不支持Netflix
+  type: vmess
+  server: 20.222.101.175
+  network: ws
+  port: 80
+  uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: ''
+- name: 🇺🇸:美国-vmess-ruvds.testx.eu.org:443-可用-中转:195.133.197.45-完全不支持NF
+  type: vmess
+  server: ruvds.testx.eu.org
+  network: ws
+  port: 443
+  uuid: 0e7036c1-6de1-4a83-ef4f-e0d56c67fa10
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /vmess-share/?ed=2048
 
 # 类型选择 简介
 # select : 用于选择代理或代理组, 可以通过 RESTful API 来切换代理，建议在 GUI 中使用
@@ -478,23 +528,29 @@ proxy-groups:
   interval: 300
   proxies:
   - DIRECT
+  - 🇺🇸:美国-vmess-ruvds.testx.eu.org:443-可用-中转:195.133.197.45-完全不支持NF
+  - 🇺🇸:美国-vmess-20.222.101.175:80-可用-直连-不支持Netflix
   - 🇸🇬:新加坡-vmess-v2ray3.bonds.id:443-可用-中转:139.162.45.227-仅支持新加坡地区NF自制剧
   - 🇷🇺:俄罗斯-ss-185.4.65.6:21247-可用-中转:37.252.1.212-完全不支持NF
-  - 🇳🇱:荷兰-ss-213.183.59.191:9073-可用-直连-仅支持荷兰地区NF自制剧
   - 🇮🇸:冰岛-ss-37.235.49.158:989-可用-直连-仅支持冰岛地区NF自制剧
+  - 🇬🇧:英国-ssr-152.89.210.105:9093-可用-直连-仅支持英国地区NF自制剧
   - 🇬🇧:英国-ssr-152.89.210.105:9056-可用-直连-仅支持英国地区NF自制剧
-  - 🇬🇧:英国-ssr-152.89.210.105:9050-可用-直连-仅支持英国地区NF自制剧
-  - 🇬🇧:英国-ssr-152.89.210.105:9046-可用-直连-仅支持英国地区NF自制剧
-  - 🇬🇧:英国-ss-152.89.210.105:9046-可用-直连-仅支持英国地区NF自制剧
-  - 🇬🇧:英国-ss-152.89.210.105:9037-可用-直连-仅支持英国地区NF自制剧
+  - 🇬🇧:英国-ssr-152.89.210.105:9050-可用-直连-不支持Netflix
+  - 🇬🇧:英国-ssr-152.89.210.105:9038-可用-直连-仅支持英国地区NF自制剧
+  - 🇬🇧:英国-ss-152.89.210.105:9056-可用-直连-仅支持英国地区NF自制剧
+  - 🇩🇪:德国-ss-49.12.203.80:40960-可用-直连-仅支持德国地区NF自制剧
   - 🇨🇳:中国-vmess-mc.xiaohouzi.club:28325-可用-中转:158.247.231.24-完全不支持NF
   - 🇨🇳:中国-ss-b5d28a9.sd.gladns.com:8474-可用-中转:18.182.65.65-仅支持日本地区NF自制剧
-  - 🇨🇳:中国-ss-14.29.124.174:11045-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+  - 🇨🇳:中国-ss-180.163.62.91:10064-可用-中转:129.227.4.80-仅支持韩国地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.174:11044-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
-  - 🇨🇳:中国-ss-14.29.124.174:11032-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+  - 🇨🇳:中国-ss-14.29.124.174:11033-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.174:11031-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.174:11020-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
+  - 🇨🇳:中国-ss-14.29.124.174:11009-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
+  - 🇨🇳:中国-ss-14.29.124.168:24046-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+  - 🇨🇳:中国-ss-14.29.124.168:24016-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.168:24007-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+  - 🇨🇳:中国-ss-14.29.124.168:24002-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
 - name: 被墙代理组
   type: select
   url: http://www.gstatic.com/generate_204
@@ -514,9 +570,9 @@ proxy-groups:
   - 🇺🇸:美国-ss-167.88.63.99:2375-被墙-直连-解锁美国地区NF非自制剧
   - 🇺🇸:美国-ss-167.88.62.68:8091-被墙-直连-解锁美国地区NF非自制剧
   - 🇺🇸:美国-ss-167.88.62.68:8009-被墙-直连-解锁美国地区NF非自制剧
+  - 🇺🇸:美国-ss-167.88.62.68:5004-被墙-直连-解锁美国地区NF非自制剧
   - 🇺🇸:美国-ss-167.88.62.68:5003-被墙-直连-解锁美国地区NF非自制剧
   - 🇺🇸:美国-ss-167.88.62.68:443-被墙-直连-解锁美国地区NF非自制剧
-  - 🇺🇸:美国-ss-167.88.62.68:3306-被墙-直连-解锁美国地区NF非自制剧
   - 🇺🇸:美国-ss-167.88.62.104:6697-被墙-直连-解锁美国地区NF非自制剧
   - 🇺🇸:美国-ss-167.88.62.104:5003-被墙-直连-解锁美国地区NF非自制剧
   - 🇺🇸:美国-ss-167.88.62.104:443-被墙-直连-解锁美国地区NF非自制剧
@@ -527,27 +583,27 @@ proxy-groups:
   - 🇺🇸:美国-ss-162.251.61.221:800-被墙-直连-解锁美国地区NF非自制剧
   - 🇷🇺:俄罗斯-ss-5.183.179.170:9070-被墙-直连-解锁德国地区NF非自制剧
   - 🇷🇺:俄罗斯-ss-5.183.179.170:9059-被墙-直连-解锁德国地区NF非自制剧
-  - 🇷🇺:俄罗斯-ss-5.183.179.170:9050-被墙-直连-解锁德国地区NF非自制剧
   - 🇷🇺:俄罗斯-ss-5.183.179.170:9045-被墙-直连-解锁德国地区NF非自制剧
+  - 🇷🇺:俄罗斯-ss-5.183.179.170:9000-被墙-直连-解锁德国地区NF非自制剧
   - 🇷🇺:俄罗斯-ss-5.183.179.166:9057-被墙-直连-解锁德国地区NF非自制剧
+  - 🇷🇺:俄罗斯-ss-5.183.179.166:9050-被墙-直连-解锁德国地区NF非自制剧
   - 🇷🇺:俄罗斯-ss-5.183.179.166:9043-被墙-直连-解锁德国地区NF非自制剧
-  - 🇷🇺:俄罗斯-ss-5.183.179.166:9038-被墙-直连-解锁德国地区NF非自制剧
   - 🇷🇺:俄罗斯-ss-5.183.179.166:9020-被墙-直连-解锁德国地区NF非自制剧
   - 🇷🇺:俄罗斯-ss-5.183.179.166:9014-被墙-直连-解锁德国地区NF非自制剧
-  - 🇷🇺:俄罗斯-ss-5.183.179.141:9088-被墙-直连-解锁德国地区NF非自制剧
   - 🇷🇺:俄罗斯-ss-5.183.179.141:9079-被墙-直连-解锁德国地区NF非自制剧
   - 🇷🇺:俄罗斯-ss-5.183.179.141:9060-被墙-直连-解锁德国地区NF非自制剧
   - 🇷🇺:俄罗斯-ss-5.183.179.141:9045-被墙-直连-解锁德国地区NF非自制剧
+  - 🇷🇺:俄罗斯-ss-5.183.179.141:9031-被墙-直连-解锁德国地区NF非自制剧
   - 🇷🇺:俄罗斯-ss-5.183.179.141:9026-被墙-直连-解锁德国地区NF非自制剧
   - 🇷🇺:俄罗斯-ss-5.183.179.139:9046-被墙-直连-解锁德国地区NF非自制剧
   - 🇷🇺:俄罗斯-ss-5.183.179.137:9056-被墙-直连-解锁德国地区NF非自制剧
+  - 🇷🇴:罗马尼亚-ss-185.126.116.125:9088-被墙-直连-解锁瑞士地区NF非自制剧
   - 🇷🇴:罗马尼亚-ss-185.126.116.124:9073-被墙-直连-解锁瑞士地区NF非自制剧
   - 🇷🇴:罗马尼亚-ss-185.126.116.124:9041-被墙-直连-解锁瑞士地区NF非自制剧
   - 🇷🇴:罗马尼亚-ss-185.126.116.124:9027-被墙-直连-解锁瑞士地区NF非自制剧
   - 🇷🇴:罗马尼亚-ss-185.126.116.117:9050-被墙-直连-解锁瑞士地区NF非自制剧
   - 🇷🇴:罗马尼亚-ss-185.126.116.117:9040-被墙-直连-解锁瑞士地区NF非自制剧
   - 🇷🇴:罗马尼亚-ss-185.126.116.117:9026-被墙-直连-解锁瑞士地区NF非自制剧
-  - 🇨🇦:加拿大-ss-72.140.224.197:806-被墙-直连-解锁加拿大地区NF非自制剧
   - 🇨🇦:加拿大-ss-72.140.224.197:805-被墙-直连-解锁加拿大地区NF非自制剧
   - 🇨🇦:加拿大-ss-72.140.224.197:802-被墙-直连-解锁加拿大地区NF非自制剧
   - 🇨🇦:加拿大-ss-72.140.224.197:801-被墙-直连-解锁加拿大地区NF非自制剧
@@ -558,20 +614,23 @@ proxy-groups:
   proxies:
   - DIRECT
   - 🇸🇬:新加坡-vmess-v2ray3.bonds.id:443-可用-中转:139.162.45.227-仅支持新加坡地区NF自制剧
-  - 🇳🇱:荷兰-ss-213.183.59.191:9073-可用-直连-仅支持荷兰地区NF自制剧
   - 🇮🇸:冰岛-ss-37.235.49.158:989-可用-直连-仅支持冰岛地区NF自制剧
+  - 🇬🇧:英国-ssr-152.89.210.105:9093-可用-直连-仅支持英国地区NF自制剧
   - 🇬🇧:英国-ssr-152.89.210.105:9056-可用-直连-仅支持英国地区NF自制剧
-  - 🇬🇧:英国-ssr-152.89.210.105:9050-可用-直连-仅支持英国地区NF自制剧
-  - 🇬🇧:英国-ssr-152.89.210.105:9046-可用-直连-仅支持英国地区NF自制剧
-  - 🇬🇧:英国-ss-152.89.210.105:9046-可用-直连-仅支持英国地区NF自制剧
-  - 🇬🇧:英国-ss-152.89.210.105:9037-可用-直连-仅支持英国地区NF自制剧
+  - 🇬🇧:英国-ssr-152.89.210.105:9038-可用-直连-仅支持英国地区NF自制剧
+  - 🇬🇧:英国-ss-152.89.210.105:9056-可用-直连-仅支持英国地区NF自制剧
+  - 🇩🇪:德国-ss-49.12.203.80:40960-可用-直连-仅支持德国地区NF自制剧
   - 🇨🇳:中国-ss-b5d28a9.sd.gladns.com:8474-可用-中转:18.182.65.65-仅支持日本地区NF自制剧
-  - 🇨🇳:中国-ss-14.29.124.174:11045-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+  - 🇨🇳:中国-ss-180.163.62.91:10064-可用-中转:129.227.4.80-仅支持韩国地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.174:11044-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
-  - 🇨🇳:中国-ss-14.29.124.174:11032-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+  - 🇨🇳:中国-ss-14.29.124.174:11033-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.174:11031-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.174:11020-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
+  - 🇨🇳:中国-ss-14.29.124.174:11009-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
+  - 🇨🇳:中国-ss-14.29.124.168:24046-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+  - 🇨🇳:中国-ss-14.29.124.168:24016-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.168:24007-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+  - 🇨🇳:中国-ss-14.29.124.168:24002-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
 - name: 解锁Netflix非自制剧
   type: select
   url: http://www.gstatic.com/generate_204
