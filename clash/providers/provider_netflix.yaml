@@ -1,10 +1,4 @@
 proxies:
-- name: 🇨🇳:中国-ss-cdn2.myuuusss.com:20011-可用-中转:61.227.162.142-解锁台湾地区NF非自制剧
-  type: ss
-  server: cdn2.myuuusss.com
-  password: b195963c-2631-442d-ab3a-6e78df25d904
-  port: 20011
-  cipher: aes-128-gcm
 - name: 🇺🇸:美国-ss-162.251.61.221:802-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 162.251.61.221
@@ -107,12 +101,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 801
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-20.210.216.169:8313-被墙-直连-解锁日本地区NF非自制剧
-  type: ss
-  server: 20.210.216.169
-  password: ljqdalu13..
-  port: 8313
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-38.68.134.71:8881-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 38.68.134.71
@@ -185,6 +173,12 @@ proxies:
   password: G!yBwPWH3Vao
   port: 808
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-n1.emovpn.xyz:1268-被墙-中转:3.101.120.161-解锁美国地区NF非自制剧
+  type: ss
+  server: n1.emovpn.xyz
+  password: 07cd243d-d66e-4904-805e-d1ee4929d32e
+  port: 1268
+  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-167.88.62.68:443-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.62.68
@@ -239,12 +233,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 810
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-20.210.216.169:8313-可用-直连-解锁日本地区NF非自制剧
-  type: ss
-  server: 20.210.216.169
-  password: ljqdalu13..
-  port: 8313
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-38.68.134.71:8009-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 38.68.134.71
@@ -274,6 +262,12 @@ proxies:
   server: 5.183.179.146
   password: ZpNDDKRu9MagNvaf
   port: 9015
+  cipher: aes-256-cfb
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.117:9088-被墙-直连-解锁瑞士地区NF非自制剧
+  type: ss
+  server: 185.126.116.117
+  password: f8npKgNzdkss2ytn
+  port: 9088
   cipher: aes-256-cfb
 - name: 🇨🇦:加拿大-ss-72.140.224.197:806-被墙-直连-解锁加拿大地区NF非自制剧
   type: ss
@@ -305,9 +299,25 @@ proxies:
   password: UWZQeLRWnkqgkseq
   port: 9032
   cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-5.183.179.146:9043-被墙-直连-解锁德国地区NF非自制剧
-  type: ss
-  server: 5.183.179.146
-  password: HSZuyJQcWe8dxNdF
-  port: 9043
-  cipher: aes-256-cfb
+- name: 🇨🇳:中国-vmess-hk1.ningmengshui.xyz:80-可用-中转:104.208.113.51-解锁香港地区NF非自制剧
+  type: vmess
+  server: hk1.ningmengshui.xyz
+  network: ws
+  port: 80
+  uuid: 8f4832f7-a51b-4049-9060-0422c3223e76
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: ''
+- name: 🇺🇸:美国-vmess-hkv2.xxnmsl.com:80-可用-中转:20.24.64.156-解锁香港地区NF非自制剧
+  type: vmess
+  server: hkv2.xxnmsl.com
+  network: ws
+  port: 80
+  uuid: f295e664-3c47-4f0a-b337-02ba9cd01bf4
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
