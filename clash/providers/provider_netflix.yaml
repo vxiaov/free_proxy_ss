@@ -1,4 +1,10 @@
 proxies:
+- name: 🇨🇳:中国-ss-cdn2.myuuusss.com:20011-可用-中转:61.227.162.142-解锁台湾地区NF非自制剧
+  type: ss
+  server: cdn2.myuuusss.com
+  password: b195963c-2631-442d-ab3a-6e78df25d904
+  port: 20011
+  cipher: aes-128-gcm
 - name: 🇺🇸:美国-ss-162.251.61.221:802-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 162.251.61.221
@@ -35,6 +41,12 @@ proxies:
   password: FoOiGlkAA9yPEGP
   port: 7307
   cipher: aes-256-gcm
+- name: 🇲🇾:马来西亚-ss-103.159.132.36:45631-被墙-直连-解锁马来西亚地区NF非自制剧
+  type: ss
+  server: 103.159.132.36
+  password: gY0L846Wt5a5DG0Z
+  port: 45631
+  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-38.68.134.135:809-被墙-中转:38.68.134.196-解锁美国地区NF非自制剧
   type: ss
   server: 38.68.134.135
@@ -95,6 +107,12 @@ proxies:
   password: G!yBwPWH3Vao
   port: 801
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-20.210.216.169:8313-被墙-直连-解锁日本地区NF非自制剧
+  type: ss
+  server: 20.210.216.169
+  password: ljqdalu13..
+  port: 8313
+  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-38.68.134.71:8881-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 38.68.134.71
@@ -124,12 +142,6 @@ proxies:
   server: 38.68.134.69
   password: PCnnH6SQSnfoS27
   port: 8091
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.63.99:8090-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.63.99
-  password: PCnnH6SQSnfoS27
-  port: 8090
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-38.68.134.71:8119-被墙-直连-解锁美国地区NF非自制剧
   type: ss
@@ -227,6 +239,12 @@ proxies:
   password: G!yBwPWH3Vao
   port: 810
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-20.210.216.169:8313-可用-直连-解锁日本地区NF非自制剧
+  type: ss
+  server: 20.210.216.169
+  password: ljqdalu13..
+  port: 8313
+  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-38.68.134.71:8009-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 38.68.134.71
@@ -293,20 +311,3 @@ proxies:
   password: HSZuyJQcWe8dxNdF
   port: 9043
   cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-5.183.179.146:9041-被墙-直连-解锁德国地区NF非自制剧
-  type: ss
-  server: 5.183.179.146
-  password: U6qnYRhfyDmn8sgn
-  port: 9041
-  cipher: aes-256-cfb
-- name: 🇧🇷:巴西-vmess-cn.zzv07.infonode.xyz:17016-可用-中转:146.56.96.23-解锁韩国地区NF非自制剧
-  type: vmess
-  server: cn.zzv07.infonode.xyz
-  network: ws
-  port: 17016
-  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /v2ray
