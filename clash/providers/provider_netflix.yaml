@@ -1,10 +1,4 @@
 proxies:
-- name: 🇨🇳:中国-ss-b5d28a9.sd.gladns.com:8474-可用-中转:18.182.65.65-解锁日本地区NF非自制剧
-  type: ss
-  server: b5d28a9.sd.gladns.com
-  password: a501c82c72d790b8
-  port: 8474
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-167.88.62.68:443-可用-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.62.68
@@ -317,6 +311,16 @@ proxies:
   password: aLpQtfEZe445QyHk
   port: 9098
   cipher: aes-256-cfb
+- name: 🇺🇸:美国-ssr-us-am32-5.eqnode.net:8081-可用-中转:54.202.187.76-解锁美国地区NF非自制剧
+  type: ssr
+  server: us-am32-5.eqnode.net
+  password: YFVrXZgRo
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 🇺🇸:美国-vmess-xr-5.herokuapp.com:443-可用-中转:3.239.118.198-解锁美国地区NF非自制剧
   type: vmess
   server: xr-5.herokuapp.com
