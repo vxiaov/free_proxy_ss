@@ -41,12 +41,6 @@ proxies:
   password: QazEdcTgb159@$*
   port: 24006
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:24002-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24002
-  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:24005-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   type: ss
   server: 14.29.124.168
@@ -70,6 +64,12 @@ proxies:
   server: 14.29.124.168
   password: QazEdcTgb159@$*
   port: 24046
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24016-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24016
   cipher: aes-128-cfb
 - name: 🇺🇸:美国-ss-157.230.41.220:29596-可用-直连-仅支持新加坡地区NF自制剧
   type: ss
@@ -101,12 +101,89 @@ proxies:
   password: a3GFYt36Sm82Vys9
   port: 9000
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-vmess-cn.zzv07.infonode.xyz:17011-可用-中转:18.162.49.93-仅支持香港地区NF自制剧
+- name: 🇨🇳:中国-vmess-cn.zzv06.infonode.xyz:17013-可用-中转:139.162.81.30-仅支持日本地区NF自制剧
+  type: vmess
+  server: cn.zzv06.infonode.xyz
+  network: ws
+  port: 17013
+  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
+- name: 🇦🇺:澳大利亚-vmess-vps.ocwud.com:42547-可用-中转:168.138.12.246-仅支持澳大利亚地区NF自制剧
+  type: vmess
+  server: vps.ocwud.com
+  network: ws
+  port: 42547
+  uuid: 51652cb6-a8be-4a95-e5b2-d69bb0846d52
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: ''
+- name: 🇨🇳:中国-vmess-cn.zzv02.infonode.xyz:17013-可用-中转:139.162.81.30-仅支持日本地区NF自制剧
+  type: vmess
+  server: cn.zzv02.infonode.xyz
+  network: ws
+  port: 17013
+  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
+- name: 🇯🇵:日本-vmess-vjp1.0bad.com:443-可用-中转:139.162.101.124-仅支持日本地区NF自制剧
+  type: vmess
+  server: vjp1.0bad.com
+  network: ws
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /chat
+- name: 🇨🇳:中国-vmess-f2s.wokuaitule.xyz:21168-可用-中转:165.154.227.136-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: f2s.wokuaitule.xyz
+  network: ws
+  port: 21168
+  uuid: ff4d9b23-23de-374b-8900-aa03ff957e12
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /index
+- name: 🇨🇳:中国-vmess-cn.zzv01.infonode.xyz:17013-可用-中转:139.162.81.30-仅支持日本地区NF自制剧
+  type: vmess
+  server: cn.zzv01.infonode.xyz
+  network: ws
+  port: 17013
+  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
+- name: 🇨🇳:中国-vmess-cn.zzv07.infonode.xyz:17013-可用-中转:139.162.81.30-仅支持日本地区NF自制剧
   type: vmess
   server: cn.zzv07.infonode.xyz
   network: ws
-  port: 17011
+  port: 17013
   uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
+- name: 🇺🇸:美国-vmess-agem.xiaohouzi.club:10051-可用-中转:159.223.212.101-仅支持荷兰地区NF自制剧
+  type: vmess
+  server: agem.xiaohouzi.club
+  network: ws
+  port: 10051
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
   alterId: 4
   cipher: auto
   udp: false
@@ -134,64 +211,9 @@ proxies:
   udp: false
   tls: true
   ws-path: /chat
-- name: 🇨🇳:中国-vmess-cn.zzv06.infonode.xyz:17013-可用-中转:139.162.81.30-仅支持日本地区NF自制剧
-  type: vmess
-  server: cn.zzv06.infonode.xyz
-  network: ws
-  port: 17013
-  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /v2ray
-- name: 🇨🇳:中国-vmess-cn.zzv02.infonode.xyz:17013-可用-中转:139.162.81.30-仅支持日本地区NF自制剧
-  type: vmess
-  server: cn.zzv02.infonode.xyz
-  network: ws
-  port: 17013
-  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /v2ray
 - name: 🇨🇳:中国-vmess-cn.zzv12.infonode.xyz:17013-可用-中转:139.162.81.30-仅支持日本地区NF自制剧
   type: vmess
   server: cn.zzv12.infonode.xyz
-  network: ws
-  port: 17013
-  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /v2ray
-- name: 🇯🇵:日本-vmess-vjp1.0bad.com:443-可用-中转:139.162.101.124-仅支持日本地区NF自制剧
-  type: vmess
-  server: vjp1.0bad.com
-  network: ws
-  port: 443
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /chat
-- name: 🇨🇳:中国-vmess-cn.zzv01.infonode.xyz:17013-可用-中转:139.162.81.30-仅支持日本地区NF自制剧
-  type: vmess
-  server: cn.zzv01.infonode.xyz
-  network: ws
-  port: 17013
-  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /v2ray
-- name: 🇨🇳:中国-vmess-cn.zzv07.infonode.xyz:17013-可用-中转:139.162.81.30-仅支持日本地区NF自制剧
-  type: vmess
-  server: cn.zzv07.infonode.xyz
   network: ws
   port: 17013
   uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
@@ -211,14 +233,14 @@ proxies:
   udp: false
   tls: true
   ws-path: /chat
-- name: 🇨🇳:中国-vmess-sh.xiaohouzi.club:17901-可用-中转:43.128.43.142-仅支持香港地区NF自制剧
+- name: 🇦🇺:澳大利亚-vmess-lakshan-australia.duckdns.org:47551-可用-中转:168.138.12.246-仅支持澳大利亚地区NF自制剧
   type: vmess
-  server: sh.xiaohouzi.club
+  server: lakshan-australia.duckdns.org
   network: ws
-  port: 17901
-  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  port: 47551
+  uuid: 1d40e857-07cf-4a55-8b70-df5c4de42eca
   alterId: 4
   cipher: auto
   udp: false
-  tls: false
-  ws-path: /v2ray
+  tls: true
+  ws-path: ''
