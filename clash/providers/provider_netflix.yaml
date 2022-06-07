@@ -1,4 +1,10 @@
 proxies:
+- name: 🇺🇸:美国-ss-167.88.62.68:443-可用-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.62.68
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-38.68.135.93:443-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 38.68.135.93
@@ -101,18 +107,18 @@ proxies:
   password: G!yBwPWH3Vao
   port: 808
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-167.88.62.68:443-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.62.68
-  password: pKEW8JPByTVTLtM
-  port: 443
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-162.251.61.221:806-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 162.251.61.221
   password: G!yBwPWH3Vao
   port: 806
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-167.88.62.68:5004-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.62.68
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-38.68.134.196:802-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 38.68.134.196
@@ -134,12 +140,6 @@ proxies:
 - name: 🇺🇸:美国-ss-38.68.135.93:443-可用-直连-解锁美国地区NF非自制剧
   type: ss
   server: 38.68.135.93
-  password: pKEW8JPByTVTLtM
-  port: 443
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.62.68:443-可用-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.62.68
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
@@ -197,6 +197,12 @@ proxies:
   password: f8npKgNzdkss2ytn
   port: 9088
   cipher: aes-256-cfb
+- name: 🇷🇺:俄罗斯-ss-5.183.179.146:9032-被墙-直连-解锁德国地区NF非自制剧
+  type: ss
+  server: 5.183.179.146
+  password: UWZQeLRWnkqgkseq
+  port: 9032
+  cipher: aes-256-cfb
 - name: 🇷🇺:俄罗斯-ss-5.183.179.146:9041-被墙-直连-解锁德国地区NF非自制剧
   type: ss
   server: 5.183.179.146
@@ -244,12 +250,6 @@ proxies:
   server: 5.183.179.141
   password: TPqX8edgbAURcAMb
   port: 9079
-  cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-5.183.179.146:9057-被墙-直连-解锁德国地区NF非自制剧
-  type: ss
-  server: 5.183.179.146
-  password: wjTugX3ZtHMB9c3Z
-  port: 9057
   cipher: aes-256-cfb
 - name: 🇷🇺:俄罗斯-ss-5.183.179.137:9056-被墙-直连-解锁德国地区NF非自制剧
   type: ss
@@ -322,17 +322,6 @@ proxies:
   udp: false
   tls: true
   ws-path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess
-- name: 🇺🇸:美国-vmess-v20.emovpn.xyz:1256-可用-中转:18.224.1.164-解锁美国地区NF非自制剧
-  type: vmess
-  server: v20.emovpn.xyz
-  network: ws
-  port: 1256
-  uuid: 61e28514-1462-43b8-97ac-186dc70151f9
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
 - name: 🇨🇳:中国-vmess-f2s.wokuaitule.xyz:21168-可用-中转:165.154.227.136-解锁新加坡地区NF非自制剧
   type: vmess
   server: f2s.wokuaitule.xyz
