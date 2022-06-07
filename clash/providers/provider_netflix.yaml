@@ -1,10 +1,4 @@
 proxies:
-- name: 🇨🇳:中国-ss-gy.ziqiyun.xyz:17565-可用-中转:192.9.243.152-解锁美国地区NF非自制剧
-  type: ss
-  server: gy.ziqiyun.xyz
-  password: 297545c2-a59d-4610-9580-a7baa3657a57
-  port: 17565
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-162.251.61.221:802-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 162.251.61.221
@@ -40,6 +34,12 @@ proxies:
   server: 162.251.61.221
   password: G!yBwPWH3Vao
   port: 803
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-gy.ziqiyun.xyz:17565-被墙-中转:192.9.243.152-解锁美国地区NF非自制剧
+  type: ss
+  server: gy.ziqiyun.xyz
+  password: 297545c2-a59d-4610-9580-a7baa3657a57
+  port: 17565
   cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-167.88.62.68:8009-被墙-直连-解锁美国地区NF非自制剧
   type: ss
@@ -82,12 +82,6 @@ proxies:
   server: 72.140.224.197
   password: G!yBwPWH3Vao
   port: 806
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-gy.ziqiyun.xyz:17565-被墙-中转:192.9.243.152-解锁美国地区NF非自制剧
-  type: ss
-  server: gy.ziqiyun.xyz
-  password: 297545c2-a59d-4610-9580-a7baa3657a57
-  port: 17565
   cipher: chacha20-ietf-poly1305
 - name: 🇨🇦:加拿大-ss-72.140.224.197:801-被墙-直连-解锁加拿大地区NF非自制剧
   type: ss
@@ -169,17 +163,6 @@ proxies:
   udp: false
   tls: true
   ws-path: ''
-- name: 🇸🇬:新加坡-vmess-sg1.4gfree.qthang.net:80-可用-中转:13.67.50.84-解锁新加坡地区NF非自制剧
-  type: vmess
-  server: sg1.4gfree.qthang.net
-  network: ws
-  port: 80
-  uuid: 748d40f6-6f82-43a0-a519-12883b1cb600
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /qthang
 - name: 🇨🇳:中国-vmess-cn.zzv05.infonode.xyz:17016-可用-中转:138.2.123.124-解锁韩国地区NF非自制剧
   type: vmess
   server: cn.zzv05.infonode.xyz
@@ -191,17 +174,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /v2ray
-- name: 🇧🇷:巴西-vmess-lakshan-singapore.duckdns.org:54617-可用-中转:168.138.162.241-解锁新加坡地区NF非自制剧
-  type: vmess
-  server: lakshan-singapore.duckdns.org
-  network: ws
-  port: 54617
-  uuid: 82d8b43a-5a15-44b1-9977-ada4aa03cd62
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: ''
 - name: 🇬🇧:英国-vmess-chunchuan-01.aikala.shop:80-可用-中转:8.47.15.85-解锁美国地区NF非自制剧
   type: vmess
   server: chunchuan-01.aikala.shop
@@ -235,17 +207,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /v2ray
-- name: 🇧🇷:巴西-vmess-v2ray.ocwud.com:39754-可用-中转:168.138.162.241-解锁新加坡地区NF非自制剧
-  type: vmess
-  server: v2ray.ocwud.com
-  network: ws
-  port: 39754
-  uuid: 76a2a0e3-db9c-450a-913d-7fc625b73781
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: ''
 - name: 🇨🇳:中国-vmess-cn.zzv02.infonode.xyz:17016-可用-中转:138.2.123.124-解锁韩国地区NF非自制剧
   type: vmess
   server: cn.zzv02.infonode.xyz
