@@ -89,6 +89,12 @@ proxies:
   password: QazEdcTgb159@$*
   port: 11045
   cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11020-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11020
+  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:25283-可用-直连-完全不支持NF
   type: ss
   server: 14.29.124.168
@@ -100,6 +106,12 @@ proxies:
   server: 14.29.124.168
   password: QazEdcTgb159@$*
   port: 25256
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11002-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11002
   cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.174:11007-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
   type: ss
@@ -113,12 +125,6 @@ proxies:
   password: QazEdcTgb159@$*
   port: 25252
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11048-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11048
-  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:25296-可用-直连-完全不支持NF
   type: ss
   server: 14.29.124.168
@@ -130,12 +136,6 @@ proxies:
   server: 14.29.124.168
   password: QazEdcTgb159@$*
   port: 25259
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11039-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11039
   cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-180.163.62.91:10065-可用-中转:129.227.4.81-仅支持韩国地区NF自制剧
   type: ss
@@ -154,6 +154,12 @@ proxies:
   server: 14.29.124.168
   password: QazEdcTgb159@$*
   port: 24005
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11036-可用-中转:129.227.144.195-不支持Netflix
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11036
   cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:24046-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   type: ss
@@ -239,6 +245,12 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
+- name: 🇺🇸:美国-ss-38.68.134.196:808-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 38.68.134.196
+  password: G!yBwPWH3Vao
+  port: 808
+  cipher: chacha20-ietf-poly1305
 - name: 🇰🇷:韩国-ss-3.39.227.119:443-被墙-直连-解锁韩国地区NF非自制剧
   type: ss
   server: 3.39.227.119
@@ -256,6 +268,30 @@ proxies:
   server: 89.31.126.150
   password: G!yBwPWH3Vao
   port: 812
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-38.68.134.196:802-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 38.68.134.196
+  password: G!yBwPWH3Vao
+  port: 802
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-38.68.134.196:812-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 38.68.134.196
+  password: G!yBwPWH3Vao
+  port: 812
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-38.68.134.196:800-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 38.68.134.196
+  password: G!yBwPWH3Vao
+  port: 800
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-38.68.134.196:810-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 38.68.134.196
+  password: G!yBwPWH3Vao
+  port: 810
   cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ssr-us-am32-5.eqnode.net:8081-可用-中转:54.202.187.76-解锁美国地区NF非自制剧
   type: ssr
@@ -366,17 +402,6 @@ proxies:
   udp: false
   tls: true
   ws-path: /go
-- name: 🇨🇳:中国-vmess-cn.zzv05.infonode.xyz:17016-可用-中转:138.2.123.124-仅支持韩国地区NF自制剧
-  type: vmess
-  server: cn.zzv05.infonode.xyz
-  network: ws
-  port: 17016
-  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /v2ray
 - name: 🇨🇳:中国-vmess-cn.zzv01.infonode.xyz:17013-可用-中转:139.162.81.30-仅支持日本地区NF自制剧
   type: vmess
   server: cn.zzv01.infonode.xyz
@@ -404,17 +429,6 @@ proxies:
   server: cn.zzv07.infonode.xyz
   network: ws
   port: 17013
-  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /v2ray
-- name: 🇨🇳:中国-vmess-cn.zzv01.infonode.xyz:17011-可用-中转:18.162.49.93-仅支持香港地区NF自制剧
-  type: vmess
-  server: cn.zzv01.infonode.xyz
-  network: ws
-  port: 17011
   uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
   alterId: 4
   cipher: auto
@@ -497,20 +511,19 @@ proxy-groups:
   - 🇨🇳:中国-vmess-cn.zzv07.infonode.xyz:17013-可用-中转:139.162.81.30-仅支持日本地区NF自制剧
   - 🇨🇳:中国-vmess-cn.zzv06.infonode.xyz:17016-可用-中转:138.2.123.124-仅支持韩国地区NF自制剧
   - 🇨🇳:中国-vmess-cn.zzv06.infonode.xyz:17013-可用-中转:139.162.81.30-仅支持日本地区NF自制剧
-  - 🇨🇳:中国-vmess-cn.zzv05.infonode.xyz:17016-可用-中转:138.2.123.124-仅支持韩国地区NF自制剧
   - 🇨🇳:中国-vmess-cn.zzv05.infonode.xyz:17013-可用-中转:139.162.81.30-仅支持日本地区NF自制剧
   - 🇨🇳:中国-vmess-cn.zzv02.infonode.xyz:17016-可用-中转:138.2.123.124-仅支持韩国地区NF自制剧
   - 🇨🇳:中国-vmess-cn.zzv02.infonode.xyz:17013-可用-中转:139.162.81.30-仅支持日本地区NF自制剧
   - 🇨🇳:中国-vmess-cn.zzv01.infonode.xyz:17013-可用-中转:139.162.81.30-仅支持日本地区NF自制剧
-  - 🇨🇳:中国-vmess-cn.zzv01.infonode.xyz:17011-可用-中转:18.162.49.93-仅支持香港地区NF自制剧
   - 🇨🇳:中国-vmess-cmbe3-vdn.zhs.company:35055-可用-中转:1.36.223.142-解锁香港地区NF非自制剧
   - 🇨🇳:中国-ss-180.163.62.91:10065-可用-中转:129.227.4.81-仅支持韩国地区NF自制剧
   - 🇨🇳:中国-ss-180.163.62.91:10064-可用-中转:129.227.4.80-仅支持韩国地区NF自制剧
-  - 🇨🇳:中国-ss-14.29.124.174:11048-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.174:11045-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
-  - 🇨🇳:中国-ss-14.29.124.174:11039-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+  - 🇨🇳:中国-ss-14.29.124.174:11036-可用-中转:129.227.144.195-不支持Netflix
   - 🇨🇳:中国-ss-14.29.124.174:11033-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+  - 🇨🇳:中国-ss-14.29.124.174:11020-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.174:11007-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
+  - 🇨🇳:中国-ss-14.29.124.174:11002-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.168:25296-可用-直连-完全不支持NF
   - 🇨🇳:中国-ss-14.29.124.168:25283-可用-直连-完全不支持NF
   - 🇨🇳:中国-ss-14.29.124.168:25259-可用-直连-完全不支持NF
@@ -528,6 +541,11 @@ proxy-groups:
   proxies:
   - DIRECT
   - 🇿🇦:南非-ss-102.130.118.99:50004-被墙-直连-解锁南非地区NF非自制剧
+  - 🇺🇸:美国-ss-38.68.134.196:812-被墙-直连-解锁美国地区NF非自制剧
+  - 🇺🇸:美国-ss-38.68.134.196:810-被墙-直连-解锁美国地区NF非自制剧
+  - 🇺🇸:美国-ss-38.68.134.196:808-被墙-直连-解锁美国地区NF非自制剧
+  - 🇺🇸:美国-ss-38.68.134.196:802-被墙-直连-解锁美国地区NF非自制剧
+  - 🇺🇸:美国-ss-38.68.134.196:800-被墙-直连-解锁美国地区NF非自制剧
   - 🇺🇸:美国-ss-167.88.62.68:8091-被墙-直连-解锁美国地区NF非自制剧
   - 🇺🇸:美国-ss-167.88.62.68:8009-被墙-直连-解锁美国地区NF非自制剧
   - 🇺🇸:美国-ss-167.88.62.68:5003-被墙-直连-解锁美国地区NF非自制剧
@@ -562,19 +580,17 @@ proxy-groups:
   - 🇨🇳:中国-vmess-cn.zzv07.infonode.xyz:17013-可用-中转:139.162.81.30-仅支持日本地区NF自制剧
   - 🇨🇳:中国-vmess-cn.zzv06.infonode.xyz:17016-可用-中转:138.2.123.124-仅支持韩国地区NF自制剧
   - 🇨🇳:中国-vmess-cn.zzv06.infonode.xyz:17013-可用-中转:139.162.81.30-仅支持日本地区NF自制剧
-  - 🇨🇳:中国-vmess-cn.zzv05.infonode.xyz:17016-可用-中转:138.2.123.124-仅支持韩国地区NF自制剧
   - 🇨🇳:中国-vmess-cn.zzv05.infonode.xyz:17013-可用-中转:139.162.81.30-仅支持日本地区NF自制剧
   - 🇨🇳:中国-vmess-cn.zzv02.infonode.xyz:17016-可用-中转:138.2.123.124-仅支持韩国地区NF自制剧
   - 🇨🇳:中国-vmess-cn.zzv02.infonode.xyz:17013-可用-中转:139.162.81.30-仅支持日本地区NF自制剧
   - 🇨🇳:中国-vmess-cn.zzv01.infonode.xyz:17013-可用-中转:139.162.81.30-仅支持日本地区NF自制剧
-  - 🇨🇳:中国-vmess-cn.zzv01.infonode.xyz:17011-可用-中转:18.162.49.93-仅支持香港地区NF自制剧
   - 🇨🇳:中国-ss-180.163.62.91:10065-可用-中转:129.227.4.81-仅支持韩国地区NF自制剧
   - 🇨🇳:中国-ss-180.163.62.91:10064-可用-中转:129.227.4.80-仅支持韩国地区NF自制剧
-  - 🇨🇳:中国-ss-14.29.124.174:11048-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.174:11045-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
-  - 🇨🇳:中国-ss-14.29.124.174:11039-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.174:11033-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+  - 🇨🇳:中国-ss-14.29.124.174:11020-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.174:11007-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
+  - 🇨🇳:中国-ss-14.29.124.174:11002-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.168:24046-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.168:24016-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.168:24005-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
