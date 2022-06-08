@@ -1,4 +1,22 @@
 proxies:
+- name: 🇨🇳:中国-ss-cdn1.myuuusss.com:30041-可用-中转:223.17.172.1-仅支持香港地区NF自制剧
+  type: ss
+  server: cdn1.myuuusss.com
+  password: b195963c-2631-442d-ab3a-6e78df25d904
+  port: 30041
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-14.29.124.174:11033-可用-中转:129.227.144.195-不支持Netflix
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11033
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:25217-可用-直连-完全不支持NF
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 25217
+  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:25283-可用-直连-完全不支持NF
   type: ss
   server: 14.29.124.168
@@ -17,17 +35,11 @@ proxies:
   password: QazEdcTgb159@$*
   port: 25252
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:25259-可用-直连-完全不支持NF
+- name: 🇨🇳:中国-ss-14.29.124.168:25220-可用-直连-完全不支持NF
   type: ss
   server: 14.29.124.168
   password: QazEdcTgb159@$*
-  port: 25259
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:25294-可用-直连-完全不支持NF
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 25294
+  port: 25220
   cipher: aes-128-cfb
 - name: 🇳🇱:荷兰-ss-185.246.155.29:9008-可用-直连-仅支持荷兰地区NF自制剧
   type: ss
@@ -35,7 +47,117 @@ proxies:
   password: y9VURyNzJWNRYEGQ
   port: 9008
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-vmess-cn.zzv07.infonode.xyz:17016-可用-中转:138.2.123.124-不支持Netflix
+- name: 🇺🇸:美国-vmess-lu1.gogogoo.cyou:443-可用-中转:107.189.11.246-仅支持卢森堡地区NF自制剧
+  type: vmess
+  server: lu1.gogogoo.cyou
+  network: ws
+  port: 443
+  uuid: db5d1aa3908b44d1be0a4e6a8d4e4cda
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /go
+- name: 🇨🇳:中国-vmess-cn.zzv07.infonode.xyz:17011-可用-中转:18.162.49.93-仅支持香港地区NF自制剧
+  type: vmess
+  server: cn.zzv07.infonode.xyz
+  network: ws
+  port: 17011
+  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
+- name: 🇨🇳:中国-vmess-cn.zzv05.infonode.xyz:17016-可用-中转:138.2.123.124-仅支持韩国地区NF自制剧
+  type: vmess
+  server: cn.zzv05.infonode.xyz
+  network: ws
+  port: 17016
+  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
+- name: 🇺🇸:美国-vmess-sg01.czsx1624.tk:443-可用-中转:138.2.88.131-解锁新加坡地区NF非自制剧
+  type: vmess
+  server: sg01.czsx1624.tk
+  network: ws
+  port: 443
+  uuid: d002b422-eace-4e01-bf58-e4bb0bcfe7af
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /3a8545177/
+- name: 🇺🇸:美国-vmess-159.223.48.47:80-可用-直连-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: 159.223.48.47
+  network: ws
+  port: 80
+  uuid: 751b7ae2-49b3-4950-97a2-145f2ab7a228
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: ''
+- name: 🇬🇧:英国-vmess-chunchuan-02.aikala.shop:80-可用-中转:144.24.94.234-仅支持韩国地区NF自制剧
+  type: vmess
+  server: chunchuan-02.aikala.shop
+  network: ws
+  port: 80
+  uuid: 2fb6f675-63a6-43f9-bc7b-e563164a0e3f
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: ''
+- name: 🇨🇳:中国-vmess-gycd1.csccdd.xyz:52340-可用-中转:42.2.10.203-仅支持香港地区NF自制剧
+  type: vmess
+  server: gycd1.csccdd.xyz
+  network: ws
+  port: 52340
+  uuid: 1dc13504-e4ba-3c49-8e0b-6a3eb4e40335
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /index
+- name: 🇨🇳:中国-vmess-cn.zzv01.infonode.xyz:17011-可用-中转:18.162.49.93-仅支持香港地区NF自制剧
+  type: vmess
+  server: cn.zzv01.infonode.xyz
+  network: ws
+  port: 17011
+  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
+- name: 🇬🇧:英国-vmess-chunchuan-01.aikala.shop:80-可用-中转:8.47.15.85-解锁美国地区NF非自制剧
+  type: vmess
+  server: chunchuan-01.aikala.shop
+  network: ws
+  port: 80
+  uuid: 2fb6f675-63a6-43f9-bc7b-e563164a0e3f
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: ''
+- name: 🇺🇸:美国-vmess-us02.gogogoo.cyou:443-可用-中转:205.185.115.241-仅支持美国地区NF自制剧
+  type: vmess
+  server: us02.gogogoo.cyou
+  network: ws
+  port: 443
+  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /go
+- name: 🇨🇳:中国-vmess-cn.zzv07.infonode.xyz:17016-可用-中转:138.2.123.124-仅支持韩国地区NF自制剧
   type: vmess
   server: cn.zzv07.infonode.xyz
   network: ws
@@ -46,9 +168,9 @@ proxies:
   udp: false
   tls: false
   ws-path: /v2ray
-- name: 🇨🇳:中国-vmess-cn.zzv06.infonode.xyz:17016-可用-中转:138.2.123.124-不支持Netflix
+- name: 🇨🇳:中国-vmess-cn.zzv02.infonode.xyz:17016-可用-中转:138.2.123.124-仅支持韩国地区NF自制剧
   type: vmess
-  server: cn.zzv06.infonode.xyz
+  server: cn.zzv02.infonode.xyz
   network: ws
   port: 17016
   uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
@@ -57,3 +179,14 @@ proxies:
   udp: false
   tls: false
   ws-path: /v2ray
+- name: 🇺🇸:美国-vmess-ruvds.testx.eu.org:443-可用-中转:195.133.197.45-完全不支持NF
+  type: vmess
+  server: ruvds.testx.eu.org
+  network: ws
+  port: 443
+  uuid: 0e7036c1-6de1-4a83-ef4f-e0d56c67fa10
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /vmess-share/?ed=2048
