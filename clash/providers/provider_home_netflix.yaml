@@ -5,11 +5,17 @@ proxies:
   password: )1N1E6v0SU_rGTpg
   port: 1035
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-14.29.124.168:24046-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+- name: 🇨🇳:中国-ss-14.29.124.174:11012-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
   type: ss
-  server: 14.29.124.168
+  server: 14.29.124.174
   password: QazEdcTgb159@$*
-  port: 24046
+  port: 11012
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11019-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11019
   cipher: aes-128-cfb
 - name: 🇨🇳:中国-vmess-iplchk.znetnodes.com:22030-可用-中转:13.70.0.224-仅支持香港地区NF自制剧
   type: vmess
@@ -22,17 +28,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /v2ray
-- name: 🇨🇳:中国-vmess-gycd1.csccdd.xyz:52340-可用-中转:42.2.10.203-仅支持香港地区NF自制剧
-  type: vmess
-  server: gycd1.csccdd.xyz
-  network: ws
-  port: 52340
-  uuid: 1dc13504-e4ba-3c49-8e0b-6a3eb4e40335
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /index
 - name: 🇨🇳:中国-vmess-zj.haojiahuo.ml:30069-可用-中转:213.142.150.16-仅支持土耳其地区NF自制剧
   type: vmess
   server: zj.haojiahuo.ml

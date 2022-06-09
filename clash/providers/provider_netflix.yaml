@@ -5,23 +5,29 @@ proxies:
   password: ljqdalu13..
   port: 8313
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-mole-ho.i.sxldns.com:23034-可用-中转:13.70.6.115-解锁香港地区NF非自制剧
-  type: ss
-  server: mole-ho.i.sxldns.com
-  password: 9hPjFqGEHj7iN7NmvUF0J62v
-  port: 23034
-  cipher: chacha20-ietf-poly1305
 - name: 🇨🇦:加拿大-ss-72.140.224.197:805-被墙-直连-解锁加拿大地区NF非自制剧
   type: ss
   server: 72.140.224.197
   password: G!yBwPWH3Vao
   port: 805
   cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-mole-ho.i.sxldns.com:23034-被墙-中转:13.70.6.115-解锁香港地区NF非自制剧
+  type: ss
+  server: mole-ho.i.sxldns.com
+  password: 9hPjFqGEHj7iN7NmvUF0J62v
+  port: 23034
+  cipher: chacha20-ietf-poly1305
 - name: 🇨🇳:中国-ss-aly.ziqiyun.xyz:11137-被墙-中转:46.232.120.51-解锁香港地区NF非自制剧
   type: ss
   server: aly.ziqiyun.xyz
   password: 297545c2-a59d-4610-9580-a7baa3657a57
   port: 11137
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-mole-ho.i.sxldns.com:23034-可用-中转:13.70.6.115-解锁香港地区NF非自制剧
+  type: ss
+  server: mole-ho.i.sxldns.com
+  password: 9hPjFqGEHj7iN7NmvUF0J62v
+  port: 23034
   cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-52.199.193.112:443-可用-直连-解锁日本地区NF非自制剧
   type: ss
@@ -71,12 +77,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 811
   cipher: chacha20-ietf-poly1305
-- name: 🇬🇧:英国-ss-83.229.73.60:50003-被墙-直连-解锁以色列地区NF非自制剧
-  type: ss
-  server: 83.229.73.60
-  password: '8460400130'
-  port: 50003
-  cipher: aes-256-cfb
 - name: 🇮🇱:以色列-ss-185.162.126.217:50004-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
   server: 185.162.126.217
@@ -86,12 +86,6 @@ proxies:
 - name: 🇿🇦:南非-ss-102.130.118.99:50004-被墙-直连-解锁南非地区NF非自制剧
   type: ss
   server: 102.130.118.99
-  password: '4415934295'
-  port: 50004
-  cipher: aes-256-cfb
-- name: 🇮🇱:以色列-ss-185.162.125.91:50004-被墙-直连-解锁以色列地区NF非自制剧
-  type: ss
-  server: 185.162.125.91
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
@@ -112,47 +106,3 @@ proxies:
   udp: false
   tls: false
   ws-path: /videos
-- name: 🇨🇳:中国-vmess-cn.zzv05.infonode.xyz:17016-可用-中转:138.2.123.124-解锁韩国地区NF非自制剧
-  type: vmess
-  server: cn.zzv05.infonode.xyz
-  network: ws
-  port: 17016
-  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /v2ray
-- name: 🇨🇳:中国-vmess-cn.zzv07.infonode.xyz:17016-可用-中转:138.2.123.124-解锁韩国地区NF非自制剧
-  type: vmess
-  server: cn.zzv07.infonode.xyz
-  network: ws
-  port: 17016
-  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /v2ray
-- name: 🇨🇳:中国-vmess-cn.zzv02.infonode.xyz:17016-可用-中转:138.2.123.124-解锁韩国地区NF非自制剧
-  type: vmess
-  server: cn.zzv02.infonode.xyz
-  network: ws
-  port: 17016
-  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /v2ray
-- name: 🇨🇳:中国-vmess-cn.zzv06.infonode.xyz:17016-可用-中转:138.2.123.124-解锁韩国地区NF非自制剧
-  type: vmess
-  server: cn.zzv06.infonode.xyz
-  network: ws
-  port: 17016
-  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /v2ray
