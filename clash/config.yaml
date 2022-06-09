@@ -35,6 +35,66 @@ dns:
     - 240.0.0.0/4
 # 个人节点
 proxies:
+- name: 🇺🇸:美国-ss-134.195.198.95:443-可用-直连-不支持Netflix
+  type: ss
+  server: 134.195.198.95
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
+- name: 🇫🇷:法国-ss-155.133.130.93:443-可用-直连-不支持Netflix
+  type: ss
+  server: 155.133.130.93
+  password: uOaNBB7dlKXH
+  port: 443
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-142.202.48.52:443-可用-直连-不支持Netflix
+  type: ss
+  server: 142.202.48.52
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-38.75.136.21:443-可用-直连-不支持Netflix
+  type: ss
+  server: 38.75.136.21
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-169.197.142.187:443-可用-直连-不支持Netflix
+  type: ss
+  server: 169.197.142.187
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-167.88.61.60:443-可用-直连-不支持Netflix
+  type: ss
+  server: 167.88.61.60
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-37.218.241.43:443-可用-直连-不支持Netflix
+  type: ss
+  server: 37.218.241.43
+  password: xCjmxGzrUoBA
+  port: 443
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-134.195.196.227:443-可用-直连-不支持Netflix
+  type: ss
+  server: 134.195.196.227
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
+- name: 🇩🇪:德国-ss-193.108.117.75:443-可用-直连-不支持Netflix
+  type: ss
+  server: 193.108.117.75
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-38.68.134.191:443-可用-直连-不支持Netflix
+  type: ss
+  server: 38.68.134.191
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
 - name: 🇨🇦:加拿大-ss-72.140.224.197:805-被墙-直连-解锁加拿大地区NF非自制剧
   type: ss
   server: 72.140.224.197
@@ -65,12 +125,6 @@ proxies:
   password: QazEdcTgb159@$*
   port: 25283
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:25256-可用-直连-完全不支持NF
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 25256
-  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:25252-可用-直连-完全不支持NF
   type: ss
   server: 14.29.124.168
@@ -83,11 +137,17 @@ proxies:
   password: QazEdcTgb159@$*
   port: 25296
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:25259-可用-直连-完全不支持NF
+- name: 🇨🇳:中国-ss-14.29.124.168:25287-可用-直连-完全不支持NF
   type: ss
   server: 14.29.124.168
   password: QazEdcTgb159@$*
-  port: 25259
+  port: 25287
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:25235-可用-直连-完全不支持NF
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 25235
   cipher: aes-128-cfb
 - name: 🇨🇦:加拿大-ss-72.140.224.197:806-被墙-直连-解锁加拿大地区NF非自制剧
   type: ss
@@ -107,12 +167,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 802
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇾:塞浦路斯-ss-213.169.137.221:989-被墙-直连-解锁塞浦路斯地区NF非自制剧
-  type: ss
-  server: 213.169.137.221
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  cipher: aes-256-cfb
 - name: 🇯🇵:日本-ss-89.31.126.150:802-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧
   type: ss
   server: 89.31.126.150
@@ -161,6 +215,39 @@ proxies:
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-vmess-hk6.mianliusao.dynv6.net:80-可用-中转:20.24.96.241-不支持Netflix
+  type: vmess
+  server: hk6.mianliusao.dynv6.net
+  network: ws
+  port: 80
+  uuid: 33d808ef-b974-4d63-b81c-a7937a193b53
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /TS/recharge/tzUrl.html
+- name: 🇺🇸:美国-vmess-hg1.mianliusao.dynv6.net:80-可用-中转:20.214.202.195-解锁韩国地区NF非自制剧
+  type: vmess
+  server: hg1.mianliusao.dynv6.net
+  network: ws
+  port: 80
+  uuid: 33d808ef-b974-4d63-b81c-a7937a193b53
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /TS/recharge/tzUrl.html
+- name: 🇰🇷:韩国-vmess-jgwcc.356930.xyz:10021-可用-中转:152.67.206.198-仅支持韩国地区NF自制剧
+  type: vmess
+  server: jgwcc.356930.xyz
+  network: ws
+  port: 10021
+  uuid: 0d19129c-a925-4f21-8252-849838959a64
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /cctv13/hd.m3u8
 - name: 🇨🇳:中国-vmess-iplchk.znetnodes.com:22030-可用-中转:13.70.0.224-仅支持香港地区NF自制剧
   type: vmess
   server: iplchk.znetnodes.com
@@ -172,6 +259,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /v2ray
+- name: 🇺🇸:美国-vmess-hk2.mianliusao.dynv6.net:80-可用-中转:20.24.195.255-解锁香港地区NF非自制剧
+  type: vmess
+  server: hk2.mianliusao.dynv6.net
+  network: ws
+  port: 80
+  uuid: 33d808ef-b974-4d63-b81c-a7937a193b53
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /TS/recharge/tzUrl.html
 
 # 类型选择 简介
 # select : 用于选择代理或代理组, 可以通过 RESTful API 来切换代理，建议在 GUI 中使用
@@ -191,13 +289,27 @@ proxy-groups:
   interval: 300
   proxies:
   - DIRECT
+  - 🇺🇸:美国-vmess-hk6.mianliusao.dynv6.net:80-可用-中转:20.24.96.241-不支持Netflix
+  - 🇺🇸:美国-vmess-hk2.mianliusao.dynv6.net:80-可用-中转:20.24.195.255-解锁香港地区NF非自制剧
+  - 🇺🇸:美国-vmess-hg1.mianliusao.dynv6.net:80-可用-中转:20.214.202.195-解锁韩国地区NF非自制剧
+  - 🇺🇸:美国-ss-38.75.136.21:443-可用-直连-不支持Netflix
+  - 🇺🇸:美国-ss-38.68.134.191:443-可用-直连-不支持Netflix
+  - 🇺🇸:美国-ss-37.218.241.43:443-可用-直连-不支持Netflix
+  - 🇺🇸:美国-ss-169.197.142.187:443-可用-直连-不支持Netflix
+  - 🇺🇸:美国-ss-167.88.61.60:443-可用-直连-不支持Netflix
+  - 🇺🇸:美国-ss-142.202.48.52:443-可用-直连-不支持Netflix
+  - 🇺🇸:美国-ss-134.195.198.95:443-可用-直连-不支持Netflix
+  - 🇺🇸:美国-ss-134.195.196.227:443-可用-直连-不支持Netflix
+  - 🇰🇷:韩国-vmess-jgwcc.356930.xyz:10021-可用-中转:152.67.206.198-仅支持韩国地区NF自制剧
+  - 🇫🇷:法国-ss-155.133.130.93:443-可用-直连-不支持Netflix
+  - 🇩🇪:德国-ss-193.108.117.75:443-可用-直连-不支持Netflix
   - 🇨🇳:中国-vmess-iplchk.znetnodes.com:22030-可用-中转:13.70.0.224-仅支持香港地区NF自制剧
   - 🇨🇳:中国-ss-mole-ho.i.sxldns.com:23034-可用-中转:13.70.6.115-解锁香港地区NF非自制剧
   - 🇨🇳:中国-ss-14.29.124.168:25296-可用-直连-完全不支持NF
+  - 🇨🇳:中国-ss-14.29.124.168:25287-可用-直连-完全不支持NF
   - 🇨🇳:中国-ss-14.29.124.168:25283-可用-直连-完全不支持NF
-  - 🇨🇳:中国-ss-14.29.124.168:25259-可用-直连-完全不支持NF
-  - 🇨🇳:中国-ss-14.29.124.168:25256-可用-直连-完全不支持NF
   - 🇨🇳:中国-ss-14.29.124.168:25252-可用-直连-完全不支持NF
+  - 🇨🇳:中国-ss-14.29.124.168:25235-可用-直连-完全不支持NF
 - name: 被墙代理组
   type: select
   url: http://www.gstatic.com/generate_204
@@ -211,7 +323,6 @@ proxy-groups:
   - 🇮🇱:以色列-ss-185.162.126.217:50004-被墙-直连-解锁以色列地区NF非自制剧
   - 🇮🇱:以色列-ss-185.162.125.91:50004-被墙-直连-解锁以色列地区NF非自制剧
   - 🇬🇧:英国-ss-83.229.73.60:50003-被墙-直连-解锁以色列地区NF非自制剧
-  - 🇨🇾:塞浦路斯-ss-213.169.137.221:989-被墙-直连-解锁塞浦路斯地区NF非自制剧
   - 🇨🇳:中国-ss-mole-ho.i.sxldns.com:23034-被墙-中转:13.70.6.115-解锁香港地区NF非自制剧
   - 🇨🇳:中国-ss-aly.ziqiyun.xyz:11137-被墙-中转:46.232.120.51-解锁香港地区NF非自制剧
   - 🇨🇦:加拿大-ss-72.140.224.197:811-被墙-直连-解锁加拿大地区NF非自制剧
@@ -225,6 +336,7 @@ proxy-groups:
   interval: 300
   proxies:
   - DIRECT
+  - 🇰🇷:韩国-vmess-jgwcc.356930.xyz:10021-可用-中转:152.67.206.198-仅支持韩国地区NF自制剧
   - 🇨🇳:中国-vmess-iplchk.znetnodes.com:22030-可用-中转:13.70.0.224-仅支持香港地区NF自制剧
 - name: 解锁Netflix非自制剧
   type: select
@@ -232,6 +344,8 @@ proxy-groups:
   interval: 300
   proxies:
   - DIRECT
+  - 🇺🇸:美国-vmess-hk2.mianliusao.dynv6.net:80-可用-中转:20.24.195.255-解锁香港地区NF非自制剧
+  - 🇺🇸:美国-vmess-hg1.mianliusao.dynv6.net:80-可用-中转:20.214.202.195-解锁韩国地区NF非自制剧
   - 🇨🇳:中国-ss-mole-ho.i.sxldns.com:23034-可用-中转:13.70.6.115-解锁香港地区NF非自制剧
 - name: 入口代理组
     # 中继代理组,不支持UDP协议。线路: clash <-> vmess <-> ss1 <-> ss2 <-> Internet

@@ -1,4 +1,64 @@
 proxies:
+- name: 🇺🇸:美国-ss-134.195.198.95:443-可用-直连-不支持Netflix
+  type: ss
+  server: 134.195.198.95
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
+- name: 🇫🇷:法国-ss-155.133.130.93:443-可用-直连-不支持Netflix
+  type: ss
+  server: 155.133.130.93
+  password: uOaNBB7dlKXH
+  port: 443
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-142.202.48.52:443-可用-直连-不支持Netflix
+  type: ss
+  server: 142.202.48.52
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-38.75.136.21:443-可用-直连-不支持Netflix
+  type: ss
+  server: 38.75.136.21
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-169.197.142.187:443-可用-直连-不支持Netflix
+  type: ss
+  server: 169.197.142.187
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-167.88.61.60:443-可用-直连-不支持Netflix
+  type: ss
+  server: 167.88.61.60
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-37.218.241.43:443-可用-直连-不支持Netflix
+  type: ss
+  server: 37.218.241.43
+  password: xCjmxGzrUoBA
+  port: 443
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-134.195.196.227:443-可用-直连-不支持Netflix
+  type: ss
+  server: 134.195.196.227
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
+- name: 🇩🇪:德国-ss-193.108.117.75:443-可用-直连-不支持Netflix
+  type: ss
+  server: 193.108.117.75
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-38.68.134.191:443-可用-直连-不支持Netflix
+  type: ss
+  server: 38.68.134.191
+  password: pKEW8JPByTVTLtM
+  port: 443
+  cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-mole-ho.i.sxldns.com:23034-可用-中转:13.70.6.115-解锁香港地区NF非自制剧
   type: ss
   server: mole-ho.i.sxldns.com
@@ -10,12 +70,6 @@ proxies:
   server: 14.29.124.168
   password: QazEdcTgb159@$*
   port: 25283
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:25256-可用-直连-完全不支持NF
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 25256
   cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:25252-可用-直连-完全不支持NF
   type: ss
@@ -29,12 +83,51 @@ proxies:
   password: QazEdcTgb159@$*
   port: 25296
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:25259-可用-直连-完全不支持NF
+- name: 🇨🇳:中国-ss-14.29.124.168:25287-可用-直连-完全不支持NF
   type: ss
   server: 14.29.124.168
   password: QazEdcTgb159@$*
-  port: 25259
+  port: 25287
   cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:25235-可用-直连-完全不支持NF
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 25235
+  cipher: aes-128-cfb
+- name: 🇺🇸:美国-vmess-hk6.mianliusao.dynv6.net:80-可用-中转:20.24.96.241-不支持Netflix
+  type: vmess
+  server: hk6.mianliusao.dynv6.net
+  network: ws
+  port: 80
+  uuid: 33d808ef-b974-4d63-b81c-a7937a193b53
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /TS/recharge/tzUrl.html
+- name: 🇺🇸:美国-vmess-hg1.mianliusao.dynv6.net:80-可用-中转:20.214.202.195-解锁韩国地区NF非自制剧
+  type: vmess
+  server: hg1.mianliusao.dynv6.net
+  network: ws
+  port: 80
+  uuid: 33d808ef-b974-4d63-b81c-a7937a193b53
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /TS/recharge/tzUrl.html
+- name: 🇰🇷:韩国-vmess-jgwcc.356930.xyz:10021-可用-中转:152.67.206.198-仅支持韩国地区NF自制剧
+  type: vmess
+  server: jgwcc.356930.xyz
+  network: ws
+  port: 10021
+  uuid: 0d19129c-a925-4f21-8252-849838959a64
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /cctv13/hd.m3u8
 - name: 🇨🇳:中国-vmess-iplchk.znetnodes.com:22030-可用-中转:13.70.0.224-仅支持香港地区NF自制剧
   type: vmess
   server: iplchk.znetnodes.com
@@ -46,3 +139,14 @@ proxies:
   udp: false
   tls: false
   ws-path: /v2ray
+- name: 🇺🇸:美国-vmess-hk2.mianliusao.dynv6.net:80-可用-中转:20.24.195.255-解锁香港地区NF非自制剧
+  type: vmess
+  server: hk2.mianliusao.dynv6.net
+  network: ws
+  port: 80
+  uuid: 33d808ef-b974-4d63-b81c-a7937a193b53
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /TS/recharge/tzUrl.html
