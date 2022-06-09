@@ -11,23 +11,11 @@ proxies:
   password: G!yBwPWH3Vao
   port: 805
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-mole-ho.i.sxldns.com:23034-被墙-中转:13.70.6.115-解锁香港地区NF非自制剧
-  type: ss
-  server: mole-ho.i.sxldns.com
-  password: 9hPjFqGEHj7iN7NmvUF0J62v
-  port: 23034
-  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-45.66.134.176:805-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
   type: ss
   server: 45.66.134.176
   password: G!yBwPWH3Vao
   port: 805
-  cipher: chacha20-ietf-poly1305
-- name: :0-ss-hcm.fuzzyng.com:1234-被墙-中转:103.169.35.28-解锁越南地区NF非自制剧
-  type: ss
-  server: hcm.fuzzyng.com
-  password: fc93a845-c480-4475-af86-6d2ea46400ee
-  port: 1234
   cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-45.66.134.176:801-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
   type: ss
@@ -59,6 +47,36 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24005-可用-中转:223.26.73.202-解锁台湾地区NF非自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24005
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24046-可用-中转:223.26.73.202-解锁台湾地区NF非自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24046
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24001-可用-中转:223.26.73.202-解锁台湾地区NF非自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24001
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24008-可用-中转:223.26.73.202-解锁台湾地区NF非自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24008
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24004-可用-中转:223.26.73.202-解锁台湾地区NF非自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24004
+  cipher: aes-128-cfb
 - name: 🇯🇵:日本-ss-52.199.193.112:443-可用-直连-解锁日本地区NF非自制剧
   type: ss
   server: 52.199.193.112
@@ -131,25 +149,43 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24016-被墙-中转:223.26.73.202-解锁台湾地区NF非自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24016
+  cipher: aes-128-cfb
 - name: 🇯🇵:日本-ss-89.31.126.150:812-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧
   type: ss
   server: 89.31.126.150
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ssr-us-am32-5.eqnode.net:8081-可用-中转:54.202.187.76-解锁美国地区NF非自制剧
-  type: ssr
-  server: us-am32-5.eqnode.net
-  password: YFVrXZgRo
-  obfs: tls1.2_ticket_auth
-  protocol: origin
-  port: 8081
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
+- name: 🇺🇸:美国-vmess-sg01.czsx1624.tk:443-可用-中转:138.2.88.131-解锁新加坡地区NF非自制剧
+  type: vmess
+  server: sg01.czsx1624.tk
+  network: ws
+  port: 443
+  uuid: d002b422-eace-4e01-bf58-e4bb0bcfe7af
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /3a8545177/
 - name: 🇨🇳:中国-vmess-cn.zzv05.infonode.xyz:17016-可用-中转:138.2.123.124-解锁韩国地区NF非自制剧
   type: vmess
   server: cn.zzv05.infonode.xyz
+  network: ws
+  port: 17016
+  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
+- name: 🇨🇳:中国-vmess-cn.zzv07.infonode.xyz:17016-可用-中转:138.2.123.124-解锁韩国地区NF非自制剧
+  type: vmess
+  server: cn.zzv07.infonode.xyz
   network: ws
   port: 17016
   uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
@@ -169,6 +205,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /dingzi
+- name: 🇨🇳:中国-vmess-cn.zzv06.infonode.xyz:17016-可用-中转:138.2.123.124-解锁韩国地区NF非自制剧
+  type: vmess
+  server: cn.zzv06.infonode.xyz
+  network: ws
+  port: 17016
+  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
 - name: 🇨🇳:中国-vmess-cn.zzv02.infonode.xyz:17016-可用-中转:138.2.123.124-解锁韩国地区NF非自制剧
   type: vmess
   server: cn.zzv02.infonode.xyz
