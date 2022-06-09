@@ -113,17 +113,23 @@ proxies:
   password: G!yBwPWH3Vao
   port: 811
   cipher: chacha20-ietf-poly1305
+- name: 🇬🇧:英国-ss-83.229.73.60:50003-被墙-直连-解锁以色列地区NF非自制剧
+  type: ss
+  server: 83.229.73.60
+  password: '8460400130'
+  port: 50003
+  cipher: aes-256-cfb
+- name: 🇮🇱:以色列-ss-185.162.126.217:50004-被墙-直连-解锁以色列地区NF非自制剧
+  type: ss
+  server: 185.162.126.217
+  password: '4415934295'
+  port: 50004
+  cipher: aes-256-cfb
 - name: 🇿🇦:南非-ss-102.130.118.99:50004-被墙-直连-解锁南非地区NF非自制剧
   type: ss
   server: 102.130.118.99
   password: '4415934295'
   port: 50004
-  cipher: aes-256-cfb
-- name: 🇰🇷:韩国-ss-3.39.227.119:443-被墙-直连-解锁韩国地区NF非自制剧
-  type: ss
-  server: 3.39.227.119
-  password: amazonskr05
-  port: 443
   cipher: aes-256-cfb
 - name: 🇮🇱:以色列-ss-185.162.125.91:50004-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
@@ -137,36 +143,3 @@ proxies:
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-vmess-sg01.czsx1624.tk:443-可用-中转:138.2.88.131-解锁新加坡地区NF非自制剧
-  type: vmess
-  server: sg01.czsx1624.tk
-  network: ws
-  port: 443
-  uuid: d002b422-eace-4e01-bf58-e4bb0bcfe7af
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /3a8545177/
-- name: 🇨🇳:中国-vmess-cmbe3-vdn.zhs.company:35055-可用-中转:8.214.38.155-解锁台湾地区NF非自制剧
-  type: vmess
-  server: cmbe3-vdn.zhs.company
-  network: ws
-  port: 35055
-  uuid: 1196c95e-16b4-3a86-b12a-33b8c3417dda
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /zhs
-- name: 🇺🇸:美国-vmess-us02.gogogoo.cyou:443-可用-中转:205.185.115.241-解锁美国地区NF非自制剧
-  type: vmess
-  server: us02.gogogoo.cyou
-  network: ws
-  port: 443
-  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /go
