@@ -1,16 +1,4 @@
 proxies:
-- name: 🇨🇳:中国-ss-bgpddns.rentidnf.com:58006-可用-中转:165.154.226.53-解锁新加坡地区NF非自制剧
-  type: ss
-  server: bgpddns.rentidnf.com
-  password: 708de56e-ada7-4bab-86ce-dadd4beabd62
-  port: 58006
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-bgpddns.rentidnf.com:58004-可用-中转:203.218.252.162-解锁香港地区NF非自制剧
-  type: ss
-  server: bgpddns.rentidnf.com
-  password: 708de56e-ada7-4bab-86ce-dadd4beabd62
-  port: 58004
-  cipher: chacha20-ietf-poly1305
 - name: 🇨🇦:加拿大-ss-72.140.224.197:805-被墙-直连-解锁加拿大地区NF非自制剧
   type: ss
   server: 72.140.224.197
@@ -28,6 +16,12 @@ proxies:
   server: aly.ziqiyun.xyz
   password: 297545c2-a59d-4610-9580-a7baa3657a57
   port: 11137
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-gy.ziqiyun.xyz:44041-被墙-中转:138.2.54.183-解锁日本地区NF非自制剧
+  type: ss
+  server: gy.ziqiyun.xyz
+  password: 297545c2-a59d-4610-9580-a7baa3657a57
+  port: 44041
   cipher: chacha20-ietf-poly1305
 - name: 🇨🇳:中国-ss-mole-ho.i.sxldns.com:23034-可用-中转:13.70.6.115-解锁香港地区NF非自制剧
   type: ss
@@ -113,31 +107,3 @@ proxies:
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-gy.ziqiyun.xyz:44041-被墙-中转:138.2.54.183-解锁日本地区NF非自制剧
-  type: ss
-  server: gy.ziqiyun.xyz
-  password: 297545c2-a59d-4610-9580-a7baa3657a57
-  port: 44041
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-vmess-cn.zzv02.infonode.xyz:17016-可用-中转:138.2.123.124-解锁韩国地区NF非自制剧
-  type: vmess
-  server: cn.zzv02.infonode.xyz
-  network: ws
-  port: 17016
-  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /v2ray
-- name: 🇨🇳:中国-vmess-cn.zzv06.infonode.xyz:17016-可用-中转:138.2.123.124-解锁韩国地区NF非自制剧
-  type: vmess
-  server: cn.zzv06.infonode.xyz
-  network: ws
-  port: 17016
-  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /v2ray
