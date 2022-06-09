@@ -1,54 +1,40 @@
 proxies:
-- name: 🇨🇳:中国-ss-14.29.124.174:11031-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11031
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11039-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11039
-  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.174:11012-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
   type: ss
   server: 14.29.124.174
   password: QazEdcTgb159@$*
   port: 11012
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11019-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11019
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11043-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11043
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:24046-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24046
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-180.163.62.91:10064-可用-中转:129.227.4.80-仅支持韩国地区NF自制剧
-  type: ss
-  server: 180.163.62.91
-  password: QazEdcTgb159@$*
-  port: 10064
-  cipher: aes-128-cfb
-- name: 🇺🇸:美国-vmess-taobao.babazhuji.com:443-可用-中转:128.199.8.221-仅支持美国地区NF自制剧
+- name: 🇨🇳:中国-vmess-gycd1.csccdd.xyz:52340-可用-中转:42.2.10.203-仅支持香港地区NF自制剧
   type: vmess
-  server: taobao.babazhuji.com
+  server: gycd1.csccdd.xyz
   network: ws
-  port: 443
-  uuid: 36712be8-f2ff-4875-8c67-95efd66ac994
+  port: 52340
+  uuid: 1dc13504-e4ba-3c49-8e0b-6a3eb4e40335
   alterId: 4
   cipher: auto
   udp: false
-  tls: true
-  ws-path: /didi
+  tls: false
+  ws-path: /index
+- name: 🇨🇳:中国-vmess-cn.zzv01.infonode.xyz:17014-可用-中转:164.92.98.79-仅支持美国地区NF自制剧
+  type: vmess
+  server: cn.zzv01.infonode.xyz
+  network: ws
+  port: 17014
+  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
+- name: 🇨🇳:中国-vmess-cn.zzv01.infonode.xyz:17011-可用-中转:18.162.49.93-仅支持香港地区NF自制剧
+  type: vmess
+  server: cn.zzv01.infonode.xyz
+  network: ws
+  port: 17011
+  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
