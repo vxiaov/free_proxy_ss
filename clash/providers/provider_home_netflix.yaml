@@ -1,10 +1,27 @@
 proxies:
-- name: 🇨🇳:中国-ss-14.29.124.174:11012-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
+- name: 🇮🇹:意大利-ss-92.223.93.233:1035-可用-直连-仅支持意大利地区NF自制剧
   type: ss
-  server: 14.29.124.174
+  server: 92.223.93.233
+  password: )1N1E6v0SU_rGTpg
+  port: 1035
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-14.29.124.168:24046-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+  type: ss
+  server: 14.29.124.168
   password: QazEdcTgb159@$*
-  port: 11012
+  port: 24046
   cipher: aes-128-cfb
+- name: 🇨🇳:中国-vmess-iplchk.znetnodes.com:22030-可用-中转:13.70.0.224-仅支持香港地区NF自制剧
+  type: vmess
+  server: iplchk.znetnodes.com
+  network: ws
+  port: 22030
+  uuid: 9c2acfcb-8ae3-3d4c-b6b2-b115f1ab6dc3
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
 - name: 🇨🇳:中国-vmess-gycd1.csccdd.xyz:52340-可用-中转:42.2.10.203-仅支持香港地区NF自制剧
   type: vmess
   server: gycd1.csccdd.xyz
@@ -16,25 +33,14 @@ proxies:
   udp: false
   tls: false
   ws-path: /index
-- name: 🇨🇳:中国-vmess-cn.zzv01.infonode.xyz:17014-可用-中转:164.92.98.79-仅支持美国地区NF自制剧
+- name: 🇨🇳:中国-vmess-zj.haojiahuo.ml:30069-可用-中转:213.142.150.16-仅支持土耳其地区NF自制剧
   type: vmess
-  server: cn.zzv01.infonode.xyz
+  server: zj.haojiahuo.ml
   network: ws
-  port: 17014
-  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
+  port: 30069
+  uuid: 0bff49b2-6e66-3572-897b-9d16ce612965
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /v2ray
-- name: 🇨🇳:中国-vmess-cn.zzv01.infonode.xyz:17011-可用-中转:18.162.49.93-仅支持香港地区NF自制剧
-  type: vmess
-  server: cn.zzv01.infonode.xyz
-  network: ws
-  port: 17011
-  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /v2ray
+  ws-path: /videos
