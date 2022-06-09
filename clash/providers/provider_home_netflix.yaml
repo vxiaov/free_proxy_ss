@@ -1,33 +1,15 @@
 proxies:
-- name: 🇨🇳:中国-ss-14.29.124.174:11007-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11007
-  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.174:11012-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
   type: ss
   server: 14.29.124.174
   password: QazEdcTgb159@$*
   port: 11012
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11050-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+- name: 🇨🇳:中国-ss-14.29.124.174:11019-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
   type: ss
   server: 14.29.124.174
   password: QazEdcTgb159@$*
-  port: 11050
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11032-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11032
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11004-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11004
+  port: 11019
   cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:24046-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   type: ss
@@ -35,35 +17,24 @@ proxies:
   password: QazEdcTgb159@$*
   port: 24046
   cipher: aes-128-cfb
+- name: 🇺🇸:美国-ss-104.243.25.95:253-可用-直连-仅支持美国地区NF自制剧
+  type: ss
+  server: 104.243.25.95
+  password: bwhskrskr03
+  port: 253
+  cipher: aes-256-cfb
 - name: 🇨🇳:中国-ss-180.163.62.91:10064-可用-中转:129.227.4.80-仅支持韩国地区NF自制剧
   type: ss
   server: 180.163.62.91
   password: QazEdcTgb159@$*
   port: 10064
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:24008-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+- name: 🇨🇳:中国-ss-14.29.124.174:11005-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
   type: ss
-  server: 14.29.124.168
+  server: 14.29.124.174
   password: QazEdcTgb159@$*
-  port: 24008
+  port: 11005
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:24004-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24004
-  cipher: aes-128-cfb
-- name: 🇺🇸:美国-vmess-taobao.babazhuji.com:443-可用-中转:128.199.8.221-仅支持美国地区NF自制剧
-  type: vmess
-  server: taobao.babazhuji.com
-  network: ws
-  port: 443
-  uuid: 36712be8-f2ff-4875-8c67-95efd66ac994
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /didi
 - name: 🇨🇳:中国-vmess-iplchk.znetnodes.com:22030-可用-中转:13.70.0.224-仅支持香港地区NF自制剧
   type: vmess
   server: iplchk.znetnodes.com
@@ -108,6 +79,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /videos
+- name: 🇨🇳:中国-vmess-cn.zzv06.infonode.xyz:17013-可用-中转:139.162.81.30-仅支持日本地区NF自制剧
+  type: vmess
+  server: cn.zzv06.infonode.xyz
+  network: ws
+  port: 17013
+  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
 - name: 🇨🇳:中国-vmess-cn.zzv02.infonode.xyz:17013-可用-中转:139.162.81.30-仅支持日本地区NF自制剧
   type: vmess
   server: cn.zzv02.infonode.xyz
@@ -146,28 +128,6 @@ proxies:
   server: cn.zzv07.infonode.xyz
   network: ws
   port: 17013
-  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /v2ray
-- name: 🇺🇸:美国-vmess-23.19.26.218:6082-可用-直连-仅支持美国地区NF自制剧
-  type: vmess
-  server: 23.19.26.218
-  network: ws
-  port: 6082
-  uuid: 9674b201-ac76-4322-a9a3-2afd7f746513
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /paQd6Rug/
-- name: 🇨🇳:中国-vmess-cn.zzv12.infonode.xyz:17014-可用-中转:164.92.98.79-仅支持美国地区NF自制剧
-  type: vmess
-  server: cn.zzv12.infonode.xyz
-  network: ws
-  port: 17014
   uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
   alterId: 4
   cipher: auto
