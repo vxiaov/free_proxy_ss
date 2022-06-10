@@ -1,10 +1,4 @@
 proxies:
-- name: 🇺🇸:美国-ss-20.249.8.113:8313-可用-直连-解锁韩国地区NF非自制剧
-  type: ss
-  server: 20.249.8.113
-  password: ljqdalu13..
-  port: 8313
-  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-89.31.126.171:800-可用-中转:5.181.5.184-解锁日本地区NF非自制剧
   type: ss
   server: 89.31.126.171
@@ -59,7 +53,7 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇯🇵:日本-ss-13.114.218.200:443-可用-直连-解锁日本地区NF非自制剧
+- name: 🇯🇵:日本-ss-13.114.218.200:443-被墙-直连-解锁日本地区NF非自制剧
   type: ss
   server: 13.114.218.200
   password: amazonskr05
@@ -125,6 +119,12 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
+- name: 🇺🇸:美国-ss-20.249.8.113:8313-被墙-直连-解锁韩国地区NF非自制剧
+  type: ss
+  server: 20.249.8.113
+  password: ljqdalu13..
+  port: 8313
+  cipher: chacha20-ietf-poly1305
 - name: 🇮🇱:以色列-ss-185.162.125.91:50004-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
   server: 185.162.125.91
@@ -153,17 +153,17 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 🇺🇸:美国-vmess-35.79.20.174:80-可用-直连-解锁日本地区NF非自制剧
+- name: 🇨🇦:加拿大-vmess-165.154.253.68:80-可用-直连-解锁新加坡地区NF非自制剧
   type: vmess
-  server: 35.79.20.174
+  server: 165.154.253.68
   network: ws
   port: 80
-  uuid: d15b0ba2-d4b2-4685-8a3c-7f2db25d9f23
+  uuid: 1764e589-7fa9-43f6-9e7e-25733729f61f
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /
+  ws-path: ''
 - name: 🇨🇳:中国-vmess-cn.zzv05.infonode.xyz:17016-可用-中转:138.2.123.124-解锁韩国地区NF非自制剧
   type: vmess
   server: cn.zzv05.infonode.xyz
@@ -175,17 +175,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /v2ray
-- name: 🇨🇳:中国-vmess-cn.zzv01.infonode.xyz:17011-可用-中转:18.162.154.33-解锁香港地区NF非自制剧
+- name: 🇺🇸:美国-vmess-gcfree1.galaxy-cloud.icu:443-可用-中转:8.21.239.36-解锁美国地区NF非自制剧
   type: vmess
-  server: cn.zzv01.infonode.xyz
+  server: gcfree1.galaxy-cloud.icu
   network: ws
-  port: 17011
-  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
+  port: 443
+  uuid: 856fd239-43aa-499e-b56b-8af235c32fb5
   alterId: 4
   cipher: auto
   udp: false
-  tls: false
-  ws-path: /v2ray
+  tls: true
+  ws-path: /tDZcCqc
 - name: 🇬🇧:英国-vmess-ru2.lolvps.xyz:40048-可用-中转:185.80.200.149-解锁加拿大地区NF非自制剧
   type: vmess
   server: ru2.lolvps.xyz
