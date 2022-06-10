@@ -11,6 +11,12 @@ proxies:
   password: ljqdalu13..
   port: 8313
   cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-gy.ziqiyun.xyz:35992-可用-中转:220.246.250.213-解锁香港地区NF非自制剧
+  type: ss
+  server: gy.ziqiyun.xyz
+  password: 297545c2-a59d-4610-9580-a7baa3657a57
+  port: 35992
+  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-45.66.134.176:807-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
   type: ss
   server: 45.66.134.176
@@ -47,15 +53,15 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇯🇵:日本-ss-18.183.174.6:443-可用-直连-解锁日本地区NF非自制剧
+- name: 🇯🇵:日本-ss-13.114.218.200:443-可用-直连-解锁日本地区NF非自制剧
   type: ss
-  server: 18.183.174.6
+  server: 13.114.218.200
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇯🇵:日本-ss-13.114.218.200:443-被墙-直连-解锁日本地区NF非自制剧
+- name: 🇯🇵:日本-ss-18.183.174.6:443-可用-直连-解锁日本地区NF非自制剧
   type: ss
-  server: 13.114.218.200
+  server: 18.183.174.6
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
@@ -119,12 +125,6 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-20.249.8.113:8313-被墙-直连-解锁韩国地区NF非自制剧
-  type: ss
-  server: 20.249.8.113
-  password: ljqdalu13..
-  port: 8313
-  cipher: chacha20-ietf-poly1305
 - name: 🇮🇱:以色列-ss-185.162.125.91:50004-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
   server: 185.162.125.91
@@ -136,12 +136,6 @@ proxies:
   server: 89.31.126.150
   password: G!yBwPWH3Vao
   port: 812
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-gy.ziqiyun.xyz:44041-被墙-中转:138.2.54.183-解锁日本地区NF非自制剧
-  type: ss
-  server: gy.ziqiyun.xyz
-  password: 297545c2-a59d-4610-9580-a7baa3657a57
-  port: 44041
   cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ssr-us-am32-5.eqnode.net:8081-可用-中转:34.220.241.3-解锁美国地区NF非自制剧
   type: ssr
@@ -175,28 +169,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /v2ray
-- name: 🇺🇸:美国-vmess-gcfree1.galaxy-cloud.icu:443-可用-中转:8.21.239.36-解锁美国地区NF非自制剧
-  type: vmess
-  server: gcfree1.galaxy-cloud.icu
-  network: ws
-  port: 443
-  uuid: 856fd239-43aa-499e-b56b-8af235c32fb5
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /tDZcCqc
-- name: 🇬🇧:英国-vmess-ru2.lolvps.xyz:40048-可用-中转:185.80.200.149-解锁加拿大地区NF非自制剧
-  type: vmess
-  server: ru2.lolvps.xyz
-  network: ws
-  port: 40048
-  uuid: 882fe300-feb5-4e7b-b272-829e791755ee
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /J56OYLY9
 - name: 🇨🇳:中国-vmess-cn.zzv07.infonode.xyz:17016-可用-中转:138.2.123.124-解锁韩国地区NF非自制剧
   type: vmess
   server: cn.zzv07.infonode.xyz
@@ -219,17 +191,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /dingzi
-- name: 🇨🇳:中国-vmess-cn.zzv07.infonode.xyz:17011-可用-中转:18.162.154.33-解锁香港地区NF非自制剧
-  type: vmess
-  server: cn.zzv07.infonode.xyz
-  network: ws
-  port: 17011
-  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /v2ray
 - name: 🇨🇳:中国-vmess-cn.zzv02.infonode.xyz:17016-可用-中转:138.2.123.124-解锁韩国地区NF非自制剧
   type: vmess
   server: cn.zzv02.infonode.xyz
