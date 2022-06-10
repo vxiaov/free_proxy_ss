@@ -35,27 +35,9 @@ proxies:
   password: 297545c2-a59d-4610-9580-a7baa3657a57
   port: 11137
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-gy.ziqiyun.xyz:44041-被墙-中转:138.2.54.183-解锁日本地区NF非自制剧
-  type: ss
-  server: gy.ziqiyun.xyz
-  password: 297545c2-a59d-4610-9580-a7baa3657a57
-  port: 44041
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-mole-ho.i.sxldns.com:23034-可用-中转:13.70.6.115-解锁香港地区NF非自制剧
-  type: ss
-  server: mole-ho.i.sxldns.com
-  password: 9hPjFqGEHj7iN7NmvUF0J62v
-  port: 23034
-  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-18.183.213.25:443-可用-直连-解锁日本地区NF非自制剧
   type: ss
   server: 18.183.213.25
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
-- name: 🇯🇵:日本-ss-52.199.193.112:443-可用-直连-解锁日本地区NF非自制剧
-  type: ss
-  server: 52.199.193.112
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
@@ -125,16 +107,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ssr-us-am32-5.eqnode.net:8081-被墙-中转:54.202.187.76-解锁美国地区NF非自制剧
-  type: ssr
-  server: us-am32-5.eqnode.net
-  password: YFVrXZgRo
-  obfs: tls1.2_ticket_auth
-  protocol: origin
-  port: 8081
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
 - name: 🇺🇸:美国-vmess-sg01.czsx1624.tk:443-可用-中转:138.2.88.131-解锁新加坡地区NF非自制剧
   type: vmess
   server: sg01.czsx1624.tk
@@ -146,18 +118,18 @@ proxies:
   udp: false
   tls: true
   ws-path: /3a8545177/
-- name: 🇨🇳:中国-vmess-cn.zzv05.infonode.xyz:17016-可用-中转:138.2.123.124-解锁韩国地区NF非自制剧
+- name: 🇺🇸:美国-vmess-ifffffffuuuuuuus.qiqicdn2.cf:443-可用-中转:54.152.232.154-解锁美国地区NF非自制剧
   type: vmess
-  server: cn.zzv05.infonode.xyz
+  server: ifffffffuuuuuuus.qiqicdn2.cf
   network: ws
-  port: 17016
-  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
+  port: 443
+  uuid: 5a36cce4-0527-4d36-bf4a-6c215ef9c524
   alterId: 4
   cipher: auto
   udp: false
-  tls: false
-  ws-path: /v2ray
-- name: 🇺🇸:美国-vmess-ehez.dingzige.gq:80-可用-中转:3.137.182.99-解锁美国地区NF非自制剧
+  tls: true
+  ws-path: /5a36cce4-0527-4d36-bf4a-6c215ef9c524-vmess
+- name: 🇺🇸:美国-vmess-ehez.dingzige.gq:80-可用-中转:18.189.192.30-解锁美国地区NF非自制剧
   type: vmess
   server: ehez.dingzige.gq
   network: ws
