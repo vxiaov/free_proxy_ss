@@ -125,12 +125,6 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-20.249.8.113:8313-被墙-直连-解锁韩国地区NF非自制剧
-  type: ss
-  server: 20.249.8.113
-  password: ljqdalu13..
-  port: 8313
-  cipher: chacha20-ietf-poly1305
 - name: 🇮🇱:以色列-ss-185.162.125.91:50004-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
   server: 185.162.125.91
@@ -149,6 +143,71 @@ proxies:
   password: 297545c2-a59d-4610-9580-a7baa3657a57
   port: 44041
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ssr-us-am32-5.eqnode.net:8081-可用-中转:34.220.241.3-解锁美国地区NF非自制剧
+  type: ssr
+  server: us-am32-5.eqnode.net
+  password: YFVrXZgRo
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇺🇸:美国-vmess-35.79.20.174:80-可用-直连-解锁日本地区NF非自制剧
+  type: vmess
+  server: 35.79.20.174
+  network: ws
+  port: 80
+  uuid: d15b0ba2-d4b2-4685-8a3c-7f2db25d9f23
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇨🇳:中国-vmess-cn.zzv05.infonode.xyz:17016-可用-中转:138.2.123.124-解锁韩国地区NF非自制剧
+  type: vmess
+  server: cn.zzv05.infonode.xyz
+  network: ws
+  port: 17016
+  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
+- name: 🇨🇳:中国-vmess-cn.zzv01.infonode.xyz:17011-可用-中转:18.162.154.33-解锁香港地区NF非自制剧
+  type: vmess
+  server: cn.zzv01.infonode.xyz
+  network: ws
+  port: 17011
+  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
+- name: 🇬🇧:英国-vmess-ru2.lolvps.xyz:40048-可用-中转:185.80.200.149-解锁加拿大地区NF非自制剧
+  type: vmess
+  server: ru2.lolvps.xyz
+  network: ws
+  port: 40048
+  uuid: 882fe300-feb5-4e7b-b272-829e791755ee
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /J56OYLY9
+- name: 🇨🇳:中国-vmess-cn.zzv07.infonode.xyz:17016-可用-中转:138.2.123.124-解锁韩国地区NF非自制剧
+  type: vmess
+  server: cn.zzv07.infonode.xyz
+  network: ws
+  port: 17016
+  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
 - name: 🇺🇸:美国-vmess-ehez.dingzige.gq:80-可用-中转:18.189.192.30-解锁美国地区NF非自制剧
   type: vmess
   server: ehez.dingzige.gq
@@ -160,3 +219,25 @@ proxies:
   udp: false
   tls: false
   ws-path: /dingzi
+- name: 🇨🇳:中国-vmess-cn.zzv07.infonode.xyz:17011-可用-中转:18.162.154.33-解锁香港地区NF非自制剧
+  type: vmess
+  server: cn.zzv07.infonode.xyz
+  network: ws
+  port: 17011
+  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
+- name: 🇨🇳:中国-vmess-cn.zzv02.infonode.xyz:17016-可用-中转:138.2.123.124-解锁韩国地区NF非自制剧
+  type: vmess
+  server: cn.zzv02.infonode.xyz
+  network: ws
+  port: 17016
+  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
