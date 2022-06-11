@@ -41,15 +41,33 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇯🇵:日本-ss-13.114.218.200:443-可用-直连-解锁日本地区NF非自制剧
+- name: 🇨🇳:中国-ss-14.29.124.168:24002-可用-中转:223.26.73.202-解锁台湾地区NF非自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24002
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24073-可用-中转:223.26.73.202-解锁台湾地区NF非自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24073
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24026-可用-中转:223.26.73.202-解锁台湾地区NF非自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24026
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24046-可用-中转:223.26.73.202-解锁台湾地区NF非自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24046
+  cipher: aes-128-cfb
+- name: 🇯🇵:日本-ss-13.114.218.200:443-被墙-直连-解锁日本地区NF非自制剧
   type: ss
   server: 13.114.218.200
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
-- name: 🇯🇵:日本-ss-18.183.174.6:443-可用-直连-解锁日本地区NF非自制剧
-  type: ss
-  server: 18.183.174.6
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
@@ -125,28 +143,12 @@ proxies:
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇦:加拿大-vmess-165.154.253.68:80-可用-直连-解锁新加坡地区NF非自制剧
-  type: vmess
-  server: 165.154.253.68
-  network: ws
-  port: 80
-  uuid: 1764e589-7fa9-43f6-9e7e-25733729f61f
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: ''
-- name: 🇺🇸:美国-vmess-ifffffffuuuuuuus.qiqicdn2.cf:443-可用-中转:54.174.196.49-解锁美国地区NF非自制剧
-  type: vmess
-  server: ifffffffuuuuuuus.qiqicdn2.cf
-  network: ws
+- name: 🇯🇵:日本-ss-18.183.174.6:443-被墙-直连-解锁日本地区NF非自制剧
+  type: ss
+  server: 18.183.174.6
+  password: amazonskr05
   port: 443
-  uuid: 5a36cce4-0527-4d36-bf4a-6c215ef9c524
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /5a36cce4-0527-4d36-bf4a-6c215ef9c524-vmess
+  cipher: aes-256-cfb
 - name: 🇺🇸:美国-vmess-ehez.dingzige.gq:80-可用-中转:18.189.192.30-解锁美国地区NF非自制剧
   type: vmess
   server: ehez.dingzige.gq
