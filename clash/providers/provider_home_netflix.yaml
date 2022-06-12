@@ -209,23 +209,29 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-14.29.124.174:11020-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11020
-  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:24000-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   type: ss
   server: 14.29.124.168
   password: QazEdcTgb159@$*
   port: 24000
   cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11048-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11048
+  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:24006-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   type: ss
   server: 14.29.124.168
   password: QazEdcTgb159@$*
   port: 24006
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11039-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11039
   cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:24002-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   type: ss
@@ -239,6 +245,12 @@ proxies:
   password: QazEdcTgb159@$*
   port: 11038
   cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11049-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11049
+  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:24026-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   type: ss
   server: 14.29.124.168
@@ -251,23 +263,17 @@ proxies:
   password: QazEdcTgb159@$*
   port: 24046
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11011-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
+- name: 🇨🇳:中国-ss-14.29.124.174:11047-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
   type: ss
   server: 14.29.124.174
   password: QazEdcTgb159@$*
-  port: 11011
+  port: 11047
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11041-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+- name: 🇨🇳:中国-ss-180.163.62.91:10065-可用-中转:129.227.4.81-仅支持韩国地区NF自制剧
   type: ss
-  server: 14.29.124.174
+  server: 180.163.62.91
   password: QazEdcTgb159@$*
-  port: 11041
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11036-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11036
+  port: 10065
   cipher: aes-128-cfb
 - name: 🇩🇪:德国-ss-165.22.73.126:23335-可用-直连-仅支持德国地区NF自制剧
   type: ss
@@ -275,6 +281,17 @@ proxies:
   password: 7d99ae502227454ea998d71e4b62a388
   port: 23335
   cipher: aes-256-cfb
+- name: 🇺🇸:美国-vmess-v2ray.wefuckgfw.ga:2096-可用-中转:45.90.58.175-仅支持瑞士地区NF自制剧
+  type: vmess
+  server: v2ray.wefuckgfw.ga
+  network: ws
+  port: 2096
+  uuid: c0bc4a6f-74f9-49f3-b722-7ebb6aca17d7
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /H8VswtUJ/
 - name: 🇺🇸:美国-vmess-lu1.gogogoo.cyou:443-可用-中转:107.189.11.246-仅支持卢森堡地区NF自制剧
   type: vmess
   server: lu1.gogogoo.cyou
@@ -308,25 +325,3 @@ proxies:
   udp: false
   tls: true
   ws-path: /a185d5dc-c726-466c-98f2-ba494e63695f
-- name: 🇸🇬:新加坡-vmess-singapore2.shopvpn.net:80-可用-中转:68.183.179.229-仅支持新加坡地区NF自制剧
-  type: vmess
-  server: singapore2.shopvpn.net
-  network: ws
-  port: 80
-  uuid: bf10d6d5-c3f6-4b66-be29-62587aee40ef
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /shopvpn.net
-- name: 🇺🇸:美国-vmess-107.150.7.216:24611-可用-直连-仅支持美国地区NF自制剧
-  type: vmess
-  server: 107.150.7.216
-  network: ws
-  port: 24611
-  uuid: 09a372b0-947b-4637-8bb5-5979872dfd54
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
