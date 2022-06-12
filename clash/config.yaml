@@ -227,12 +227,6 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-gy.ziqiyun.xyz:44041-可用-中转:138.2.54.183-解锁日本地区NF非自制剧
-  type: ss
-  server: gy.ziqiyun.xyz
-  password: 297545c2-a59d-4610-9580-a7baa3657a57
-  port: 44041
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-38.121.43.71:443-可用-直连-仅支持美国地区NF自制剧
   type: ss
   server: 38.121.43.71
@@ -311,29 +305,23 @@ proxies:
   password: QazEdcTgb159@$*
   port: 11020
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:25283-可用-直连-完全不支持NF
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 25283
-  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:24000-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   type: ss
   server: 14.29.124.168
   password: QazEdcTgb159@$*
   port: 24000
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:25252-可用-直连-完全不支持NF
+- name: 🇨🇳:中国-ss-14.29.124.168:25256-可用-直连-完全不支持NF
   type: ss
   server: 14.29.124.168
   password: QazEdcTgb159@$*
-  port: 25252
+  port: 25256
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11048-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+- name: 🇨🇳:中国-ss-14.29.124.168:25259-可用-直连-完全不支持NF
   type: ss
-  server: 14.29.124.174
+  server: 14.29.124.168
   password: QazEdcTgb159@$*
-  port: 11048
+  port: 25259
   cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:24006-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   type: ss
@@ -365,23 +353,29 @@ proxies:
   password: QazEdcTgb159@$*
   port: 25219
   cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11038-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11038
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24026-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24026
+  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:24046-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   type: ss
   server: 14.29.124.168
   password: QazEdcTgb159@$*
   port: 24046
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-180.163.62.91:10065-可用-中转:129.227.4.81-仅支持韩国地区NF自制剧
-  type: ss
-  server: 180.163.62.91
-  password: QazEdcTgb159@$*
-  port: 10065
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11043-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+- name: 🇨🇳:中国-ss-14.29.124.174:11011-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
   type: ss
   server: 14.29.124.174
   password: QazEdcTgb159@$*
-  port: 11043
+  port: 11011
   cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.174:11041-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
   type: ss
@@ -401,12 +395,6 @@ proxies:
   password: 7d99ae502227454ea998d71e4b62a388
   port: 23335
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:24004-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24004
-  cipher: aes-128-cfb
 - name: 🇯🇵:日本-ss-45.66.134.176:810-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
   type: ss
   server: 45.66.134.176
@@ -496,7 +484,40 @@ proxies:
   udp: false
   tls: true
   ws-path: /api/v3/download.getFile
-- name: 🇺🇸:美国-vmess-gcfree1.galaxy-cloud.icu:443-可用-中转:8.21.239.201-仅支持美国地区NF自制剧
+- name: 🇮🇷:伊朗-vmess-srvf.myandroidplus1.ir:80-可用-中转:62.192.153.131-解锁德国地区NF非自制剧
+  type: vmess
+  server: srvf.myandroidplus1.ir
+  network: ws
+  port: 80
+  uuid: e7cf2f58-85b3-d3db-a75c-55df4a9ee83a
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /apiws
+- name: 🇺🇸:美国-vmess-lu1.gogogoo.cyou:443-可用-中转:107.189.11.246-仅支持卢森堡地区NF自制剧
+  type: vmess
+  server: lu1.gogogoo.cyou
+  network: ws
+  port: 443
+  uuid: db5d1aa3908b44d1be0a4e6a8d4e4cda
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /go
+- name: 🇸🇬:新加坡-vmess-v2ray1.udpgw.com:443-可用-中转:139.162.18.165-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: v2ray1.udpgw.com
+  network: ws
+  port: 443
+  uuid: b6581737-539e-4b68-b853-e50c291b250d
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /howdy
+- name: 🇺🇸:美国-vmess-gcfree1.galaxy-cloud.icu:443-可用-中转:8.45.151.32-解锁美国地区NF非自制剧
   type: vmess
   server: gcfree1.galaxy-cloud.icu
   network: ws
@@ -507,6 +528,28 @@ proxies:
   udp: false
   tls: true
   ws-path: /tDZcCqc
+- name: 🇯🇵:日本-vmess-mixv4-26.194610.xyz:4440-可用-中转:132.145.124.144-仅支持日本地区NF自制剧
+  type: vmess
+  server: mixv4-26.194610.xyz
+  network: ws
+  port: 4440
+  uuid: e9bb0c5c-01c7-7907-c454-3b8b6d472b19
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /a185d5dc-c726-466c-98f2-ba494e63695f
+- name: 🇬🇧:英国-vmess-ru1.lolvps.xyz:40047-可用-中转:185.80.200.92-解锁加拿大地区NF非自制剧
+  type: vmess
+  server: ru1.lolvps.xyz
+  network: ws
+  port: 40047
+  uuid: 2b8e4fc6-0112-4b26-8c17-1bfef9a3ff99
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /6129CFHR
 - name: 🇨🇳:中国-vmess-cn.zzv07.infonode.xyz:17016-可用-中转:138.2.123.124-解锁韩国地区NF非自制剧
   type: vmess
   server: cn.zzv07.infonode.xyz
@@ -518,6 +561,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /v2ray
+- name: 🇸🇬:新加坡-vmess-singapore2.shopvpn.net:80-可用-中转:68.183.179.229-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: singapore2.shopvpn.net
+  network: ws
+  port: 80
+  uuid: bf10d6d5-c3f6-4b66-be29-62587aee40ef
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /shopvpn.net
 - name: 🇺🇸:美国-vmess-107.150.7.216:24611-可用-直连-仅支持美国地区NF自制剧
   type: vmess
   server: 107.150.7.216
@@ -540,6 +594,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /v2ray
+- name: 🇻🇳:越南-vmess-vnidc1.project4gyuna.pw:80-可用-中转:171.244.57.13-解锁越南地区NF非自制剧
+  type: vmess
+  server: vnidc1.project4gyuna.pw
+  network: ws
+  port: 80
+  uuid: d1d4ad51-ad11-4648-ab28-08bc20db295a
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /project4gyuna.pw
 
 # 类型选择 简介
 # select : 用于选择代理或代理组, 可以通过 RESTful API 来切换代理，建议在 GUI 中使用
@@ -559,7 +624,9 @@ proxy-groups:
   interval: 300
   proxies:
   - DIRECT
-  - 🇺🇸:美国-vmess-gcfree1.galaxy-cloud.icu:443-可用-中转:8.21.239.201-仅支持美国地区NF自制剧
+  - 🇻🇳:越南-vmess-vnidc1.project4gyuna.pw:80-可用-中转:171.244.57.13-解锁越南地区NF非自制剧
+  - 🇺🇸:美国-vmess-lu1.gogogoo.cyou:443-可用-中转:107.189.11.246-仅支持卢森堡地区NF自制剧
+  - 🇺🇸:美国-vmess-gcfree1.galaxy-cloud.icu:443-可用-中转:8.45.151.32-解锁美国地区NF非自制剧
   - 🇺🇸:美国-vmess-107.150.7.216:24611-可用-直连-仅支持美国地区NF自制剧
   - 🇺🇸:美国-ss-38.91.100.27:443-可用-直连-仅支持美国地区NF自制剧
   - 🇺🇸:美国-ss-38.75.136.21:443-可用-直连-仅支持美国地区NF自制剧
@@ -587,8 +654,13 @@ proxy-groups:
   - 🇺🇸:美国-ss-142.202.48.52:443-可用-直连-仅支持美国地区NF自制剧
   - 🇺🇸:美国-ss-134.195.198.95:443-可用-直连-仅支持加拿大地区NF自制剧
   - 🇺🇸:美国-ss-134.195.196.227:443-可用-直连-仅支持加拿大地区NF自制剧
+  - 🇸🇬:新加坡-vmess-v2ray1.udpgw.com:443-可用-中转:139.162.18.165-仅支持新加坡地区NF自制剧
+  - 🇸🇬:新加坡-vmess-singapore2.shopvpn.net:80-可用-中转:68.183.179.229-仅支持新加坡地区NF自制剧
   - 🇳🇱:荷兰-vmess-v3.ssrsub.com:18443-可用-中转:45.141.100.232-完全不支持NF
+  - 🇯🇵:日本-vmess-mixv4-26.194610.xyz:4440-可用-中转:132.145.124.144-仅支持日本地区NF自制剧
   - 🇯🇵:日本-ss-140.238.55.138:10014-可用-直连-仅支持日本地区NF自制剧
+  - 🇮🇷:伊朗-vmess-srvf.myandroidplus1.ir:80-可用-中转:62.192.153.131-解锁德国地区NF非自制剧
+  - 🇬🇧:英国-vmess-ru1.lolvps.xyz:40047-可用-中转:185.80.200.92-解锁加拿大地区NF非自制剧
   - 🇫🇷:法国-ss-155.133.130.93:443-可用-直连-仅支持法国地区NF自制剧
   - 🇫🇷:法国-ss-149.202.82.172:443-可用-直连-完全不支持NF
   - 🇫🇮:芬兰-ss-77.83.247.20:443-可用-直连-仅支持芬兰地区NF自制剧
@@ -598,21 +670,19 @@ proxy-groups:
   - 🇨🇳:中国-vmess-cn.zzv07.infonode.xyz:17016-可用-中转:138.2.123.124-解锁韩国地区NF非自制剧
   - 🇨🇳:中国-vmess-cn.zzv02.infonode.xyz:17016-可用-中转:138.2.123.124-解锁韩国地区NF非自制剧
   - 🇨🇳:中国-ss-gzyd.qlyun.xyz:64663-可用-中转:8.34.202.69-仅支持新加坡地区NF自制剧
-  - 🇨🇳:中国-ss-gy.ziqiyun.xyz:44041-可用-中转:138.2.54.183-解锁日本地区NF非自制剧
-  - 🇨🇳:中国-ss-180.163.62.91:10065-可用-中转:129.227.4.81-仅支持韩国地区NF自制剧
-  - 🇨🇳:中国-ss-14.29.124.174:11048-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
-  - 🇨🇳:中国-ss-14.29.124.174:11043-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.174:11041-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+  - 🇨🇳:中国-ss-14.29.124.174:11038-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.174:11036-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.174:11020-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
+  - 🇨🇳:中国-ss-14.29.124.174:11011-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.168:25287-可用-直连-完全不支持NF
-  - 🇨🇳:中国-ss-14.29.124.168:25283-可用-直连-完全不支持NF
   - 🇨🇳:中国-ss-14.29.124.168:25261-可用-直连-完全不支持NF
-  - 🇨🇳:中国-ss-14.29.124.168:25252-可用-直连-完全不支持NF
+  - 🇨🇳:中国-ss-14.29.124.168:25259-可用-直连-完全不支持NF
+  - 🇨🇳:中国-ss-14.29.124.168:25256-可用-直连-完全不支持NF
   - 🇨🇳:中国-ss-14.29.124.168:25219-可用-直连-完全不支持NF
   - 🇨🇳:中国-ss-14.29.124.168:24046-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+  - 🇨🇳:中国-ss-14.29.124.168:24026-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.168:24006-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
-  - 🇨🇳:中国-ss-14.29.124.168:24004-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.168:24002-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.168:24000-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   - 🇨🇦:加拿大-ss-38.64.138.145:443-可用-直连-仅支持美国地区NF自制剧
@@ -651,8 +721,7 @@ proxy-groups:
   interval: 300
   proxies:
   - DIRECT
-  - 🇺🇸:美国-vmess-gcfree1.galaxy-cloud.icu:443-可用-中转:8.21.239.201-仅支持美国地区NF自制剧
-  - 🇺🇸:美国-vmess-107.150.7.216:24611-可用-直连-仅支持美国地区NF自制剧
+  - 🇺🇸:美国-vmess-lu1.gogogoo.cyou:443-可用-中转:107.189.11.246-仅支持卢森堡地区NF自制剧
   - 🇺🇸:美国-ss-38.91.100.27:443-可用-直连-仅支持美国地区NF自制剧
   - 🇺🇸:美国-ss-38.75.136.21:443-可用-直连-仅支持美国地区NF自制剧
   - 🇺🇸:美国-ss-38.75.136.102:443-可用-直连-仅支持美国地区NF自制剧
@@ -679,6 +748,9 @@ proxy-groups:
   - 🇺🇸:美国-ss-142.202.48.52:443-可用-直连-仅支持美国地区NF自制剧
   - 🇺🇸:美国-ss-134.195.198.95:443-可用-直连-仅支持加拿大地区NF自制剧
   - 🇺🇸:美国-ss-134.195.196.227:443-可用-直连-仅支持加拿大地区NF自制剧
+  - 🇸🇬:新加坡-vmess-v2ray1.udpgw.com:443-可用-中转:139.162.18.165-仅支持新加坡地区NF自制剧
+  - 🇸🇬:新加坡-vmess-singapore2.shopvpn.net:80-可用-中转:68.183.179.229-仅支持新加坡地区NF自制剧
+  - 🇯🇵:日本-vmess-mixv4-26.194610.xyz:4440-可用-中转:132.145.124.144-仅支持日本地区NF自制剧
   - 🇯🇵:日本-ss-140.238.55.138:10014-可用-直连-仅支持日本地区NF自制剧
   - 🇫🇷:法国-ss-155.133.130.93:443-可用-直连-仅支持法国地区NF自制剧
   - 🇫🇮:芬兰-ss-77.83.247.20:443-可用-直连-仅支持芬兰地区NF自制剧
@@ -686,15 +758,14 @@ proxy-groups:
   - 🇩🇪:德国-ss-193.108.117.75:443-可用-直连-仅支持德国地区NF自制剧
   - 🇩🇪:德国-ss-165.22.73.126:23335-可用-直连-仅支持德国地区NF自制剧
   - 🇨🇳:中国-ss-gzyd.qlyun.xyz:64663-可用-中转:8.34.202.69-仅支持新加坡地区NF自制剧
-  - 🇨🇳:中国-ss-180.163.62.91:10065-可用-中转:129.227.4.81-仅支持韩国地区NF自制剧
-  - 🇨🇳:中国-ss-14.29.124.174:11048-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
-  - 🇨🇳:中国-ss-14.29.124.174:11043-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.174:11041-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+  - 🇨🇳:中国-ss-14.29.124.174:11038-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.174:11036-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.174:11020-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
+  - 🇨🇳:中国-ss-14.29.124.174:11011-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.168:24046-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+  - 🇨🇳:中国-ss-14.29.124.168:24026-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.168:24006-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
-  - 🇨🇳:中国-ss-14.29.124.168:24004-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.168:24002-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   - 🇨🇳:中国-ss-14.29.124.168:24000-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   - 🇨🇦:加拿大-ss-38.64.138.145:443-可用-直连-仅支持美国地区NF自制剧
@@ -706,9 +777,12 @@ proxy-groups:
   interval: 300
   proxies:
   - DIRECT
+  - 🇻🇳:越南-vmess-vnidc1.project4gyuna.pw:80-可用-中转:171.244.57.13-解锁越南地区NF非自制剧
+  - 🇺🇸:美国-vmess-gcfree1.galaxy-cloud.icu:443-可用-中转:8.45.151.32-解锁美国地区NF非自制剧
+  - 🇮🇷:伊朗-vmess-srvf.myandroidplus1.ir:80-可用-中转:62.192.153.131-解锁德国地区NF非自制剧
+  - 🇬🇧:英国-vmess-ru1.lolvps.xyz:40047-可用-中转:185.80.200.92-解锁加拿大地区NF非自制剧
   - 🇨🇳:中国-vmess-cn.zzv07.infonode.xyz:17016-可用-中转:138.2.123.124-解锁韩国地区NF非自制剧
   - 🇨🇳:中国-vmess-cn.zzv02.infonode.xyz:17016-可用-中转:138.2.123.124-解锁韩国地区NF非自制剧
-  - 🇨🇳:中国-ss-gy.ziqiyun.xyz:44041-可用-中转:138.2.54.183-解锁日本地区NF非自制剧
 - name: 入口代理组
     # 中继代理组,不支持UDP协议。线路: clash <-> vmess <-> ss1 <-> ss2 <-> Internet
   type: select
