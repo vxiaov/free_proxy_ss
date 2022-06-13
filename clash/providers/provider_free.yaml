@@ -11,7 +11,7 @@ proxies:
   password: QazEdcTgb159@$*
   port: 25272
   cipher: aes-128-cfb
-- name: 🇩🇪:德国-ss-165.22.73.126:23335-可用-直连-仅支持德国地区NF自制剧
+- name: 🇩🇪:德国-ss-165.22.73.126:23335-可用-直连-不支持Netflix
   type: ss
   server: 165.22.73.126
   password: 7d99ae502227454ea998d71e4b62a388
@@ -41,25 +41,3 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   cipher: aes-256-cfb
-- name: 🇳🇱:荷兰-vmess-v3.ssrsub.com:18443-可用-中转:45.141.100.232-完全不支持NF
-  type: vmess
-  server: v3.ssrsub.com
-  network: ws
-  port: 18443
-  uuid: 2256dea6-b952-43f7-b8a2-983f766d5836
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /api/v3/download.getFile
-- name: 🇨🇳:中国-vmess-cn.zzv02.infonode.xyz:17013-可用-中转:139.162.81.30-仅支持日本地区NF自制剧
-  type: vmess
-  server: cn.zzv02.infonode.xyz
-  network: ws
-  port: 17013
-  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /v2ray
