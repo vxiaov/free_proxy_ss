@@ -1,4 +1,10 @@
 proxies:
+- name: 🇨🇳:中国-ss-gy.ziqiyun.xyz:44041-可用-中转:138.2.54.183-解锁日本地区NF非自制剧
+  type: ss
+  server: gy.ziqiyun.xyz
+  password: 297545c2-a59d-4610-9580-a7baa3657a57
+  port: 44041
+  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-45.66.134.176:807-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
   type: ss
   server: 45.66.134.176
@@ -46,12 +52,6 @@ proxies:
   server: 89.31.126.171
   password: G!yBwPWH3Vao
   port: 800
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-gy.ziqiyun.xyz:44041-被墙-中转:138.2.54.183-解锁日本地区NF非自制剧
-  type: ss
-  server: gy.ziqiyun.xyz
-  password: 297545c2-a59d-4610-9580-a7baa3657a57
-  port: 44041
   cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-138.68.248.130:811-被墙-直连-解锁美国地区NF非自制剧
   type: ss
@@ -125,3 +125,14 @@ proxies:
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-vmess-152.70.123.141:80-可用-直连-解锁美国地区NF非自制剧
+  type: vmess
+  server: 152.70.123.141
+  network: ws
+  port: 80
+  uuid: 60d31325-3a80-4d82-99d8-ebf3b3108a42
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: ''
