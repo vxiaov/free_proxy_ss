@@ -59,12 +59,6 @@ proxies:
   password: Ultr@r00t_2017
   port: 811
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-cmb.3sx.xyz:21005-被墙-中转:58.177.157.154-解锁新加坡地区NF非自制剧
-  type: ss
-  server: cmb.3sx.xyz
-  password: d80412a5-1757-48a5-b493-e2de1265cc11
-  port: 21005
-  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-45.66.134.176:810-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
   type: ss
   server: 45.66.134.176
@@ -82,6 +76,12 @@ proxies:
   server: 72.140.224.197
   password: G!yBwPWH3Vao
   port: 802
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-34.142.196.145:13856-被墙-直连-解锁新加坡地区NF非自制剧
+  type: ss
+  server: 34.142.196.145
+  password: XxIjXPk6xKuY
+  port: 13856
   cipher: chacha20-ietf-poly1305
 - name: 🇨🇾:塞浦路斯-ss-213.169.137.221:989-被墙-直连-解锁塞浦路斯地区NF非自制剧
   type: ss
@@ -131,31 +131,14 @@ proxies:
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-cmb.3sx.xyz:21003-被墙-中转:59.148.127.157-解锁新加坡地区NF非自制剧
-  type: ss
-  server: cmb.3sx.xyz
-  password: d80412a5-1757-48a5-b493-e2de1265cc11
-  port: 21003
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-vmess-gcfree1.galaxy-cloud.icu:443-可用-中转:8.21.239.54-解锁美国地区NF非自制剧
+- name: 🇨🇳:中国-vmess-cn.zzv05.infonode.xyz:17016-可用-中转:146.56.105.89-解锁韩国地区NF非自制剧
   type: vmess
-  server: gcfree1.galaxy-cloud.icu
+  server: cn.zzv05.infonode.xyz
   network: ws
-  port: 443
-  uuid: 99498865-751d-4889-8349-51301fa3d930
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /tDZcCqc
-- name: 🇨🇳:中国-vmess-no.xn--z7xp67e.com:59008-可用-中转:103.136.127.93-解锁新加坡地区NF非自制剧
-  type: vmess
-  server: no.xn--z7xp67e.com
-  network: ws
-  port: 59008
-  uuid: 8aeab1f3-a77c-30dd-87f2-44b1cd5ed8fd
+  port: 17016
+  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /HJ
+  ws-path: /v2ray
