@@ -1,9 +1,15 @@
 proxies:
-- name: 🇨🇳:中国-ss-cmb.3sx.xyz:21003-可用-中转:59.148.127.157-解锁新加坡地区NF非自制剧
+- name: 🇨🇳:中国-ss-cmb.3sx.xyz:11001-可用-中转:95.85.94.15-解锁新加坡地区NF非自制剧
   type: ss
   server: cmb.3sx.xyz
   password: d80412a5-1757-48a5-b493-e2de1265cc11
-  port: 21003
+  port: 11001
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-cmb.3sx.xyz:21005-可用-中转:58.177.157.154-解锁新加坡地区NF非自制剧
+  type: ss
+  server: cmb.3sx.xyz
+  password: d80412a5-1757-48a5-b493-e2de1265cc11
+  port: 21005
   cipher: chacha20-ietf-poly1305
 - name: 🇨🇦:加拿大-ss-72.140.224.197:806-被墙-直连-解锁加拿大地区NF非自制剧
   type: ss
@@ -34,6 +40,18 @@ proxies:
   server: 138.68.248.130
   password: Ultr@r00t_2017
   port: 811
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-cmb.3sx.xyz:21003-被墙-中转:59.148.127.157-解锁新加坡地区NF非自制剧
+  type: ss
+  server: cmb.3sx.xyz
+  password: d80412a5-1757-48a5-b493-e2de1265cc11
+  port: 21003
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-cmb.3sx.xyz:21003-可用-中转:59.148.127.157-解锁新加坡地区NF非自制剧
+  type: ss
+  server: cmb.3sx.xyz
+  password: d80412a5-1757-48a5-b493-e2de1265cc11
+  port: 21003
   cipher: chacha20-ietf-poly1305
 - name: 🇨🇦:加拿大-ss-72.140.224.197:801-被墙-直连-解锁加拿大地区NF非自制剧
   type: ss
@@ -89,25 +107,3 @@ proxies:
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-vmess-sg01.czsx1624.tk:443-可用-中转:138.2.88.131-解锁新加坡地区NF非自制剧
-  type: vmess
-  server: sg01.czsx1624.tk
-  network: ws
-  port: 443
-  uuid: d002b422-eace-4e01-bf58-e4bb0bcfe7af
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /3a8545177/
-- name: 🇨🇳:中国-vmess-tw01.henet.cyou:20000-可用-中转:36.227.220.101-解锁台湾地区NF非自制剧
-  type: vmess
-  server: tw01.henet.cyou
-  network: ws
-  port: 20000
-  uuid: 6e367f02-4586-4f27-acff-2da9f1af6b23
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /live
