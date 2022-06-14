@@ -5,23 +5,17 @@ proxies:
   password: l4pUPEfCh9bzDmno
   port: 1138
   cipher: aes-256-gcm
-- name: 🇮🇷:伊朗-ss-78.157.40.105:28222-可用-中转:46.226.109.70-仅支持卢森堡地区NF自制剧
+- name: 🇨🇳:中国-ss-14.29.124.174:11033-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
   type: ss
-  server: 78.157.40.105
-  password: QuY5J4qbFXht9dm8
-  port: 28222
-  cipher: aes-256-gcm
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11033
+  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:25283-可用-直连-完全不支持NF
   type: ss
   server: 14.29.124.168
   password: QazEdcTgb159@$*
   port: 25283
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:24000-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24000
   cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:25256-可用-直连-完全不支持NF
   type: ss
@@ -101,24 +95,30 @@ proxies:
   password: QazEdcTgb159@$*
   port: 24008
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11016-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11016
-  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-180.163.62.91:10065-可用-中转:129.227.4.81-仅支持韩国地区NF自制剧
   type: ss
   server: 180.163.62.91
   password: QazEdcTgb159@$*
   port: 10065
   cipher: aes-128-cfb
+- name: 🇮🇷:伊朗-ss-78.157.40.105:28222-可用-中转:46.226.109.70-仅支持卢森堡地区NF自制剧
+  type: ss
+  server: 78.157.40.105
+  password: QuY5J4qbFXht9dm8
+  port: 28222
+  cipher: aes-256-gcm
 - name: 🇩🇪:德国-ss-165.22.73.126:23335-可用-直连-仅支持德国地区NF自制剧
   type: ss
   server: 165.22.73.126
   password: 7d99ae502227454ea998d71e4b62a388
   port: 23335
   cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24003-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24003
+  cipher: aes-128-cfb
 - name: 🇬🇧:英国-vmess-v2.ssrsub.com:18443-可用-中转:45.8.230.253-完全不支持NF
   type: vmess
   server: v2.ssrsub.com
@@ -141,6 +141,17 @@ proxies:
   udp: false
   tls: true
   ws-path: /chat
+- name: 🇺🇸:美国-vmess-lu1.gogogoo.cyou:443-可用-中转:107.189.11.246-仅支持卢森堡地区NF自制剧
+  type: vmess
+  server: lu1.gogogoo.cyou
+  network: ws
+  port: 443
+  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /go
 - name: 🇺🇸:美国-vmess-v1.ssrsub.com:8443-可用-中转:193.38.51.192-完全不支持NF
   type: vmess
   server: v1.ssrsub.com
