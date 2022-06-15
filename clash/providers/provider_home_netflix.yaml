@@ -23,6 +23,12 @@ proxies:
   password: pZNq5KPuhe9sz1MV
   port: 14500
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-167.88.61.2:807-可用-直连-仅支持美国地区NF自制剧
+  type: ss
+  server: 167.88.61.2
+  password: G!yBwPWH3Vao
+  port: 807
+  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-38.143.66.99:8118-可用-直连-仅支持美国地区NF自制剧
   type: ss
   server: 38.143.66.99
@@ -34,12 +40,6 @@ proxies:
   server: 217.138.193.6
   password: G!yBwPWH3Vao
   port: 809
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-167.88.61.2:807-可用-直连-仅支持美国地区NF自制剧
-  type: ss
-  server: 167.88.61.2
-  password: G!yBwPWH3Vao
-  port: 807
   cipher: chacha20-ietf-poly1305
 - name: 🇨🇦:加拿大-ss-198.57.27.225:7001-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
@@ -58,12 +58,6 @@ proxies:
   server: 198.57.27.225
   password: cdBIDV42DCwnfIN
   port: 8118
-  cipher: aes-256-gcm
-- name: 🇮🇷:伊朗-ss-185.112.151.147:101-可用-中转:217.70.189.118-仅支持法国地区NF自制剧
-  type: ss
-  server: 185.112.151.147
-  password: SnFKf1vmcpPDN8Rs
-  port: 101
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.61.50:2375-可用-直连-仅支持美国地区NF自制剧
   type: ss
@@ -94,6 +88,12 @@ proxies:
   server: 167.88.61.2
   password: G!yBwPWH3Vao
   port: 812
+  cipher: chacha20-ietf-poly1305
+- name: 🇯🇵:日本-ss-185.160.24.217:803-可用-直连-仅支持日本地区NF自制剧
+  type: ss
+  server: 185.160.24.217
+  password: G!yBwPWH3Vao
+  port: 803
   cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-167.88.61.50:8091-可用-直连-仅支持美国地区NF自制剧
   type: ss
@@ -149,11 +149,11 @@ proxies:
   password: G!yBwPWH3Vao
   port: 803
   cipher: chacha20-ietf-poly1305
-- name: 🇷🇺:俄罗斯-ss-217.30.10.63:9042-可用-直连-仅支持波兰地区NF自制剧
+- name: 🇷🇺:俄罗斯-ss-217.30.10.63:9093-可用-直连-仅支持波兰地区NF自制剧
   type: ss
   server: 217.30.10.63
-  password: S7KwUu7yBy58S3Ga
-  port: 9042
+  password: wfLC2y7rzZyCmuyt
+  port: 9093
   cipher: aes-256-cfb
 - name: 🇷🇺:俄罗斯-ss-217.30.10.63:9056-可用-直连-仅支持波兰地区NF自制剧
   type: ss
@@ -191,30 +191,18 @@ proxies:
   password: GA9KzeEgvfxNrgmM
   port: 9019
   cipher: aes-256-cfb
-- name: 🇳🇱:荷兰-ss-213.183.59.211:9027-可用-直连-仅支持荷兰地区NF自制剧
-  type: ss
-  server: 213.183.59.211
-  password: EXN3S3eQpjE7EJu8
-  port: 9027
-  cipher: aes-256-cfb
 - name: 🇦🇺:澳大利亚-ss-185.167.116.252:9011-可用-直连-仅支持澳大利亚地区NF自制剧
   type: ss
   server: 185.167.116.252
   password: M3t2ZEQcMGRWBjRa
   port: 9011
   cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-217.30.10.67:9015-可用-直连-仅支持波兰地区NF自制剧
+- name: 🇨🇳:中国-ss-14.29.124.168:24026-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   type: ss
-  server: 217.30.10.67
-  password: ZpNDDKRu9MagNvaf
-  port: 9015
-  cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-217.30.10.68:9046-可用-直连-仅支持波兰地区NF自制剧
-  type: ss
-  server: 217.30.10.68
-  password: NvS8N4Vf8qAGPSCL
-  port: 9046
-  cipher: aes-256-cfb
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24026
+  cipher: aes-128-cfb
 - name: 🇦🇺:澳大利亚-ss-185.167.116.253:9073-可用-直连-仅支持澳大利亚地区NF自制剧
   type: ss
   server: 185.167.116.253
@@ -226,24 +214,6 @@ proxies:
   server: 217.30.10.63
   password: rpgbNnU9rDDU4aWZ
   port: 9094
-  cipher: aes-256-cfb
-- name: 🇳🇱:荷兰-ss-213.183.51.172:9025-可用-直连-仅支持荷兰地区NF自制剧
-  type: ss
-  server: 213.183.51.172
-  password: XPtzA9sCug3SPR4c
-  port: 9025
-  cipher: aes-256-cfb
-- name: 🇧🇬:保加利亚-ss-213.183.63.218:9033-可用-直连-仅支持保加利亚地区NF自制剧
-  type: ss
-  server: 213.183.63.218
-  password: UTJA57ypk2XKQpnm
-  port: 9033
-  cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-217.30.10.67:9057-可用-直连-仅支持波兰地区NF自制剧
-  type: ss
-  server: 217.30.10.67
-  password: wjTugX3ZtHMB9c3Z
-  port: 9057
   cipher: aes-256-cfb
 - name: 🇳🇱:荷兰-ss-185.246.155.46:9094-可用-直连-仅支持荷兰地区NF自制剧
   type: ss
@@ -257,29 +227,11 @@ proxies:
   password: aLpQtfEZe445QyHk
   port: 9098
   cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-217.30.10.67:9094-可用-直连-仅支持波兰地区NF自制剧
-  type: ss
-  server: 217.30.10.67
-  password: rpgbNnU9rDDU4aWZ
-  port: 9094
-  cipher: aes-256-cfb
 - name: 🇳🇱:荷兰-ss-213.183.59.185:9064-可用-直连-仅支持荷兰地区NF自制剧
   type: ss
   server: 213.183.59.185
   password: cp8pRSUAyLhTfVWH
   port: 9064
-  cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-217.30.10.67:9008-可用-直连-仅支持波兰地区NF自制剧
-  type: ss
-  server: 217.30.10.67
-  password: y9VURyNzJWNRYEGQ
-  port: 9008
-  cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-217.30.10.68:9033-可用-直连-仅支持波兰地区NF自制剧
-  type: ss
-  server: 217.30.10.68
-  password: UTJA57ypk2XKQpnm
-  port: 9033
   cipher: aes-256-cfb
 - name: 🇦🇺:澳大利亚-ss-185.167.116.24:9056-可用-直连-仅支持澳大利亚地区NF自制剧
   type: ss
@@ -317,12 +269,6 @@ proxies:
   password: FG5ddLsMPbV5CutE
   port: 9050
   cipher: aes-256-cfb
-- name: 🇳🇱:荷兰-ss-213.183.59.206:9031-可用-直连-仅支持荷兰地区NF自制剧
-  type: ss
-  server: 213.183.59.206
-  password: BwcAUZk8hUFAkDGN
-  port: 9031
-  cipher: aes-256-cfb
 - name: 🇦🇺:澳大利亚-ss-185.167.116.252:9015-可用-直连-仅支持澳大利亚地区NF自制剧
   type: ss
   server: 185.167.116.252
@@ -346,12 +292,6 @@ proxies:
   server: 185.167.116.253
   password: rNBfNuuANFCAk7KB
   port: 9056
-  cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-217.30.10.67:9001-可用-直连-仅支持波兰地区NF自制剧
-  type: ss
-  server: 217.30.10.67
-  password: UkXRsXvR6buDMG2Y
-  port: 9001
   cipher: aes-256-cfb
 - name: 🇳🇱:荷兰-ss-213.183.51.172:9070-可用-直连-仅支持荷兰地区NF自制剧
   type: ss
@@ -425,18 +365,6 @@ proxies:
   password: cp8pRSUAyLhTfVWH
   port: 9064
   cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-217.30.10.64:9024-可用-直连-仅支持波兰地区NF自制剧
-  type: ss
-  server: 217.30.10.64
-  password: BejrQvtu9sqUeNuZ
-  port: 9024
-  cipher: aes-256-cfb
-- name: 🇳🇱:荷兰-ss-213.183.59.229:9084-可用-直连-仅支持荷兰地区NF自制剧
-  type: ss
-  server: 213.183.59.229
-  password: c3NtHJ5ujV2tGDfj
-  port: 9084
-  cipher: aes-256-cfb
 - name: 🇸🇪:瑞典-ss-194.71.126.31:989-可用-直连-仅支持苏里南地区NF自制剧
   type: ss
   server: 194.71.126.31
@@ -455,17 +383,11 @@ proxies:
   password: BejrQvtu9sqUeNuZ
   port: 9024
   cipher: aes-256-cfb
-- name: 🇳🇱:荷兰-ss-213.183.59.211:9073-可用-直连-仅支持荷兰地区NF自制剧
+- name: 🇷🇺:俄罗斯-ss-217.30.10.67:9000-可用-直连-仅支持波兰地区NF自制剧
   type: ss
-  server: 213.183.59.211
-  password: daFYagqDdBdA6VTX
-  port: 9073
-  cipher: aes-256-cfb
-- name: 🇳🇱:荷兰-ss-213.183.59.206:9019-可用-直连-仅支持荷兰地区NF自制剧
-  type: ss
-  server: 213.183.59.206
-  password: GA9KzeEgvfxNrgmM
-  port: 9019
+  server: 217.30.10.67
+  password: a3GFYt36Sm82Vys9
+  port: 9000
   cipher: aes-256-cfb
 - name: 🇳🇱:荷兰-ss-213.183.59.218:9026-可用-直连-仅支持荷兰地区NF自制剧
   type: ss
@@ -485,17 +407,23 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   cipher: aes-256-cfb
-- name: 🇧🇬:保加利亚-ss-213.183.63.219:9008-可用-直连-仅支持保加利亚地区NF自制剧
-  type: ss
-  server: 213.183.63.219
-  password: y9VURyNzJWNRYEGQ
-  port: 9008
-  cipher: aes-256-cfb
 - name: 🇳🇱:荷兰-ss-213.183.51.172:9000-可用-直连-仅支持荷兰地区NF自制剧
   type: ss
   server: 213.183.51.172
   password: a3GFYt36Sm82Vys9
   port: 9000
+  cipher: aes-256-cfb
+- name: 🇷🇺:俄罗斯-ss-217.30.10.67:9097-可用-直连-仅支持波兰地区NF自制剧
+  type: ss
+  server: 217.30.10.67
+  password: Sn5B7jTqr76aCJT8
+  port: 9097
+  cipher: aes-256-cfb
+- name: 🇷🇺:俄罗斯-ss-217.30.10.67:9079-可用-直连-仅支持波兰地区NF自制剧
+  type: ss
+  server: 217.30.10.67
+  password: TPqX8edgbAURcAMb
+  port: 9079
   cipher: aes-256-cfb
 - name: 🇧🇬:保加利亚-ss-213.183.63.221:9038-可用-直连-仅支持保加利亚地区NF自制剧
   type: ss
@@ -515,23 +443,11 @@ proxies:
   password: f8npKgNzdkss2ytn
   port: 9088
   cipher: aes-256-cfb
-- name: 🇳🇱:荷兰-ss-213.183.59.206:9024-可用-直连-仅支持荷兰地区NF自制剧
-  type: ss
-  server: 213.183.59.206
-  password: BejrQvtu9sqUeNuZ
-  port: 9024
-  cipher: aes-256-cfb
 - name: 🇳🇱:荷兰-ss-185.246.155.29:9003-可用-直连-仅支持荷兰地区NF自制剧
   type: ss
   server: 185.246.155.29
   password: JdmRK9gMEqFgs8nP
   port: 9003
-  cipher: aes-256-cfb
-- name: 🇩🇪:德国-ss-165.22.73.126:23335-可用-直连-仅支持德国地区NF自制剧
-  type: ss
-  server: 165.22.73.126
-  password: 7d99ae502227454ea998d71e4b62a388
-  port: 23335
   cipher: aes-256-cfb
 - name: 🇳🇱:荷兰-ss-213.183.59.229:9025-可用-直连-仅支持荷兰地区NF自制剧
   type: ss
@@ -563,6 +479,12 @@ proxies:
   password: c3NtHJ5ujV2tGDfj
   port: 9084
   cipher: aes-256-cfb
+- name: 🇷🇺:俄罗斯-ss-217.30.10.67:9020-可用-直连-仅支持波兰地区NF自制剧
+  type: ss
+  server: 217.30.10.67
+  password: BNmAXXxAHYpTRdzu
+  port: 9020
+  cipher: aes-256-cfb
 - name: 🇳🇱:荷兰-ss-213.183.51.172:9073-可用-直连-仅支持荷兰地区NF自制剧
   type: ss
   server: 213.183.51.172
@@ -575,12 +497,24 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   cipher: aes-256-cfb
+- name: 🇳🇱:荷兰-ss-213.183.51.172:9064-可用-直连-仅支持荷兰地区NF自制剧
+  type: ss
+  server: 213.183.51.172
+  password: cp8pRSUAyLhTfVWH
+  port: 9064
+  cipher: aes-256-cfb
 - name: 🇧🇬:保加利亚-ss-213.183.63.217:9001-可用-直连-仅支持保加利亚地区NF自制剧
   type: ss
   server: 213.183.63.217
   password: UkXRsXvR6buDMG2Y
   port: 9001
   cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24008-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24008
+  cipher: aes-128-cfb
 - name: 🇳🇱:荷兰-ss-213.183.59.211:9088-可用-直连-仅支持荷兰地区NF自制剧
   type: ss
   server: 213.183.59.211
@@ -593,12 +527,18 @@ proxies:
   password: p9z5BVADH2YFs3MN
   port: 9040
   cipher: aes-256-cfb
-- name: 🇳🇱:荷兰-ss-213.183.59.218:9043-可用-直连-仅支持荷兰地区NF自制剧
+- name: 🇧🇬:保加利亚-ss-213.183.63.218:9007-可用-直连-仅支持保加利亚地区NF自制剧
   type: ss
-  server: 213.183.59.218
-  password: HSZuyJQcWe8dxNdF
-  port: 9043
+  server: 213.183.63.218
+  password: kSPmvwdFzGMMW5pY
+  port: 9007
   cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24004-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24004
+  cipher: aes-128-cfb
 - name: 🇧🇬:保加利亚-ss-213.183.63.217:9003-可用-直连-仅支持保加利亚地区NF自制剧
   type: ss
   server: 213.183.63.217
@@ -629,12 +569,34 @@ proxies:
   password: fG2artUmHfNT2cX7
   port: 9018
   cipher: aes-256-cfb
+- name: 🇳🇱:荷兰-ss-213.183.59.206:9007-可用-直连-仅支持荷兰地区NF自制剧
+  type: ss
+  server: 213.183.59.206
+  password: kSPmvwdFzGMMW5pY
+  port: 9007
+  cipher: aes-256-cfb
 - name: 🇺🇸:美国-ss-165.232.169.142:29332-可用-直连-仅支持新加坡地区NF自制剧
   type: ss
   server: 165.232.169.142
   password: 1e5111699c45496da84112f35db665c4
   port: 29332
   cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24001-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24001
+  cipher: aes-128-cfb
+- name: 🇳🇱:荷兰-ssr-213.183.59.214:9084-可用-直连-仅支持荷兰地区NF自制剧
+  type: ssr
+  server: 213.183.59.214
+  password: c3NtHJ5ujV2tGDfj
+  obfs: plain
+  protocol: origin
+  port: 9084
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 🇳🇱:荷兰-ssr-213.183.59.211:9025-可用-直连-仅支持荷兰地区NF自制剧
   type: ssr
   server: 213.183.59.211
@@ -642,6 +604,16 @@ proxies:
   obfs: plain
   protocol: origin
   port: 9025
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇳🇱:荷兰-ssr-213.183.59.214:9020-可用-直连-仅支持荷兰地区NF自制剧
+  type: ssr
+  server: 213.183.59.214
+  password: BNmAXXxAHYpTRdzu
+  obfs: plain
+  protocol: origin
+  port: 9020
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
@@ -662,16 +634,6 @@ proxies:
   obfs: plain
   protocol: origin
   port: 9000
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
-- name: 🇳🇱:荷兰-ssr-213.183.59.206:9059-可用-直连-仅支持荷兰地区NF自制剧
-  type: ssr
-  server: 213.183.59.206
-  password: 9XwYyZsK8SNzQDtY
-  obfs: plain
-  protocol: origin
-  port: 9059
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
@@ -697,6 +659,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /live
+- name: 🇺🇸:美国-vmess-104.149.154.154:25966-可用-直连-仅支持美国地区NF自制剧
+  type: vmess
+  server: 104.149.154.154
+  network: ws
+  port: 25966
+  uuid: ca06e0f0-ca6e-418f-800d-97b23ba51bca
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /VTd4o3Kj/
 - name: 🇺🇸:美国-vmess-mixv4-28.194610.xyz:4430-可用-中转:45.66.130.191-仅支持日本地区NF自制剧
   type: vmess
   server: mixv4-28.194610.xyz
@@ -708,6 +681,17 @@ proxies:
   udp: false
   tls: true
   ws-path: /a185d5dc-c726-466c-98f2-ba494e63695f
+- name: 🇺🇸:美国-vmess-159.223.48.47:80-可用-直连-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: 159.223.48.47
+  network: ws
+  port: 80
+  uuid: 751b7ae2-49b3-4950-97a2-145f2ab7a228
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: ''
 - name: 🇨🇳:中国-vmess-154.91.164.74:11211-可用-直连-仅支持香港地区NF自制剧
   type: vmess
   server: 154.91.164.74
