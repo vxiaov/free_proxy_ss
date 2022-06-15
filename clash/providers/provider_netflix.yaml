@@ -5,12 +5,6 @@ proxies:
   password: 94ff1ce8-30d2-4b8f-8973-e7046364f260
   port: 20012
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-gx3.mayiyun.shop:10014-可用-中转:138.2.74.177-解锁新加坡地区NF非自制剧
-  type: ss
-  server: gx3.mayiyun.shop
-  password: 94ff1ce8-30d2-4b8f-8973-e7046364f260
-  port: 10014
-  cipher: aes-256-gcm
 - name: 🇯🇵:日本-ss-45.66.134.176:807-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
   type: ss
   server: 45.66.134.176
@@ -47,6 +41,12 @@ proxies:
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-gx3.mayiyun.shop:10014-被墙-中转:138.2.74.177-解锁新加坡地区NF非自制剧
+  type: ss
+  server: gx3.mayiyun.shop
+  password: 94ff1ce8-30d2-4b8f-8973-e7046364f260
+  port: 10014
+  cipher: aes-256-gcm
 - name: 🇯🇵:日本-ss-45.66.134.176:809-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
   type: ss
   server: 45.66.134.176
@@ -137,25 +137,3 @@ proxies:
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-vmess-152.69.206.209:1212-可用-直连-解锁日本地区NF非自制剧
-  type: vmess
-  server: 152.69.206.209
-  network: ws
-  port: 1212
-  uuid: fb908160-9697-4bfd-f5b7-f1fbc53e60fa
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇬🇧:英国-vmess-chunchuan-02.aikala.shop:80-可用-中转:144.24.94.234-解锁韩国地区NF非自制剧
-  type: vmess
-  server: chunchuan-02.aikala.shop
-  network: ws
-  port: 80
-  uuid: 9aedaf83-e3d0-4003-a1ad-94fb64a60404
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
