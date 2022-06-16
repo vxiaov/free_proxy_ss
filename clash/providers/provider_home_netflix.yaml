@@ -5,11 +5,23 @@ proxies:
   password: 4b5d7ed5-e1a3-4947-b955-58a39a29cc29
   port: 39087
   cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-zh01lv5ca03.feiguayun.xyz:37087-可用-中转:172.105.17.53-仅支持加拿大地区NF自制剧
+  type: ss
+  server: zh01lv5ca03.feiguayun.xyz
+  password: 4b5d7ed5-e1a3-4947-b955-58a39a29cc29
+  port: 37087
+  cipher: aes-256-gcm
 - name: 🇯🇵:日本-ss-85.208.108.20:7002-可用-中转:85.208.108.18-仅支持日本地区NF自制剧
   type: ss
   server: 85.208.108.20
   password: RexnBgU7EV5ADxG
   port: 7002
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-159.223.50.45:2017-可用-直连-仅支持新加坡地区NF自制剧
+  type: ss
+  server: 159.223.50.45
+  password: adminss
+  port: 2017
   cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-zh01lv5uk04.feiguayun.xyz:35087-可用-中转:176.58.101.189-仅支持英国地区NF自制剧
   type: ss
@@ -41,18 +53,18 @@ proxies:
   password: TEzjfAYq2IjtuoS
   port: 6697
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-zh01lv5hk06.feiguayun.xyz:31087-可用-中转:20.239.89.193-仅支持香港地区NF自制剧
+- name: 🇺🇦:乌克兰-ss-77.120.115.235:444-可用-直连-仅支持乌克兰地区NF自制剧
   type: ss
-  server: zh01lv5hk06.feiguayun.xyz
-  password: efafd384-706a-4539-a169-5726c3d51516
-  port: 31087
-  cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-zh01lv5ge04.feiguayun.xyz:36087-可用-中转:172.105.72.225-仅支持德国地区NF自制剧
+  server: 77.120.115.235
+  password: Fowwipho
+  port: 444
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-5.181.234.254:809-可用-直连-仅支持美国地区NF自制剧
   type: ss
-  server: zh01lv5ge04.feiguayun.xyz
-  password: 4b5d7ed5-e1a3-4947-b955-58a39a29cc29
-  port: 36087
-  cipher: aes-256-gcm
+  server: 5.181.234.254
+  password: G!yBwPWH3Vao
+  port: 809
+  cipher: chacha20-ietf-poly1305
 - name: 🇨🇳:中国-ss-zh01lv5sgp03.feiguayun.xyz:34087-可用-中转:45.118.132.179-仅支持新加坡地区NF自制剧
   type: ss
   server: zh01lv5sgp03.feiguayun.xyz
@@ -83,9 +95,36 @@ proxies:
   password: efafd384-706a-4539-a169-5726c3d51516
   port: 34087
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-14.29.124.168:24002-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+- name: 🇩🇪:德国-ss-51.15.0.113:989-可用-直连-仅支持荷兰地区NF自制剧
   type: ss
+  server: 51.15.0.113
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  cipher: aes-256-cfb
+- name: 🇱🇺:卢森堡-ss-172.255.248.35:989-可用-直连-仅支持卢森堡地区NF自制剧
+  type: ss
+  server: 172.255.248.35
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  cipher: aes-256-cfb
+- name: 🇨🇳:中国-ssr-14.29.124.168:24001-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+  type: ssr
   server: 14.29.124.168
   password: QazEdcTgb159@$*
-  port: 24002
+  obfs: plain
+  protocol: origin
+  port: 24001
   cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇺🇸:美国-vmess-104.149.154.154:25966-可用-直连-仅支持美国地区NF自制剧
+  type: vmess
+  server: 104.149.154.154
+  network: ws
+  port: 25966
+  uuid: ca06e0f0-ca6e-418f-800d-97b23ba51bca
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /VTd4o3Kj/
