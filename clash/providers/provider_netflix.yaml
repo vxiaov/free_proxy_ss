@@ -1,4 +1,10 @@
 proxies:
+- name: 🇨🇳:中国-ss-zh01lv5tw02.feiguayun.xyz:31187-可用-中转:220.142.10.22-解锁台湾地区NF非自制剧
+  type: ss
+  server: zh01lv5tw02.feiguayun.xyz
+  password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc
+  port: 31187
+  cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-zh01lv5tw01.feiguayun.xyz:31187-可用-中转:220.142.10.22-解锁台湾地区NF非自制剧
   type: ss
   server: zh01lv5tw01.feiguayun.xyz
@@ -77,18 +83,6 @@ proxies:
   password: wjTugX3ZtHMB9c3Z
   port: 9057
   cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9042-可用-直连-解锁瑞士地区NF非自制剧
-  type: ss
-  server: 185.126.116.119
-  password: S7KwUu7yBy58S3Ga
-  port: 9042
-  cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9010-可用-直连-解锁瑞士地区NF非自制剧
-  type: ss
-  server: 185.126.116.119
-  password: f63gg8EruDnUrmz4
-  port: 9010
-  cipher: aes-256-cfb
 - name: 🇯🇵:日本-ss-45.66.134.176:810-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
   type: ss
   server: 45.66.134.176
@@ -107,7 +101,7 @@ proxies:
   password: G!yBwPWH3Vao
   port: 802
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-zh01lv5tw02.feiguayun.xyz:31187-被墙-中转:220.142.56.52-解锁台湾地区NF非自制剧
+- name: 🇨🇳:中国-ss-zh01lv5tw02.feiguayun.xyz:31187-被墙-中转:220.142.10.22-解锁台湾地区NF非自制剧
   type: ss
   server: zh01lv5tw02.feiguayun.xyz
   password: 90a7d86e-6f6a-4230-b89b-03cfd7fe70dc
@@ -143,3 +137,36 @@ proxies:
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-vmess-v04.ssrsub.com:153-可用-中转:150.230.182.188-解锁美国地区NF非自制剧
+  type: vmess
+  server: v04.ssrsub.com
+  network: ws
+  port: 153
+  uuid: 2256dea6-b952-43f7-b8a2-983f766d5836
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /api/v3/download.getFile
+- name: 🇺🇸:美国-vmess-152.69.206.209:1212-可用-直连-解锁日本地区NF非自制剧
+  type: vmess
+  server: 152.69.206.209
+  network: ws
+  port: 1212
+  uuid: fb908160-9697-4bfd-f5b7-f1fbc53e60fa
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇺🇸:美国-vmess-sg01.czsx1624.tk:443-可用-中转:138.2.88.131-解锁新加坡地区NF非自制剧
+  type: vmess
+  server: sg01.czsx1624.tk
+  network: ws
+  port: 443
+  uuid: d002b422-eace-4e01-bf58-e4bb0bcfe7af
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /3a8545177/
