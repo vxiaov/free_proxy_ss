@@ -1,16 +1,4 @@
 proxies:
-- name: 🇨🇳:中国-ss-zh01lv5tw03.feiguayun.xyz:31187-可用-中转:220.142.12.16-解锁台湾地区NF非自制剧
-  type: ss
-  server: zh01lv5tw03.feiguayun.xyz
-  password: 763d291b-90ac-49a2-90c5-12bd393d4f45
-  port: 31187
-  cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-gy.ziqiyun.xyz:56072-可用-中转:220.246.250.175-解锁香港地区NF非自制剧
-  type: ss
-  server: gy.ziqiyun.xyz
-  password: d975d166-f2b7-4072-a31a-edbe5c097011
-  port: 56072
-  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-45.66.134.176:807-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
   type: ss
   server: 45.66.134.176
@@ -40,6 +28,12 @@ proxies:
   server: 45.66.134.176
   password: G!yBwPWH3Vao
   port: 801
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-gy.ziqiyun.xyz:56072-被墙-中转:220.246.250.175-解锁香港地区NF非自制剧
+  type: ss
+  server: gy.ziqiyun.xyz
+  password: d975d166-f2b7-4072-a31a-edbe5c097011
+  port: 56072
   cipher: chacha20-ietf-poly1305
 - name: 🇨🇦:加拿大-ss-72.140.224.197:812-被墙-直连-解锁加拿大地区NF非自制剧
   type: ss
@@ -83,12 +77,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 802
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇾:塞浦路斯-ss-213.169.137.221:989-被墙-直连-解锁塞浦路斯地区NF非自制剧
-  type: ss
-  server: 213.169.137.221
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  cipher: aes-256-cfb
 - name: 🇯🇵:日本-ss-89.31.126.150:802-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧
   type: ss
   server: 89.31.126.150
@@ -101,12 +89,6 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-zh01lv5tw03.feiguayun.xyz:31187-被墙-中转:220.142.12.16-解锁台湾地区NF非自制剧
-  type: ss
-  server: zh01lv5tw03.feiguayun.xyz
-  password: 763d291b-90ac-49a2-90c5-12bd393d4f45
-  port: 31187
-  cipher: aes-256-gcm
 - name: 🇬🇧:英国-ss-83.229.73.60:50003-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
   server: 83.229.73.60
@@ -131,14 +113,3 @@ proxies:
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-vmess-v04.ssrsub.com:153-可用-中转:150.230.182.188-解锁美国地区NF非自制剧
-  type: vmess
-  server: v04.ssrsub.com
-  network: ws
-  port: 153
-  uuid: 640e3ef0-9c44-49a8-98f6-0895b11eecd6
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /api/v3/download.getFile
