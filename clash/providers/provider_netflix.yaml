@@ -1,4 +1,10 @@
 proxies:
+- name: 🇨🇳:中国-ss-gy.ziqiyun.xyz:56072-可用-中转:220.246.250.175-解锁香港地区NF非自制剧
+  type: ss
+  server: gy.ziqiyun.xyz
+  password: d975d166-f2b7-4072-a31a-edbe5c097011
+  port: 56072
+  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-45.66.134.176:807-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
   type: ss
   server: 45.66.134.176
@@ -107,17 +113,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-vmess-152.69.199.111:80-可用-直连-解锁日本地区NF非自制剧
-  type: vmess
-  server: 152.69.199.111
-  network: ws
-  port: 80
-  uuid: 1e9f956b-1720-4519-b5c9-333247f6c23f
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
 - name: 🇺🇸:美国-vmess-v04.ssrsub.com:153-可用-中转:150.230.182.188-解锁美国地区NF非自制剧
   type: vmess
   server: v04.ssrsub.com
@@ -129,14 +124,3 @@ proxies:
   udp: false
   tls: false
   ws-path: /api/v3/download.getFile
-- name: 🇺🇸:美国-vmess-sg01.czsx1624.tk:443-可用-中转:138.2.88.131-解锁新加坡地区NF非自制剧
-  type: vmess
-  server: sg01.czsx1624.tk
-  network: ws
-  port: 443
-  uuid: d002b422-eace-4e01-bf58-e4bb0bcfe7af
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /3a8545177/
