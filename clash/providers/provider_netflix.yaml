@@ -107,12 +107,23 @@ proxies:
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
-- name: 🇯🇵:日本-vmess-146.56.47.161:80-可用-直连-解锁韩国地区NF非自制剧
+- name: 🇺🇸:美国-vmess-v05.ssrsub.com:153-可用-中转:150.230.185.182-解锁美国地区NF非自制剧
   type: vmess
-  server: 146.56.47.161
+  server: v05.ssrsub.com
+  network: ws
+  port: 153
+  uuid: 640e3ef0-9c44-49a8-98f6-0895b11eecd6
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /api/v3/download.getFile
+- name: 🇬🇧:英国-vmess-chunchuan-02.aikala.shop:80-可用-中转:144.24.94.234-解锁韩国地区NF非自制剧
+  type: vmess
+  server: chunchuan-02.aikala.shop
   network: ws
   port: 80
-  uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e
+  uuid: a6d2838b-1027-4800-b664-16840d156d62
   alterId: 4
   cipher: auto
   udp: false
