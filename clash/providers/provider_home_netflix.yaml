@@ -1,12 +1,19 @@
 proxies:
-- name: 🇺🇸:美国-vmess-v47.v2dns.bar:2052-可用-中转:134.195.138.17-仅支持美国地区NF自制剧
-  type: vmess
-  server: v47.v2dns.bar
-  network: ws
-  port: 2052
-  uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /v47-unlimitndxd
+- name: 🇺🇸:美国-ss-165.232.169.142:29332-可用-直连-仅支持新加坡地区NF自制剧
+  type: ss
+  server: 165.232.169.142
+  password: 1e5111699c45496da84112f35db665c4
+  port: 29332
+  cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24046-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24046
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24009-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24009
+  cipher: aes-128-cfb
