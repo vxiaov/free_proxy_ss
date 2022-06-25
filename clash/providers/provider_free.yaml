@@ -1,9 +1,27 @@
 proxies:
-- name: 🇨🇳:中国-ss-14.29.124.168:25289-可用-直连-完全不支持NF
+- name: 🇨🇳:中国-ss-14.29.124.168:25295-可用-直连-完全不支持NF
   type: ss
   server: 14.29.124.168
   password: QazEdcTgb159@$*
-  port: 25289
+  port: 25295
+  cipher: aes-128-cfb
+- name: 🇺🇸:美国-ss-165.232.169.142:29332-可用-直连-仅支持新加坡地区NF自制剧
+  type: ss
+  server: 165.232.169.142
+  password: 1e5111699c45496da84112f35db665c4
+  port: 29332
+  cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:25287-可用-直连-完全不支持NF
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 25287
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:25283-可用-直连-完全不支持NF
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 25283
   cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:25220-可用-直连-完全不支持NF
   type: ss
@@ -11,46 +29,12 @@ proxies:
   password: QazEdcTgb159@$*
   port: 25220
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:25287-可用-直连-完全不支持NF
+- name: 🇨🇳:中国-ss-14.29.124.168:25222-可用-直连-完全不支持NF
   type: ss
   server: 14.29.124.168
   password: QazEdcTgb159@$*
-  port: 25287
+  port: 25222
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11034-可用-中转:129.227.144.195-不支持Netflix
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11034
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:25297-可用-直连-完全不支持NF
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 25297
-  cipher: aes-128-cfb
-- name: 🇷🇺:俄罗斯-vmess-v1.ssrsub.com:58443-可用-中转:193.38.51.192-不支持Netflix
-  type: vmess
-  server: v1.ssrsub.com
-  network: ws
-  port: 58443
-  uuid: fb61d738-ef95-446d-9004-c93a1a975cad
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /api/v3/download.getFile
-- name: 🇺🇸:美国-vmess-104.149.154.154:25966-可用-直连-不支持Netflix
-  type: vmess
-  server: 104.149.154.154
-  network: ws
-  port: 25966
-  uuid: ca06e0f0-ca6e-418f-800d-97b23ba51bca
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /VTd4o3Kj/
 - name: 🇺🇸:美国-vmess-v47.v2dns.bar:2052-可用-中转:134.195.138.17-仅支持美国地区NF自制剧
   type: vmess
   server: v47.v2dns.bar
