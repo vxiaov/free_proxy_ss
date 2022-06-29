@@ -1,4 +1,16 @@
 proxies:
+- name: 🇺🇸:美国-ss-138.68.248.130:811-可用-直连-不支持Netflix
+  type: ss
+  server: 138.68.248.130
+  password: Ultr@r00t_2017
+  port: 811
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-92.38.176.81:811-可用-直连-不支持Netflix
+  type: ss
+  server: 92.38.176.81
+  password: Ultr@r00t_2017
+  port: 811
+  cipher: chacha20-ietf-poly1305
 - name: 🇨🇳:中国-ss-14.29.124.168:25219-可用-直连-完全不支持NF
   type: ss
   server: 14.29.124.168
@@ -11,17 +23,17 @@ proxies:
   password: QazEdcTgb159@$*
   port: 25218
   cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11032-可用-中转:129.227.144.195-不支持Netflix
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11032
+  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:25220-可用-直连-完全不支持NF
   type: ss
   server: 14.29.124.168
   password: QazEdcTgb159@$*
   port: 25220
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:24009-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24009
   cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:25217-可用-直连-完全不支持NF
   type: ss
@@ -53,35 +65,24 @@ proxies:
   password: QazEdcTgb159@$*
   port: 11011
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11048-可用-中转:129.227.144.195-不支持Netflix
+- name: 🇨🇳:中国-ss-14.29.124.168:24000-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24000
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11043-可用-中转:129.227.144.195-不支持Netflix
   type: ss
   server: 14.29.124.174
   password: QazEdcTgb159@$*
-  port: 11048
+  port: 11043
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11049-可用-中转:129.227.144.195-不支持Netflix
+- name: 🇨🇳:中国-ss-14.29.124.174:11012-可用-中转:129.227.144.194-不支持Netflix
   type: ss
   server: 14.29.124.174
   password: QazEdcTgb159@$*
-  port: 11049
+  port: 11012
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11034-可用-中转:129.227.144.195-不支持Netflix
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11034
-  cipher: aes-128-cfb
-- name: 🇬🇧:英国-vmess-chunchuan-02.aikala.shop:80-可用-中转:144.24.94.234-解锁韩国地区NF非自制剧
-  type: vmess
-  server: chunchuan-02.aikala.shop
-  network: ws
-  port: 80
-  uuid: a6d2838b-1027-4800-b664-16840d156d62
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
 - name: 🇺🇸:美国-vmess-rbzz.jddsb.cf:1003-可用-中转:8.42.172.36-仅支持英国地区NF自制剧
   type: vmess
   server: rbzz.jddsb.cf
@@ -104,14 +105,3 @@ proxies:
   udp: false
   tls: false
   ws-path: /v1252N93nZez6Py
-- name: 🇺🇸:美国-vmess-v47.v2dns.bar:2052-可用-中转:134.195.138.17-仅支持美国地区NF自制剧
-  type: vmess
-  server: v47.v2dns.bar
-  network: ws
-  port: 2052
-  uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /v47-unlimitndxd
