@@ -23,12 +23,18 @@ proxies:
   password: G!yBwPWH3Vao
   port: 811
   cipher: chacha20-ietf-poly1305
-- name: 🇯🇵:日本-ss-89.31.126.171:800-被墙-中转:5.181.5.184-解锁日本地区NF非自制剧
+- name: 🇨🇾:塞浦路斯-ss-213.169.137.221:989-可用-直连-解锁塞浦路斯地区NF非自制剧
   type: ss
-  server: 89.31.126.171
-  password: G!yBwPWH3Vao
-  port: 800
-  cipher: chacha20-ietf-poly1305
+  server: 213.169.137.221
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  cipher: aes-256-cfb
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9041-被墙-直连-解锁瑞士地区NF非自制剧
+  type: ss
+  server: 185.126.116.119
+  password: U6qnYRhfyDmn8sgn
+  port: 9041
+  cipher: aes-256-cfb
 - name: 🇺🇸:美国-ss-161.8.184.62:29622-被墙-中转:161.8.184.61-解锁美国地区NF非自制剧
   type: ss
   server: 161.8.184.62
@@ -41,12 +47,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 801
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇾:塞浦路斯-ss-213.169.137.221:989-被墙-直连-解锁塞浦路斯地区NF非自制剧
-  type: ss
-  server: 213.169.137.221
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  cipher: aes-256-cfb
 - name: 🇯🇵:日本-ss-89.31.126.150:802-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧
   type: ss
   server: 89.31.126.150
@@ -83,3 +83,20 @@ proxies:
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
+- name: 🇯🇵:日本-ss-89.31.126.171:800-被墙-中转:5.181.5.184-解锁日本地区NF非自制剧
+  type: ss
+  server: 89.31.126.171
+  password: G!yBwPWH3Vao
+  port: 800
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-vmess-v05.ssrsub.com:153-可用-中转:150.230.185.182-解锁美国地区NF非自制剧
+  type: vmess
+  server: v05.ssrsub.com
+  network: ws
+  port: 153
+  uuid: fb61d738-ef95-446d-9004-c93a1a975cad
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /api/v3/download.getFile
