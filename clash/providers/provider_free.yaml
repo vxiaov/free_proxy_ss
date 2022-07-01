@@ -5,12 +5,6 @@ proxies:
   password: '89930128'
   port: 29622
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-164.92.99.255:4649-可用-直连-仅支持美国地区NF自制剧
-  type: ss
-  server: 164.92.99.255
-  password: 3f411e87-3e93-4f23-bc22-263a748bc8c5
-  port: 4649
-  cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-14.29.124.168:25219-可用-直连-完全不支持NF
   type: ss
   server: 14.29.124.168
@@ -23,11 +17,23 @@ proxies:
   password: QazEdcTgb159@$*
   port: 25218
   cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11032-可用-中转:129.227.144.195-不支持Netflix
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11032
+  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:25220-可用-直连-完全不支持NF
   type: ss
   server: 14.29.124.168
   password: QazEdcTgb159@$*
   port: 25220
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24005-可用-中转:223.26.73.202-解锁台湾地区NF非自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24005
   cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:25217-可用-直连-完全不支持NF
   type: ss
@@ -41,30 +47,18 @@ proxies:
   password: QazEdcTgb159@$*
   port: 25280
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11050-可用-中转:129.227.144.195-不支持Netflix
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11050
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11003-可用-中转:129.227.144.194-不支持Netflix
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11003
-  cipher: aes-128-cfb
 - name: 🇷🇺:俄罗斯-ss-185.4.65.6:21247-可用-中转:37.252.1.212-完全不支持NF
   type: ss
   server: 185.4.65.6
   password: vDS9G2p
   port: 21247
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11041-可用-中转:129.227.144.195-不支持Netflix
+- name: 🇩🇪:德国-ss-165.22.73.126:23335-可用-直连-仅支持德国地区NF自制剧
   type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11041
-  cipher: aes-128-cfb
+  server: 165.22.73.126
+  password: 7d99ae502227454ea998d71e4b62a388
+  port: 23335
+  cipher: aes-256-cfb
 - name: 🇨🇳:中国-ss-14.29.124.174:11048-可用-中转:129.227.144.195-不支持Netflix
   type: ss
   server: 14.29.124.174
@@ -77,20 +71,32 @@ proxies:
   password: QazEdcTgb159@$*
   port: 11012
   cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11037-可用-中转:129.227.144.195-不支持Netflix
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11037
+  cipher: aes-128-cfb
 - name: 🇩🇪:德国-ss-46.183.185.15:989-可用-直连-仅支持前南马其顿地区NF自制剧
   type: ss
   server: 46.183.185.15
   password: f8f7aCzcPKbsF8p3
   port: 989
   cipher: aes-256-cfb
-- name: 🇯🇵:日本-vmess-jp02.henet.cyou:20000-可用-中转:139.162.117.132-仅支持日本地区NF自制剧
+- name: 🇨🇳:中国-ss-14.29.124.174:11001-可用-中转:129.227.144.194-不支持Netflix
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11001
+  cipher: aes-128-cfb
+- name: 🇺🇸:美国-vmess-198.144.183.193:36113-可用-直连-完全不支持NF
   type: vmess
-  server: jp02.henet.cyou
+  server: 198.144.183.193
   network: ws
-  port: 20000
-  uuid: 279e0915-b0ce-49c7-a4df-39f9232d2034
+  port: 36113
+  uuid: 6643747e-d583-4ee2-9cc5-14abd51f43d7
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /live
+  ws-path: /
