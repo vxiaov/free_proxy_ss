@@ -17,17 +17,17 @@ proxies:
   password: G!yBwPWH3Vao
   port: 802
   cipher: chacha20-ietf-poly1305
+- name: 🇨🇦:加拿大-ss-72.140.224.197:811-被墙-直连-解锁加拿大地区NF非自制剧
+  type: ss
+  server: 72.140.224.197
+  password: G!yBwPWH3Vao
+  port: 811
+  cipher: chacha20-ietf-poly1305
 - name: 🇨🇦:加拿大-ss-72.140.224.197:808-被墙-直连-解锁加拿大地区NF非自制剧
   type: ss
   server: 72.140.224.197
   password: G!yBwPWH3Vao
   port: 808
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇦:加拿大-ss-72.140.224.197:812-被墙-直连-解锁加拿大地区NF非自制剧
-  type: ss
-  server: 72.140.224.197
-  password: G!yBwPWH3Vao
-  port: 812
   cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-89.31.126.150:812-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧
   type: ss
@@ -95,6 +95,17 @@ proxies:
   password: f8npKgNzdkss2ytn
   port: 9088
   cipher: aes-256-cfb
+- name: 🇨🇳:中国-vmess-tw02.henet.cyou:20000-可用-中转:36.227.209.205-解锁台湾地区NF非自制剧
+  type: vmess
+  server: tw02.henet.cyou
+  network: ws
+  port: 20000
+  uuid: b3ea4273-e3a8-46a3-93b2-1aaa1c9dbd61
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /live
 - name: 🇺🇸:美国-vmess-v5.tgfaka.com:443-可用-中转:150.230.185.182-解锁美国地区NF非自制剧
   type: vmess
   server: v5.tgfaka.com
