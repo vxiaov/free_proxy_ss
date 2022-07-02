@@ -1,7 +1,12 @@
 proxies:
-- name: 🇨🇾:塞浦路斯-ss-213.169.137.221:989-可用-直连-仅支持塞浦路斯地区NF自制剧
-  type: ss
-  server: 213.169.137.221
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  cipher: aes-256-cfb
+- name: 🇺🇸:美国-vmess-v20.emovpn.xyz:1256-可用-中转:143.198.48.54-仅支持美国地区NF自制剧
+  type: vmess
+  server: v20.emovpn.xyz
+  network: ws
+  port: 1256
+  uuid: 1aa8948e-1ec1-455f-9e0e-16deebe5502e
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: ''
