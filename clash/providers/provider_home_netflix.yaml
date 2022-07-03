@@ -1,52 +1,39 @@
 proxies:
-- name: 🇸🇬:新加坡-ss-194.124.35.42:809-可用-中转:194.124.35.40-仅支持新加坡地区NF自制剧
-  type: ss
-  server: 194.124.35.42
-  password: G!yBwPWH3Vao
-  port: 809
-  cipher: chacha20-ietf-poly1305
-- name: 🇸🇬:新加坡-ss-194.124.35.42:808-可用-中转:194.124.35.40-仅支持新加坡地区NF自制剧
-  type: ss
-  server: 194.124.35.42
-  password: G!yBwPWH3Vao
-  port: 808
-  cipher: chacha20-ietf-poly1305
-- name: 🇸🇬:新加坡-ss-194.124.35.42:802-可用-中转:194.124.35.40-仅支持新加坡地区NF自制剧
-  type: ss
-  server: 194.124.35.42
-  password: G!yBwPWH3Vao
-  port: 802
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-164.92.107.59:1645-可用-直连-仅支持美国地区NF自制剧
   type: ss
   server: 164.92.107.59
   password: 3f411e87-3e93-4f23-bc22-263a748bc8c5
   port: 1645
   cipher: chacha20-ietf-poly1305
-- name: 🇯🇵:日本-ss-89.31.126.171:800-可用-中转:5.181.5.184-仅支持日本地区NF自制剧
+- name: 🇺🇸:美国-ss-165.232.169.142:29332-可用-直连-仅支持新加坡地区NF自制剧
   type: ss
-  server: 89.31.126.171
-  password: G!yBwPWH3Vao
-  port: 800
-  cipher: chacha20-ietf-poly1305
-- name: 🇸🇬:新加坡-ss-194.124.35.42:804-可用-中转:194.124.35.40-仅支持新加坡地区NF自制剧
+  server: 165.232.169.142
+  password: 1e5111699c45496da84112f35db665c4
+  port: 29332
+  cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24007-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   type: ss
-  server: 194.124.35.42
-  password: G!yBwPWH3Vao
-  port: 804
-  cipher: chacha20-ietf-poly1305
-- name: 🇸🇬:新加坡-ss-194.124.35.42:803-可用-中转:194.124.35.40-仅支持新加坡地区NF自制剧
-  type: ss
-  server: 194.124.35.42
-  password: G!yBwPWH3Vao
-  port: 803
-  cipher: chacha20-ietf-poly1305
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24007
+  cipher: aes-128-cfb
 - name: 🇨🇾:塞浦路斯-ss-213.169.137.221:989-可用-直连-仅支持塞浦路斯地区NF自制剧
   type: ss
   server: 213.169.137.221
   password: f8f7aCzcPKbsF8p3
   port: 989
   cipher: aes-256-cfb
+- name: 🇯🇵:日本-vmess-rbzz.jddsb.cf:1001-可用-中转:8.21.238.100-仅支持法国地区NF自制剧
+  type: vmess
+  server: rbzz.jddsb.cf
+  network: ws
+  port: 1001
+  uuid: 104ef5de-c177-464c-b3cc-6063a4afe97a
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /cctv13/hd.m3u8
 - name: 🇺🇸:美国-vmess-free-godlikeanyone.koyeb.app:443-可用-中转:147.75.81.249-仅支持荷兰地区NF自制剧
   type: vmess
   server: free-godlikeanyone.koyeb.app
@@ -58,6 +45,17 @@ proxies:
   udp: false
   tls: true
   ws-path: /b7b1f689-f82e-4ce4-97e7-8a8997370e44-vmess
+- name: 🇺🇸:美国-vmess-v20.emovpn.xyz:1256-可用-中转:143.198.48.54-仅支持美国地区NF自制剧
+  type: vmess
+  server: v20.emovpn.xyz
+  network: ws
+  port: 1256
+  uuid: 30fd975c-5bbb-4502-96f1-b01cec401de1
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: ''
 - name: 🇺🇸:美国-vmess-vfly8.win:443-可用-中转:8.219.81.229-仅支持新加坡地区NF自制剧
   type: vmess
   server: vfly8.win
