@@ -23,6 +23,18 @@ proxies:
   password: G!yBwPWH3Vao
   port: 802
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-161.8.184.62:29622-可用-中转:161.8.184.61-解锁美国地区NF非自制剧
+  type: ss
+  server: 161.8.184.62
+  password: '89930128'
+  port: 29622
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-164.92.107.59:1645-可用-直连-仅支持美国地区NF自制剧
+  type: ss
+  server: 164.92.107.59
+  password: 3f411e87-3e93-4f23-bc22-263a748bc8c5
+  port: 1645
+  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-89.31.126.171:800-可用-中转:5.181.5.184-仅支持日本地区NF自制剧
   type: ss
   server: 89.31.126.171
@@ -47,12 +59,6 @@ proxies:
   password: vDS9G2p
   port: 21247
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11043-可用-中转:129.227.144.195-不支持Netflix
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11043
-  cipher: aes-128-cfb
 - name: 🇨🇾:塞浦路斯-ss-213.169.137.221:989-可用-直连-仅支持塞浦路斯地区NF自制剧
   type: ss
   server: 213.169.137.221
@@ -81,17 +87,6 @@ proxies:
   udp: false
   tls: true
   ws-path: /b7b1f689-f82e-4ce4-97e7-8a8997370e44-vmess
-- name: 🇺🇸:美国-vmess-vfly4.win:443-可用-中转:8.218.145.28-仅支持印度尼西亚地区NF自制剧
-  type: vmess
-  server: vfly4.win
-  network: ws
-  port: 443
-  uuid: 424afb77-4724-4ddc-f4c0-35de9c2239f5
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /myblog
 - name: 🇺🇸:美国-vmess-vfly8.win:443-可用-中转:8.219.81.229-仅支持新加坡地区NF自制剧
   type: vmess
   server: vfly8.win
@@ -103,14 +98,3 @@ proxies:
   udp: false
   tls: true
   ws-path: /myblog
-- name: 🇺🇸:美国-vmess-159.223.54.93:80-可用-直连-仅支持新加坡地区NF自制剧
-  type: vmess
-  server: 159.223.54.93
-  network: ws
-  port: 80
-  uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
