@@ -11,12 +11,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 809
   cipher: chacha20-ietf-poly1305
-- name: 🇬🇧:英国-ss-178.62.16.161:811-可用-直连-不支持Netflix
-  type: ss
-  server: 178.62.16.161
-  password: Ultr@r00t_2017
-  port: 811
-  cipher: chacha20-ietf-poly1305
 - name: 🇸🇬:新加坡-ss-194.124.35.42:808-可用-中转:194.124.35.40-仅支持新加坡地区NF自制剧
   type: ss
   server: 194.124.35.42
@@ -28,12 +22,6 @@ proxies:
   server: 194.124.35.42
   password: G!yBwPWH3Vao
   port: 802
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-164.92.107.59:1645-可用-直连-仅支持美国地区NF自制剧
-  type: ss
-  server: 164.92.107.59
-  password: 3f411e87-3e93-4f23-bc22-263a748bc8c5
-  port: 1645
   cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-89.31.126.171:800-可用-中转:5.181.5.184-仅支持日本地区NF自制剧
   type: ss
@@ -59,35 +47,18 @@ proxies:
   password: vDS9G2p
   port: 21247
   cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11043-可用-中转:129.227.144.195-不支持Netflix
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11043
+  cipher: aes-128-cfb
 - name: 🇨🇾:塞浦路斯-ss-213.169.137.221:989-可用-直连-仅支持塞浦路斯地区NF自制剧
   type: ss
   server: 213.169.137.221
   password: f8f7aCzcPKbsF8p3
   port: 989
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:25289-可用-直连-完全不支持NF
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 25289
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11018-可用-中转:129.227.144.194-不支持Netflix
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11018
-  cipher: aes-128-cfb
-- name: 🇺🇸:美国-vmess-v5.tgfaka.com:443-可用-中转:150.230.185.182-解锁美国地区NF非自制剧
-  type: vmess
-  server: v5.tgfaka.com
-  network: ws
-  port: 443
-  uuid: 61c4c45e-d5c8-47ed-ae28-cee95f09b3b7
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /api/v3/download.getFile
 - name: 🇯🇵:日本-vmess-rbzz.jddsb.cf:1001-可用-中转:8.21.238.100-解锁法国地区NF非自制剧
   type: vmess
   server: rbzz.jddsb.cf
@@ -121,17 +92,6 @@ proxies:
   udp: false
   tls: true
   ws-path: /myblog
-- name: 🇺🇸:美国-vmess-v20.emovpn.xyz:1256-可用-中转:143.198.48.54-仅支持美国地区NF自制剧
-  type: vmess
-  server: v20.emovpn.xyz
-  network: ws
-  port: 1256
-  uuid: 00b3203c-0925-4bce-9fef-1a4794752a8d
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
 - name: 🇺🇸:美国-vmess-vfly8.win:443-可用-中转:8.219.81.229-仅支持新加坡地区NF自制剧
   type: vmess
   server: vfly8.win
