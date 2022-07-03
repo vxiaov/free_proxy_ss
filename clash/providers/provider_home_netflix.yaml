@@ -5,3 +5,25 @@ proxies:
   password: 3f411e87-3e93-4f23-bc22-263a748bc8c5
   port: 1645
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-vmess-20.239.176.94:443-可用-直连-仅支持香港地区NF自制剧
+  type: vmess
+  server: 20.239.176.94
+  network: ws
+  port: 443
+  uuid: 4adf9138-5aca-4a26-b217-335e72bb680d
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇯🇵:日本-vmess-rbzz.jddsb.cf:1001-可用-中转:8.21.238.100-仅支持法国地区NF自制剧
+  type: vmess
+  server: rbzz.jddsb.cf
+  network: ws
+  port: 1001
+  uuid: 104ef5de-c177-464c-b3cc-6063a4afe97a
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /cctv13/hd.m3u8
