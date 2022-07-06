@@ -1,13 +1,41 @@
 proxies:
+- name: 🇩🇪:德国-ss-49.12.203.80:40960-可用-直连-仅支持德国地区NF自制剧
+  type: ss
+  server: 49.12.203.80
+  password: 6kA7b3f9Aw2508erQ3W7D4
+  port: 40960
+  cipher: aes-256-gcm
 - name: 🇩🇰:丹麦-ss-5.183.100.87:50003-可用-直连-仅支持挪威地区NF自制剧
   type: ss
   server: 5.183.100.87
   password: '8460400130'
   port: 50003
   cipher: aes-256-cfb
-- name: 🇩🇪:德国-ss-165.22.73.126:23335-可用-直连-仅支持德国地区NF自制剧
+- name: 🇩🇪:德国-ss-46.183.185.15:989-可用-直连-仅支持前南马其顿地区NF自制剧
   type: ss
-  server: 165.22.73.126
-  password: 7d99ae502227454ea998d71e4b62a388
-  port: 23335
+  server: 46.183.185.15
+  password: f8f7aCzcPKbsF8p3
+  port: 989
   cipher: aes-256-cfb
+- name: 🇺🇸:美国-vmess-20.239.176.94:443-可用-直连-仅支持香港地区NF自制剧
+  type: vmess
+  server: 20.239.176.94
+  network: ws
+  port: 443
+  uuid: 4adf9138-5aca-4a26-b217-335e72bb680d
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇺🇸:美国-vmess-us02.gogogoo.cyou:443-可用-中转:205.185.115.241-仅支持美国地区NF自制剧
+  type: vmess
+  server: us02.gogogoo.cyou
+  network: ws
+  port: 443
+  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /go
