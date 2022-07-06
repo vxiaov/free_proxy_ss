@@ -77,12 +77,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 800
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-14.29.124.174:11012-可用-中转:129.227.144.194-不支持Netflix
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11012
-  cipher: aes-128-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9041-被墙-直连-解锁瑞士地区NF非自制剧
   type: ss
   server: 185.126.116.119
@@ -149,6 +143,17 @@ proxies:
   password: f8npKgNzdkss2ytn
   port: 9088
   cipher: aes-256-cfb
+- name: 🇺🇸:美国-vmess-20.239.176.94:443-可用-直连-仅支持香港地区NF自制剧
+  type: vmess
+  server: 20.239.176.94
+  network: ws
+  port: 443
+  uuid: 4adf9138-5aca-4a26-b217-335e72bb680d
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 
 # 类型选择 简介
 # select : 用于选择代理或代理组, 可以通过 RESTful API 来切换代理，建议在 GUI 中使用
@@ -168,7 +173,7 @@ proxy-groups:
   interval: 300
   proxies:
   - DIRECT
-  - 🇨🇳:中国-ss-14.29.124.174:11012-可用-中转:129.227.144.194-不支持Netflix
+  - 🇺🇸:美国-vmess-20.239.176.94:443-可用-直连-仅支持香港地区NF自制剧
 - name: 被墙代理组
   type: select
   url: http://www.gstatic.com/generate_204
@@ -199,6 +204,7 @@ proxy-groups:
   interval: 300
   proxies:
   - DIRECT
+  - 🇺🇸:美国-vmess-20.239.176.94:443-可用-直连-仅支持香港地区NF自制剧
 - name: 解锁Netflix非自制剧
   type: select
   url: http://www.gstatic.com/generate_204
