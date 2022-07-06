@@ -119,13 +119,19 @@ proxies:
   password: faBAoD54k87UJG7
   port: 2375
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-138.68.248.130:811-可用-直连-不支持Netflix
+  type: ss
+  server: 138.68.248.130
+  password: Ultr@r00t_2017
+  port: 811
+  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-38.68.135.18:5601-可用-直连-不支持Netflix
   type: ss
   server: 38.68.135.18
   password: Y6R9pAtvxxzmGC
   port: 5601
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-14.29.124.168:24006-可用-中转:223.26.73.202-不支持Netflix
+- name: 🇨🇳:中国-ss-14.29.124.168:24006-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   type: ss
   server: 14.29.124.168
   password: QazEdcTgb159@$*
@@ -137,26 +143,9 @@ proxies:
   password: '8460400130'
   port: 50003
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11036-可用-中转:129.227.144.195-不支持Netflix
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11036
-  cipher: aes-128-cfb
 - name: 🇩🇪:德国-ss-46.183.185.15:989-可用-直连-仅支持前南马其顿地区NF自制剧
   type: ss
   server: 46.183.185.15
   password: f8f7aCzcPKbsF8p3
   port: 989
   cipher: aes-256-cfb
-- name: 🇻🇳:越南-vmess-103.90.220.27:80-可用-直连-不支持Netflix
-  type: vmess
-  server: 103.90.220.27
-  network: ws
-  port: 80
-  uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
