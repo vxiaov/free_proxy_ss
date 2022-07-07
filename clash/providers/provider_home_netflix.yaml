@@ -1,7 +1,24 @@
 proxies:
-- name: 🇨🇳:中国-ss-14.29.124.168:24006-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+- name: 🇮🇸:冰岛-ss-37.235.49.158:989-可用-直连-仅支持冰岛地区NF自制剧
+  type: ss
+  server: 37.235.49.158
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24009-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   type: ss
   server: 14.29.124.168
   password: QazEdcTgb159@$*
-  port: 24006
+  port: 24009
   cipher: aes-128-cfb
+- name: 🇺🇸:美国-vmess-vde1.0bad.com:443-可用-中转:170.187.185.138-仅支持德国地区NF自制剧
+  type: vmess
+  server: vde1.0bad.com
+  network: ws
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /chat
