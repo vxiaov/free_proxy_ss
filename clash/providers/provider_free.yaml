@@ -5,17 +5,17 @@ proxies:
   password: G!yBwPWH3Vao
   port: 800
   cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-14.29.124.174:11047-可用-中转:129.227.144.195-不支持Netflix
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11047
+  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.174:11005-可用-中转:129.227.144.194-不支持Netflix
   type: ss
   server: 14.29.124.174
   password: QazEdcTgb159@$*
   port: 11005
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:25241-可用-直连-完全不支持NF
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 25241
   cipher: aes-128-cfb
 - name: 🇮🇸:冰岛-ss-37.235.49.158:989-可用-直连-仅支持冰岛地区NF自制剧
   type: ss
@@ -23,47 +23,11 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11011-可用-中转:129.227.144.194-不支持Netflix
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11011
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:24009-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24009
-  cipher: aes-128-cfb
 - name: 🇺🇸:美国-ss-51.195.136.209:50004-可用-直连-完全不支持NF
   type: ss
   server: 51.195.136.209
   password: '4415934295'
   port: 50004
-  cipher: aes-256-cfb
-- name: 🇳🇱:荷兰-ss-45.144.176.135:3003-可用-直连-完全不支持NF
-  type: ss
-  server: 45.144.176.135
-  password: werty33588761qwfdees
-  port: 3003
-  cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11013-可用-中转:129.227.144.194-不支持Netflix
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11013
-  cipher: aes-128-cfb
-- name: 🇳🇱:荷兰-ss-45.144.176.135:3000-可用-直连-完全不支持NF
-  type: ss
-  server: 45.144.176.135
-  password: qazwsxplmjbufeefvgedgrwchgtrchrdgfbrdvgedecmmdfe
-  port: 3000
-  cipher: aes-256-cfb
-- name: 🇳🇱:荷兰-ss-45.144.176.135:3004-可用-直连-完全不支持NF
-  type: ss
-  server: 45.144.176.135
-  password: 3682oiuvefwwmbc1475
-  port: 3004
   cipher: aes-256-cfb
 - name: 🇺🇸:美国-ssr-us-am32-5.eqnode.net:8081-可用-中转:54.184.3.109-不支持Netflix
   type: ssr
@@ -75,14 +39,3 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 🇺🇸:美国-vmess-vde1.0bad.com:443-可用-中转:170.187.185.138-仅支持德国地区NF自制剧
-  type: vmess
-  server: vde1.0bad.com
-  network: ws
-  port: 443
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /chat
