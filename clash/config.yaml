@@ -35,11 +35,11 @@ dns:
     - 240.0.0.0/4
 # 个人节点
 proxies:
-- name: 🇯🇵:日本-ss-89.31.126.171:800-可用-中转:5.181.5.184-不支持Netflix
+- name: 🇬🇧:英国-ss-178.62.16.161:811-可用-直连-不支持Netflix
   type: ss
-  server: 89.31.126.171
-  password: G!yBwPWH3Vao
-  port: 800
+  server: 178.62.16.161
+  password: Ultr@r00t_2017
+  port: 811
   cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-169.197.141.5:3306-可用-直连-不支持Netflix
   type: ss
@@ -101,23 +101,17 @@ proxies:
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-14.29.124.168:25295-可用-直连-完全不支持NF
+- name: 🇯🇵:日本-ss-89.31.126.171:800-被墙-中转:5.181.5.184-解锁日本地区NF非自制剧
   type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 25295
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:25268-可用-直连-不支持Netflix
+  server: 89.31.126.171
+  password: G!yBwPWH3Vao
+  port: 800
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-14.29.124.174:11010-可用-中转:129.227.144.194-不支持Netflix
   type: ss
-  server: 14.29.124.168
+  server: 14.29.124.174
   password: QazEdcTgb159@$*
-  port: 25268
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:25283-可用-直连-完全不支持NF
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 25283
+  port: 11010
   cipher: aes-128-cfb
 - name: 🇮🇸:冰岛-ss-37.235.49.158:989-可用-直连-仅支持冰岛地区NF自制剧
   type: ss
@@ -125,30 +119,12 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:25297-可用-直连-完全不支持NF
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 25297
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11016-可用-中转:129.227.144.194-不支持Netflix
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11016
-  cipher: aes-128-cfb
 - name: 🇺🇸:美国-ss-51.195.136.209:50004-可用-直连-完全不支持NF
   type: ss
   server: 51.195.136.209
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:25230-可用-直连-完全不支持NF
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 25230
-  cipher: aes-128-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9041-被墙-直连-解锁瑞士地区NF非自制剧
   type: ss
   server: 185.126.116.119
@@ -215,40 +191,12 @@ proxies:
   password: ZpNDDKRu9MagNvaf
   port: 9015
   cipher: aes-256-cfb
-- name: 🇯🇵:日本-ss-89.31.126.171:800-被墙-中转:5.181.5.184-解锁日本地区NF非自制剧
-  type: ss
-  server: 89.31.126.171
-  password: G!yBwPWH3Vao
-  port: 800
-  cipher: chacha20-ietf-poly1305
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9088-被墙-直连-解锁瑞士地区NF非自制剧
   type: ss
   server: 185.126.116.119
   password: f8npKgNzdkss2ytn
   port: 9088
   cipher: aes-256-cfb
-- name: 🇻🇳:越南-vmess-103.90.220.27:80-可用-直连-不支持Netflix
-  type: vmess
-  server: 103.90.220.27
-  network: ws
-  port: 80
-  uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-v04.ssrsub.com:153-可用-中转:150.230.182.188-不支持Netflix
-  type: vmess
-  server: v04.ssrsub.com
-  network: ws
-  port: 153
-  uuid: 2df8cb33-de40-438c-840a-5f1d05fe7518
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /api/v3/download.getFile
 
 # 类型选择 简介
 # select : 用于选择代理或代理组, 可以通过 RESTful API 来切换代理，建议在 GUI 中使用
@@ -268,18 +216,11 @@ proxy-groups:
   interval: 300
   proxies:
   - DIRECT
-  - 🇻🇳:越南-vmess-103.90.220.27:80-可用-直连-不支持Netflix
-  - 🇺🇸:美国-vmess-v04.ssrsub.com:153-可用-中转:150.230.182.188-不支持Netflix
   - 🇺🇸:美国-ss-51.195.136.209:50004-可用-直连-完全不支持NF
   - 🇺🇸:美国-ss-169.197.141.5:3306-可用-直连-不支持Netflix
-  - 🇯🇵:日本-ss-89.31.126.171:800-可用-中转:5.181.5.184-不支持Netflix
   - 🇮🇸:冰岛-ss-37.235.49.158:989-可用-直连-仅支持冰岛地区NF自制剧
-  - 🇨🇳:中国-ss-14.29.124.174:11016-可用-中转:129.227.144.194-不支持Netflix
-  - 🇨🇳:中国-ss-14.29.124.168:25297-可用-直连-完全不支持NF
-  - 🇨🇳:中国-ss-14.29.124.168:25295-可用-直连-完全不支持NF
-  - 🇨🇳:中国-ss-14.29.124.168:25283-可用-直连-完全不支持NF
-  - 🇨🇳:中国-ss-14.29.124.168:25268-可用-直连-不支持Netflix
-  - 🇨🇳:中国-ss-14.29.124.168:25230-可用-直连-完全不支持NF
+  - 🇬🇧:英国-ss-178.62.16.161:811-可用-直连-不支持Netflix
+  - 🇨🇳:中国-ss-14.29.124.174:11010-可用-中转:129.227.144.194-不支持Netflix
 - name: 被墙代理组
   type: select
   url: http://www.gstatic.com/generate_204
