@@ -11,6 +11,12 @@ proxies:
   password: 7d99ae502227454ea998d71e4b62a388
   port: 23335
   cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11018-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11018
+  cipher: aes-128-cfb
 - name: 🇺🇸:美国-ss-165.232.169.142:29332-可用-直连-仅支持新加坡地区NF自制剧
   type: ss
   server: 165.232.169.142
@@ -23,3 +29,36 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   cipher: aes-256-cfb
+- name: 🇰🇷:韩国-vmess-152.67.218.38:443-可用-直连-仅支持韩国地区NF自制剧
+  type: vmess
+  server: 152.67.218.38
+  network: ws
+  port: 443
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇰🇷:韩国-vmess-hk14.bp777.buzz:21665-可用-中转:152.67.219.34-仅支持韩国地区NF自制剧
+  type: vmess
+  server: hk14.bp777.buzz
+  network: ws
+  port: 21665
+  uuid: f658845f-9676-4a24-b7f7-8a197c8cb748
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇺🇸:美国-vmess-hd-1.ienai.xin:443-可用-中转:103.79.78.209-仅支持美国地区NF自制剧
+  type: vmess
+  server: hd-1.ienai.xin
+  network: ws
+  port: 443
+  uuid: 03b188df-f7be-4038-8bc3-ffd2edb2b56a
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /ienai/ACOT_ddf1dcec-43e8-4e59-ae41-5382e18a7729:878047eae84dfce4b2d895aa7252421f/
