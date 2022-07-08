@@ -11,12 +11,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 800
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-14.29.124.168:24003-可用-中转:223.26.73.202-解锁台湾地区NF非自制剧
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24003
-  cipher: aes-128-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9041-被墙-直连-解锁瑞士地区NF非自制剧
   type: ss
   server: 185.126.116.119
@@ -94,14 +88,14 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇨🇳:中国-vmess-61.222.202.140:33792-可用-直连-解锁台湾地区NF非自制剧
+- name: 🇺🇸:美国-vmess-v04.ssrsub.com:153-可用-中转:150.230.182.188-解锁美国地区NF非自制剧
   type: vmess
-  server: 61.222.202.140
+  server: v04.ssrsub.com
   network: ws
-  port: 33792
-  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
+  port: 153
+  uuid: 6f48efb9-3817-4652-832f-fd04d93ebbc1
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /
+  ws-path: /api/v3/download.getFile
