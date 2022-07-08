@@ -23,36 +23,18 @@ proxies:
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-14.29.124.168:24009-可用-中转:223.26.73.202-解锁台湾地区NF非自制剧
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24009
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:24003-可用-中转:223.26.73.202-解锁台湾地区NF非自制剧
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24003
-  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:24004-可用-中转:223.26.73.202-解锁台湾地区NF非自制剧
   type: ss
   server: 14.29.124.168
   password: QazEdcTgb159@$*
   port: 24004
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:24006-可用-中转:223.26.73.202-解锁台湾地区NF非自制剧
+- name: 🇨🇾:塞浦路斯-ss-213.169.137.221:989-可用-直连-解锁塞浦路斯地区NF非自制剧
   type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24006
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:24000-可用-中转:223.26.73.202-解锁台湾地区NF非自制剧
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24000
-  cipher: aes-128-cfb
+  server: 213.169.137.221
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  cipher: aes-256-cfb
 - name: 🇨🇦:加拿大-ss-72.140.224.197:806-被墙-直连-解锁加拿大地区NF非自制剧
   type: ss
   server: 72.140.224.197
@@ -137,6 +119,17 @@ proxies:
   password: f8npKgNzdkss2ytn
   port: 9088
   cipher: aes-256-cfb
+- name: 🇺🇸:美国-vmess-us3.lolvps.xyz:60072-可用-中转:38.147.161.17-解锁美国地区NF非自制剧
+  type: vmess
+  server: us3.lolvps.xyz
+  network: ws
+  port: 60072
+  uuid: 08c2809f-0094-42c9-b04a-c19d06a1d898
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /G0DXUQOM
 - name: 🇻🇳:越南-vmess-103.90.220.27:80-可用-直连-解锁越南地区NF非自制剧
   type: vmess
   server: 103.90.220.27
@@ -148,25 +141,3 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇺🇸:美国-vmess-129.150.61.170:29493-可用-直连-解锁新加坡地区NF非自制剧
-  type: vmess
-  server: 129.150.61.170
-  network: ws
-  port: 29493
-  uuid: ac0d0076-93d2-48ad-ba6e-ea5c8d7b0132
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-v04.ssrsub.com:153-可用-中转:150.230.182.188-解锁美国地区NF非自制剧
-  type: vmess
-  server: v04.ssrsub.com
-  network: ws
-  port: 153
-  uuid: 2df8cb33-de40-438c-840a-5f1d05fe7518
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /api/v3/download.getFile
