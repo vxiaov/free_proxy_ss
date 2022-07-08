@@ -23,11 +23,17 @@ proxies:
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-14.29.124.168:24004-可用-中转:223.26.73.202-解锁台湾地区NF非自制剧
+- name: 🇨🇳:中国-ss-14.29.124.168:24003-可用-中转:223.26.73.202-解锁台湾地区NF非自制剧
   type: ss
   server: 14.29.124.168
   password: QazEdcTgb159@$*
-  port: 24004
+  port: 24003
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24005-可用-中转:223.26.73.202-解锁台湾地区NF非自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24005
   cipher: aes-128-cfb
 - name: 🇨🇾:塞浦路斯-ss-213.169.137.221:989-可用-直连-解锁塞浦路斯地区NF非自制剧
   type: ss
@@ -83,11 +89,11 @@ proxies:
   password: XPtzA9sCug3SPR4c
   port: 9025
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:24002-被墙-中转:223.26.73.202-解锁台湾地区NF非自制剧
+- name: 🇨🇳:中国-ss-14.29.124.168:24004-被墙-中转:223.26.73.202-解锁台湾地区NF非自制剧
   type: ss
   server: 14.29.124.168
   password: QazEdcTgb159@$*
-  port: 24002
+  port: 24004
   cipher: aes-128-cfb
 - name: 🇬🇧:英国-ss-83.229.73.60:50003-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
@@ -119,17 +125,6 @@ proxies:
   password: f8npKgNzdkss2ytn
   port: 9088
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-vmess-us3.lolvps.xyz:60072-可用-中转:38.147.161.17-解锁美国地区NF非自制剧
-  type: vmess
-  server: us3.lolvps.xyz
-  network: ws
-  port: 60072
-  uuid: 08c2809f-0094-42c9-b04a-c19d06a1d898
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /G0DXUQOM
 - name: 🇻🇳:越南-vmess-103.90.220.27:80-可用-直连-解锁越南地区NF非自制剧
   type: vmess
   server: 103.90.220.27
