@@ -1,22 +1,10 @@
 proxies:
-- name: 🇬🇧:英国-ss-178.62.16.161:811-可用-直连-不支持Netflix
-  type: ss
-  server: 178.62.16.161
-  password: Ultr@r00t_2017
-  port: 811
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-169.197.141.5:3306-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 169.197.141.5
   password: Y6R9pAtvxxzmGC
   port: 3306
   cipher: aes-256-gcm
-- name: 🇨🇦:加拿大-ss-138.197.166.205:811-可用-直连-不支持Netflix
-  type: ss
-  server: 138.197.166.205
-  password: Ultr@r00t_2017
-  port: 811
-  cipher: chacha20-ietf-poly1305
 - name: 🇨🇳:中国-ss-14.29.124.168:25219-可用-直连-完全不支持NF
   type: ss
   server: 14.29.124.168
@@ -47,17 +35,29 @@ proxies:
   password: QazEdcTgb159@$*
   port: 25280
   cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11050-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11050
+  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:25259-可用-直连-完全不支持NF
   type: ss
   server: 14.29.124.168
   password: QazEdcTgb159@$*
   port: 25259
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11033-可用-中转:129.227.144.195-不支持Netflix
+- name: 🇷🇺:俄罗斯-ss-185.4.65.6:21247-可用-中转:37.252.1.212-不支持Netflix
+  type: ss
+  server: 185.4.65.6
+  password: vDS9G2p
+  port: 21247
+  cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11005-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
   type: ss
   server: 14.29.124.174
   password: QazEdcTgb159@$*
-  port: 11033
+  port: 11005
   cipher: aes-128-cfb
 - name: 🇩🇪:德国-ss-165.22.73.126:23335-可用-直连-仅支持德国地区NF自制剧
   type: ss
@@ -65,68 +65,58 @@ proxies:
   password: 7d99ae502227454ea998d71e4b62a388
   port: 23335
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11018-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
+- name: 🇨🇳:中国-ss-14.29.124.174:11048-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
   type: ss
   server: 14.29.124.174
   password: QazEdcTgb159@$*
-  port: 11018
+  port: 11048
   cipher: aes-128-cfb
+- name: 🇨🇦:加拿大-ss-138.197.166.205:811-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 138.197.166.205
+  password: Ultr@r00t_2017
+  port: 811
+  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-165.232.169.142:29332-可用-直连-仅支持新加坡地区NF自制剧
   type: ss
   server: 165.232.169.142
   password: 1e5111699c45496da84112f35db665c4
   port: 29332
   cipher: aes-256-cfb
+- name: 🇬🇧:英国-ss-178.62.16.161:811-可用-直连-不支持Netflix
+  type: ss
+  server: 178.62.16.161
+  password: Ultr@r00t_2017
+  port: 811
+  cipher: chacha20-ietf-poly1305
 - name: 🇮🇸:冰岛-ss-37.235.49.158:989-可用-直连-仅支持冰岛地区NF自制剧
   type: ss
   server: 37.235.49.158
   password: f8f7aCzcPKbsF8p3
   port: 989
   cipher: aes-256-cfb
-- name: 🇰🇷:韩国-vmess-152.67.218.38:443-可用-直连-仅支持韩国地区NF自制剧
+- name: 🇷🇺:俄罗斯-vmess-195.133.53.192:43688-可用-直连-完全不支持NF
   type: vmess
-  server: 152.67.218.38
+  server: 195.133.53.192
   network: ws
-  port: 443
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  port: 43688
+  uuid: bd1c8b57-0a9e-4e9f-a261-48e90c871e41
   alterId: 4
   cipher: auto
   udp: false
   tls: false
   ws-path: /
-- name: 🇯🇵:日本-vmess-hk13.bp777.buzz:21665-可用-中转:146.56.102.136-解锁韩国地区NF非自制剧
+- name: 🇺🇸:美国-vmess-us3.lolvps.xyz:60072-可用-中转:38.147.161.17-解锁美国地区NF非自制剧
   type: vmess
-  server: hk13.bp777.buzz
+  server: us3.lolvps.xyz
   network: ws
-  port: 21665
-  uuid: f658845f-9676-4a24-b7f7-8a197c8cb748
+  port: 60072
+  uuid: 08c2809f-0094-42c9-b04a-c19d06a1d898
   alterId: 4
   cipher: auto
   udp: false
-  tls: false
-  ws-path: /
-- name: 🇰🇷:韩国-vmess-hk14.bp777.buzz:21665-可用-中转:152.67.219.34-仅支持韩国地区NF自制剧
-  type: vmess
-  server: hk14.bp777.buzz
-  network: ws
-  port: 21665
-  uuid: f658845f-9676-4a24-b7f7-8a197c8cb748
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇯🇵:日本-vmess-hk16.bp777.buzz:21665-可用-中转:146.56.111.219-解锁韩国地区NF非自制剧
-  type: vmess
-  server: hk16.bp777.buzz
-  network: ws
-  port: 21665
-  uuid: f658845f-9676-4a24-b7f7-8a197c8cb748
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
+  tls: true
+  ws-path: /G0DXUQOM
 - name: 🇩🇪:德国-vmess-141.94.141.20:80-可用-直连-完全不支持NF
   type: vmess
   server: 141.94.141.20
@@ -138,6 +128,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇺🇸:美国-vmess-xr-1.herokuapp.com:443-可用-中转:3.93.74.247-仅支持美国地区NF自制剧
+  type: vmess
+  server: xr-1.herokuapp.com
+  network: ws
+  port: 443
+  uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess
 - name: 🇺🇸:美国-vmess-hd-1.ienai.xin:443-可用-中转:103.79.78.209-仅支持美国地区NF自制剧
   type: vmess
   server: hd-1.ienai.xin
