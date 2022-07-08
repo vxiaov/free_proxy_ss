@@ -1,10 +1,4 @@
 proxies:
-- name: 🇺🇸:美国-ss-138.68.248.130:811-可用-直连-不支持Netflix
-  type: ss
-  server: 138.68.248.130
-  password: Ultr@r00t_2017
-  port: 811
-  cipher: chacha20-ietf-poly1305
 - name: 🇨🇳:中国-ss-14.29.124.168:25252-可用-直连-完全不支持NF
   type: ss
   server: 14.29.124.168
@@ -29,6 +23,12 @@ proxies:
   password: QazEdcTgb159@$*
   port: 25266
   cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11037-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11037
+  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:25218-可用-直连-完全不支持NF
   type: ss
   server: 14.29.124.168
@@ -47,11 +47,23 @@ proxies:
   password: QazEdcTgb159@$*
   port: 11050
   cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24004-可用-中转:223.26.73.202-解锁台湾地区NF非自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24004
+  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.174:11018-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
   type: ss
   server: 14.29.124.174
   password: QazEdcTgb159@$*
   port: 11018
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11003-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11003
   cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.174:11005-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
   type: ss
@@ -59,24 +71,46 @@ proxies:
   password: QazEdcTgb159@$*
   port: 11005
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11011-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11011
-  cipher: aes-128-cfb
 - name: 🇩🇪:德国-ss-165.22.73.126:23335-可用-直连-仅支持德国地区NF自制剧
   type: ss
   server: 165.22.73.126
   password: 7d99ae502227454ea998d71e4b62a388
   port: 23335
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11043-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+- name: 🇺🇸:美国-ss-138.68.248.130:811-可用-直连-不支持Netflix
+  type: ss
+  server: 138.68.248.130
+  password: Ultr@r00t_2017
+  port: 811
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-14.29.124.174:11044-可用-中转:129.227.144.195-不支持Netflix
   type: ss
   server: 14.29.124.174
   password: QazEdcTgb159@$*
-  port: 11043
+  port: 11044
   cipher: aes-128-cfb
+- name: 🇺🇸:美国-vmess-v116.v2dns.bar:80-可用-中转:45.89.230.188-完全不支持NF
+  type: vmess
+  server: v116.v2dns.bar
+  network: ws
+  port: 80
+  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v116-DtoEwAEX
+- name: 🇺🇸:美国-vmess-us3.lolvps.xyz:60072-可用-中转:38.147.161.17-解锁美国地区NF非自制剧
+  type: vmess
+  server: us3.lolvps.xyz
+  network: ws
+  port: 60072
+  uuid: 08c2809f-0094-42c9-b04a-c19d06a1d898
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /G0DXUQOM
 - name: 🇺🇸:美国-vmess-v04.ssrsub.com:153-可用-中转:150.230.182.188-解锁美国地区NF非自制剧
   type: vmess
   server: v04.ssrsub.com
