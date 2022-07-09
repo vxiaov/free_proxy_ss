@@ -11,17 +11,29 @@ proxies:
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-14.29.124.168:24009-可用-中转:223.26.73.202-解锁台湾地区NF非自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24009
+  cipher: aes-128-cfb
+- name: 🇨🇾:塞浦路斯-ss-213.169.137.221:989-可用-直连-解锁塞浦路斯地区NF非自制剧
+  type: ss
+  server: 213.169.137.221
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24003-可用-中转:223.26.73.202-解锁台湾地区NF非自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24003
+  cipher: aes-128-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9041-被墙-直连-解锁瑞士地区NF非自制剧
   type: ss
   server: 185.126.116.119
   password: U6qnYRhfyDmn8sgn
   port: 9041
-  cipher: aes-256-cfb
-- name: 🇨🇾:塞浦路斯-ss-213.169.137.221:989-被墙-直连-解锁塞浦路斯地区NF非自制剧
-  type: ss
-  server: 213.169.137.221
-  password: f8f7aCzcPKbsF8p3
-  port: 989
   cipher: aes-256-cfb
 - name: 🇯🇵:日本-ss-89.31.126.150:802-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧
   type: ss
@@ -41,12 +53,6 @@ proxies:
   password: XPtzA9sCug3SPR4c
   port: 9025
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:24004-被墙-中转:223.26.73.202-解锁台湾地区NF非自制剧
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24004
-  cipher: aes-128-cfb
 - name: 🇬🇧:英国-ss-83.229.73.60:50003-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
   server: 83.229.73.60
@@ -71,12 +77,6 @@ proxies:
   password: ZpNDDKRu9MagNvaf
   port: 9015
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:24000-被墙-中转:223.26.73.202-解锁台湾地区NF非自制剧
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24000
-  cipher: aes-128-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9088-被墙-直连-解锁瑞士地区NF非自制剧
   type: ss
   server: 185.126.116.119
@@ -94,6 +94,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇺🇸:美国-vmess-129.150.61.170:29493-可用-直连-解锁新加坡地区NF非自制剧
+  type: vmess
+  server: 129.150.61.170
+  network: ws
+  port: 29493
+  uuid: ac0d0076-93d2-48ad-ba6e-ea5c8d7b0132
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇺🇸:美国-vmess-v04.ssrsub.com:153-可用-中转:150.230.182.188-解锁美国地区NF非自制剧
   type: vmess
   server: v04.ssrsub.com
@@ -105,3 +116,14 @@ proxies:
   udp: false
   tls: false
   ws-path: /api/v3/download.getFile
+- name: 🇺🇸:美国-vmess-oz.moonfree.top:443-可用-中转:104.28.254.16-解锁芬兰地区NF非自制剧
+  type: vmess
+  server: oz.moonfree.top
+  network: ws
+  port: 443
+  uuid: 9fbb6122-46e7-413b-b29d-749eef446c8d
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /
