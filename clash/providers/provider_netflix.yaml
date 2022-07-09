@@ -5,17 +5,17 @@ proxies:
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
+- name: 🇨🇾:塞浦路斯-ss-213.169.137.221:989-可用-直连-解锁塞浦路斯地区NF非自制剧
+  type: ss
+  server: 213.169.137.221
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9041-被墙-直连-解锁瑞士地区NF非自制剧
   type: ss
   server: 185.126.116.119
   password: U6qnYRhfyDmn8sgn
   port: 9041
-  cipher: aes-256-cfb
-- name: 🇨🇾:塞浦路斯-ss-213.169.137.221:989-被墙-直连-解锁塞浦路斯地区NF非自制剧
-  type: ss
-  server: 213.169.137.221
-  password: f8f7aCzcPKbsF8p3
-  port: 989
   cipher: aes-256-cfb
 - name: 🇯🇵:日本-ss-89.31.126.150:802-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧
   type: ss
@@ -65,23 +65,56 @@ proxies:
   password: f8npKgNzdkss2ytn
   port: 9088
   cipher: aes-256-cfb
+- name: 🇦🇺:澳大利亚-vmess-140.83.84.72:10021-可用-直连-解锁日本地区NF非自制剧
+  type: vmess
+  server: 140.83.84.72
+  network: ws
+  port: 10021
+  uuid: a12e496e-f89a-434a-8011-108846f0e412
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇺🇸:美国-vmess-129.150.61.170:29493-可用-直连-解锁新加坡地区NF非自制剧
+  type: vmess
+  server: 129.150.61.170
+  network: ws
+  port: 29493
+  uuid: ac0d0076-93d2-48ad-ba6e-ea5c8d7b0132
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇺🇸:美国-vmess-v04.ssrsub.com:153-可用-中转:150.230.182.188-解锁美国地区NF非自制剧
+  type: vmess
+  server: v04.ssrsub.com
+  network: ws
+  port: 153
+  uuid: ec3e47e9-8dd7-4302-aa1a-a5658d34e931
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /api/v3/download.getFile
+- name: 🇺🇸:美国-vmess-20.239.179.251:50044-可用-中转:140.83.84.72-解锁日本地区NF非自制剧
+  type: vmess
+  server: 20.239.179.251
+  network: ws
+  port: 50044
+  uuid: a12e496e-f89a-434a-8011-108846f0e412
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇺🇸:美国-vmess-20.239.179.251:50045-可用-中转:138.2.49.230-解锁日本地区NF非自制剧
   type: vmess
   server: 20.239.179.251
   network: ws
   port: 50045
   uuid: 1617e875-e377-4e4f-85ef-dcf9e5e10df7
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇻🇳:越南-vmess-103.90.220.27:80-可用-直连-解锁越南地区NF非自制剧
-  type: vmess
-  server: 103.90.220.27
-  network: ws
-  port: 80
-  uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e
   alterId: 4
   cipher: auto
   udp: false
