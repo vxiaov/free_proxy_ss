@@ -1,34 +1,22 @@
 proxies:
-- name: 🇯🇵:日本-ss-185.160.24.217:812-被墙-直连-解锁日本地区NF非自制剧
-  type: ss
-  server: 185.160.24.217
-  password: G!yBwPWH3Vao
-  port: 812
-  cipher: chacha20-ietf-poly1305
-- name: 🇯🇵:日本-ss-185.160.24.217:803-被墙-直连-解锁日本地区NF非自制剧
-  type: ss
-  server: 185.160.24.217
-  password: G!yBwPWH3Vao
-  port: 803
-  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-89.31.126.150:812-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧
   type: ss
   server: 89.31.126.150
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
+- name: 🇨🇾:塞浦路斯-ss-213.169.137.221:989-可用-直连-解锁塞浦路斯地区NF非自制剧
+  type: ss
+  server: 213.169.137.221
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9041-被墙-直连-解锁瑞士地区NF非自制剧
   type: ss
   server: 185.126.116.119
   password: U6qnYRhfyDmn8sgn
   port: 9041
   cipher: aes-256-cfb
-- name: 🇯🇵:日本-ss-185.160.24.217:804-被墙-直连-解锁日本地区NF非自制剧
-  type: ss
-  server: 185.160.24.217
-  password: G!yBwPWH3Vao
-  port: 804
-  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-89.31.126.150:802-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧
   type: ss
   server: 89.31.126.150
@@ -41,12 +29,6 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
-- name: 🇯🇵:日本-ss-185.160.24.217:805-被墙-直连-解锁日本地区NF非自制剧
-  type: ss
-  server: 185.160.24.217
-  password: G!yBwPWH3Vao
-  port: 805
-  cipher: chacha20-ietf-poly1305
 - name: 🇬🇧:英国-ss-83.229.73.60:50003-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
   server: 83.229.73.60
@@ -71,6 +53,17 @@ proxies:
   password: ZpNDDKRu9MagNvaf
   port: 9015
   cipher: aes-256-cfb
+- name: 🇨🇳:中国-vmess-cn05.downloadmovie.cn:65026-可用-中转:211.22.180.1-解锁台湾地区NF非自制剧
+  type: vmess
+  server: cn05.downloadmovie.cn
+  network: ws
+  port: 65026
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /rocket
 - name: 🇻🇳:越南-vmess-103.90.220.27:80-可用-直连-解锁越南地区NF非自制剧
   type: vmess
   server: 103.90.220.27
@@ -82,3 +75,58 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇨🇳:中国-vmess-cn04.downloadmovie.cn:65025-可用-中转:211.22.180.40-解锁台湾地区NF非自制剧
+  type: vmess
+  server: cn04.downloadmovie.cn
+  network: ws
+  port: 65025
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /rocket
+- name: 🇨🇳:中国-vmess-cn03.downloadmovie.cn:65027-可用-中转:103.148.72.41-解锁台湾地区NF非自制剧
+  type: vmess
+  server: cn03.downloadmovie.cn
+  network: ws
+  port: 65027
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /rocket
+- name: 🇨🇳:中国-vmess-cn04.downloadmovie.cn:65028-可用-中转:103.148.72.40-解锁台湾地区NF非自制剧
+  type: vmess
+  server: cn04.downloadmovie.cn
+  network: ws
+  port: 65028
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /rocket
+- name: 🇨🇳:中国-vmess-cn04.downloadmovie.cn:65036-可用-中转:211.22.180.127-解锁台湾地区NF非自制剧
+  type: vmess
+  server: cn04.downloadmovie.cn
+  network: ws
+  port: 65036
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /rocket
+- name: 🇨🇳:中国-vmess-cn03.downloadmovie.cn:65041-可用-中转:103.148.72.41-解锁台湾地区NF非自制剧
+  type: vmess
+  server: cn03.downloadmovie.cn
+  network: ws
+  port: 65041
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /rocket
