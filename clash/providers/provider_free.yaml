@@ -1,10 +1,4 @@
 proxies:
-- name: 🇺🇸:美国-ss-138.68.248.130:811-可用-直连-不支持Netflix
-  type: ss
-  server: 138.68.248.130
-  password: Ultr@r00t_2017
-  port: 811
-  cipher: chacha20-ietf-poly1305
 - name: 🇨🇳:中国-ss-14.29.124.168:25218-可用-直连-完全不支持NF
   type: ss
   server: 14.29.124.168
@@ -41,12 +35,6 @@ proxies:
   password: QazEdcTgb159@$*
   port: 25247
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11033-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11033
-  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:25286-可用-直连-完全不支持NF
   type: ss
   server: 14.29.124.168
@@ -65,11 +53,11 @@ proxies:
   password: QazEdcTgb159@$*
   port: 11012
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11037-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+- name: 🇨🇳:中国-ss-14.29.124.174:11010-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
   type: ss
   server: 14.29.124.174
   password: QazEdcTgb159@$*
-  port: 11037
+  port: 11010
   cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.174:11004-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
   type: ss
@@ -77,29 +65,35 @@ proxies:
   password: QazEdcTgb159@$*
   port: 11004
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11018-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
+- name: 🇨🇳:中国-ss-14.29.124.174:11035-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
   type: ss
   server: 14.29.124.174
   password: QazEdcTgb159@$*
-  port: 11018
+  port: 11035
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:24008-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+- name: 🇺🇸:美国-ss-104.243.25.95:253-可用-直连-仅支持美国地区NF自制剧
   type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24008
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:24009-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24009
-  cipher: aes-128-cfb
+  server: 104.243.25.95
+  password: bwhskrskr03
+  port: 253
+  cipher: aes-256-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:24003-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   type: ss
   server: 14.29.124.168
   password: QazEdcTgb159@$*
   port: 24003
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11050-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11050
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24004-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24004
   cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:24000-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   type: ss
@@ -115,6 +109,16 @@ proxies:
   protocol: origin
   port: 8081
   cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇨🇳:中国-ssr-14.29.124.168:24001-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24001
+  cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
 - name: 🇺🇸:美国-vmess-v116.v2dns.bar:80-可用-中转:45.89.230.188-完全不支持NF
@@ -161,7 +165,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
-- name: 🇺🇸:美国-vmess-vfly4.win:443-可用-中转:8.218.145.28-解锁印度尼西亚地区NF非自制剧
+- name: 🇺🇸:美国-vmess-vfly4.win:443-可用-中转:8.218.145.28-不支持Netflix
   type: vmess
   server: vfly4.win
   network: ws
@@ -271,17 +275,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
-- name: 🇻🇳:越南-vmess-103.90.220.27:80-可用-直连-解锁越南地区NF非自制剧
-  type: vmess
-  server: 103.90.220.27
-  network: ws
-  port: 80
-  uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
 - name: 🇬🇧:英国-vmess-v2.tgfaka.com:48443-可用-中转:45.8.230.253-完全不支持NF
   type: vmess
   server: v2.tgfaka.com
@@ -304,6 +297,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /a11-dCeBnloadPy
+- name: 🇨🇳:中国-vmess-ingress-i1.onebox6.org:38701-可用-中转:194.233.66.47-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: ingress-i1.onebox6.org
+  network: ws
+  port: 38701
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /hls/cctv5phd.m3u8
 - name: 🇺🇸:美国-vmess-su4.chaoxn.top:80-可用-中转:205.185.126.188-仅支持美国地区NF自制剧
   type: vmess
   server: su4.chaoxn.top
@@ -315,17 +319,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇺🇸:美国-vmess-vfly8.win:443-可用-中转:8.219.81.229-解锁新加坡地区NF非自制剧
+- name: 🇺🇸:美国-vmess-34.72img.xyz:443-可用-中转:129.146.161.214-解锁美国地区NF非自制剧
   type: vmess
-  server: vfly8.win
+  server: 34.72img.xyz
   network: ws
   port: 443
-  uuid: 8fc94fe3-cfb1-4bc7-e43b-26d4d1e5f4cd
+  uuid: b605dc8f-249f-4f08-9793-571acf746dab
   alterId: 4
   cipher: auto
   udp: false
   tls: true
-  ws-path: /myblog
+  ws-path: /
 - name: 🇨🇳:中国-vmess-cn03.downloadmovie.cn:65041-可用-中转:103.148.72.41-解锁台湾地区NF非自制剧
   type: vmess
   server: cn03.downloadmovie.cn
