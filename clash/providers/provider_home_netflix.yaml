@@ -23,12 +23,6 @@ proxies:
   password: zDNVedRFPQexG9v
   port: 6379
   cipher: aes-256-gcm
-- name: 🇸🇬:新加坡-ss-194.124.35.23:808-可用-中转:194.124.35.17-仅支持新加坡地区NF自制剧
-  type: ss
-  server: 194.124.35.23
-  password: G!yBwPWH3Vao
-  port: 808
-  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-85.208.108.20:5601-可用-中转:85.208.108.18-仅支持日本地区NF自制剧
   type: ss
   server: 85.208.108.20
@@ -47,12 +41,12 @@ proxies:
   password: 7d99ae502227454ea998d71e4b62a388
   port: 23335
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11047-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+- name: 🇸🇬:新加坡-ss-194.124.35.23:808-可用-中转:194.124.35.17-仅支持新加坡地区NF自制剧
   type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11047
-  cipher: aes-128-cfb
+  server: 194.124.35.23
+  password: G!yBwPWH3Vao
+  port: 808
+  cipher: chacha20-ietf-poly1305
 - name: 🇮🇸:冰岛-ss-37.235.49.158:989-可用-直连-仅支持冰岛地区NF自制剧
   type: ss
   server: 37.235.49.158
@@ -81,17 +75,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
-- name: 🇨🇳:中国-vmess-14.119.87.180:45149-可用-中转:159.223.53.151-仅支持新加坡地区NF自制剧
-  type: vmess
-  server: 14.119.87.180
-  network: ws
-  port: 45149
-  uuid: 311e647a-c835-492a-b685-b159c0c78683
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
 - name: 🇨🇳:中国-vmess-ingress-i1.onebox6.org:38701-可用-中转:194.233.66.47-仅支持新加坡地区NF自制剧
   type: vmess
   server: ingress-i1.onebox6.org
