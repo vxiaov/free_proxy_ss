@@ -5,12 +5,6 @@ proxies:
   password: TEzjfAYq2IjtuoS
   port: 6697
   cipher: aes-256-gcm
-- name: 🇯🇵:日本-ss-85.208.108.60:8882-可用-中转:85.208.108.58-仅支持日本地区NF自制剧
-  type: ss
-  server: 85.208.108.60
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  cipher: aes-256-gcm
 - name: 🇯🇵:日本-ss-85.208.108.20:7002-可用-中转:85.208.108.18-仅支持日本地区NF自制剧
   type: ss
   server: 85.208.108.20
@@ -41,12 +35,54 @@ proxies:
   password: 7d99ae502227454ea998d71e4b62a388
   port: 23335
   cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11010-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11010
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11004-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11004
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11047-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11047
+  cipher: aes-128-cfb
 - name: 🇸🇬:新加坡-ss-194.124.35.23:808-可用-中转:194.124.35.17-仅支持新加坡地区NF自制剧
   type: ss
   server: 194.124.35.23
   password: G!yBwPWH3Vao
   port: 808
   cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-14.29.124.174:11032-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11032
+  cipher: aes-128-cfb
+- name: 🇺🇸:美国-ss-97.64.31.80:247-可用-直连-仅支持美国地区NF自制剧
+  type: ss
+  server: 97.64.31.80
+  password: bwhskrskr03
+  port: 247
+  cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11050-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11050
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24000-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24000
+  cipher: aes-128-cfb
 - name: 🇮🇸:冰岛-ss-37.235.49.158:989-可用-直连-仅支持冰岛地区NF自制剧
   type: ss
   server: 37.235.49.158
@@ -80,6 +116,17 @@ proxies:
   server: ingress-i1.onebox6.org
   network: ws
   port: 38701
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /hls/cctv5phd.m3u8
+- name: 🇨🇳:中国-vmess-ingress-i1.onebox6.org:38201-可用-中转:61.224.78.45-仅支持台湾地区NF自制剧
+  type: vmess
+  server: ingress-i1.onebox6.org
+  network: ws
+  port: 38201
   uuid: 79386685-16da-327c-9e14-aa6d702d86bc
   alterId: 4
   cipher: auto
