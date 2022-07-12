@@ -1,10 +1,4 @@
 proxies:
-- name: 🇨🇳:中国-ss-ftp.cn.debian.cdnet.in:8070-可用-中转:195.80.49.14-解锁美国地区NF非自制剧
-  type: ss
-  server: ftp.cn.debian.cdnet.in
-  password: 18269676-71ae-476d-b6d3-26ca391424b9
-  port: 8070
-  cipher: aes-128-gcm
 - name: 🇯🇵:日本-ss-45.66.134.176:807-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
   type: ss
   server: 45.66.134.176
@@ -17,18 +11,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 806
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇦:加拿大-ss-72.140.224.197:801-被墙-直连-解锁加拿大地区NF非自制剧
-  type: ss
-  server: 72.140.224.197
-  password: G!yBwPWH3Vao
-  port: 801
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇦:加拿大-ss-72.140.224.197:802-被墙-直连-解锁加拿大地区NF非自制剧
-  type: ss
-  server: 72.140.224.197
-  password: G!yBwPWH3Vao
-  port: 802
-  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-45.66.134.176:805-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
   type: ss
   server: 45.66.134.176
@@ -40,12 +22,6 @@ proxies:
   server: 89.31.126.150
   password: G!yBwPWH3Vao
   port: 802
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇦:加拿大-ss-72.140.224.197:800-被墙-直连-解锁加拿大地区NF非自制剧
-  type: ss
-  server: 72.140.224.197
-  password: G!yBwPWH3Vao
-  port: 800
   cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-45.66.134.176:809-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
   type: ss
@@ -65,30 +41,18 @@ proxies:
   password: G!yBwPWH3Vao
   port: 802
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-ftp.cn.debian.cdnet.in:8070-可用-中转:195.80.49.8-解锁美国地区NF非自制剧
+- name: 🇨🇳:中国-ss-ftp.cn.debian.cdnet.in:8070-可用-中转:195.80.49.14-解锁美国地区NF非自制剧
   type: ss
   server: ftp.cn.debian.cdnet.in
   password: 18269676-71ae-476d-b6d3-26ca391424b9
   port: 8070
   cipher: aes-128-gcm
-- name: 🇨🇦:加拿大-ss-72.140.224.197:806-被墙-直连-解锁加拿大地区NF非自制剧
-  type: ss
-  server: 72.140.224.197
-  password: G!yBwPWH3Vao
-  port: 806
-  cipher: chacha20-ietf-poly1305
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9041-被墙-直连-解锁瑞士地区NF非自制剧
   type: ss
   server: 185.126.116.119
   password: U6qnYRhfyDmn8sgn
   port: 9041
   cipher: aes-256-cfb
-- name: 🇨🇦:加拿大-ss-72.140.224.197:805-被墙-直连-解锁加拿大地区NF非自制剧
-  type: ss
-  server: 72.140.224.197
-  password: G!yBwPWH3Vao
-  port: 805
-  cipher: chacha20-ietf-poly1305
 - name: 🇨🇾:塞浦路斯-ss-213.169.137.221:989-被墙-直连-解锁塞浦路斯地区NF非自制剧
   type: ss
   server: 213.169.137.221
@@ -119,23 +83,51 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
+- name: 🇨🇦:加拿大-ss-72.140.224.197:812-被墙-直连-解锁加拿大地区NF非自制剧
+  type: ss
+  server: 72.140.224.197
+  password: G!yBwPWH3Vao
+  port: 812
+  cipher: chacha20-ietf-poly1305
 - name: 🇮🇱:以色列-ss-185.162.125.91:50004-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
   server: 185.162.125.91
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-vmess-cn03.downloadmovie.cn:65041-可用-中转:103.148.72.41-解锁台湾地区NF非自制剧
+- name: 🇬🇧:英国-vmess-ru1.lolvps.xyz:50157-可用-中转:185.80.200.127-解锁加拿大地区NF非自制剧
   type: vmess
-  server: cn03.downloadmovie.cn
+  server: ru1.lolvps.xyz
   network: ws
-  port: 65041
+  port: 50157
+  uuid: 2b8e4fc6-0112-4b26-8c17-1bfef9a3ff99
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /6129CFHR
+- name: 🇨🇳:中国-vmess-cn04.downloadmovie.cn:65025-可用-中转:211.22.180.40-解锁台湾地区NF非自制剧
+  type: vmess
+  server: cn04.downloadmovie.cn
+  network: ws
+  port: 65025
   uuid: 0253b574-8020-3186-a647-0267295ac9bb
   alterId: 4
   cipher: auto
   udp: false
   tls: false
   ws-path: /rocket
+- name: 🇨🇳:中国-vmess-116.63.103.11:45758-可用-中转:45.136.253.35-解锁泰国地区NF非自制剧
+  type: vmess
+  server: 116.63.103.11
+  network: ws
+  port: 45758
+  uuid: 311e647a-c835-492a-b685-b159c0c78683
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇨🇳:中国-vmess-cn05.downloadmovie.cn:65026-可用-中转:211.22.180.1-解锁台湾地区NF非自制剧
   type: vmess
   server: cn05.downloadmovie.cn
@@ -147,11 +139,11 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
-- name: 🇨🇳:中国-vmess-cn04.downloadmovie.cn:65025-可用-中转:211.22.180.40-解锁台湾地区NF非自制剧
+- name: 🇨🇳:中国-vmess-cn03.downloadmovie.cn:65041-可用-中转:103.148.72.41-解锁台湾地区NF非自制剧
   type: vmess
-  server: cn04.downloadmovie.cn
+  server: cn03.downloadmovie.cn
   network: ws
-  port: 65025
+  port: 65041
   uuid: 0253b574-8020-3186-a647-0267295ac9bb
   alterId: 4
   cipher: auto
