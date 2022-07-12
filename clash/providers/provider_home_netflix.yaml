@@ -1,11 +1,11 @@
 proxies:
-- name: 🇨🇳:中国-ss-ftp.cn.debian.cdnet.in:8030-可用-中转:50.7.159.154-仅支持日本地区NF自制剧
+- name: 🇨🇳:中国-ss-ftp.cn.debian.cdnet.in:8030-可用-中转:50.7.159.155-仅支持日本地区NF自制剧
   type: ss
   server: ftp.cn.debian.cdnet.in
   password: 18269676-71ae-476d-b6d3-26ca391424b9
   port: 8030
   cipher: aes-128-gcm
-- name: 🇨🇳:中国-ss-ftp.cn.debian.cdnet.in:8070-可用-中转:195.80.49.8-仅支持美国地区NF自制剧
+- name: 🇨🇳:中国-ss-ftp.cn.debian.cdnet.in:8070-可用-中转:195.80.49.14-仅支持美国地区NF自制剧
   type: ss
   server: ftp.cn.debian.cdnet.in
   password: 18269676-71ae-476d-b6d3-26ca391424b9
@@ -23,13 +23,7 @@ proxies:
   password: 18269676-71ae-476d-b6d3-26ca391424b9
   port: 8040
   cipher: aes-128-gcm
-- name: 🇨🇳:中国-ss-14.29.124.174:11033-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11033
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-ftp.cn.debian.cdnet.in:8030-可用-中转:50.7.159.155-仅支持日本地区NF自制剧
+- name: 🇨🇳:中国-ss-ftp.cn.debian.cdnet.in:8030-可用-中转:50.7.159.154-仅支持日本地区NF自制剧
   type: ss
   server: ftp.cn.debian.cdnet.in
   password: 18269676-71ae-476d-b6d3-26ca391424b9
@@ -53,23 +47,23 @@ proxies:
   password: QazEdcTgb159@$*
   port: 11012
   cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11037-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11037
+  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.174:11010-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
   type: ss
   server: 14.29.124.174
   password: QazEdcTgb159@$*
   port: 11010
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11047-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+- name: 🇨🇳:中国-ss-14.29.124.174:11018-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
   type: ss
   server: 14.29.124.174
   password: QazEdcTgb159@$*
-  port: 11047
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:24009-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24009
+  port: 11018
   cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:24003-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
   type: ss
@@ -77,12 +71,17 @@ proxies:
   password: QazEdcTgb159@$*
   port: 24003
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:24006-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24006
-  cipher: aes-128-cfb
+- name: 🇺🇸:美国-vmess-20.239.179.251:50045-可用-中转:138.2.49.230-仅支持日本地区NF自制剧
+  type: vmess
+  server: 20.239.179.251
+  network: ws
+  port: 50045
+  uuid: 9b61ff46-4c61-4b31-801a-f870d7a1de53
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇨🇳:中国-vmess-in-sg-1.onebox6.org:38701-可用-中转:194.233.66.47-仅支持新加坡地区NF自制剧
   type: vmess
   server: in-sg-1.onebox6.org
@@ -94,17 +93,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
-- name: 🇯🇵:日本-vmess-hk01.henet.cyou:20000-可用-中转:172.104.82.14-仅支持日本地区NF自制剧
-  type: vmess
-  server: hk01.henet.cyou
-  network: ws
-  port: 20000
-  uuid: ad0f1f7c-590c-4bb5-ae5b-e6ac8f170cf8
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /live
 - name: 🇦🇺:澳大利亚-vmess-vau1.0bad.com:443-可用-中转:172.105.182.64-仅支持澳大利亚地区NF自制剧
   type: vmess
   server: vau1.0bad.com
@@ -149,14 +137,3 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
-- name: 🇸🇬:新加坡-vmess-aws.circloud123.com:80-可用-中转:18.139.217.144-仅支持新加坡地区NF自制剧
-  type: vmess
-  server: aws.circloud123.com
-  network: ws
-  port: 80
-  uuid: 542297e7-1070-48f6-a357-00cce33c6a36
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /sometimesnaive
