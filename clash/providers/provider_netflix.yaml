@@ -1,4 +1,16 @@
 proxies:
+- name: 🇨🇳:中国-ss-ftp.cn.debian.cdnet.in:8070-可用-中转:195.80.49.14-解锁美国地区NF非自制剧
+  type: ss
+  server: ftp.cn.debian.cdnet.in
+  password: 18269676-71ae-476d-b6d3-26ca391424b9
+  port: 8070
+  cipher: aes-128-gcm
+- name: 🇨🇳:中国-ss-ftp.cn.debian.cdnet.in:8050-可用-中转:91.229.114.77-解锁新加坡地区NF非自制剧
+  type: ss
+  server: ftp.cn.debian.cdnet.in
+  password: 18269676-71ae-476d-b6d3-26ca391424b9
+  port: 8050
+  cipher: aes-128-gcm
 - name: 🇯🇵:日本-ss-89.31.126.150:802-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧
   type: ss
   server: 89.31.126.150
@@ -11,12 +23,12 @@ proxies:
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-ftp.cn.debian.cdnet.in:8070-可用-中转:195.80.49.8-解锁美国地区NF非自制剧
+- name: 🇺🇸:美国-ss-138.68.248.130:811-被墙-直连-解锁美国地区NF非自制剧
   type: ss
-  server: ftp.cn.debian.cdnet.in
-  password: 18269676-71ae-476d-b6d3-26ca391424b9
-  port: 8070
-  cipher: aes-128-gcm
+  server: 138.68.248.130
+  password: Ultr@r00t_2017
+  port: 811
+  cipher: chacha20-ietf-poly1305
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9041-被墙-直连-解锁瑞士地区NF非自制剧
   type: ss
   server: 185.126.116.119
@@ -59,13 +71,7 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-138.68.248.130:811-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 138.68.248.130
-  password: Ultr@r00t_2017
-  port: 811
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ssr-us-am32-5.eqnode.net:8081-可用-中转:34.214.25.246-解锁美国地区NF非自制剧
+- name: 🇺🇸:美国-ssr-us-am32-5.eqnode.net:8081-被墙-中转:34.214.25.246-解锁美国地区NF非自制剧
   type: ssr
   server: us-am32-5.eqnode.net
   password: YFVrXZgRo
@@ -86,17 +92,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
-- name: 🇨🇳:中国-vmess-116.63.103.11:45758-可用-中转:45.136.253.35-解锁泰国地区NF非自制剧
-  type: vmess
-  server: 116.63.103.11
-  network: ws
-  port: 45758
-  uuid: 311e647a-c835-492a-b685-b159c0c78683
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
 - name: 🇨🇳:中国-vmess-cn05.downloadmovie.cn:65026-可用-中转:211.22.180.1-解锁台湾地区NF非自制剧
   type: vmess
   server: cn05.downloadmovie.cn
@@ -119,14 +114,3 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
-- name: 🇨🇳:中国-vmess-116.63.103.11:45250-可用-中转:58.177.157.154-解锁香港地区NF非自制剧
-  type: vmess
-  server: 116.63.103.11
-  network: ws
-  port: 45250
-  uuid: 311e647a-c835-492a-b685-b159c0c78683
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /

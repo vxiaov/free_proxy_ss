@@ -11,6 +11,12 @@ proxies:
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-138.68.248.130:811-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 138.68.248.130
+  password: Ultr@r00t_2017
+  port: 811
+  cipher: chacha20-ietf-poly1305
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9041-被墙-直连-解锁瑞士地区NF非自制剧
   type: ss
   server: 185.126.116.119
@@ -53,9 +59,13 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-138.68.248.130:811-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 138.68.248.130
-  password: Ultr@r00t_2017
-  port: 811
-  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ssr-us-am32-5.eqnode.net:8081-被墙-中转:34.214.25.246-解锁美国地区NF非自制剧
+  type: ssr
+  server: us-am32-5.eqnode.net
+  password: YFVrXZgRo
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
