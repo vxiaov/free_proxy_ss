@@ -1,45 +1,15 @@
 proxies:
-- name: 🇯🇵:日本-ss-45.66.134.176:807-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
-  type: ss
-  server: 45.66.134.176
-  password: G!yBwPWH3Vao
-  port: 807
-  cipher: chacha20-ietf-poly1305
-- name: 🇯🇵:日本-ss-45.66.134.176:806-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
-  type: ss
-  server: 45.66.134.176
-  password: G!yBwPWH3Vao
-  port: 806
-  cipher: chacha20-ietf-poly1305
-- name: 🇯🇵:日本-ss-45.66.134.176:805-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
-  type: ss
-  server: 45.66.134.176
-  password: G!yBwPWH3Vao
-  port: 805
-  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-89.31.126.150:802-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧
   type: ss
   server: 89.31.126.150
   password: G!yBwPWH3Vao
   port: 802
   cipher: chacha20-ietf-poly1305
-- name: 🇯🇵:日本-ss-45.66.134.176:809-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
-  type: ss
-  server: 45.66.134.176
-  password: G!yBwPWH3Vao
-  port: 809
-  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-89.31.126.150:812-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧
   type: ss
   server: 89.31.126.150
   password: G!yBwPWH3Vao
   port: 812
-  cipher: chacha20-ietf-poly1305
-- name: 🇯🇵:日本-ss-45.66.134.176:802-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
-  type: ss
-  server: 45.66.134.176
-  password: G!yBwPWH3Vao
-  port: 802
   cipher: chacha20-ietf-poly1305
 - name: 🇨🇳:中国-ss-ftp.cn.debian.cdnet.in:8070-可用-中转:195.80.49.8-解锁美国地区NF非自制剧
   type: ss
@@ -89,17 +59,22 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
-- name: 🇬🇧:英国-vmess-ru1.lolvps.xyz:50157-可用-中转:185.80.200.127-解锁加拿大地区NF非自制剧
-  type: vmess
-  server: ru1.lolvps.xyz
-  network: ws
-  port: 50157
-  uuid: 2b8e4fc6-0112-4b26-8c17-1bfef9a3ff99
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /6129CFHR
+- name: 🇺🇸:美国-ss-138.68.248.130:811-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 138.68.248.130
+  password: Ultr@r00t_2017
+  port: 811
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ssr-us-am32-5.eqnode.net:8081-可用-中转:34.214.25.246-解锁美国地区NF非自制剧
+  type: ssr
+  server: us-am32-5.eqnode.net
+  password: YFVrXZgRo
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 🇨🇳:中国-vmess-cn04.downloadmovie.cn:65025-可用-中转:211.22.180.40-解锁台湾地区NF非自制剧
   type: vmess
   server: cn04.downloadmovie.cn
@@ -144,3 +119,14 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
+- name: 🇨🇳:中国-vmess-116.63.103.11:45250-可用-中转:58.177.157.154-解锁香港地区NF非自制剧
+  type: vmess
+  server: 116.63.103.11
+  network: ws
+  port: 45250
+  uuid: 311e647a-c835-492a-b685-b159c0c78683
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
