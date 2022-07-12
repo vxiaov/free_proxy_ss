@@ -17,12 +17,6 @@ proxies:
   password: TEzjfAYq2IjtuoS
   port: 6697
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-134.195.196.128:6679-可用-直连-仅支持加拿大地区NF自制剧
-  type: ss
-  server: 134.195.196.128
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  cipher: aes-256-gcm
 - name: 🇯🇵:日本-ss-85.208.108.20:5601-可用-中转:85.208.108.18-仅支持日本地区NF自制剧
   type: ss
   server: 85.208.108.20
@@ -46,6 +40,12 @@ proxies:
   server: 134.195.196.128
   password: g5MeD6Ft3CWlJId
   port: 5004
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-134.195.196.128:8091-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 134.195.196.128
+  password: PCnnH6SQSnfoS27
+  port: 8091
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-172.96.192.58:254-可用-直连-仅支持美国地区NF自制剧
   type: ss
@@ -83,17 +83,6 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-vmess-lc-hk01-direct01.lc-hk01.lc-node.com:443-可用-中转:118.163.201.73-仅支持台湾地区NF自制剧
-  type: vmess
-  server: lc-hk01-direct01.lc-hk01.lc-node.com
-  network: ws
-  port: 443
-  uuid: ec736482-173e-3eff-9114-b49df8056e7d
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /
 - name: 🇺🇸:美国-vmess-su10.chaoxn.top:80-可用-中转:205.185.113.55-仅支持美国地区NF自制剧
   type: vmess
   server: su10.chaoxn.top
@@ -138,7 +127,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
-- name: 🇺🇸:美国-vmess-vus2.0bad.com:443-可用-中转:66.228.59.90-仅支持美国地区NF自制剧
+- name: 🇺🇸:美国-vmess-vus2.0bad.com:443-可用-中转:45.33.63.235-仅支持美国地区NF自制剧
   type: vmess
   server: vus2.0bad.com
   network: ws
