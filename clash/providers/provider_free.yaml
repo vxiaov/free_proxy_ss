@@ -1,28 +1,46 @@
 proxies:
-- name: 🇨🇳:中国-ss-ftp.cn.debian.cdnet.in:8050-可用-中转:91.229.114.77-仅支持新加坡地区NF自制剧
-  type: ss
-  server: ftp.cn.debian.cdnet.in
-  password: 18269676-71ae-476d-b6d3-26ca391424b9
-  port: 8050
-  cipher: aes-128-gcm
-- name: 🇨🇳:中国-ss-ftp.cn.debian.cdnet.in:8070-可用-中转:195.80.49.8-仅支持美国地区NF自制剧
-  type: ss
-  server: ftp.cn.debian.cdnet.in
-  password: 18269676-71ae-476d-b6d3-26ca391424b9
-  port: 8070
-  cipher: aes-128-gcm
 - name: 🇨🇳:中国-ss-ftp.cn.debian.cdnet.in:8060-可用-中转:45.129.3.167-完全不支持NF
   type: ss
   server: ftp.cn.debian.cdnet.in
   password: 18269676-71ae-476d-b6d3-26ca391424b9
   port: 8060
   cipher: aes-128-gcm
+- name: 🇨🇳:中国-ss-ftp.cn.debian.cdnet.in:8070-可用-中转:195.80.49.14-解锁美国地区NF非自制剧
+  type: ss
+  server: ftp.cn.debian.cdnet.in
+  password: 18269676-71ae-476d-b6d3-26ca391424b9
+  port: 8070
+  cipher: aes-128-gcm
+- name: 🇨🇳:中国-ss-ftp.cn.debian.cdnet.in:8050-可用-中转:91.229.114.77-仅支持新加坡地区NF自制剧
+  type: ss
+  server: ftp.cn.debian.cdnet.in
+  password: 18269676-71ae-476d-b6d3-26ca391424b9
+  port: 8050
+  cipher: aes-128-gcm
+- name: 🇨🇳:中国-ss-ftp.cn.debian.cdnet.in:8040-可用-中转:218.233.153.154-仅支持韩国地区NF自制剧
+  type: ss
+  server: ftp.cn.debian.cdnet.in
+  password: 18269676-71ae-476d-b6d3-26ca391424b9
+  port: 8040
+  cipher: aes-128-gcm
+- name: 🇨🇳:中国-ss-14.29.124.168:25218-可用-直连-完全不支持NF
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 25218
+  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:25220-可用-直连-完全不支持NF
   type: ss
   server: 14.29.124.168
   password: QazEdcTgb159@$*
   port: 25220
   cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-ftp.cn.debian.cdnet.in:8070-可用-中转:195.80.49.8-解锁美国地区NF非自制剧
+  type: ss
+  server: ftp.cn.debian.cdnet.in
+  password: 18269676-71ae-476d-b6d3-26ca391424b9
+  port: 8070
+  cipher: aes-128-gcm
 - name: 🇨🇳:中国-ss-14.29.124.168:25280-可用-直连-完全不支持NF
   type: ss
   server: 14.29.124.168
@@ -41,11 +59,23 @@ proxies:
   password: QazEdcTgb159@$*
   port: 25286
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:25233-可用-直连-完全不支持NF
+- name: 🇺🇸:美国-ss-172.96.192.58:254-可用-直连-不支持Netflix
   type: ss
-  server: 14.29.124.168
+  server: 172.96.192.58
+  password: bwhskrskr03
+  port: 254
+  cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11047-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+  type: ss
+  server: 14.29.124.174
   password: QazEdcTgb159@$*
-  port: 25233
+  port: 11047
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11032-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11032
   cipher: aes-128-cfb
 - name: 🇨🇳:中国-vmess-cn04.downloadmovie.cn:65036-可用-中转:211.22.180.127-仅支持台湾地区NF自制剧
   type: vmess
