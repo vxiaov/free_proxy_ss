@@ -1,21 +1,15 @@
 proxies:
-- name: 🇯🇵:日本-ss-85.208.108.20:7002-可用-中转:85.208.108.18-仅支持日本地区NF自制剧
-  type: ss
-  server: 85.208.108.20
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  cipher: aes-256-gcm
 - name: 🇯🇵:日本-ss-85.208.108.20:6697-可用-中转:85.208.108.18-仅支持日本地区NF自制剧
   type: ss
   server: 85.208.108.20
   password: TEzjfAYq2IjtuoS
   port: 6697
   cipher: aes-256-gcm
-- name: 🇯🇵:日本-ss-85.208.108.20:5601-可用-中转:85.208.108.18-仅支持日本地区NF自制剧
+- name: 🇯🇵:日本-ss-85.208.108.20:7002-可用-中转:85.208.108.18-仅支持日本地区NF自制剧
   type: ss
   server: 85.208.108.20
-  password: Y6R9pAtvxxzmGC
-  port: 5601
+  password: RexnBgU7EV5ADxG
+  port: 7002
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.128:443-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
@@ -29,6 +23,12 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 3306
   cipher: aes-256-gcm
+- name: 🇯🇵:日本-ss-85.208.108.20:5601-可用-中转:85.208.108.18-仅支持日本地区NF自制剧
+  type: ss
+  server: 85.208.108.20
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.128:5004-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 134.195.196.128
@@ -41,11 +41,23 @@ proxies:
   password: PCnnH6SQSnfoS27
   port: 8091
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-14.29.124.174:11004-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
+- name: 🇺🇸:美国-ss-172.96.192.58:254-可用-直连-仅支持美国地区NF自制剧
+  type: ss
+  server: 172.96.192.58
+  password: bwhskrskr03
+  port: 254
+  cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11010-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
   type: ss
   server: 14.29.124.174
   password: QazEdcTgb159@$*
-  port: 11004
+  port: 11010
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11047-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11047
   cipher: aes-128-cfb
 - name: 🇺🇸:美国-ss-134.195.196.128:6679-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
@@ -53,6 +65,12 @@ proxies:
   password: TEzjfAYq2IjtuoS
   port: 6679
   cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-14.29.124.174:11016-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11016
+  cipher: aes-128-cfb
 - name: 🇯🇵:日本-ss-85.208.108.20:6679-可用-中转:85.208.108.18-仅支持日本地区NF自制剧
   type: ss
   server: 85.208.108.20
@@ -65,18 +83,18 @@ proxies:
   password: QazEdcTgb159@$*
   port: 24003
   cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11050-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11050
+  cipher: aes-128-cfb
 - name: 🇯🇵:日本-ss-85.208.108.20:6379-可用-中转:85.208.108.18-仅支持日本地区NF自制剧
   type: ss
   server: 85.208.108.20
   password: zDNVedRFPQexG9v
   port: 6379
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-14.29.124.174:11043-可用-中转:129.227.144.195-仅支持香港地区NF自制剧
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11043
-  cipher: aes-128-cfb
 - name: 🇫🇷:法国-ss-195.154.200.150:2376-可用-直连-仅支持法国地区NF自制剧
   type: ss
   server: 195.154.200.150
@@ -94,6 +112,28 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
+- name: 🇺🇸:美国-vmess-20.239.179.251:50045-可用-中转:138.2.49.230-仅支持日本地区NF自制剧
+  type: vmess
+  server: 20.239.179.251
+  network: ws
+  port: 50045
+  uuid: 9b61ff46-4c61-4b31-801a-f870d7a1de53
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇯🇵:日本-vmess-hk01.henet.cyou:20000-可用-中转:172.104.82.14-仅支持日本地区NF自制剧
+  type: vmess
+  server: hk01.henet.cyou
+  network: ws
+  port: 20000
+  uuid: ad0f1f7c-590c-4bb5-ae5b-e6ac8f170cf8
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /live
 - name: 🇨🇳:中国-vmess-in-sg-1.onebox6.org:38701-可用-中转:194.233.66.47-仅支持新加坡地区NF自制剧
   type: vmess
   server: in-sg-1.onebox6.org
@@ -105,23 +145,12 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
-- name: 🇺🇸:美国-vmess-vus2.0bad.com:443-可用-中转:66.228.59.90-仅支持美国地区NF自制剧
+- name: 🇰🇷:韩国-vmess-hk14.bp777.buzz:21665-可用-中转:152.67.219.34-仅支持韩国地区NF自制剧
   type: vmess
-  server: vus2.0bad.com
+  server: hk14.bp777.buzz
   network: ws
-  port: 443
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /chat
-- name: 🇺🇸:美国-vmess-su4.chaoxn.top:80-可用-中转:205.185.126.188-仅支持美国地区NF自制剧
-  type: vmess
-  server: su4.chaoxn.top
-  network: ws
-  port: 80
-  uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59
+  port: 21665
+  uuid: 815be877-33e5-445e-ae90-276bd63b514c
   alterId: 4
   cipher: auto
   udp: false
