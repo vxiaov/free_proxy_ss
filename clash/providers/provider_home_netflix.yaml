@@ -1,38 +1,39 @@
 proxies:
-- name: 🇨🇳:中国-ss-120.233.151.171:8030-可用-中转:50.7.159.154-仅支持日本地区NF自制剧
-  type: ss
-  server: 120.233.151.171
-  password: 18269676-71ae-476d-b6d3-26ca391424b9
-  port: 8030
-  cipher: aes-128-gcm
 - name: 🇨🇳:中国-ss-120.233.151.171:8030-可用-中转:50.7.159.155-仅支持日本地区NF自制剧
   type: ss
   server: 120.233.151.171
   password: 18269676-71ae-476d-b6d3-26ca391424b9
   port: 8030
   cipher: aes-128-gcm
-- name: 🇺🇸:美国-vmess-vus4.0bad.com:443-可用-中转:198.58.118.131-仅支持美国地区NF自制剧
+- name: 🇨🇳:中国-ss-ftp.cn.debian.cdnet.in:8010-可用-中转:119.247.247.142-仅支持香港地区NF自制剧
+  type: ss
+  server: ftp.cn.debian.cdnet.in
+  password: 18269676-71ae-476d-b6d3-26ca391424b9
+  port: 8010
+  cipher: aes-128-gcm
+- name: 🇨🇳:中国-ss-120.233.151.171:8040-可用-中转:218.233.153.154-仅支持韩国地区NF自制剧
+  type: ss
+  server: 120.233.151.171
+  password: 18269676-71ae-476d-b6d3-26ca391424b9
+  port: 8040
+  cipher: aes-128-gcm
+- name: 🇨🇳:中国-ss-ftp.cn.debian.cdnet.in:8010-可用-中转:210.6.179.108-仅支持香港地区NF自制剧
+  type: ss
+  server: ftp.cn.debian.cdnet.in
+  password: 18269676-71ae-476d-b6d3-26ca391424b9
+  port: 8010
+  cipher: aes-128-gcm
+- name: 🇺🇸:美国-vmess-jp.azzhuangaping.tw:80-可用-中转:8.37.43.73-仅支持日本地区NF自制剧
   type: vmess
-  server: vus4.0bad.com
+  server: jp.azzhuangaping.tw
   network: ws
-  port: 443
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /chat
-- name: 🇺🇸:美国-vmess-20.239.179.251:50045-可用-中转:138.2.49.230-仅支持日本地区NF自制剧
-  type: vmess
-  server: 20.239.179.251
-  network: ws
-  port: 50045
-  uuid: e0d8aa68-9187-454d-bbe4-4b4cc8e362e3
+  port: 80
+  uuid: cebeb605-6e5e-3a13-a0ce-1ee247f91bf7
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /
+  ws-path: /adobe
 - name: 🇺🇸:美国-vmess-rbzz.jddsb.cf:1003-可用-中转:8.42.172.36-仅支持英国地区NF自制剧
   type: vmess
   server: rbzz.jddsb.cf
