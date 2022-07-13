@@ -5,18 +5,45 @@ proxies:
   password: 18269676-71ae-476d-b6d3-26ca391424b9
   port: 8030
   cipher: aes-128-gcm
-- name: 🇨🇳:中国-ss-120.233.151.171:8040-可用-中转:218.233.153.154-仅支持韩国地区NF自制剧
-  type: ss
-  server: 120.233.151.171
-  password: 18269676-71ae-476d-b6d3-26ca391424b9
-  port: 8040
-  cipher: aes-128-gcm
 - name: 🇨🇳:中国-ss-120.233.151.171:8030-可用-中转:50.7.159.155-仅支持日本地区NF自制剧
   type: ss
   server: 120.233.151.171
   password: 18269676-71ae-476d-b6d3-26ca391424b9
   port: 8030
   cipher: aes-128-gcm
+- name: 🇺🇸:美国-vmess-vus4.0bad.com:443-可用-中转:198.58.118.131-仅支持美国地区NF自制剧
+  type: vmess
+  server: vus4.0bad.com
+  network: ws
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /chat
+- name: 🇺🇸:美国-vmess-20.239.179.251:50045-可用-中转:138.2.49.230-仅支持日本地区NF自制剧
+  type: vmess
+  server: 20.239.179.251
+  network: ws
+  port: 50045
+  uuid: e0d8aa68-9187-454d-bbe4-4b4cc8e362e3
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇺🇸:美国-vmess-rbzz.jddsb.cf:1003-可用-中转:8.42.172.36-仅支持英国地区NF自制剧
+  type: vmess
+  server: rbzz.jddsb.cf
+  network: ws
+  port: 1003
+  uuid: 104ef5de-c177-464c-b3cc-6063a4afe97a
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /cctv13/hd.m3u8
 - name: 🇺🇸:美国-vmess-free-godlikeanyone.koyeb.app:443-可用-中转:147.75.102.249-仅支持荷兰地区NF自制剧
   type: vmess
   server: free-godlikeanyone.koyeb.app
@@ -28,3 +55,25 @@ proxies:
   udp: false
   tls: true
   ws-path: /b7b1f689-f82e-4ce4-97e7-8a8997370e44-vmess
+- name: 🇺🇸:美国-vmess-v2ray.wefuckgfw.ga:2096-可用-中转:45.90.58.175-仅支持瑞士地区NF自制剧
+  type: vmess
+  server: v2ray.wefuckgfw.ga
+  network: ws
+  port: 2096
+  uuid: dd5f3ea6-e219-4934-826b-41b176c7a88e
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /H8VswtUJ/
+- name: 🇺🇸:美国-vmess-us02.gogogoo.cyou:443-可用-中转:205.185.115.241-仅支持美国地区NF自制剧
+  type: vmess
+  server: us02.gogogoo.cyou
+  network: ws
+  port: 443
+  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /go
