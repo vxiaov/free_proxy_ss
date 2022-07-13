@@ -59,6 +59,12 @@ proxies:
   password: TEzjfAYq2IjtuoS
   port: 6679
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-134.195.196.128:7306-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 134.195.196.128
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.128:3306-可用-直连-仅支持加拿大地区NF自制剧
   type: ss
   server: 134.195.196.128
@@ -77,42 +83,35 @@ proxies:
   password: faBAoD54k87UJG7
   port: 2375
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-134.195.196.128:7307-可用-直连-仅支持加拿大地区NF自制剧
-  type: ss
-  server: 134.195.196.128
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-ftp.cn.debian.cdnet.in:8030-可用-中转:50.7.159.155-仅支持日本地区NF自制剧
-  type: ss
-  server: ftp.cn.debian.cdnet.in
-  password: 18269676-71ae-476d-b6d3-26ca391424b9
-  port: 8030
-  cipher: aes-128-gcm
 - name: 🇯🇵:日本-ss-85.208.108.20:6697-可用-中转:85.208.108.18-仅支持日本地区NF自制剧
   type: ss
   server: 85.208.108.20
   password: TEzjfAYq2IjtuoS
   port: 6697
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-97.64.31.80:247-可用-直连-仅支持美国地区NF自制剧
+- name: 🇨🇳:中国-ss-14.29.124.174:11016-可用-中转:129.227.144.194-仅支持香港地区NF自制剧
   type: ss
-  server: 97.64.31.80
-  password: bwhskrskr03
-  port: 247
-  cipher: aes-256-cfb
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11016
+  cipher: aes-128-cfb
 - name: 🇫🇷:法国-ss-195.154.200.150:2376-可用-直连-仅支持法国地区NF自制剧
   type: ss
   server: 195.154.200.150
   password: faBAoD54k87UJG7
   port: 2376
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-165.232.169.142:29332-可用-直连-仅支持新加坡地区NF自制剧
-  type: ss
-  server: 165.232.169.142
-  password: 1e5111699c45496da84112f35db665c4
-  port: 29332
-  cipher: aes-256-cfb
+- name: 🇨🇳:中国-vmess-lc-hk03-direct01.lc-hk03.lc-node.com:443-可用-中转:60.249.117.110-仅支持台湾地区NF自制剧
+  type: vmess
+  server: lc-hk03-direct01.lc-hk03.lc-node.com
+  network: ws
+  port: 443
+  uuid: ec736482-173e-3eff-9114-b49df8056e7d
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /
 - name: 🇺🇸:美国-vmess-vus4.0bad.com:443-可用-中转:198.58.118.131-仅支持美国地区NF自制剧
   type: vmess
   server: vus4.0bad.com
