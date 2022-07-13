@@ -1,7 +1,30 @@
 proxies:
-- name: 🇨🇳:中国-ss-ftp.cn.debian.cdnet.in:8010-可用-中转:210.6.179.176-仅支持香港地区NF自制剧
+- name: 🇨🇳:中国-ss-120.233.151.171:8030-可用-中转:50.7.159.154-仅支持日本地区NF自制剧
   type: ss
-  server: ftp.cn.debian.cdnet.in
+  server: 120.233.151.171
   password: 18269676-71ae-476d-b6d3-26ca391424b9
-  port: 8010
+  port: 8030
   cipher: aes-128-gcm
+- name: 🇨🇳:中国-ss-120.233.151.171:8040-可用-中转:218.233.153.154-仅支持韩国地区NF自制剧
+  type: ss
+  server: 120.233.151.171
+  password: 18269676-71ae-476d-b6d3-26ca391424b9
+  port: 8040
+  cipher: aes-128-gcm
+- name: 🇨🇳:中国-ss-120.233.151.171:8030-可用-中转:50.7.159.155-仅支持日本地区NF自制剧
+  type: ss
+  server: 120.233.151.171
+  password: 18269676-71ae-476d-b6d3-26ca391424b9
+  port: 8030
+  cipher: aes-128-gcm
+- name: 🇺🇸:美国-vmess-free-godlikeanyone.koyeb.app:443-可用-中转:147.75.102.249-仅支持荷兰地区NF自制剧
+  type: vmess
+  server: free-godlikeanyone.koyeb.app
+  network: ws
+  port: 443
+  uuid: b7b1f689-f82e-4ce4-97e7-8a8997370e44
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /b7b1f689-f82e-4ce4-97e7-8a8997370e44-vmess
