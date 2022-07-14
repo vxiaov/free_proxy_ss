@@ -1,40 +1,10 @@
 proxies:
-- name: 🇨🇳:中国-ss-ftp.cn.debian.cdnet.in:8070-可用-中转:195.80.49.14-解锁美国地区NF非自制剧
-  type: ss
-  server: ftp.cn.debian.cdnet.in
-  password: 18269676-71ae-476d-b6d3-26ca391424b9
-  port: 8070
-  cipher: aes-128-gcm
-- name: 🇨🇳:中国-ss-120.233.151.171:8070-可用-中转:195.80.49.8-解锁美国地区NF非自制剧
-  type: ss
-  server: 120.233.151.171
-  password: 18269676-71ae-476d-b6d3-26ca391424b9
-  port: 8070
-  cipher: aes-128-gcm
-- name: 🇨🇳:中国-ss-ftp.cn.debian.cdnet.in:8050-可用-中转:91.229.114.77-解锁新加坡地区NF非自制剧
-  type: ss
-  server: ftp.cn.debian.cdnet.in
-  password: 18269676-71ae-476d-b6d3-26ca391424b9
-  port: 8050
-  cipher: aes-128-gcm
 - name: 🇯🇵:日本-ss-89.31.126.150:812-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧
   type: ss
   server: 89.31.126.150
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-ftp.cn.debian.cdnet.in:8070-可用-中转:195.80.49.8-解锁美国地区NF非自制剧
-  type: ss
-  server: ftp.cn.debian.cdnet.in
-  password: 18269676-71ae-476d-b6d3-26ca391424b9
-  port: 8070
-  cipher: aes-128-gcm
-- name: 🇨🇳:中国-ss-ftp.cn.debian.cdnet.in:8020-可用-中转:111.252.158.135-解锁台湾地区NF非自制剧
-  type: ss
-  server: ftp.cn.debian.cdnet.in
-  password: 18269676-71ae-476d-b6d3-26ca391424b9
-  port: 8020
-  cipher: aes-128-gcm
 - name: 🇨🇾:塞浦路斯-ss-213.169.137.221:989-被墙-直连-解锁塞浦路斯地区NF非自制剧
   type: ss
   server: 213.169.137.221
@@ -52,6 +22,12 @@ proxies:
   server: 31.133.100.49
   password: '4415934295'
   port: 50004
+  cipher: aes-256-cfb
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9025-被墙-直连-解锁瑞士地区NF非自制剧
+  type: ss
+  server: 185.126.116.119
+  password: XPtzA9sCug3SPR4c
+  port: 9025
   cipher: aes-256-cfb
 - name: 🇬🇧:英国-ss-83.229.73.60:50003-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
@@ -71,9 +47,14 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:24000-被墙-中转:223.26.73.202-解锁台湾地区NF非自制剧
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24000
-  cipher: aes-128-cfb
+- name: 🇺🇸:美国-vmess-vfly8.win:443-可用-中转:8.219.81.229-解锁新加坡地区NF非自制剧
+  type: vmess
+  server: vfly8.win
+  network: ws
+  port: 443
+  uuid: 8fc94fe3-cfb1-4bc7-e43b-26d4d1e5f4cd
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /myblog
