@@ -35,12 +35,42 @@ dns:
     - 240.0.0.0/4
 # 个人节点
 proxies:
+- name: 🇺🇸:美国-ss-38.68.135.18:5601-可用-直连-不支持Netflix
+  type: ss
+  server: 38.68.135.18
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-38.68.135.18:6697-可用-直连-不支持Netflix
+  type: ss
+  server: 38.68.135.18
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  cipher: aes-256-gcm
 - name: 🇯🇵:日本-ss-89.31.126.150:812-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧
   type: ss
   server: 89.31.126.150
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-14.29.124.168:25217-可用-直连-不支持Netflix
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 25217
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:25231-可用-直连-不支持Netflix
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 25231
+  cipher: aes-128-cfb
+- name: 🇳🇱:荷兰-ss-213.183.59.229:9053-可用-直连-不支持Netflix
+  type: ss
+  server: 213.183.59.229
+  password: SBM7R883jBmnqe6C
+  port: 9053
+  cipher: aes-256-cfb
 - name: 🇯🇵:日本-ss-89.31.126.150:802-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧
   type: ss
   server: 89.31.126.150
@@ -71,6 +101,17 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
+- name: 🇯🇵:日本-vmess-vjp3.0bad.com:443-可用-中转:172.105.228.11-仅支持日本地区NF自制剧
+  type: vmess
+  server: vjp3.0bad.com
+  network: ws
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /chat
 
 # 类型选择 简介
 # select : 用于选择代理或代理组, 可以通过 RESTful API 来切换代理，建议在 GUI 中使用
@@ -90,6 +131,12 @@ proxy-groups:
   interval: 300
   proxies:
   - DIRECT
+  - 🇺🇸:美国-ss-38.68.135.18:6697-可用-直连-不支持Netflix
+  - 🇺🇸:美国-ss-38.68.135.18:5601-可用-直连-不支持Netflix
+  - 🇳🇱:荷兰-ss-213.183.59.229:9053-可用-直连-不支持Netflix
+  - 🇯🇵:日本-vmess-vjp3.0bad.com:443-可用-中转:172.105.228.11-仅支持日本地区NF自制剧
+  - 🇨🇳:中国-ss-14.29.124.168:25231-可用-直连-不支持Netflix
+  - 🇨🇳:中国-ss-14.29.124.168:25217-可用-直连-不支持Netflix
 - name: 被墙代理组
   type: select
   url: http://www.gstatic.com/generate_204
@@ -108,6 +155,7 @@ proxy-groups:
   interval: 300
   proxies:
   - DIRECT
+  - 🇯🇵:日本-vmess-vjp3.0bad.com:443-可用-中转:172.105.228.11-仅支持日本地区NF自制剧
 - name: 解锁Netflix非自制剧
   type: select
   url: http://www.gstatic.com/generate_204
