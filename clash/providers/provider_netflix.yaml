@@ -35,6 +35,12 @@ proxies:
   password: G!yBwPWH3Vao
   port: 802
   cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-14.29.124.168:24005-被墙-中转:223.26.73.202-解锁台湾地区NF非自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24005
+  cipher: aes-128-cfb
 - name: 🇨🇾:塞浦路斯-ss-213.169.137.221:989-被墙-直连-解锁塞浦路斯地区NF非自制剧
   type: ss
   server: 213.169.137.221
@@ -65,15 +71,53 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:24007-被墙-中转:223.26.73.202-解锁台湾地区NF非自制剧
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24007
-  cipher: aes-128-cfb
 - name: 🇮🇱:以色列-ss-185.162.125.91:50004-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
   server: 185.162.125.91
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
+- name: 🇬🇧:英国-vmess-hk17.bp777.buzz:21665-可用-中转:144.24.94.224-解锁韩国地区NF非自制剧
+  type: vmess
+  server: hk17.bp777.buzz
+  network: ws
+  port: 21665
+  uuid: a3144d02-36f4-468c-9a2b-cbe9dc56e3ab
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇺🇸:美国-vmess-vfly4.win:443-可用-中转:8.218.145.28-解锁印度尼西亚地区NF非自制剧
+  type: vmess
+  server: vfly4.win
+  network: ws
+  port: 443
+  uuid: 424afb77-4724-4ddc-f4c0-35de9c2239f5
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /myblog
+- name: 🇨🇳:中国-vmess-tw01.henet.cyou:20000-可用-中转:36.227.229.217-解锁台湾地区NF非自制剧
+  type: vmess
+  server: tw01.henet.cyou
+  network: ws
+  port: 20000
+  uuid: 8ee6fe7e-3105-40aa-9c3e-e2c7465d889c
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /live
+- name: 🇺🇸:美国-vmess-hk18.bp777.buzz:21665-可用-中转:138.2.121.184-解锁韩国地区NF非自制剧
+  type: vmess
+  server: hk18.bp777.buzz
+  network: ws
+  port: 21665
+  uuid: 57dd8fa2-1088-43bc-85df-7eeb9745f806
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
