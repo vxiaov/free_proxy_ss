@@ -29,18 +29,46 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 5601
   cipher: aes-256-gcm
-- name: 🇩🇪:德国-ss-49.12.203.80:40960-可用-直连-仅支持德国地区NF自制剧
+- name: 🇯🇵:日本-ss-85.208.108.93:7306-可用-中转:85.208.108.90-仅支持日本地区NF自制剧
   type: ss
-  server: 49.12.203.80
-  password: 6kA7b3f9Aw2508erQ3W7D4
-  port: 40960
+  server: 85.208.108.93
+  password: FoOiGlkAA9yPEGP
+  port: 7306
   cipher: aes-256-gcm
+- name: 🇳🇱:荷兰-ss-213.183.59.229:9020-可用-直连-仅支持荷兰地区NF自制剧
+  type: ss
+  server: 213.183.59.229
+  password: BNmAXXxAHYpTRdzu
+  port: 9020
+  cipher: aes-256-cfb
 - name: 🇳🇱:荷兰-ss-213.183.59.229:9018-可用-直连-仅支持荷兰地区NF自制剧
   type: ss
   server: 213.183.59.229
   password: fG2artUmHfNT2cX7
   port: 9018
   cipher: aes-256-cfb
+- name: 🇳🇱:荷兰-ss-213.183.59.229:9014-可用-直连-仅支持荷兰地区NF自制剧
+  type: ss
+  server: 213.183.59.229
+  password: KnJGad3FqTvjqbaX
+  port: 9014
+  cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24002-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24002
+  cipher: aes-128-cfb
+- name: 🇺🇸:美国-ssr-us-am32-5.eqnode.net:8081-可用-中转:54.213.12.180-仅支持美国地区NF自制剧
+  type: ssr
+  server: us-am32-5.eqnode.net
+  password: YFVrXZgRo
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 🇨🇳:中国-vmess-36.134.156.5:65087-可用-中转:66.90.89.34-仅支持哥伦比亚地区NF自制剧
   type: vmess
   server: 36.134.156.5
@@ -294,7 +322,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
-- name: 🇨🇳:中国-vmess-111.45.22.136:65023-可用-中转:36.232.243.67-仅支持台湾地区NF自制剧
+- name: 🇨🇳:中国-vmess-111.45.22.136:65023-可用-中转:61.224.39.187-仅支持台湾地区NF自制剧
   type: vmess
   server: 111.45.22.136
   network: ws
