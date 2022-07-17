@@ -1,10 +1,4 @@
 proxies:
-- name: 🇯🇵:日本-ss-89.31.126.31:809-可用-中转:89.31.126.7-仅支持日本地区NF自制剧
-  type: ss
-  server: 89.31.126.31
-  password: G!yBwPWH3Vao
-  port: 809
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-38.68.135.18:8009-可用-直连-仅支持美国地区NF自制剧
   type: ss
   server: 38.68.135.18
@@ -35,12 +29,6 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 5601
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-5.188.0.151:800-可用-直连-仅支持美国地区NF自制剧
-  type: ss
-  server: 5.188.0.151
-  password: G!yBwPWH3Vao
-  port: 800
-  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-85.208.108.93:7306-可用-中转:85.208.108.90-仅支持日本地区NF自制剧
   type: ss
   server: 85.208.108.93
@@ -53,52 +41,11 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-217.30.10.67:9015-可用-直连-仅支持波兰地区NF自制剧
-  type: ss
-  server: 217.30.10.67
-  password: ZpNDDKRu9MagNvaf
-  port: 9015
-  cipher: aes-256-cfb
-- name: 🇳🇱:荷兰-ss-213.183.59.229:9070-可用-直连-仅支持荷兰地区NF自制剧
-  type: ss
-  server: 213.183.59.229
-  password: bf7v334KKDV3YDhH
-  port: 9070
-  cipher: aes-256-cfb
-- name: 🇳🇱:荷兰-ss-213.183.59.229:9015-可用-直连-仅支持荷兰地区NF自制剧
-  type: ss
-  server: 213.183.59.229
-  password: ZpNDDKRu9MagNvaf
-  port: 9015
-  cipher: aes-256-cfb
-- name: 🇳🇱:荷兰-ss-213.183.59.229:9014-可用-直连-仅支持荷兰地区NF自制剧
-  type: ss
-  server: 213.183.59.229
-  password: KnJGad3FqTvjqbaX
-  port: 9014
-  cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-217.30.10.67:9094-可用-直连-仅支持波兰地区NF自制剧
-  type: ss
-  server: 217.30.10.67
-  password: rpgbNnU9rDDU4aWZ
-  port: 9094
-  cipher: aes-256-cfb
 - name: 🇨🇳:中国-vmess-36.134.156.5:65087-可用-中转:66.90.89.34-仅支持哥伦比亚地区NF自制剧
   type: vmess
   server: 36.134.156.5
   network: ws
   port: 65087
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /rocket
-- name: 🇨🇳:中国-vmess-120.233.150.146:65068-可用-中转:127.0.0.1:15110-仅支持柬埔寨地区NF自制剧
-  type: vmess
-  server: 120.233.150.146
-  network: ws
-  port: 65068
   uuid: 0253b574-8020-3186-a647-0267295ac9bb
   alterId: 4
   cipher: auto
@@ -127,17 +74,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
-- name: 🇨🇳:中国-vmess-best04.downloadmovie.cn:65070-可用-中转:194.110.134.34-仅支持南非地区NF自制剧
-  type: vmess
-  server: best04.downloadmovie.cn
-  network: ws
-  port: 65070
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /rocket
 - name: 🇨🇳:中国-vmess-36.134.154.119:65066-可用-中转:38.54.8.86-仅支持美国地区NF自制剧
   type: vmess
   server: 36.134.154.119
@@ -171,39 +107,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
-- name: 🇨🇳:中国-vmess-116.129.254.177:65075-可用-中转:185.253.45.243-仅支持波兰地区NF自制剧
-  type: vmess
-  server: 116.129.254.177
-  network: ws
-  port: 65075
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /rocket
-- name: 🇨🇳:中国-vmess-120.233.150.146:65024-可用-中转:211.22.180.39-仅支持台湾地区NF自制剧
-  type: vmess
-  server: 120.233.150.146
-  network: ws
-  port: 65024
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /rocket
-- name: 🇨🇳:中国-vmess-tw02.henet.cyou:20000-可用-中转:36.227.223.250-仅支持台湾地区NF自制剧
-  type: vmess
-  server: tw02.henet.cyou
-  network: ws
-  port: 20000
-  uuid: f77d0173-893b-4726-a88d-69d9eda3579a
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /live
 - name: 🇨🇳:中国-vmess-in-sg-1.onebox6.org:38701-可用-中转:194.233.66.47-仅支持新加坡地区NF自制剧
   type: vmess
   server: in-sg-1.onebox6.org
@@ -226,33 +129,11 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
-- name: 🇨🇳:中国-vmess-120.233.150.146:65095-可用-中转:65.108.242.4-仅支持芬兰地区NF自制剧
-  type: vmess
-  server: 120.233.150.146
-  network: ws
-  port: 65095
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /rocket
 - name: 🇨🇳:中国-vmess-36.134.156.5:65079-可用-中转:91.90.193.193-仅支持瑞士地区NF自制剧
   type: vmess
   server: 36.134.156.5
   network: ws
   port: 65079
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /rocket
-- name: 🇨🇳:中国-vmess-best04.downloadmovie.cn:65089-可用-中转:50.7.115.28-仅支持奥地利地区NF自制剧
-  type: vmess
-  server: best04.downloadmovie.cn
-  network: ws
-  port: 65089
   uuid: 0253b574-8020-3186-a647-0267295ac9bb
   alterId: 4
   cipher: auto
@@ -270,28 +151,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
-- name: 🇨🇳:中国-vmess-best03.downloadmovie.cn:65096-可用-中转:194.36.90.96-仅支持以色列地区NF自制剧
-  type: vmess
-  server: best03.downloadmovie.cn
-  network: ws
-  port: 65096
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /rocket
-- name: 🇨🇳:中国-vmess-best02.downloadmovie.cn:65087-可用-中转:66.90.89.34-仅支持哥伦比亚地区NF自制剧
-  type: vmess
-  server: best02.downloadmovie.cn
-  network: ws
-  port: 65087
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /rocket
 - name: 🇨🇳:中国-vmess-36.134.154.119:65087-可用-中转:66.90.89.34-仅支持哥伦比亚地区NF自制剧
   type: vmess
   server: 36.134.154.119
@@ -303,18 +162,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
-- name: 🇨🇳:中国-vmess-cn04.downloadmovie.cn:65025-可用-中转:211.22.180.40-仅支持台湾地区NF自制剧
-  type: vmess
-  server: cn04.downloadmovie.cn
-  network: ws
-  port: 65025
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /rocket
-- name: 🇨🇳:中国-vmess-111.45.22.136:65023-可用-中转:61.224.10.161-仅支持台湾地区NF自制剧
+- name: 🇨🇳:中国-vmess-111.45.22.136:65023-可用-中转:36.232.243.67-仅支持台湾地区NF自制剧
   type: vmess
   server: 111.45.22.136
   network: ws
@@ -341,17 +189,6 @@ proxies:
   server: best01.downloadmovie.cn
   network: ws
   port: 65095
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /rocket
-- name: 🇨🇳:中国-vmess-best03.downloadmovie.cn:65081-可用-中转:116.204.182.25-仅支持泰国地区NF自制剧
-  type: vmess
-  server: best03.downloadmovie.cn
-  network: ws
-  port: 65081
   uuid: 0253b574-8020-3186-a647-0267295ac9bb
   alterId: 4
   cipher: auto
