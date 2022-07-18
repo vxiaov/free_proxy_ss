@@ -47,39 +47,6 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:24000-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24000
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:24007-可用-中转:223.26.73.202-仅支持台湾地区NF自制剧
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24007
-  cipher: aes-128-cfb
-- name: 🇺🇸:美国-ssr-us-am32-5.eqnode.net:8081-可用-中转:54.213.12.180-仅支持美国地区NF自制剧
-  type: ssr
-  server: us-am32-5.eqnode.net
-  password: YFVrXZgRo
-  obfs: tls1.2_ticket_auth
-  protocol: origin
-  port: 8081
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
-- name: 🇨🇳:中国-vmess-120.233.29.189:65086-可用-中转:66.90.74.28-仅支持阿根廷地区NF自制剧
-  type: vmess
-  server: 120.233.29.189
-  network: ws
-  port: 65086
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /rocket
 - name: 🇨🇳:中国-vmess-36.134.156.5:65087-可用-中转:66.90.89.34-仅支持哥伦比亚地区NF自制剧
   type: vmess
   server: 36.134.156.5
@@ -91,22 +58,11 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
-- name: 🇨🇳:中国-vmess-120.233.150.146:65068-可用-中转:127.0.0.1:15111-仅支持柬埔寨地区NF自制剧
+- name: 🇨🇳:中国-vmess-120.233.150.146:65068-可用-中转:127.0.0.1:15110-仅支持柬埔寨地区NF自制剧
   type: vmess
   server: 120.233.150.146
   network: ws
   port: 65068
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /rocket
-- name: 🇨🇳:中国-vmess-116.129.254.177:65077-可用-中转:185.253.46.155-仅支持捷克地区NF自制剧
-  type: vmess
-  server: 116.129.254.177
-  network: ws
-  port: 65077
   uuid: 0253b574-8020-3186-a647-0267295ac9bb
   alterId: 4
   cipher: auto
@@ -135,6 +91,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
+- name: 🇨🇳:中国-vmess-111.45.22.136:65037-可用-中转:211.22.180.226-仅支持台湾地区NF自制剧
+  type: vmess
+  server: 111.45.22.136
+  network: ws
+  port: 65037
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /rocket
 - name: 🇨🇳:中国-vmess-36.134.154.119:65066-可用-中转:38.54.8.86-仅支持美国地区NF自制剧
   type: vmess
   server: 36.134.154.119
@@ -157,28 +124,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
-- name: 🇨🇳:中国-vmess-116.129.254.177:65043-可用-中转:165.154.230.43-仅支持新加坡地区NF自制剧
-  type: vmess
-  server: 116.129.254.177
-  network: ws
-  port: 65043
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /rocket
-- name: 🇨🇳:中国-vmess-116.129.254.177:65096-可用-中转:194.36.90.96-仅支持以色列地区NF自制剧
-  type: vmess
-  server: 116.129.254.177
-  network: ws
-  port: 65096
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /rocket
 - name: 🇨🇳:中国-vmess-111.45.22.136:65066-可用-中转:38.54.8.86-仅支持美国地区NF自制剧
   type: vmess
   server: 111.45.22.136
@@ -234,17 +179,28 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
-- name: 🇰🇷:韩国-vmess-152.67.218.38:443-可用-直连-仅支持韩国地区NF自制剧
+- name: 🇺🇸:美国-vmess-sg01.henet.cyou:20000-可用-中转:192.53.116.39-仅支持新加坡地区NF自制剧
   type: vmess
-  server: 152.67.218.38
+  server: sg01.henet.cyou
   network: ws
-  port: 443
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  port: 20000
+  uuid: 9de08dca-c684-4032-b6e8-6b1e5bb3c2b7
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /
+  ws-path: /live
+- name: 🇨🇳:中国-vmess-116.129.254.177:65037-可用-中转:211.22.180.226-仅支持台湾地区NF自制剧
+  type: vmess
+  server: 116.129.254.177
+  network: ws
+  port: 65037
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /rocket
 - name: 🇨🇳:中国-vmess-120.233.150.146:65095-可用-中转:65.108.242.4-仅支持芬兰地区NF自制剧
   type: vmess
   server: 120.233.150.146
@@ -283,6 +239,17 @@ proxies:
   server: best04.downloadmovie.cn
   network: ws
   port: 65089
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /rocket
+- name: 🇨🇳:中国-vmess-120.233.29.189:65037-可用-中转:211.22.180.226-仅支持台湾地区NF自制剧
+  type: vmess
+  server: 120.233.29.189
+  network: ws
+  port: 65037
   uuid: 0253b574-8020-3186-a647-0267295ac9bb
   alterId: 4
   cipher: auto
