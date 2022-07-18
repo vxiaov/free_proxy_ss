@@ -1,21 +1,15 @@
 proxies:
-- name: 🇨🇦:加拿大-ss-72.140.224.195:800-被墙-直连-解锁加拿大地区NF非自制剧
-  type: ss
-  server: 72.140.224.195
-  password: G!yBwPWH3Vao
-  port: 800
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇦:加拿大-ss-72.140.224.195:810-被墙-直连-解锁加拿大地区NF非自制剧
-  type: ss
-  server: 72.140.224.195
-  password: G!yBwPWH3Vao
-  port: 810
-  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-89.31.126.150:812-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧
   type: ss
   server: 89.31.126.150
   password: G!yBwPWH3Vao
   port: 812
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇦:加拿大-ss-72.140.224.195:800-被墙-直连-解锁加拿大地区NF非自制剧
+  type: ss
+  server: 72.140.224.195
+  password: G!yBwPWH3Vao
+  port: 800
   cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-89.31.126.150:802-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧
   type: ss
@@ -41,6 +35,12 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
+- name: 🇨🇦:加拿大-ss-72.140.224.195:810-被墙-直连-解锁加拿大地区NF非自制剧
+  type: ss
+  server: 72.140.224.195
+  password: G!yBwPWH3Vao
+  port: 810
+  cipher: chacha20-ietf-poly1305
 - name: 🇮🇱:以色列-ss-185.162.125.91:50004-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
   server: 185.162.125.91
@@ -53,6 +53,17 @@ proxies:
   network: ws
   port: 10002
   uuid: 9b3a6753-2f33-4e0b-bb2e-84e5076d445c
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇺🇸:美国-vmess-129.159.33.199:45328-可用-直连-解锁美国地区NF非自制剧
+  type: vmess
+  server: 129.159.33.199
+  network: ws
+  port: 45328
+  uuid: 842c33ff-31b5-410c-a96e-0cb52a99a6da
   alterId: 4
   cipher: auto
   udp: false
