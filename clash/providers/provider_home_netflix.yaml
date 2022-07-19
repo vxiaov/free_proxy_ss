@@ -1,16 +1,15 @@
 proxies:
-- name: 🇯🇵:日本-ss-89.31.126.31:809-可用-中转:89.31.126.7-仅支持日本地区NF自制剧
-  type: ss
-  server: 89.31.126.31
-  password: G!yBwPWH3Vao
-  port: 809
-  cipher: chacha20-ietf-poly1305
-- name: 🇩🇰:丹麦-ss-5.183.100.87:50003-可用-直连-仅支持挪威地区NF自制剧
-  type: ss
-  server: 5.183.100.87
-  password: '8460400130'
-  port: 50003
-  cipher: aes-256-cfb
+- name: 🇨🇳:中国-vmess-116.129.254.177:65075-可用-中转:185.253.45.243-仅支持波兰地区NF自制剧
+  type: vmess
+  server: 116.129.254.177
+  network: ws
+  port: 65075
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /rocket
 - name: 🇯🇵:日本-vmess-jp06.xiaoqi99.cf:10125-可用-中转:172.105.224.136-仅支持日本地区NF自制剧
   type: vmess
   server: jp06.xiaoqi99.cf
@@ -22,3 +21,36 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇨🇳:中国-vmess-36.134.154.119:65077-可用-中转:185.253.46.155-仅支持捷克地区NF自制剧
+  type: vmess
+  server: 36.134.154.119
+  network: ws
+  port: 65077
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /rocket
+- name: 🇨🇳:中国-vmess-best01.downloadmovie.cn:65076-可用-中转:185.198.166.111-仅支持荷兰地区NF自制剧
+  type: vmess
+  server: best01.downloadmovie.cn
+  network: ws
+  port: 65076
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /rocket
+- name: 🇰🇷:韩国-vmess-hk14.bp777.buzz:21665-可用-中转:152.67.219.34-仅支持韩国地区NF自制剧
+  type: vmess
+  server: hk14.bp777.buzz
+  network: ws
+  port: 21665
+  uuid: 8f415231-7511-44a7-89dc-f1a8f4bb6563
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: ''
