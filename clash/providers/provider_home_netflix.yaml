@@ -1,4 +1,10 @@
 proxies:
+- name: 🇩🇪:德国-ss-165.22.73.126:23335-可用-直连-仅支持德国地区NF自制剧
+  type: ss
+  server: 165.22.73.126
+  password: 7d99ae502227454ea998d71e4b62a388
+  port: 23335
+  cipher: aes-256-cfb
 - name: 🇨🇳:中国-vmess-116.129.254.177:65077-可用-中转:185.253.46.155-仅支持捷克地区NF自制剧
   type: vmess
   server: 116.129.254.177
@@ -54,14 +60,3 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
-- name: 🇰🇷:韩国-vmess-hk14.bp777.buzz:21665-可用-中转:152.67.219.34-仅支持韩国地区NF自制剧
-  type: vmess
-  server: hk14.bp777.buzz
-  network: ws
-  port: 21665
-  uuid: 1015d5a1-443f-4549-aa96-8113aaee8c98
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: ''
