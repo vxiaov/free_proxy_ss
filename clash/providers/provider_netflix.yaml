@@ -71,12 +71,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 810
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-14.29.124.168:24007-被墙-中转:223.26.73.202-解锁台湾地区NF非自制剧
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24007
-  cipher: aes-128-cfb
 - name: 🇮🇱:以色列-ss-185.162.125.91:50004-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
   server: 185.162.125.91
@@ -95,6 +89,17 @@ proxies:
   network: ws
   port: 10002
   uuid: 9b3a6753-2f33-4e0b-bb2e-84e5076d445c
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇯🇵:日本-vmess-hk09.bp777.buzz:21665-可用-中转:146.56.107.170-解锁韩国地区NF非自制剧
+  type: vmess
+  server: hk09.bp777.buzz
+  network: ws
+  port: 21665
+  uuid: e1b9a15f-74b2-4acd-8e42-d2ca6099f7d7
   alterId: 4
   cipher: auto
   udp: false
