@@ -1,16 +1,21 @@
 proxies:
-- name: 🇩🇪:德国-ss-49.12.203.80:40960-可用-直连-仅支持德国地区NF自制剧
-  type: ss
-  server: 49.12.203.80
-  password: 6kA7b3f9Aw2508erQ3W7D4
-  port: 40960
-  cipher: aes-256-gcm
 - name: 🇩🇪:德国-ss-165.22.73.126:23335-可用-直连-仅支持德国地区NF自制剧
   type: ss
   server: 165.22.73.126
   password: 7d99ae502227454ea998d71e4b62a388
   port: 23335
   cipher: aes-256-cfb
+- name: 🇨🇳:中国-vmess-best01.downloadmovie.cn:65076-可用-中转:185.198.166.111-仅支持荷兰地区NF自制剧
+  type: vmess
+  server: best01.downloadmovie.cn
+  network: ws
+  port: 65076
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /rocket
 - name: 🇨🇳:中国-vmess-116.129.254.177:65077-可用-中转:185.253.46.155-仅支持捷克地区NF自制剧
   type: vmess
   server: 116.129.254.177
@@ -22,22 +27,22 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
-- name: 🇰🇷:韩国-vmess-hk06.bp777.buzz:21665-可用-中转:152.67.209.218-仅支持韩国地区NF自制剧
-  type: vmess
-  server: hk06.bp777.buzz
-  network: ws
-  port: 21665
-  uuid: 8f415231-7511-44a7-89dc-f1a8f4bb6563
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: ''
 - name: 🇨🇳:中国-vmess-116.129.254.177:65075-可用-中转:185.253.45.243-仅支持波兰地区NF自制剧
   type: vmess
   server: 116.129.254.177
   network: ws
   port: 65075
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /rocket
+- name: 🇨🇳:中国-vmess-36.134.154.119:65077-可用-中转:185.253.46.155-仅支持捷克地区NF自制剧
+  type: vmess
+  server: 36.134.154.119
+  network: ws
+  port: 65077
   uuid: 0253b574-8020-3186-a647-0267295ac9bb
   alterId: 4
   cipher: auto
@@ -55,25 +60,3 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇨🇳:中国-vmess-36.134.154.119:65077-可用-中转:185.253.46.155-仅支持捷克地区NF自制剧
-  type: vmess
-  server: 36.134.154.119
-  network: ws
-  port: 65077
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /rocket
-- name: 🇨🇳:中国-vmess-best01.downloadmovie.cn:65076-可用-中转:185.198.166.111-仅支持荷兰地区NF自制剧
-  type: vmess
-  server: best01.downloadmovie.cn
-  network: ws
-  port: 65076
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /rocket
