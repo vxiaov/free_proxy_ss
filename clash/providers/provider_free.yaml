@@ -1,15 +1,21 @@
 proxies:
-- name: 🇩🇪:德国-ss-52.58.249.78:57824-可用-直连-不支持Netflix
-  type: ss
-  server: 52.58.249.78
-  password: pryhyxya
-  port: 57824
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-5.188.0.151:800-可用-直连-不支持Netflix
   type: ss
   server: 5.188.0.151
   password: G!yBwPWH3Vao
   port: 800
+  cipher: chacha20-ietf-poly1305
+- name: 🇷🇺:俄罗斯-ss-92.223.65.31:29092-可用-直连-不支持Netflix
+  type: ss
+  server: 92.223.65.31
+  password: ypoq8dJBPqst
+  port: 29092
+  cipher: chacha20-ietf-poly1305
+- name: 🇩🇪:德国-ss-52.58.249.78:57824-可用-直连-不支持Netflix
+  type: ss
+  server: 52.58.249.78
+  password: pryhyxya
+  port: 57824
   cipher: chacha20-ietf-poly1305
 - name: 🇫🇷:法国-ss-195.154.200.150:2376-可用-直连-不支持Netflix
   type: ss
@@ -23,12 +29,6 @@ proxies:
   password: Ultr@r00t_2017
   port: 811
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-14.29.124.168:24006-可用-中转:223.26.73.202-解锁台湾地区NF非自制剧
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24006
-  cipher: aes-128-cfb
 - name: 🇨🇳:中国-vmess-116.129.254.177:65007-可用-中转:167.114.114.197-完全不支持NF
   type: vmess
   server: 116.129.254.177
@@ -51,7 +51,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
-- name: 🇨🇳:中国-vmess-116.129.254.177:65037-可用-中转:114.42.194.24-不支持Netflix
+- name: 🇨🇳:中国-vmess-116.129.254.177:65037-可用-中转:61.224.16.198-不支持Netflix
   type: vmess
   server: 116.129.254.177
   network: ws
@@ -128,6 +128,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
+- name: 🇺🇸:美国-vmess-xmrh011.xmrth-node.xyz:15885-可用-中转:170.187.222.71-仅支持日本地区NF自制剧
+  type: vmess
+  server: xmrh011.xmrth-node.xyz
+  network: ws
+  port: 15885
+  uuid: e23a5542-8e62-3572-9afb-6640d61d91b1
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /index
 - name: 🇨🇳:中国-vmess-116.129.254.177:65075-可用-中转:185.253.45.243-仅支持波兰地区NF自制剧
   type: vmess
   server: 116.129.254.177
@@ -161,7 +172,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
-- name: 🇨🇳:中国-vmess-36.134.156.5:65001-可用-中转:103.181.164.25-不支持Netflix
+- name: 🇨🇳:中国-vmess-36.134.156.5:65001-可用-中转:103.181.164.20-不支持Netflix
   type: vmess
   server: 36.134.156.5
   network: ws
@@ -194,6 +205,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
+- name: 🇰🇷:韩国-vmess-hk14.bp777.buzz:21665-可用-中转:152.67.219.34-仅支持韩国地区NF自制剧
+  type: vmess
+  server: hk14.bp777.buzz
+  network: ws
+  port: 21665
+  uuid: 7fabbd79-81ed-4d29-b890-3cde8f2c264e
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇨🇳:中国-vmess-ingress-i1.onebox6.org:38701-可用-中转:194.233.66.47-不支持Netflix
   type: vmess
   server: ingress-i1.onebox6.org
@@ -227,7 +249,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
-- name: 🇨🇳:中国-vmess-116.129.254.177:65063-可用-中转:211.22.180.132-不支持Netflix
+- name: 🇨🇳:中国-vmess-116.129.254.177:65063-可用-中转:211.22.180.44-不支持Netflix
   type: vmess
   server: 116.129.254.177
   network: ws
@@ -249,7 +271,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
-- name: 🇨🇳:中国-vmess-cn03.downloadmovie.cn:65027-可用-中转:103.181.164.27-不支持Netflix
+- name: 🇨🇳:中国-vmess-cn03.downloadmovie.cn:65027-可用-中转:103.181.164.26-不支持Netflix
   type: vmess
   server: cn03.downloadmovie.cn
   network: ws
