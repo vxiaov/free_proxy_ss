@@ -1,10 +1,4 @@
 proxies:
-- name: 🇩🇪:德国-ss-165.22.73.126:23335-可用-直连-仅支持德国地区NF自制剧
-  type: ss
-  server: 165.22.73.126
-  password: 7d99ae502227454ea998d71e4b62a388
-  port: 23335
-  cipher: aes-256-cfb
 - name: 🇨🇳:中国-vmess-best01.downloadmovie.cn:65076-可用-中转:185.198.166.111-仅支持荷兰地区NF自制剧
   type: vmess
   server: best01.downloadmovie.cn
@@ -60,3 +54,25 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
+- name: 🇺🇸:美国-vmess-vus2.0bad.com:443-可用-中转:66.228.59.90-仅支持美国地区NF自制剧
+  type: vmess
+  server: vus2.0bad.com
+  network: ws
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /chat
+- name: 🇰🇷:韩国-vmess-hk11.bp777.buzz:21665-可用-中转:152.67.223.165-仅支持韩国地区NF自制剧
+  type: vmess
+  server: hk11.bp777.buzz
+  network: ws
+  port: 21665
+  uuid: 89e4d975-eb64-4024-9610-0bd916e45839
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
