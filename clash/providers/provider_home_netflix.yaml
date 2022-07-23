@@ -1,9 +1,15 @@
 proxies:
-- name: 🇩🇪:德国-ss-165.22.73.126:23335-可用-直连-仅支持德国地区NF自制剧
+- name: 🇺🇸:美国-ss-97.64.122.63:253-可用-直连-仅支持美国地区NF自制剧
   type: ss
-  server: 165.22.73.126
-  password: 7d99ae502227454ea998d71e4b62a388
-  port: 23335
+  server: 97.64.122.63
+  password: bwhskrskr05
+  port: 253
+  cipher: aes-256-cfb
+- name: 🇦🇺:澳大利亚-ss-185.167.116.250:9006-可用-直连-仅支持澳大利亚地区NF自制剧
+  type: ss
+  server: 185.167.116.250
+  password: FAdUvMJUq5vDgKEq
+  port: 9006
   cipher: aes-256-cfb
 - name: 🇺🇸:美国-vmess-54.153.2.182:11280-可用-直连-仅支持美国地区NF自制剧
   type: vmess
@@ -16,14 +22,3 @@ proxies:
   udp: false
   tls: false
   ws-path: /ray
-- name: 🇺🇸:美国-vmess-ray.johnnyz.gq:35517-可用-中转:192.9.137.60-仅支持美国地区NF自制剧
-  type: vmess
-  server: ray.johnnyz.gq
-  network: ws
-  port: 35517
-  uuid: 28738aa8-ec2a-43f2-cf87-ec4a7b44dfcf
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /zghuwin/
