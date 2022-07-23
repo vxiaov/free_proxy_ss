@@ -1,4 +1,26 @@
 proxies:
+- name: 🇺🇸:美国-vmess-54.153.2.182:11280-可用-直连-仅支持美国地区NF自制剧
+  type: vmess
+  server: 54.153.2.182
+  network: ws
+  port: 11280
+  uuid: 6fc24a77-b832-4067-92b7-c2df867b798b
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /ray
+- name: 🇮🇳:印度-vmess-140.238.255.240:443-可用-直连-仅支持印度地区NF自制剧
+  type: vmess
+  server: 140.238.255.240
+  network: ws
+  port: 443
+  uuid: aaf9f463-876e-4bfd-ed11-1c07ad830092
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇺🇸:美国-vmess-cloud.metalink.cf:9090-可用-中转:108.166.216.216-仅支持美国地区NF自制剧
   type: vmess
   server: cloud.metalink.cf
@@ -10,3 +32,36 @@ proxies:
   udp: false
   tls: true
   ws-path: /
+- name: 🇺🇸:美国-vmess-vr.eseabean.xyz:12860-可用-中转:89.208.241.147-仅支持美国地区NF自制剧
+  type: vmess
+  server: vr.eseabean.xyz
+  network: ws
+  port: 12860
+  uuid: f0c28644-eba5-4de7-e9ed-abcf58a657f5
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /media
+- name: 🇨🇳:中国-vmess-43.154.155.125:46409-可用-直连-仅支持香港地区NF自制剧
+  type: vmess
+  server: 43.154.155.125
+  network: ws
+  port: 46409
+  uuid: 6bfe39c7-3608-4d2c-81ae-5b8d65ed5a93
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇺🇸:美国-vmess-20.243.43.36:20580-可用-直连-仅支持日本地区NF自制剧
+  type: vmess
+  server: 20.243.43.36
+  network: ws
+  port: 20580
+  uuid: d948df60-b4b3-4103-f296-deccc93ebbc1
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /dfgdfg
