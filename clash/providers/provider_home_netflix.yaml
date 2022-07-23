@@ -1,63 +1,29 @@
 proxies:
-- name: 🇺🇸:美国-ss-97.64.122.63:253-可用-直连-仅支持美国地区NF自制剧
-  type: ss
-  server: 97.64.122.63
-  password: bwhskrskr05
-  port: 253
-  cipher: aes-256-cfb
-- name: 🇨🇾:塞浦路斯-ss-213.169.137.221:989-可用-直连-仅支持塞浦路斯地区NF自制剧
-  type: ss
-  server: 213.169.137.221
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  cipher: aes-256-cfb
 - name: 🇩🇪:德国-ss-165.22.73.126:23335-可用-直连-仅支持德国地区NF自制剧
   type: ss
   server: 165.22.73.126
   password: 7d99ae502227454ea998d71e4b62a388
   port: 23335
   cipher: aes-256-cfb
-- name: 🇬🇧:英国-vmess-88.80.189.108:80-可用-直连-仅支持英国地区NF自制剧
+- name: 🇺🇸:美国-vmess-54.153.2.182:11280-可用-直连-仅支持美国地区NF自制剧
   type: vmess
-  server: 88.80.189.108
+  server: 54.153.2.182
   network: ws
-  port: 80
-  uuid: a8941bb8-19f8-43f7-ab52-1001d101a538
+  port: 11280
+  uuid: 6fc24a77-b832-4067-92b7-c2df867b798b
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: ''
-- name: 🇸🇬:新加坡-vmess-139.162.4.68:80-可用-直连-仅支持新加坡地区NF自制剧
+  ws-path: /ray
+- name: 🇺🇸:美国-vmess-ray.johnnyz.gq:35517-可用-中转:192.9.137.60-仅支持美国地区NF自制剧
   type: vmess
-  server: 139.162.4.68
+  server: ray.johnnyz.gq
   network: ws
-  port: 80
-  uuid: a8941bb8-19f8-43f7-ab52-1001d101a538
+  port: 35517
+  uuid: 28738aa8-ec2a-43f2-cf87-ec4a7b44dfcf
   alterId: 4
   cipher: auto
   udp: false
-  tls: false
-  ws-path: ''
-- name: 🇨🇳:中国-vmess-116.129.254.177:65077-可用-中转:185.253.46.155-仅支持捷克地区NF自制剧
-  type: vmess
-  server: 116.129.254.177
-  network: ws
-  port: 65077
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /rocket
-- name: 🇯🇵:日本-vmess-172.104.125.125:80-可用-直连-仅支持日本地区NF自制剧
-  type: vmess
-  server: 172.104.125.125
-  network: ws
-  port: 80
-  uuid: a8941bb8-19f8-43f7-ab52-1001d101a538
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: ''
+  tls: true
+  ws-path: /zghuwin/
