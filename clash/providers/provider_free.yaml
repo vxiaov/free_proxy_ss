@@ -131,12 +131,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 804
   cipher: chacha20-ietf-poly1305
-- name: 🇯🇵:日本-ss-185.172.113.106:803-可用-中转:185.172.113.100-不支持Netflix
-  type: ss
-  server: 185.172.113.106
-  password: G!yBwPWH3Vao
-  port: 803
-  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-185.172.113.106:806-可用-中转:185.172.113.100-不支持Netflix
   type: ss
   server: 185.172.113.106
@@ -203,6 +197,12 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   cipher: aes-256-cfb
+- name: 🇯🇵:日本-ss-185.172.113.106:805-可用-中转:185.172.113.100-不支持Netflix
+  type: ss
+  server: 185.172.113.106
+  password: G!yBwPWH3Vao
+  port: 805
+  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-51.195.136.209:50004-可用-直连-不支持Netflix
   type: ss
   server: 51.195.136.209
@@ -262,17 +262,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
-- name: 🇨🇳:中国-vmess-106.12.168.13:28617-可用-直连-完全不支持NF
-  type: vmess
-  server: 106.12.168.13
-  network: ws
-  port: 28617
-  uuid: a667dcb7-ac0a-46b3-fdfa-cfa745792559
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
 - name: 🇨🇳:中国-vmess-120.233.29.189:65039-可用-中转:103.148.72.43-不支持Netflix
   type: vmess
   server: 120.233.29.189
@@ -394,7 +383,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
-- name: 🇺🇸:美国-vmess-xmrh014.xmrth-node.xyz:15885-可用-中转:219.76.157.6-不支持Netflix
+- name: 🇺🇸:美国-vmess-xmrh014.xmrth-node.xyz:15885-可用-中转:220.246.255.28-不支持Netflix
   type: vmess
   server: xmrh014.xmrth-node.xyz
   network: ws
