@@ -83,12 +83,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 805
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-92.38.176.81:811-可用-直连-不支持Netflix
-  type: ss
-  server: 92.38.176.81
-  password: Ultr@r00t_2017
-  port: 811
-  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-185.172.113.102:809-可用-中转:185.172.113.100-不支持Netflix
   type: ss
   server: 185.172.113.102
@@ -227,6 +221,12 @@ proxies:
   password: 7d99ae502227454ea998d71e4b62a388
   port: 23335
   cipher: aes-256-cfb
+- name: 🇺🇸:美国-ss-92.38.176.81:811-可用-直连-不支持Netflix
+  type: ss
+  server: 92.38.176.81
+  password: Ultr@r00t_2017
+  port: 811
+  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-185.172.113.102:804-可用-中转:185.172.113.100-不支持Netflix
   type: ss
   server: 185.172.113.102
@@ -281,28 +281,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-vmess-best02.downloadmovie.cn:65043-可用-中转:165.154.230.43-不支持Netflix
-  type: vmess
-  server: best02.downloadmovie.cn
-  network: ws
-  port: 65043
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /rocket
-- name: 🇨🇳:中国-vmess-best02.downloadmovie.cn:65087-可用-中转:66.90.89.34-不支持Netflix
-  type: vmess
-  server: best02.downloadmovie.cn
-  network: ws
-  port: 65087
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /rocket
 - name: 🇷🇺:俄罗斯-vmess-176.119.156.229:852-可用-直连-不支持Netflix
   type: vmess
   server: 176.119.156.229
@@ -314,17 +292,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /api/v3/download.getFile
-- name: 🇨🇳:中国-vmess-best03.downloadmovie.cn:65096-可用-中转:194.36.90.96-不支持Netflix
-  type: vmess
-  server: best03.downloadmovie.cn
-  network: ws
-  port: 65096
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /rocket
 - name: 🇨🇳:中国-vmess-120.233.29.189:65071-可用-中转:103.154.242.198-不支持Netflix
   type: vmess
   server: 120.233.29.189
@@ -427,9 +394,6 @@ proxy-groups:
   - 🇨🇾:塞浦路斯-ss-213.169.137.221:989-可用-直连-不支持Netflix
   - 🇨🇳:中国-vmess-ingress-i2.iivvppnn.info:38106-可用-中转:91.186.204.6-不支持Netflix
   - 🇨🇳:中国-vmess-cn03.downloadmovie.cn:65041-可用-中转:103.148.72.41-不支持Netflix
-  - 🇨🇳:中国-vmess-best03.downloadmovie.cn:65096-可用-中转:194.36.90.96-不支持Netflix
-  - 🇨🇳:中国-vmess-best02.downloadmovie.cn:65087-可用-中转:66.90.89.34-不支持Netflix
-  - 🇨🇳:中国-vmess-best02.downloadmovie.cn:65043-可用-中转:165.154.230.43-不支持Netflix
   - 🇨🇳:中国-vmess-47.112.153.114:56376-可用-直连-完全不支持NF
   - 🇨🇳:中国-vmess-120.233.29.189:65071-可用-中转:103.154.242.198-不支持Netflix
   - 🇨🇳:中国-vmess-120.233.29.189:65039-可用-中转:103.148.72.43-不支持Netflix
