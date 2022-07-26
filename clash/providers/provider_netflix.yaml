@@ -11,9 +11,9 @@ proxies:
   password: G!yBwPWH3Vao
   port: 803
   cipher: chacha20-ietf-poly1305
-- name: 🇯🇵:日本-ss-185.160.26.35:810-被墙-中转:185.160.24.53-解锁日本地区NF非自制剧
+- name: 🇨🇦:加拿大-ss-72.140.224.195:810-被墙-直连-解锁加拿大地区NF非自制剧
   type: ss
-  server: 185.160.26.35
+  server: 72.140.224.195
   password: G!yBwPWH3Vao
   port: 810
   cipher: chacha20-ietf-poly1305
@@ -29,12 +29,18 @@ proxies:
   password: G!yBwPWH3Vao
   port: 801
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇾:塞浦路斯-ss-213.169.137.221:989-被墙-直连-解锁塞浦路斯地区NF非自制剧
+- name: 🇨🇦:加拿大-ss-72.140.224.195:800-被墙-直连-解锁加拿大地区NF非自制剧
   type: ss
-  server: 213.169.137.221
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  cipher: aes-256-cfb
+  server: 72.140.224.195
+  password: G!yBwPWH3Vao
+  port: 800
+  cipher: chacha20-ietf-poly1305
+- name: 🇯🇵:日本-ss-185.160.26.35:810-被墙-中转:185.160.24.53-解锁日本地区NF非自制剧
+  type: ss
+  server: 185.160.26.35
+  password: G!yBwPWH3Vao
+  port: 810
+  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-89.31.126.150:802-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧
   type: ss
   server: 89.31.126.150
@@ -77,3 +83,25 @@ proxies:
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-vmess-vfly6.xyz:443-可用-中转:8.210.128.146-解锁新加坡地区NF非自制剧
+  type: vmess
+  server: vfly6.xyz
+  network: ws
+  port: 443
+  uuid: f3b6fd11-4444-4efa-b19a-13ad22d0a782
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /myblog
+- name: 🇨🇳:中国-vmess-103.5.54.177:54723-可用-直连-解锁新加坡地区NF非自制剧
+  type: vmess
+  server: 103.5.54.177
+  network: ws
+  port: 54723
+  uuid: 1031729b-4fd5-495c-f21f-94c94ffd3afc
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
