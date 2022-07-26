@@ -35,12 +35,6 @@ dns:
     - 240.0.0.0/4
 # 个人节点
 proxies:
-- name: 🇷🇺:俄罗斯-ss-92.223.65.31:29092-可用-直连-不支持Netflix
-  type: ss
-  server: 92.223.65.31
-  password: ypoq8dJBPqst
-  port: 29092
-  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-185.172.113.101:805-可用-中转:185.172.113.100-不支持Netflix
   type: ss
   server: 185.172.113.101
@@ -125,12 +119,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 800
   cipher: chacha20-ietf-poly1305
-- name: 🇫🇷:法国-ss-195.154.200.150:2376-可用-直连-不支持Netflix
-  type: ss
-  server: 195.154.200.150
-  password: faBAoD54k87UJG7
-  port: 2376
-  cipher: aes-256-gcm
 - name: 🇯🇵:日本-ss-185.172.113.102:803-可用-中转:185.172.113.100-不支持Netflix
   type: ss
   server: 185.172.113.102
@@ -166,6 +154,12 @@ proxies:
   server: 72.140.224.195
   password: G!yBwPWH3Vao
   port: 803
+  cipher: chacha20-ietf-poly1305
+- name: 🇯🇵:日本-ss-89.31.126.150:802-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧
+  type: ss
+  server: 89.31.126.150
+  password: G!yBwPWH3Vao
+  port: 802
   cipher: chacha20-ietf-poly1305
 - name: 🇨🇦:加拿大-ss-72.140.224.195:810-被墙-直连-解锁加拿大地区NF非自制剧
   type: ss
@@ -239,12 +233,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 807
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-14.29.124.174:11048-可用-中转:129.227.144.195-不支持Netflix
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11048
-  cipher: aes-128-cfb
 - name: 🇯🇵:日本-ss-185.172.113.101:808-可用-中转:185.172.113.100-不支持Netflix
   type: ss
   server: 185.172.113.101
@@ -275,6 +263,12 @@ proxies:
   password: G!yBwPWH3Vao
   port: 803
   cipher: chacha20-ietf-poly1305
+- name: 🇦🇺:澳大利亚-ss-185.167.116.250:9007-可用-直连-不支持Netflix
+  type: ss
+  server: 185.167.116.250
+  password: kSPmvwdFzGMMW5pY
+  port: 9007
+  cipher: aes-256-cfb
 - name: 🇨🇦:加拿大-ss-72.140.224.195:800-被墙-直连-解锁加拿大地区NF非自制剧
   type: ss
   server: 72.140.224.195
@@ -327,17 +321,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇺🇸:美国-vmess-xmrh013.xmrth-node.xyz:15885-可用-中转:172.104.75.232-仅支持日本地区NF自制剧
-  type: vmess
-  server: xmrh013.xmrth-node.xyz
-  network: ws
-  port: 15885
-  uuid: ab3f9ddc-7c35-3793-98f0-1c37eb9741e1
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /index
 - name: 🇷🇺:俄罗斯-vmess-176.119.156.229:852-可用-直连-不支持Netflix
   type: vmess
   server: 176.119.156.229
@@ -349,28 +332,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /api/v3/download.getFile
-- name: 🇺🇸:美国-vmess-vfly6.xyz:443-可用-中转:8.210.128.146-解锁新加坡地区NF非自制剧
-  type: vmess
-  server: vfly6.xyz
-  network: ws
-  port: 443
-  uuid: f3b6fd11-4444-4efa-b19a-13ad22d0a782
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /myblog
-- name: 🇨🇳:中国-vmess-120.233.29.189:65039-可用-中转:103.148.72.43-不支持Netflix
-  type: vmess
-  server: 120.233.29.189
-  network: ws
-  port: 65039
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /rocket
 - name: 🇨🇳:中国-vmess-ingress-i2.iivvppnn.info:38106-可用-中转:91.186.204.6-不支持Netflix
   type: vmess
   server: ingress-i2.iivvppnn.info
@@ -393,33 +354,11 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
-- name: 🇺🇸:美国-vmess-xmrh014.xmrth-node.xyz:15885-可用-中转:172.104.75.232-仅支持日本地区NF自制剧
+- name: 🇨🇳:中国-vmess-cn01.downloadmovie.cn:65033-可用-中转:211.22.180.9-不支持Netflix
   type: vmess
-  server: xmrh014.xmrth-node.xyz
+  server: cn01.downloadmovie.cn
   network: ws
-  port: 15885
-  uuid: ab3f9ddc-7c35-3793-98f0-1c37eb9741e1
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /index
-- name: 🇬🇧:英国-vmess-45.8.230.253:852-可用-直连-不支持Netflix
-  type: vmess
-  server: 45.8.230.253
-  network: ws
-  port: 852
-  uuid: 82c73cff-ade4-41a5-a33c-c6f6a7f6f533
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /api/v3/download.getFile
-- name: 🇨🇳:中国-vmess-best03.downloadmovie.cn:65096-可用-中转:194.36.90.96-不支持Netflix
-  type: vmess
-  server: best03.downloadmovie.cn
-  network: ws
-  port: 65096
+  port: 65033
   uuid: 0253b574-8020-3186-a647-0267295ac9bb
   alterId: 4
   cipher: auto
@@ -445,9 +384,6 @@ proxy-groups:
   interval: 300
   proxies:
   - DIRECT
-  - 🇺🇸:美国-vmess-xmrh014.xmrth-node.xyz:15885-可用-中转:172.104.75.232-仅支持日本地区NF自制剧
-  - 🇺🇸:美国-vmess-xmrh013.xmrth-node.xyz:15885-可用-中转:172.104.75.232-仅支持日本地区NF自制剧
-  - 🇺🇸:美国-vmess-vfly6.xyz:443-可用-中转:8.210.128.146-解锁新加坡地区NF非自制剧
   - 🇺🇸:美国-ss-38.143.66.20:9102-可用-直连-不支持Netflix
   - 🇺🇸:美国-ss-38.143.66.20:9101-可用-直连-不支持Netflix
   - 🇺🇸:美国-ss-38.143.66.20:5500-可用-直连-不支持Netflix
@@ -456,7 +392,6 @@ proxy-groups:
   - 🇺🇸:美国-ss-169.197.141.5:3306-可用-直连-不支持Netflix
   - 🇺🇸:美国-ss-134.195.196.89:6679-可用-直连-不支持Netflix
   - 🇷🇺:俄罗斯-vmess-176.119.156.229:852-可用-直连-不支持Netflix
-  - 🇷🇺:俄罗斯-ss-92.223.65.31:29092-可用-直连-不支持Netflix
   - 🇯🇵:日本-ss-85.208.108.93:7306-可用-中转:85.208.108.90-不支持Netflix
   - 🇯🇵:日本-ss-185.172.113.106:812-可用-中转:185.172.113.100-不支持Netflix
   - 🇯🇵:日本-ss-185.172.113.106:806-可用-中转:185.172.113.100-不支持Netflix
@@ -473,16 +408,12 @@ proxy-groups:
   - 🇯🇵:日本-ss-185.172.113.101:808-可用-中转:185.172.113.100-不支持Netflix
   - 🇯🇵:日本-ss-185.172.113.101:805-可用-中转:185.172.113.100-不支持Netflix
   - 🇯🇵:日本-ss-185.172.113.101:800-可用-中转:185.172.113.100-不支持Netflix
-  - 🇬🇧:英国-vmess-45.8.230.253:852-可用-直连-不支持Netflix
-  - 🇫🇷:法国-ss-195.154.200.150:2376-可用-直连-不支持Netflix
   - 🇩🇪:德国-ss-165.22.73.126:23335-可用-直连-不支持Netflix
   - 🇨🇳:中国-vmess-ingress-i2.iivvppnn.info:38106-可用-中转:91.186.204.6-不支持Netflix
   - 🇨🇳:中国-vmess-in-jp-1.iivvppnn.info:38301-可用-中转:91.186.204.6-不支持Netflix
   - 🇨🇳:中国-vmess-cn03.downloadmovie.cn:65041-可用-中转:103.148.72.41-不支持Netflix
-  - 🇨🇳:中国-vmess-best03.downloadmovie.cn:65096-可用-中转:194.36.90.96-不支持Netflix
+  - 🇨🇳:中国-vmess-cn01.downloadmovie.cn:65033-可用-中转:211.22.180.9-不支持Netflix
   - 🇨🇳:中国-vmess-47.112.153.114:56376-可用-直连-完全不支持NF
-  - 🇨🇳:中国-vmess-120.233.29.189:65039-可用-中转:103.148.72.43-不支持Netflix
-  - 🇨🇳:中国-ss-14.29.124.174:11048-可用-中转:129.227.144.195-不支持Netflix
   - 🇨🇳:中国-ss-14.29.124.168:25284-可用-直连-不支持Netflix
   - 🇨🇳:中国-ss-14.29.124.168:25283-可用-直连-不支持Netflix
   - 🇨🇳:中国-ss-14.29.124.168:25280-可用-直连-不支持Netflix
@@ -493,6 +424,7 @@ proxy-groups:
   - 🇨🇦:加拿大-ss-196.247.59.154:805-可用-直连-不支持Netflix
   - 🇨🇦:加拿大-ss-196.247.59.154:803-可用-直连-不支持Netflix
   - 🇨🇦:加拿大-ss-196.247.59.154:800-可用-直连-不支持Netflix
+  - 🇦🇺:澳大利亚-ss-185.167.116.250:9007-可用-直连-不支持Netflix
 - name: 被墙代理组
   type: select
   url: http://www.gstatic.com/generate_204
@@ -500,6 +432,7 @@ proxy-groups:
   proxies:
   - DIRECT
   - 🇯🇵:日本-ss-89.31.126.150:812-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧
+  - 🇯🇵:日本-ss-89.31.126.150:802-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧
   - 🇮🇱:以色列-ss-31.133.100.49:50004-被墙-直连-解锁以色列地区NF非自制剧
   - 🇮🇱:以色列-ss-185.162.126.217:50004-被墙-直连-解锁以色列地区NF非自制剧
   - 🇮🇱:以色列-ss-185.162.125.91:50004-被墙-直连-解锁以色列地区NF非自制剧
@@ -513,15 +446,12 @@ proxy-groups:
   interval: 300
   proxies:
   - DIRECT
-  - 🇺🇸:美国-vmess-xmrh014.xmrth-node.xyz:15885-可用-中转:172.104.75.232-仅支持日本地区NF自制剧
-  - 🇺🇸:美国-vmess-xmrh013.xmrth-node.xyz:15885-可用-中转:172.104.75.232-仅支持日本地区NF自制剧
 - name: 解锁Netflix非自制剧
   type: select
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - DIRECT
-  - 🇺🇸:美国-vmess-vfly6.xyz:443-可用-中转:8.210.128.146-解锁新加坡地区NF非自制剧
 - name: 入口代理组
     # 中继代理组,不支持UDP协议。线路: clash <-> vmess <-> ss1 <-> ss2 <-> Internet
   type: select
