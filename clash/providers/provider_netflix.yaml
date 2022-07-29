@@ -35,6 +35,12 @@ proxies:
   password: G!yBwPWH3Vao
   port: 802
   cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-ftp.cn.debian.cdnet.in:8030-可用-中转:104.28.243.105-解锁日本地区NF非自制剧
+  type: ss
+  server: ftp.cn.debian.cdnet.in
+  password: 83cfcf0a-2b51-4080-b38e-e70a7da33f08
+  port: 8030
+  cipher: aes-128-gcm
 - name: 🇯🇵:日本-ss-45.66.134.176:810-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
   type: ss
   server: 45.66.134.176
@@ -65,6 +71,12 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24002-被墙-中转:223.26.73.202-解锁台湾地区NF非自制剧
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24002
+  cipher: aes-128-cfb
 - name: 🇬🇧:英国-ss-83.229.73.60:50003-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
   server: 83.229.73.60
@@ -101,13 +113,24 @@ proxies:
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ssr-14.29.124.168:24001-被墙-中转:223.26.73.202-解锁台湾地区NF非自制剧
+- name: 🇺🇸:美国-ssr-us-am32-5.eqnode.net:8081-被墙-中转:34.215.171.37-解锁美国地区NF非自制剧
   type: ssr
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  obfs: plain
+  server: us-am32-5.eqnode.net
+  password: YFVrXZgRo
+  obfs: tls1.2_ticket_auth
   protocol: origin
-  port: 24001
-  cipher: aes-128-cfb
+  port: 8081
+  cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
+- name: 🇺🇸:美国-vmess-ifffffffuuuuuuus.qiqicdn2.cf:443-可用-中转:44.201.70.167-解锁美国地区NF非自制剧
+  type: vmess
+  server: ifffffffuuuuuuus.qiqicdn2.cf
+  network: ws
+  port: 443
+  uuid: 5a36cce4-0527-4d36-bf4a-6c215ef9c524
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /5a36cce4-0527-4d36-bf4a-6c215ef9c524-vmess
