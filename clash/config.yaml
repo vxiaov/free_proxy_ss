@@ -173,12 +173,6 @@ proxies:
   password: TPqX8edgbAURcAMb
   port: 9079
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-116.63.103.11:45251-被墙-中转:58.177.157.154-解锁香港地区NF非自制剧
-  type: ss
-  server: 116.63.103.11
-  password: 7cbdec9d-999f-4a0c-8a41-b7ef206123b6
-  port: 45251
-  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-89.31.126.150:812-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧
   type: ss
   server: 89.31.126.150
@@ -196,61 +190,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇺🇸:美国-vmess-138.2.122.102:25896-可用-直连-解锁韩国地区NF非自制剧
-  type: vmess
-  server: 138.2.122.102
-  network: ws
-  port: 25896
-  uuid: 1f5db39f-9421-4835-8819-fb99d4eac4ea
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇷🇴:罗马尼亚-vmess-109.166.39.216:39216-可用-直连-仅支持美国地区NF自制剧
-  type: vmess
-  server: 109.166.39.216
-  network: ws
-  port: 39216
-  uuid: 5022b474-6ba7-4f66-b7a1-04cc4814d2ed
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /tiktok
-- name: 🇺🇸:美国-vmess-150.230.197.142:2052-可用-直连-解锁日本地区NF非自制剧
-  type: vmess
-  server: 150.230.197.142
-  network: ws
-  port: 2052
-  uuid: c77e9b35-0fdc-4b8b-fe91-e9be523586dd
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /A
-- name: 🇺🇸:美国-vmess-emby.metalink.cf:36369-可用-中转:208.72.153.128-完全不支持NF
-  type: vmess
-  server: emby.metalink.cf
-  network: ws
-  port: 36369
-  uuid: 859fd7c6-c76d-4e9b-fa4e-b3b057e4520e
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /
-- name: 🇨🇳:中国-vmess-124.223.44.153:80-可用-直连-完全不支持NF
-  type: vmess
-  server: 124.223.44.153
-  network: ws
-  port: 80
-  uuid: 8017dfd8-f239-4ec6-e2dd-416189856438
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
 - name: 🇷🇴:罗马尼亚-vmess-109.166.39.183:39183-可用-直连-仅支持美国地区NF自制剧
   type: vmess
   server: 109.166.39.183
@@ -262,17 +201,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /tiktok
-- name: 🇨🇳:中国-vmess-106.12.168.13:23117-可用-直连-完全不支持NF
-  type: vmess
-  server: 106.12.168.13
-  network: ws
-  port: 23117
-  uuid: 6479ce34-0355-422d-d07e-d74116866fd2
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
 - name: 🇨🇳:中国-vmess-110.42.138.122:18080-可用-直连-完全不支持NF
   type: vmess
   server: 110.42.138.122
@@ -284,12 +212,56 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇨🇳:中国-vmess-106.12.168.13:23117-可用-直连-完全不支持NF
+  type: vmess
+  server: 106.12.168.13
+  network: ws
+  port: 23117
+  uuid: 6479ce34-0355-422d-d07e-d74116866fd2
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇺🇸:美国-vmess-138.2.122.102:25896-可用-直连-解锁韩国地区NF非自制剧
+  type: vmess
+  server: 138.2.122.102
+  network: ws
+  port: 25896
+  uuid: 1f5db39f-9421-4835-8819-fb99d4eac4ea
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇺🇸:美国-vmess-emby.metalink.cf:36369-可用-中转:208.72.153.128-完全不支持NF
+  type: vmess
+  server: emby.metalink.cf
+  network: ws
+  port: 36369
+  uuid: 859fd7c6-c76d-4e9b-fa4e-b3b057e4520e
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /
 - name: 🇨🇳:中国-vmess-47.93.231.218:53022-可用-直连-完全不支持NF
   type: vmess
   server: 47.93.231.218
   network: ws
   port: 53022
   uuid: 95fd7642-2160-4528-e909-3d526b533013
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇨🇳:中国-vmess-124.223.44.153:80-可用-直连-完全不支持NF
+  type: vmess
+  server: 124.223.44.153
+  network: ws
+  port: 80
+  uuid: 8017dfd8-f239-4ec6-e2dd-416189856438
   alterId: 4
   cipher: auto
   udp: false
@@ -306,6 +278,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇷🇴:罗马尼亚-vmess-109.166.39.216:39216-可用-直连-仅支持美国地区NF自制剧
+  type: vmess
+  server: 109.166.39.216
+  network: ws
+  port: 39216
+  uuid: 5022b474-6ba7-4f66-b7a1-04cc4814d2ed
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /tiktok
 - name: 🇷🇴:罗马尼亚-vmess-109.166.39.205:39205-可用-直连-仅支持美国地区NF自制剧
   type: vmess
   server: 109.166.39.205
@@ -317,6 +300,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /tiktok
+- name: 🇺🇸:美国-vmess-150.230.197.142:2052-可用-直连-解锁日本地区NF非自制剧
+  type: vmess
+  server: 150.230.197.142
+  network: ws
+  port: 2052
+  uuid: c77e9b35-0fdc-4b8b-fe91-e9be523586dd
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /A
 
 # 类型选择 简介
 # select : 用于选择代理或代理组, 可以通过 RESTful API 来切换代理，建议在 GUI 中使用
@@ -378,7 +372,6 @@ proxy-groups:
   - 🇮🇱:以色列-ss-31.133.100.49:50004-被墙-直连-解锁以色列地区NF非自制剧
   - 🇮🇱:以色列-ss-185.162.126.217:50004-被墙-直连-解锁以色列地区NF非自制剧
   - 🇬🇧:英国-ss-83.229.73.60:50003-被墙-直连-解锁以色列地区NF非自制剧
-  - 🇨🇳:中国-ss-116.63.103.11:45251-被墙-中转:58.177.157.154-解锁香港地区NF非自制剧
 - name: 仅支持Netflix自制剧
   type: select
   url: http://www.gstatic.com/generate_204
