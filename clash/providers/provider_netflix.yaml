@@ -1,27 +1,9 @@
 proxies:
-- name: 🇨🇦:加拿大-ss-72.140.224.195:800-被墙-直连-解锁加拿大地区NF非自制剧
-  type: ss
-  server: 72.140.224.195
-  password: G!yBwPWH3Vao
-  port: 800
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇦:加拿大-ss-72.140.224.195:803-被墙-直连-解锁加拿大地区NF非自制剧
-  type: ss
-  server: 72.140.224.195
-  password: G!yBwPWH3Vao
-  port: 803
-  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-89.31.126.150:802-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧
   type: ss
   server: 89.31.126.150
   password: G!yBwPWH3Vao
   port: 802
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇦:加拿大-ss-72.140.224.195:810-被墙-直连-解锁加拿大地区NF非自制剧
-  type: ss
-  server: 72.140.224.195
-  password: G!yBwPWH3Vao
-  port: 810
   cipher: chacha20-ietf-poly1305
 - name: 🇮🇱:以色列-ss-31.133.100.49:50004-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
@@ -70,6 +52,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇺🇸:美国-vmess-150.230.197.142:2052-可用-直连-解锁日本地区NF非自制剧
+  type: vmess
+  server: 150.230.197.142
+  network: ws
+  port: 2052
+  uuid: c77e9b35-0fdc-4b8b-fe91-e9be523586dd
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /A
 - name: 🇺🇸:美国-vmess-guibi.ml:443-可用-中转:150.230.249.15-解锁韩国地区NF非自制剧
   type: vmess
   server: guibi.ml
