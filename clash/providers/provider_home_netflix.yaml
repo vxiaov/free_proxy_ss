@@ -5,12 +5,6 @@ proxies:
   password: TPqX8edgbAURcAMb
   port: 9079
   cipher: aes-256-cfb
-- name: 🇩🇪:德国-ss-49.12.203.80:40960-可用-直连-仅支持德国地区NF自制剧
-  type: ss
-  server: 49.12.203.80
-  password: 6kA7b3f9Aw2508erQ3W7D4
-  port: 40960
-  cipher: aes-256-gcm
 - name: 🇷🇴:罗马尼亚-vmess-109.166.39.205:39205-可用-直连-仅支持美国地区NF自制剧
   type: vmess
   server: 109.166.39.205
@@ -55,6 +49,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /dgfgdf
+- name: 🇨🇳:中国-vmess-20.189.78.91:80-可用-直连-仅支持香港地区NF自制剧
+  type: vmess
+  server: 20.189.78.91
+  network: ws
+  port: 80
+  uuid: 06768554-690f-3815-8848-b9f38dcf772b
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇰🇷:韩国-vmess-45.43.41.222:27121-可用-直连-仅支持韩国地区NF自制剧
   type: vmess
   server: 45.43.41.222
