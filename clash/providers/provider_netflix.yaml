@@ -41,6 +41,18 @@ proxies:
   password: G!yBwPWH3Vao
   port: 802
   cipher: chacha20-ietf-poly1305
+- name: 🇯🇵:日本-ss-185.172.113.102:802-被墙-中转:185.172.113.100-解锁日本地区NF非自制剧
+  type: ss
+  server: 185.172.113.102
+  password: G!yBwPWH3Vao
+  port: 802
+  cipher: chacha20-ietf-poly1305
+- name: 🇯🇵:日本-ss-185.172.113.101:800-被墙-中转:185.172.113.100-解锁日本地区NF非自制剧
+  type: ss
+  server: 185.172.113.101
+  password: G!yBwPWH3Vao
+  port: 800
+  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-185.172.113.101:812-被墙-中转:185.172.113.100-解锁日本地区NF非自制剧
   type: ss
   server: 185.172.113.101
@@ -119,12 +131,12 @@ proxies:
   password: TPqX8edgbAURcAMb
   port: 9079
   cipher: aes-256-cfb
-- name: 🇯🇵:日本-ss-185.172.113.102:809-被墙-中转:185.172.113.100-解锁日本地区NF非自制剧
+- name: 🇮🇱:以色列-ss-185.162.125.91:50004-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
-  server: 185.172.113.102
-  password: G!yBwPWH3Vao
-  port: 809
-  cipher: chacha20-ietf-poly1305
+  server: 185.162.125.91
+  password: '4415934295'
+  port: 50004
+  cipher: aes-256-cfb
 - name: 🇯🇵:日本-vmess-146.56.118.227:2052-可用-直连-解锁韩国地区NF非自制剧
   type: vmess
   server: 146.56.118.227
@@ -142,6 +154,17 @@ proxies:
   network: ws
   port: 59619
   uuid: a8804a03-be3f-43b9-ef7f-8acbdf39cbe3
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇨🇳:中国-vmess-8.218.32.42:8765-可用-直连-解锁印度尼西亚地区NF非自制剧
+  type: vmess
+  server: 8.218.32.42
+  network: ws
+  port: 8765
+  uuid: 03fde792-2fc7-4d03-e649-0790328d58c1
   alterId: 4
   cipher: auto
   udp: false
