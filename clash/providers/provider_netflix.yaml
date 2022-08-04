@@ -17,6 +17,12 @@ proxies:
   password: G!yBwPWH3Vao
   port: 800
   cipher: chacha20-ietf-poly1305
+- name: 🇯🇵:日本-ss-185.172.113.101:808-被墙-中转:185.172.113.100-解锁日本地区NF非自制剧
+  type: ss
+  server: 185.172.113.101
+  password: G!yBwPWH3Vao
+  port: 808
+  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-185.172.113.101:810-被墙-中转:185.172.113.100-解锁日本地区NF非自制剧
   type: ss
   server: 185.172.113.101
@@ -29,11 +35,11 @@ proxies:
   password: G!yBwPWH3Vao
   port: 807
   cipher: chacha20-ietf-poly1305
-- name: 🇯🇵:日本-ss-89.31.126.150:802-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧
+- name: 🇯🇵:日本-ss-185.172.113.106:807-被墙-中转:185.172.113.100-解锁日本地区NF非自制剧
   type: ss
-  server: 89.31.126.150
+  server: 185.172.113.106
   password: G!yBwPWH3Vao
-  port: 802
+  port: 807
   cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-185.172.113.102:802-被墙-中转:185.172.113.100-解锁日本地区NF非自制剧
   type: ss
@@ -46,6 +52,12 @@ proxies:
   server: 185.172.113.101
   password: G!yBwPWH3Vao
   port: 800
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇦:加拿大-ss-72.140.224.195:810-被墙-直连-解锁加拿大地区NF非自制剧
+  type: ss
+  server: 72.140.224.195
+  password: G!yBwPWH3Vao
+  port: 810
   cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-185.172.113.101:812-被墙-中转:185.172.113.100-解锁日本地区NF非自制剧
   type: ss
@@ -65,29 +77,17 @@ proxies:
   password: G!yBwPWH3Vao
   port: 805
   cipher: chacha20-ietf-poly1305
-- name: 🇯🇵:日本-ss-185.172.113.101:808-被墙-中转:185.172.113.100-解锁日本地区NF非自制剧
-  type: ss
-  server: 185.172.113.101
-  password: G!yBwPWH3Vao
-  port: 808
-  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-185.172.113.106:802-被墙-中转:185.172.113.100-解锁日本地区NF非自制剧
   type: ss
   server: 185.172.113.106
   password: G!yBwPWH3Vao
   port: 802
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇦:加拿大-ss-72.140.224.195:803-被墙-直连-解锁加拿大地区NF非自制剧
+- name: 🇯🇵:日本-ss-89.31.126.150:802-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧
   type: ss
-  server: 72.140.224.195
+  server: 89.31.126.150
   password: G!yBwPWH3Vao
-  port: 803
-  cipher: chacha20-ietf-poly1305
-- name: 🇯🇵:日本-ss-185.172.113.106:807-被墙-中转:185.172.113.100-解锁日本地区NF非自制剧
-  type: ss
-  server: 185.172.113.106
-  password: G!yBwPWH3Vao
-  port: 807
+  port: 802
   cipher: chacha20-ietf-poly1305
 - name: 🇮🇱:以色列-ss-31.133.100.49:50004-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
@@ -148,3 +148,14 @@ proxies:
   udp: false
   tls: false
   ws-path: /update
+- name: 🇨🇳:中国-vmess-8.218.32.42:8765-可用-直连-解锁印度尼西亚地区NF非自制剧
+  type: vmess
+  server: 8.218.32.42
+  network: ws
+  port: 8765
+  uuid: 03fde792-2fc7-4d03-e649-0790328d58c1
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
