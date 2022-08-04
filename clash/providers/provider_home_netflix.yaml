@@ -1,16 +1,16 @@
 proxies:
-- name: 🇩🇪:德国-ss-49.12.203.80:40960-可用-直连-仅支持德国地区NF自制剧
-  type: ss
-  server: 49.12.203.80
-  password: 6kA7b3f9Aw2508erQ3W7D4
-  port: 40960
-  cipher: aes-256-gcm
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9079-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
   server: 185.126.116.119
   password: TPqX8edgbAURcAMb
   port: 9079
   cipher: aes-256-cfb
+- name: 🇩🇪:德国-ss-49.12.203.80:40960-可用-直连-仅支持德国地区NF自制剧
+  type: ss
+  server: 49.12.203.80
+  password: 6kA7b3f9Aw2508erQ3W7D4
+  port: 40960
+  cipher: aes-256-gcm
 - name: 🇷🇴:罗马尼亚-vmess-109.166.39.205:39205-可用-直连-仅支持美国地区NF自制剧
   type: vmess
   server: 109.166.39.205
@@ -22,6 +22,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /tiktok
+- name: 🇮🇳:印度-vmess-103.252.116.41:80-可用-直连-仅支持香港地区NF自制剧
+  type: vmess
+  server: 103.252.116.41
+  network: ws
+  port: 80
+  uuid: ff529a37-2cf9-4bf4-bbfc-3d6dd955ada0
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /images
 - name: 🇺🇸:美国-vmess-v2ray.wefuckgfw.ga:2096-可用-中转:45.90.58.175-仅支持瑞士地区NF自制剧
   type: vmess
   server: v2ray.wefuckgfw.ga
@@ -33,6 +44,28 @@ proxies:
   udp: false
   tls: true
   ws-path: /H8VswtUJ/
+- name: 🇺🇸:美国-vmess-51.137.133.181:13828-可用-直连-仅支持英国地区NF自制剧
+  type: vmess
+  server: 51.137.133.181
+  network: ws
+  port: 13828
+  uuid: 2b5ee2ed-ddaa-4f13-a86c-ee47acf26a0e
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /dgfgdf
+- name: 🇰🇷:韩国-vmess-45.43.41.222:27121-可用-直连-仅支持韩国地区NF自制剧
+  type: vmess
+  server: 45.43.41.222
+  network: ws
+  port: 27121
+  uuid: b37d0e60-9d05-46fd-96dd-b27732af89d2
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇰🇷:韩国-vmess-152.67.218.38:443-可用-直连-仅支持韩国地区NF自制剧
   type: vmess
   server: 152.67.218.38
@@ -66,17 +99,6 @@ proxies:
   udp: false
   tls: true
   ws-path: /chat
-- name: 🇸🇬:新加坡-vmess-139.162.7.177:80-可用-直连-仅支持新加坡地区NF自制剧
-  type: vmess
-  server: 139.162.7.177
-  network: ws
-  port: 80
-  uuid: e982184f-c6e0-4ba4-91cc-71eb6c702588
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /nkpvpn.site
 - name: 🇺🇸:美国-vmess-173.82.226.27:23662-可用-直连-仅支持美国地区NF自制剧
   type: vmess
   server: 173.82.226.27
@@ -99,6 +121,17 @@ proxies:
   udp: false
   tls: true
   ws-path: /zcjd
+- name: 🇰🇷:韩国-vmess-45.43.41.222:54541-可用-直连-仅支持韩国地区NF自制剧
+  type: vmess
+  server: 45.43.41.222
+  network: ws
+  port: 54541
+  uuid: b7a8130f-92e6-4d4f-d0ac-336c164fed48
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇺🇸:美国-vmess-161.129.45.96:55053-可用-直连-仅支持美国地区NF自制剧
   type: vmess
   server: 161.129.45.96
