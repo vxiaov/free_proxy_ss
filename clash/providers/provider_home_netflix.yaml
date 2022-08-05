@@ -1,4 +1,10 @@
 proxies:
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9014-可用-直连-仅支持瑞士地区NF自制剧
+  type: ss
+  server: 185.126.116.119
+  password: KnJGad3FqTvjqbaX
+  port: 9014
+  cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-vmess-109.166.39.205:39205-可用-直连-仅支持美国地区NF自制剧
   type: vmess
   server: 109.166.39.205
@@ -21,6 +27,28 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇰🇷:韩国-vmess-152.67.218.38:443-可用-直连-仅支持韩国地区NF自制剧
+  type: vmess
+  server: 152.67.218.38
+  network: ws
+  port: 443
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: ''
+- name: 🇺🇸:美国-vmess-139.177.191.249:80-可用-直连-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: 139.177.191.249
+  network: ws
+  port: 80
+  uuid: ff529a37-2cf9-4bf4-bbfc-3d6dd955ada0
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /images
 - name: 🇨🇳:中国-vmess-20.189.113.131:80-可用-直连-仅支持香港地区NF自制剧
   type: vmess
   server: 20.189.113.131
@@ -54,17 +82,6 @@ proxies:
   udp: false
   tls: true
   ws-path: /chat
-- name: 🇸🇬:新加坡-vmess-139.162.7.177:80-可用-直连-仅支持新加坡地区NF自制剧
-  type: vmess
-  server: 139.162.7.177
-  network: ws
-  port: 80
-  uuid: e982184f-c6e0-4ba4-91cc-71eb6c702588
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /nkpvpn.site
 - name: 🇨🇳:中国-vmess-52.184.82.186:443-可用-直连-仅支持香港地区NF自制剧
   type: vmess
   server: 52.184.82.186
