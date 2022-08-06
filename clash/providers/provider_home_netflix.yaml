@@ -1,16 +1,16 @@
 proxies:
-- name: 🇺🇸:美国-ss-104.237.154.158:864-可用-直连-仅支持美国地区NF自制剧
-  type: ss
-  server: 104.237.154.158
-  password: 88gy56h9
-  port: 864
-  cipher: aes-256-gcm
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9046-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
   server: 185.126.116.119
   password: NvS8N4Vf8qAGPSCL
   port: 9046
   cipher: aes-256-cfb
+- name: 🇺🇸:美国-ss-104.237.154.158:864-可用-直连-仅支持美国地区NF自制剧
+  type: ss
+  server: 104.237.154.158
+  password: 88gy56h9
+  port: 864
+  cipher: aes-256-gcm
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9014-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
   server: 185.126.116.119
@@ -28,23 +28,23 @@ proxies:
   udp: false
   tls: false
   ws-path: /tiktok
+- name: 🇸🇬:新加坡-vmess-18.141.146.58:43950-可用-直连-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: 18.141.146.58
+  network: ws
+  port: 43950
+  uuid: 2f1dce9c-c5c8-4007-bade-bac837db928d
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇰🇷:韩国-vmess-152.67.221.228:58742-可用-直连-仅支持韩国地区NF自制剧
   type: vmess
   server: 152.67.221.228
   network: ws
   port: 58742
   uuid: 0d31b385-c478-456b-f665-f1d62a91e54c
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-20.205.111.107:59619-可用-直连-仅支持香港地区NF自制剧
-  type: vmess
-  server: 20.205.111.107
-  network: ws
-  port: 59619
-  uuid: a8804a03-be3f-43b9-ef7f-8acbdf39cbe3
   alterId: 4
   cipher: auto
   udp: false
@@ -72,6 +72,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇰🇷:韩国-vmess-152.67.218.38:443-可用-直连-仅支持韩国地区NF自制剧
+  type: vmess
+  server: 152.67.218.38
+  network: ws
+  port: 443
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇮🇳:印度-vmess-147.139.7.71:888-可用-直连-仅支持印度地区NF自制剧
   type: vmess
   server: 147.139.7.71
@@ -83,36 +94,14 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇺🇸:美国-vmess-198.211.29.39:53-可用-直连-仅支持美国地区NF自制剧
+- name: 🇺🇸:美国-vmess-vus4.0bad.com:443-可用-中转:198.58.118.115-仅支持美国地区NF自制剧
   type: vmess
-  server: 198.211.29.39
+  server: vus4.0bad.com
   network: ws
-  port: 53
-  uuid: e207f44f-7a21-4d58-dc1b-f1e121030cf9
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
   alterId: 4
   cipher: auto
   udp: false
-  tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-173.82.226.27:23662-可用-直连-仅支持美国地区NF自制剧
-  type: vmess
-  server: 173.82.226.27
-  network: ws
-  port: 23662
-  uuid: efa2ab76-539d-4b6a-9572-24ba709fb81b
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-161.129.45.96:55053-可用-直连-仅支持美国地区NF自制剧
-  type: vmess
-  server: 161.129.45.96
-  network: ws
-  port: 55053
-  uuid: ba3e022a-d6f5-4873-8f06-204a1a5f4f33
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
+  tls: true
+  ws-path: /chat
