@@ -5,17 +5,6 @@ proxies:
   password: 88gy56h9
   port: 864
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-vmess-45.195.149.158:37916-可用-直连-仅支持香港地区NF自制剧
-  type: vmess
-  server: 45.195.149.158
-  network: ws
-  port: 37916
-  uuid: 9c7a49a2-ddff-4654-925b-baa7913dbc56
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
 - name: 🇺🇸:美国-vmess-129.150.46.8:36277-可用-直连-仅支持新加坡地区NF自制剧
   type: vmess
   server: 129.150.46.8
@@ -38,6 +27,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /tiktok
+- name: 🇸🇬:新加坡-vmess-18.141.146.58:43950-可用-直连-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: 18.141.146.58
+  network: ws
+  port: 43950
+  uuid: 2f1dce9c-c5c8-4007-bade-bac837db928d
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇰🇷:韩国-vmess-152.67.221.228:58742-可用-直连-仅支持韩国地区NF自制剧
   type: vmess
   server: 152.67.221.228
@@ -49,17 +49,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇨🇳:中国-vmess-avuhk094.xiaohouzi.club:1558-可用-中转:43.132.183.216-仅支持香港地区NF自制剧
-  type: vmess
-  server: avuhk094.xiaohouzi.club
-  network: ws
-  port: 1558
-  uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /v2ray
 - name: 🇰🇷:韩国-vmess-45.43.41.222:27121-可用-直连-仅支持韩国地区NF自制剧
   type: vmess
   server: 45.43.41.222
@@ -82,50 +71,39 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇯🇵:日本-vmess-52.185.184.67:443-可用-直连-仅支持日本地区NF自制剧
+- name: 🇸🇬:新加坡-vmess-vsg1.0bad.com:443-可用-中转:139.162.60.81-仅支持新加坡地区NF自制剧
   type: vmess
-  server: 52.185.184.67
+  server: vsg1.0bad.com
   network: ws
   port: 443
-  uuid: 070cc8bd-07e9-3293-b1d0-d523e3f1c60f
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇯🇵:日本-vmess-rb3.qinghuanyun.top:443-可用-中转:52.185.184.67-仅支持日本地区NF自制剧
-  type: vmess
-  server: rb3.qinghuanyun.top
-  network: ws
-  port: 443
-  uuid: 070cc8bd-07e9-3293-b1d0-d523e3f1c60f
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-173.82.226.27:23662-可用-直连-仅支持美国地区NF自制剧
-  type: vmess
-  server: 173.82.226.27
-  network: ws
-  port: 23662
-  uuid: efa2ab76-539d-4b6a-9572-24ba709fb81b
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇨🇳:中国-vmess-avuhk093.xiaohouzi.club:1558-可用-中转:43.154.39.179-仅支持香港地区NF自制剧
-  type: vmess
-  server: avuhk093.xiaohouzi.club
-  network: ws
-  port: 1558
-  uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
   alterId: 4
   cipher: auto
   udp: false
   tls: true
-  ws-path: /v2ray
+  ws-path: /chat
+- name: 🇺🇸:美国-vmess-cindy.marythunt.xyz:55053-可用-中转:161.129.45.96-仅支持美国地区NF自制剧
+  type: vmess
+  server: cindy.marythunt.xyz
+  network: ws
+  port: 55053
+  uuid: ba3e022a-d6f5-4873-8f06-204a1a5f4f33
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇷🇴:罗马尼亚-vmess-109.166.39.216:39216-可用-直连-仅支持美国地区NF自制剧
+  type: vmess
+  server: 109.166.39.216
+  network: ws
+  port: 39216
+  uuid: 5022b474-6ba7-4f66-b7a1-04cc4814d2ed
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /tiktok
 - name: 🇺🇸:美国-vmess-161.129.45.96:55053-可用-直连-仅支持美国地区NF自制剧
   type: vmess
   server: 161.129.45.96
