@@ -1,4 +1,10 @@
 proxies:
+- name: 🇺🇸:美国-ss-104.237.154.158:864-可用-直连-仅支持美国地区NF自制剧
+  type: ss
+  server: 104.237.154.158
+  password: 88gy56h9
+  port: 864
+  cipher: aes-256-gcm
 - name: 🇨🇳:中国-vmess-45.195.149.158:37916-可用-直连-仅支持香港地区NF自制剧
   type: vmess
   server: 45.195.149.158
@@ -32,34 +38,12 @@ proxies:
   udp: false
   tls: false
   ws-path: /tiktok
-- name: 🇸🇬:新加坡-vmess-18.141.146.58:43950-可用-直连-仅支持新加坡地区NF自制剧
-  type: vmess
-  server: 18.141.146.58
-  network: ws
-  port: 43950
-  uuid: 2f1dce9c-c5c8-4007-bade-bac837db928d
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
 - name: 🇰🇷:韩国-vmess-152.67.221.228:58742-可用-直连-仅支持韩国地区NF自制剧
   type: vmess
   server: 152.67.221.228
   network: ws
   port: 58742
   uuid: 0d31b385-c478-456b-f665-f1d62a91e54c
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-20.205.111.107:59619-可用-直连-仅支持香港地区NF自制剧
-  type: vmess
-  server: 20.205.111.107
-  network: ws
-  port: 59619
-  uuid: a8804a03-be3f-43b9-ef7f-8acbdf39cbe3
   alterId: 4
   cipher: auto
   udp: false
@@ -93,6 +77,28 @@ proxies:
   network: ws
   port: 888
   uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇯🇵:日本-vmess-52.185.184.67:443-可用-直连-仅支持日本地区NF自制剧
+  type: vmess
+  server: 52.185.184.67
+  network: ws
+  port: 443
+  uuid: 070cc8bd-07e9-3293-b1d0-d523e3f1c60f
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇯🇵:日本-vmess-rb3.qinghuanyun.top:443-可用-中转:52.185.184.67-仅支持日本地区NF自制剧
+  type: vmess
+  server: rb3.qinghuanyun.top
+  network: ws
+  port: 443
+  uuid: 070cc8bd-07e9-3293-b1d0-d523e3f1c60f
   alterId: 4
   cipher: auto
   udp: false
