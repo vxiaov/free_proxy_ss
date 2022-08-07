@@ -1,4 +1,21 @@
 proxies:
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9014-可用-直连-仅支持瑞士地区NF自制剧
+  type: ss
+  server: 185.126.116.119
+  password: KnJGad3FqTvjqbaX
+  port: 9014
+  cipher: aes-256-cfb
+- name: 🇨🇳:中国-vmess-hk1.qinghuanyun.top:80-可用-中转:20.189.122.46-仅支持香港地区NF自制剧
+  type: vmess
+  server: hk1.qinghuanyun.top
+  network: ws
+  port: 80
+  uuid: f25b13fb-b5ee-3f6b-a44c-3d35788b92df
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇷🇴:罗马尼亚-vmess-109.166.39.205:39205-可用-直连-仅支持美国地区NF自制剧
   type: vmess
   server: 109.166.39.205
@@ -21,28 +38,28 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇰🇷:韩国-vmess-152.67.221.228:58742-可用-直连-仅支持韩国地区NF自制剧
+- name: 🇺🇸:美国-vmess-20.205.111.107:59619-可用-直连-仅支持香港地区NF自制剧
   type: vmess
-  server: 152.67.221.228
+  server: 20.205.111.107
   network: ws
-  port: 58742
-  uuid: 0d31b385-c478-456b-f665-f1d62a91e54c
+  port: 59619
+  uuid: a8804a03-be3f-43b9-ef7f-8acbdf39cbe3
   alterId: 4
   cipher: auto
   udp: false
   tls: false
   ws-path: /
-- name: 🇺🇸:美国-vmess-vus3.0bad.com:443-可用-中转:45.33.49.68-仅支持美国地区NF自制剧
+- name: 🇨🇳:中国-vmess-avuhk094.xiaohouzi.club:1558-可用-中转:43.132.183.216-仅支持香港地区NF自制剧
   type: vmess
-  server: vus3.0bad.com
+  server: avuhk094.xiaohouzi.club
   network: ws
-  port: 443
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  port: 1558
+  uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc
   alterId: 4
   cipher: auto
   udp: false
   tls: true
-  ws-path: /chat
+  ws-path: /v2ray
 - name: 🇰🇷:韩国-vmess-45.43.41.222:27121-可用-直连-仅支持韩国地区NF自制剧
   type: vmess
   server: 45.43.41.222
@@ -71,6 +88,17 @@ proxies:
   network: ws
   port: 888
   uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇺🇸:美国-vmess-173.82.226.27:23662-可用-直连-仅支持美国地区NF自制剧
+  type: vmess
+  server: 173.82.226.27
+  network: ws
+  port: 23662
+  uuid: efa2ab76-539d-4b6a-9572-24ba709fb81b
   alterId: 4
   cipher: auto
   udp: false
