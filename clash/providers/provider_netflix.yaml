@@ -125,12 +125,6 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9058-被墙-直连-解锁瑞士地区NF非自制剧
-  type: ss
-  server: 185.126.116.119
-  password: dML2sfhbVwvtfNPe
-  port: 9058
-  cipher: aes-256-cfb
 - name: 🇯🇵:日本-ss-185.172.113.106:812-被墙-中转:185.172.113.100-解锁日本地区NF非自制剧
   type: ss
   server: 185.172.113.106
@@ -154,3 +148,14 @@ proxies:
   udp: false
   tls: false
   ws-path: hy
+- name: 🇨🇳:中国-vmess-8.218.32.42:8765-可用-直连-解锁印度尼西亚地区NF非自制剧
+  type: vmess
+  server: 8.218.32.42
+  network: ws
+  port: 8765
+  uuid: 03fde792-2fc7-4d03-e649-0790328d58c1
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
