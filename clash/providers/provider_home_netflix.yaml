@@ -1,4 +1,10 @@
 proxies:
+- name: 🇬🇧:英国-ss-89.238.165.226:809-可用-直连-仅支持英国地区NF自制剧
+  type: ss
+  server: 89.238.165.226
+  password: G!yBwPWH3Vao
+  port: 809
+  cipher: chacha20-ietf-poly1305
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9070-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
   server: 185.126.116.119
@@ -11,17 +17,17 @@ proxies:
   password: dML2sfhbVwvtfNPe
   port: 9058
   cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-vmess-109.166.39.205:39205-可用-直连-仅支持美国地区NF自制剧
+- name: 🇸🇬:新加坡-vmess-18.141.146.58:43950-可用-直连-仅支持新加坡地区NF自制剧
   type: vmess
-  server: 109.166.39.205
+  server: 18.141.146.58
   network: ws
-  port: 39205
-  uuid: 548cfd27-e18f-406b-84f6-74de849e27b8
+  port: 43950
+  uuid: 2f1dce9c-c5c8-4007-bade-bac837db928d
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /tiktok
+  ws-path: /
 - name: 🇺🇸:美国-vmess-free-godlikeanyone.koyeb.app:443-可用-中转:147.75.80.139-仅支持荷兰地区NF自制剧
   type: vmess
   server: free-godlikeanyone.koyeb.app
@@ -44,6 +50,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /images
+- name: 🇰🇷:韩国-vmess-152.67.221.228:58742-可用-直连-仅支持韩国地区NF自制剧
+  type: vmess
+  server: 152.67.221.228
+  network: ws
+  port: 58742
+  uuid: 0d31b385-c478-456b-f665-f1d62a91e54c
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇺🇸:美国-vmess-20.205.111.107:59619-可用-直连-仅支持香港地区NF自制剧
   type: vmess
   server: 20.205.111.107
@@ -94,6 +111,17 @@ proxies:
   network: ws
   port: 888
   uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇺🇸:美国-vmess-161.129.45.96:55053-可用-直连-仅支持美国地区NF自制剧
+  type: vmess
+  server: 161.129.45.96
+  network: ws
+  port: 55053
+  uuid: ba3e022a-d6f5-4873-8f06-204a1a5f4f33
   alterId: 4
   cipher: auto
   udp: false
