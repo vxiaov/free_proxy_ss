@@ -5,18 +5,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 809
   cipher: chacha20-ietf-poly1305
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9080-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.119
-  password: VP8ZPxQpJtZRCjfZ
-  port: 9080
-  cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9027-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.119
-  password: EXN3S3eQpjE7EJu8
-  port: 9027
-  cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9019-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
   server: 185.126.116.119
@@ -29,23 +17,24 @@ proxies:
   password: HSZuyJQcWe8dxNdF
   port: 9043
   cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9094-可用-直连-仅支持瑞士地区NF自制剧
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9070-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
   server: 185.126.116.119
-  password: rpgbNnU9rDDU4aWZ
-  port: 9094
+  password: bf7v334KKDV3YDhH
+  port: 9070
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-vmess-129.150.46.8:36277-可用-直连-仅支持新加坡地区NF自制剧
-  type: vmess
-  server: 129.150.46.8
-  network: ws
-  port: 36277
-  uuid: f3d972b0-aa7f-499d-85cd-c0c26f9cc15f
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9093-可用-直连-仅支持瑞士地区NF自制剧
+  type: ss
+  server: 185.126.116.119
+  password: wfLC2y7rzZyCmuyt
+  port: 9093
+  cipher: aes-256-cfb
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9024-可用-直连-仅支持瑞士地区NF自制剧
+  type: ss
+  server: 185.126.116.119
+  password: BejrQvtu9sqUeNuZ
+  port: 9024
+  cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-vmess-109.166.39.205:39205-可用-直连-仅支持美国地区NF自制剧
   type: vmess
   server: 109.166.39.205
@@ -79,12 +68,12 @@ proxies:
   udp: false
   tls: false
   ws-path: /images
-- name: 🇺🇸:美国-vmess-20.205.111.107:59619-可用-直连-仅支持香港地区NF自制剧
+- name: 🇰🇷:韩国-vmess-152.67.221.228:58742-可用-直连-仅支持韩国地区NF自制剧
   type: vmess
-  server: 20.205.111.107
+  server: 152.67.221.228
   network: ws
-  port: 59619
-  uuid: a8804a03-be3f-43b9-ef7f-8acbdf39cbe3
+  port: 58742
+  uuid: 0d31b385-c478-456b-f665-f1d62a91e54c
   alterId: 4
   cipher: auto
   udp: false
@@ -96,6 +85,17 @@ proxies:
   network: ws
   port: 27121
   uuid: b37d0e60-9d05-46fd-96dd-b27732af89d2
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇰🇷:韩国-vmess-152.67.218.38:443-可用-直连-仅支持韩国地区NF自制剧
+  type: vmess
+  server: 152.67.218.38
+  network: ws
+  port: 443
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
   alterId: 4
   cipher: auto
   udp: false
@@ -134,14 +134,3 @@ proxies:
   udp: false
   tls: false
   ws-path: /tiktok
-- name: 🇨🇳:中国-vmess-avuhk092.xiaohouzi.club:1558-可用-中转:43.154.218.149-仅支持香港地区NF自制剧
-  type: vmess
-  server: avuhk092.xiaohouzi.club
-  network: ws
-  port: 1558
-  uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /v2ray
