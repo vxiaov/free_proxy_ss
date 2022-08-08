@@ -11,12 +11,17 @@ proxies:
   password: bf7v334KKDV3YDhH
   port: 9070
   cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9058-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.119
-  password: dML2sfhbVwvtfNPe
-  port: 9058
-  cipher: aes-256-cfb
+- name: 🇷🇴:罗马尼亚-vmess-109.166.39.205:39205-可用-直连-仅支持美国地区NF自制剧
+  type: vmess
+  server: 109.166.39.205
+  network: ws
+  port: 39205
+  uuid: 548cfd27-e18f-406b-84f6-74de849e27b8
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /tiktok
 - name: 🇸🇬:新加坡-vmess-18.141.146.58:43950-可用-直连-仅支持新加坡地区NF自制剧
   type: vmess
   server: 18.141.146.58
@@ -39,17 +44,6 @@ proxies:
   udp: false
   tls: true
   ws-path: /b7b1f689-f82e-4ce4-97e7-8a8997370e44-vmess
-- name: 🇮🇳:印度-vmess-103.252.116.41:80-可用-直连-仅支持香港地区NF自制剧
-  type: vmess
-  server: 103.252.116.41
-  network: ws
-  port: 80
-  uuid: ff529a37-2cf9-4bf4-bbfc-3d6dd955ada0
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /images
 - name: 🇰🇷:韩国-vmess-152.67.221.228:58742-可用-直连-仅支持韩国地区NF自制剧
   type: vmess
   server: 152.67.221.228
@@ -72,34 +66,12 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇺🇸:美国-vmess-v2ray.wefuckgfw.ga:2096-可用-中转:45.90.58.175-仅支持瑞士地区NF自制剧
-  type: vmess
-  server: v2ray.wefuckgfw.ga
-  network: ws
-  port: 2096
-  uuid: f9d1d64f-7e04-4094-8742-d63d1851db9d
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /H8VswtUJ/
 - name: 🇺🇸:美国-vmess-20.205.111.107:53-可用-直连-仅支持香港地区NF自制剧
   type: vmess
   server: 20.205.111.107
   network: ws
   port: 53
   uuid: bf5fe104-ebaa-4369-bb81-4aa62a386523
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇰🇷:韩国-vmess-152.67.218.38:443-可用-直连-仅支持韩国地区NF自制剧
-  type: vmess
-  server: 152.67.218.38
-  network: ws
-  port: 443
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
   alterId: 4
   cipher: auto
   udp: false
