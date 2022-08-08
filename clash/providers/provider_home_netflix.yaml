@@ -1,16 +1,15 @@
 proxies:
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9070-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.119
-  password: bf7v334KKDV3YDhH
-  port: 9070
-  cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9045-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.119
-  password: Lp27rqyJq72bZsqX
-  port: 9045
-  cipher: aes-256-cfb
+- name: 🇷🇴:罗马尼亚-vmess-109.166.39.205:39205-可用-直连-仅支持美国地区NF自制剧
+  type: vmess
+  server: 109.166.39.205
+  network: ws
+  port: 39205
+  uuid: 548cfd27-e18f-406b-84f6-74de849e27b8
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /tiktok
 - name: 🇮🇳:印度-vmess-103.252.116.41:80-可用-直连-仅支持香港地区NF自制剧
   type: vmess
   server: 103.252.116.41
@@ -22,36 +21,58 @@ proxies:
   udp: false
   tls: false
   ws-path: /images
-- name: 🇰🇷:韩国-vmess-152.67.221.228:58742-可用-直连-仅支持韩国地区NF自制剧
+- name: 🇺🇸:美国-vmess-v2ray.wefuckgfw.ga:2096-可用-中转:45.90.58.175-仅支持瑞士地区NF自制剧
   type: vmess
-  server: 152.67.221.228
+  server: v2ray.wefuckgfw.ga
   network: ws
-  port: 58742
-  uuid: 0d31b385-c478-456b-f665-f1d62a91e54c
+  port: 2096
+  uuid: f9d1d64f-7e04-4094-8742-d63d1851db9d
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /H8VswtUJ/
+- name: 🇺🇸:美国-vmess-hk04.swty.buzz:12155-可用-中转:20.205.108.149-仅支持香港地区NF自制剧
+  type: vmess
+  server: hk04.swty.buzz
+  network: ws
+  port: 12155
+  uuid: 0ff9fffa-ed00-4c4b-9909-db785fe8a9e2
   alterId: 4
   cipher: auto
   udp: false
   tls: false
   ws-path: /
-- name: 🇺🇸:美国-vmess-20.205.111.107:59619-可用-直连-仅支持香港地区NF自制剧
+- name: 🇺🇸:美国-vmess-20.2.81.63:12155-可用-直连-仅支持香港地区NF自制剧
   type: vmess
-  server: 20.205.111.107
+  server: 20.2.81.63
   network: ws
-  port: 59619
-  uuid: a8804a03-be3f-43b9-ef7f-8acbdf39cbe3
+  port: 12155
+  uuid: 0ff9fffa-ed00-4c4b-9909-db785fe8a9e2
   alterId: 4
   cipher: auto
   udp: false
   tls: false
   ws-path: /
-- name: 🇺🇸:美国-vmess-161.129.45.96:55053-可用-直连-仅支持美国地区NF自制剧
+- name: 🇮🇳:印度-vmess-147.139.7.71:888-可用-直连-仅支持印度地区NF自制剧
   type: vmess
-  server: 161.129.45.96
+  server: 147.139.7.71
   network: ws
-  port: 55053
-  uuid: ba3e022a-d6f5-4873-8f06-204a1a5f4f33
+  port: 888
+  uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
   alterId: 4
   cipher: auto
   udp: false
   tls: false
   ws-path: /
+- name: 🇷🇴:罗马尼亚-vmess-109.166.39.216:39216-可用-直连-仅支持美国地区NF自制剧
+  type: vmess
+  server: 109.166.39.216
+  network: ws
+  port: 39216
+  uuid: 5022b474-6ba7-4f66-b7a1-04cc4814d2ed
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /tiktok
