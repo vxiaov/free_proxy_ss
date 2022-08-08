@@ -1,4 +1,15 @@
 proxies:
+- name: 🇺🇸:美国-vmess-129.150.46.8:36277-可用-直连-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: 129.150.46.8
+  network: ws
+  port: 36277
+  uuid: f3d972b0-aa7f-499d-85cd-c0c26f9cc15f
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇷🇴:罗马尼亚-vmess-109.166.39.205:39205-可用-直连-仅支持美国地区NF自制剧
   type: vmess
   server: 109.166.39.205
@@ -21,34 +32,23 @@ proxies:
   udp: false
   tls: false
   ws-path: /A
-- name: 🇺🇸:美国-vmess-20.205.111.107:59619-可用-直连-仅支持香港地区NF自制剧
+- name: 🇮🇳:印度-vmess-103.252.116.41:80-可用-直连-仅支持香港地区NF自制剧
   type: vmess
-  server: 20.205.111.107
+  server: 103.252.116.41
   network: ws
-  port: 59619
-  uuid: a8804a03-be3f-43b9-ef7f-8acbdf39cbe3
+  port: 80
+  uuid: ff529a37-2cf9-4bf4-bbfc-3d6dd955ada0
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /
+  ws-path: /images
 - name: 🇰🇷:韩国-vmess-45.43.41.222:27121-可用-直连-仅支持韩国地区NF自制剧
   type: vmess
   server: 45.43.41.222
   network: ws
   port: 27121
   uuid: b37d0e60-9d05-46fd-96dd-b27732af89d2
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇰🇷:韩国-vmess-152.67.218.38:443-可用-直连-仅支持韩国地区NF自制剧
-  type: vmess
-  server: 152.67.218.38
-  network: ws
-  port: 443
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
   alterId: 4
   cipher: auto
   udp: false
@@ -65,20 +65,20 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇸🇬:新加坡-vmess-vsg1.0bad.com:443-可用-中转:139.162.60.81-仅支持新加坡地区NF自制剧
-  type: vmess
-  server: vsg1.0bad.com
-  network: ws
-  port: 443
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /chat
 - name: 🇺🇸:美国-vmess-cindy.marythunt.xyz:55053-可用-中转:161.129.45.96-仅支持美国地区NF自制剧
   type: vmess
   server: cindy.marythunt.xyz
+  network: ws
+  port: 55053
+  uuid: ba3e022a-d6f5-4873-8f06-204a1a5f4f33
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇺🇸:美国-vmess-161.129.45.96:55053-可用-直连-仅支持美国地区NF自制剧
+  type: vmess
+  server: 161.129.45.96
   network: ws
   port: 55053
   uuid: ba3e022a-d6f5-4873-8f06-204a1a5f4f33
