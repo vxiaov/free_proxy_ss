@@ -1,15 +1,10 @@
 proxies:
-- name: 🇺🇸:美国-vmess-129.150.46.8:36277-可用-直连-仅支持新加坡地区NF自制剧
-  type: vmess
-  server: 129.150.46.8
-  network: ws
-  port: 36277
-  uuid: f3d972b0-aa7f-499d-85cd-c0c26f9cc15f
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
+- name: 🇺🇸:美国-ss-104.237.154.158:864-可用-直连-仅支持美国地区NF自制剧
+  type: ss
+  server: 104.237.154.158
+  password: 88gy56h9
+  port: 864
+  cipher: aes-256-gcm
 - name: 🇷🇴:罗马尼亚-vmess-109.166.39.205:39205-可用-直连-仅支持美国地区NF自制剧
   type: vmess
   server: 109.166.39.205
@@ -32,17 +27,28 @@ proxies:
   udp: false
   tls: false
   ws-path: /A
-- name: 🇮🇳:印度-vmess-103.252.116.41:80-可用-直连-仅支持香港地区NF自制剧
+- name: 🇸🇬:新加坡-vmess-18.141.146.58:43950-可用-直连-仅支持新加坡地区NF自制剧
   type: vmess
-  server: 103.252.116.41
+  server: 18.141.146.58
   network: ws
-  port: 80
-  uuid: ff529a37-2cf9-4bf4-bbfc-3d6dd955ada0
+  port: 43950
+  uuid: 2f1dce9c-c5c8-4007-bade-bac837db928d
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /images
+  ws-path: /
+- name: 🇰🇷:韩国-vmess-152.67.221.228:58742-可用-直连-仅支持韩国地区NF自制剧
+  type: vmess
+  server: 152.67.221.228
+  network: ws
+  port: 58742
+  uuid: 0d31b385-c478-456b-f665-f1d62a91e54c
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇰🇷:韩国-vmess-45.43.41.222:27121-可用-直连-仅支持韩国地区NF自制剧
   type: vmess
   server: 45.43.41.222
@@ -54,34 +60,23 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇰🇷:韩国-vmess-152.67.218.38:443-可用-直连-仅支持韩国地区NF自制剧
+  type: vmess
+  server: 152.67.218.38
+  network: ws
+  port: 443
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇮🇳:印度-vmess-147.139.7.71:888-可用-直连-仅支持印度地区NF自制剧
   type: vmess
   server: 147.139.7.71
   network: ws
   port: 888
   uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-cindy.marythunt.xyz:55053-可用-中转:161.129.45.96-仅支持美国地区NF自制剧
-  type: vmess
-  server: cindy.marythunt.xyz
-  network: ws
-  port: 55053
-  uuid: ba3e022a-d6f5-4873-8f06-204a1a5f4f33
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-161.129.45.96:55053-可用-直连-仅支持美国地区NF自制剧
-  type: vmess
-  server: 161.129.45.96
-  network: ws
-  port: 55053
-  uuid: ba3e022a-d6f5-4873-8f06-204a1a5f4f33
   alterId: 4
   cipher: auto
   udp: false
