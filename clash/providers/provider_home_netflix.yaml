@@ -1,32 +1,21 @@
 proxies:
-- name: 🇸🇬:新加坡-vmess-2.vpnfanqiang.com:80-可用-中转:13.229.213.121-仅支持新加坡地区NF自制剧
+- name: 🇷🇴:罗马尼亚-vmess-109.166.39.205:39205-可用-直连-仅支持美国地区NF自制剧
   type: vmess
-  server: 2.vpnfanqiang.com
+  server: 109.166.39.205
   network: ws
-  port: 80
-  uuid: 0b54a38a-584a-421e-9e41-35a95cf3baed
+  port: 39205
+  uuid: 548cfd27-e18f-406b-84f6-74de849e27b8
   alterId: 4
   cipher: auto
   udp: false
-  tls: true
-  ws-path: /fanqiangvpn.com
+  tls: false
+  ws-path: /tiktok
 - name: 🇰🇷:韩国-vmess-152.67.221.228:58742-可用-直连-仅支持韩国地区NF自制剧
   type: vmess
   server: 152.67.221.228
   network: ws
   port: 58742
   uuid: 0d31b385-c478-456b-f665-f1d62a91e54c
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇨🇳:中国-vmess-61.222.202.140:33792-可用-直连-仅支持台湾地区NF自制剧
-  type: vmess
-  server: 61.222.202.140
-  network: ws
-  port: 33792
-  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
   alterId: 4
   cipher: auto
   udp: false
@@ -43,17 +32,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇷🇺:俄罗斯-vmess-45.11.92.100:80-可用-直连-仅支持美国地区NF自制剧
+- name: 🇸🇬:新加坡-vmess-vsg1.0bad.com:443-可用-中转:139.162.60.81-仅支持新加坡地区NF自制剧
   type: vmess
-  server: 45.11.92.100
+  server: vsg1.0bad.com
   network: ws
-  port: 80
-  uuid: e026af69-5e36-4cd5-d40e-347f2955a3f6
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
   alterId: 4
   cipher: auto
   udp: false
-  tls: false
-  ws-path: /
+  tls: true
+  ws-path: /chat
 - name: 🇷🇴:罗马尼亚-vmess-109.166.39.216:39216-可用-直连-仅支持美国地区NF自制剧
   type: vmess
   server: 109.166.39.216
