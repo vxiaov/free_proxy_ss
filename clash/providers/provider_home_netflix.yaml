@@ -1,43 +1,15 @@
 proxies:
-- name: 🇺🇸:美国-ss-51.159.30.61:804-可用-直连-仅支持法国地区NF自制剧
-  type: ss
-  server: 51.159.30.61
-  password: G!yBwPWH3Vao
-  port: 804
-  cipher: chacha20-ietf-poly1305
-- name: 🇷🇴:罗马尼亚-vmess-109.166.39.205:39205-可用-直连-仅支持美国地区NF自制剧
+- name: 🇰🇷:韩国-vmess-152.67.221.228:58742-可用-直连-仅支持韩国地区NF自制剧
   type: vmess
-  server: 109.166.39.205
+  server: 152.67.221.228
   network: ws
-  port: 39205
-  uuid: 548cfd27-e18f-406b-84f6-74de849e27b8
+  port: 58742
+  uuid: 0d31b385-c478-456b-f665-f1d62a91e54c
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /tiktok
-- name: 🇺🇸:美国-vmess-159.223.63.132:15880-可用-直连-仅支持新加坡地区NF自制剧
-  type: vmess
-  server: 159.223.63.132
-  network: ws
-  port: 15880
-  uuid: a662477f-410b-3fa1-ba8b-a67abc8cce8c
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /index
-- name: 🇺🇸:美国-vmess-20.222.136.1:15885-可用-中转:172.104.75.232-仅支持日本地区NF自制剧
-  type: vmess
-  server: 20.222.136.1
-  network: ws
-  port: 15885
-  uuid: e23a5542-8e62-3572-9afb-6640d61d91b1
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /index
+  ws-path: /
 - name: 🇷🇺:俄罗斯-vmess-45.11.92.100:80-可用-直连-仅支持美国地区NF自制剧
   type: vmess
   server: 45.11.92.100
@@ -49,14 +21,3 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇷🇴:罗马尼亚-vmess-109.166.39.216:39216-可用-直连-仅支持美国地区NF自制剧
-  type: vmess
-  server: 109.166.39.216
-  network: ws
-  port: 39216
-  uuid: 5022b474-6ba7-4f66-b7a1-04cc4814d2ed
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /tiktok
