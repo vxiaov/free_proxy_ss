@@ -1,4 +1,48 @@
 proxies:
+- name: 🇸🇬:新加坡-vmess-2.vpnfanqiang.com:80-可用-中转:13.229.213.121-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: 2.vpnfanqiang.com
+  network: ws
+  port: 80
+  uuid: 0b54a38a-584a-421e-9e41-35a95cf3baed
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /fanqiangvpn.com
+- name: 🇰🇷:韩国-vmess-152.67.221.228:58742-可用-直连-仅支持韩国地区NF自制剧
+  type: vmess
+  server: 152.67.221.228
+  network: ws
+  port: 58742
+  uuid: 0d31b385-c478-456b-f665-f1d62a91e54c
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇨🇳:中国-vmess-61.222.202.140:33792-可用-直连-仅支持台湾地区NF自制剧
+  type: vmess
+  server: 61.222.202.140
+  network: ws
+  port: 33792
+  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇰🇷:韩国-vmess-152.67.218.38:443-可用-直连-仅支持韩国地区NF自制剧
+  type: vmess
+  server: 152.67.218.38
+  network: ws
+  port: 443
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇷🇺:俄罗斯-vmess-45.11.92.100:80-可用-直连-仅支持美国地区NF自制剧
   type: vmess
   server: 45.11.92.100
@@ -10,25 +54,14 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇺🇸:美国-vmess-cindy.marythunt.xyz:55053-可用-中转:161.129.45.96-仅支持美国地区NF自制剧
+- name: 🇷🇴:罗马尼亚-vmess-109.166.39.216:39216-可用-直连-仅支持美国地区NF自制剧
   type: vmess
-  server: cindy.marythunt.xyz
+  server: 109.166.39.216
   network: ws
-  port: 55053
-  uuid: ba3e022a-d6f5-4873-8f06-204a1a5f4f33
+  port: 39216
+  uuid: 5022b474-6ba7-4f66-b7a1-04cc4814d2ed
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-161.129.45.96:55053-可用-直连-仅支持美国地区NF自制剧
-  type: vmess
-  server: 161.129.45.96
-  network: ws
-  port: 55053
-  uuid: ba3e022a-d6f5-4873-8f06-204a1a5f4f33
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
+  ws-path: /tiktok
