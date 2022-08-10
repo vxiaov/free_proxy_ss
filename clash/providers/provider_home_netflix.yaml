@@ -1,26 +1,4 @@
 proxies:
-- name: 🇨🇳:中国-vmess-20.187.64.186:12155-可用-直连-仅支持香港地区NF自制剧
-  type: vmess
-  server: 20.187.64.186
-  network: ws
-  port: 12155
-  uuid: b39f53aa-a9cb-4b71-8a3e-1de55e760fdf
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-hk05.swty.buzz:12155-可用-中转:20.205.10.190-仅支持香港地区NF自制剧
-  type: vmess
-  server: hk05.swty.buzz
-  network: ws
-  port: 12155
-  uuid: b39f53aa-a9cb-4b71-8a3e-1de55e760fdf
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
 - name: 🇷🇴:罗马尼亚-vmess-109.166.39.205:39205-可用-直连-仅支持美国地区NF自制剧
   type: vmess
   server: 109.166.39.205
@@ -32,6 +10,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /tiktok
+- name: 🇯🇵:日本-vmess-132.145.112.128:10562-可用-直连-仅支持日本地区NF自制剧
+  type: vmess
+  server: 132.145.112.128
+  network: ws
+  port: 10562
+  uuid: 02140cf3-8470-4b3d-e4a8-8d40fc2f7867
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇰🇷:韩国-vmess-152.67.221.228:58742-可用-直连-仅支持韩国地区NF自制剧
   type: vmess
   server: 152.67.221.228
@@ -43,45 +32,23 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇺🇸:美国-vmess-20.205.10.190:12155-可用-直连-仅支持香港地区NF自制剧
+- name: 🇺🇸:美国-vmess-v2ray.wefuckgfw.ga:2096-可用-中转:45.90.58.175-仅支持瑞士地区NF自制剧
   type: vmess
-  server: 20.205.10.190
+  server: v2ray.wefuckgfw.ga
   network: ws
-  port: 12155
-  uuid: b39f53aa-a9cb-4b71-8a3e-1de55e760fdf
+  port: 2096
+  uuid: f9d1d64f-7e04-4094-8742-d63d1851db9d
   alterId: 4
   cipher: auto
   udp: false
-  tls: false
-  ws-path: /
-- name: 🇨🇳:中国-vmess-hk06.swty.buzz:12155-可用-中转:20.187.64.186-仅支持香港地区NF自制剧
-  type: vmess
-  server: hk06.swty.buzz
-  network: ws
-  port: 12155
-  uuid: b39f53aa-a9cb-4b71-8a3e-1de55e760fdf
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
+  tls: true
+  ws-path: /H8VswtUJ/
 - name: 🇰🇷:韩国-vmess-45.43.41.222:27121-可用-直连-仅支持韩国地区NF自制剧
   type: vmess
   server: 45.43.41.222
   network: ws
   port: 27121
   uuid: b37d0e60-9d05-46fd-96dd-b27732af89d2
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇰🇷:韩国-vmess-45.43.41.222:54541-可用-直连-仅支持韩国地区NF自制剧
-  type: vmess
-  server: 45.43.41.222
-  network: ws
-  port: 54541
-  uuid: b7a8130f-92e6-4d4f-d0ac-336c164fed48
   alterId: 4
   cipher: auto
   udp: false
