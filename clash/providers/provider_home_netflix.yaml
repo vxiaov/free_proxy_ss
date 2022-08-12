@@ -1,10 +1,28 @@
 proxies:
+- name: 🇨🇳:中国-ss-120.241.236.140:35380-可用-中转:172.105.232.161-仅支持日本地区NF自制剧
+  type: ss
+  server: 120.241.236.140
+  password: 29426116-ddb9-439d-9fac-462600a2c434
+  port: 35380
+  cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-120.241.236.140:53091-可用-中转:172.105.117.232-仅支持新加坡地区NF自制剧
+  type: ss
+  server: 120.241.236.140
+  password: 29426116-ddb9-439d-9fac-462600a2c434
+  port: 53091
+  cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-120.241.236.140:29123-可用-中转:139.144.27.42-仅支持美国地区NF自制剧
   type: ss
   server: 120.241.236.140
   password: 29426116-ddb9-439d-9fac-462600a2c434
   port: 29123
   cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-120.233.151.171:8010-可用-中转:58.176.122.123-仅支持香港地区NF自制剧
+  type: ss
+  server: 120.233.151.171
+  password: 599bf7cd-cd43-4c1d-b6c6-1c732bece35d
+  port: 8010
+  cipher: aes-128-gcm
 - name: 🇨🇳:中国-ss-120.241.236.140:22284-可用-中转:172.105.117.171-仅支持新加坡地区NF自制剧
   type: ss
   server: 120.241.236.140
@@ -44,6 +62,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇰🇷:韩国-vmess-152.67.221.228:58742-可用-直连-仅支持韩国地区NF自制剧
+  type: vmess
+  server: 152.67.221.228
+  network: ws
+  port: 58742
+  uuid: 0d31b385-c478-456b-f665-f1d62a91e54c
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇺🇸:美国-vmess-52.53.215.47:1256-可用-直连-仅支持美国地区NF自制剧
   type: vmess
   server: 52.53.215.47
@@ -55,6 +84,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇸🇬:新加坡-vmess-206.189.82.132:15885-可用-直连-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: 206.189.82.132
+  network: ws
+  port: 15885
+  uuid: a662477f-410b-3fa1-ba8b-a67abc8cce8c
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /index
 - name: 🇰🇷:韩国-vmess-45.43.41.222:27121-可用-直连-仅支持韩国地区NF自制剧
   type: vmess
   server: 45.43.41.222
@@ -132,3 +172,14 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇯🇵:日本-vmess-139.162.99.16:20944-可用-直连-仅支持日本地区NF自制剧
+  type: vmess
+  server: 139.162.99.16
+  network: ws
+  port: 20944
+  uuid: ff4711fd-3c73-4afa-a5f3-3b055e7c6a37
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /images
