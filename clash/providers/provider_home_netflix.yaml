@@ -1,9 +1,27 @@
 proxies:
+- name: 🇨🇳:中国-ss-120.241.236.140:22284-可用-中转:172.105.117.171-仅支持新加坡地区NF自制剧
+  type: ss
+  server: 120.241.236.140
+  password: 29426116-ddb9-439d-9fac-462600a2c434
+  port: 22284
+  cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-120.241.236.140:29123-可用-中转:139.144.27.42-仅支持美国地区NF自制剧
   type: ss
   server: 120.241.236.140
   password: 29426116-ddb9-439d-9fac-462600a2c434
   port: 29123
+  cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-120.241.236.140:45010-可用-中转:172.104.95.29-仅支持日本地区NF自制剧
+  type: ss
+  server: 120.241.236.140
+  password: 29426116-ddb9-439d-9fac-462600a2c434
+  port: 45010
+  cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-120.241.236.140:53091-可用-中转:172.105.117.232-仅支持新加坡地区NF自制剧
+  type: ss
+  server: 120.241.236.140
+  password: 29426116-ddb9-439d-9fac-462600a2c434
+  port: 53091
   cipher: aes-256-gcm
 - name: 🇨🇳:中国-vmess-20.187.64.186:12155-可用-直连-仅支持香港地区NF自制剧
   type: vmess
@@ -27,12 +45,23 @@ proxies:
   udp: false
   tls: false
   ws-path: /tiktok
-- name: 🇯🇵:日本-vmess-132.145.112.128:10562-可用-直连-仅支持日本地区NF自制剧
+- name: 🇺🇸:美国-vmess-52.53.215.47:1256-可用-直连-仅支持美国地区NF自制剧
   type: vmess
-  server: 132.145.112.128
+  server: 52.53.215.47
   network: ws
-  port: 10562
-  uuid: 02140cf3-8470-4b3d-e4a8-8d40fc2f7867
+  port: 1256
+  uuid: 739c597d-2de2-4306-bdb7-1a0901750d4f
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇰🇷:韩国-vmess-45.43.41.222:27121-可用-直连-仅支持韩国地区NF自制剧
+  type: vmess
+  server: 45.43.41.222
+  network: ws
+  port: 27121
+  uuid: b37d0e60-9d05-46fd-96dd-b27732af89d2
   alterId: 4
   cipher: auto
   udp: false
@@ -49,6 +78,28 @@ proxies:
   udp: false
   tls: false
   ws-path: /index
+- name: 🇺🇸:美国-vmess-192.131.142.22:80-可用-直连-仅支持香港地区NF自制剧
+  type: vmess
+  server: 192.131.142.22
+  network: ws
+  port: 80
+  uuid: bea6f36a-4e9e-4684-892b-b42c561da544
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇷🇺:俄罗斯-vmess-45.11.92.100:80-可用-直连-仅支持美国地区NF自制剧
+  type: vmess
+  server: 45.11.92.100
+  network: ws
+  port: 80
+  uuid: e026af69-5e36-4cd5-d40e-347f2955a3f6
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇷🇴:罗马尼亚-vmess-109.166.39.216:39216-可用-直连-仅支持美国地区NF自制剧
   type: vmess
   server: 109.166.39.216
