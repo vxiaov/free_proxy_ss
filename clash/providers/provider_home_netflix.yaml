@@ -11,23 +11,11 @@ proxies:
   password: 29426116-ddb9-439d-9fac-462600a2c434
   port: 29123
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-120.241.236.140:53091-可用-中转:172.105.117.232-仅支持新加坡地区NF自制剧
-  type: ss
-  server: 120.241.236.140
-  password: 29426116-ddb9-439d-9fac-462600a2c434
-  port: 53091
-  cipher: aes-256-gcm
 - name: 🇩🇪:德国-ss-49.12.203.80:40960-可用-直连-仅支持德国地区NF自制剧
   type: ss
   server: 49.12.203.80
   password: 6kA7b3f9Aw2508erQ3W7D4
   port: 40960
-  cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-120.241.236.140:23236-可用-中转:172.104.163.17-仅支持新加坡地区NF自制剧
-  type: ss
-  server: 120.241.236.140
-  password: 29426116-ddb9-439d-9fac-462600a2c434
-  port: 23236
   cipher: aes-256-gcm
 - name: 🇨🇳:中国-vmess-20.187.64.186:12155-可用-直连-仅支持香港地区NF自制剧
   type: vmess
@@ -40,58 +28,25 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇯🇵:日本-vmess-132.145.112.128:10562-可用-直连-仅支持日本地区NF自制剧
+- name: 🇷🇴:罗马尼亚-vmess-109.166.39.205:39205-可用-直连-仅支持美国地区NF自制剧
   type: vmess
-  server: 132.145.112.128
+  server: 109.166.39.205
   network: ws
-  port: 10562
-  uuid: 02140cf3-8470-4b3d-e4a8-8d40fc2f7867
+  port: 39205
+  uuid: 548cfd27-e18f-406b-84f6-74de849e27b8
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /tiktok
+- name: 🇰🇷:韩国-vmess-152.67.221.228:58742-可用-直连-仅支持韩国地区NF自制剧
+  type: vmess
+  server: 152.67.221.228
+  network: ws
+  port: 58742
+  uuid: 0d31b385-c478-456b-f665-f1d62a91e54c
   alterId: 4
   cipher: auto
   udp: false
   tls: false
   ws-path: /
-- name: 🇰🇷:韩国-vmess-45.43.41.222:27121-可用-直连-仅支持韩国地区NF自制剧
-  type: vmess
-  server: 45.43.41.222
-  network: ws
-  port: 27121
-  uuid: b37d0e60-9d05-46fd-96dd-b27732af89d2
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇰🇷:韩国-vmess-152.67.218.38:443-可用-直连-仅支持韩国地区NF自制剧
-  type: vmess
-  server: 152.67.218.38
-  network: ws
-  port: 443
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇷🇺:俄罗斯-vmess-45.11.92.100:80-可用-直连-仅支持美国地区NF自制剧
-  type: vmess
-  server: 45.11.92.100
-  network: ws
-  port: 80
-  uuid: e026af69-5e36-4cd5-d40e-347f2955a3f6
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇯🇵:日本-vmess-139.162.99.16:20944-可用-直连-仅支持日本地区NF自制剧
-  type: vmess
-  server: 139.162.99.16
-  network: ws
-  port: 20944
-  uuid: ff4711fd-3c73-4afa-a5f3-3b055e7c6a37
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /images
