@@ -1,4 +1,21 @@
 proxies:
+- name: 🇨🇳:中国-ss-120.233.151.171:8010-可用-中转:58.176.122.123-仅支持香港地区NF自制剧
+  type: ss
+  server: 120.233.151.171
+  password: 599bf7cd-cd43-4c1d-b6c6-1c732bece35d
+  port: 8010
+  cipher: aes-128-gcm
+- name: 🇯🇵:日本-vmess-172.104.75.232:15880-可用-直连-仅支持日本地区NF自制剧
+  type: vmess
+  server: 172.104.75.232
+  network: ws
+  port: 15880
+  uuid: a662477f-410b-3fa1-ba8b-a67abc8cce8c
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /index
 - name: 🇷🇴:罗马尼亚-vmess-109.166.39.205:39205-可用-直连-仅支持美国地区NF自制剧
   type: vmess
   server: 109.166.39.205
@@ -32,12 +49,34 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇰🇷:韩国-vmess-45.43.41.222:27121-可用-直连-仅支持韩国地区NF自制剧
+  type: vmess
+  server: 45.43.41.222
+  network: ws
+  port: 27121
+  uuid: b37d0e60-9d05-46fd-96dd-b27732af89d2
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇷🇺:俄罗斯-vmess-45.11.92.100:80-可用-直连-仅支持美国地区NF自制剧
   type: vmess
   server: 45.11.92.100
   network: ws
   port: 80
   uuid: e026af69-5e36-4cd5-d40e-347f2955a3f6
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇰🇷:韩国-vmess-45.43.41.222:54541-可用-直连-仅支持韩国地区NF自制剧
+  type: vmess
+  server: 45.43.41.222
+  network: ws
+  port: 54541
+  uuid: b7a8130f-92e6-4d4f-d0ac-336c164fed48
   alterId: 4
   cipher: auto
   udp: false
