@@ -161,12 +161,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 803
   cipher: chacha20-ietf-poly1305
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9024-被墙-直连-解锁瑞士地区NF非自制剧
-  type: ss
-  server: 185.126.116.119
-  password: BejrQvtu9sqUeNuZ
-  port: 9024
-  cipher: aes-256-cfb
 - name: 🇮🇱:以色列-ss-185.162.125.91:50004-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
   server: 185.162.125.91
@@ -191,26 +185,37 @@ proxies:
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9093-被墙-直连-解锁瑞士地区NF非自制剧
+- name: 🇯🇵:日本-ss-185.172.113.101:800-被墙-中转:185.172.113.100-解锁日本地区NF非自制剧
   type: ss
-  server: 185.126.116.119
-  password: wfLC2y7rzZyCmuyt
-  port: 9093
-  cipher: aes-256-cfb
+  server: 185.172.113.101
+  password: G!yBwPWH3Vao
+  port: 800
+  cipher: chacha20-ietf-poly1305
 - name: 🇮🇱:以色列-ss-31.133.100.49:50004-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
   server: 31.133.100.49
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-vmess-138.2.122.102:25896-可用-直连-解锁韩国地区NF非自制剧
+- name: 🇯🇵:日本-vmess-146.56.118.227:2052-可用-直连-解锁韩国地区NF非自制剧
   type: vmess
-  server: 138.2.122.102
+  server: 146.56.118.227
   network: ws
-  port: 25896
-  uuid: 1f5db39f-9421-4835-8819-fb99d4eac4ea
+  port: 2052
+  uuid: 448a9087-28f3-4fe4-fa49-36c912e0f498
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /
+  ws-path: /update
+- name: 🇺🇸:美国-vmess-150.230.197.142:2052-可用-直连-解锁日本地区NF非自制剧
+  type: vmess
+  server: 150.230.197.142
+  network: ws
+  port: 2052
+  uuid: c77e9b35-0fdc-4b8b-fe91-e9be523586dd
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /A
