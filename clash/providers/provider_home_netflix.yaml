@@ -1,21 +1,4 @@
 proxies:
-- name: 🇩🇪:德国-ss-49.12.203.80:40960-可用-直连-仅支持德国地区NF自制剧
-  type: ss
-  server: 49.12.203.80
-  password: 6kA7b3f9Aw2508erQ3W7D4
-  port: 40960
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-vmess-20.210.208.95:80-可用-直连-仅支持日本地区NF自制剧
-  type: vmess
-  server: 20.210.208.95
-  network: ws
-  port: 80
-  uuid: c2212831-2be1-4927-bec6-d7cf242b81a5
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
 - name: 🇷🇴:罗马尼亚-vmess-109.166.39.205:39205-可用-直连-仅支持美国地区NF自制剧
   type: vmess
   server: 109.166.39.205
@@ -27,17 +10,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /tiktok
-- name: 🇺🇸:美国-vmess-13.213.77.103:80-可用-直连-仅支持新加坡地区NF自制剧
+- name: 🇺🇸:美国-vmess-159.223.63.132:15880-可用-直连-仅支持新加坡地区NF自制剧
   type: vmess
-  server: 13.213.77.103
+  server: 159.223.63.132
   network: ws
-  port: 80
-  uuid: d228edcd-c9b0-4942-b42a-de6c6180ae67
+  port: 15880
+  uuid: a662477f-410b-3fa1-ba8b-a67abc8cce8c
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /lime
+  ws-path: /index
 - name: 🇨🇳:中国-vmess-120.233.150.146:65095-可用-中转:159.223.213.61-仅支持荷兰地区NF自制剧
   type: vmess
   server: 120.233.150.146
@@ -49,28 +32,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
-- name: 🇰🇷:韩国-vmess-152.67.218.38:443-可用-直连-仅支持韩国地区NF自制剧
-  type: vmess
-  server: 152.67.218.38
-  network: ws
-  port: 443
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇷🇺:俄罗斯-vmess-45.11.92.100:80-可用-直连-仅支持美国地区NF自制剧
-  type: vmess
-  server: 45.11.92.100
-  network: ws
-  port: 80
-  uuid: e026af69-5e36-4cd5-d40e-347f2955a3f6
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
 - name: 🇨🇳:中国-vmess-120.233.150.146:65076-可用-中转:185.198.166.111-仅支持荷兰地区NF自制剧
   type: vmess
   server: 120.233.150.146
@@ -88,6 +49,17 @@ proxies:
   network: ws
   port: 80
   uuid: c2212831-2be1-4927-bec6-d7cf242b81a5
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇰🇷:韩国-vmess-45.43.41.222:54541-可用-直连-仅支持韩国地区NF自制剧
+  type: vmess
+  server: 45.43.41.222
+  network: ws
+  port: 54541
+  uuid: b7a8130f-92e6-4d4f-d0ac-336c164fed48
   alterId: 4
   cipher: auto
   udp: false
