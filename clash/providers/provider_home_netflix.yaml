@@ -1,15 +1,15 @@
 proxies:
-- name: 🇷🇴:罗马尼亚-vmess-109.166.39.205:39205-可用-直连-仅支持美国地区NF自制剧
+- name: 🇨🇳:中国-vmess-47.243.134.69:21860-可用-直连-仅支持香港地区NF自制剧
   type: vmess
-  server: 109.166.39.205
+  server: 47.243.134.69
   network: ws
-  port: 39205
-  uuid: 548cfd27-e18f-406b-84f6-74de849e27b8
+  port: 21860
+  uuid: f27a89ff-2b5e-4be1-c29c-08b05f56cea9
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /tiktok
+  ws-path: /
 - name: 🇨🇳:中国-vmess-120.233.150.146:65095-可用-中转:159.223.213.61-仅支持荷兰地区NF自制剧
   type: vmess
   server: 120.233.150.146
@@ -32,6 +32,28 @@ proxies:
   udp: false
   tls: false
   ws-path: /23564
+- name: 🇰🇷:韩国-vmess-45.43.41.222:27121-可用-直连-仅支持韩国地区NF自制剧
+  type: vmess
+  server: 45.43.41.222
+  network: ws
+  port: 27121
+  uuid: b37d0e60-9d05-46fd-96dd-b27732af89d2
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇷🇺:俄罗斯-vmess-45.11.92.100:80-可用-直连-仅支持美国地区NF自制剧
+  type: vmess
+  server: 45.11.92.100
+  network: ws
+  port: 80
+  uuid: e026af69-5e36-4cd5-d40e-347f2955a3f6
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇨🇳:中国-vmess-120.233.150.146:65076-可用-中转:185.198.166.111-仅支持荷兰地区NF自制剧
   type: vmess
   server: 120.233.150.146
@@ -43,14 +65,25 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
-- name: 🇷🇴:罗马尼亚-vmess-109.166.39.216:39216-可用-直连-仅支持美国地区NF自制剧
+- name: 🇱🇺:卢森堡-vmess-lsb.jcnf.app:443-可用-中转:104.244.79.7-仅支持卢森堡地区NF自制剧
   type: vmess
-  server: 109.166.39.216
+  server: lsb.jcnf.app
   network: ws
-  port: 39216
-  uuid: 5022b474-6ba7-4f66-b7a1-04cc4814d2ed
+  port: 443
+  uuid: c753e8a8-e180-4e76-a486-c917273d718b
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /zcjd
+- name: 🇰🇷:韩国-vmess-45.43.41.222:54541-可用-直连-仅支持韩国地区NF自制剧
+  type: vmess
+  server: 45.43.41.222
+  network: ws
+  port: 54541
+  uuid: b7a8130f-92e6-4d4f-d0ac-336c164fed48
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /tiktok
+  ws-path: /
