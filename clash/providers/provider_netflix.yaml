@@ -83,6 +83,12 @@ proxies:
   password: G!yBwPWH3Vao
   port: 803
   cipher: chacha20-ietf-poly1305
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9024-被墙-直连-解锁瑞士地区NF非自制剧
+  type: ss
+  server: 185.126.116.119
+  password: BejrQvtu9sqUeNuZ
+  port: 9024
+  cipher: aes-256-cfb
 - name: 🇮🇱:以色列-ss-185.162.125.91:50004-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
   server: 185.162.125.91
@@ -95,11 +101,17 @@ proxies:
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9093-被墙-直连-解锁瑞士地区NF非自制剧
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9019-被墙-直连-解锁瑞士地区NF非自制剧
   type: ss
   server: 185.126.116.119
-  password: wfLC2y7rzZyCmuyt
-  port: 9093
+  password: GA9KzeEgvfxNrgmM
+  port: 9019
+  cipher: aes-256-cfb
+- name: 🇨🇾:塞浦路斯-ss-213.169.137.221:989-被墙-直连-解锁塞浦路斯地区NF非自制剧
+  type: ss
+  server: 213.169.137.221
+  password: f8f7aCzcPKbsF8p3
+  port: 989
   cipher: aes-256-cfb
 - name: 🇮🇱:以色列-ss-31.133.100.49:50004-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
@@ -107,24 +119,3 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-ssr-us-am32-5.eqnode.net:8081-被墙-中转:34.220.46.40-解锁美国地区NF非自制剧
-  type: ssr
-  server: us-am32-5.eqnode.net
-  password: YFVrXZgRo
-  obfs: tls1.2_ticket_auth
-  protocol: origin
-  port: 8081
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
-- name: 🇯🇵:日本-vmess-146.56.118.227:2052-可用-直连-解锁韩国地区NF非自制剧
-  type: vmess
-  server: 146.56.118.227
-  network: ws
-  port: 2052
-  uuid: 448a9087-28f3-4fe4-fa49-36c912e0f498
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /update
