@@ -47,6 +47,12 @@ proxies:
   password: instgram.com/openvpnssh
   port: 44
   cipher: aes-256-cfb
+- name: 🇷🇺:俄罗斯-ss-213.183.53.198:9059-可用-直连-完全不支持NF
+  type: ss
+  server: 213.183.53.198
+  password: 9XwYyZsK8SNzQDtY
+  port: 9059
+  cipher: aes-256-cfb
 - name: 🇷🇺:俄罗斯-ss-185.4.65.6:21247-可用-中转:37.252.1.212-不支持Netflix
   type: ss
   server: 185.4.65.6
@@ -65,18 +71,18 @@ proxies:
   password: 7d99ae502227454ea998d71e4b62a388
   port: 23335
   cipher: aes-256-cfb
+- name: 🇺🇸:美国-ss-95.169.4.174:254-可用-直连-不支持Netflix
+  type: ss
+  server: 95.169.4.174
+  password: bwhskrskr06
+  port: 254
+  cipher: aes-256-cfb
 - name: 🇨🇦:加拿大-ss-138.197.166.205:811-可用-直连-不支持Netflix
   type: ss
   server: 138.197.166.205
   password: Ultr@r00t_2017
   port: 811
   cipher: chacha20-ietf-poly1305
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9043-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.119
-  password: HSZuyJQcWe8dxNdF
-  port: 9043
-  cipher: aes-256-cfb
 - name: 🇨🇳:中国-vmess-120.233.29.189:65039-可用-中转:103.148.72.43-不支持Netflix
   type: vmess
   server: 120.233.29.189
@@ -99,17 +105,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇨🇳:中国-vmess-120.233.150.146:65096-可用-中转:63.250.63.187-不支持Netflix
-  type: vmess
-  server: 120.233.150.146
-  network: ws
-  port: 65096
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /rocket
 - name: 🇨🇳:中国-vmess-120.233.150.146:65068-可用-中转:103.152.98.235-不支持Netflix
   type: vmess
   server: 120.233.150.146
@@ -275,6 +270,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
+- name: 🇨🇳:中国-vmess-120.233.150.146:65089-可用-中转:50.7.115.28-不支持Netflix
+  type: vmess
+  server: 120.233.150.146
+  network: ws
+  port: 65089
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /rocket
 - name: 🇨🇳:中国-vmess-111.45.22.151:65028-可用-中转:103.181.164.26-不支持Netflix
   type: vmess
   server: 111.45.22.151
@@ -319,17 +325,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇨🇳:中国-vmess-best03.downloadmovie.cn:65096-可用-中转:63.250.63.187-不支持Netflix
-  type: vmess
-  server: best03.downloadmovie.cn
-  network: ws
-  port: 65096
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /rocket
 - name: 🇨🇳:中国-vmess-best01.downloadmovie.cn:65095-可用-中转:159.223.213.61-仅支持荷兰地区NF自制剧
   type: vmess
   server: best01.downloadmovie.cn
