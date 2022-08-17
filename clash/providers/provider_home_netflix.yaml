@@ -5,18 +5,6 @@ proxies:
   password: NvS8N4Vf8qAGPSCL
   port: 9046
   cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9040-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.119
-  password: p9z5BVADH2YFs3MN
-  port: 9040
-  cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9043-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.119
-  password: HSZuyJQcWe8dxNdF
-  port: 9043
-  cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-vmess-109.166.39.205:39205-可用-直连-仅支持美国地区NF自制剧
   type: vmess
   server: 109.166.39.205
@@ -39,6 +27,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
+- name: 🇰🇷:韩国-vmess-152.67.218.38:443-可用-直连-仅支持韩国地区NF自制剧
+  type: vmess
+  server: 152.67.218.38
+  network: ws
+  port: 443
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇷🇺:俄罗斯-vmess-45.11.92.100:80-可用-直连-仅支持美国地区NF自制剧
   type: vmess
   server: 45.11.92.100
@@ -61,17 +60,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
-- name: 🇸🇬:新加坡-vmess-206.189.82.132:15880-可用-直连-仅支持新加坡地区NF自制剧
-  type: vmess
-  server: 206.189.82.132
-  network: ws
-  port: 15880
-  uuid: a662477f-410b-3fa1-ba8b-a67abc8cce8c
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /index
 - name: 🇷🇴:罗马尼亚-vmess-109.166.39.216:39216-可用-直连-仅支持美国地区NF自制剧
   type: vmess
   server: 109.166.39.216
