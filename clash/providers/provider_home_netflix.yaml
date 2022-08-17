@@ -1,9 +1,15 @@
 proxies:
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9059-可用-直连-仅支持瑞士地区NF自制剧
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9058-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
   server: 185.126.116.119
-  password: 9XwYyZsK8SNzQDtY
-  port: 9059
+  password: dML2sfhbVwvtfNPe
+  port: 9058
+  cipher: aes-256-cfb
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9024-可用-直连-仅支持瑞士地区NF自制剧
+  type: ss
+  server: 185.126.116.119
+  password: BejrQvtu9sqUeNuZ
+  port: 9024
   cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-vmess-109.166.39.205:39205-可用-直连-仅支持美国地区NF自制剧
   type: vmess
@@ -38,12 +44,12 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
-- name: 🇰🇷:韩国-vmess-152.67.218.38:443-可用-直连-仅支持韩国地区NF自制剧
+- name: 🇷🇺:俄罗斯-vmess-45.11.92.100:80-可用-直连-仅支持美国地区NF自制剧
   type: vmess
-  server: 152.67.218.38
+  server: 45.11.92.100
   network: ws
-  port: 443
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  port: 80
+  uuid: e026af69-5e36-4cd5-d40e-347f2955a3f6
   alterId: 4
   cipher: auto
   udp: false
@@ -54,6 +60,17 @@ proxies:
   server: 120.233.150.146
   network: ws
   port: 65076
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /rocket
+- name: 🇨🇳:中国-vmess-best01.downloadmovie.cn:65095-可用-中转:159.223.213.61-仅支持荷兰地区NF自制剧
+  type: vmess
+  server: best01.downloadmovie.cn
+  network: ws
+  port: 65095
   uuid: 0253b574-8020-3186-a647-0267295ac9bb
   alterId: 4
   cipher: auto
