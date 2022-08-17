@@ -1,9 +1,9 @@
 proxies:
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9094-可用-直连-仅支持瑞士地区NF自制剧
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9024-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
   server: 185.126.116.119
-  password: rpgbNnU9rDDU4aWZ
-  port: 9094
+  password: BejrQvtu9sqUeNuZ
+  port: 9024
   cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9014-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
@@ -11,6 +11,17 @@ proxies:
   password: KnJGad3FqTvjqbaX
   port: 9014
   cipher: aes-256-cfb
+- name: 🇺🇸:美国-vmess-129.150.46.8:36277-可用-直连-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: 129.150.46.8
+  network: ws
+  port: 36277
+  uuid: f3d972b0-aa7f-499d-85cd-c0c26f9cc15f
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇰🇷:韩国-vmess-152.67.221.228:58742-可用-直连-仅支持韩国地区NF自制剧
   type: vmess
   server: 152.67.221.228
@@ -22,6 +33,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇺🇸:美国-vmess-64.64.229.34:10000-可用-直连-仅支持美国地区NF自制剧
+  type: vmess
+  server: 64.64.229.34
+  network: ws
+  port: 10000
+  uuid: 289e85e9-2272-46fb-85a2-6eee04005afa
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /289e85e9-2272-46fb-85a2-6eee04005afa
 - name: 🇨🇳:中国-vmess-120.233.150.146:65095-可用-中转:159.223.213.61-仅支持荷兰地区NF自制剧
   type: vmess
   server: 120.233.150.146
