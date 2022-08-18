@@ -1,10 +1,4 @@
 proxies:
-- name: 🇨🇦:加拿大-ss-138.197.166.205:811-可用-直连-不支持Netflix
-  type: ss
-  server: 138.197.166.205
-  password: Ultr@r00t_2017
-  port: 811
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-38.143.66.20:9102-可用-直连-不支持Netflix
   type: ss
   server: 38.143.66.20
@@ -23,12 +17,6 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 5000
   cipher: aes-256-gcm
-- name: 🇬🇧:英国-ss-178.62.16.161:811-可用-直连-不支持Netflix
-  type: ss
-  server: 178.62.16.161
-  password: Ultr@r00t_2017
-  port: 811
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-38.143.66.20:5500-可用-直连-不支持Netflix
   type: ss
   server: 38.143.66.20
@@ -77,36 +65,42 @@ proxies:
   password: )1N1E6v0SU_rGTpg
   port: 1035
   cipher: chacha20-ietf-poly1305
+- name: 🇷🇺:俄罗斯-ss-213.183.53.198:9059-可用-直连-完全不支持NF
+  type: ss
+  server: 213.183.53.198
+  password: 9XwYyZsK8SNzQDtY
+  port: 9059
+  cipher: aes-256-cfb
 - name: 🇷🇺:俄罗斯-ss-185.4.65.6:21247-可用-中转:37.252.1.212-不支持Netflix
   type: ss
   server: 185.4.65.6
   password: vDS9G2p
   port: 21247
   cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9019-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.119
-  password: GA9KzeEgvfxNrgmM
-  port: 9019
-  cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-213.183.53.198:9097-可用-直连-完全不支持NF
+- name: 🇷🇺:俄罗斯-ss-213.183.53.198:9010-可用-直连-完全不支持NF
   type: ss
   server: 213.183.53.198
-  password: Sn5B7jTqr76aCJT8
-  port: 9097
+  password: f63gg8EruDnUrmz4
+  port: 9010
   cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-213.183.53.198:9018-可用-直连-完全不支持NF
-  type: ss
-  server: 213.183.53.198
-  password: fG2artUmHfNT2cX7
-  port: 9018
-  cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11010-可用-中转:129.227.144.194-不支持Netflix
+- name: 🇨🇳:中国-ss-14.29.124.174:11033-可用-中转:129.227.144.195-不支持Netflix
   type: ss
   server: 14.29.124.174
   password: QazEdcTgb159@$*
-  port: 11010
+  port: 11033
   cipher: aes-128-cfb
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9040-可用-直连-仅支持瑞士地区NF自制剧
+  type: ss
+  server: 185.126.116.119
+  password: p9z5BVADH2YFs3MN
+  port: 9040
+  cipher: aes-256-cfb
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9026-可用-直连-仅支持瑞士地区NF自制剧
+  type: ss
+  server: 185.126.116.119
+  password: QWDDvVE9npNurQfA
+  port: 9026
+  cipher: aes-256-cfb
 - name: 🇩🇪:德国-ss-51.38.112.84:44-可用-直连-不支持Netflix
   type: ss
   server: 51.38.112.84
@@ -119,13 +113,7 @@ proxies:
   password: 7d99ae502227454ea998d71e4b62a388
   port: 23335
   cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-213.183.53.198:9032-可用-直连-完全不支持NF
-  type: ss
-  server: 213.183.53.198
-  password: UWZQeLRWnkqgkseq
-  port: 9032
-  cipher: aes-256-cfb
-- name: 🇨🇳:中国-vmess-120.233.29.189:65036-可用-中转:36.232.251.37-不支持Netflix
+- name: 🇨🇳:中国-vmess-120.233.29.189:65036-可用-中转:211.22.180.9-不支持Netflix
   type: vmess
   server: 120.233.29.189
   network: ws
@@ -158,44 +146,11 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇨🇳:中国-vmess-111.45.22.152:65028-可用-中转:103.181.164.26-不支持Netflix
-  type: vmess
-  server: 111.45.22.152
-  network: ws
-  port: 65028
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /rocket
 - name: 🇨🇳:中国-vmess-120.233.150.146:65096-可用-中转:63.250.63.187-不支持Netflix
   type: vmess
   server: 120.233.150.146
   network: ws
   port: 65096
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /rocket
-- name: 🇨🇳:中国-vmess-111.45.22.152:65036-可用-中转:36.232.251.37-不支持Netflix
-  type: vmess
-  server: 111.45.22.152
-  network: ws
-  port: 65036
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /rocket
-- name: 🇨🇳:中国-vmess-120.233.29.189:65025-可用-中转:211.22.180.132-不支持Netflix
-  type: vmess
-  server: 120.233.29.189
-  network: ws
-  port: 65025
   uuid: 0253b574-8020-3186-a647-0267295ac9bb
   alterId: 4
   cipher: auto
@@ -301,6 +256,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
+- name: 🇷🇺:俄罗斯-vmess-195.133.53.192:43688-可用-直连-完全不支持NF
+  type: vmess
+  server: 195.133.53.192
+  network: ws
+  port: 43688
+  uuid: bd1c8b57-0a9e-4e9f-a261-48e90c871e41
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇨🇳:中国-vmess-120.240.55.137:38701-可用-中转:194.233.66.47-不支持Netflix
   type: vmess
   server: 120.240.55.137
@@ -334,7 +300,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
-- name: 🇰🇷:韩国-vmess-45.43.41.222:27121-可用-直连-不支持Netflix
+- name: 🇰🇷:韩国-vmess-45.43.41.222:27121-可用-直连-仅支持韩国地区NF自制剧
   type: vmess
   server: 45.43.41.222
   network: ws
@@ -411,6 +377,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇷🇺:俄罗斯-vmess-195.133.53.192:14369-可用-直连-完全不支持NF
+  type: vmess
+  server: 195.133.53.192
+  network: ws
+  port: 14369
+  uuid: 2331affa-1194-45ae-9457-3746120c4751
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇨🇳:中国-vmess-111.45.22.151:65028-可用-中转:103.181.164.27-不支持Netflix
   type: vmess
   server: 111.45.22.151
@@ -477,9 +454,9 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
-- name: :0-vmess-103.186.149.220:80-可用-直连-不支持Netflix
+- name: :0-vmess-103.186.148.106:80-可用-直连-不支持Netflix
   type: vmess
-  server: 103.186.149.220
+  server: 103.186.148.106
   network: ws
   port: 80
   uuid: a479fc02-07c5-4864-8564-c4f147dfa488
@@ -554,7 +531,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇨🇳:中国-vmess-111.45.22.151:65025-可用-中转:211.22.180.9-不支持Netflix
+- name: 🇨🇳:中国-vmess-111.45.22.151:65025-可用-中转:211.22.180.132-不支持Netflix
   type: vmess
   server: 111.45.22.151
   network: ws
@@ -587,7 +564,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
-- name: 🇨🇳:中国-vmess-111.45.22.152:65025-可用-中转:211.22.180.44-不支持Netflix
+- name: 🇨🇳:中国-vmess-111.45.22.152:65025-可用-中转:36.232.251.37-不支持Netflix
   type: vmess
   server: 111.45.22.152
   network: ws
