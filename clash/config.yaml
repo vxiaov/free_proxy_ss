@@ -35,6 +35,12 @@ dns:
     - 240.0.0.0/4
 # 个人节点
 proxies:
+- name: 🇺🇸:美国-ss-138.68.248.130:811-可用-直连-不支持Netflix
+  type: ss
+  server: 138.68.248.130
+  password: Ultr@r00t_2017
+  port: 811
+  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-45.66.134.176:807-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
   type: ss
   server: 45.66.134.176
@@ -107,6 +113,12 @@ proxies:
   password: Ultr@r00t_2017
   port: 811
   cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-36.137.147.7:32087-可用-中转:59.106.190.42-不支持Netflix
+  type: ss
+  server: 36.137.147.7
+  password: dad0de41-db0c-4287-a4a6-d49d74c3d55e
+  port: 32087
+  cipher: aes-256-gcm
 - name: 🇬🇧:英国-ss-83.229.73.60:50003-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
   server: 83.229.73.60
@@ -125,12 +137,6 @@ proxies:
   password: VP8ZPxQpJtZRCjfZ
   port: 9080
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-172.99.190.149:5001-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 172.99.190.149
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  cipher: aes-256-gcm
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9033-被墙-直连-解锁瑞士地区NF非自制剧
   type: ss
   server: 185.126.116.119
@@ -196,6 +202,39 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇨🇳:中国-vmess-aliyun.sgzx02.downloadmovie.cn:11921-可用-中转:66.90.74.28-不支持Netflix
+  type: vmess
+  server: aliyun.sgzx02.downloadmovie.cn
+  network: ws
+  port: 11921
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /rocket
+- name: 🇨🇳:中国-vmess-cn04.downloadmovie.cn:65025-可用-中转:211.22.180.44-不支持Netflix
+  type: vmess
+  server: cn04.downloadmovie.cn
+  network: ws
+  port: 65025
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /rocket
+- name: 🇨🇳:中国-vmess-aliyun.sgzx01.downloadmovie.cn:11928-可用-中转:196.46.190.179-不支持Netflix
+  type: vmess
+  server: aliyun.sgzx01.downloadmovie.cn
+  network: ws
+  port: 11928
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /rocket
 - name: 🇨🇳:中国-vmess-120.233.151.68:11921-可用-中转:66.90.74.28-不支持Netflix
   type: vmess
   server: 120.233.151.68
@@ -212,6 +251,17 @@ proxies:
   server: 111.45.22.151
   network: ws
   port: 65036
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /rocket
+- name: 🇨🇳:中国-vmess-120.233.151.69:11926-可用-中转:198.16.99.17-不支持Netflix
+  type: vmess
+  server: 120.233.151.69
+  network: ws
+  port: 11926
   uuid: 0253b574-8020-3186-a647-0267295ac9bb
   alterId: 4
   cipher: auto
@@ -240,6 +290,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
+- name: 🇨🇳:中国-vmess-aliyun.sgzx02.downloadmovie.cn:11933-可用-中转:159.223.213.61-仅支持荷兰地区NF自制剧
+  type: vmess
+  server: aliyun.sgzx02.downloadmovie.cn
+  network: ws
+  port: 11933
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /rocket
 - name: 🇨🇳:中国-vmess-120.240.55.137:38701-可用-中转:194.233.66.47-不支持Netflix
   type: vmess
   server: 120.240.55.137
@@ -295,6 +356,28 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇨🇳:中国-vmess-in-us-1.onebox6.org:38401-可用-中转:104.249.174.138-不支持Netflix
+  type: vmess
+  server: in-us-1.onebox6.org
+  network: ws
+  port: 38401
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /hls/cctv5phd.m3u8
+- name: 🇨🇳:中国-vmess-aliyun.sgzx01.downloadmovie.cn:11935-可用-中转:45.239.216.229-不支持Netflix
+  type: vmess
+  server: aliyun.sgzx01.downloadmovie.cn
+  network: ws
+  port: 11935
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /rocket
 - name: 🇨🇳:中国-vmess-120.233.151.66:11910-可用-中转:103.154.242.198-不支持Netflix
   type: vmess
   server: 120.233.151.66
@@ -322,6 +405,17 @@ proxies:
   server: 111.45.22.151
   network: ws
   port: 65028
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /rocket
+- name: 🇨🇳:中国-vmess-aliyun.sgzx01.downloadmovie.cn:11910-可用-中转:103.154.242.198-不支持Netflix
+  type: vmess
+  server: aliyun.sgzx01.downloadmovie.cn
+  network: ws
+  port: 11910
   uuid: 0253b574-8020-3186-a647-0267295ac9bb
   alterId: 4
   cipher: auto
@@ -361,6 +455,28 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
+- name: 🇨🇳:中国-vmess-cn04.downloadmovie.cn:65028-可用-中转:103.181.164.26-不支持Netflix
+  type: vmess
+  server: cn04.downloadmovie.cn
+  network: ws
+  port: 65028
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /rocket
+- name: 🇨🇳:中国-vmess-ingress-i1.onebox6.org:38701-可用-中转:194.233.66.47-不支持Netflix
+  type: vmess
+  server: ingress-i1.onebox6.org
+  network: ws
+  port: 38701
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /hls/cctv5phd.m3u8
 - name: 🇨🇳:中国-vmess-1.15.183.29:38555-可用-直连-完全不支持NF
   type: vmess
   server: 1.15.183.29
@@ -394,6 +510,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇨🇳:中国-vmess-aliyun.sgzx04.downloadmovie.cn:11926-可用-中转:198.16.99.17-不支持Netflix
+  type: vmess
+  server: aliyun.sgzx04.downloadmovie.cn
+  network: ws
+  port: 11926
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /rocket
 
 # 类型选择 简介
 # select : 用于选择代理或代理组, 可以通过 RESTful API 来切换代理，建议在 GUI 中使用
@@ -413,12 +540,24 @@ proxy-groups:
   interval: 300
   proxies:
   - DIRECT
+  - 🇺🇸:美国-ss-138.68.248.130:811-可用-直连-不支持Netflix
   - 🇷🇺:俄罗斯-ss-185.4.65.6:21247-可用-中转:37.252.1.212-不支持Netflix
   - 🇬🇧:英国-ss-178.62.16.161:811-可用-直连-不支持Netflix
+  - 🇨🇳:中国-vmess-ingress-i1.onebox6.org:38701-可用-中转:194.233.66.47-不支持Netflix
+  - 🇨🇳:中国-vmess-in-us-1.onebox6.org:38401-可用-中转:104.249.174.138-不支持Netflix
+  - 🇨🇳:中国-vmess-cn04.downloadmovie.cn:65028-可用-中转:103.181.164.26-不支持Netflix
+  - 🇨🇳:中国-vmess-cn04.downloadmovie.cn:65025-可用-中转:211.22.180.44-不支持Netflix
+  - 🇨🇳:中国-vmess-aliyun.sgzx04.downloadmovie.cn:11926-可用-中转:198.16.99.17-不支持Netflix
+  - 🇨🇳:中国-vmess-aliyun.sgzx02.downloadmovie.cn:11933-可用-中转:159.223.213.61-仅支持荷兰地区NF自制剧
+  - 🇨🇳:中国-vmess-aliyun.sgzx02.downloadmovie.cn:11921-可用-中转:66.90.74.28-不支持Netflix
+  - 🇨🇳:中国-vmess-aliyun.sgzx01.downloadmovie.cn:11935-可用-中转:45.239.216.229-不支持Netflix
+  - 🇨🇳:中国-vmess-aliyun.sgzx01.downloadmovie.cn:11928-可用-中转:196.46.190.179-不支持Netflix
+  - 🇨🇳:中国-vmess-aliyun.sgzx01.downloadmovie.cn:11910-可用-中转:103.154.242.198-不支持Netflix
   - 🇨🇳:中国-vmess-47.93.231.218:53022-可用-直连-完全不支持NF
   - 🇨🇳:中国-vmess-124.223.44.153:80-可用-直连-完全不支持NF
   - 🇨🇳:中国-vmess-120.240.55.137:38701-可用-中转:194.233.66.47-不支持Netflix
   - 🇨🇳:中国-vmess-120.240.55.137:38401-可用-中转:104.249.174.138-不支持Netflix
+  - 🇨🇳:中国-vmess-120.233.151.69:11926-可用-中转:198.16.99.17-不支持Netflix
   - 🇨🇳:中国-vmess-120.233.151.68:11921-可用-中转:66.90.74.28-不支持Netflix
   - 🇨🇳:中国-vmess-120.233.151.67:11933-可用-中转:159.223.213.61-仅支持荷兰地区NF自制剧
   - 🇨🇳:中国-vmess-120.233.151.67:11921-可用-中转:66.90.74.28-不支持Netflix
@@ -434,6 +573,7 @@ proxy-groups:
   - 🇨🇳:中国-vmess-106.12.168.13:13156-可用-直连-完全不支持NF
   - 🇨🇳:中国-vmess-1.15.183.29:38555-可用-直连-完全不支持NF
   - 🇨🇳:中国-vmess-1.14.105.224:666-可用-直连-完全不支持NF
+  - 🇨🇳:中国-ss-36.137.147.7:32087-可用-中转:59.106.190.42-不支持Netflix
   - 🇨🇳:中国-ss-14.29.124.168:25297-可用-直连-不支持Netflix
   - 🇨🇳:中国-ss-14.29.124.168:25284-可用-直连-不支持Netflix
   - 🇨🇳:中国-ss-14.29.124.168:25251-可用-直连-不支持Netflix
@@ -446,7 +586,6 @@ proxy-groups:
   proxies:
   - DIRECT
   - 🇺🇸:美国-ss-51.159.30.61:804-被墙-直连-解锁法国地区NF非自制剧
-  - 🇺🇸:美国-ss-172.99.190.149:5001-被墙-直连-解锁美国地区NF非自制剧
   - 🇷🇴:罗马尼亚-ss-185.126.116.119:9080-被墙-直连-解锁瑞士地区NF非自制剧
   - 🇷🇴:罗马尼亚-ss-185.126.116.119:9040-被墙-直连-解锁瑞士地区NF非自制剧
   - 🇷🇴:罗马尼亚-ss-185.126.116.119:9033-被墙-直连-解锁瑞士地区NF非自制剧
@@ -469,6 +608,7 @@ proxy-groups:
   interval: 300
   proxies:
   - DIRECT
+  - 🇨🇳:中国-vmess-aliyun.sgzx02.downloadmovie.cn:11933-可用-中转:159.223.213.61-仅支持荷兰地区NF自制剧
   - 🇨🇳:中国-vmess-120.233.151.67:11933-可用-中转:159.223.213.61-仅支持荷兰地区NF自制剧
 - name: 解锁Netflix非自制剧
   type: select
