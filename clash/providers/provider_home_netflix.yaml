@@ -21,6 +21,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /index
+- name: 🇰🇷:韩国-vmess-152.67.218.38:443-可用-直连-仅支持韩国地区NF自制剧
+  type: vmess
+  server: 152.67.218.38
+  network: ws
+  port: 443
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇨🇳:中国-vmess-120.233.151.67:11933-可用-中转:159.223.213.61-仅支持荷兰地区NF自制剧
   type: vmess
   server: 120.233.151.67
@@ -32,3 +43,14 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
+- name: 🇨🇳:中国-vmess-101.33.123.111:666-可用-直连-仅支持香港地区NF自制剧
+  type: vmess
+  server: 101.33.123.111
+  network: ws
+  port: 666
+  uuid: 7da56c72-5a1e-44a1-be93-7a42d542f79d
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /cctv13/hd.m3u8
