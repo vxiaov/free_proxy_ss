@@ -5,6 +5,12 @@ proxies:
   password: 70b2198e-ccef-4e8b-b030-b1b03d7f4175
   port: 17081
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-cne.cloudorg.uk:17081-可用-中转:173.82.154.179-仅支持美国地区NF自制剧
+  type: ss
+  server: cne.cloudorg.uk
+  password: 70b2198e-ccef-4e8b-b030-b1b03d7f4175
+  port: 17081
+  cipher: chacha20-ietf-poly1305
 - name: 🇨🇳:中国-vmess-aliyun.sgzx02.downloadmovie.cn:11933-可用-中转:159.223.213.61-仅支持荷兰地区NF自制剧
   type: vmess
   server: aliyun.sgzx02.downloadmovie.cn
@@ -16,12 +22,12 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
-- name: 🇺🇸:美国-vmess-18.167.20.169:8080-可用-直连-仅支持香港地区NF自制剧
+- name: 🇰🇷:韩国-vmess-152.67.218.38:443-可用-直连-仅支持韩国地区NF自制剧
   type: vmess
-  server: 18.167.20.169
+  server: 152.67.218.38
   network: ws
-  port: 8080
-  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
+  port: 443
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
   alterId: 4
   cipher: auto
   udp: false
@@ -38,6 +44,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /rocket
+- name: 🇨🇳:中国-vmess-ziye.xn--94q649d.live:666-可用-中转:101.33.123.111-仅支持香港地区NF自制剧
+  type: vmess
+  server: ziye.xn--94q649d.live
+  network: ws
+  port: 666
+  uuid: 7da56c72-5a1e-44a1-be93-7a42d542f79d
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /cctv13/hd.m3u8
 - name: 🇨🇳:中国-vmess-101.33.123.111:666-可用-直连-仅支持香港地区NF自制剧
   type: vmess
   server: 101.33.123.111
