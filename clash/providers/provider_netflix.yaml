@@ -17,12 +17,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 810
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-51.159.30.61:804-被墙-直连-解锁法国地区NF非自制剧
-  type: ss
-  server: 51.159.30.61
-  password: G!yBwPWH3Vao
-  port: 804
-  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-89.31.126.150:802-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧
   type: ss
   server: 89.31.126.150
@@ -77,11 +71,11 @@ proxies:
   password: KnJGad3FqTvjqbaX
   port: 9014
   cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9026-被墙-直连-解锁瑞士地区NF非自制剧
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9024-被墙-直连-解锁瑞士地区NF非自制剧
   type: ss
   server: 185.126.116.119
-  password: QWDDvVE9npNurQfA
-  port: 9026
+  password: BejrQvtu9sqUeNuZ
+  port: 9024
   cipher: aes-256-cfb
 - name: 🇮🇱:以色列-ss-185.162.125.91:50004-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
@@ -95,9 +89,26 @@ proxies:
   password: G!yBwPWH3Vao
   port: 812
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-51.159.30.61:804-被墙-直连-解锁法国地区NF非自制剧
+  type: ss
+  server: 51.159.30.61
+  password: G!yBwPWH3Vao
+  port: 804
+  cipher: chacha20-ietf-poly1305
 - name: 🇮🇱:以色列-ss-31.133.100.49:50004-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
   server: 31.133.100.49
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
+- name: 🇺🇸:美国-vmess-129.150.46.8:36277-可用-直连-解锁新加坡地区NF非自制剧
+  type: vmess
+  server: 129.150.46.8
+  network: ws
+  port: 36277
+  uuid: f3d972b0-aa7f-499d-85cd-c0c26f9cc15f
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
