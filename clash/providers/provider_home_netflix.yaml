@@ -1,4 +1,37 @@
 proxies:
+- name: 🇯🇵:日本-vmess-172.104.75.232:15880-可用-直连-仅支持日本地区NF自制剧
+  type: vmess
+  server: 172.104.75.232
+  network: ws
+  port: 15880
+  uuid: a662477f-410b-3fa1-ba8b-a67abc8cce8c
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /index
+- name: 🇯🇵:日本-vmess-139.162.99.16:20943-可用-直连-仅支持日本地区NF自制剧
+  type: vmess
+  server: 139.162.99.16
+  network: ws
+  port: 20943
+  uuid: e278c68f-4716-4798-a9c6-1f91d74499d8
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /images
+- name: 🇰🇷:韩国-vmess-152.67.218.38:443-可用-直连-仅支持韩国地区NF自制剧
+  type: vmess
+  server: 152.67.218.38
+  network: ws
+  port: 443
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇸🇬:新加坡-vmess-103.3.61.16:80-可用-直连-仅支持新加坡地区NF自制剧
   type: vmess
   server: 103.3.61.16
@@ -10,6 +43,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /fuzzyng?ed=2048
+- name: 🇨🇳:中国-vmess-47.242.17.122:36788-可用-直连-仅支持香港地区NF自制剧
+  type: vmess
+  server: 47.242.17.122
+  network: ws
+  port: 36788
+  uuid: cf797f13-98b8-40cb-ccf9-98289361e02f
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇸🇬:新加坡-vmess-sg1.fuzzyng.com:80-可用-中转:103.3.61.16-仅支持新加坡地区NF自制剧
   type: vmess
   server: sg1.fuzzyng.com
