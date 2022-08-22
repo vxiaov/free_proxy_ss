@@ -1,21 +1,22 @@
 proxies:
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9094-可用-直连-仅支持瑞士地区NF自制剧
+- name: 🇨🇳:中国-ss-113.201.107.81:11604-可用-中转:139.162.9.172-仅支持新加坡地区NF自制剧
   type: ss
-  server: 185.126.116.119
-  password: rpgbNnU9rDDU4aWZ
-  port: 9094
-  cipher: aes-256-cfb
-- name: 🇨🇳:中国-vmess-111.45.22.138:65016-可用-中转:159.223.94.248-仅支持新加坡地区NF自制剧
-  type: vmess
-  server: 111.45.22.138
-  network: ws
-  port: 65016
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /rocket
+  server: 113.201.107.81
+  password: 8c313190-4d93-43f3-b557-fe0ffe4c260a
+  port: 11604
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-113.201.107.86:11604-可用-中转:139.162.9.172-仅支持新加坡地区NF自制剧
+  type: ss
+  server: 113.201.107.86
+  password: 8c313190-4d93-43f3-b557-fe0ffe4c260a
+  port: 11604
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-113.201.107.82:11206-可用-中转:172.104.48.219-仅支持新加坡地区NF自制剧
+  type: ss
+  server: 113.201.107.82
+  password: 8c313190-4d93-43f3-b557-fe0ffe4c260a
+  port: 11206
+  cipher: chacha20-ietf-poly1305
 - name: 🇨🇳:中国-vmess-111.45.22.138:65015-可用-中转:159.223.94.248-仅支持新加坡地区NF自制剧
   type: vmess
   server: 111.45.22.138
@@ -65,6 +66,17 @@ proxies:
   server: 111.45.22.151
   network: ws
   port: 65016
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /rocket
+- name: 🇨🇳:中国-vmess-111.45.22.151:65045-可用-中转:159.223.94.248-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: 111.45.22.151
+  network: ws
+  port: 65045
   uuid: 0253b574-8020-3186-a647-0267295ac9bb
   alterId: 4
   cipher: auto
