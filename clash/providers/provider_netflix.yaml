@@ -35,29 +35,35 @@ proxies:
   password: G!yBwPWH3Vao
   port: 801
   cipher: chacha20-ietf-poly1305
-- name: 🇬🇧:英国-ss-83.229.73.60:50003-被墙-直连-解锁以色列地区NF非自制剧
-  type: ss
-  server: 83.229.73.60
-  password: '8460400130'
-  port: 50003
-  cipher: aes-256-cfb
-- name: 🇮🇱:以色列-ss-185.162.126.217:50004-被墙-直连-解锁以色列地区NF非自制剧
-  type: ss
-  server: 185.162.126.217
-  password: '4415934295'
-  port: 50004
-  cipher: aes-256-cfb
-- name: 🇯🇵:日本-ss-45.66.134.176:803-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
+- name: 🇯🇵:日本-ss-45.66.134.176:809-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
   type: ss
   server: 45.66.134.176
   password: G!yBwPWH3Vao
-  port: 803
+  port: 809
   cipher: chacha20-ietf-poly1305
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9093-被墙-直连-解锁瑞士地区NF非自制剧
+- name: 🇮🇱:以色列-ss-185.162.125.91:50004-被墙-直连-解锁以色列地区NF非自制剧
+  type: ss
+  server: 185.162.125.91
+  password: '4415934295'
+  port: 50004
+  cipher: aes-256-cfb
+- name: 🇯🇵:日本-ss-89.31.126.150:812-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧
+  type: ss
+  server: 89.31.126.150
+  password: G!yBwPWH3Vao
+  port: 812
+  cipher: chacha20-ietf-poly1305
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9019-被墙-直连-解锁瑞士地区NF非自制剧
   type: ss
   server: 185.126.116.119
-  password: wfLC2y7rzZyCmuyt
-  port: 9093
+  password: GA9KzeEgvfxNrgmM
+  port: 9019
+  cipher: aes-256-cfb
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9018-被墙-直连-解锁瑞士地区NF非自制剧
+  type: ss
+  server: 185.126.116.119
+  password: fG2artUmHfNT2cX7
+  port: 9018
   cipher: aes-256-cfb
 - name: 🇮🇱:以色列-ss-31.133.100.49:50004-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
@@ -76,3 +82,14 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇨🇳:中国-vmess-114.38.79.135:80-可用-直连-解锁台湾地区NF非自制剧
+  type: vmess
+  server: 114.38.79.135
+  network: ws
+  port: 80
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /s/c27821f.fm.icloud.com:16708
