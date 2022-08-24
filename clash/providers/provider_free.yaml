@@ -1,10 +1,4 @@
 proxies:
-- name: 🇺🇸:美国-ss-138.68.248.130:811-可用-直连-不支持Netflix
-  type: ss
-  server: 138.68.248.130
-  password: Ultr@r00t_2017
-  port: 811
-  cipher: chacha20-ietf-poly1305
 - name: 🇨🇦:加拿大-ss-38.111.114.246:8882-可用-直连-不支持Netflix
   type: ss
   server: 38.111.114.246
@@ -83,17 +77,17 @@ proxies:
   password: QazEdcTgb159@$*
   port: 25210
   cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11012-可用-中转:129.227.144.194-不支持Netflix
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11012
+  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.174:11016-可用-中转:129.227.144.194-不支持Netflix
   type: ss
   server: 14.29.124.174
   password: QazEdcTgb159@$*
   port: 11016
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11008-可用-中转:129.227.144.194-不支持Netflix
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11008
   cipher: aes-128-cfb
 - name: 🇳🇱:荷兰-ss-213.183.59.190:9003-可用-直连-不支持Netflix
   type: ss
@@ -101,11 +95,11 @@ proxies:
   password: JdmRK9gMEqFgs8nP
   port: 9003
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11010-可用-中转:129.227.144.194-不支持Netflix
+- name: 🇨🇳:中国-ss-14.29.124.174:11047-可用-中转:129.227.144.195-不支持Netflix
   type: ss
   server: 14.29.124.174
   password: QazEdcTgb159@$*
-  port: 11010
+  port: 11047
   cipher: aes-128-cfb
 - name: 🇨🇳:中国-vmess-106.12.168.13:23117-可用-直连-完全不支持NF
   type: vmess
@@ -118,17 +112,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: :0-vmess-103.186.148.113:80-可用-直连-不支持Netflix
-  type: vmess
-  server: 103.186.148.113
-  network: ws
-  port: 80
-  uuid: 67468d89-cf87-443c-baca-49f1e73b5991
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /shopvpn.net
 - name: 🇺🇸:美国-vmess-m3.v2rayfree1.xyz:443-可用-中转:62.210.192.249-不支持Netflix
   type: vmess
   server: m3.v2rayfree1.xyz
@@ -231,17 +214,6 @@ proxies:
 - name: 🇨🇳:中国-vmess-in-sg-1.onebox6.org:38701-可用-中转:194.233.66.47-不支持Netflix
   type: vmess
   server: in-sg-1.onebox6.org
-  network: ws
-  port: 38701
-  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /hls/cctv5phd.m3u8
-- name: 🇨🇳:中国-vmess-ingress-i1.onebox6.org:38701-可用-中转:194.233.66.47-不支持Netflix
-  type: vmess
-  server: ingress-i1.onebox6.org
   network: ws
   port: 38701
   uuid: 79386685-16da-327c-9e14-aa6d702d86bc
