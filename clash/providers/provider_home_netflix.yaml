@@ -1,15 +1,4 @@
 proxies:
-- name: 🇯🇵:日本-vmess-139.162.99.16:20941-可用-直连-仅支持日本地区NF自制剧
-  type: vmess
-  server: 139.162.99.16
-  network: ws
-  port: 20941
-  uuid: de818be9-5006-4bfe-a088-3e30ab749c4a
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /images
 - name: 🇺🇸:美国-vmess-ode07.356930.xyz:443-可用-中转:139.144.96.18-仅支持澳大利亚地区NF自制剧
   type: vmess
   server: ode07.356930.xyz
@@ -43,6 +32,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /cctv13/hd.m3u8
+- name: 🇸🇬:新加坡-vmess-206.189.82.132:15880-可用-直连-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: 206.189.82.132
+  network: ws
+  port: 15880
+  uuid: a662477f-410b-3fa1-ba8b-a67abc8cce8c
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /index
 - name: 🇸🇬:新加坡-vmess-163.47.9.4:1008-可用-中转:128.199.248.105-仅支持新加坡地区NF自制剧
   type: vmess
   server: 163.47.9.4

@@ -53,12 +53,6 @@ proxies:
   password: QazEdcTgb159@$*
   port: 25218
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.168:24006-可用-中转:223.26.73.202-不支持Netflix
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24006
-  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:25284-可用-直连-不支持Netflix
   type: ss
   server: 14.29.124.168
@@ -71,29 +65,24 @@ proxies:
   password: QazEdcTgb159@$*
   port: 25297
   cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:25210-可用-直连-不支持Netflix
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 25210
+  cipher: aes-128-cfb
 - name: 🇳🇱:荷兰-ss-213.183.59.190:9003-可用-直连-不支持Netflix
   type: ss
   server: 213.183.59.190
   password: JdmRK9gMEqFgs8nP
   port: 9003
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-138.68.248.130:811-可用-直连-不支持Netflix
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9014-可用-直连-不支持Netflix
   type: ss
-  server: 138.68.248.130
-  password: Ultr@r00t_2017
-  port: 811
-  cipher: chacha20-ietf-poly1305
-- name: :0-vmess-103.186.149.132:80-可用-直连-不支持Netflix
-  type: vmess
-  server: 103.186.149.132
-  network: ws
-  port: 80
-  uuid: a479fc02-07c5-4864-8564-c4f147dfa488
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /shopvpn.net
+  server: 185.126.116.119
+  password: KnJGad3FqTvjqbaX
+  port: 9014
+  cipher: aes-256-cfb
 - name: 🇨🇳:中国-vmess-106.12.168.13:23117-可用-直连-完全不支持NF
   type: vmess
   server: 106.12.168.13
@@ -127,17 +116,6 @@ proxies:
   udp: false
   tls: true
   ws-path: /ray
-- name: 🇯🇵:日本-vmess-139.162.99.16:20941-可用-直连-仅支持日本地区NF自制剧
-  type: vmess
-  server: 139.162.99.16
-  network: ws
-  port: 20941
-  uuid: de818be9-5006-4bfe-a088-3e30ab749c4a
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /images
 - name: 🇮🇪:爱尔兰-vmess-80.93.19.188:443-可用-中转:8.43.123.23-解锁爱尔兰地区NF非自制剧
   type: vmess
   server: 80.93.19.188
@@ -270,6 +248,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /cctv13/hd.m3u8
+- name: 🇸🇬:新加坡-vmess-206.189.82.132:15880-可用-直连-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: 206.189.82.132
+  network: ws
+  port: 15880
+  uuid: a662477f-410b-3fa1-ba8b-a67abc8cce8c
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /index
 - name: 🇨🇳:中国-vmess-in-sg-1.onebox6.org:38701-可用-中转:194.233.66.47-不支持Netflix
   type: vmess
   server: in-sg-1.onebox6.org
