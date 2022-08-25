@@ -41,23 +41,11 @@ proxies:
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
   port: 9205
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-120.233.151.122:9205-可用-中转:185.212.61.36-不支持Netflix
-  type: ss
-  server: 120.233.151.122
-  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  port: 9205
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-38.75.136.34:8090-可用-直连-不支持Netflix
   type: ss
   server: 38.75.136.34
   password: PCnnH6SQSnfoS27
   port: 8090
-  cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-120.233.151.122:9405-可用-中转:38.94.108.252-不支持Netflix
-  type: ss
-  server: 120.233.151.122
-  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  port: 9405
   cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-183.232.158.67:9407-可用-中转:38.94.108.253-不支持Netflix
   type: ss
@@ -161,12 +149,12 @@ proxies:
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
   port: 9203
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-14.29.124.174:11013-可用-中转:129.227.144.194-不支持Netflix
+- name: 🇨🇳:中国-ss-120.233.151.122:9405-可用-中转:38.94.108.252-不支持Netflix
   type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11013
-  cipher: aes-128-cfb
+  server: 120.233.151.122
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 9405
+  cipher: aes-256-gcm
 - name: 🇸🇬:新加坡-ssr-3.1.206.116:8080-可用-直连-不支持Netflix
   type: ssr
   server: 3.1.206.116
@@ -243,17 +231,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇨🇳:中国-vmess-36.238.143.170:51238-可用-直连-仅支持台湾地区NF自制剧
-  type: vmess
-  server: 36.238.143.170
-  network: ws
-  port: 51238
-  uuid: 98279065-8fe9-47ea-b786-186c9d335c7e
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /jjyun
 - name: 🇨🇳:中国-vmess-36.137.235.174:40256-可用-中转:138.2.27.214-不支持Netflix
   type: vmess
   server: 36.137.235.174
@@ -287,34 +264,23 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇨🇳:中国-vmess-114.38.85.189:80-可用-中转:114.38.85.11-解锁台湾地区NF非自制剧
+- name: 🇯🇵:日本-vmess-139.162.99.16:80-可用-直连-仅支持日本地区NF自制剧
   type: vmess
-  server: 114.38.85.189
+  server: 139.162.99.16
   network: ws
   port: 80
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  uuid: e278c68f-4716-4798-a9c6-1f91d74499d8
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /s/ff5c0fb.fm.icloud.com:30513
+  ws-path: /images
 - name: 🇮🇳:印度-vmess-147.139.7.71:888-可用-直连-解锁印度地区NF非自制剧
   type: vmess
   server: 147.139.7.71
   network: ws
   port: 888
   uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-18.167.20.169:8080-可用-直连-仅支持香港地区NF自制剧
-  type: vmess
-  server: 18.167.20.169
-  network: ws
-  port: 8080
-  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
   alterId: 4
   cipher: auto
   udp: false
