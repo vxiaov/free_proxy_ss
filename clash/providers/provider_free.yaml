@@ -65,12 +65,6 @@ proxies:
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
   port: 9407
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-120.233.151.122:9203-可用-中转:185.212.61.35-不支持Netflix
-  type: ss
-  server: 120.233.151.122
-  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  port: 9203
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-38.75.136.34:5500-可用-直连-不支持Netflix
   type: ss
   server: 38.75.136.34
@@ -82,6 +76,12 @@ proxies:
   server: 183.232.158.66
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
   port: 9203
+  cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-120.233.151.122:9403-可用-中转:38.94.108.251-不支持Netflix
+  type: ss
+  server: 120.233.151.122
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 9403
   cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-183.232.158.120:7402-可用-中转:103.142.140.128-不支持Netflix
   type: ss
@@ -155,6 +155,12 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-120.233.151.122:9203-可用-中转:185.212.61.35-不支持Netflix
+  type: ss
+  server: 120.233.151.122
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: 9203
+  cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-14.29.124.174:11013-可用-中转:129.227.144.194-不支持Netflix
   type: ss
   server: 14.29.124.174
@@ -248,17 +254,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /jjyun
-- name: 🇨🇳:中国-vmess-114.38.85.11:80-可用-直连-解锁台湾地区NF非自制剧
-  type: vmess
-  server: 114.38.85.11
-  network: ws
-  port: 80
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /s/ff5c0fb.fm.icloud.com:30513
 - name: 🇨🇳:中国-vmess-36.137.235.174:40256-可用-中转:138.2.27.214-不支持Netflix
   type: vmess
   server: 36.137.235.174
@@ -270,6 +265,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /test
+- name: 🇨🇳:中国-vmess-114.38.85.11:80-可用-直连-解锁台湾地区NF非自制剧
+  type: vmess
+  server: 114.38.85.11
+  network: ws
+  port: 80
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /s/ff5c0fb.fm.icloud.com:30513
 - name: 🇨🇳:中国-vmess-47.93.231.218:53022-可用-直连-完全不支持NF
   type: vmess
   server: 47.93.231.218
