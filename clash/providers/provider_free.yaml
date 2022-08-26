@@ -131,12 +131,6 @@ proxies:
   password: QazEdcTgb159@$*
   port: 11008
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-183.232.158.66:8004-可用-中转:103.197.70.5-不支持Netflix
-  type: ss
-  server: 183.232.158.66
-  password: 4e2c7e7b0d175c08edc96e7b946415c6
-  port: 8004
-  cipher: chacha20-ietf-poly1305
 - name: 🇨🇳:中国-ss-183.232.158.66:8761-可用-中转:103.197.70.2-不支持Netflix
   type: ss
   server: 183.232.158.66
@@ -160,6 +154,12 @@ proxies:
   server: 183.232.158.66
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
   port: 9403
+  cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-183.232.158.66:8740-可用-中转:212.107.31.196-不支持Netflix
+  type: ss
+  server: 183.232.158.66
+  password: 3d06cccd279f1cb5a33aebb2b50bf3ac
+  port: 8740
   cipher: aes-256-gcm
 - name: 🇸🇬:新加坡-ssr-18.136.201.254:8080-可用-直连-不支持Netflix
   type: ssr
@@ -248,6 +248,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇺🇸:美国-vmess-18.167.20.169:8080-可用-直连-仅支持香港地区NF自制剧
+  type: vmess
+  server: 18.167.20.169
+  network: ws
+  port: 8080
+  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇨🇳:中国-vmess-110.42.138.122:18080-可用-直连-完全不支持NF
   type: vmess
   server: 110.42.138.122
@@ -270,17 +281,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇨🇳:中国-vmess-114.38.106.253:80-可用-直连-解锁台湾地区NF非自制剧
-  type: vmess
-  server: 114.38.106.253
-  network: ws
-  port: 80
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /s/ff5c0fb.fm.icloud.com:30513
 - name: 🇨🇳:中国-vmess-8.219.146.138:23205-可用-直连-解锁新加坡地区NF非自制剧
   type: vmess
   server: 8.219.146.138
@@ -292,6 +292,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /wss
+- name: 🇺🇸:美国-vmess-198.211.4.60:80-可用-直连-仅支持美国地区NF自制剧
+  type: vmess
+  server: 198.211.4.60
+  network: ws
+  port: 80
+  uuid: 1c65cfed-0b0c-4e21-92aa-90c9663a654f
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇨🇳:中国-vmess-1.15.183.29:38555-可用-直连-完全不支持NF
   type: vmess
   server: 1.15.183.29
