@@ -1,4 +1,10 @@
 proxies:
+- name: 🇨🇳:中国-ss-183.232.158.120:7401-可用-中转:103.142.140.57-解锁新加坡地区NF非自制剧
+  type: ss
+  server: 183.232.158.120
+  password: c0b4efb0-ab81-46f8-87af-815b62351089
+  port: 7401
+  cipher: aes-128-gcm
 - name: 🇯🇵:日本-ss-45.66.134.176:806-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
   type: ss
   server: 45.66.134.176
@@ -190,17 +196,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /jjyun
-- name: 🇮🇳:印度-vmess-147.139.7.71:888-可用-直连-解锁印度地区NF非自制剧
-  type: vmess
-  server: 147.139.7.71
-  network: ws
-  port: 888
-  uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
 - name: 🇨🇳:中国-vmess-114.38.106.253:80-可用-直连-解锁台湾地区NF非自制剧
   type: vmess
   server: 114.38.106.253
