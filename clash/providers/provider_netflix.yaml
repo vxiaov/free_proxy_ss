@@ -29,6 +29,18 @@ proxies:
   password: G!yBwPWH3Vao
   port: 807
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-37.120.219.218:812-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 37.120.219.218
+  password: G!yBwPWH3Vao
+  port: 812
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-167.88.62.68:8009-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.62.68
+  password: XKFKl2rULjIp74
+  port: 8009
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.62.68:5003-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.62.68
@@ -131,23 +143,17 @@ proxies:
   password: '8460400130'
   port: 50003
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-167.88.62.68:8091-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.62.68
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  cipher: aes-256-gcm
 - name: 🇮🇱:以色列-ss-185.162.126.217:50004-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
   server: 185.162.126.217
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-37.120.219.218:812-被墙-直连-解锁美国地区NF非自制剧
+- name: 🇺🇸:美国-ss-38.68.134.135:809-被墙-中转:38.68.134.196-解锁美国地区NF非自制剧
   type: ss
-  server: 37.120.219.218
+  server: 38.68.134.135
   password: G!yBwPWH3Vao
-  port: 812
+  port: 809
   cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-37.120.219.218:809-被墙-直连-解锁美国地区NF非自制剧
   type: ss
@@ -173,25 +179,47 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-vmess-36.238.127.224:51238-可用-直连-解锁台湾地区NF非自制剧
+- name: 🇨🇳:中国-vmess-114.38.110.155:80-可用-直连-解锁台湾地区NF非自制剧
   type: vmess
-  server: 36.238.127.224
+  server: 114.38.110.155
   network: ws
-  port: 51238
-  uuid: 98279065-8fe9-47ea-b786-186c9d335c7e
+  port: 80
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /jjyun
-- name: 🇮🇳:印度-vmess-147.139.7.71:888-可用-直连-解锁印度地区NF非自制剧
+  ws-path: /s/ff5c0fb.fm.icloud.com:30513
+- name: 🇨🇳:中国-vmess-114.38.106.253:80-可用-中转:114.38.110.155-解锁台湾地区NF非自制剧
   type: vmess
-  server: 147.139.7.71
+  server: 114.38.106.253
   network: ws
-  port: 888
-  uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
+  port: 80
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /
+  ws-path: /s/ff5c0fb.fm.icloud.com:30513
+- name: 🇨🇳:中国-vmess-8.219.146.138:23205-可用-直连-解锁新加坡地区NF非自制剧
+  type: vmess
+  server: 8.219.146.138
+  network: ws
+  port: 23205
+  uuid: 442094b1-a2c2-422f-f3cf-7fc0bb134666
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /wss
+- name: 🇨🇳:中国-vmess-114.38.112.41:80-可用-中转:114.38.110.155-解锁台湾地区NF非自制剧
+  type: vmess
+  server: 114.38.112.41
+  network: ws
+  port: 80
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /s/ff5c0fb.fm.icloud.com:30513
