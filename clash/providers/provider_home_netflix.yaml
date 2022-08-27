@@ -1,23 +1,29 @@
 proxies:
-- name: 🇸🇬:新加坡-vmess-103.3.61.16:80-可用-直连-仅支持新加坡地区NF自制剧
+- name: 🇺🇸:美国-ss-137.184.93.209:10365-可用-直连-仅支持美国地区NF自制剧
+  type: ss
+  server: 137.184.93.209
+  password: 9682edd6-89e6-4e6a-b31d-271089771d87
+  port: 10365
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-vmess-68.183.101.84:443-可用-直连-仅支持美国地区NF自制剧
   type: vmess
-  server: 103.3.61.16
+  server: 68.183.101.84
   network: ws
-  port: 80
-  uuid: 7f7baf29-934e-43c5-9fb2-0b651855953f
+  port: 443
+  uuid: d019484c-2181-4d4a-a0fb-302a55351156
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /fuzzyng?ed=2048
-- name: 🇺🇸:美国-vmess-198.211.4.60:80-可用-直连-仅支持美国地区NF自制剧
+  ws-path: /cctv13/hd.m3u8
+- name: 🇺🇸:美国-vmess-164.90.244.211:443-可用-中转:164.92.69.28-仅支持美国地区NF自制剧
   type: vmess
-  server: 198.211.4.60
+  server: 164.90.244.211
   network: ws
-  port: 80
-  uuid: 1c65cfed-0b0c-4e21-92aa-90c9663a654f
+  port: 443
+  uuid: 826b8d0a-e0d3-407a-927d-19953c170779
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /
+  ws-path: /cctv13/hd.m3u8
