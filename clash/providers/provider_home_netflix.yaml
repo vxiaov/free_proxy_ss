@@ -1,27 +1,10 @@
 proxies:
-- name: 🇨🇳:中国-ss-120.233.24.162:6005-可用-中转:46.232.121.6-仅支持香港地区NF自制剧
+- name: 🇨🇳:中国-ss-120.233.24.162:6006-可用-中转:46.232.121.7-仅支持香港地区NF自制剧
   type: ss
   server: 120.233.24.162
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  port: 6005
+  port: 6006
   cipher: aes-128-gcm
-- name: 🇺🇸:美国-ss-137.184.93.209:10365-可用-直连-仅支持美国地区NF自制剧
-  type: ss
-  server: 137.184.93.209
-  password: 9682edd6-89e6-4e6a-b31d-271089771d87
-  port: 10365
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-vmess-192.9.139.253:443-可用-直连-仅支持美国地区NF自制剧
-  type: vmess
-  server: 192.9.139.253
-  network: ws
-  port: 443
-  uuid: d019484c-2181-4d4a-a0fb-302a55351156
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /cctv13/hd.m3u8
 - name: 🇸🇬:新加坡-vmess-103.3.61.16:80-可用-直连-仅支持新加坡地区NF自制剧
   type: vmess
   server: 103.3.61.16
@@ -39,17 +22,6 @@ proxies:
   network: ws
   port: 8080
   uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-198.211.4.60:80-可用-直连-仅支持美国地区NF自制剧
-  type: vmess
-  server: 198.211.4.60
-  network: ws
-  port: 80
-  uuid: 1c65cfed-0b0c-4e21-92aa-90c9663a654f
   alterId: 4
   cipher: auto
   udp: false
