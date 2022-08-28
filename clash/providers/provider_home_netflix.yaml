@@ -1,4 +1,21 @@
 proxies:
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9032-可用-直连-仅支持瑞士地区NF自制剧
+  type: ss
+  server: 185.126.116.123
+  password: UWZQeLRWnkqgkseq
+  port: 9032
+  cipher: aes-256-cfb
+- name: 🇸🇬:新加坡-vmess-165.22.60.91:443-可用-直连-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: 165.22.60.91
+  network: ws
+  port: 443
+  uuid: 826b8d0a-e0d3-407a-927d-19953c170779
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /cctv13/hd.m3u8
 - name: 🇮🇳:印度-vmess-147.139.7.71:888-可用-直连-仅支持印度地区NF自制剧
   type: vmess
   server: 147.139.7.71
@@ -32,14 +49,14 @@ proxies:
   udp: false
   tls: false
   ws-path: /wss
-- name: 🇺🇸:美国-vmess-198.211.4.60:80-可用-直连-仅支持美国地区NF自制剧
+- name: 🇺🇸:美国-vmess-206.189.253.18:443-可用-中转:68.183.101.84-仅支持美国地区NF自制剧
   type: vmess
-  server: 198.211.4.60
+  server: 206.189.253.18
   network: ws
-  port: 80
-  uuid: 1c65cfed-0b0c-4e21-92aa-90c9663a654f
+  port: 443
+  uuid: d019484c-2181-4d4a-a0fb-302a55351156
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /
+  ws-path: /cctv13/hd.m3u8
