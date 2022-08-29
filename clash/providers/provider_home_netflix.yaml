@@ -1,13 +1,13 @@
 proxies:
-- name: 🇨🇳:中国-ss-zhongzhuan01.kaochangonline.online:53555-可用-中转:85.121.241.76-仅支持新加坡地区NF自制剧
-  type: ss
-  server: zhongzhuan01.kaochangonline.online
-  password: 62b78c9b-16cb-4ee6-824b-a4f856cf18f3
-  port: 53555
-  cipher: chacha20-ietf-poly1305
 - name: 🇨🇳:中国-ss-43.248.96.249:53555-可用-中转:85.121.241.76-仅支持新加坡地区NF自制剧
   type: ss
   server: 43.248.96.249
+  password: 62b78c9b-16cb-4ee6-824b-a4f856cf18f3
+  port: 53555
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-zhongzhuan01.kaochangonline.online:53555-可用-中转:85.121.241.76-仅支持新加坡地区NF自制剧
+  type: ss
+  server: zhongzhuan01.kaochangonline.online
   password: 62b78c9b-16cb-4ee6-824b-a4f856cf18f3
   port: 53555
   cipher: chacha20-ietf-poly1305
@@ -66,14 +66,14 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇺🇸:美国-vmess-18.167.20.169:8080-可用-直连-仅支持香港地区NF自制剧
+- name: 🇺🇸:美国-vmess-206.189.253.18:443-可用-中转:68.183.101.84-仅支持美国地区NF自制剧
   type: vmess
-  server: 18.167.20.169
+  server: 206.189.253.18
   network: ws
-  port: 8080
-  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
+  port: 443
+  uuid: 1b41d609-0d07-4dfd-b985-3cd08812dd5f
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /
+  ws-path: /cctv13/hd.m3u8
