@@ -1,15 +1,4 @@
 proxies:
-- name: 🇳🇱:荷兰-vmess-132.226.9.173:443-可用-直连-仅支持日本地区NF自制剧
-  type: vmess
-  server: 132.226.9.173
-  network: ws
-  port: 443
-  uuid: 826b8d0a-e0d3-407a-927d-19953c170779
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /cctv13/hd.m3u8
 - name: 🇺🇸:美国-vmess-164.90.244.211:443-可用-中转:164.92.69.28-仅支持美国地区NF自制剧
   type: vmess
   server: 164.90.244.211
@@ -32,6 +21,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇺🇸:美国-vmess-18.167.20.169:8080-可用-直连-仅支持香港地区NF自制剧
+  type: vmess
+  server: 18.167.20.169
+  network: ws
+  port: 8080
+  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇨🇳:中国-vmess-8.219.146.138:23205-可用-直连-仅支持新加坡地区NF自制剧
   type: vmess
   server: 8.219.146.138
@@ -43,3 +43,14 @@ proxies:
   udp: false
   tls: false
   ws-path: /wss
+- name: 🇺🇸:美国-vmess-206.189.253.18:443-可用-中转:68.183.101.84-仅支持美国地区NF自制剧
+  type: vmess
+  server: 206.189.253.18
+  network: ws
+  port: 443
+  uuid: d019484c-2181-4d4a-a0fb-302a55351156
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /cctv13/hd.m3u8
