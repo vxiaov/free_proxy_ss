@@ -1,10 +1,4 @@
 proxies:
-- name: 🇨🇳:中国-ss-i1.go001.buzz:32601-可用-中转:192.210.207.7-解锁美国地区NF非自制剧
-  type: ss
-  server: i1.go001.buzz
-  password: bBEXIq
-  port: 32601
-  cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-183.240.209.250:32601-可用-中转:154.53.59.248-解锁美国地区NF非自制剧
   type: ss
   server: 183.240.209.250
@@ -59,12 +53,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 800
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-38.68.134.196:808-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 38.68.134.196
-  password: G!yBwPWH3Vao
-  port: 808
-  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-45.66.134.176:810-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
   type: ss
   server: 45.66.134.176
@@ -77,23 +65,11 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 3389
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-38.68.134.196:802-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 38.68.134.196
-  password: G!yBwPWH3Vao
-  port: 802
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-162.251.61.221:806-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 162.251.61.221
   password: G!yBwPWH3Vao
   port: 806
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-38.68.134.196:812-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 38.68.134.196
-  password: G!yBwPWH3Vao
-  port: 812
   cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-167.88.62.68:3306-被墙-直连-解锁美国地区NF非自制剧
   type: ss
@@ -101,12 +77,6 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 3306
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-38.68.134.196:800-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 38.68.134.196
-  password: G!yBwPWH3Vao
-  port: 800
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-162.251.61.221:803-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 162.251.61.221
@@ -119,12 +89,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 801
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-38.68.134.196:805-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 38.68.134.196
-  password: G!yBwPWH3Vao
-  port: 805
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-167.88.62.68:5004-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.62.68
@@ -134,12 +98,6 @@ proxies:
 - name: 🇨🇳:中国-ss-i1.go001.buzz:32601-可用-中转:154.53.59.248-解锁美国地区NF非自制剧
   type: ss
   server: i1.go001.buzz
-  password: bBEXIq
-  port: 32601
-  cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-183.240.209.250:32601-可用-中转:192.210.207.7-解锁美国地区NF非自制剧
-  type: ss
-  server: 183.240.209.250
   password: bBEXIq
   port: 32601
   cipher: aes-256-gcm
@@ -155,12 +113,6 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-38.68.134.135:809-被墙-中转:38.68.134.196-解锁美国地区NF非自制剧
-  type: ss
-  server: 38.68.134.135
-  password: G!yBwPWH3Vao
-  port: 809
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-37.120.219.218:809-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 37.120.219.218
@@ -191,6 +143,17 @@ proxies:
   password: Ultr@r00t_2017
   port: 811
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-vmess-129.150.46.8:36277-可用-直连-解锁新加坡地区NF非自制剧
+  type: vmess
+  server: 129.150.46.8
+  network: ws
+  port: 36277
+  uuid: f3d972b0-aa7f-499d-85cd-c0c26f9cc15f
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇺🇸:美国-vmess-20.231.39.239:80-可用-直连-解锁美国地区NF非自制剧
   type: vmess
   server: 20.231.39.239

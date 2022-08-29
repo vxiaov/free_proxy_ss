@@ -11,17 +11,50 @@ proxies:
   password: 62b78c9b-16cb-4ee6-824b-a4f856cf18f3
   port: 53555
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-vmess-do1.hgdbk.ga:443-可用-中转:68.183.101.84-仅支持美国地区NF自制剧
+- name: 🇮🇳:印度-vmess-147.139.7.71:888-可用-直连-仅支持印度地区NF自制剧
   type: vmess
-  server: do1.hgdbk.ga
+  server: 147.139.7.71
+  network: ws
+  port: 888
+  uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇨🇳:中国-vmess-8.219.146.138:23205-可用-直连-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: 8.219.146.138
+  network: ws
+  port: 23205
+  uuid: 442094b1-a2c2-422f-f3cf-7fc0bb134666
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /wss
+- name: 🇺🇸:美国-vmess-jgwus.jgwaad.tk:443-可用-中转:192.9.139.253-仅支持美国地区NF自制剧
+  type: vmess
+  server: jgwus.jgwaad.tk
   network: ws
   port: 443
-  uuid: 1b41d609-0d07-4dfd-b985-3cd08812dd5f
+  uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb
   alterId: 4
   cipher: auto
   udp: false
   tls: false
   ws-path: /cctv13/hd.m3u8
+- name: 🇺🇸:美国-vmess-dynamic-sg2b.obfs.xyz:443-可用-中转:170.187.225.140-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: dynamic-sg2b.obfs.xyz
+  network: ws
+  port: 443
+  uuid: 2725f8e6-be44-48f5-9e30-59af4d026db2
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /fastssh
 - name: 🇰🇷:韩国-vmess-152.67.218.38:443-可用-直连-仅支持韩国地区NF自制剧
   type: vmess
   server: 152.67.218.38
@@ -33,14 +66,14 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇺🇸:美国-vmess-206.189.253.18:443-可用-中转:68.183.101.84-仅支持美国地区NF自制剧
+- name: 🇺🇸:美国-vmess-18.167.20.169:8080-可用-直连-仅支持香港地区NF自制剧
   type: vmess
-  server: 206.189.253.18
+  server: 18.167.20.169
   network: ws
-  port: 443
-  uuid: 1b41d609-0d07-4dfd-b985-3cd08812dd5f
+  port: 8080
+  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /cctv13/hd.m3u8
+  ws-path: /
