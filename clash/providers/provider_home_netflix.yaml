@@ -11,6 +11,17 @@ proxies:
   password: 62b78c9b-16cb-4ee6-824b-a4f856cf18f3
   port: 53555
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-vmess-192.9.139.253:443-可用-直连-仅支持美国地区NF自制剧
+  type: vmess
+  server: 192.9.139.253
+  network: ws
+  port: 443
+  uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /cctv13/hd.m3u8
 - name: 🇮🇳:印度-vmess-147.139.7.71:888-可用-直连-仅支持印度地区NF自制剧
   type: vmess
   server: 147.139.7.71
@@ -61,6 +72,17 @@ proxies:
   network: ws
   port: 443
   uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇺🇸:美国-vmess-18.167.20.169:8080-可用-直连-仅支持香港地区NF自制剧
+  type: vmess
+  server: 18.167.20.169
+  network: ws
+  port: 8080
+  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
   alterId: 4
   cipher: auto
   udp: false
