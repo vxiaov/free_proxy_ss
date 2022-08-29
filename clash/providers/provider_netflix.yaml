@@ -47,6 +47,12 @@ proxies:
   password: G!yBwPWH3Vao
   port: 800
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-138.68.248.130:811-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 138.68.248.130
+  password: Ultr@r00t_2017
+  port: 811
+  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-45.66.134.176:801-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
   type: ss
   server: 45.66.134.176
@@ -101,9 +107,14 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-138.68.248.130:811-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 138.68.248.130
-  password: Ultr@r00t_2017
-  port: 811
-  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-vmess-129.150.46.8:36277-可用-直连-解锁新加坡地区NF非自制剧
+  type: vmess
+  server: 129.150.46.8
+  network: ws
+  port: 36277
+  uuid: f3d972b0-aa7f-499d-85cd-c0c26f9cc15f
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
