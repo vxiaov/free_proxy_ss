@@ -83,6 +83,12 @@ proxies:
   password: KixLvKzwjekG00rm
   port: 5500
   cipher: aes-256-gcm
+- name: 🇷🇺:俄罗斯-ss-185.4.65.6:21247-可用-中转:37.252.1.212-不支持Netflix
+  type: ss
+  server: 185.4.65.6
+  password: vDS9G2p
+  port: 21247
+  cipher: aes-256-cfb
 - name: 🇨🇳:中国-ss-183.232.158.67:9201-可用-中转:185.212.61.50-不支持Netflix
   type: ss
   server: 183.232.158.67
@@ -134,6 +140,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇨🇳:中国-vmess-120.240.55.137:38401-可用-中转:104.249.174.138-不支持Netflix
+  type: vmess
+  server: 120.240.55.137
+  network: ws
+  port: 38401
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /hls/cctv5phd.m3u8
 - name: 🇨🇳:中国-vmess-120.240.55.137:38701-可用-中转:194.233.66.47-不支持Netflix
   type: vmess
   server: 120.240.55.137
@@ -167,17 +184,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇮🇳:印度-vmess-147.139.7.71:888-可用-直连-仅支持印度地区NF自制剧
-  type: vmess
-  server: 147.139.7.71
-  network: ws
-  port: 888
-  uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
 - name: 🇨🇳:中国-vmess-110.42.138.122:18080-可用-直连-完全不支持NF
   type: vmess
   server: 110.42.138.122
@@ -200,6 +206,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇨🇳:中国-vmess-8.219.146.138:23205-可用-直连-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: 8.219.146.138
+  network: ws
+  port: 23205
+  uuid: 442094b1-a2c2-422f-f3cf-7fc0bb134666
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /wss
 - name: 🇨🇳:中国-vmess-49.234.34.180:443-可用-直连-完全不支持NF
   type: vmess
   server: 49.234.34.180
