@@ -11,12 +11,6 @@ proxies:
   password: PCnnH6SQSnfoS27
   port: 8090
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-38.75.136.34:8090-可用-直连-不支持Netflix
-  type: ss
-  server: 38.75.136.34
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-38.75.136.34:5500-可用-直连-不支持Netflix
   type: ss
   server: 38.75.136.34
@@ -89,6 +83,12 @@ proxies:
   password: KixLvKzwjekG00rm
   port: 5500
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-38.75.136.34:8090-可用-直连-不支持Netflix
+  type: ss
+  server: 38.75.136.34
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-183.232.158.67:9201-可用-中转:185.212.61.50-不支持Netflix
   type: ss
   server: 183.232.158.67
@@ -118,17 +118,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇸🇬:新加坡-vmess-165.22.60.91:443-可用-直连-仅支持新加坡地区NF自制剧
-  type: vmess
-  server: 165.22.60.91
-  network: ws
-  port: 443
-  uuid: 826b8d0a-e0d3-407a-927d-19953c170779
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /cctv13/hd.m3u8
 - name: 🇺🇸:美国-vmess-192.9.139.253:443-可用-直连-不支持Netflix
   type: vmess
   server: 192.9.139.253
@@ -151,7 +140,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇳🇱:荷兰-vmess-132.226.9.173:443-可用-直连-不支持Netflix
+- name: 🇳🇱:荷兰-vmess-132.226.9.173:443-可用-直连-仅支持日本地区NF自制剧
   type: vmess
   server: 132.226.9.173
   network: ws
@@ -250,17 +239,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇺🇸:美国-vmess-206.189.253.18:443-可用-中转:68.183.101.84-仅支持美国地区NF自制剧
+- name: 🇨🇳:中国-vmess-8.219.146.138:23205-可用-直连-仅支持新加坡地区NF自制剧
   type: vmess
-  server: 206.189.253.18
+  server: 8.219.146.138
   network: ws
-  port: 443
-  uuid: d019484c-2181-4d4a-a0fb-302a55351156
+  port: 23205
+  uuid: 442094b1-a2c2-422f-f3cf-7fc0bb134666
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /cctv13/hd.m3u8
+  ws-path: /wss
 - name: 🇨🇳:中国-vmess-49.234.34.180:443-可用-直连-完全不支持NF
   type: vmess
   server: 49.234.34.180
@@ -272,7 +261,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇺🇸:美国-vmess-198.211.4.60:80-可用-直连-仅支持美国地区NF自制剧
+- name: 🇺🇸:美国-vmess-198.211.4.60:80-可用-直连-不支持Netflix
   type: vmess
   server: 198.211.4.60
   network: ws
