@@ -119,14 +119,36 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-vmess-129.150.46.8:36277-可用-直连-解锁新加坡地区NF非自制剧
+- name: 🇺🇸:美国-vmess-20.231.39.239:80-可用-直连-解锁美国地区NF非自制剧
   type: vmess
-  server: 129.150.46.8
+  server: 20.231.39.239
   network: ws
-  port: 36277
-  uuid: f3d972b0-aa7f-499d-85cd-c0c26f9cc15f
+  port: 80
+  uuid: 7e1521db-9b26-4f59-8874-e2d8952b551f
   alterId: 4
   cipher: auto
   udp: false
   tls: false
   ws-path: /
+- name: 🇺🇸:美国-vmess-192.9.139.253:443-可用-直连-解锁美国地区NF非自制剧
+  type: vmess
+  server: 192.9.139.253
+  network: ws
+  port: 443
+  uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /cctv13/hd.m3u8
+- name: 🇸🇬:新加坡-vmess-139.59.235.138:1007-可用-中转:8.20.126.61-解锁德国地区NF非自制剧
+  type: vmess
+  server: 139.59.235.138
+  network: ws
+  port: 1007
+  uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /cctv13/hd.m3u8
