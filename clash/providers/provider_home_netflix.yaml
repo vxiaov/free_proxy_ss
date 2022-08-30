@@ -11,6 +11,28 @@ proxies:
   password: 62b78c9b-16cb-4ee6-824b-a4f856cf18f3
   port: 53555
   cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-vmess-8.219.146.138:23205-可用-直连-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: 8.219.146.138
+  network: ws
+  port: 23205
+  uuid: 442094b1-a2c2-422f-f3cf-7fc0bb134666
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /wss
+- name: 🇸🇬:新加坡-vmess-165.22.60.91:443-可用-直连-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: 165.22.60.91
+  network: ws
+  port: 443
+  uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /cctv13/hd.m3u8
 - name: 🇺🇸:美国-vmess-dynamic-sg2b.obfs.xyz:443-可用-中转:170.187.225.140-仅支持新加坡地区NF自制剧
   type: vmess
   server: dynamic-sg2b.obfs.xyz
@@ -28,6 +50,17 @@ proxies:
   network: ws
   port: 443
   uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇺🇸:美国-vmess-18.167.20.169:8080-可用-直连-仅支持香港地区NF自制剧
+  type: vmess
+  server: 18.167.20.169
+  network: ws
+  port: 8080
+  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
   alterId: 4
   cipher: auto
   udp: false
