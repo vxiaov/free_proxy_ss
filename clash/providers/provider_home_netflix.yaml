@@ -1,4 +1,25 @@
 proxies:
+- name: 🇷🇴:罗马尼亚-ssr-185.126.116.125:9033-可用-直连-仅支持瑞士地区NF自制剧
+  type: ssr
+  server: 185.126.116.125
+  password: UTJA57ypk2XKQpnm
+  obfs: plain
+  protocol: origin
+  port: 9033
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇸🇬:新加坡-vmess-139.59.235.138:1007-可用-中转:8.20.126.61-仅支持德国地区NF自制剧
+  type: vmess
+  server: 139.59.235.138
+  network: ws
+  port: 1007
+  uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /cctv13/hd.m3u8
 - name: 🇸🇬:新加坡-vmess-128.199.188.214:443-可用-直连-仅支持新加坡地区NF自制剧
   type: vmess
   server: 128.199.188.214
