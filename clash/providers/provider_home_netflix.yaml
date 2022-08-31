@@ -11,12 +11,12 @@ proxies:
   password: Zc3c1FtnWm7d
   port: 1499
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-vmess-20.227.152.156:80-可用-直连-仅支持澳大利亚地区NF自制剧
+- name: 🇺🇸:美国-vmess-150.136.49.35:19088-可用-直连-仅支持美国地区NF自制剧
   type: vmess
-  server: 20.227.152.156
+  server: 150.136.49.35
   network: ws
-  port: 80
-  uuid: da45bc49-e9b5-4109-aa5f-ad02efa2f340
+  port: 19088
+  uuid: 69b4577a-ece8-4044-a3f8-85dd3bfc98c8
   alterId: 4
   cipher: auto
   udp: false
@@ -28,6 +28,17 @@ proxies:
   network: ws
   port: 443
   uuid: 2ed609d0-7467-471b-94a9-34a734ccc40a
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /cctv13/hd.m3u8
+- name: 🇸🇬:新加坡-vmess-139.59.235.138:1007-可用-中转:8.20.126.61-仅支持德国地区NF自制剧
+  type: vmess
+  server: 139.59.235.138
+  network: ws
+  port: 1007
+  uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb
   alterId: 4
   cipher: auto
   udp: false
