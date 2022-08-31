@@ -47,12 +47,6 @@ proxies:
   password: KixLvKzwjekG00rm
   port: 5500
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-38.114.114.67:6697-可用-直连-不支持Netflix
-  type: ss
-  server: 38.114.114.67
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  cipher: aes-256-gcm
 - name: 🇳🇱:荷兰-ss-213.183.59.211:9027-可用-直连-不支持Netflix
   type: ss
   server: 213.183.59.211
@@ -83,17 +77,17 @@ proxies:
   password: daFYagqDdBdA6VTX
   port: 9073
   cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-213.183.53.198:9025-可用-直连-完全不支持NF
+- name: 🇷🇺:俄罗斯-ss-213.183.53.198:9025-可用-直连-不支持Netflix
   type: ss
   server: 213.183.53.198
   password: XPtzA9sCug3SPR4c
   port: 9025
   cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-213.183.53.198:9057-可用-直连-完全不支持NF
+- name: 🇳🇱:荷兰-ss-213.183.59.218:9043-可用-直连-不支持Netflix
   type: ss
-  server: 213.183.53.198
-  password: wjTugX3ZtHMB9c3Z
-  port: 9057
+  server: 213.183.59.218
+  password: HSZuyJQcWe8dxNdF
+  port: 9043
   cipher: aes-256-cfb
 - name: 🇨🇳:中国-ss-183.240.196.147:31905-可用-中转:103.105.50.108-不支持Netflix
   type: ss
@@ -129,7 +123,7 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 🇷🇴:罗马尼亚-ssr-185.126.116.125:9033-可用-直连-仅支持瑞士地区NF自制剧
+- name: 🇷🇴:罗马尼亚-ssr-185.126.116.125:9033-可用-直连-不支持Netflix
   type: ssr
   server: 185.126.116.125
   password: UTJA57ypk2XKQpnm
@@ -216,6 +210,28 @@ proxies:
   udp: false
   tls: false
   ws-path: /cctv13/hd.m3u8
+- name: 🇮🇳:印度-vmess-147.139.7.71:888-可用-直连-不支持Netflix
+  type: vmess
+  server: 147.139.7.71
+  network: ws
+  port: 888
+  uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: ''
+- name: 🇺🇸:美国-vmess-18.167.20.169:8080-可用-直连-仅支持香港地区NF自制剧
+  type: vmess
+  server: 18.167.20.169
+  network: ws
+  port: 8080
+  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇨🇳:中国-vmess-110.42.138.122:18080-可用-直连-完全不支持NF
   type: vmess
   server: 110.42.138.122
@@ -238,17 +254,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇸🇬:新加坡-vmess-128.199.188.214:443-可用-直连-仅支持新加坡地区NF自制剧
-  type: vmess
-  server: 128.199.188.214
-  network: ws
-  port: 443
-  uuid: 1b41d609-0d07-4dfd-b985-3cd08812dd5f
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /cctv13/hd.m3u8
 - name: 🇨🇳:中国-vmess-49.234.34.180:443-可用-直连-完全不支持NF
   type: vmess
   server: 49.234.34.180
