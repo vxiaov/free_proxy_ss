@@ -1,21 +1,16 @@
 proxies:
-- name: 🇺🇸:美国-vmess-164.90.244.211:443-可用-中转:164.92.69.28-仅支持美国地区NF自制剧
-  type: vmess
-  server: 164.90.244.211
-  network: ws
-  port: 443
-  uuid: 2ed609d0-7467-471b-94a9-34a734ccc40a
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /cctv13/hd.m3u8
+- name: 🇨🇳:中国-ss-43.248.96.249:12233-可用-中转:45.15.21.107-仅支持美国地区NF自制剧
+  type: ss
+  server: 43.248.96.249
+  password: 62b78c9b-16cb-4ee6-824b-a4f856cf18f3
+  port: 12233
+  cipher: chacha20-ietf-poly1305
 - name: 🇸🇬:新加坡-vmess-139.59.235.138:1007-可用-中转:8.20.126.61-仅支持德国地区NF自制剧
   type: vmess
   server: 139.59.235.138
   network: ws
   port: 1007
-  uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb
+  uuid: 157ab24c-2f02-44d2-b211-6d70612c9f64
   alterId: 4
   cipher: auto
   udp: false
