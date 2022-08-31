@@ -35,6 +35,12 @@ dns:
     - 240.0.0.0/4
 # 个人节点
 proxies:
+- name: 🇺🇸:美国-ss-38.75.136.34:8091-可用-直连-不支持Netflix
+  type: ss
+  server: 38.75.136.34
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-38.91.107.37:5003-可用-直连-不支持Netflix
   type: ss
   server: 38.91.107.37
@@ -71,6 +77,12 @@ proxies:
   password: akGvXeowpCct
   port: 47695
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-38.75.136.34:9101-可用-直连-不支持Netflix
+  type: ss
+  server: 38.75.136.34
+  password: e4FCWrgpkji3QY
+  port: 9101
+  cipher: aes-256-gcm
 - name: 🇷🇺:俄罗斯-ss-91.206.92.176:35030-可用-直连-不支持Netflix
   type: ss
   server: 91.206.92.176
@@ -185,24 +197,18 @@ proxies:
   password: EXN3S3eQpjE7EJu8
   port: 9027
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-38.75.136.34:8091-可用-直连-不支持Netflix
-  type: ss
-  server: 38.75.136.34
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  cipher: aes-256-gcm
 - name: 🇳🇱:荷兰-ss-213.183.59.218:9053-可用-直连-不支持Netflix
   type: ss
   server: 213.183.59.218
   password: SBM7R883jBmnqe6C
   port: 9053
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-38.75.136.34:9101-可用-直连-不支持Netflix
+- name: 🇳🇱:荷兰-ss-213.183.59.211:9073-可用-直连-不支持Netflix
   type: ss
-  server: 38.75.136.34
-  password: e4FCWrgpkji3QY
-  port: 9101
-  cipher: aes-256-gcm
+  server: 213.183.59.211
+  password: daFYagqDdBdA6VTX
+  port: 9073
+  cipher: aes-256-cfb
 - name: 🇷🇺:俄罗斯-ss-213.183.53.198:9010-可用-直连-完全不支持NF
   type: ss
   server: 213.183.53.198
@@ -558,6 +564,7 @@ proxy-groups:
   - 🇳🇱:荷兰-ss-213.183.59.218:9053-可用-直连-不支持Netflix
   - 🇳🇱:荷兰-ss-213.183.59.218:9043-可用-直连-不支持Netflix
   - 🇳🇱:荷兰-ss-213.183.59.214:9084-可用-直连-不支持Netflix
+  - 🇳🇱:荷兰-ss-213.183.59.211:9073-可用-直连-不支持Netflix
   - 🇳🇱:荷兰-ss-213.183.59.211:9027-可用-直连-不支持Netflix
   - 🇳🇱:荷兰-ss-213.183.59.211:9010-可用-直连-不支持Netflix
   - 🇮🇳:印度-vmess-147.139.7.71:888-可用-直连-仅支持印度地区NF自制剧
