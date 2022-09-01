@@ -1,22 +1,21 @@
 proxies:
-- name: 🇺🇸:美国-ss-20.211.107.37:8080-可用-直连-仅支持澳大利亚地区NF自制剧
-  type: ss
-  server: 20.211.107.37
-  password: d218e51a-258f-43d2-8ce3-c8872611bf28
-  port: 8080
-  cipher: aes-256-gcm
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9001-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
   server: 185.126.116.123
   password: UkXRsXvR6buDMG2Y
   port: 9001
   cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9005-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.123
-  password: ZET59LF6DvCC8KVt
-  port: 9005
-  cipher: aes-256-cfb
+- name: 🇺🇸:美国-vmess-20.211.107.37:80-可用-直连-仅支持澳大利亚地区NF自制剧
+  type: vmess
+  server: 20.211.107.37
+  network: ws
+  port: 80
+  uuid: d218e51a-258f-43d2-8ce3-c8872611bf28
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇺🇸:美国-vmess-20.227.152.156:80-可用-直连-仅支持澳大利亚地区NF自制剧
   type: vmess
   server: 20.227.152.156
@@ -39,14 +38,3 @@ proxies:
   udp: false
   tls: false
   ws-path: ''
-- name: 🇺🇸:美国-vmess-18.167.20.169:8080-可用-直连-仅支持香港地区NF自制剧
-  type: vmess
-  server: 18.167.20.169
-  network: ws
-  port: 8080
-  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
