@@ -1,9 +1,39 @@
 proxies:
+- name: 🇺🇸:美国-ss-20.104.183.100:8080-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 20.104.183.100
+  password: bbc60352-fa0b-4ec6-8b33-bd1df051e9c1
+  port: 8080
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-20.211.107.37:8080-可用-直连-仅支持澳大利亚地区NF自制剧
+  type: ss
+  server: 20.211.107.37
+  password: d218e51a-258f-43d2-8ce3-c8872611bf28
+  port: 8080
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-20.104.96.194:8080-可用-直连-仅支持加拿大地区NF自制剧
+  type: ss
+  server: 20.104.96.194
+  password: da45bc49-e9b5-4109-aa5f-ad02efa2f340
+  port: 8080
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-20.9.46.251:8080-可用-直连-仅支持美国地区NF自制剧
+  type: ss
+  server: 20.9.46.251
+  password: bbc60352-fa0b-4ec6-8b33-bd1df051e9c1
+  port: 8080
+  cipher: aes-256-gcm
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9001-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
   server: 185.126.116.123
   password: UkXRsXvR6buDMG2Y
   port: 9001
+  cipher: aes-256-cfb
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9038-可用-直连-仅支持瑞士地区NF自制剧
+  type: ss
+  server: 185.126.116.123
+  password: gYCYXfkUQEs2TaJQ
+  port: 9038
   cipher: aes-256-cfb
 - name: 🇺🇸:美国-vmess-20.211.107.37:80-可用-直连-仅支持澳大利亚地区NF自制剧
   type: vmess
@@ -27,14 +57,25 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇮🇳:印度-vmess-147.139.7.71:888-可用-直连-仅支持印度地区NF自制剧
+- name: 🇰🇷:韩国-vmess-152.67.218.38:443-可用-直连-仅支持韩国地区NF自制剧
   type: vmess
-  server: 147.139.7.71
+  server: 152.67.218.38
   network: ws
-  port: 888
-  uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
+  port: 443
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: ''
+  ws-path: /
+- name: 🇸🇬:新加坡-vmess-128.199.188.214:443-可用-直连-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: 128.199.188.214
+  network: ws
+  port: 443
+  uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /cctv13/hd.m3u8
