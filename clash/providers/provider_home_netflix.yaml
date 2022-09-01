@@ -49,23 +49,23 @@ proxies:
   udp: false
   tls: false
   ws-path: /cctv13/hd.m3u8
-- name: 🇺🇸:美国-vmess-192.53.117.130:18485-可用-直连-仅支持新加坡地区NF自制剧
-  type: vmess
-  server: 192.53.117.130
-  network: ws
-  port: 18485
-  uuid: e25c5a18-cc53-49a7-c8d0-c2077db0b5ee
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
 - name: 🇸🇬:新加坡-vmess-128.199.188.214:443-可用-直连-仅支持新加坡地区NF自制剧
   type: vmess
   server: 128.199.188.214
   network: ws
   port: 443
   uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /cctv13/hd.m3u8
+- name: 🇺🇸:美国-vmess-206.189.253.18:443-可用-中转:68.183.101.84-仅支持美国地区NF自制剧
+  type: vmess
+  server: 206.189.253.18
+  network: ws
+  port: 443
+  uuid: 2ed609d0-7467-471b-94a9-34a734ccc40a
   alterId: 4
   cipher: auto
   udp: false
