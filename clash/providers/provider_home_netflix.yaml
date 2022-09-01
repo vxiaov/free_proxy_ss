@@ -11,12 +11,6 @@ proxies:
   password: UkXRsXvR6buDMG2Y
   port: 9001
   cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9038-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.123
-  password: gYCYXfkUQEs2TaJQ
-  port: 9038
-  cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9070-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
   server: 185.126.116.123
@@ -88,7 +82,7 @@ proxies:
   cipher: auto
   udp: false
   tls: false
-  ws-path: ''
+  ws-path: /
 - name: 🇺🇸:美国-vmess-20.9.46.251:80-可用-直连-仅支持美国地区NF自制剧
   type: vmess
   server: 20.9.46.251
@@ -144,34 +138,23 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇨🇳:中国-vmess-47.240.51.89:55214-可用-直连-仅支持香港地区NF自制剧
+  type: vmess
+  server: 47.240.51.89
+  network: ws
+  port: 55214
+  uuid: d5d8b40a-a301-496f-9bc3-2a2ca16ede1e
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇺🇸:美国-vmess-20.211.107.37:80-可用-直连-仅支持澳大利亚地区NF自制剧
   type: vmess
   server: 20.211.107.37
   network: ws
   port: 80
   uuid: d218e51a-258f-43d2-8ce3-c8872611bf28
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-150.136.49.35:19088-可用-直连-仅支持美国地区NF自制剧
-  type: vmess
-  server: 150.136.49.35
-  network: ws
-  port: 19088
-  uuid: 69b4577a-ece8-4044-a3f8-85dd3bfc98c8
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇰🇷:韩国-vmess-152.67.218.38:443-可用-直连-仅支持韩国地区NF自制剧
-  type: vmess
-  server: 152.67.218.38
-  network: ws
-  port: 443
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
   alterId: 4
   cipher: auto
   udp: false
@@ -199,3 +182,14 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇺🇸:美国-vmess-206.189.253.18:443-可用-中转:68.183.101.84-仅支持美国地区NF自制剧
+  type: vmess
+  server: 206.189.253.18
+  network: ws
+  port: 443
+  uuid: 2ed609d0-7467-471b-94a9-34a734ccc40a
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /cctv13/hd.m3u8
