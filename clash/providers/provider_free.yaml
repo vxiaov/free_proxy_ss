@@ -53,12 +53,6 @@ proxies:
   password: KixLvKzwjekG00rm
   port: 5500
   cipher: aes-256-gcm
-- name: 🇳🇱:荷兰-ss-213.183.59.211:9027-可用-直连-不支持Netflix
-  type: ss
-  server: 213.183.59.211
-  password: EXN3S3eQpjE7EJu8
-  port: 9027
-  cipher: aes-256-cfb
 - name: 🇳🇱:荷兰-ss-213.183.59.211:9011-可用-直连-不支持Netflix
   type: ss
   server: 213.183.59.211
@@ -83,29 +77,17 @@ proxies:
   password: XPtzA9sCug3SPR4c
   port: 9025
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-183.240.196.147:32201-可用-中转:114.37.201.188-不支持Netflix
-  type: ss
-  server: 183.240.196.147
-  password: bBEXIq
-  port: 32201
-  cipher: aes-256-gcm
-- name: 🇷🇺:俄罗斯-ss-213.183.53.198:9010-可用-直连-完全不支持NF
-  type: ss
-  server: 213.183.53.198
-  password: f63gg8EruDnUrmz4
-  port: 9010
-  cipher: aes-256-cfb
 - name: 🇷🇺:俄罗斯-ss-213.183.53.198:9057-可用-直连-完全不支持NF
   type: ss
   server: 213.183.53.198
   password: wjTugX3ZtHMB9c3Z
   port: 9057
   cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9005-可用-直连-仅支持瑞士地区NF自制剧
+- name: 🇳🇱:荷兰-ss-213.183.59.211:9010-可用-直连-不支持Netflix
   type: ss
-  server: 185.126.116.123
-  password: ZET59LF6DvCC8KVt
-  port: 9005
+  server: 213.183.59.211
+  password: f63gg8EruDnUrmz4
+  port: 9010
   cipher: aes-256-cfb
 - name: 🇳🇱:荷兰-ss-213.183.59.191:9073-可用-直连-不支持Netflix
   type: ss
@@ -245,23 +227,23 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇺🇸:美国-vmess-164.90.244.211:443-可用-中转:164.92.69.28-仅支持美国地区NF自制剧
+  type: vmess
+  server: 164.90.244.211
+  network: ws
+  port: 443
+  uuid: 2ed609d0-7467-471b-94a9-34a734ccc40a
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /cctv13/hd.m3u8
 - name: 🇨🇳:中国-vmess-47.93.231.218:53022-可用-直连-完全不支持NF
   type: vmess
   server: 47.93.231.218
   network: ws
   port: 53022
   uuid: 95fd7642-2160-4528-e909-3d526b533013
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇰🇷:韩国-vmess-152.67.218.38:443-可用-直连-仅支持韩国地区NF自制剧
-  type: vmess
-  server: 152.67.218.38
-  network: ws
-  port: 443
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
   alterId: 4
   cipher: auto
   udp: false
@@ -278,17 +260,6 @@ proxies:
   udp: false
   tls: false
   ws-path: ''
-- name: 🇺🇸:美国-vmess-18.167.20.169:8080-可用-直连-仅支持香港地区NF自制剧
-  type: vmess
-  server: 18.167.20.169
-  network: ws
-  port: 8080
-  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
 - name: 🇨🇳:中国-vmess-110.42.138.122:18080-可用-直连-完全不支持NF
   type: vmess
   server: 110.42.138.122
@@ -317,17 +288,6 @@ proxies:
   network: ws
   port: 443
   uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /cctv13/hd.m3u8
-- name: 🇺🇸:美国-vmess-206.189.253.18:443-可用-中转:68.183.101.84-仅支持美国地区NF自制剧
-  type: vmess
-  server: 206.189.253.18
-  network: ws
-  port: 443
-  uuid: 2ed609d0-7467-471b-94a9-34a734ccc40a
   alterId: 4
   cipher: auto
   udp: false
