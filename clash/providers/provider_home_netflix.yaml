@@ -1,21 +1,21 @@
 proxies:
-- name: 🇨🇳:中国-ss-43.248.96.249:12233-可用-中转:45.15.21.107-仅支持美国地区NF自制剧
-  type: ss
-  server: 43.248.96.249
-  password: 62b78c9b-16cb-4ee6-824b-a4f856cf18f3
-  port: 12233
-  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-172.105.242.17:20020-可用-直连-仅支持日本地区NF自制剧
   type: ss
   server: 172.105.242.17
   password: '200000000000000000000020'
   port: 20020
   cipher: aes-128-gcm
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9038-可用-直连-仅支持瑞士地区NF自制剧
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9001-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
   server: 185.126.116.123
-  password: gYCYXfkUQEs2TaJQ
-  port: 9038
+  password: UkXRsXvR6buDMG2Y
+  port: 9001
+  cipher: aes-256-cfb
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9000-可用-直连-仅支持瑞士地区NF自制剧
+  type: ss
+  server: 185.126.116.123
+  password: a3GFYt36Sm82Vys9
+  port: 9000
   cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9070-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
@@ -23,138 +23,28 @@ proxies:
   password: bf7v334KKDV3YDhH
   port: 9070
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-vmess-20.227.152.156:80-可用-直连-仅支持澳大利亚地区NF自制剧
+- name: 🇮🇳:印度-vmess-147.139.7.71:888-可用-直连-仅支持印度地区NF自制剧
   type: vmess
-  server: 20.227.152.156
+  server: 147.139.7.71
   network: ws
-  port: 80
-  uuid: da45bc49-e9b5-4109-aa5f-ad02efa2f340
+  port: 888
+  uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-20.10.159.29:80-可用-直连-仅支持美国地区NF自制剧
+  ws-path: ''
+- name: 🇺🇸:美国-vmess-170.187.231.101:20000-可用-直连-仅支持新加坡地区NF自制剧
   type: vmess
-  server: 20.10.159.29
+  server: 170.187.231.101
   network: ws
-  port: 80
-  uuid: d218e51a-258f-43d2-8ce3-c8872611bf28
+  port: 20000
+  uuid: b88849e9-3f10-4494-a785-828b1da5ecbb
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /
-- name: 🇳🇱:荷兰-vmess-52.232.66.152:80-可用-直连-仅支持荷兰地区NF自制剧
-  type: vmess
-  server: 52.232.66.152
-  network: ws
-  port: 80
-  uuid: 498817b2-d42e-4083-b193-ddfe22cf6887
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-20.104.96.194:80-可用-直连-仅支持加拿大地区NF自制剧
-  type: vmess
-  server: 20.104.96.194
-  network: ws
-  port: 80
-  uuid: d218e51a-258f-43d2-8ce3-c8872611bf28
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-20.89.43.106:80-可用-直连-仅支持日本地区NF自制剧
-  type: vmess
-  server: 20.89.43.106
-  network: ws
-  port: 80
-  uuid: f3cd0282-a0a3-47c4-9e81-87b39b46f58d
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-20.9.46.251:80-可用-直连-仅支持美国地区NF自制剧
-  type: vmess
-  server: 20.9.46.251
-  network: ws
-  port: 80
-  uuid: bbc60352-fa0b-4ec6-8b33-bd1df051e9c1
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇸🇬:新加坡-vmess-128.199.188.214:443-可用-直连-仅支持新加坡地区NF自制剧
-  type: vmess
-  server: 128.199.188.214
-  network: ws
-  port: 443
-  uuid: 3f724115-8ca2-4aa4-b8cc-eb72d9b6b1ef
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /cctv13/hd.m3u8
-- name: 🇺🇸:美国-vmess-20.239.195.254:80-可用-直连-仅支持香港地区NF自制剧
-  type: vmess
-  server: 20.239.195.254
-  network: ws
-  port: 80
-  uuid: 498817b2-d42e-4083-b193-ddfe22cf6887
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-20.104.183.100:80-可用-直连-仅支持加拿大地区NF自制剧
-  type: vmess
-  server: 20.104.183.100
-  network: ws
-  port: 80
-  uuid: bbc60352-fa0b-4ec6-8b33-bd1df051e9c1
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-20.90.249.210:80-可用-直连-仅支持英国地区NF自制剧
-  type: vmess
-  server: 20.90.249.210
-  network: ws
-  port: 80
-  uuid: f3cd0282-a0a3-47c4-9e81-87b39b46f58d
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇨🇳:中国-vmess-47.240.51.89:55214-可用-直连-仅支持香港地区NF自制剧
-  type: vmess
-  server: 47.240.51.89
-  network: ws
-  port: 55214
-  uuid: d5d8b40a-a301-496f-9bc3-2a2ca16ede1e
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-20.211.107.37:80-可用-直连-仅支持澳大利亚地区NF自制剧
-  type: vmess
-  server: 20.211.107.37
-  network: ws
-  port: 80
-  uuid: d218e51a-258f-43d2-8ce3-c8872611bf28
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
+  ws-path: /live
 - name: 🇺🇸:美国-vmess-150.136.49.35:19088-可用-直连-仅支持美国地区NF自制剧
   type: vmess
   server: 150.136.49.35
@@ -177,3 +67,14 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇯🇵:日本-vmess-139.162.68.243:20000-可用-直连-仅支持日本地区NF自制剧
+  type: vmess
+  server: 139.162.68.243
+  network: ws
+  port: 20000
+  uuid: b88849e9-3f10-4494-a785-828b1da5ecbb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /live
