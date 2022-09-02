@@ -1,4 +1,10 @@
 proxies:
+- name: 🇨🇳:中国-ss-36.137.199.50:5406-可用-中转:46.232.121.7-仅支持香港地区NF自制剧
+  type: ss
+  server: 36.137.199.50
+  password: 0a228809-a1d7-4143-944a-071b105ab9c7
+  port: 5406
+  cipher: aes-128-gcm
 - name: 🇯🇵:日本-ss-193.38.139.204:809-可用-中转:193.38.139.201-仅支持日本地区NF自制剧
   type: ss
   server: 193.38.139.204
@@ -11,6 +17,17 @@ proxies:
   password: '200000000000000000000020'
   port: 20020
   cipher: aes-128-gcm
+- name: 🇮🇳:印度-vmess-147.139.7.71:888-可用-直连-仅支持印度地区NF自制剧
+  type: vmess
+  server: 147.139.7.71
+  network: ws
+  port: 888
+  uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇸🇬:新加坡-vmess-128.199.188.214:443-可用-直连-仅支持新加坡地区NF自制剧
   type: vmess
   server: 128.199.188.214
@@ -28,17 +45,6 @@ proxies:
   network: ws
   port: 19088
   uuid: 69b4577a-ece8-4044-a3f8-85dd3bfc98c8
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇰🇷:韩国-vmess-152.67.218.38:443-可用-直连-仅支持韩国地区NF自制剧
-  type: vmess
-  server: 152.67.218.38
-  network: ws
-  port: 443
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
   alterId: 4
   cipher: auto
   udp: false
