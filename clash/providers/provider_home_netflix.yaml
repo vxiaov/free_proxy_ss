@@ -11,18 +11,17 @@ proxies:
   password: G!yBwPWH3Vao
   port: 809
   cipher: chacha20-ietf-poly1305
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9042-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.123
-  password: S7KwUu7yBy58S3Ga
-  port: 9042
-  cipher: aes-256-cfb
-- name: 🇯🇵:日本-ss-172.105.242.17:20020-可用-直连-仅支持日本地区NF自制剧
-  type: ss
-  server: 172.105.242.17
-  password: '200000000000000000000020'
-  port: 20020
-  cipher: aes-128-gcm
+- name: 🇮🇳:印度-vmess-147.139.7.71:888-可用-直连-仅支持印度地区NF自制剧
+  type: vmess
+  server: 147.139.7.71
+  network: ws
+  port: 888
+  uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇸🇬:新加坡-vmess-128.199.188.214:443-可用-直连-仅支持新加坡地区NF自制剧
   type: vmess
   server: 128.199.188.214
@@ -34,3 +33,14 @@ proxies:
   udp: false
   tls: false
   ws-path: /cctv13/hd.m3u8
+- name: 🇺🇸:美国-vmess-18.167.94.243:36831-可用-直连-仅支持香港地区NF自制剧
+  type: vmess
+  server: 18.167.94.243
+  network: ws
+  port: 36831
+  uuid: 5b979e45-2697-49ce-8903-70a1c5787702
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
