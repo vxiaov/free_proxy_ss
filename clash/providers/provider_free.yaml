@@ -65,11 +65,11 @@ proxies:
   password: BNmAXXxAHYpTRdzu
   port: 9020
   cipher: aes-256-cfb
-- name: 🇳🇱:荷兰-ss-213.183.59.211:9070-可用-直连-不支持Netflix
+- name: 🇦🇺:澳大利亚-ss-185.167.116.253:9050-可用-直连-不支持Netflix
   type: ss
-  server: 213.183.59.211
-  password: bf7v334KKDV3YDhH
-  port: 9070
+  server: 185.167.116.253
+  password: FG5ddLsMPbV5CutE
+  port: 9050
   cipher: aes-256-cfb
 - name: 🇳🇱:荷兰-ss-213.183.59.211:9073-可用-直连-不支持Netflix
   type: ss
@@ -77,17 +77,17 @@ proxies:
   password: daFYagqDdBdA6VTX
   port: 9073
   cipher: aes-256-cfb
+- name: 🇷🇺:俄罗斯-ss-213.183.53.198:9025-可用-直连-完全不支持NF
+  type: ss
+  server: 213.183.53.198
+  password: XPtzA9sCug3SPR4c
+  port: 9025
+  cipher: aes-256-cfb
 - name: 🇷🇺:俄罗斯-ss-213.183.53.198:9010-可用-直连-完全不支持NF
   type: ss
   server: 213.183.53.198
   password: f63gg8EruDnUrmz4
   port: 9010
-  cipher: aes-256-cfb
-- name: 🇩🇪:德国-ss-165.22.73.126:23335-可用-直连-不支持Netflix
-  type: ss
-  server: 165.22.73.126
-  password: 7d99ae502227454ea998d71e4b62a388
-  port: 23335
   cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9001-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
@@ -95,11 +95,11 @@ proxies:
   password: UkXRsXvR6buDMG2Y
   port: 9001
   cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-213.183.53.198:9057-可用-直连-完全不支持NF
+- name: 🇩🇪:德国-ss-165.22.73.126:23335-可用-直连-不支持Netflix
   type: ss
-  server: 213.183.53.198
-  password: wjTugX3ZtHMB9c3Z
-  port: 9057
+  server: 165.22.73.126
+  password: 7d99ae502227454ea998d71e4b62a388
+  port: 23335
   cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9038-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
@@ -113,17 +113,17 @@ proxies:
   password: Lp27rqyJq72bZsqX
   port: 9045
   cipher: aes-256-cfb
+- name: 🇦🇺:澳大利亚-ss-185.167.116.253:9014-可用-直连-不支持Netflix
+  type: ss
+  server: 185.167.116.253
+  password: KnJGad3FqTvjqbaX
+  port: 9014
+  cipher: aes-256-cfb
 - name: 🇳🇱:荷兰-ss-213.183.59.211:9042-可用-直连-不支持Netflix
   type: ss
   server: 213.183.59.211
   password: S7KwUu7yBy58S3Ga
   port: 9042
-  cipher: aes-256-cfb
-- name: 🇳🇱:荷兰-ss-213.183.59.191:9003-可用-直连-不支持Netflix
-  type: ss
-  server: 213.183.59.191
-  password: JdmRK9gMEqFgs8nP
-  port: 9003
   cipher: aes-256-cfb
 - name: 🇳🇱:荷兰-ss-213.183.59.191:9064-可用-直连-不支持Netflix
   type: ss
@@ -131,12 +131,22 @@ proxies:
   password: cp8pRSUAyLhTfVWH
   port: 9064
   cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9070-可用-直连-仅支持瑞士地区NF自制剧
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9070-可用-直连-不支持Netflix
   type: ss
   server: 185.126.116.123
   password: bf7v334KKDV3YDhH
   port: 9070
   cipher: aes-256-cfb
+- name: 🇳🇱:荷兰-ssr-213.183.59.211:9064-可用-直连-不支持Netflix
+  type: ssr
+  server: 213.183.59.211
+  password: cp8pRSUAyLhTfVWH
+  obfs: plain
+  protocol: origin
+  port: 9064
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 🇨🇳:中国-vmess-106.12.168.13:23117-可用-直连-完全不支持NF
   type: vmess
   server: 106.12.168.13
@@ -153,7 +163,7 @@ proxies:
   server: 192.9.139.253
   network: ws
   port: 443
-  uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a
+  uuid: 2ed609d0-7467-471b-94a9-34a734ccc40a
   alterId: 4
   cipher: auto
   udp: false
@@ -269,6 +279,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇮🇳:印度-vmess-147.139.7.71:888-可用-直连-仅支持印度地区NF自制剧
+  type: vmess
+  server: 147.139.7.71
+  network: ws
+  port: 888
+  uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: ''
 - name: 🇺🇸:美国-vmess-20.9.46.251:80-可用-直连-仅支持美国地区NF自制剧
   type: vmess
   server: 20.9.46.251
@@ -379,23 +400,23 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇨🇳:中国-vmess-47.240.51.89:55214-可用-直连-仅支持香港地区NF自制剧
+  type: vmess
+  server: 47.240.51.89
+  network: ws
+  port: 55214
+  uuid: d5d8b40a-a301-496f-9bc3-2a2ca16ede1e
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇺🇸:美国-vmess-20.211.107.37:80-可用-直连-仅支持澳大利亚地区NF自制剧
   type: vmess
   server: 20.211.107.37
   network: ws
   port: 80
   uuid: d218e51a-258f-43d2-8ce3-c8872611bf28
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-150.136.49.35:19088-可用-直连-仅支持美国地区NF自制剧
-  type: vmess
-  server: 150.136.49.35
-  network: ws
-  port: 19088
-  uuid: 69b4577a-ece8-4044-a3f8-85dd3bfc98c8
   alterId: 4
   cipher: auto
   udp: false
@@ -434,7 +455,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /cctv13/hd.m3u8
-- name: 🇺🇸:美国-vmess-18.167.94.243:36831-可用-直连-仅支持香港地区NF自制剧
+- name: 🇺🇸:美国-vmess-18.167.94.243:36831-可用-直连-不支持Netflix
   type: vmess
   server: 18.167.94.243
   network: ws
