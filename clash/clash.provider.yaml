@@ -1,55 +1,7 @@
 proxies:
-- name: 🇨🇳:中国-ss-i1.go001.buzz:31905-可用-中转:103.105.50.108-不支持Netflix
-  type: ss
-  server: i1.go001.buzz
-  password: bBEXIq
-  port: 31905
-  cipher: aes-256-gcm
-- name: 🇳🇱:荷兰-ss-213.183.59.211:9073-可用-直连-不支持Netflix
-  type: ss
-  server: 213.183.59.211
-  password: daFYagqDdBdA6VTX
-  port: 9073
-  cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-97.64.122.63:253-可用-直连-不支持Netflix
-  type: ss
-  server: 97.64.122.63
-  password: bwhskrskr05
-  port: 253
-  cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-120.240.47.72:2715-可用-中转:212.107.29.168-解锁香港地区NF非自制剧
-  type: ss
-  server: 120.240.47.72
-  password: 5otzk5bmlo6
-  port: 2715
-  cipher: rc4-md5
 - name: 🇺🇸:美国-ss-38.91.107.72:5500-可用-直连-不支持Netflix
   type: ss
   server: 38.91.107.72
-  password: KixLvKzwjekG00rm
-  port: 5500
-  cipher: aes-256-gcm
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9070-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.123
-  password: bf7v334KKDV3YDhH
-  port: 9070
-  cipher: aes-256-cfb
-- name: 🇳🇱:荷兰-ss-213.183.59.191:9064-可用-直连-不支持Netflix
-  type: ss
-  server: 213.183.59.191
-  password: cp8pRSUAyLhTfVWH
-  port: 9064
-  cipher: aes-256-cfb
-- name: 🇯🇵:日本-ss-172.105.242.17:20020-可用-直连-仅支持日本地区NF自制剧
-  type: ss
-  server: 172.105.242.17
-  password: '200000000000000000000020'
-  port: 20020
-  cipher: aes-128-gcm
-- name: 🇺🇸:美国-ss-38.91.107.66:5500-可用-直连-不支持Netflix
-  type: ss
-  server: 38.91.107.66
   password: KixLvKzwjekG00rm
   port: 5500
   cipher: aes-256-gcm
@@ -65,6 +17,24 @@ proxies:
   password: KixLvKzwjekG00rm
   port: 8080
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-38.91.107.66:5500-可用-直连-不支持Netflix
+  type: ss
+  server: 38.91.107.66
+  password: KixLvKzwjekG00rm
+  port: 5500
+  cipher: aes-256-gcm
+- name: 🇳🇱:荷兰-ss-213.183.59.211:9073-可用-直连-不支持Netflix
+  type: ss
+  server: 213.183.59.211
+  password: daFYagqDdBdA6VTX
+  port: 9073
+  cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-120.240.47.72:2715-可用-中转:212.107.29.169-解锁香港地区NF非自制剧
+  type: ss
+  server: 120.240.47.72
+  password: 5otzk5bmlo6
+  port: 2715
+  cipher: rc4-md5
 - name: 🇺🇸:美国-vmess-la60cf.hotfun.buzz:2087-可用-中转:107.148.27.218-仅支持美国地区NF自制剧
   type: vmess
   server: la60cf.hotfun.buzz
@@ -126,9 +96,10 @@ proxies:
   network: ws
   port: 443
   uuid: 6e0a01f3-4fce-4cdd-ab05-ee5d2254b058
-  alterId: 0
+  alterId: 4
   cipher: auto
   udp: false
+  tls: false
   ws-path: /
 - name: 🇨🇳:中国-vmess-in-sg-1.onebox6.org:38701-可用-中转:194.233.66.47-不支持Netflix
   type: vmess
