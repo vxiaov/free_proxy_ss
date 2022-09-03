@@ -1,7 +1,24 @@
 proxies:
+- name: 🇨🇳:中国-ss-36.137.14.210:16914-可用-中转:45.88.41.238-仅支持日本地区NF自制剧
+  type: ss
+  server: 36.137.14.210
+  password: 6367e137-7366-44e4-a7a1-eba23a6d1e93
+  port: 16914
+  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-193.38.139.204:809-可用-中转:193.38.139.201-仅支持日本地区NF自制剧
   type: ss
   server: 193.38.139.204
   password: G!yBwPWH3Vao
   port: 809
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-vmess-18.167.94.243:36831-可用-直连-仅支持香港地区NF自制剧
+  type: vmess
+  server: 18.167.94.243
+  network: ws
+  port: 36831
+  uuid: 5b979e45-2697-49ce-8903-70a1c5787702
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /

@@ -5,12 +5,125 @@ proxies:
   password: KixLvKzwjekG00rm
   port: 8080
   cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-183.240.196.147:32201-可用-中转:114.37.190.242-不支持Netflix
+  type: ss
+  server: 183.240.196.147
+  password: bBEXIq
+  port: 32201
+  cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-183.240.196.147:31905-可用-中转:103.105.50.108-不支持Netflix
+  type: ss
+  server: 183.240.196.147
+  password: bBEXIq
+  port: 31905
+  cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-36.137.14.210:16914-可用-中转:45.88.41.238-仅支持日本地区NF自制剧
+  type: ss
+  server: 36.137.14.210
+  password: 6367e137-7366-44e4-a7a1-eba23a6d1e93
+  port: 16914
+  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-193.38.139.204:809-可用-中转:193.38.139.201-仅支持日本地区NF自制剧
   type: ss
   server: 193.38.139.204
   password: G!yBwPWH3Vao
   port: 809
   cipher: chacha20-ietf-poly1305
+- name: 🇳🇱:荷兰-ss-213.183.59.211:9073-可用-直连-不支持Netflix
+  type: ss
+  server: 213.183.59.211
+  password: daFYagqDdBdA6VTX
+  port: 9073
+  cipher: aes-256-cfb
+- name: 🇳🇱:荷兰-ss-213.183.59.211:9042-可用-直连-不支持Netflix
+  type: ss
+  server: 213.183.59.211
+  password: S7KwUu7yBy58S3Ga
+  port: 9042
+  cipher: aes-256-cfb
+- name: 🇳🇱:荷兰-ss-213.183.59.191:9064-可用-直连-不支持Netflix
+  type: ss
+  server: 213.183.59.191
+  password: cp8pRSUAyLhTfVWH
+  port: 9064
+  cipher: aes-256-cfb
+- name: 🇨🇳:中国-vmess-106.12.168.13:23117-可用-直连-完全不支持NF
+  type: vmess
+  server: 106.12.168.13
+  network: ws
+  port: 23117
+  uuid: 6479ce34-0355-422d-d07e-d74116866fd2
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇨🇳:中国-vmess-106.12.168.13:13156-可用-直连-完全不支持NF
+  type: vmess
+  server: 106.12.168.13
+  network: ws
+  port: 13156
+  uuid: 9bf4cba4-9e9e-4da4-8e65-f7c487c539df
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇨🇳:中国-vmess-120.240.55.137:38401-可用-中转:104.249.174.138-不支持Netflix
+  type: vmess
+  server: 120.240.55.137
+  network: ws
+  port: 38401
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /hls/cctv5phd.m3u8
+- name: 🇨🇳:中国-vmess-120.240.55.137:38701-可用-中转:194.233.66.47-不支持Netflix
+  type: vmess
+  server: 120.240.55.137
+  network: ws
+  port: 38701
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /hls/cctv5phd.m3u8
+- name: 🇨🇳:中国-vmess-124.223.44.153:80-可用-直连-完全不支持NF
+  type: vmess
+  server: 124.223.44.153
+  network: ws
+  port: 80
+  uuid: 8017dfd8-f239-4ec6-e2dd-416189856438
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇨🇳:中国-vmess-47.93.231.218:53022-可用-直连-完全不支持NF
+  type: vmess
+  server: 47.93.231.218
+  network: ws
+  port: 53022
+  uuid: 95fd7642-2160-4528-e909-3d526b533013
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇺🇸:美国-vmess-18.167.94.243:36831-可用-直连-仅支持香港地区NF自制剧
+  type: vmess
+  server: 18.167.94.243
+  network: ws
+  port: 36831
+  uuid: 5b979e45-2697-49ce-8903-70a1c5787702
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇨🇳:中国-vmess-110.42.138.122:18080-可用-直连-完全不支持NF
   type: vmess
   server: 110.42.138.122
@@ -33,47 +146,14 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇨🇳:中国-vmess-47.93.231.218:53022-可用-直连-完全不支持NF
+- name: 🇨🇳:中国-vmess-120.240.55.137:38201-可用-中转:61.224.62.139-不支持Netflix
   type: vmess
-  server: 47.93.231.218
+  server: 120.240.55.137
   network: ws
-  port: 53022
-  uuid: 95fd7642-2160-4528-e909-3d526b533013
+  port: 38201
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /
-- name: 🇨🇳:中国-vmess-106.12.168.13:23117-可用-直连-完全不支持NF
-  type: vmess
-  server: 106.12.168.13
-  network: ws
-  port: 23117
-  uuid: 6479ce34-0355-422d-d07e-d74116866fd2
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇨🇳:中国-vmess-124.223.44.153:80-可用-直连-完全不支持NF
-  type: vmess
-  server: 124.223.44.153
-  network: ws
-  port: 80
-  uuid: 8017dfd8-f239-4ec6-e2dd-416189856438
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇨🇳:中国-vmess-106.12.168.13:13156-可用-直连-完全不支持NF
-  type: vmess
-  server: 106.12.168.13
-  network: ws
-  port: 13156
-  uuid: 9bf4cba4-9e9e-4da4-8e65-f7c487c539df
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
+  ws-path: /hls/cctv5phd.m3u8
