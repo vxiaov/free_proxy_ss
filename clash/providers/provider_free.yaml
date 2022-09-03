@@ -11,12 +11,6 @@ proxies:
   password: bBEXIq
   port: 32201
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-183.240.196.147:31905-可用-中转:103.105.50.108-不支持Netflix
-  type: ss
-  server: 183.240.196.147
-  password: bBEXIq
-  port: 31905
-  cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-36.137.14.210:16914-可用-中转:45.88.41.238-仅支持日本地区NF自制剧
   type: ss
   server: 36.137.14.210
@@ -29,23 +23,17 @@ proxies:
   password: G!yBwPWH3Vao
   port: 809
   cipher: chacha20-ietf-poly1305
-- name: 🇳🇱:荷兰-ss-213.183.59.211:9073-可用-直连-不支持Netflix
+- name: 🇨🇳:中国-ss-183.240.196.147:32201-可用-中转:210.201.90.220-不支持Netflix
   type: ss
-  server: 213.183.59.211
-  password: daFYagqDdBdA6VTX
-  port: 9073
-  cipher: aes-256-cfb
+  server: 183.240.196.147
+  password: bBEXIq
+  port: 32201
+  cipher: aes-256-gcm
 - name: 🇳🇱:荷兰-ss-213.183.59.211:9042-可用-直连-不支持Netflix
   type: ss
   server: 213.183.59.211
   password: S7KwUu7yBy58S3Ga
   port: 9042
-  cipher: aes-256-cfb
-- name: 🇳🇱:荷兰-ss-213.183.59.191:9064-可用-直连-不支持Netflix
-  type: ss
-  server: 213.183.59.191
-  password: cp8pRSUAyLhTfVWH
-  port: 9064
   cipher: aes-256-cfb
 - name: 🇨🇳:中国-vmess-106.12.168.13:23117-可用-直连-完全不支持NF
   type: vmess
@@ -113,6 +101,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇮🇳:印度-vmess-147.139.7.71:888-可用-直连-仅支持印度地区NF自制剧
+  type: vmess
+  server: 147.139.7.71
+  network: ws
+  port: 888
+  uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: ''
 - name: 🇺🇸:美国-vmess-18.167.94.243:36831-可用-直连-仅支持香港地区NF自制剧
   type: vmess
   server: 18.167.94.243
@@ -141,6 +140,17 @@ proxies:
   network: ws
   port: 80
   uuid: 5087e6ea-b650-443e-923f-b754661b8c47
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇨🇳:中国-vmess-49.234.34.180:443-可用-直连-完全不支持NF
+  type: vmess
+  server: 49.234.34.180
+  network: ws
+  port: 443
+  uuid: 6e0a01f3-4fce-4cdd-ab05-ee5d2254b058
   alterId: 4
   cipher: auto
   udp: false
