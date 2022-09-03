@@ -17,6 +17,12 @@ proxies:
   password: 6367e137-7366-44e4-a7a1-eba23a6d1e93
   port: 16914
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-134.195.196.85:5001-可用-直连-不支持Netflix
+  type: ss
+  server: 134.195.196.85
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  cipher: aes-256-gcm
 - name: 🇯🇵:日本-ss-193.38.139.204:809-可用-中转:193.38.139.201-仅支持日本地区NF自制剧
   type: ss
   server: 193.38.139.204
@@ -28,6 +34,12 @@ proxies:
   server: 213.183.59.211
   password: S7KwUu7yBy58S3Ga
   port: 9042
+  cipher: aes-256-cfb
+- name: 🇳🇱:荷兰-ss-213.183.59.191:9064-可用-直连-不支持Netflix
+  type: ss
+  server: 213.183.59.191
+  password: cp8pRSUAyLhTfVWH
+  port: 9064
   cipher: aes-256-cfb
 - name: 🇨🇳:中国-vmess-106.12.168.13:23117-可用-直连-完全不支持NF
   type: vmess
@@ -106,45 +118,12 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇰🇷:韩国-vmess-152.67.218.38:443-可用-直连-仅支持韩国地区NF自制剧
-  type: vmess
-  server: 152.67.218.38
-  network: ws
-  port: 443
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
 - name: 🇮🇳:印度-vmess-147.139.7.71:888-可用-直连-仅支持印度地区NF自制剧
   type: vmess
   server: 147.139.7.71
   network: ws
   port: 888
   uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-18.167.94.243:36831-可用-直连-不支持Netflix
-  type: vmess
-  server: 18.167.94.243
-  network: ws
-  port: 36831
-  uuid: 5b979e45-2697-49ce-8903-70a1c5787702
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-18.167.20.169:8080-可用-直连-仅支持香港地区NF自制剧
-  type: vmess
-  server: 18.167.20.169
-  network: ws
-  port: 8080
-  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
   alterId: 4
   cipher: auto
   udp: false
@@ -172,17 +151,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇬🇧:英国-vmess-178.62.102.252:80-可用-中转:104.28.214.205-仅支持英国地区NF自制剧
-  type: vmess
-  server: 178.62.102.252
-  network: ws
-  port: 80
-  uuid: 2a8bf51b-ed85-3cec-baa5-74e908f84341
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /qatjpji
 - name: 🇨🇳:中国-vmess-120.240.55.137:38201-可用-中转:61.224.62.139-不支持Netflix
   type: vmess
   server: 120.240.55.137
