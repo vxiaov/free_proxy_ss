@@ -1,27 +1,15 @@
 proxies:
-- name: 🇨🇳:中国-ss-i1.go001.buzz:31901-可用-中转:141.98.118.238-解锁土耳其地区NF非自制剧
-  type: ss
-  server: i1.go001.buzz
-  password: bBEXIq
-  port: 31901
-  cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-apt.v2-install.mipglxi.cn:5418-可用-中转:139.162.125.21-解锁日本地区NF非自制剧
-  type: ss
-  server: apt.v2-install.mipglxi.cn
-  password: 0a228809-a1d7-4143-944a-071b105ab9c7
-  port: 5418
-  cipher: aes-128-gcm
-- name: 🇨🇳:中国-ss-apt.v2-moble.mipglxi.cn:5404-可用-中转:46.232.121.5-解锁香港地区NF非自制剧
-  type: ss
-  server: apt.v2-moble.mipglxi.cn
-  password: 0a228809-a1d7-4143-944a-071b105ab9c7
-  port: 5404
-  cipher: aes-128-gcm
 - name: 🇺🇸:美国-ss-38.91.107.72:5500-可用-直连-不支持Netflix
   type: ss
   server: 38.91.107.72
   password: KixLvKzwjekG00rm
   port: 5500
+  cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-i1.go001.buzz:31901-可用-中转:141.98.118.238-解锁土耳其地区NF非自制剧
+  type: ss
+  server: i1.go001.buzz
+  password: bBEXIq
+  port: 31901
   cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-gyjp3.333003.xyz:16914-可用-中转:45.88.41.238-仅支持日本地区NF自制剧
   type: ss
@@ -29,31 +17,25 @@ proxies:
   password: 6367e137-7366-44e4-a7a1-eba23a6d1e93
   port: 16914
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-hk.s1.wfcsy.com:41200-可用-中转:43.229.154.10-解锁香港地区NF非自制剧
-  type: ss
-  server: hk.s1.wfcsy.com
-  password: 28559e67-187e-4a11-ac1a-8eefcdcdd436
-  port: 41200
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-36.137.199.94:6428-可用-中转:157.245.139.89-不支持Netflix
-  type: ss
-  server: 36.137.199.94
-  password: 3ee653cf-3f43-43e5-b4d0-7bb1cabe9845
-  port: 6428
-  cipher: aes-128-gcm
 - name: 🇺🇸:美国-ss-169.197.141.5:3306-可用-直连-不支持Netflix
   type: ss
   server: 169.197.141.5
   password: Y6R9pAtvxxzmGC
   port: 3306
   cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-hk.s1.wfcsy.com:41200-可用-中转:43.229.154.10-解锁香港地区NF非自制剧
+  type: ss
+  server: hk.s1.wfcsy.com
+  password: 28559e67-187e-4a11-ac1a-8eefcdcdd436
+  port: 41200
+  cipher: chacha20-ietf-poly1305
 - name: 🇳🇱:荷兰-ss-213.183.59.211:9027-可用-直连-不支持Netflix
   type: ss
   server: 213.183.59.211
   password: EXN3S3eQpjE7EJu8
   port: 9027
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-120.240.47.74:7716-可用-中转:147.135.109.238-解锁美国地区NF非自制剧
+- name: 🇨🇳:中国-ss-120.240.47.74:7716-可用-中转:51.81.204.127-解锁美国地区NF非自制剧
   type: ss
   server: 120.240.47.74
   password: 5otzk5bmlo6
@@ -65,7 +47,7 @@ proxies:
   password: daFYagqDdBdA6VTX
   port: 9073
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-120.240.47.72:2715-可用-中转:212.107.29.167-解锁香港地区NF非自制剧
+- name: 🇨🇳:中国-ss-120.240.47.72:2715-可用-中转:212.107.29.165-解锁香港地区NF非自制剧
   type: ss
   server: 120.240.47.72
   password: 5otzk5bmlo6
@@ -77,6 +59,18 @@ proxies:
   password: 3ee653cf-3f43-43e5-b4d0-7bb1cabe9845
   port: 6428
   cipher: aes-128-gcm
+- name: 🇷🇺:俄罗斯-ss-213.183.53.198:9014-可用-直连-完全不支持NF
+  type: ss
+  server: 213.183.53.198
+  password: KnJGad3FqTvjqbaX
+  port: 9014
+  cipher: aes-256-cfb
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9070-可用-直连-仅支持瑞士地区NF自制剧
+  type: ss
+  server: 185.126.116.123
+  password: bf7v334KKDV3YDhH
+  port: 9070
+  cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9019-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
   server: 185.126.116.123
@@ -89,11 +83,23 @@ proxies:
   password: G!yBwPWH3Vao
   port: 806
   cipher: chacha20-ietf-poly1305
+- name: 🇷🇺:俄罗斯-ss-213.183.53.198:9097-可用-直连-完全不支持NF
+  type: ss
+  server: 213.183.53.198
+  password: Sn5B7jTqr76aCJT8
+  port: 9097
+  cipher: aes-256-cfb
 - name: 🇷🇺:俄罗斯-ss-213.183.53.198:9045-可用-直连-完全不支持NF
   type: ss
   server: 213.183.53.198
   password: Lp27rqyJq72bZsqX
   port: 9045
+  cipher: aes-256-cfb
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9001-可用-直连-仅支持瑞士地区NF自制剧
+  type: ss
+  server: 185.126.116.123
+  password: UkXRsXvR6buDMG2Y
+  port: 9001
   cipher: aes-256-cfb
 - name: 🇺🇸:美国-ss-38.75.136.34:8080-可用-直连-不支持Netflix
   type: ss
@@ -113,65 +119,53 @@ proxies:
   password: BwcAUZk8hUFAkDGN
   port: 9031
   cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9010-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.123
-  password: f63gg8EruDnUrmz4
-  port: 9010
-  cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9043-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.123
-  password: HSZuyJQcWe8dxNdF
-  port: 9043
-  cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9031-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
   server: 185.126.116.123
   password: BwcAUZk8hUFAkDGN
   port: 9031
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-120.240.47.72:2713-可用-中转:212.107.29.169-解锁香港地区NF非自制剧
+- name: 🇨🇳:中国-ss-120.240.47.72:2713-可用-中转:212.107.29.168-解锁香港地区NF非自制剧
   type: ss
   server: 120.240.47.72
   password: 5otzk5bmlo6
   port: 2713
   cipher: rc4-md5
-- name: 🇷🇺:俄罗斯-ss-213.183.53.198:9058-可用-直连-不支持Netflix
-  type: ss
-  server: 213.183.53.198
-  password: dML2sfhbVwvtfNPe
-  port: 9058
-  cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-120.240.47.74:5714-可用-中转:122.118.165.241-不支持Netflix
+- name: 🇨🇳:中国-ss-120.240.47.74:5714-可用-中转:111.252.131.229-不支持Netflix
   type: ss
   server: 120.240.47.74
   password: 5otzk5bmlo6
   port: 5714
   cipher: rc4-md5
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.119:9094-可用-直连-仅支持瑞士地区NF自制剧
+  type: ss
+  server: 185.126.116.119
+  password: rpgbNnU9rDDU4aWZ
+  port: 9094
+  cipher: aes-256-cfb
 - name: 🇳🇱:荷兰-ss-213.183.59.211:9079-可用-直连-不支持Netflix
   type: ss
   server: 213.183.59.211
   password: TPqX8edgbAURcAMb
   port: 9079
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-120.240.47.74:5712-可用-中转:111.252.131.229-不支持Netflix
+- name: 🇨🇳:中国-ss-120.240.47.74:5712-可用-中转:111.252.242.135-不支持Netflix
   type: ss
   server: 120.240.47.74
   password: 5otzk5bmlo6
   port: 5712
   cipher: rc4-md5
-- name: 🇨🇳:中国-ss-120.240.47.74:5710-可用-中转:111.252.242.135-不支持Netflix
+- name: 🇷🇺:俄罗斯-ss-213.183.53.198:9059-可用-直连-完全不支持NF
   type: ss
-  server: 120.240.47.74
-  password: 5otzk5bmlo6
-  port: 5710
-  cipher: rc4-md5
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9027-可用-直连-仅支持瑞士地区NF自制剧
+  server: 213.183.53.198
+  password: 9XwYyZsK8SNzQDtY
+  port: 9059
+  cipher: aes-256-cfb
+- name: 🇳🇱:荷兰-ss-213.183.59.211:9011-可用-直连-不支持Netflix
   type: ss
-  server: 185.126.116.123
-  password: EXN3S3eQpjE7EJu8
-  port: 9027
+  server: 213.183.59.211
+  password: M3t2ZEQcMGRWBjRa
+  port: 9011
   cipher: aes-256-cfb
 - name: 🇨🇳:中国-vmess-in-us-1.onebox6.org:38401-可用-中转:104.249.174.138-不支持Netflix
   type: vmess
@@ -315,10 +309,3 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇺🇸:美国-trojan-www.sxsy88.tk:44150-可用-中转:138.2.8.227-解锁日本地区NF非自制剧
-  type: trojan
-  server: www.sxsy88.tk
-  password: zFyLKH62WN
-  udp: true
-  skip-cert-verify: true
-  port: 44150
