@@ -35,12 +35,6 @@ proxies:
   password: f63gg8EruDnUrmz4
   port: 9010
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-156.146.38.163:443-可用-直连-不支持Netflix
-  type: ss
-  server: 156.146.38.163
-  password: shadowsocks
-  port: 443
-  cipher: aes-128-cfb
 - name: 🇺🇸:美国-ss-199.115.228.30:253-可用-直连-不支持Netflix
   type: ss
   server: 199.115.228.30
@@ -158,17 +152,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇺🇸:美国-vmess-18.167.20.169:8080-可用-直连-仅支持香港地区NF自制剧
+- name: 🇮🇳:印度-vmess-147.139.7.71:888-可用-直连-仅支持印度地区NF自制剧
   type: vmess
-  server: 18.167.20.169
+  server: 147.139.7.71
   network: ws
-  port: 8080
-  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
+  port: 888
+  uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /
+  ws-path: ''
 - name: 🇨🇳:中国-vmess-110.42.138.122:18080-可用-直连-完全不支持NF
   type: vmess
   server: 110.42.138.122
@@ -186,6 +180,17 @@ proxies:
   network: ws
   port: 80
   uuid: 5087e6ea-b650-443e-923f-b754661b8c47
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇯🇵:日本-vmess-47.91.25.176:36788-可用-直连-仅支持日本地区NF自制剧
+  type: vmess
+  server: 47.91.25.176
+  network: ws
+  port: 36788
+  uuid: e56a6bdd-4f2f-41ee-cb47-1e0f006a4b78
   alterId: 4
   cipher: auto
   udp: false
