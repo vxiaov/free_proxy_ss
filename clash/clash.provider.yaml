@@ -1,10 +1,4 @@
 proxies:
-- name: 🇨🇳:中国-ss-183.240.196.147:32201-可用-中转:210.201.90.220-不支持Netflix
-  type: ss
-  server: 183.240.196.147
-  password: bBEXIq
-  port: 32201
-  cipher: aes-256-gcm
 - name: 🇯🇵:日本-ss-193.38.139.204:809-可用-中转:193.38.139.201-仅支持日本地区NF自制剧
   type: ss
   server: 193.38.139.204
@@ -29,11 +23,47 @@ proxies:
   password: G!yBwPWH3Vao
   port: 806
   cipher: chacha20-ietf-poly1305
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9001-可用-直连-仅支持瑞士地区NF自制剧
+  type: ss
+  server: 185.126.116.123
+  password: UkXRsXvR6buDMG2Y
+  port: 9001
+  cipher: aes-256-cfb
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9038-可用-直连-仅支持瑞士地区NF自制剧
+  type: ss
+  server: 185.126.116.123
+  password: gYCYXfkUQEs2TaJQ
+  port: 9038
+  cipher: aes-256-cfb
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9073-可用-直连-仅支持瑞士地区NF自制剧
+  type: ss
+  server: 185.126.116.123
+  password: daFYagqDdBdA6VTX
+  port: 9073
+  cipher: aes-256-cfb
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9019-可用-直连-仅支持瑞士地区NF自制剧
+  type: ss
+  server: 185.126.116.123
+  password: GA9KzeEgvfxNrgmM
+  port: 9019
+  cipher: aes-256-cfb
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9043-可用-直连-仅支持瑞士地区NF自制剧
+  type: ss
+  server: 185.126.116.123
+  password: HSZuyJQcWe8dxNdF
+  port: 9043
+  cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9031-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
   server: 185.126.116.123
   password: BwcAUZk8hUFAkDGN
   port: 9031
+  cipher: aes-256-cfb
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9032-可用-直连-不支持Netflix
+  type: ss
+  server: 185.126.116.123
+  password: UWZQeLRWnkqgkseq
+  port: 9032
   cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9027-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
@@ -53,12 +83,6 @@ proxies:
   password: bBEXIq
   port: 31901
   cipher: aes-256-gcm
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9042-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.123
-  password: S7KwUu7yBy58S3Ga
-  port: 9042
-  cipher: aes-256-cfb
 - name: 🇨🇳:中国-ss-156.96.105.183:12377-可用-直连-不支持Netflix
   type: ss
   server: 156.96.105.183
@@ -71,6 +95,12 @@ proxies:
   password: KixLvKzwjekG00rm
   port: 8080
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-199.115.228.30:253-可用-直连-不支持Netflix
+  type: ss
+  server: 199.115.228.30
+  password: bwhskrskr05
+  port: 253
+  cipher: aes-256-cfb
 - name: 🇦🇺:澳大利亚-ss-185.167.116.250:9073-可用-直连-不支持Netflix
   type: ss
   server: 185.167.116.250
@@ -131,17 +161,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇩🇪:德国-vmess-ae.755657.xyz:8443-可用-中转:104.28.253.40-仅支持德国地区NF自制剧
-  type: vmess
-  server: ae.755657.xyz
-  network: ws
-  port: 8443
-  uuid: 690397bf-64fc-4e18-8810-4f95979a21d3
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /java/18/latest/
 - name: 🇨🇳:中国-vmess-124.223.44.153:80-可用-直连-完全不支持NF
   type: vmess
   server: 124.223.44.153
@@ -152,16 +171,6 @@ proxies:
   cipher: auto
   udp: false
   tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-small.rome.tk:19088-可用-中转:150.136.49.35-仅支持美国地区NF自制剧
-  type: vmess
-  server: small.rome.tk
-  network: ws
-  port: 19088
-  uuid: 69b4577a-ece8-4044-a3f8-85dd3bfc98c8
-  alterId: 0
-  cipher: auto
-  udp: false
   ws-path: /
 - name: 🇨🇳:中国-vmess-47.93.231.218:53022-可用-直连-完全不支持NF
   type: vmess
@@ -174,17 +183,26 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇺🇸:美国-vmess-ion.755657.xyz:8443-可用-中转:104.28.240.139-仅支持美国地区NF自制剧
+- name: :0-vmess-103.186.149.242:80-可用-直连-不支持Netflix
   type: vmess
-  server: ion.755657.xyz
+  server: 103.186.149.242
   network: ws
-  port: 8443
-  uuid: 690397bf-64fc-4e18-8810-4f95979a21d3
-  alterId: 4
+  port: 80
+  uuid: a479fc02-07c5-4864-8564-c4f147dfa488
+  alterId: 0
   cipher: auto
   udp: false
-  tls: true
-  ws-path: /java/18/latest/
+  ws-path: /shopvpn.net
+- name: :0-vmess-103.186.148.113:80-可用-直连-不支持Netflix
+  type: vmess
+  server: 103.186.148.113
+  network: ws
+  port: 80
+  uuid: 67468d89-cf87-443c-baca-49f1e73b5991
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /shopvpn.net
 - name: 🇨🇳:中国-vmess-106.12.168.13:23117-可用-直连-完全不支持NF
   type: vmess
   server: 106.12.168.13
@@ -251,10 +269,3 @@ proxies:
   udp: false
   tls: true
   ws-path: /je5x3pBN1vez3NQudNkB
-- name: 🇺🇸:美国-trojan-ion.755657.xyz:443-可用-中转:104.28.240.139-仅支持美国地区NF自制剧
-  type: trojan
-  server: ion.755657.xyz
-  password: 690397bf-64fc-4e18-8810-4f95979a21d3
-  udp: true
-  skip-cert-verify: true
-  port: 443
