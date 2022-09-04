@@ -65,7 +65,7 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 5001
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-120.240.47.74:7716-可用-中转:51.81.204.126-解锁美国地区NF非自制剧
+- name: 🇨🇳:中国-ss-120.240.47.74:7716-可用-中转:147.135.109.238-解锁美国地区NF非自制剧
   type: ss
   server: 120.240.47.74
   password: 5otzk5bmlo6
@@ -119,12 +119,6 @@ proxies:
   password: BwcAUZk8hUFAkDGN
   port: 9031
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-156.146.38.163:443-可用-直连-不支持Netflix
-  type: ss
-  server: 156.146.38.163
-  password: shadowsocks
-  port: 443
-  cipher: aes-128-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9010-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
   server: 185.126.116.123
@@ -136,6 +130,18 @@ proxies:
   server: 185.126.116.123
   password: wfLC2y7rzZyCmuyt
   port: 9093
+  cipher: aes-256-cfb
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9019-可用-直连-仅支持瑞士地区NF自制剧
+  type: ss
+  server: 185.126.116.123
+  password: GA9KzeEgvfxNrgmM
+  port: 9019
+  cipher: aes-256-cfb
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9073-可用-直连-仅支持瑞士地区NF自制剧
+  type: ss
+  server: 185.126.116.123
+  password: daFYagqDdBdA6VTX
+  port: 9073
   cipher: aes-256-cfb
 - name: 🇨🇳:中国-vmess-124.223.44.153:80-可用-直连-完全不支持NF
   type: vmess
@@ -333,31 +339,16 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇸🇬:新加坡-vmess-cs.hgdbk.ga:443-可用-中转:128.199.188.214-仅支持新加坡地区NF自制剧
+- name: 🇺🇸:美国-vmess-small.rome.tk:19088-可用-中转:150.136.49.35-不支持Netflix
   type: vmess
-  server: cs.hgdbk.ga
+  server: small.rome.tk
   network: ws
-  port: 443
-  uuid: 3f724115-8ca2-4aa4-b8cc-eb72d9b6b1ef
-  alterId: 4
+  port: 19088
+  uuid: 69b4577a-ece8-4044-a3f8-85dd3bfc98c8
+  alterId: 0
   cipher: auto
   udp: false
-  tls: false
-  ws-path: /cctv13/hd.m3u8
-- name: 🇦🇺:澳大利亚-trojan-ttt1.swiftfalcon.app:8443-可用-中转:37.123.193.117-不支持Netflix
-  type: trojan
-  server: ttt1.swiftfalcon.app
-  password: coldwar2
-  udp: true
-  skip-cert-verify: true
-  port: 8443
-- name: 🇷🇺:俄罗斯-trojan-ttt3.swiftfalcon.app:8443-可用-中转:91.243.81.150-不支持Netflix
-  type: trojan
-  server: ttt3.swiftfalcon.app
-  password: coldwar2
-  udp: true
-  skip-cert-verify: true
-  port: 8443
+  ws-path: /
 - name: 🇺🇸:美国-trojan-rbobosz.tk:23868-可用-中转:193.122.145.15-仅支持美国地区NF自制剧
   type: trojan
   server: rbobosz.tk
