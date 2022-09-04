@@ -17,18 +17,18 @@ proxies:
   password: p2FLHVFIp54b
   port: 63911
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-38.75.136.34:8080-可用-直连-不支持Netflix
+  type: ss
+  server: 38.75.136.34
+  password: KixLvKzwjekG00rm
+  port: 8080
+  cipher: aes-256-gcm
 - name: 🇮🇷:伊朗-ss-185.129.110.41:41235-可用-直连-仅支持德国地区NF自制剧
   type: ss
   server: 185.129.110.41
   password: 7bd07d8f-49ff-4d47-b7ed-56d365681b2a
   port: 41235
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-38.91.107.66:5500-可用-直连-不支持Netflix
-  type: ss
-  server: 38.91.107.66
-  password: KixLvKzwjekG00rm
-  port: 5500
-  cipher: aes-256-gcm
 - name: 🇯🇵:日本-ss-193.38.139.204:806-可用-中转:193.38.139.201-仅支持日本地区NF自制剧
   type: ss
   server: 193.38.139.204
@@ -41,25 +41,13 @@ proxies:
   password: '07305252'
   port: 23456
   cipher: aes-256-gcm
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9001-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.123
-  password: UkXRsXvR6buDMG2Y
-  port: 9001
-  cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9038-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.123
-  password: gYCYXfkUQEs2TaJQ
-  port: 9038
-  cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9070-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
   server: 185.126.116.123
   password: bf7v334KKDV3YDhH
   port: 9070
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-120.240.47.74:7716-可用-中转:51.81.204.126-解锁美国地区NF非自制剧
+- name: 🇨🇳:中国-ss-120.240.47.74:7716-可用-中转:51.81.204.127-解锁美国地区NF非自制剧
   type: ss
   server: 120.240.47.74
   password: 5otzk5bmlo6
@@ -77,7 +65,7 @@ proxies:
   password: wfLC2y7rzZyCmuyt
   port: 9093
   cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9042-可用-直连-仅支持瑞士地区NF自制剧
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9042-可用-直连-不支持Netflix
   type: ss
   server: 185.126.116.123
   password: S7KwUu7yBy58S3Ga
@@ -104,17 +92,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇨🇳:中国-vmess-in-us-1.onebox6.org:38401-可用-中转:104.249.174.138-不支持Netflix
-  type: vmess
-  server: in-us-1.onebox6.org
-  network: ws
-  port: 38401
-  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /hls/cctv5phd.m3u8
 - name: 🇨🇳:中国-vmess-110.42.138.122:18080-可用-直连-完全不支持NF
   type: vmess
   server: 110.42.138.122
@@ -181,10 +158,3 @@ proxies:
   udp: false
   tls: true
   ws-path: /je5x3pBN1vez3NQudNkB
-- name: 🇨🇳:中国-trojan-tw.tcpbbr.net:443-可用-中转:114.43.82.42-不支持Netflix
-  type: trojan
-  server: tw.tcpbbr.net
-  password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d
-  udp: true
-  skip-cert-verify: true
-  port: 443
