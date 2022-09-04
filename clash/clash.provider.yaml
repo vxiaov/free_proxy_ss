@@ -71,30 +71,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 809
   cipher: chacha20-ietf-poly1305
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9019-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.123
-  password: GA9KzeEgvfxNrgmM
-  port: 9019
-  cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9043-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.123
-  password: HSZuyJQcWe8dxNdF
-  port: 9043
-  cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9032-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.123
-  password: UWZQeLRWnkqgkseq
-  port: 9032
-  cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9027-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.123
-  password: EXN3S3eQpjE7EJu8
-  port: 9027
-  cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9093-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
   server: 185.126.116.123
@@ -106,18 +82,6 @@ proxies:
   server: 185.126.116.123
   password: S7KwUu7yBy58S3Ga
   port: 9042
-  cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-38.75.136.34:8080-可用-直连-不支持Netflix
-  type: ss
-  server: 38.75.136.34
-  password: KixLvKzwjekG00rm
-  port: 8080
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-199.115.228.30:253-可用-直连-不支持Netflix
-  type: ss
-  server: 199.115.228.30
-  password: bwhskrskr05
-  port: 253
   cipher: aes-256-cfb
 - name: 🇨🇳:中国-vmess-49.234.34.180:443-可用-直连-完全不支持NF
   type: vmess
@@ -162,17 +126,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇨🇳:中国-vmess-ingress-i1.onebox6.org:38701-可用-中转:194.233.66.47-不支持Netflix
-  type: vmess
-  server: ingress-i1.onebox6.org
-  network: ws
-  port: 38701
-  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /hls/cctv5phd.m3u8
 - name: 🇨🇳:中国-vmess-124.223.44.153:80-可用-直连-完全不支持NF
   type: vmess
   server: 124.223.44.153
@@ -228,3 +181,10 @@ proxies:
   udp: false
   tls: true
   ws-path: /je5x3pBN1vez3NQudNkB
+- name: 🇨🇳:中国-trojan-tw.tcpbbr.net:443-可用-中转:114.43.82.42-不支持Netflix
+  type: trojan
+  server: tw.tcpbbr.net
+  password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d
+  udp: true
+  skip-cert-verify: true
+  port: 443
