@@ -17,13 +17,13 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 3306
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-183.240.196.147:32201-可用-中转:114.37.190.242-不支持Netflix
+- name: 🇨🇳:中国-ss-183.240.196.147:32201-可用-中转:210.201.90.220-不支持Netflix
   type: ss
   server: 183.240.196.147
   password: bBEXIq
   port: 32201
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-i1.go001.buzz:32601-可用-中转:154.53.59.248-解锁美国地区NF非自制剧
+- name: 🇨🇳:中国-ss-i1.go001.buzz:32601-可用-中转:192.210.207.7-解锁美国地区NF非自制剧
   type: ss
   server: i1.go001.buzz
   password: bBEXIq
@@ -53,15 +53,9 @@ proxies:
   password: G!yBwPWH3Vao
   port: 809
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-i1.go001.buzz:32201-可用-中转:114.37.190.242-不支持Netflix
+- name: 🇨🇳:中国-ss-i1.go001.buzz:32201-可用-中转:210.201.90.220-不支持Netflix
   type: ss
   server: i1.go001.buzz
-  password: bBEXIq
-  port: 32201
-  cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-183.240.196.147:32201-可用-中转:210.201.90.220-不支持Netflix
-  type: ss
-  server: 183.240.196.147
   password: bBEXIq
   port: 32201
   cipher: aes-256-gcm
@@ -89,13 +83,13 @@ proxies:
   password: UWZQeLRWnkqgkseq
   port: 9032
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-120.240.47.72:2713-可用-中转:212.107.29.163-解锁香港地区NF非自制剧
+- name: 🇨🇳:中国-ss-120.240.47.72:2713-可用-中转:212.107.29.172-解锁香港地区NF非自制剧
   type: ss
   server: 120.240.47.72
   password: 5otzk5bmlo6
   port: 2713
   cipher: rc4-md5
-- name: 🇨🇳:中国-ss-120.240.47.72:2715-可用-中转:212.107.29.172-解锁香港地区NF非自制剧
+- name: 🇨🇳:中国-ss-120.240.47.72:2715-可用-中转:212.107.29.170-解锁香港地区NF非自制剧
   type: ss
   server: 120.240.47.72
   password: 5otzk5bmlo6
@@ -131,12 +125,6 @@ proxies:
   password: bwhskrskr05
   port: 253
   cipher: aes-256-cfb
-- name: 🇳🇱:荷兰-ss-213.183.59.191:9064-可用-直连-不支持Netflix
-  type: ss
-  server: 213.183.59.191
-  password: cp8pRSUAyLhTfVWH
-  port: 9064
-  cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9019-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
   server: 185.126.116.123
@@ -155,7 +143,7 @@ proxies:
   password: 7d99ae502227454ea998d71e4b62a388
   port: 23335
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-i1.go001.buzz:32601-可用-中转:192.210.207.7-解锁美国地区NF非自制剧
+- name: 🇨🇳:中国-ss-i1.go001.buzz:32601-可用-中转:154.53.59.248-解锁美国地区NF非自制剧
   type: ss
   server: i1.go001.buzz
   password: bBEXIq
@@ -266,6 +254,16 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇺🇸:美国-vmess-18.167.20.169:8080-可用-直连-仅支持香港地区NF自制剧
+  type: vmess
+  server: 18.167.20.169
+  network: ws
+  port: 8080
+  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /
 - name: 🇨🇳:中国-vmess-ingress-i1.onebox6.org:38201-可用-中转:61.224.62.139-不支持Netflix
   type: vmess
   server: ingress-i1.onebox6.org
@@ -331,7 +329,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇳🇱:荷兰-trojan-api.hostyunjp.frydipxian.top:9018-可用-中转:45.159.51.77-仅支持日本地区NF自制剧
+- name: 🇳🇱:荷兰-trojan-api.hostyunjp.frydipxian.top:9018-可用-中转:45.159.51.77-不支持Netflix
   type: trojan
   server: api.hostyunjp.frydipxian.top
   password: 97ea5c08e262acf366b3b973b91960cb
