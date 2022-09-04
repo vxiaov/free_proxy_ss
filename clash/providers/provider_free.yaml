@@ -5,7 +5,7 @@ proxies:
   password: KixLvKzwjekG00rm
   port: 8080
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-183.240.196.147:32201-可用-中转:210.201.90.220-不支持Netflix
+- name: 🇨🇳:中国-ss-183.240.196.147:32201-可用-中转:114.37.190.242-不支持Netflix
   type: ss
   server: 183.240.196.147
   password: bBEXIq
@@ -17,18 +17,18 @@ proxies:
   password: 6367e137-7366-44e4-a7a1-eba23a6d1e93
   port: 16914
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-36.134.54.13:16914-可用-中转:45.88.41.238-仅支持日本地区NF自制剧
-  type: ss
-  server: 36.134.54.13
-  password: 6367e137-7366-44e4-a7a1-eba23a6d1e93
-  port: 16914
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-169.197.141.5:3306-可用-直连-不支持Netflix
   type: ss
   server: 169.197.141.5
   password: Y6R9pAtvxxzmGC
   port: 3306
   cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-36.134.54.13:16914-可用-中转:45.88.41.238-仅支持日本地区NF自制剧
+  type: ss
+  server: 36.134.54.13
+  password: 6367e137-7366-44e4-a7a1-eba23a6d1e93
+  port: 16914
+  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-193.38.139.204:809-可用-中转:193.38.139.201-仅支持日本地区NF自制剧
   type: ss
   server: 193.38.139.204
@@ -47,11 +47,11 @@ proxies:
   password: 7d99ae502227454ea998d71e4b62a388
   port: 23335
   cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9070-可用-直连-仅支持瑞士地区NF自制剧
+- name: 🇳🇱:荷兰-ss-213.183.59.191:9064-可用-直连-不支持Netflix
   type: ss
-  server: 185.126.116.123
-  password: bf7v334KKDV3YDhH
-  port: 9070
+  server: 213.183.59.191
+  password: cp8pRSUAyLhTfVWH
+  port: 9064
   cipher: aes-256-cfb
 - name: 🇨🇳:中国-vmess-106.12.168.13:23117-可用-直连-完全不支持NF
   type: vmess
@@ -152,7 +152,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇬🇧:英国-vmess-178.62.102.252:80-可用-中转:104.28.246.206-仅支持英国地区NF自制剧
+- name: 🇬🇧:英国-vmess-178.62.102.252:80-可用-中转:104.28.214.205-不支持Netflix
   type: vmess
   server: 178.62.102.252
   network: ws
@@ -163,14 +163,3 @@ proxies:
   udp: false
   tls: false
   ws-path: /qatjpji
-- name: 🇨🇳:中国-vmess-120.240.55.137:38201-可用-中转:61.224.62.139-不支持Netflix
-  type: vmess
-  server: 120.240.55.137
-  network: ws
-  port: 38201
-  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /hls/cctv5phd.m3u8
