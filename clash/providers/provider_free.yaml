@@ -35,17 +35,11 @@ proxies:
   password: G!yBwPWH3Vao
   port: 809
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-183.240.196.147:32201-可用-中转:114.37.190.242-不支持Netflix
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9032-可用-直连-不支持Netflix
   type: ss
-  server: 183.240.196.147
-  password: bBEXIq
-  port: 32201
-  cipher: aes-256-gcm
-- name: 🇳🇱:荷兰-ss-213.183.59.211:9042-可用-直连-不支持Netflix
-  type: ss
-  server: 213.183.59.211
-  password: S7KwUu7yBy58S3Ga
-  port: 9042
+  server: 185.126.116.123
+  password: UWZQeLRWnkqgkseq
+  port: 9032
   cipher: aes-256-cfb
 - name: 🇩🇪:德国-ss-165.22.73.126:23335-可用-直连-不支持Netflix
   type: ss
@@ -92,6 +86,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
+- name: 🇨🇳:中国-vmess-120.240.55.137:38701-可用-中转:194.233.66.47-不支持Netflix
+  type: vmess
+  server: 120.240.55.137
+  network: ws
+  port: 38701
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /hls/cctv5phd.m3u8
 - name: 🇨🇳:中国-vmess-124.223.44.153:80-可用-直连-完全不支持NF
   type: vmess
   server: 124.223.44.153
@@ -124,7 +129,7 @@ proxies:
   cipher: auto
   udp: false
   tls: false
-  ws-path: ''
+  ws-path: /
 - name: 🇨🇳:中国-vmess-110.42.138.122:18080-可用-直连-完全不支持NF
   type: vmess
   server: 110.42.138.122
