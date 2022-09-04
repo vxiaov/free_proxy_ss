@@ -47,6 +47,12 @@ proxies:
     password: gnPQtKxjLuWJ
     port: 60565
     cipher: chacha20-ietf-poly1305
+  - name: "\U0001F1EF\U0001F1F5:日本-ss-193.38.139.204:809-可用-中转:193.38.139.201-仅支持日本地区NF自制剧"
+    type: ss
+    server: 193.38.139.204
+    password: G!yBwPWH3Vao
+    port: 809
+    cipher: chacha20-ietf-poly1305
   - name: "\U0001F1EF\U0001F1F5:日本-ss-193.38.139.204:806-可用-中转:193.38.139.201-仅支持日本地区NF自制剧"
     type: ss
     server: 193.38.139.204
@@ -119,12 +125,18 @@ proxies:
     password: g5MeD6Ft3CWlJId
     port: 5004
     cipher: aes-256-gcm
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:7716-可用-中转:147.135.109.237-解锁美国地区NF非自制剧"
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:7716-可用-中转:51.81.204.126-解锁美国地区NF非自制剧"
     type: ss
     server: 120.240.47.74
     password: 5otzk5bmlo6
     port: 7716
     cipher: rc4-md5
+  - name: "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.123:9027-可用-直连-仅支持瑞士地区NF自制剧"
+    type: ss
+    server: 185.126.116.123
+    password: EXN3S3eQpjE7EJu8
+    port: 9027
+    cipher: aes-256-cfb
   - name: "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.34:8080-可用-直连-不支持Netflix"
     type: ss
     server: 38.75.136.34
@@ -217,17 +229,6 @@ proxies:
     udp: false
     tls: false
     ws-path: /
-  - name: "\U0001F1E8\U0001F1F3:中国-vmess-in-us-1.onebox6.org:38401-可用-中转:104.249.174.138-不支持Netflix"
-    type: vmess
-    server: in-us-1.onebox6.org
-    network: ws
-    port: 38401
-    uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-    alterId: 4
-    cipher: auto
-    udp: false
-    tls: false
-    ws-path: /hls/cctv5phd.m3u8
   - name: "\U0001F1E8\U0001F1F3:中国-vmess-110.42.138.122:18080-可用-直连-完全不支持NF"
     type: vmess
     server: 110.42.138.122
@@ -250,7 +251,7 @@ proxies:
     udp: false
     tls: true
     ws-path: /je5x3pBN1vez3NQudNkB
-  - name: "\U0001F1FA\U0001F1F8:美国-vmess-ion.755657.xyz:8443-可用-中转:104.28.240.139-完全不支持NF"
+  - name: "\U0001F1FA\U0001F1F8:美国-vmess-ion.755657.xyz:8443-可用-中转:104.28.240.139-仅支持美国地区NF自制剧"
     type: vmess
     server: ion.755657.xyz
     network: ws
@@ -272,7 +273,7 @@ proxies:
     udp: false
     tls: false
     ws-path: /
-  - name: "\U0001F1FA\U0001F1F8:美国-vmess-ex.755657.xyz:8443-可用-中转:104.28.205.80-仅支持美国地区NF自制剧"
+  - name: "\U0001F1FA\U0001F1F8:美国-vmess-ex.755657.xyz:8443-可用-中转:104.28.205.80-解锁美国地区NF非自制剧"
     type: vmess
     server: ex.755657.xyz
     network: ws
@@ -327,6 +328,40 @@ proxies:
     udp: false
     tls: false
     ws-path: /
+  - name: "\U0001F1FA\U0001F1F8:美国-vmess-small.rome.tk:19088-可用-中转:150.136.49.35-仅支持美国地区NF自制剧"
+    type: vmess
+    server: small.rome.tk
+    network: ws
+    port: 19088
+    uuid: 69b4577a-ece8-4044-a3f8-85dd3bfc98c8
+    alterId: 0
+    cipher: auto
+    udp: false
+    ws-path: /
+  - name: "\U0001F1FA\U0001F1F8:美国-vmess-18.167.20.169:8080-可用-直连-不支持Netflix"
+    type: vmess
+    server: 18.167.20.169
+    network: ws
+    port: 8080
+    uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
+    alterId: 0
+    cipher: auto
+    udp: false
+    ws-path: /
+  - name: "\U0001F1EF\U0001F1F5:日本-trojan-jgw2.gaox.ml:443-可用-中转:146.56.189.146-不支持Netflix"
+    type: trojan
+    server: jgw2.gaox.ml
+    password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+    udp: true
+    skip-cert-verify: true
+    port: 443
+  - name: "\U0001F1FA\U0001F1F8:美国-trojan-jgwdb4.gaox.ml:443-可用-中转:168.138.43.89-不支持Netflix"
+    type: trojan
+    server: jgwdb4.gaox.ml
+    password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+    udp: true
+    skip-cert-verify: true
+    port: 443
 # 类型选择 简介
 # select : 用于选择代理或代理组, 可以通过 RESTful API 来切换代理，建议在 GUI 中使用
 # load-balance : 相同eTLD+1的请求将拨号到同一个代理。
@@ -346,16 +381,21 @@ proxy-groups:
     proxies:
       - DIRECT
       - "\U0001F1FA\U0001F1F8:美国-vmess-vfly6.xyz:443-可用-中转:8.210.128.146-解锁新加坡地区NF非自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-vmess-ion.755657.xyz:8443-可用-中转:104.28.240.139-完全不支持NF"
-      - "\U0001F1FA\U0001F1F8:美国-vmess-ex.755657.xyz:8443-可用-中转:104.28.205.80-仅支持美国地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-vmess-small.rome.tk:19088-可用-中转:150.136.49.35-仅支持美国地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-vmess-ion.755657.xyz:8443-可用-中转:104.28.240.139-仅支持美国地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-vmess-ex.755657.xyz:8443-可用-中转:104.28.205.80-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-vmess-18.167.20.169:8080-可用-直连-不支持Netflix"
+      - "\U0001F1FA\U0001F1F8:美国-trojan-jgwdb4.gaox.ml:443-可用-中转:168.138.43.89-不支持Netflix"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.34:8080-可用-直连-不支持Netflix"
       - "\U0001F1FA\U0001F1F8:美国-ss-198.211.4.6:63911-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1F7\U0001F1FA:俄罗斯-ss-31.192.232.217:23456-可用-直连-不支持Netflix"
+      - "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.123:9027-可用-直连-仅支持瑞士地区NF自制剧"
+      - "\U0001F1EF\U0001F1F5:日本-trojan-jgw2.gaox.ml:443-可用-中转:146.56.189.146-不支持Netflix"
+      - "\U0001F1EF\U0001F1F5:日本-ss-193.38.139.204:809-可用-中转:193.38.139.201-仅支持日本地区NF自制剧"
       - "\U0001F1EF\U0001F1F5:日本-ss-193.38.139.204:806-可用-中转:193.38.139.201-仅支持日本地区NF自制剧"
       - "\U0001F1E9\U0001F1EA:德国-vmess-ae.755657.xyz:8443-可用-中转:104.28.253.40-仅支持德国地区NF自制剧"
       - "\U0001F1E9\U0001F1EA:德国-ss-92.223.30.4:60565-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1E8\U0001F1F3:中国-vmess-tw-tpe-hq-v2.node.inforun.work:10188-可用-中转:114.37.136.78-不支持Netflix"
-      - "\U0001F1E8\U0001F1F3:中国-vmess-in-us-1.onebox6.org:38401-可用-中转:104.249.174.138-不支持Netflix"
       - "\U0001F1E8\U0001F1F3:中国-vmess-49.234.34.180:443-可用-直连-完全不支持NF"
       - "\U0001F1E8\U0001F1F3:中国-vmess-47.93.231.218:53022-可用-直连-完全不支持NF"
       - "\U0001F1E8\U0001F1F3:中国-vmess-124.223.44.153:80-可用-直连-完全不支持NF"
@@ -363,7 +403,7 @@ proxy-groups:
       - "\U0001F1E8\U0001F1F3:中国-vmess-110.42.138.122:18080-可用-直连-完全不支持NF"
       - "\U0001F1E8\U0001F1F3:中国-vmess-106.12.168.13:23117-可用-直连-完全不支持NF"
       - "\U0001F1E8\U0001F1F3:中国-vmess-106.12.168.13:13156-可用-直连-完全不支持NF"
-      - "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:7716-可用-中转:147.135.109.237-解锁美国地区NF非自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:7716-可用-中转:51.81.204.126-解锁美国地区NF非自制剧"
   - name: 被墙代理组
     type: select
     url: http://www.gstatic.com/generate_204
@@ -395,8 +435,11 @@ proxy-groups:
     interval: 300
     proxies:
       - DIRECT
-      - "\U0001F1FA\U0001F1F8:美国-vmess-ex.755657.xyz:8443-可用-中转:104.28.205.80-仅支持美国地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-vmess-small.rome.tk:19088-可用-中转:150.136.49.35-仅支持美国地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-vmess-ion.755657.xyz:8443-可用-中转:104.28.240.139-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-198.211.4.6:63911-可用-直连-仅支持美国地区NF自制剧"
+      - "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.123:9027-可用-直连-仅支持瑞士地区NF自制剧"
+      - "\U0001F1EF\U0001F1F5:日本-ss-193.38.139.204:809-可用-中转:193.38.139.201-仅支持日本地区NF自制剧"
       - "\U0001F1EF\U0001F1F5:日本-ss-193.38.139.204:806-可用-中转:193.38.139.201-仅支持日本地区NF自制剧"
       - "\U0001F1E9\U0001F1EA:德国-vmess-ae.755657.xyz:8443-可用-中转:104.28.253.40-仅支持德国地区NF自制剧"
       - "\U0001F1E9\U0001F1EA:德国-ss-92.223.30.4:60565-可用-直连-仅支持美国地区NF自制剧"
@@ -407,7 +450,8 @@ proxy-groups:
     proxies:
       - DIRECT
       - "\U0001F1FA\U0001F1F8:美国-vmess-vfly6.xyz:443-可用-中转:8.210.128.146-解锁新加坡地区NF非自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:7716-可用-中转:147.135.109.237-解锁美国地区NF非自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-vmess-ex.755657.xyz:8443-可用-中转:104.28.205.80-解锁美国地区NF非自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:7716-可用-中转:51.81.204.126-解锁美国地区NF非自制剧"
   - name: 入口代理组
     # 中继代理组,不支持UDP协议。线路: clash <-> vmess <-> ss1 <-> ss2 <-> Internet
     type: select

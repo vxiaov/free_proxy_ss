@@ -11,6 +11,12 @@ proxies:
   password: gnPQtKxjLuWJ
   port: 60565
   cipher: chacha20-ietf-poly1305
+- name: 🇯🇵:日本-ss-193.38.139.204:809-可用-中转:193.38.139.201-仅支持日本地区NF自制剧
+  type: ss
+  server: 193.38.139.204
+  password: G!yBwPWH3Vao
+  port: 809
+  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-193.38.139.204:806-可用-中转:193.38.139.201-仅支持日本地区NF自制剧
   type: ss
   server: 193.38.139.204
@@ -23,12 +29,18 @@ proxies:
   password: p2FLHVFIp54b
   port: 63911
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-120.240.47.74:7716-可用-中转:147.135.109.237-解锁美国地区NF非自制剧
+- name: 🇨🇳:中国-ss-120.240.47.74:7716-可用-中转:51.81.204.126-解锁美国地区NF非自制剧
   type: ss
   server: 120.240.47.74
   password: 5otzk5bmlo6
   port: 7716
   cipher: rc4-md5
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9027-可用-直连-仅支持瑞士地区NF自制剧
+  type: ss
+  server: 185.126.116.123
+  password: EXN3S3eQpjE7EJu8
+  port: 9027
+  cipher: aes-256-cfb
 - name: 🇺🇸:美国-ss-38.75.136.34:8080-可用-直连-不支持Netflix
   type: ss
   server: 38.75.136.34
@@ -67,17 +79,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇨🇳:中国-vmess-in-us-1.onebox6.org:38401-可用-中转:104.249.174.138-不支持Netflix
-  type: vmess
-  server: in-us-1.onebox6.org
-  network: ws
-  port: 38401
-  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /hls/cctv5phd.m3u8
 - name: 🇨🇳:中国-vmess-110.42.138.122:18080-可用-直连-完全不支持NF
   type: vmess
   server: 110.42.138.122
@@ -100,7 +101,7 @@ proxies:
   udp: false
   tls: true
   ws-path: /je5x3pBN1vez3NQudNkB
-- name: 🇺🇸:美国-vmess-ion.755657.xyz:8443-可用-中转:104.28.240.139-完全不支持NF
+- name: 🇺🇸:美国-vmess-ion.755657.xyz:8443-可用-中转:104.28.240.139-仅支持美国地区NF自制剧
   type: vmess
   server: ion.755657.xyz
   network: ws
@@ -122,7 +123,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇺🇸:美国-vmess-ex.755657.xyz:8443-可用-中转:104.28.205.80-仅支持美国地区NF自制剧
+- name: 🇺🇸:美国-vmess-ex.755657.xyz:8443-可用-中转:104.28.205.80-解锁美国地区NF非自制剧
   type: vmess
   server: ex.755657.xyz
   network: ws
@@ -177,3 +178,37 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇺🇸:美国-vmess-small.rome.tk:19088-可用-中转:150.136.49.35-仅支持美国地区NF自制剧
+  type: vmess
+  server: small.rome.tk
+  network: ws
+  port: 19088
+  uuid: 69b4577a-ece8-4044-a3f8-85dd3bfc98c8
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /
+- name: 🇺🇸:美国-vmess-18.167.20.169:8080-可用-直连-不支持Netflix
+  type: vmess
+  server: 18.167.20.169
+  network: ws
+  port: 8080
+  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /
+- name: 🇯🇵:日本-trojan-jgw2.gaox.ml:443-可用-中转:146.56.189.146-不支持Netflix
+  type: trojan
+  server: jgw2.gaox.ml
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  udp: true
+  skip-cert-verify: true
+  port: 443
+- name: 🇺🇸:美国-trojan-jgwdb4.gaox.ml:443-可用-中转:168.138.43.89-不支持Netflix
+  type: trojan
+  server: jgwdb4.gaox.ml
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  udp: true
+  skip-cert-verify: true
+  port: 443
