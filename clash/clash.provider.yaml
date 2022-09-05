@@ -41,31 +41,25 @@ proxies:
   password: 61e2d024-31ac-4c8a-8ca8-6ea85ae7941b
   port: 10004
   cipher: aes-128-gcm
-- name: 🇯🇵:日本-ss-172.105.236.77:10005-可用-直连-不支持Netflix
+- name: 🇯🇵:日本-ss-172.105.236.77:10005-可用-直连-仅支持日本地区NF自制剧
   type: ss
   server: 172.105.236.77
   password: 61e2d024-31ac-4c8a-8ca8-6ea85ae7941b
   port: 10005
   cipher: aes-128-gcm
-- name: 🇨🇳:中国-ss-14.29.124.174:11005-可用-中转:129.227.144.194-不支持Netflix
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11005
-  cipher: aes-128-cfb
-- name: 🇦🇺:澳大利亚-ss-185.167.116.250:9073-可用-直连-仅支持澳大利亚地区NF自制剧
-  type: ss
-  server: 185.167.116.250
-  password: daFYagqDdBdA6VTX
-  port: 9073
-  cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9025-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
   server: 185.126.116.123
   password: XPtzA9sCug3SPR4c
   port: 9025
   cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9070-可用-直连-仅支持瑞士地区NF自制剧
+- name: 🇦🇺:澳大利亚-ss-185.167.116.250:9073-可用-直连-仅支持澳大利亚地区NF自制剧
+  type: ss
+  server: 185.167.116.250
+  password: daFYagqDdBdA6VTX
+  port: 9073
+  cipher: aes-256-cfb
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9070-可用-直连-不支持Netflix
   type: ss
   server: 185.126.116.123
   password: bf7v334KKDV3YDhH
@@ -77,30 +71,12 @@ proxies:
   password: KixLvKzwjekG00rm
   port: 8080
   cipher: aes-256-gcm
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9001-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.123
-  password: UkXRsXvR6buDMG2Y
-  port: 9001
-  cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9019-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.123
-  password: GA9KzeEgvfxNrgmM
-  port: 9019
-  cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-120.240.47.74:7716-可用-中转:147.135.109.237-解锁美国地区NF非自制剧
+- name: 🇨🇳:中国-ss-120.240.47.74:7716-可用-中转:15.204.20.226-解锁美国地区NF非自制剧
   type: ss
   server: 120.240.47.74
   password: 5otzk5bmlo6
   port: 7716
   cipher: rc4-md5
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9031-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.123
-  password: BwcAUZk8hUFAkDGN
-  port: 9031
-  cipher: aes-256-cfb
 - name: 🇺🇸:美国-ss-38.91.107.66:5500-可用-直连-不支持Netflix
   type: ss
   server: 38.91.107.66
@@ -146,16 +122,6 @@ proxies:
   udp: false
   tls: true
   ws-path: /123
-- name: 🇸🇬:新加坡-vmess-128.199.188.214:443-可用-直连-仅支持新加坡地区NF自制剧
-  type: vmess
-  server: 128.199.188.214
-  network: ws
-  port: 443
-  uuid: 3f724115-8ca2-4aa4-b8cc-eb72d9b6b1ef
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /cctv13/hd.m3u8
 - name: 🇨🇳:中国-vmess-124.223.44.153:80-可用-直连-完全不支持NF
   type: vmess
   server: 124.223.44.153
@@ -178,27 +144,17 @@ proxies:
   udp: false
   tls: true
   ws-path: /123
-- name: 🇨🇳:中国-vmess-in-sg-1.onebox6.org:38701-可用-中转:194.233.66.47-不支持Netflix
-  type: vmess
-  server: in-sg-1.onebox6.org
-  network: ws
-  port: 38701
-  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /hls/cctv5phd.m3u8
 - name: 🇮🇳:印度-vmess-147.139.7.71:888-可用-直连-仅支持印度地区NF自制剧
   type: vmess
   server: 147.139.7.71
   network: ws
   port: 888
   uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
-  alterId: 0
+  alterId: 4
   cipher: auto
   udp: false
-  ws-path: /
+  tls: false
+  ws-path: ''
 - name: 🇸🇬:新加坡-vmess-sg.fuzzypn.me:80-可用-中转:206.189.86.75-不支持Netflix
   type: vmess
   server: sg.fuzzypn.me
@@ -220,17 +176,6 @@ proxies:
   cipher: auto
   udp: false
   tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-kr.wangfuzheng.top:443-可用-中转:150.230.255.151-解锁韩国地区NF非自制剧
-  type: vmess
-  server: kr.wangfuzheng.top
-  network: ws
-  port: 443
-  uuid: 47d0be27-bb7f-48a7-bf9f-c7f8a9f3de24
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
   ws-path: /
 - name: 🇨🇳:中国-vmess-106.12.168.13:13156-可用-直连-完全不支持NF
   type: vmess
@@ -265,7 +210,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /4g.mkvn.net
-- name: 🇺🇸:美国-vmess-small.rome.tk:19088-可用-中转:150.136.49.35-不支持Netflix
+- name: 🇺🇸:美国-vmess-small.rome.tk:19088-可用-中转:150.136.49.35-仅支持美国地区NF自制剧
   type: vmess
   server: small.rome.tk
   network: ws
@@ -352,6 +297,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /4g.mkvn.net
+- name: 🇺🇸:美国-vmess-qcjs.cc.freedl.heinu.cc:15743-可用-中转:104.129.63.65-仅支持美国地区NF自制剧
+  type: vmess
+  server: qcjs.cc.freedl.heinu.cc
+  network: ws
+  port: 15743
+  uuid: 1a892341-2086-4d9e-ca77-90177533f189
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /qingchengjisu
 - name: 🇨🇳:中国-vmess-ingress-i1.onebox6.org:38201-可用-中转:61.224.62.139-不支持Netflix
   type: vmess
   server: ingress-i1.onebox6.org
