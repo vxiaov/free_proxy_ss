@@ -77,12 +77,6 @@ proxies:
     password: KixLvKzwjekG00rm
     port: 8080
     cipher: aes-256-gcm
-  - name: "\U0001F1F7\U0001F1FA:俄罗斯-ss-91.206.92.176:35030-可用-直连-不支持Netflix"
-    type: ss
-    server: 91.206.92.176
-    password: FCx0i7b33H9G
-    port: 35030
-    cipher: chacha20-ietf-poly1305
   - name: "\U0001F1FA\U0001F1F8:美国-ss-38.91.107.66:5500-可用-直连-不支持Netflix"
     type: ss
     server: 38.91.107.66
@@ -180,16 +174,6 @@ proxies:
     udp: false
     tls: false
     ws-path: /
-  - name: "\U0001F1FA\U0001F1F8:美国-vmess-small.rome.tk:19088-可用-中转:150.136.49.35-仅支持美国地区NF自制剧"
-    type: vmess
-    server: small.rome.tk
-    network: ws
-    port: 19088
-    uuid: 69b4577a-ece8-4044-a3f8-85dd3bfc98c8
-    alterId: 0
-    cipher: auto
-    udp: false
-    ws-path: /
   - name: "\U0001F1E8\U0001F1F3:中国-vmess-106.12.168.13:23117-可用-直连-完全不支持NF"
     type: vmess
     server: 106.12.168.13
@@ -201,6 +185,17 @@ proxies:
     udp: false
     tls: false
     ws-path: /
+  - name: "\U0001F1EB\U0001F1F7:法国-vmess-nl.v2-ray.com:80-可用-中转:163.172.213.74-不支持Netflix"
+    type: vmess
+    server: nl.v2-ray.com
+    network: ws
+    port: 80
+    uuid: bb97ee0a-6d57-40c0-a446-45b78c303603
+    alterId: 4
+    cipher: auto
+    udp: false
+    tls: false
+    ws-path: /fastssh/hkgzs01/6315d407657f6/
   - name: "\U0001F1E8\U0001F1F3:中国-vmess-119.91.223.167:80-可用-直连-完全不支持NF"
     type: vmess
     server: 119.91.223.167
@@ -223,6 +218,17 @@ proxies:
     udp: false
     tls: false
     ws-path: /hls/cctv5phd.m3u8
+  - name: "\U0001F1FA\U0001F1F8:美国-vmess-qcjs.cc.freedl.heinu.cc:15743-可用-中转:104.129.63.65-不支持Netflix"
+    type: vmess
+    server: qcjs.cc.freedl.heinu.cc
+    network: ws
+    port: 15743
+    uuid: 1a892341-2086-4d9e-ca77-90177533f189
+    alterId: 4
+    cipher: auto
+    udp: false
+    tls: false
+    ws-path: /qingchengjisu
 # 类型选择 简介
 # select : 用于选择代理或代理组, 可以通过 RESTful API 来切换代理，建议在 GUI 中使用
 # load-balance : 相同eTLD+1的请求将拨号到同一个代理。
@@ -241,12 +247,12 @@ proxy-groups:
     interval: 300
     proxies:
       - DIRECT
-      - "\U0001F1FA\U0001F1F8:美国-vmess-small.rome.tk:19088-可用-中转:150.136.49.35-仅支持美国地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-vmess-qcjs.cc.freedl.heinu.cc:15743-可用-中转:104.129.63.65-不支持Netflix"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.91.107.72:5500-可用-直连-不支持Netflix"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.91.107.66:5500-可用-直连-不支持Netflix"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.75.136.34:8080-可用-直连-不支持Netflix"
       - "\U0001F1FA\U0001F1F8:美国-ss-198.211.4.6:63911-可用-直连-仅支持美国地区NF自制剧"
-      - "\U0001F1F7\U0001F1FA:俄罗斯-ss-91.206.92.176:35030-可用-直连-不支持Netflix"
+      - "\U0001F1EB\U0001F1F7:法国-vmess-nl.v2-ray.com:80-可用-中转:163.172.213.74-不支持Netflix"
       - "\U0001F1E9\U0001F1EA:德国-ss-92.223.30.4:60565-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1E8\U0001F1F3:中国-vmess-49.234.34.180:443-可用-直连-完全不支持NF"
       - "\U0001F1E8\U0001F1F3:中国-vmess-47.93.231.218:53022-可用-直连-完全不支持NF"
@@ -277,7 +283,6 @@ proxy-groups:
     interval: 300
     proxies:
       - DIRECT
-      - "\U0001F1FA\U0001F1F8:美国-vmess-small.rome.tk:19088-可用-中转:150.136.49.35-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-198.211.4.6:63911-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1E9\U0001F1EA:德国-ss-92.223.30.4:60565-可用-直连-仅支持美国地区NF自制剧"
   - name: 解锁Netflix非自制剧
