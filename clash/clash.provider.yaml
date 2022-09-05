@@ -29,12 +29,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 802
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-216.98.11.153:5889-可用-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 216.98.11.153
-  password: halloweird
-  port: 5889
-  cipher: aes-128-gcm
 - name: 🇯🇵:日本-ss-193.38.139.204:809-可用-中转:193.38.139.201-仅支持日本地区NF自制剧
   type: ss
   server: 193.38.139.204
@@ -59,7 +53,13 @@ proxies:
   password: bf7v334KKDV3YDhH
   port: 9070
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-120.240.47.74:7716-可用-中转:51.81.204.127-解锁美国地区NF非自制剧
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9019-可用-直连-不支持Netflix
+  type: ss
+  server: 185.126.116.123
+  password: GA9KzeEgvfxNrgmM
+  port: 9019
+  cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-120.240.47.74:7716-可用-中转:51.81.204.126-解锁美国地区NF非自制剧
   type: ss
   server: 120.240.47.74
   password: 5otzk5bmlo6
@@ -71,12 +71,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 806
   cipher: chacha20-ietf-poly1305
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9032-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.123
-  password: UWZQeLRWnkqgkseq
-  port: 9032
-  cipher: aes-256-cfb
 - name: 🇺🇸:美国-ss-38.91.107.72:5500-可用-直连-不支持Netflix
   type: ss
   server: 38.91.107.72
@@ -95,18 +89,12 @@ proxies:
   password: QazEdcTgb159@$*
   port: 24009
   cipher: aes-128-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9042-可用-直连-不支持Netflix
+- name: 🇺🇸:美国-ss-199.115.228.30:253-可用-直连-不支持Netflix
   type: ss
-  server: 185.126.116.123
-  password: S7KwUu7yBy58S3Ga
-  port: 9042
+  server: 199.115.228.30
+  password: bwhskrskr05
+  port: 253
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-198.211.4.6:63911-可用-直连-仅支持美国地区NF自制剧
-  type: ss
-  server: 198.211.4.6
-  password: p2FLHVFIp54b
-  port: 63911
-  cipher: chacha20-ietf-poly1305
 - name: 🇨🇳:中国-vmess-in-us-1.onebox6.org:38401-可用-中转:104.249.174.138-不支持Netflix
   type: vmess
   server: in-us-1.onebox6.org
@@ -139,16 +127,6 @@ proxies:
   cipher: auto
   udp: false
   ws-path: /live
-- name: 🇸🇬:新加坡-vmess-128.199.188.214:443-可用-直连-仅支持新加坡地区NF自制剧
-  type: vmess
-  server: 128.199.188.214
-  network: ws
-  port: 443
-  uuid: 3f724115-8ca2-4aa4-b8cc-eb72d9b6b1ef
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /cctv13/hd.m3u8
 - name: 🇨🇳:中国-vmess-124.223.44.153:80-可用-直连-完全不支持NF
   type: vmess
   server: 124.223.44.153
@@ -182,54 +160,12 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
-- name: 🇮🇳:印度-vmess-147.139.7.71:888-可用-直连-仅支持印度地区NF自制剧
-  type: vmess
-  server: 147.139.7.71
-  network: ws
-  port: 888
-  uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-us01.henet.cyou:20001-可用-中转:74.207.253.126-仅支持美国地区NF自制剧
-  type: vmess
-  server: us01.henet.cyou
-  network: ws
-  port: 20001
-  uuid: e9473447-089e-41fa-996a-0c25824bfa3a
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /live
 - name: 🇨🇳:中国-vmess-110.42.138.122:18080-可用-直连-完全不支持NF
   type: vmess
   server: 110.42.138.122
   network: ws
   port: 18080
   uuid: 6a9a236c-e99b-44d8-b414-bbcd6e7b1465
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-kr.wangfuzheng.top:443-可用-中转:150.230.255.151-解锁韩国地区NF非自制剧
-  type: vmess
-  server: kr.wangfuzheng.top
-  network: ws
-  port: 443
-  uuid: 47d0be27-bb7f-48a7-bf9f-c7f8a9f3de24
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /
-- name: 🇯🇵:日本-vmess-47.91.25.176:36788-可用-直连-仅支持日本地区NF自制剧
-  type: vmess
-  server: 47.91.25.176
-  network: ws
-  port: 36788
-  uuid: e56a6bdd-4f2f-41ee-cb47-1e0f006a4b78
   alterId: 4
   cipher: auto
   udp: false
@@ -266,16 +202,6 @@ proxies:
   cipher: auto
   udp: false
   tls: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-small.rome.tk:19088-可用-中转:150.136.49.35-仅支持美国地区NF自制剧
-  type: vmess
-  server: small.rome.tk
-  network: ws
-  port: 19088
-  uuid: 69b4577a-ece8-4044-a3f8-85dd3bfc98c8
-  alterId: 0
-  cipher: auto
-  udp: false
   ws-path: /
 - name: 🇨🇳:中国-vmess-106.12.168.13:23117-可用-直连-完全不支持NF
   type: vmess
@@ -317,3 +243,17 @@ proxies:
   udp: true
   skip-cert-verify: true
   port: 80
+- name: 🇺🇸:美国-trojan-rbobosz.tk:23868-可用-中转:193.122.145.15-仅支持美国地区NF自制剧
+  type: trojan
+  server: rbobosz.tk
+  password: gMVN7PbEX2
+  udp: true
+  skip-cert-verify: true
+  port: 23868
+- name: 🇯🇵:日本-trojan-823jp.tfzhc.top:443-可用-中转:164.70.122.158-仅支持日本地区NF自制剧
+  type: trojan
+  server: 823jp.tfzhc.top
+  password: bb07c284-4654-4358-b1f0-0007147fbf4f
+  udp: true
+  skip-cert-verify: true
+  port: 443
