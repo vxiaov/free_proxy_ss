@@ -29,12 +29,6 @@ proxies:
   password: f63gg8EruDnUrmz4
   port: 9010
   cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9042-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.123
-  password: S7KwUu7yBy58S3Ga
-  port: 9042
-  cipher: aes-256-cfb
 - name: 🇺🇸:美国-ss-199.115.228.30:253-可用-直连-不支持Netflix
   type: ss
   server: 199.115.228.30
@@ -47,35 +41,12 @@ proxies:
   password: UWZQeLRWnkqgkseq
   port: 9032
   cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9019-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.123
-  password: GA9KzeEgvfxNrgmM
-  port: 9019
-  cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9070-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.123
-  password: bf7v334KKDV3YDhH
-  port: 9070
-  cipher: aes-256-cfb
 - name: 🇨🇳:中国-vmess-106.12.168.13:23117-可用-直连-完全不支持NF
   type: vmess
   server: 106.12.168.13
   network: ws
   port: 23117
   uuid: 6479ce34-0355-422d-d07e-d74116866fd2
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇳🇱:荷兰-vmess-45.135.116.134:80-可用-直连-仅支持美国地区NF自制剧
-  type: vmess
-  server: 45.135.116.134
-  network: ws
-  port: 80
-  uuid: 81ee6017-1628-4188-86b7-bb05a916f8e8
   alterId: 4
   cipher: auto
   udp: false
@@ -153,6 +124,17 @@ proxies:
   network: ws
   port: 80
   uuid: 5087e6ea-b650-443e-923f-b754661b8c47
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇯🇵:日本-vmess-47.91.25.176:36788-可用-直连-仅支持日本地区NF自制剧
+  type: vmess
+  server: 47.91.25.176
+  network: ws
+  port: 36788
+  uuid: e56a6bdd-4f2f-41ee-cb47-1e0f006a4b78
   alterId: 4
   cipher: auto
   udp: false
