@@ -41,6 +41,12 @@ proxies:
   password: KixLvKzwjekG00rm
   port: 8080
   cipher: aes-256-gcm
+- name: 🇷🇺:俄罗斯-ss-91.206.92.176:35030-可用-直连-不支持Netflix
+  type: ss
+  server: 91.206.92.176
+  password: FCx0i7b33H9G
+  port: 35030
+  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-38.91.102.74:5003-可用-直连-不支持Netflix
   type: ss
   server: 38.91.102.74
@@ -71,12 +77,6 @@ proxies:
   password: gYCYXfkUQEs2TaJQ
   port: 9038
   cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9042-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.123
-  password: S7KwUu7yBy58S3Ga
-  port: 9042
-  cipher: aes-256-cfb
 - name: 🇯🇵:日本-ss-193.38.139.204:809-可用-中转:193.38.139.201-仅支持日本地区NF自制剧
   type: ss
   server: 193.38.139.204
@@ -95,6 +95,12 @@ proxies:
   password: bwhskrskr05
   port: 253
   cipher: aes-256-cfb
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9070-可用-直连-仅支持瑞士地区NF自制剧
+  type: ss
+  server: 185.126.116.123
+  password: bf7v334KKDV3YDhH
+  port: 9070
+  cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9031-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
   server: 185.126.116.123
@@ -112,12 +118,6 @@ proxies:
   server: 185.126.116.123
   password: wfLC2y7rzZyCmuyt
   port: 9093
-  cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9019-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.123
-  password: GA9KzeEgvfxNrgmM
-  port: 9019
   cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9073-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
@@ -190,17 +190,16 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇺🇸:美国-vmess-kr.wangfuzheng.top:443-可用-中转:150.230.255.151-解锁韩国地区NF非自制剧
+- name: 🇺🇸:美国-vmess-us02.henet.cyou:20000-可用-中转:173.230.147.229-仅支持美国地区NF自制剧
   type: vmess
-  server: kr.wangfuzheng.top
+  server: us02.henet.cyou
   network: ws
-  port: 443
-  uuid: 47d0be27-bb7f-48a7-bf9f-c7f8a9f3de24
-  alterId: 4
+  port: 20000
+  uuid: e9473447-089e-41fa-996a-0c25824bfa3a
+  alterId: 0
   cipher: auto
   udp: false
-  tls: true
-  ws-path: /
+  ws-path: /live
 - name: 🇨🇳:中国-vmess-119.91.223.167:80-可用-直连-完全不支持NF
   type: vmess
   server: 119.91.223.167
@@ -212,17 +211,16 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇮🇳:印度-vmess-147.139.7.71:888-可用-直连-仅支持印度地区NF自制剧
+- name: 🇸🇬:新加坡-vmess-sg02.henet.cyou:20001-可用-中转:172.104.166.44-仅支持新加坡地区NF自制剧
   type: vmess
-  server: 147.139.7.71
+  server: sg02.henet.cyou
   network: ws
-  port: 888
-  uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
-  alterId: 4
+  port: 20001
+  uuid: e9473447-089e-41fa-996a-0c25824bfa3a
+  alterId: 0
   cipher: auto
   udp: false
-  tls: false
-  ws-path: /
+  ws-path: /live
 - name: 🇨🇳:中国-vmess-ingress-i1.onebox6.org:38201-可用-中转:61.224.62.139-不支持Netflix
   type: vmess
   server: ingress-i1.onebox6.org
@@ -278,6 +276,26 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
+- name: 🇩🇪:德国-vmess-172.105.35.76:20000-可用-直连-仅支持印度地区NF自制剧
+  type: vmess
+  server: 172.105.35.76
+  network: ws
+  port: 20000
+  uuid: e9473447-089e-41fa-996a-0c25824bfa3a
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /live
+- name: 🇺🇸:美国-vmess-us01.henet.cyou:20001-可用-中转:173.255.253.67-仅支持美国地区NF自制剧
+  type: vmess
+  server: us01.henet.cyou
+  network: ws
+  port: 20001
+  uuid: e9473447-089e-41fa-996a-0c25824bfa3a
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /live
 - name: 🇳🇱:荷兰-vmess-45.135.116.134:80-可用-直连-仅支持美国地区NF自制剧
   type: vmess
   server: 45.135.116.134
@@ -289,24 +307,23 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇨🇳:中国-trojan-tw.tcpbbr.net:443-可用-中转:114.43.82.42-不支持Netflix
-  type: trojan
-  server: tw.tcpbbr.net
-  password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d
-  udp: true
-  skip-cert-verify: true
-  port: 443
-- name: 🇷🇺:俄罗斯-trojan-ttt3.swiftfalcon.app:8443-可用-中转:91.243.81.150-不支持Netflix
-  type: trojan
-  server: ttt3.swiftfalcon.app
-  password: coldwar2
-  udp: true
-  skip-cert-verify: true
-  port: 8443
-- name: 🇺🇸:美国-trojan-rbobosz.tk:23868-可用-中转:193.122.145.15-仅支持美国地区NF自制剧
-  type: trojan
-  server: rbobosz.tk
-  password: gMVN7PbEX2
-  udp: true
-  skip-cert-verify: true
-  port: 23868
+- name: 🇸🇬:新加坡-vmess-sg01.henet.cyou:20000-可用-中转:139.162.10.226-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: sg01.henet.cyou
+  network: ws
+  port: 20000
+  uuid: e9473447-089e-41fa-996a-0c25824bfa3a
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /live
+- name: 🇺🇸:美国-vmess-18.167.20.169:8080-可用-直连-仅支持香港地区NF自制剧
+  type: vmess
+  server: 18.167.20.169
+  network: ws
+  port: 8080
+  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /
