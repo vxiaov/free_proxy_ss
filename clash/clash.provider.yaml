@@ -47,18 +47,18 @@ proxies:
   password: gYCYXfkUQEs2TaJQ
   port: 9038
   cipher: aes-256-cfb
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9025-可用-直连-仅支持瑞士地区NF自制剧
+  type: ss
+  server: 185.126.116.123
+  password: XPtzA9sCug3SPR4c
+  port: 9025
+  cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9070-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
   server: 185.126.116.123
   password: bf7v334KKDV3YDhH
   port: 9070
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-38.75.136.34:8080-可用-直连-不支持Netflix
-  type: ss
-  server: 38.75.136.34
-  password: KixLvKzwjekG00rm
-  port: 8080
-  cipher: aes-256-gcm
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9001-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
   server: 185.126.116.123
@@ -95,12 +95,6 @@ proxies:
   password: daFYagqDdBdA6VTX
   port: 9073
   cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9042-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.123
-  password: S7KwUu7yBy58S3Ga
-  port: 9042
-  cipher: aes-256-cfb
 - name: 🇺🇸:美国-ss-198.211.4.6:63911-可用-直连-仅支持美国地区NF自制剧
   type: ss
   server: 198.211.4.6
@@ -118,7 +112,7 @@ proxies:
   udp: false
   tls: true
   ws-path: /123
-- name: 🇺🇸:美国-vmess-usamd.ptuu.gq:443-可用-中转:129.146.131.196-解锁美国地区NF非自制剧
+- name: 🇺🇸:美国-vmess-usamd.ptuu.gq:443-可用-中转:129.146.131.196-仅支持美国地区NF自制剧
   type: vmess
   server: usamd.ptuu.gq
   network: ws
@@ -151,7 +145,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇸🇬:新加坡-vmess-sg.fuzzypn.me:80-可用-中转:206.189.86.75-不支持Netflix
+- name: 🇸🇬:新加坡-vmess-sg.fuzzypn.me:80-可用-中转:178.128.59.190-不支持Netflix
   type: vmess
   server: sg.fuzzypn.me
   network: ws
@@ -162,6 +156,16 @@ proxies:
   udp: false
   tls: false
   ws-path: /fuzzypn
+- name: 🇺🇸:美国-vmess-18.167.20.169:8080-可用-直连-仅支持香港地区NF自制剧
+  type: vmess
+  server: 18.167.20.169
+  network: ws
+  port: 8080
+  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /
 - name: 🇨🇳:中国-vmess-110.42.138.122:18080-可用-直连-完全不支持NF
   type: vmess
   server: 110.42.138.122
@@ -227,6 +231,16 @@ proxies:
   udp: false
   tls: false
   ws-path: /4g.mkvn.net
+- name: 🇺🇸:美国-vmess-small.rome.tk:19088-可用-中转:150.136.49.35-仅支持美国地区NF自制剧
+  type: vmess
+  server: small.rome.tk
+  network: ws
+  port: 19088
+  uuid: 69b4577a-ece8-4044-a3f8-85dd3bfc98c8
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /
 - name: 🇨🇳:中国-vmess-106.12.168.13:23117-可用-直连-完全不支持NF
   type: vmess
   server: 106.12.168.13
@@ -318,6 +332,13 @@ proxies:
   udp: true
   skip-cert-verify: true
   port: 9018
+- name: 🇺🇸:美国-trojan-purchases.freetrade.link:443-可用-中转:154.17.23.220-仅支持美国地区NF自制剧
+  type: trojan
+  server: purchases.freetrade.link
+  password: ZeYaxlxBNuyjgp736e8l4I32aAZSOYRcqD3ESC8pwADKSCFDynO3a0FXTzC5R9
+  udp: true
+  skip-cert-verify: true
+  port: 443
 - name: 🇳🇱:荷兰-trojan-ty1-1.nigirocloud.com:443-可用-中转:45.149.4.105-不支持Netflix
   type: trojan
   server: ty1-1.nigirocloud.com
@@ -325,10 +346,17 @@ proxies:
   udp: true
   skip-cert-verify: true
   port: 443
-- name: 🇺🇸:美国-trojan-purchases.freetrade.link:443-可用-中转:154.17.23.220-仅支持美国地区NF自制剧
+- name: 🇨🇳:中国-trojan-831sg.tfzhc.top:443-可用-中转:43.153.212.132-仅支持新加坡地区NF自制剧
   type: trojan
-  server: purchases.freetrade.link
-  password: ZeYaxlxBNuyjgp736e8l4I32aAZSOYRcqD3ESC8pwADKSCFDynO3a0FXTzC5R9
+  server: 831sg.tfzhc.top
+  password: d09d2305-24db-43c4-b309-0e1d2737329f
+  udp: true
+  skip-cert-verify: true
+  port: 443
+- name: 🇨🇦:加拿大-trojan-823tw.tfzhc.top:443-可用-中转:165.154.243.144-仅支持新加坡地区NF自制剧
+  type: trojan
+  server: 823tw.tfzhc.top
+  password: d09d2305-24db-43c4-b309-0e1d2737329f
   udp: true
   skip-cert-verify: true
   port: 443
@@ -343,13 +371,6 @@ proxies:
   type: trojan
   server: listener.freetrade.link
   password: Z9TS0AeB8S5ZlpFNRea3aypDaXISOyzY67xCO33lF4gKq38jw2uDEnDYRCCxAc
-  udp: true
-  skip-cert-verify: true
-  port: 443
-- name: 🇨🇦:加拿大-trojan-823tw.tfzhc.top:443-可用-中转:165.154.243.144-仅支持新加坡地区NF自制剧
-  type: trojan
-  server: 823tw.tfzhc.top
-  password: d09d2305-24db-43c4-b309-0e1d2737329f
   udp: true
   skip-cert-verify: true
   port: 443
