@@ -317,7 +317,7 @@ proxies:
   password: g5MeD6Ft3CWlJId
   port: 5003
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-120.240.47.72:2715-可用-中转:212.107.29.169-解锁香港地区NF非自制剧
+- name: 🇨🇳:中国-ss-120.240.47.72:2715-可用-中转:212.107.29.168-解锁香港地区NF非自制剧
   type: ss
   server: 120.240.47.72
   password: 5otzk5bmlo6
@@ -329,12 +329,6 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-38.91.107.66:5500-可用-直连-不支持Netflix
-  type: ss
-  server: 38.91.107.66
-  password: KixLvKzwjekG00rm
-  port: 5500
-  cipher: aes-256-gcm
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9060-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
   server: 185.126.116.123
@@ -359,7 +353,7 @@ proxies:
   password: shadowsocks
   port: 443
   cipher: aes-128-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9027-可用-直连-不支持Netflix
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9027-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
   server: 185.126.116.123
   password: EXN3S3eQpjE7EJu8
@@ -377,12 +371,33 @@ proxies:
   password: UkXRsXvR6buDMG2Y
   port: 9001
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-120.240.47.72:2718-可用-中转:212.107.29.171-解锁香港地区NF非自制剧
+- name: 🇨🇳:中国-ss-120.240.47.72:2718-可用-中转:212.107.29.165-解锁香港地区NF非自制剧
   type: ss
   server: 120.240.47.72
   password: 5otzk5bmlo6
   port: 2718
   cipher: rc4-md5
+- name: 🇺🇸:美国-ssr-us-am32-5.eqnode.net:8081-可用-中转:52.89.94.157-不支持Netflix
+  type: ssr
+  server: us-am32-5.eqnode.net
+  password: YFVrXZgRo
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇺🇸:美国-vmess-lc-kr02-direct01.lc-kr02.lc-node.com:443-可用-中转:161.129.34.102-不支持Netflix
+  type: vmess
+  server: lc-kr02-direct01.lc-kr02.lc-node.com
+  network: ws
+  port: 443
+  uuid: ec736482-173e-3eff-9114-b49df8056e7d
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /
 - name: 🇨🇳:中国-vmess-110.42.138.122:18080-可用-直连-完全不支持NF
   type: vmess
   server: 110.42.138.122
@@ -404,6 +419,16 @@ proxies:
   cipher: auto
   udp: false
   tls: false
+  ws-path: /
+- name: 🇮🇳:印度-vmess-147.139.7.71:888-可用-直连-仅支持印度地区NF自制剧
+  type: vmess
+  server: 147.139.7.71
+  network: ws
+  port: 888
+  uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
+  alterId: 0
+  cipher: auto
+  udp: false
   ws-path: /
 - name: 🇨🇳:中国-vmess-119.91.223.167:80-可用-直连-完全不支持NF
   type: vmess
@@ -427,7 +452,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇩🇪:德国-vmess-us02.gogogoo.cyou:443-可用-中转:205.185.115.241-仅支持美国地区NF自制剧
+- name: 🇰🇷:韩国-vmess-us02.gogogoo.cyou:443-可用-中转:205.185.115.241-仅支持美国地区NF自制剧
   type: vmess
   server: us02.gogogoo.cyou
   network: ws
@@ -514,7 +539,7 @@ proxies:
   cipher: auto
   udp: false
   ws-path: /4g.mkvn.net
-- name: 🇺🇸:美国-vmess-m6.v2rayfree1.xyz:443-可用-中转:104.233.224.11-不支持Netflix
+- name: 🇺🇸:美国-vmess-m6.v2rayfree1.xyz:443-可用-中转:104.233.224.12-不支持Netflix
   type: vmess
   server: m6.v2rayfree1.xyz
   network: ws
@@ -556,6 +581,16 @@ proxies:
   udp: false
   tls: true
   ws-path: /zcjd
+- name: 🇺🇸:美国-vmess-18.167.20.169:8080-可用-直连-不支持Netflix
+  type: vmess
+  server: 18.167.20.169
+  network: ws
+  port: 8080
+  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /
 - name: 🇨🇳:中国-vmess-ingress-i1.onebox6.org:38701-可用-中转:194.233.66.47-不支持Netflix
   type: vmess
   server: ingress-i1.onebox6.org
@@ -578,59 +613,49 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇺🇸:美国-vmess-small.rome.tk:19088-可用-中转:150.136.49.35-仅支持美国地区NF自制剧
-  type: vmess
-  server: small.rome.tk
-  network: ws
-  port: 19088
-  uuid: 69b4577a-ece8-4044-a3f8-85dd3bfc98c8
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /
-- name: 🇰🇷:韩国-trojan-jgwxn3.gaox.ml:443-可用-中转:140.238.205.173-不支持Netflix
+- name: 🇺🇸:美国-trojan-jgwdj4.gaox.ml:443-可用-中转:150.230.217.213-不支持Netflix
   type: trojan
-  server: jgwxn3.gaox.ml
-  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+  server: jgwdj4.gaox.ml
+  password: c09eb137-bf68-4658-84e0-102d94b74168
   udp: true
   skip-cert-verify: true
   port: 443
-- name: 🇰🇷:韩国-trojan-jgwld1.gaox.ml:443-可用-中转:132.145.51.172-不支持Netflix
+- name: 🇩🇪:德国-trojan-jgwld1.gaox.ml:443-可用-中转:132.145.51.172-不支持Netflix
   type: trojan
   server: jgwld1.gaox.ml
   password: 02e653c9-7c93-46a9-999d-11834bd0c577
   udp: true
   skip-cert-verify: true
   port: 443
-- name: 🇮🇹:意大利-trojan-jgwhdlb3.gaox.ml:443-可用-中转:152.67.190.183-不支持Netflix
+- name: 🇩🇪:德国-trojan-jgwhdlb3.gaox.ml:443-可用-中转:152.67.190.183-不支持Netflix
   type: trojan
   server: jgwhdlb3.gaox.ml
   password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
   udp: true
   skip-cert-verify: true
   port: 443
-- name: 🇩🇪:德国-trojan-jgw2.gaox.ml:443-可用-中转:146.56.189.146-不支持Netflix
+- name: 🇰🇷:韩国-trojan-jgw2.gaox.ml:443-可用-中转:146.56.189.146-不支持Netflix
   type: trojan
   server: jgw2.gaox.ml
   password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
   udp: true
   skip-cert-verify: true
   port: 443
-- name: 🇰🇷:韩国-trojan-fhcamd2.gaox.ml:443-可用-中转:129.146.190.42-不支持Netflix
+- name: 🇮🇹:意大利-trojan-fhcamd2.gaox.ml:443-可用-中转:129.146.190.42-不支持Netflix
   type: trojan
   server: fhcamd2.gaox.ml
   password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
   udp: true
   skip-cert-verify: true
   port: 443
-- name: 🇮🇳:印度-trojan-jgwhdlb1.gaox.ml:443-可用-中转:152.67.162.166-不支持Netflix
+- name: 🇳🇱:荷兰-trojan-api.hostyunjp.frydipxian.top:9018-可用-中转:45.159.51.77-仅支持日本地区NF自制剧
   type: trojan
-  server: jgwhdlb1.gaox.ml
-  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
+  server: api.hostyunjp.frydipxian.top
+  password: 97ea5c08e262acf366b3b973b91960cb
   udp: true
   skip-cert-verify: true
-  port: 443
-- name: 🇬🇧:英国-trojan-jgwcc1.gaox.ml:443-可用-中转:144.24.72.126-不支持Netflix
+  port: 9018
+- name: 🇩🇪:德国-trojan-jgwcc1.gaox.ml:443-可用-中转:144.24.72.126-不支持Netflix
   type: trojan
   server: jgwcc1.gaox.ml
   password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
@@ -644,6 +669,13 @@ proxies:
   udp: true
   skip-cert-verify: true
   port: 443
+- name: 🇷🇺:俄罗斯-trojan-ttt3.swiftfalcon.app:8443-可用-中转:91.243.81.150-不支持Netflix
+  type: trojan
+  server: ttt3.swiftfalcon.app
+  password: coldwar2
+  udp: true
+  skip-cert-verify: true
+  port: 8443
 - name: 🇺🇸:美国-trojan-los.ydnode.us:443-可用-中转:194.5.154.17-仅支持美国地区NF自制剧
   type: trojan
   server: los.ydnode.us
@@ -679,17 +711,10 @@ proxies:
   udp: true
   skip-cert-verify: true
   port: 443
-- name: 🇯🇵:日本-trojan-jgwdb3.gaox.ml:443-可用-中转:168.138.44.176-不支持Netflix
+- name: 🇮🇹:意大利-trojan-jgwdb3.gaox.ml:443-可用-中转:168.138.44.176-不支持Netflix
   type: trojan
   server: jgwdb3.gaox.ml
   password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  udp: true
-  skip-cert-verify: true
-  port: 443
-- name: 🇺🇸:美国-trojan-fhcarm1.gaox.ml:443-可用-中转:129.146.242.130-不支持Netflix
-  type: trojan
-  server: fhcarm1.gaox.ml
-  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
   udp: true
   skip-cert-verify: true
   port: 443
@@ -700,7 +725,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   port: 443
-- name: 🇰🇷:韩国-trojan-fhcarm2.gaox.ml:443-可用-中转:129.146.255.158-不支持Netflix
+- name: 🇺🇸:美国-trojan-fhcarm2.gaox.ml:443-可用-中转:129.146.255.158-不支持Netflix
   type: trojan
   server: fhcarm2.gaox.ml
   password: f39bd244-f5fe-415c-8b98-a1e5250bf178
@@ -742,21 +767,35 @@ proxies:
   udp: true
   skip-cert-verify: true
   port: 50500
-- name: 🇰🇷:韩国-trojan-jgwcc3.gaox.ml:443-可用-中转:138.2.113.84-不支持Netflix
+- name: 🇳🇱:荷兰-trojan-ty1-1.nigirocloud.com:443-可用-中转:45.149.4.18-不支持Netflix
+  type: trojan
+  server: ty1-1.nigirocloud.com
+  password: 4V4kxVXmcg5Yn2DqF2
+  udp: true
+  skip-cert-verify: true
+  port: 443
+- name: 🇩🇪:德国-trojan-jgwcc3.gaox.ml:443-可用-中转:138.2.113.84-不支持Netflix
   type: trojan
   server: jgwcc3.gaox.ml
   password: b291d129-ee55-4801-a9b8-b5316e5c37b7
   udp: true
   skip-cert-verify: true
   port: 443
-- name: 🇺🇸:美国-trojan-jgwxn2.gaox.ml:443-可用-中转:140.238.198.246-不支持Netflix
+- name: 🇳🇱:荷兰-trojan-ty1-3.nigirocloud.com:443-可用-中转:45.149.4.18-不支持Netflix
+  type: trojan
+  server: ty1-3.nigirocloud.com
+  password: 4V4kxVXmcg5Yn2DqF2
+  udp: true
+  skip-cert-verify: true
+  port: 443
+- name: 🇩🇪:德国-trojan-jgwxn2.gaox.ml:443-可用-中转:140.238.198.246-不支持Netflix
   type: trojan
   server: jgwxn2.gaox.ml
   password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   udp: true
   skip-cert-verify: true
   port: 443
-- name: 🇮🇹:意大利-trojan-trojan-ctb-sg01.globalssh.xyz:443-可用-中转:194.233.88.109-不支持Netflix
+- name: 🇩🇪:德国-trojan-trojan-ctb-sg01.globalssh.xyz:443-可用-中转:194.233.88.109-不支持Netflix
   type: trojan
   server: trojan-ctb-sg01.globalssh.xyz
   password: '123456'
@@ -770,14 +809,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   port: 443
-- name: 🇮🇹:意大利-trojan-jgwhdlb2.gaox.ml:443-可用-中转:152.67.160.174-不支持Netflix
-  type: trojan
-  server: jgwhdlb2.gaox.ml
-  password: 54080134-2cba-4535-8599-95650bd9aa54
-  udp: true
-  skip-cert-verify: true
-  port: 443
-- name: 🇩🇪:德国-trojan-jgwdj3.gaox.ml:443-可用-中转:150.230.96.103-不支持Netflix
+- name: 🇮🇹:意大利-trojan-jgwdj3.gaox.ml:443-可用-中转:150.230.96.103-不支持Netflix
   type: trojan
   server: jgwdj3.gaox.ml
   password: da777aae-defb-41d0-a183-2c27da2b4677
@@ -791,7 +823,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   port: 443
-- name: 🇮🇹:意大利-trojan-fhcamd1.gaox.ml:443-可用-中转:129.146.135.157-不支持Netflix
+- name: 🇩🇪:德国-trojan-fhcamd1.gaox.ml:443-可用-中转:129.146.135.157-不支持Netflix
   type: trojan
   server: fhcamd1.gaox.ml
   password: e23f408a-012e-4030-8b31-02022031cb50
