@@ -35,12 +35,6 @@ proxies:
   password: 61e2d024-31ac-4c8a-8ca8-6ea85ae7941b
   port: 10005
   cipher: aes-128-gcm
-- name: 🇷🇺:俄罗斯-ss-91.206.92.176:35030-可用-直连-不支持Netflix
-  type: ss
-  server: 91.206.92.176
-  password: FCx0i7b33H9G
-  port: 35030
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-156.146.38.163:443-可用-直连-不支持Netflix
   type: ss
   server: 156.146.38.163
@@ -65,7 +59,13 @@ proxies:
   password: UkXRsXvR6buDMG2Y
   port: 9001
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-120.240.47.74:7716-可用-中转:51.81.204.127-解锁美国地区NF非自制剧
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9019-可用-直连-仅支持瑞士地区NF自制剧
+  type: ss
+  server: 185.126.116.123
+  password: GA9KzeEgvfxNrgmM
+  port: 9019
+  cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-120.240.47.74:7716-可用-中转:147.135.109.238-解锁美国地区NF非自制剧
   type: ss
   server: 120.240.47.74
   password: 5otzk5bmlo6
@@ -95,13 +95,7 @@ proxies:
   password: KixLvKzwjekG00rm
   port: 5500
   cipher: aes-256-gcm
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9073-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.123
-  password: daFYagqDdBdA6VTX
-  port: 9073
-  cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9042-可用-直连-不支持Netflix
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9042-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
   server: 185.126.116.123
   password: S7KwUu7yBy58S3Ga
@@ -174,16 +168,6 @@ proxies:
   udp: false
   tls: true
   ws-path: /123
-- name: 🇮🇳:印度-vmess-147.139.7.71:888-可用-直连-仅支持印度地区NF自制剧
-  type: vmess
-  server: 147.139.7.71
-  network: ws
-  port: 888
-  uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /
 - name: 🇨🇳:中国-vmess-110.42.138.122:18080-可用-直连-完全不支持NF
   type: vmess
   server: 110.42.138.122
@@ -223,10 +207,9 @@ proxies:
   network: ws
   port: 443
   uuid: 6e0a01f3-4fce-4cdd-ab05-ee5d2254b058
-  alterId: 4
+  alterId: 0
   cipher: auto
   udp: false
-  tls: false
   ws-path: /
 - name: 🇨🇳:中国-vmess-47.93.231.218:53022-可用-直连-完全不支持NF
   type: vmess
@@ -352,20 +335,6 @@ proxies:
   udp: true
   skip-cert-verify: true
   port: 9018
-- name: 🇳🇱:荷兰-trojan-ty1-2.nigirocloud.com:443-可用-中转:45.149.4.105-不支持Netflix
-  type: trojan
-  server: ty1-2.nigirocloud.com
-  password: 4V4kxVXmcg5Yn2DqF2
-  udp: true
-  skip-cert-verify: true
-  port: 443
-- name: 🇳🇱:荷兰-trojan-ty1-3.nigirocloud.com:443-可用-中转:45.149.4.105-不支持Netflix
-  type: trojan
-  server: ty1-3.nigirocloud.com
-  password: 4V4kxVXmcg5Yn2DqF2
-  udp: true
-  skip-cert-verify: true
-  port: 443
 - name: 🇳🇱:荷兰-trojan-ty1-1.nigirocloud.com:443-可用-中转:45.149.4.105-不支持Netflix
   type: trojan
   server: ty1-1.nigirocloud.com
@@ -380,6 +349,13 @@ proxies:
   udp: true
   skip-cert-verify: true
   port: 443
+- name: 🇷🇺:俄罗斯-trojan-ttt3.swiftfalcon.app:8443-可用-中转:91.243.81.150-不支持Netflix
+  type: trojan
+  server: ttt3.swiftfalcon.app
+  password: coldwar2
+  udp: true
+  skip-cert-verify: true
+  port: 8443
 - name: 🇨🇳:中国-trojan-831sg.tfzhc.top:443-可用-中转:43.153.212.132-仅支持新加坡地区NF自制剧
   type: trojan
   server: 831sg.tfzhc.top
