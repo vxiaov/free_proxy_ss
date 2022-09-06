@@ -17,19 +17,31 @@ proxies:
   password: jRKkoWqkrw2f
   port: 2097
   cipher: chacha20-ietf-poly1305
+- name: 🇩🇪:德国-ss-49.12.203.80:40960-可用-直连-不支持Netflix
+  type: ss
+  server: 49.12.203.80
+  password: 6kA7b3f9Aw2508erQ3W7D4
+  port: 40960
+  cipher: aes-256-gcm
 - name: 🇩🇪:德国-ss-92.223.30.4:60565-可用-直连-仅支持美国地区NF自制剧
   type: ss
   server: 92.223.30.4
   password: gnPQtKxjLuWJ
   port: 60565
   cipher: chacha20-ietf-poly1305
+- name: 🇯🇵:日本-ss-172.105.236.40:10004-可用-直连-仅支持日本地区NF自制剧
+  type: ss
+  server: 172.105.236.40
+  password: 61e2d024-31ac-4c8a-8ca8-6ea85ae7941b
+  port: 10004
+  cipher: aes-128-gcm
 - name: 🇺🇸:美国-ss-38.91.102.74:5003-可用-直连-不支持Netflix
   type: ss
   server: 38.91.102.74
   password: g5MeD6Ft3CWlJId
   port: 5003
   cipher: aes-256-gcm
-- name: 🇯🇵:日本-ss-172.105.236.77:10005-可用-直连-仅支持日本地区NF自制剧
+- name: 🇯🇵:日本-ss-172.105.236.77:10005-可用-直连-不支持Netflix
   type: ss
   server: 172.105.236.77
   password: 61e2d024-31ac-4c8a-8ca8-6ea85ae7941b
@@ -41,11 +53,29 @@ proxies:
   password: shadowsocks
   port: 443
   cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11005-可用-中转:129.227.144.194-不支持Netflix
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11005
+  cipher: aes-128-cfb
 - name: 🇦🇺:澳大利亚-ss-185.167.116.250:9073-可用-直连-仅支持澳大利亚地区NF自制剧
   type: ss
   server: 185.167.116.250
   password: daFYagqDdBdA6VTX
   port: 9073
+  cipher: aes-256-cfb
+- name: 🇯🇵:日本-ss-172.105.236.40:10004-可用-直连-不支持Netflix
+  type: ss
+  server: 172.105.236.40
+  password: 61e2d024-31ac-4c8a-8ca8-6ea85ae7941b
+  port: 10004
+  cipher: aes-128-gcm
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9070-可用-直连-仅支持瑞士地区NF自制剧
+  type: ss
+  server: 185.126.116.123
+  password: bf7v334KKDV3YDhH
+  port: 9070
   cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9001-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
@@ -53,13 +83,13 @@ proxies:
   password: UkXRsXvR6buDMG2Y
   port: 9001
   cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9019-可用-直连-仅支持瑞士地区NF自制剧
+- name: 🇺🇸:美国-ss-97.64.122.63:253-可用-直连-不支持Netflix
   type: ss
-  server: 185.126.116.123
-  password: GA9KzeEgvfxNrgmM
-  port: 9019
+  server: 97.64.122.63
+  password: bwhskrskr05
+  port: 253
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-120.240.47.74:7716-可用-中转:147.135.109.238-解锁美国地区NF非自制剧
+- name: 🇨🇳:中国-ss-120.240.47.74:7716-可用-中转:51.81.204.127-解锁美国地区NF非自制剧
   type: ss
   server: 120.240.47.74
   password: 5otzk5bmlo6
@@ -77,6 +107,12 @@ proxies:
   password: KixLvKzwjekG00rm
   port: 5500
   cipher: aes-256-gcm
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9042-可用-直连-仅支持瑞士地区NF自制剧
+  type: ss
+  server: 185.126.116.123
+  password: S7KwUu7yBy58S3Ga
+  port: 9042
+  cipher: aes-256-cfb
 - name: 🇩🇪:德国-ss-165.22.73.126:23335-可用-直连-不支持Netflix
   type: ss
   server: 165.22.73.126
@@ -144,6 +180,27 @@ proxies:
   udp: false
   tls: true
   ws-path: /123
+- name: 🇨🇳:中国-vmess-in-sg-1.onebox6.org:38701-可用-中转:194.233.66.47-不支持Netflix
+  type: vmess
+  server: in-sg-1.onebox6.org
+  network: ws
+  port: 38701
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /hls/cctv5phd.m3u8
+- name: 🇮🇳:印度-vmess-147.139.7.71:888-可用-直连-仅支持印度地区NF自制剧
+  type: vmess
+  server: 147.139.7.71
+  network: ws
+  port: 888
+  uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /
 - name: 🇨🇳:中国-vmess-110.42.138.122:18080-可用-直连-完全不支持NF
   type: vmess
   server: 110.42.138.122
@@ -311,6 +368,13 @@ proxies:
   udp: true
   skip-cert-verify: true
   port: 9018
+- name: 🇳🇱:荷兰-trojan-ty1-2.nigirocloud.com:443-可用-中转:45.149.4.105-不支持Netflix
+  type: trojan
+  server: ty1-2.nigirocloud.com
+  password: 4V4kxVXmcg5Yn2DqF2
+  udp: true
+  skip-cert-verify: true
+  port: 443
 - name: 🇳🇱:荷兰-trojan-ty1-3.nigirocloud.com:443-可用-中转:45.149.4.105-不支持Netflix
   type: trojan
   server: ty1-3.nigirocloud.com
@@ -332,24 +396,10 @@ proxies:
   udp: true
   skip-cert-verify: true
   port: 443
-- name: 🇨🇳:中国-trojan-831sg.tfzhc.top:443-可用-中转:43.153.212.132-仅支持新加坡地区NF自制剧
-  type: trojan
-  server: 831sg.tfzhc.top
-  password: d09d2305-24db-43c4-b309-0e1d2737329f
-  udp: true
-  skip-cert-verify: true
-  port: 443
 - name: 🇺🇸:美国-trojan-ion.755657.xyz:443-可用-中转:104.28.240.139-仅支持美国地区NF自制剧
   type: trojan
   server: ion.755657.xyz
   password: 046c4ca7-9c88-4ad5-92e8-591723b52b25
-  udp: true
-  skip-cert-verify: true
-  port: 443
-- name: 🇨🇦:加拿大-trojan-823tw.tfzhc.top:443-可用-中转:165.154.243.144-仅支持新加坡地区NF自制剧
-  type: trojan
-  server: 823tw.tfzhc.top
-  password: d09d2305-24db-43c4-b309-0e1d2737329f
   udp: true
   skip-cert-verify: true
   port: 443
