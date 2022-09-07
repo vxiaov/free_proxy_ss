@@ -377,7 +377,7 @@ proxies:
     password: G!yBwPWH3Vao
     port: 809
     cipher: chacha20-ietf-poly1305
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:7717-可用-中转:51.81.204.127-解锁美国地区NF非自制剧"
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:7717-可用-中转:147.135.109.237-解锁美国地区NF非自制剧"
     type: ss
     server: 120.240.47.74
     password: 5otzk5bmlo6
@@ -604,7 +604,7 @@ proxies:
     udp: false
     tls: true
     ws-path: /je5x3pBN1vez3NQudNkB
-  - name: "\U0001F1E8\U0001F1F3:中国-vmess-cu.fanqiecn.top:10015-可用-中转:88.80.184.199-仅支持英国地区NF自制剧"
+  - name: "\U0001F1E8\U0001F1F3:中国-vmess-cu.fanqiecn.top:10015-可用-中转:88.80.184.199-不支持Netflix"
     type: vmess
     server: cu.fanqiecn.top
     network: ws
@@ -648,17 +648,6 @@ proxies:
     udp: false
     tls: false
     ws-path: /aries
-  - name: "\U0001F1E8\U0001F1F3:中国-vmess-cu.fanqiecn.top:10032-可用-中转:45.77.110.185-不支持Netflix"
-    type: vmess
-    server: cu.fanqiecn.top
-    network: ws
-    port: 10032
-    uuid: 82713dc8-a8d5-3120-b97f-f83883ac4e16
-    alterId: 4
-    cipher: auto
-    udp: false
-    tls: false
-    ws-path: /
   - name: "\U0001F1F8\U0001F1EC:新加坡-vmess-sony.saog.buzz:443-可用-中转:128.199.89.231-仅支持新加坡地区NF自制剧"
     type: vmess
     server: sony.saog.buzz
@@ -670,7 +659,7 @@ proxies:
     udp: false
     tls: true
     ws-path: /support
-  - name: "\U0001F1FA\U0001F1F8:美国-vmess-v51.xn--6nq44r2uh9rhj7f.com:80-可用-中转:54.255.229.243-解锁新加坡地区NF非自制剧"
+  - name: "\U0001F1FA\U0001F1F8:美国-vmess-v51.xn--6nq44r2uh9rhj7f.com:80-可用-中转:54.169.174.186-仅支持新加坡地区NF自制剧"
     type: vmess
     server: v51.xn--6nq44r2uh9rhj7f.com
     network: ws
@@ -714,6 +703,16 @@ proxies:
     udp: false
     tls: false
     ws-path: /
+  - name: "\U0001F1FB\U0001F1F3:越南-vmess-hcm-1.4g.mkvn.net:80-可用-中转:103.3.244.135-不支持Netflix"
+    type: vmess
+    server: hcm-1.4g.mkvn.net
+    network: ws
+    port: 80
+    uuid: 952e97d2-17ef-4e42-b8aa-c9f892ca4eed
+    alterId: 0
+    cipher: auto
+    udp: false
+    ws-path: /4g.mkvn.net
   - name: "\U0001F1E6\U0001F1FA:澳大利亚-trojan-jgwxn3.gaox.ml:443-可用-中转:140.238.205.173-不支持Netflix"
     type: trojan
     server: jgwxn3.gaox.ml
@@ -739,7 +738,8 @@ proxy-groups:
     interval: 300
     proxies:
       - DIRECT
-      - "\U0001F1FA\U0001F1F8:美国-vmess-v51.xn--6nq44r2uh9rhj7f.com:80-可用-中转:54.255.229.243-解锁新加坡地区NF非自制剧"
+      - "\U0001F1FB\U0001F1F3:越南-vmess-hcm-1.4g.mkvn.net:80-可用-中转:103.3.244.135-不支持Netflix"
+      - "\U0001F1FA\U0001F1F8:美国-vmess-v51.xn--6nq44r2uh9rhj7f.com:80-可用-中转:54.169.174.186-仅支持新加坡地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-vmess-gd-sg.netflix.wales:44444-可用-中转:97.74.81.89-仅支持新加坡地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-64.112.42.72:16999-可用-直连-不支持Netflix"
       - "\U0001F1FA\U0001F1F8:美国-ss-64.112.42.53:16999-可用-直连-不支持Netflix"
@@ -782,8 +782,7 @@ proxy-groups:
       - "\U0001F1E9\U0001F1EA:德国-ss-165.22.73.126:23335-可用-直连-不支持Netflix"
       - "\U0001F1E8\U0001F1F3:中国-vmess-ingress-i1.onebox6.org:38201-可用-中转:61.224.62.40-不支持Netflix"
       - "\U0001F1E8\U0001F1F3:中国-vmess-in-us-1.onebox6.org:38401-可用-中转:104.249.174.138-不支持Netflix"
-      - "\U0001F1E8\U0001F1F3:中国-vmess-cu.fanqiecn.top:10032-可用-中转:45.77.110.185-不支持Netflix"
-      - "\U0001F1E8\U0001F1F3:中国-vmess-cu.fanqiecn.top:10015-可用-中转:88.80.184.199-仅支持英国地区NF自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-vmess-cu.fanqiecn.top:10015-可用-中转:88.80.184.199-不支持Netflix"
       - "\U0001F1E8\U0001F1F3:中国-vmess-cu.fanqiecn.top:10003-可用-中转:139.180.199.157-不支持Netflix"
       - "\U0001F1E8\U0001F1F3:中国-vmess-124.223.44.153:80-可用-直连-完全不支持NF"
       - "\U0001F1E8\U0001F1F3:中国-vmess-121.41.86.94:5674-可用-直连-不支持Netflix"
@@ -791,7 +790,7 @@ proxy-groups:
       - "\U0001F1E8\U0001F1F3:中国-vmess-110.42.138.122:18080-可用-直连-完全不支持NF"
       - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11049-可用-中转:129.227.144.195-不支持Netflix"
       - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11044-可用-中转:129.227.144.195-不支持Netflix"
-      - "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:7717-可用-中转:51.81.204.127-解锁美国地区NF非自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:7717-可用-中转:147.135.109.237-解锁美国地区NF非自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-103.135.251.200:6800-可用-直连-不支持Netflix"
       - "\U0001F1E8\U0001F1ED:瑞士-ss-45.12.206.183:800-可用-中转:45.12.206.179-不支持Netflix"
       - "\U0001F1E8\U0001F1E6:加拿大-ss-38.64.138.145:443-可用-直连-不支持Netflix"
@@ -852,20 +851,19 @@ proxy-groups:
     interval: 300
     proxies:
       - DIRECT
+      - "\U0001F1FA\U0001F1F8:美国-vmess-v51.xn--6nq44r2uh9rhj7f.com:80-可用-中转:54.169.174.186-仅支持新加坡地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-vmess-gd-sg.netflix.wales:44444-可用-中转:97.74.81.89-仅支持新加坡地区NF自制剧"
       - "\U0001F1F8\U0001F1EC:新加坡-vmess-sony.saog.buzz:443-可用-中转:128.199.89.231-仅支持新加坡地区NF自制剧"
       - "\U0001F1F3\U0001F1F1:荷兰-ss-92.38.184.228:2097-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1EC\U0001F1E7:英国-vmess-vuk2.0bad.com:443-可用-中转:178.79.134.62-仅支持英国地区NF自制剧"
       - "\U0001F1EB\U0001F1F7:法国-vmess-blsj.moonfree.top:8443-可用-中转:163.172.95.132-仅支持法国地区NF自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-vmess-cu.fanqiecn.top:10015-可用-中转:88.80.184.199-仅支持英国地区NF自制剧"
   - name: 解锁Netflix非自制剧
     type: select
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - DIRECT
-      - "\U0001F1FA\U0001F1F8:美国-vmess-v51.xn--6nq44r2uh9rhj7f.com:80-可用-中转:54.255.229.243-解锁新加坡地区NF非自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:7717-可用-中转:51.81.204.127-解锁美国地区NF非自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:7717-可用-中转:147.135.109.237-解锁美国地区NF非自制剧"
       - :0-vmess-us-nyc-ctg-04-v2.nodes.cjhh.one:888-可用-中转:103.180.29.190-解锁香港地区NF非自制剧
   - name: 入口代理组
     # 中继代理组,不支持UDP协议。线路: clash <-> vmess <-> ss1 <-> ss2 <-> Internet
