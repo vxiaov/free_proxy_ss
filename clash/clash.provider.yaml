@@ -17,12 +17,6 @@ proxies:
   password: 893d9a77-b863-4121-9424-6d0a87fd694f
   port: 35127
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-169.197.142.187:8080-可用-直连-不支持Netflix
-  type: ss
-  server: 169.197.142.187
-  password: KixLvKzwjekG00rm
-  port: 8080
-  cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-103.135.251.200:6800-可用-直连-不支持Netflix
   type: ss
   server: 103.135.251.200
@@ -47,6 +41,12 @@ proxies:
   password: 893d9a77-b863-4121-9424-6d0a87fd694f
   port: 24103
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-167.88.61.14:6379-可用-直连-不支持Netflix
+  type: ss
+  server: 167.88.61.14
+  password: zDNVedRFPQexG9v
+  port: 6379
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-64.112.42.53:16999-可用-直连-不支持Netflix
   type: ss
   server: 64.112.42.53
@@ -65,19 +65,31 @@ proxies:
   password: jRKkoWqkrw2f
   port: 2097
   cipher: chacha20-ietf-poly1305
+- name: 🇯🇵:日本-ss-85.208.108.21:3389-可用-中转:85.208.108.18-不支持Netflix
+  type: ss
+  server: 85.208.108.21
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-64.112.42.72:16999-可用-直连-不支持Netflix
   type: ss
   server: 64.112.42.72
   password: CBYyPc0GwoaQ9m2oqWdE
   port: 16999
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-120.240.47.74:7717-可用-中转:51.81.204.126-解锁美国地区NF非自制剧
+- name: 🇯🇵:日本-ss-85.208.108.21:5003-可用-中转:85.208.108.18-不支持Netflix
+  type: ss
+  server: 85.208.108.21
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-120.240.47.74:7717-可用-中转:51.81.204.127-解锁美国地区NF非自制剧
   type: ss
   server: 120.240.47.74
   password: 5otzk5bmlo6
   port: 7717
   cipher: rc4-md5
-- name: 🇨🇳:中国-ss-120.240.47.72:2719-可用-中转:212.107.29.165-解锁香港地区NF非自制剧
+- name: 🇨🇳:中国-ss-120.240.47.72:2719-可用-中转:212.107.29.172-解锁香港地区NF非自制剧
   type: ss
   server: 120.240.47.72
   password: 5otzk5bmlo6
@@ -88,12 +100,6 @@ proxies:
   server: 167.88.61.175
   password: faBAoD54k87UJG7
   port: 2375
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.61.175:8118-可用-直连-不支持Netflix
-  type: ss
-  server: 167.88.61.175
-  password: cdBIDV42DCwnfIN
-  port: 8118
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.61.175:8119-可用-直连-不支持Netflix
   type: ss
@@ -107,11 +113,11 @@ proxies:
   password: QazEdcTgb159@$*
   port: 11018
   cipher: aes-128-cfb
-- name: 🇯🇵:日本-ss-85.208.108.21:5003-可用-中转:85.208.108.18-不支持Netflix
+- name: 🇺🇸:美国-ss-167.88.61.14:8090-可用-直连-不支持Netflix
   type: ss
-  server: 85.208.108.21
-  password: g5MeD6Ft3CWlJId
-  port: 5003
+  server: 167.88.61.14
+  password: PCnnH6SQSnfoS27
+  port: 8090
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-38.91.107.72:5500-可用-直连-不支持Netflix
   type: ss
@@ -125,7 +131,7 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 443
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-120.240.47.74:7714-可用-中转:15.204.20.226-解锁美国地区NF非自制剧
+- name: 🇨🇳:中国-ss-120.240.47.74:7714-可用-中转:147.135.109.237-解锁美国地区NF非自制剧
   type: ss
   server: 120.240.47.74
   password: 5otzk5bmlo6
@@ -198,17 +204,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
-- name: 🇯🇵:日本-vmess-jp-1.ccnpll.eu.org:9999-可用-中转:13.115.231.63-仅支持日本地区NF自制剧
-  type: vmess
-  server: jp-1.ccnpll.eu.org
-  network: ws
-  port: 9999
-  uuid: cd3604fe-5208-443c-a9c5-c583d75412c4
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /u!!GjghskkY@I
 - name: 🇨🇳:中国-vmess-hk-2.4g.mkvn.net:80-可用-中转:104.208.64.45-不支持Netflix
   type: vmess
   server: hk-2.4g.mkvn.net
@@ -220,17 +215,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /4g.mkvn.net
-- name: 🇺🇸:美国-vmess-qcjs.cc.freedl.heinu.cc:15743-可用-中转:104.129.63.65-仅支持美国地区NF自制剧
-  type: vmess
-  server: qcjs.cc.freedl.heinu.cc
-  network: ws
-  port: 15743
-  uuid: 1a892341-2086-4d9e-ca77-90177533f189
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /qingchengjisu
 - name: 🇨🇳:中国-vmess-110.42.138.122:18080-可用-直连-完全不支持NF
   type: vmess
   server: 110.42.138.122
@@ -285,6 +269,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇨🇳:中国-vmess-124.223.44.153:80-可用-直连-完全不支持NF
+  type: vmess
+  server: 124.223.44.153
+  network: ws
+  port: 80
+  uuid: 8017dfd8-f239-4ec6-e2dd-416189856438
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇨🇳:中国-vmess-47.93.231.218:53022-可用-直连-完全不支持NF
   type: vmess
   server: 47.93.231.218
@@ -307,17 +302,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇬🇧:英国-vmess-us-spartan-01.bxiny.top:443-可用-中转:193.221.95.117-不支持Netflix
-  type: vmess
-  server: us-spartan-01.bxiny.top
-  network: ws
-  port: 443
-  uuid: 893d9a77-b863-4121-9424-6d0a87fd694f
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /114514.mp4
 - name: 🇨🇳:中国-vmess-106.12.168.13:13156-可用-直连-完全不支持NF
   type: vmess
   server: 106.12.168.13
@@ -340,28 +324,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇮🇳:印度-vmess-inlsjlw.com:443-可用-中转:13.235.0.244-不支持Netflix
-  type: vmess
-  server: inlsjlw.com
-  network: ws
-  port: 443
-  uuid: be182928-d57c-43bc-bb8f-cd0038924943
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /0ea70e497192b88/
-- name: 🇺🇸:美国-vmess-sgp.ycsfree.xyz:443-可用-中转:129.150.33.76-解锁新加坡地区NF非自制剧
-  type: vmess
-  server: sgp.ycsfree.xyz
-  network: ws
-  port: 443
-  uuid: c753e8a8-e180-4e76-a486-c917273d718b
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /zcjd
 - name: 🇻🇳:越南-vmess-hanoi05.vifast.net:80-可用-中转:103.74.105.128-不支持Netflix
   type: vmess
   server: hanoi05.vifast.net
