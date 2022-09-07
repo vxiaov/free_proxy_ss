@@ -59,18 +59,18 @@ proxies:
   password: KixLvKzwjekG00rm
   port: 5500
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-120.240.47.72:2719-可用-中转:212.107.29.172-解锁香港地区NF非自制剧
+- name: 🇨🇳:中国-ss-120.240.47.72:2719-可用-中转:212.107.29.169-解锁香港地区NF非自制剧
   type: ss
   server: 120.240.47.72
   password: 5otzk5bmlo6
   port: 2719
   cipher: rc4-md5
-- name: 🇺🇸:美国-ss-45.59.184.12:6800-可用-直连-不支持Netflix
+- name: 🇦🇺:澳大利亚-ss-185.167.116.250:9007-可用-直连-仅支持澳大利亚地区NF自制剧
   type: ss
-  server: 45.59.184.12
-  password: abcd1234
-  port: 6800
-  cipher: aes-256-gcm
+  server: 185.167.116.250
+  password: kSPmvwdFzGMMW5pY
+  port: 9007
+  cipher: aes-256-cfb
 - name: 🇺🇸:美国-ss-38.91.106.75:3389-可用-直连-不支持Netflix
   type: ss
   server: 38.91.106.75
@@ -109,21 +109,11 @@ proxies:
   network: ws
   port: 443
   uuid: 6e0a01f3-4fce-4cdd-ab05-ee5d2254b058
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /
-- name: 🇨🇳:中国-vmess-ingress-i1.onebox6.org:38201-可用-中转:61.224.62.40-不支持Netflix
-  type: vmess
-  server: ingress-i1.onebox6.org
-  network: ws
-  port: 38201
-  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /hls/cctv5phd.m3u8
+  ws-path: /
 - name: 🇨🇳:中国-vmess-110.42.138.122:18080-可用-直连-完全不支持NF
   type: vmess
   server: 110.42.138.122
@@ -275,6 +265,13 @@ proxies:
   skip-cert-verify: true
   sni: cdn.qchwnd.moe
   port: 443
+- name: 🇻🇳:越南-trojan-hanoi-4.4g.mkvn.net:443-可用-中转:14.225.254.72-不支持Netflix
+  type: trojan
+  server: hanoi-4.4g.mkvn.net
+  password: 952e97d2-17ef-4e42-b8aa-c9f892ca4eed
+  udp: true
+  skip-cert-verify: true
+  port: 443
 - name: 🇺🇸:美国-trojan-139.177.189.122:443-可用-直连-解锁新加坡地区NF非自制剧
   type: trojan
   server: 139.177.189.122
@@ -297,6 +294,13 @@ proxies:
   udp: true
   skip-cert-verify: true
   port: 9999
+- name: 🇨🇳:中国-trojan-tr04.kaochangonline.online:443-可用-中转:194.156.98.9-仅支持香港地区NF自制剧
+  type: trojan
+  server: tr04.kaochangonline.online
+  password: 62b78c9b-16cb-4ee6-824b-a4f856cf18f3
+  udp: true
+  skip-cert-verify: true
+  port: 443
 - name: 🇺🇸:美国-trojan-45.33.109.70:443-可用-直连-解锁美国地区NF非自制剧
   type: trojan
   server: 45.33.109.70
