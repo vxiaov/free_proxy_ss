@@ -35,17 +35,23 @@ dns:
       - 240.0.0.0/4
 # 个人节点
 proxies:
-  - name: "\U0001F1F3\U0001F1F1:荷兰-ss-92.38.184.228:2097-可用-直连-仅支持美国地区NF自制剧"
+  - name: "\U0001F1E9\U0001F1EA:德国-ss-145.239.1.100:8882-可用-直连-不支持Netflix"
     type: ss
-    server: 92.38.184.228
-    password: jRKkoWqkrw2f
-    port: 2097
-    cipher: chacha20-ietf-poly1305
-  - name: "\U0001F1F7\U0001F1FA:俄罗斯-ss-31.192.232.217:23456-可用-直连-不支持Netflix"
+    server: 145.239.1.100
+    password: kDWvXYZoTBcGkC4
+    port: 8882
+    cipher: aes-256-gcm
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-64.112.42.53:16999-可用-直连-不支持Netflix"
     type: ss
-    server: 31.192.232.217
-    password: "07305252"
-    port: 23456
+    server: 64.112.42.53
+    password: CBYyPc0GwoaQ9m2oqWdE
+    port: 16999
+    cipher: aes-256-gcm
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.61.175:5001-可用-直连-不支持Netflix"
+    type: ss
+    server: 167.88.61.175
+    password: Y6R9pAtvxxzmGC
+    port: 5001
     cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.143:807-可用-直连-不支持Netflix"
     type: ss
@@ -53,11 +59,47 @@ proxies:
     password: G!yBwPWH3Vao
     port: 807
     cipher: chacha20-ietf-poly1305
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-103.135.251.200:6800-可用-直连-不支持Netflix"
+    type: ss
+    server: 103.135.251.200
+    password: abcd1234
+    port: 6800
+    cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.61.175:8008-可用-直连-不支持Netflix"
     type: ss
     server: 167.88.61.175
     password: XKFKl2rULjIp74
     port: 8008
+    cipher: aes-256-gcm
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-unicomus.mipglxi.cn:6631-可用-中转:23.247.137.105-解锁美国地区NF非自制剧"
+    type: ss
+    server: unicomus.mipglxi.cn
+    password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+    port: 6631
+    cipher: aes-128-gcm
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.61.175:8119-可用-直连-不支持Netflix"
+    type: ss
+    server: 167.88.61.175
+    password: cdBIDV42DCwnfIN
+    port: 8119
+    cipher: aes-256-gcm
+  - name: "\U0001F1EF\U0001F1F5:日本-ss-193.38.139.201:800-可用-直连-仅支持日本地区NF自制剧"
+    type: ss
+    server: 193.38.139.201
+    password: G!yBwPWH3Vao
+    port: 800
+    cipher: chacha20-ietf-poly1305
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-45.45.177.2:29588-可用-直连-仅支持美国地区NF自制剧"
+    type: ss
+    server: 45.45.177.2
+    password: d0c9d715-f25c-45db-9a47-731214c2e5fd
+    port: 29588
+    cipher: aes-256-gcm
+  - name: "\U0001F1F7\U0001F1FA:俄罗斯-ss-31.192.232.217:23456-可用-直连-不支持Netflix"
+    type: ss
+    server: 31.192.232.217
+    password: "07305252"
+    port: 23456
     cipher: aes-256-gcm
   - name: "\U0001F1EF\U0001F1F5:日本-ss-45.66.134.176:806-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧"
     type: ss
@@ -77,18 +119,30 @@ proxies:
     password: G!yBwPWH3Vao
     port: 805
     cipher: chacha20-ietf-poly1305
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.68:8009-被墙-直连-解锁美国地区NF非自制剧"
+  - name: "\U0001F1EF\U0001F1F5:日本-ss-89.31.126.150:812-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧"
     type: ss
-    server: 167.88.62.68
-    password: XKFKl2rULjIp74
-    port: 8009
-    cipher: aes-256-gcm
+    server: 89.31.126.150
+    password: G!yBwPWH3Vao
+    port: 812
+    cipher: chacha20-ietf-poly1305
+  - name: "\U0001F1EF\U0001F1F5:日本-ss-45.66.134.176:807-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧"
+    type: ss
+    server: 45.66.134.176
+    password: G!yBwPWH3Vao
+    port: 807
+    cipher: chacha20-ietf-poly1305
   - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.68:5003-被墙-直连-解锁美国地区NF非自制剧"
     type: ss
     server: 167.88.62.68
     password: g5MeD6Ft3CWlJId
     port: 5003
     cipher: aes-256-gcm
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-162.251.61.221:800-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 162.251.61.221
+    password: G!yBwPWH3Vao
+    port: 800
+    cipher: chacha20-ietf-poly1305
   - name: "\U0001F1EF\U0001F1F5:日本-ss-45.66.134.176:810-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧"
     type: ss
     server: 45.66.134.176
@@ -113,12 +167,6 @@ proxies:
     password: G!yBwPWH3Vao
     port: 802
     cipher: chacha20-ietf-poly1305
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-162.251.61.221:806-被墙-直连-解锁美国地区NF非自制剧"
-    type: ss
-    server: 162.251.61.221
-    password: G!yBwPWH3Vao
-    port: 806
-    cipher: chacha20-ietf-poly1305
   - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.68:3306-被墙-直连-解锁美国地区NF非自制剧"
     type: ss
     server: 167.88.62.68
@@ -130,12 +178,6 @@ proxies:
     server: 162.251.61.221
     password: G!yBwPWH3Vao
     port: 804
-    cipher: chacha20-ietf-poly1305
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-162.251.61.221:803-被墙-直连-解锁美国地区NF非自制剧"
-    type: ss
-    server: 162.251.61.221
-    password: G!yBwPWH3Vao
-    port: 803
     cipher: chacha20-ietf-poly1305
   - name: "\U0001F1FA\U0001F1F8:美国-ss-138.68.248.130:811-被墙-直连-解锁美国地区NF非自制剧"
     type: ss
@@ -155,18 +197,6 @@ proxies:
     password: G!yBwPWH3Vao
     port: 801
     cipher: chacha20-ietf-poly1305
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.68:7307-被墙-直连-解锁美国地区NF非自制剧"
-    type: ss
-    server: 167.88.62.68
-    password: FoOiGlkAA9yPEGP
-    port: 7307
-    cipher: aes-256-gcm
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.68:5004-被墙-直连-解锁美国地区NF非自制剧"
-    type: ss
-    server: 167.88.62.68
-    password: g5MeD6Ft3CWlJId
-    port: 5004
-    cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.68:8080-被墙-直连-解锁美国地区NF非自制剧"
     type: ss
     server: 167.88.62.68
@@ -179,11 +209,23 @@ proxies:
     password: G!yBwPWH3Vao
     port: 805
     cipher: chacha20-ietf-poly1305
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:6714-可用-中转:51.79.249.126-不支持Netflix"
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-64.112.42.72:16999-可用-直连-不支持Netflix"
     type: ss
-    server: 120.240.47.74
+    server: 64.112.42.72
+    password: CBYyPc0GwoaQ9m2oqWdE
+    port: 16999
+    cipher: aes-256-gcm
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.61.175:443-可用-直连-不支持Netflix"
+    type: ss
+    server: 167.88.61.175
+    password: pKEW8JPByTVTLtM
+    port: 443
+    cipher: aes-256-gcm
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.72:2719-可用-中转:212.107.29.172-不支持Netflix"
+    type: ss
+    server: 120.240.47.72
     password: 5otzk5bmlo6
-    port: 6714
+    port: 2719
     cipher: rc4-md5
   - name: "\U0001F1FA\U0001F1F8:美国-ss-38.91.107.72:5500-可用-直连-不支持Netflix"
     type: ss
@@ -191,41 +233,53 @@ proxies:
     password: KixLvKzwjekG00rm
     port: 5500
     cipher: aes-256-gcm
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.61.50:7307-可用-直连-不支持Netflix"
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:7717-可用-中转:147.135.109.238-解锁美国地区NF非自制剧"
     type: ss
-    server: 167.88.61.50
-    password: FoOiGlkAA9yPEGP
-    port: 7307
-    cipher: aes-256-gcm
+    server: 120.240.47.74
+    password: 5otzk5bmlo6
+    port: 7717
+    cipher: rc4-md5
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:3716-可用-中转:151.248.69.33-完全不支持NF"
+    type: ss
+    server: 120.240.47.74
+    password: 5otzk5bmlo6
+    port: 3716
+    cipher: rc4-md5
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11012-可用-中转:129.227.144.194-不支持Netflix"
+    type: ss
+    server: 14.29.124.174
+    password: QazEdcTgb159@$*
+    port: 11012
+    cipher: aes-128-cfb
   - name: "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:7714-可用-中转:51.81.204.127-解锁美国地区NF非自制剧"
     type: ss
     server: 120.240.47.74
     password: 5otzk5bmlo6
     port: 7714
     cipher: rc4-md5
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.143:802-可用-直连-不支持Netflix"
-    type: ss
-    server: 134.195.196.143
-    password: G!yBwPWH3Vao
-    port: 802
-    cipher: chacha20-ietf-poly1305
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:3716-可用-中转:151.248.69.28-解锁日本地区NF非自制剧"
-    type: ss
-    server: 120.240.47.74
-    password: 5otzk5bmlo6
-    port: 3716
-    cipher: rc4-md5
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.61.50:2376-可用-直连-不支持Netflix"
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.61.50:5003-可用-直连-不支持Netflix"
     type: ss
     server: 167.88.61.50
-    password: faBAoD54k87UJG7
-    port: 2376
+    password: g5MeD6Ft3CWlJId
+    port: 5003
     cipher: aes-256-gcm
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-156.146.38.163:443-可用-直连-不支持Netflix"
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11032-可用-中转:129.227.144.195-不支持Netflix"
     type: ss
-    server: 156.146.38.163
-    password: shadowsocks
-    port: 443
+    server: 14.29.124.174
+    password: QazEdcTgb159@$*
+    port: 11032
+    cipher: aes-128-cfb
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11035-可用-中转:129.227.144.195-不支持Netflix"
+    type: ss
+    server: 14.29.124.174
+    password: QazEdcTgb159@$*
+    port: 11035
+    cipher: aes-128-cfb
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11018-可用-中转:129.227.144.194-不支持Netflix"
+    type: ss
+    server: 14.29.124.174
+    password: QazEdcTgb159@$*
+    port: 11018
     cipher: aes-128-cfb
   - name: "\U0001F1FA\U0001F1F8:美国-ss-38.91.106.75:3389-可用-直连-不支持Netflix"
     type: ss
@@ -233,48 +287,90 @@ proxies:
     password: Y6R9pAtvxxzmGC
     port: 3389
     cipher: aes-256-gcm
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:3718-可用-中转:151.248.69.28-解锁日本地区NF非自制剧"
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11049-可用-中转:129.227.144.195-不支持Netflix"
+    type: ss
+    server: 14.29.124.174
+    password: QazEdcTgb159@$*
+    port: 11049
+    cipher: aes-128-cfb
+  - name: "\U0001F1E9\U0001F1EA:德国-ss-145.239.1.100:8080-可用-直连-完全不支持NF"
+    type: ss
+    server: 145.239.1.100
+    password: KixLvKzwjekG00rm
+    port: 8080
+    cipher: aes-256-gcm
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11005-可用-中转:129.227.144.194-不支持Netflix"
+    type: ss
+    server: 14.29.124.174
+    password: QazEdcTgb159@$*
+    port: 11005
+    cipher: aes-128-cfb
+  - name: "\U0001F1E9\U0001F1EA:德国-ss-145.239.1.100:8882-可用-直连-完全不支持NF"
+    type: ss
+    server: 145.239.1.100
+    password: kDWvXYZoTBcGkC4
+    port: 8882
+    cipher: aes-256-gcm
+  - name: "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.123:9001-可用-直连-不支持Netflix"
+    type: ss
+    server: 185.126.116.123
+    password: UkXRsXvR6buDMG2Y
+    port: 9001
+    cipher: aes-256-cfb
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-156.146.38.163:443-可用-直连-不支持Netflix"
+    type: ss
+    server: 156.146.38.163
+    password: shadowsocks
+    port: 443
+    cipher: aes-128-cfb
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11013-可用-中转:129.227.144.194-不支持Netflix"
+    type: ss
+    server: 14.29.124.174
+    password: QazEdcTgb159@$*
+    port: 11013
+    cipher: aes-128-cfb
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11048-可用-中转:129.227.144.195-不支持Netflix"
+    type: ss
+    server: 14.29.124.174
+    password: QazEdcTgb159@$*
+    port: 11048
+    cipher: aes-128-cfb
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:6714-可用-中转:51.79.173.238-不支持Netflix"
+    type: ss
+    server: 120.240.47.74
+    password: 5otzk5bmlo6
+    port: 6714
+    cipher: rc4-md5
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:3718-可用-中转:151.248.69.28-完全不支持NF"
     type: ss
     server: 120.240.47.74
     password: 5otzk5bmlo6
     port: 3718
     cipher: rc4-md5
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.91.102.74:5003-可用-直连-不支持Netflix"
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11011-可用-中转:129.227.144.194-不支持Netflix"
     type: ss
-    server: 38.91.102.74
-    password: g5MeD6Ft3CWlJId
-    port: 5003
-    cipher: aes-256-gcm
-  - name: "\U0001F1E9\U0001F1EA:德国-ss-165.22.73.126:23335-可用-直连-不支持Netflix"
-    type: ss
-    server: 165.22.73.126
-    password: 7d99ae502227454ea998d71e4b62a388
-    port: 23335
-    cipher: aes-256-cfb
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:7717-可用-中转:51.81.204.127-解锁美国地区NF非自制剧"
+    server: 14.29.124.174
+    password: QazEdcTgb159@$*
+    port: 11011
+    cipher: aes-128-cfb
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:3713-可用-中转:151.248.69.28-完全不支持NF"
     type: ss
     server: 120.240.47.74
     password: 5otzk5bmlo6
-    port: 7717
+    port: 3713
     cipher: rc4-md5
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.72:2719-可用-中转:212.107.29.166-解锁香港地区NF非自制剧"
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.143:802-可用-直连-不支持Netflix"
     type: ss
-    server: 120.240.47.72
-    password: 5otzk5bmlo6
-    port: 2719
-    cipher: rc4-md5
+    server: 134.195.196.143
+    password: G!yBwPWH3Vao
+    port: 802
+    cipher: chacha20-ietf-poly1305
   - name: "\U0001F1EC\U0001F1E7:英国-ss-83.229.73.60:50003-被墙-直连-解锁以色列地区NF非自制剧"
     type: ss
     server: 83.229.73.60
     password: "8460400130"
     port: 50003
     cipher: aes-256-cfb
-  - name: "\U0001F1EF\U0001F1F5:日本-ss-45.66.134.176:807-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧"
-    type: ss
-    server: 45.66.134.176
-    password: G!yBwPWH3Vao
-    port: 807
-    cipher: chacha20-ietf-poly1305
   - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.68:8091-被墙-直连-解锁美国地区NF非自制剧"
     type: ss
     server: 167.88.62.68
@@ -329,17 +425,17 @@ proxies:
     password: BejrQvtu9sqUeNuZ
     port: 9024
     cipher: aes-256-cfb
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.68:5004-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.62.68
+    password: g5MeD6Ft3CWlJId
+    port: 5004
+    cipher: aes-256-gcm
   - name: "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.119:9094-被墙-直连-解锁瑞士地区NF非自制剧"
     type: ss
     server: 185.126.116.119
     password: rpgbNnU9rDDU4aWZ
     port: 9094
-    cipher: aes-256-cfb
-  - name: "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.119:9043-被墙-直连-解锁瑞士地区NF非自制剧"
-    type: ss
-    server: 185.126.116.119
-    password: HSZuyJQcWe8dxNdF
-    port: 9043
     cipher: aes-256-cfb
   - name: "\U0001F1EF\U0001F1F5:日本-ss-45.66.134.176:809-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧"
     type: ss
@@ -353,42 +449,24 @@ proxies:
     password: G!yBwPWH3Vao
     port: 811
     cipher: chacha20-ietf-poly1305
-  - name: "\U0001F1EF\U0001F1F5:日本-ss-89.31.126.150:812-被墙-中转:185.160.26.231-解锁日本地区NF非自制剧"
-    type: ss
-    server: 89.31.126.150
-    password: G!yBwPWH3Vao
-    port: 812
-    cipher: chacha20-ietf-poly1305
   - name: "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.119:9046-被墙-直连-解锁瑞士地区NF非自制剧"
     type: ss
     server: 185.126.116.119
     password: NvS8N4Vf8qAGPSCL
     port: 9046
     cipher: aes-256-cfb
-  - name: "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.119:9058-被墙-直连-解锁瑞士地区NF非自制剧"
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.68:8009-被墙-直连-解锁美国地区NF非自制剧"
     type: ss
-    server: 185.126.116.119
-    password: dML2sfhbVwvtfNPe
-    port: 9058
-    cipher: aes-256-cfb
+    server: 167.88.62.68
+    password: XKFKl2rULjIp74
+    port: 8009
+    cipher: aes-256-gcm
   - name: "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.125:9033-被墙-直连-解锁瑞士地区NF非自制剧"
     type: ss
     server: 185.126.116.125
     password: UTJA57ypk2XKQpnm
     port: 9033
     cipher: aes-256-cfb
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-162.251.61.221:800-被墙-直连-解锁美国地区NF非自制剧"
-    type: ss
-    server: 162.251.61.221
-    password: G!yBwPWH3Vao
-    port: 800
-    cipher: chacha20-ietf-poly1305
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-64.112.42.53:16999-被墙-直连-解锁美国地区NF非自制剧"
-    type: ss
-    server: 64.112.42.53
-    password: CBYyPc0GwoaQ9m2oqWdE
-    port: 16999
-    cipher: aes-256-gcm
   - name: "\U0001F1EF\U0001F1F5:日本-ss-45.66.134.176:805-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧"
     type: ss
     server: 45.66.134.176
@@ -407,32 +485,78 @@ proxies:
     password: fG2artUmHfNT2cX7
     port: 9018
     cipher: aes-256-cfb
+  - name: "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.119:9093-被墙-直连-解锁瑞士地区NF非自制剧"
+    type: ss
+    server: 185.126.116.119
+    password: wfLC2y7rzZyCmuyt
+    port: 9093
+    cipher: aes-256-cfb
   - name: "\U0001F1EE\U0001F1F1:以色列-ss-31.133.100.49:50004-被墙-直连-解锁以色列地区NF非自制剧"
     type: ss
     server: 31.133.100.49
     password: "4415934295"
     port: 50004
     cipher: aes-256-cfb
-  - name: "\U0001F1F7\U0001F1F4:罗马尼亚-ssr-185.126.116.125:9033-被墙-直连-解锁瑞士地区NF非自制剧"
-    type: ssr
-    server: 185.126.116.125
-    password: UTJA57ypk2XKQpnm
-    obfs: plain
-    protocol: origin
-    port: 9033
-    cipher: aes-256-cfb
-    protocol-param: ""
-    obfs-param: ""
-  - name: "\U0001F1E8\U0001F1F3:中国-vmess-49.234.34.180:443-可用-直连-完全不支持NF"
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.68:7307-被墙-直连-解锁美国地区NF非自制剧"
+    type: ss
+    server: 167.88.62.68
+    password: FoOiGlkAA9yPEGP
+    port: 7307
+    cipher: aes-256-gcm
+  - name: "\U0001F1FB\U0001F1F3:越南-vmess-hanoi05.vifast.net:80-可用-中转:103.74.105.128-不支持Netflix"
     type: vmess
-    server: 49.234.34.180
+    server: hanoi05.vifast.net
     network: ws
-    port: 443
-    uuid: 6e0a01f3-4fce-4cdd-ab05-ee5d2254b058
+    port: 80
+    uuid: 4c2d3f00-8f9b-49c2-a43b-10f022b2fde5
     alterId: 0
     cipher: auto
     udp: false
     ws-path: /
+  - name: "\U0001F1E8\U0001F1F3:中国-vmess-in-us-1.onebox6.org:38401-可用-中转:104.249.174.138-不支持Netflix"
+    type: vmess
+    server: in-us-1.onebox6.org
+    network: ws
+    port: 38401
+    uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+    alterId: 4
+    cipher: auto
+    udp: false
+    tls: false
+    ws-path: /hls/cctv5phd.m3u8
+  - name: "\U0001F1E8\U0001F1F3:中国-vmess-110.42.138.122:18080-可用-直连-完全不支持NF"
+    type: vmess
+    server: 110.42.138.122
+    network: ws
+    port: 18080
+    uuid: 6a9a236c-e99b-44d8-b414-bbcd6e7b1465
+    alterId: 4
+    cipher: auto
+    udp: false
+    tls: false
+    ws-path: /
+  - name: "\U0001F1E8\U0001F1F3:中国-vmess-47.93.231.218:53022-可用-直连-完全不支持NF"
+    type: vmess
+    server: 47.93.231.218
+    network: ws
+    port: 53022
+    uuid: 95fd7642-2160-4528-e909-3d526b533013
+    alterId: 4
+    cipher: auto
+    udp: false
+    tls: false
+    ws-path: /
+  - name: "\U0001F1E8\U0001F1E6:加拿大-vmess-ca1.vmess.tunnel.cx:80-可用-中转:158.69.1.79-不支持Netflix"
+    type: vmess
+    server: ca1.vmess.tunnel.cx
+    network: ws
+    port: 80
+    uuid: 0429f7ce-2c73-11ed-b9c2-8b16281b86ac
+    alterId: 4
+    cipher: auto
+    udp: false
+    tls: false
+    ws-path: /vmess
   - name: "\U0001F1E8\U0001F1F3:中国-vmess-106.12.168.13:13156-可用-直连-完全不支持NF"
     type: vmess
     server: 106.12.168.13
@@ -455,22 +579,55 @@ proxies:
     udp: false
     tls: true
     ws-path: /zcjd
-  - name: "\U0001F1F1\U0001F1FA:卢森堡-vmess-lsb.ycsfree.xyz:443-可用-中转:104.244.79.7-仅支持卢森堡地区NF自制剧"
+  - name: "\U0001F1E8\U0001F1F3:中国-vmess-119.91.223.167:80-可用-直连-完全不支持NF"
     type: vmess
-    server: lsb.ycsfree.xyz
+    server: 119.91.223.167
     network: ws
-    port: 443
-    uuid: c753e8a8-e180-4e76-a486-c917273d718b
+    port: 80
+    uuid: 5087e6ea-b650-443e-923f-b754661b8c47
     alterId: 4
     cipher: auto
     udp: false
-    tls: true
-    ws-path: /zcjd
-  - name: "\U0001F1E8\U0001F1F3:中国-vmess-ingress-i1.onebox6.org:38201-可用-中转:61.224.62.40-不支持Netflix"
+    tls: false
+    ws-path: /
+  - name: "\U0001F1FB\U0001F1F3:越南-vmess-103.56.161.146:80-可用-直连-不支持Netflix"
+    type: vmess
+    server: 103.56.161.146
+    network: ws
+    port: 80
+    uuid: 6cbf4eda-e166-4db3-a53c-33f4c75a221c
+    alterId: 4
+    cipher: auto
+    udp: false
+    tls: false
+    ws-path: /vpngiare.net
+  - name: "\U0001F1FA\U0001F1F8:美国-vmess-fr.2121999.xyz:8880-可用-中转:141.94.115.38-完全不支持NF"
+    type: vmess
+    server: fr.2121999.xyz
+    network: ws
+    port: 8880
+    uuid: 2a3955be-acbc-48b6-ab96-559a967ae7fb
+    alterId: 4
+    cipher: auto
+    udp: false
+    tls: false
+    ws-path: /
+  - name: "\U0001F1FA\U0001F1F8:美国-vmess-xjp.azzhuangaping.tw:80-可用-中转:138.2.75.193-仅支持新加坡地区NF自制剧"
+    type: vmess
+    server: xjp.azzhuangaping.tw
+    network: ws
+    port: 80
+    uuid: 2c178223-0bd9-3af7-bcd3-32c074f626be
+    alterId: 4
+    cipher: auto
+    udp: false
+    tls: false
+    ws-path: /adobe
+  - name: "\U0001F1E8\U0001F1F3:中国-vmess-ingress-i1.onebox6.org:38701-可用-中转:194.233.66.47-不支持Netflix"
     type: vmess
     server: ingress-i1.onebox6.org
     network: ws
-    port: 38201
+    port: 38701
     uuid: 79386685-16da-327c-9e14-aa6d702d86bc
     alterId: 4
     cipher: auto
@@ -488,28 +645,6 @@ proxies:
     udp: false
     tls: false
     ws-path: /
-  - name: "\U0001F1FA\U0001F1F8:美国-vmess-ojje-laowang.apps.ir-thr-at1.arvan.run:443-可用-中转:185.239.106.232-不支持Netflix"
-    type: vmess
-    server: ojje-laowang.apps.ir-thr-at1.arvan.run
-    network: ws
-    port: 443
-    uuid: 2112b632-fb6c-4781-bb42-d4d310aa532f
-    alterId: 4
-    cipher: auto
-    udp: false
-    tls: true
-    ws-path: /laowang
-  - name: "\U0001F1E8\U0001F1F3:中国-vmess-47.93.231.218:53022-可用-直连-完全不支持NF"
-    type: vmess
-    server: 47.93.231.218
-    network: ws
-    port: 53022
-    uuid: 95fd7642-2160-4528-e909-3d526b533013
-    alterId: 4
-    cipher: auto
-    udp: false
-    tls: false
-    ws-path: /
   - name: "\U0001F1E8\U0001F1F3:中国-vmess-124.223.44.153:80-可用-直连-完全不支持NF"
     type: vmess
     server: 124.223.44.153
@@ -521,60 +656,39 @@ proxies:
     udp: false
     tls: false
     ws-path: /
-  - name: "\U0001F1E8\U0001F1F3:中国-vmess-119.91.223.167:80-可用-直连-完全不支持NF"
+  - name: "\U0001F1E8\U0001F1F3:中国-vmess-120.240.55.137:38201-可用-中转:61.224.62.40-不支持Netflix"
     type: vmess
-    server: 119.91.223.167
+    server: 120.240.55.137
     network: ws
-    port: 80
-    uuid: 5087e6ea-b650-443e-923f-b754661b8c47
+    port: 38201
+    uuid: 79386685-16da-327c-9e14-aa6d702d86bc
     alterId: 4
     cipher: auto
     udp: false
     tls: false
-    ws-path: /
-  - name: "\U0001F1FA\U0001F1F8:美国-vmess-ex.755657.xyz:8443-可用-中转:104.28.205.80-不支持Netflix"
+    ws-path: /hls/cctv5phd.m3u8
+  - name: "\U0001F1FA\U0001F1F8:美国-vmess-ojje-laowang.apps.ir-thr-at1.arvan.run:443-可用-中转:185.239.106.232-不支持Netflix"
     type: vmess
-    server: ex.755657.xyz
-    network: ws
-    port: 8443
-    uuid: d8182760-49e8-4e76-abb2-f3ed213f1f7e
-    alterId: 4
-    cipher: auto
-    udp: false
-    tls: true
-    ws-path: /java/18/latest/
-  - name: "\U0001F1FB\U0001F1F3:越南-vmess-hanoi05.vifast.net:80-可用-中转:103.74.105.128-不支持Netflix"
-    type: vmess
-    server: hanoi05.vifast.net
-    network: ws
-    port: 80
-    uuid: 4c2d3f00-8f9b-49c2-a43b-10f022b2fde5
-    alterId: 0
-    cipher: auto
-    udp: false
-    ws-path: /
-  - name: "\U0001F1E8\U0001F1F3:中国-vmess-110.42.138.122:18080-可用-直连-完全不支持NF"
-    type: vmess
-    server: 110.42.138.122
-    network: ws
-    port: 18080
-    uuid: 6a9a236c-e99b-44d8-b414-bbcd6e7b1465
-    alterId: 4
-    cipher: auto
-    udp: false
-    tls: false
-    ws-path: /
-  - name: "\U0001F1FA\U0001F1F8:美国-vmess-kr.wangfuzheng.top:443-被墙-中转:150.230.255.151-解锁韩国地区NF非自制剧"
-    type: vmess
-    server: kr.wangfuzheng.top
+    server: ojje-laowang.apps.ir-thr-at1.arvan.run
     network: ws
     port: 443
-    uuid: 47d0be27-bb7f-48a7-bf9f-c7f8a9f3de24
+    uuid: 2112b632-fb6c-4781-bb42-d4d310aa532f
     alterId: 4
     cipher: auto
     udp: false
     tls: true
-    ws-path: /
+    ws-path: /laowang
+  - name: "\U0001F1F1\U0001F1FA:卢森堡-vmess-lsb.ycsfree.xyz:443-可用-中转:104.244.79.7-仅支持卢森堡地区NF自制剧"
+    type: vmess
+    server: lsb.ycsfree.xyz
+    network: ws
+    port: 443
+    uuid: c753e8a8-e180-4e76-a486-c917273d718b
+    alterId: 4
+    cipher: auto
+    udp: false
+    tls: true
+    ws-path: /zcjd
   - name: "\U0001F1FA\U0001F1F8:美国-vmess-weixin.babazhuji.com:443-被墙-中转:161.35.229.94-解锁美国地区NF非自制剧"
     type: vmess
     server: weixin.babazhuji.com
@@ -586,28 +700,6 @@ proxies:
     udp: false
     tls: true
     ws-path: /tech
-  - name: "\U0001F1FA\U0001F1F8:美国-vmess-vfly6.xyz:443-被墙-中转:8.210.128.146-解锁新加坡地区NF非自制剧"
-    type: vmess
-    server: vfly6.xyz
-    network: ws
-    port: 443
-    uuid: 2f765082-8d63-4290-d1b1-bbd2ce2e4269
-    alterId: 4
-    cipher: auto
-    udp: false
-    tls: true
-    ws-path: /myblog
-  - name: "\U0001F1FA\U0001F1F8:美国-vmess-usamd.ptuu.tk:443-被墙-中转:129.146.186.108-解锁美国地区NF非自制剧"
-    type: vmess
-    server: usamd.ptuu.tk
-    network: ws
-    port: 443
-    uuid: 009a2a72-afe7-4521-fec0-391908a088c6
-    alterId: 4
-    cipher: auto
-    udp: false
-    tls: true
-    ws-path: /123
   - name: "\U0001F1FA\U0001F1F8:美国-vmess-sgp.ycsfree.xyz:443-被墙-中转:129.150.33.76-解锁新加坡地区NF非自制剧"
     type: vmess
     server: sgp.ycsfree.xyz
@@ -619,27 +711,6 @@ proxies:
     udp: false
     tls: true
     ws-path: /zcjd
-  - name: "\U0001F1FA\U0001F1F8:美国-vmess-107.161.50.42:22401-被墙-中转:8.21.13.43-解锁美国地区NF非自制剧"
-    type: vmess
-    server: 107.161.50.42
-    network: ws
-    port: 22401
-    uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79
-    alterId: 4
-    cipher: auto
-    udp: false
-    tls: false
-    ws-path: /
-  - name: "\U0001F1F8\U0001F1EC:新加坡-vmess-v54.xn--6nq44r2uh9rhj7f.com:80-被墙-中转:165.22.244.245-解锁新加坡地区NF非自制剧"
-    type: vmess
-    server: v54.xn--6nq44r2uh9rhj7f.com
-    network: ws
-    port: 80
-    uuid: c3287d13-c321-4e81-ab29-56e7bc6a98b4
-    alterId: 0
-    cipher: auto
-    udp: false
-    ws-path: /
   - name: "\U0001F1FB\U0001F1F3:越南-vmess-hcm-1.4g.mkvn.net:80-被墙-中转:103.3.244.135-解锁越南地区NF非自制剧"
     type: vmess
     server: hcm-1.4g.mkvn.net
@@ -672,131 +743,6 @@ proxies:
     cipher: auto
     udp: false
     ws-path: /
-  - name: "\U0001F1E8\U0001F1F3:中国-vmess-8.219.146.138:23205-被墙-直连-解锁新加坡地区NF非自制剧"
-    type: vmess
-    server: 8.219.146.138
-    network: ws
-    port: 23205
-    uuid: 442094b1-a2c2-422f-f3cf-7fc0bb134666
-    alterId: 0
-    cipher: auto
-    udp: false
-    ws-path: /wss
-  - name: "\U0001F1FA\U0001F1F8:美国-vmess-jpamd.fineyoo.ml:443-被墙-中转:138.2.33.102-解锁日本地区NF非自制剧"
-    type: vmess
-    server: jpamd.fineyoo.ml
-    network: ws
-    port: 443
-    uuid: 35e5e2ea-1372-4745-dff8-fb2bd11016c4
-    alterId: 4
-    cipher: auto
-    udp: false
-    tls: true
-    ws-path: /123
-  - name: "\U0001F1E8\U0001F1F3:中国-vmess-ff5c0fb.rd.cloudflare.systems:80-被墙-中转:114.38.111.190-解锁台湾地区NF非自制剧"
-    type: vmess
-    server: ff5c0fb.rd.cloudflare.systems
-    network: ws
-    port: 80
-    uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-    alterId: 4
-    cipher: auto
-    udp: false
-    tls: false
-    ws-path: /s/ff5c0fb.fm.icloud.com:30513
-  - name: "\U0001F1FA\U0001F1F8:美国-vmess-amdkr.ptuu.ga:443-被墙-中转:152.69.229.222-解锁韩国地区NF非自制剧"
-    type: vmess
-    server: amdkr.ptuu.ga
-    network: ws
-    port: 443
-    uuid: a612b67f-a79b-4a71-a82b-a46906752023
-    alterId: 4
-    cipher: auto
-    udp: false
-    tls: true
-    ws-path: /408
-  - name: :0-vmess-us-nyc-ctg-04-v2.nodes.cjhh.one:888-被墙-中转:103.180.29.190-解锁香港地区NF非自制剧
-    type: vmess
-    server: us-nyc-ctg-04-v2.nodes.cjhh.one
-    network: ws
-    port: 888
-    uuid: fbc2efb0-786a-4074-81ea-8ab12ca5422c
-    alterId: 4
-    cipher: auto
-    udp: false
-    tls: true
-    ws-path: /je5x3pBN1vez3NQudNkB
-  - name: "\U0001F1FA\U0001F1F8:美国-vmess-v71.xn--6nq44r2uh9rhj7f.com:80-被墙-中转:54.202.78.230-解锁美国地区NF非自制剧"
-    type: vmess
-    server: v71.xn--6nq44r2uh9rhj7f.com
-    network: ws
-    port: 80
-    uuid: c3287d13-c321-4e81-ab29-56e7bc6a98b4
-    alterId: 0
-    cipher: auto
-    udp: false
-    ws-path: /
-  - name: "\U0001F1FA\U0001F1F8:美国-vmess-jpamd.fineyoo.cf:443-被墙-中转:138.2.53.9-解锁日本地区NF非自制剧"
-    type: vmess
-    server: jpamd.fineyoo.cf
-    network: ws
-    port: 443
-    uuid: 9bdac558-1d2b-425b-f0e7-445d38be025e
-    alterId: 4
-    cipher: auto
-    udp: false
-    tls: true
-    ws-path: /123
-  - name: "\U0001F1E7\U0001F1F7:巴西-vmess-brasil.jcnf.app:443-被墙-中转:193.123.125.7-解锁巴西地区NF非自制剧"
-    type: vmess
-    server: brasil.jcnf.app
-    network: ws
-    port: 443
-    uuid: c753e8a8-e180-4e76-a486-c917273d718b
-    alterId: 4
-    cipher: auto
-    udp: false
-    tls: true
-    ws-path: /zcjd
-  - name: "\U0001F1FA\U0001F1F8:美国-vmess-arm.ptuu.gq:443-被墙-中转:141.148.149.105-解锁美国地区NF非自制剧"
-    type: vmess
-    server: arm.ptuu.gq
-    network: ws
-    port: 443
-    uuid: 9821b817-5cb0-4af3-a3e3-7c137850935d
-    alterId: 4
-    cipher: auto
-    udp: false
-    tls: true
-    ws-path: /123
-  - name: "\U0001F1FA\U0001F1F8:美国-vmess-amdkr.ptuu.ml:443-被墙-中转:146.56.96.75-解锁韩国地区NF非自制剧"
-    type: vmess
-    server: amdkr.ptuu.ml
-    network: ws
-    port: 443
-    uuid: e2cdc305-dda7-465e-b675-ba0468d2a8b3
-    alterId: 4
-    cipher: auto
-    udp: false
-    tls: true
-    ws-path: /987
-  - name: "\U0001F1FA\U0001F1F8:美国-vmess-v75.xn--6nq44r2uh9rhj7f.com:80-被墙-中转:3.86.207.113-解锁美国地区NF非自制剧"
-    type: vmess
-    server: v75.xn--6nq44r2uh9rhj7f.com
-    network: ws
-    port: 80
-    uuid: c3287d13-c321-4e81-ab29-56e7bc6a98b4
-    alterId: 0
-    cipher: auto
-    udp: false
-    ws-path: /
-  - name: "\U0001F1E9\U0001F1EA:德国-trojan-sg8-trojan.bonds.id:443-可用-中转:194.233.79.194-仅支持新加坡地区NF自制剧"
-    type: trojan
-    server: sg8-trojan.bonds.id
-    password: 723b0120-2d2f-11ed-9576-1239d0255272
-    udp: true
-    skip-cert-verify: true
-    port: 443
   - name: "\U0001F1EF\U0001F1F5:日本-trojan-172.105.236.208:443-可用-直连-仅支持日本地区NF自制剧"
     type: trojan
     server: 172.105.236.208
@@ -824,39 +770,61 @@ proxy-groups:
     proxies:
       - DIRECT
       - "\U0001F1FB\U0001F1F3:越南-vmess-hanoi05.vifast.net:80-可用-中转:103.74.105.128-不支持Netflix"
+      - "\U0001F1FB\U0001F1F3:越南-vmess-103.56.161.146:80-可用-直连-不支持Netflix"
+      - "\U0001F1FA\U0001F1F8:美国-vmess-xjp.azzhuangaping.tw:80-可用-中转:138.2.75.193-仅支持新加坡地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-vmess-ojje-laowang.apps.ir-thr-at1.arvan.run:443-可用-中转:185.239.106.232-不支持Netflix"
-      - "\U0001F1FA\U0001F1F8:美国-vmess-ex.755657.xyz:8443-可用-中转:104.28.205.80-不支持Netflix"
+      - "\U0001F1FA\U0001F1F8:美国-vmess-fr.2121999.xyz:8880-可用-中转:141.94.115.38-完全不支持NF"
+      - "\U0001F1FA\U0001F1F8:美国-ss-64.112.42.72:16999-可用-直连-不支持Netflix"
+      - "\U0001F1FA\U0001F1F8:美国-ss-64.112.42.53:16999-可用-直连-不支持Netflix"
+      - "\U0001F1FA\U0001F1F8:美国-ss-45.45.177.2:29588-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.91.107.72:5500-可用-直连-不支持Netflix"
       - "\U0001F1FA\U0001F1F8:美国-ss-38.91.106.75:3389-可用-直连-不支持Netflix"
-      - "\U0001F1FA\U0001F1F8:美国-ss-38.91.102.74:5003-可用-直连-不支持Netflix"
-      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.61.50:7307-可用-直连-不支持Netflix"
-      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.61.50:2376-可用-直连-不支持Netflix"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.61.50:5003-可用-直连-不支持Netflix"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.61.175:8119-可用-直连-不支持Netflix"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.61.175:8008-可用-直连-不支持Netflix"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.61.175:5001-可用-直连-不支持Netflix"
+      - "\U0001F1FA\U0001F1F8:美国-ss-167.88.61.175:443-可用-直连-不支持Netflix"
       - "\U0001F1FA\U0001F1F8:美国-ss-156.146.38.163:443-可用-直连-不支持Netflix"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.143:807-可用-直连-不支持Netflix"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.143:805-可用-直连-不支持Netflix"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.143:802-可用-直连-不支持Netflix"
       - "\U0001F1F7\U0001F1FA:俄罗斯-ss-31.192.232.217:23456-可用-直连-不支持Netflix"
-      - "\U0001F1F3\U0001F1F1:荷兰-ss-92.38.184.228:2097-可用-直连-仅支持美国地区NF自制剧"
+      - "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.123:9001-可用-直连-不支持Netflix"
       - "\U0001F1F1\U0001F1FA:卢森堡-vmess-lsb.ycsfree.xyz:443-可用-中转:104.244.79.7-仅支持卢森堡地区NF自制剧"
       - "\U0001F1EF\U0001F1F5:日本-trojan-172.105.236.208:443-可用-直连-仅支持日本地区NF自制剧"
+      - "\U0001F1EF\U0001F1F5:日本-ss-193.38.139.201:800-可用-直连-仅支持日本地区NF自制剧"
       - "\U0001F1EE\U0001F1F3:印度-vmess-india.ycsfree.xyz:443-可用-中转:152.67.12.46-解锁印度地区NF非自制剧"
-      - "\U0001F1E9\U0001F1EA:德国-trojan-sg8-trojan.bonds.id:443-可用-中转:194.233.79.194-仅支持新加坡地区NF自制剧"
-      - "\U0001F1E9\U0001F1EA:德国-ss-165.22.73.126:23335-可用-直连-不支持Netflix"
-      - "\U0001F1E8\U0001F1F3:中国-vmess-ingress-i1.onebox6.org:38201-可用-中转:61.224.62.40-不支持Netflix"
-      - "\U0001F1E8\U0001F1F3:中国-vmess-49.234.34.180:443-可用-直连-完全不支持NF"
+      - "\U0001F1E9\U0001F1EA:德国-ss-145.239.1.100:8882-可用-直连-完全不支持NF"
+      - "\U0001F1E9\U0001F1EA:德国-ss-145.239.1.100:8882-可用-直连-不支持Netflix"
+      - "\U0001F1E9\U0001F1EA:德国-ss-145.239.1.100:8080-可用-直连-完全不支持NF"
+      - "\U0001F1E8\U0001F1F3:中国-vmess-ingress-i1.onebox6.org:38701-可用-中转:194.233.66.47-不支持Netflix"
+      - "\U0001F1E8\U0001F1F3:中国-vmess-in-us-1.onebox6.org:38401-可用-中转:104.249.174.138-不支持Netflix"
       - "\U0001F1E8\U0001F1F3:中国-vmess-47.93.231.218:53022-可用-直连-完全不支持NF"
       - "\U0001F1E8\U0001F1F3:中国-vmess-124.223.44.153:80-可用-直连-完全不支持NF"
+      - "\U0001F1E8\U0001F1F3:中国-vmess-120.240.55.137:38201-可用-中转:61.224.62.40-不支持Netflix"
       - "\U0001F1E8\U0001F1F3:中国-vmess-119.91.223.167:80-可用-直连-完全不支持NF"
       - "\U0001F1E8\U0001F1F3:中国-vmess-110.42.138.122:18080-可用-直连-完全不支持NF"
       - "\U0001F1E8\U0001F1F3:中国-vmess-106.12.168.13:23117-可用-直连-完全不支持NF"
       - "\U0001F1E8\U0001F1F3:中国-vmess-106.12.168.13:13156-可用-直连-完全不支持NF"
-      - "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:7717-可用-中转:51.81.204.127-解锁美国地区NF非自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-ss-unicomus.mipglxi.cn:6631-可用-中转:23.247.137.105-解锁美国地区NF非自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11049-可用-中转:129.227.144.195-不支持Netflix"
+      - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11048-可用-中转:129.227.144.195-不支持Netflix"
+      - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11035-可用-中转:129.227.144.195-不支持Netflix"
+      - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11032-可用-中转:129.227.144.195-不支持Netflix"
+      - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11018-可用-中转:129.227.144.194-不支持Netflix"
+      - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11013-可用-中转:129.227.144.194-不支持Netflix"
+      - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11012-可用-中转:129.227.144.194-不支持Netflix"
+      - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11011-可用-中转:129.227.144.194-不支持Netflix"
+      - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11005-可用-中转:129.227.144.194-不支持Netflix"
+      - "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:7717-可用-中转:147.135.109.238-解锁美国地区NF非自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:7714-可用-中转:51.81.204.127-解锁美国地区NF非自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:6714-可用-中转:51.79.249.126-不支持Netflix"
-      - "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:3718-可用-中转:151.248.69.28-解锁日本地区NF非自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:3716-可用-中转:151.248.69.28-解锁日本地区NF非自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.72:2719-可用-中转:212.107.29.166-解锁香港地区NF非自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:6714-可用-中转:51.79.173.238-不支持Netflix"
+      - "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:3718-可用-中转:151.248.69.28-完全不支持NF"
+      - "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:3716-可用-中转:151.248.69.33-完全不支持NF"
+      - "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:3713-可用-中转:151.248.69.28-完全不支持NF"
+      - "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.72:2719-可用-中转:212.107.29.172-不支持Netflix"
+      - "\U0001F1E8\U0001F1F3:中国-ss-103.135.251.200:6800-可用-直连-不支持Netflix"
+      - "\U0001F1E8\U0001F1E6:加拿大-vmess-ca1.vmess.tunnel.cx:80-可用-中转:158.69.1.79-不支持Netflix"
   - name: 被墙代理组
     type: select
     url: http://www.gstatic.com/generate_204
@@ -865,20 +833,8 @@ proxy-groups:
       - DIRECT
       - "\U0001F1FB\U0001F1F3:越南-vmess-hcm-1.4g.mkvn.net:80-被墙-中转:103.3.244.135-解锁越南地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-vmess-weixin.babazhuji.com:443-被墙-中转:161.35.229.94-解锁美国地区NF非自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-vmess-vfly6.xyz:443-被墙-中转:8.210.128.146-解锁新加坡地区NF非自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-vmess-v75.xn--6nq44r2uh9rhj7f.com:80-被墙-中转:3.86.207.113-解锁美国地区NF非自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-vmess-v71.xn--6nq44r2uh9rhj7f.com:80-被墙-中转:54.202.78.230-解锁美国地区NF非自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-vmess-usamd.ptuu.tk:443-被墙-中转:129.146.186.108-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-vmess-sgp.ycsfree.xyz:443-被墙-中转:129.150.33.76-解锁新加坡地区NF非自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-vmess-kr.wangfuzheng.top:443-被墙-中转:150.230.255.151-解锁韩国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-vmess-jparm.fineyoo.cf:443-被墙-中转:152.70.81.66-解锁日本地区NF非自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-vmess-jpamd.fineyoo.ml:443-被墙-中转:138.2.33.102-解锁日本地区NF非自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-vmess-jpamd.fineyoo.cf:443-被墙-中转:138.2.53.9-解锁日本地区NF非自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-vmess-arm.ptuu.gq:443-被墙-中转:141.148.149.105-解锁美国地区NF非自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-vmess-amdkr.ptuu.ml:443-被墙-中转:146.56.96.75-解锁韩国地区NF非自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-vmess-amdkr.ptuu.ga:443-被墙-中转:152.69.229.222-解锁韩国地区NF非自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-vmess-107.161.50.42:22401-被墙-中转:8.21.13.43-解锁美国地区NF非自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-ss-64.112.42.53:16999-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.68:8091-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.68:8080-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.68:8009-被墙-直连-解锁美国地区NF非自制剧"
@@ -889,21 +845,16 @@ proxy-groups:
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.68:3389-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-167.88.62.68:3306-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-162.251.61.221:809-被墙-直连-解锁美国地区NF非自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-ss-162.251.61.221:806-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-162.251.61.221:805-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-162.251.61.221:804-被墙-直连-解锁美国地区NF非自制剧"
-      - "\U0001F1FA\U0001F1F8:美国-ss-162.251.61.221:803-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-162.251.61.221:802-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-162.251.61.221:800-被墙-直连-解锁美国地区NF非自制剧"
       - "\U0001F1FA\U0001F1F8:美国-ss-138.68.248.130:811-被墙-直连-解锁美国地区NF非自制剧"
-      - "\U0001F1F8\U0001F1EC:新加坡-vmess-v54.xn--6nq44r2uh9rhj7f.com:80-被墙-中转:165.22.244.245-解锁新加坡地区NF非自制剧"
-      - "\U0001F1F7\U0001F1F4:罗马尼亚-ssr-185.126.116.125:9033-被墙-直连-解锁瑞士地区NF非自制剧"
       - "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.125:9033-被墙-直连-解锁瑞士地区NF非自制剧"
       - "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.119:9094-被墙-直连-解锁瑞士地区NF非自制剧"
+      - "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.119:9093-被墙-直连-解锁瑞士地区NF非自制剧"
       - "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.119:9080-被墙-直连-解锁瑞士地区NF非自制剧"
-      - "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.119:9058-被墙-直连-解锁瑞士地区NF非自制剧"
       - "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.119:9046-被墙-直连-解锁瑞士地区NF非自制剧"
-      - "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.119:9043-被墙-直连-解锁瑞士地区NF非自制剧"
       - "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.119:9040-被墙-直连-解锁瑞士地区NF非自制剧"
       - "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.119:9033-被墙-直连-解锁瑞士地区NF非自制剧"
       - "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.119:9026-被墙-直连-解锁瑞士地区NF非自制剧"
@@ -924,21 +875,18 @@ proxy-groups:
       - "\U0001F1EE\U0001F1F1:以色列-ss-185.162.126.217:50004-被墙-直连-解锁以色列地区NF非自制剧"
       - "\U0001F1EC\U0001F1E7:英国-ss-83.229.73.60:50003-被墙-直连-解锁以色列地区NF非自制剧"
       - "\U0001F1E8\U0001F1FE:塞浦路斯-ss-213.169.137.221:989-被墙-直连-解锁塞浦路斯地区NF非自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-vmess-ff5c0fb.rd.cloudflare.systems:80-被墙-中转:114.38.111.190-解锁台湾地区NF非自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-vmess-8.219.146.138:23205-被墙-直连-解锁新加坡地区NF非自制剧"
       - "\U0001F1E8\U0001F1F3:中国-vmess-61.222.202.140:33792-被墙-直连-解锁台湾地区NF非自制剧"
-      - "\U0001F1E7\U0001F1F7:巴西-vmess-brasil.jcnf.app:443-被墙-中转:193.123.125.7-解锁巴西地区NF非自制剧"
-      - :0-vmess-us-nyc-ctg-04-v2.nodes.cjhh.one:888-被墙-中转:103.180.29.190-解锁香港地区NF非自制剧
   - name: 仅支持Netflix自制剧
     type: select
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - DIRECT
-      - "\U0001F1F3\U0001F1F1:荷兰-ss-92.38.184.228:2097-可用-直连-仅支持美国地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-vmess-xjp.azzhuangaping.tw:80-可用-中转:138.2.75.193-仅支持新加坡地区NF自制剧"
+      - "\U0001F1FA\U0001F1F8:美国-ss-45.45.177.2:29588-可用-直连-仅支持美国地区NF自制剧"
       - "\U0001F1F1\U0001F1FA:卢森堡-vmess-lsb.ycsfree.xyz:443-可用-中转:104.244.79.7-仅支持卢森堡地区NF自制剧"
       - "\U0001F1EF\U0001F1F5:日本-trojan-172.105.236.208:443-可用-直连-仅支持日本地区NF自制剧"
-      - "\U0001F1E9\U0001F1EA:德国-trojan-sg8-trojan.bonds.id:443-可用-中转:194.233.79.194-仅支持新加坡地区NF自制剧"
+      - "\U0001F1EF\U0001F1F5:日本-ss-193.38.139.201:800-可用-直连-仅支持日本地区NF自制剧"
   - name: 解锁Netflix非自制剧
     type: select
     url: http://www.gstatic.com/generate_204
@@ -946,11 +894,9 @@ proxy-groups:
     proxies:
       - DIRECT
       - "\U0001F1EE\U0001F1F3:印度-vmess-india.ycsfree.xyz:443-可用-中转:152.67.12.46-解锁印度地区NF非自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:7717-可用-中转:51.81.204.127-解锁美国地区NF非自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-ss-unicomus.mipglxi.cn:6631-可用-中转:23.247.137.105-解锁美国地区NF非自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:7717-可用-中转:147.135.109.238-解锁美国地区NF非自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:7714-可用-中转:51.81.204.127-解锁美国地区NF非自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:3718-可用-中转:151.248.69.28-解锁日本地区NF非自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.74:3716-可用-中转:151.248.69.28-解锁日本地区NF非自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-ss-120.240.47.72:2719-可用-中转:212.107.29.166-解锁香港地区NF非自制剧"
   - name: 入口代理组
     # 中继代理组,不支持UDP协议。线路: clash <-> vmess <-> ss1 <-> ss2 <-> Internet
     type: select
