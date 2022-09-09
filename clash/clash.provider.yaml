@@ -1,22 +1,40 @@
 proxies:
-- name: 🇯🇵:日本-ss-85.208.108.93:6379-可用-中转:85.208.108.90-不支持Netflix
-  type: ss
-  server: 85.208.108.93
-  password: zDNVedRFPQexG9v
-  port: 6379
-  cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-103.135.251.200:6800-可用-直连-不支持Netflix
   type: ss
   server: 103.135.251.200
   password: abcd1234
   port: 6800
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-c90s2.jamjams3.net:19623-可用-中转:138.128.222.34-不支持Netflix
+  type: ss
+  server: c90s2.jamjams3.net
+  password: wpfgqbrTF7aEyWq3
+  port: 19623
+  cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-c90s1.jamjams3.net:19623-可用-中转:45.78.11.240-不支持Netflix
+  type: ss
+  server: c90s1.jamjams3.net
+  password: wpfgqbrTF7aEyWq3
+  port: 19623
+  cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-h961359.waihuizhibiaowang.com:15743-可用-中转:188.68.54.245-仅支持德国地区NF自制剧
+  type: ss
+  server: h961359.waihuizhibiaowang.com
+  password: a611f6db-6bcd-11eb-baa0-0ae09aa79902
+  port: 15743
+  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-45.59.184.12:6800-可用-直连-不支持Netflix
   type: ss
   server: 45.59.184.12
   password: abcd1234
   port: 6800
   cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-120.240.47.72:2715-可用-中转:212.107.29.171-解锁香港地区NF非自制剧
+  type: ss
+  server: 120.240.47.72
+  password: 5otzk5bmlo6
+  port: 2715
+  cipher: rc4-md5
 - name: 🇺🇸:美国-ss-198.181.56.163:238-可用-直连-不支持Netflix
   type: ss
   server: 198.181.56.163
@@ -80,28 +98,6 @@ proxies:
   udp: false
   tls: true
   ws-path: /zcjd
-- name: 🇺🇸:美国-vmess-jp1.v2rayserv.com:80-可用-中转:38.54.88.138-不支持Netflix
-  type: vmess
-  server: jp1.v2rayserv.com
-  network: ws
-  port: 80
-  uuid: 143f0cb3-23f1-4fd0-b1da-bc9a10f97318
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /sshocean
-- name: 🇺🇸:美国-vmess-br1.v2rayserv.com:80-可用-中转:38.54.57.36-不支持Netflix
-  type: vmess
-  server: br1.v2rayserv.com
-  network: ws
-  port: 80
-  uuid: 4c3c4ba1-c614-4719-a92d-22a51fbefa5b
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /sshocean
 - name: 🇨🇳:中国-vmess-175.178.163.153:443-可用-直连-完全不支持NF
   type: vmess
   server: 175.178.163.153
