@@ -1,10 +1,4 @@
 proxies:
-- name: 🇯🇵:日本-ss-85.208.108.93:6379-可用-中转:85.208.108.90-不支持Netflix
-  type: ss
-  server: 85.208.108.93
-  password: zDNVedRFPQexG9v
-  port: 6379
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-64.112.42.72:16999-可用-直连-不支持Netflix
   type: ss
   server: 64.112.42.72
@@ -17,23 +11,11 @@ proxies:
   password: abcd1234
   port: 6800
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-169.197.143.232:7307-可用-直连-不支持Netflix
-  type: ss
-  server: 169.197.143.232
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-c12s2.jamjams3.net:12623-可用-中转:45.78.5.123-不支持Netflix
   type: ss
   server: c12s2.jamjams3.net
   password: ZYNd6AFmPhgYZDh6
   port: 12623
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-38.143.66.99:8118-可用-直连-不支持Netflix
-  type: ss
-  server: 38.143.66.99
-  password: cdBIDV42DCwnfIN
-  port: 8118
   cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-120.240.47.72:2719-可用-中转:212.107.29.172-解锁香港地区NF非自制剧
   type: ss
@@ -47,23 +29,11 @@ proxies:
   password: KixLvKzwjekG00rm
   port: 5500
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-120.240.47.74:7717-可用-中转:15.204.20.226-解锁美国地区NF非自制剧
-  type: ss
-  server: 120.240.47.74
-  password: 5otzk5bmlo6
-  port: 7717
-  cipher: rc4-md5
 - name: 🇨🇳:中国-ss-120.240.47.74:7714-可用-中转:51.81.204.126-解锁美国地区NF非自制剧
   type: ss
   server: 120.240.47.74
   password: 5otzk5bmlo6
   port: 7714
-  cipher: rc4-md5
-- name: 🇨🇳:中国-ss-120.240.47.72:2712-可用-中转:212.107.29.167-解锁香港地区NF非自制剧
-  type: ss
-  server: 120.240.47.72
-  password: 5otzk5bmlo6
-  port: 2712
   cipher: rc4-md5
 - name: 🇨🇳:中国-ss-14.29.124.174:11005-可用-中转:129.227.144.194-不支持Netflix
   type: ss
@@ -83,16 +53,6 @@ proxies:
   password: shadowsocks
   port: 443
   cipher: aes-128-cfb
-- name: 🇻🇳:越南-vmess-hanoi05.vifast.net:80-可用-中转:103.74.105.128-不支持Netflix
-  type: vmess
-  server: hanoi05.vifast.net
-  network: ws
-  port: 80
-  uuid: 4c2d3f00-8f9b-49c2-a43b-10f022b2fde5
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /
 - name: 🇺🇸:美国-vmess-sg01.henet.cyou:20000-可用-中转:192.53.117.151-仅支持新加坡地区NF自制剧
   type: vmess
   server: sg01.henet.cyou
@@ -113,17 +73,6 @@ proxies:
   cipher: auto
   udp: false
   ws-path: /live
-- name: 🇨🇳:中国-vmess-hkbgp.internetsmartrouting.top:48888-可用-中转:223.18.145.12-解锁香港地区NF非自制剧
-  type: vmess
-  server: hkbgp.internetsmartrouting.top
-  network: ws
-  port: 48888
-  uuid: c9a190a6-6603-4bea-b139-eda2c10c435e
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7
 - name: 🇨🇳:中国-vmess-110.42.138.122:18080-可用-直连-完全不支持NF
   type: vmess
   server: 110.42.138.122
@@ -177,30 +126,9 @@ proxies:
   cipher: auto
   udp: false
   ws-path: /vpngiare.net
-- name: 🇨🇦:加拿大-vmess-ca1.vmess.tunnel.cx:80-可用-中转:158.69.1.79-不支持Netflix
-  type: vmess
-  server: ca1.vmess.tunnel.cx
-  network: ws
-  port: 80
-  uuid: 0429f7ce-2c73-11ed-b9c2-8b16281b86ac
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /vmess
 - name: 🇸🇬:新加坡-vmess-hk01.henet.cyou:20000-可用-中转:172.104.49.231-仅支持新加坡地区NF自制剧
   type: vmess
   server: hk01.henet.cyou
-  network: ws
-  port: 20000
-  uuid: f19e9277-6048-4cfc-9415-7f20b6ecc41c
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /live
-- name: 🇨🇳:中国-vmess-tw02.henet.cyou:20000-可用-中转:36.227.244.65-仅支持台湾地区NF自制剧
-  type: vmess
-  server: tw02.henet.cyou
   network: ws
   port: 20000
   uuid: f19e9277-6048-4cfc-9415-7f20b6ecc41c
@@ -230,6 +158,16 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇺🇸:美国-vmess-us02.henet.cyou:20000-可用-中转:173.255.242.92-仅支持美国地区NF自制剧
+  type: vmess
+  server: us02.henet.cyou
+  network: ws
+  port: 20000
+  uuid: f19e9277-6048-4cfc-9415-7f20b6ecc41c
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /live
 - name: 🇨🇳:中国-vmess-49.234.34.180:443-可用-直连-完全不支持NF
   type: vmess
   server: 49.234.34.180
@@ -282,17 +220,6 @@ proxies:
   udp: false
   tls: true
   ws-path: /javasdkyhgudf
-- name: 🇨🇳:中国-vmess-119.91.223.167:80-可用-直连-完全不支持NF
-  type: vmess
-  server: 119.91.223.167
-  network: ws
-  port: 80
-  uuid: 5087e6ea-b650-443e-923f-b754661b8c47
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
 - name: 🇻🇳:越南-vmess-103.56.161.146:80-可用-直连-不支持Netflix
   type: vmess
   server: 103.56.161.146
@@ -313,17 +240,6 @@ proxies:
   cipher: auto
   udp: false
   tls: false
-  ws-path: /sshocean
-- name: 🇺🇸:美国-vmess-br1.v2rayserv.com:443-可用-中转:38.54.57.36-不支持Netflix
-  type: vmess
-  server: br1.v2rayserv.com
-  network: ws
-  port: 443
-  uuid: 4c3c4ba1-c614-4719-a92d-22a51fbefa5b
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
   ws-path: /sshocean
 - name: 🇺🇸:美国-vmess-jp1.v2rayserv.com:80-可用-中转:38.54.88.138-不支持Netflix
   type: vmess
@@ -379,7 +295,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇨🇳:中国-vmess-tw01.henet.cyou:20000-可用-中转:36.227.245.207-解锁台湾地区NF非自制剧
+- name: 🇨🇳:中国-vmess-tw01.henet.cyou:20000-可用-中转:36.227.245.207-仅支持台湾地区NF自制剧
   type: vmess
   server: tw01.henet.cyou
   network: ws
@@ -411,27 +327,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇺🇸:美国-vmess-us01.henet.cyou:20001-可用-中转:192.155.84.222-仅支持美国地区NF自制剧
-  type: vmess
-  server: us01.henet.cyou
-  network: ws
-  port: 20001
-  uuid: f19e9277-6048-4cfc-9415-7f20b6ecc41c
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /live
-- name: 🇺🇸:美国-vmess-jparm.fineyoo.cf:443-可用-中转:152.70.81.66-解锁日本地区NF非自制剧
-  type: vmess
-  server: jparm.fineyoo.cf
-  network: ws
-  port: 443
-  uuid: bd5ee249-fe7b-4669-a6d9-b3f5eecb98e6
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /123
 - name: 🇱🇺:卢森堡-vmess-lsb.ycsfree.xyz:443-可用-中转:104.244.79.7-仅支持卢森堡地区NF自制剧
   type: vmess
   server: lsb.ycsfree.xyz
@@ -461,17 +356,17 @@ proxies:
   udp: true
   skip-cert-verify: true
   port: 443
-- name: 🇺🇸:美国-trojan-hk3.hktkcloud.cloud:443-可用-中转:20.205.113.183-不支持Netflix
-  type: trojan
-  server: hk3.hktkcloud.cloud
-  password: d4119dee-493a-407f-9109-a36d62153e19
-  udp: true
-  skip-cert-verify: true
-  port: 443
 - name: 🇨🇦:加拿大-trojan-96tw.tfzhc.top:443-可用-中转:165.154.226.137-仅支持新加坡地区NF自制剧
   type: trojan
   server: 96tw.tfzhc.top
   password: d5aea4b7-2f9c-4650-ad76-cd16072ed349
+  udp: true
+  skip-cert-verify: true
+  port: 443
+- name: 🇨🇦:加拿大-trojan-hly.755657.xyz:443-可用-中转:104.28.246.49-解锁加拿大地区NF非自制剧
+  type: trojan
+  server: hly.755657.xyz
+  password: 046c4ca7-9c88-4ad5-92e8-591723b52b25
   udp: true
   skip-cert-verify: true
   port: 443
