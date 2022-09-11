@@ -1,10 +1,4 @@
 proxies:
-- name: 🇺🇸:美国-ss-167.88.61.14:9101-可用-直连-不支持Netflix
-  type: ss
-  server: 167.88.61.14
-  password: e4FCWrgpkji3QY
-  port: 9101
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.85:5001-可用-直连-不支持Netflix
   type: ss
   server: 134.195.196.85
@@ -23,12 +17,24 @@ proxies:
   password: g5MeD6Ft3CWlJId
   port: 5003
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.61.14:6379-可用-直连-不支持Netflix
+- name: 🇺🇸:美国-ss-38.143.66.99:8118-可用-直连-不支持Netflix
   type: ss
-  server: 167.88.61.14
-  password: zDNVedRFPQexG9v
-  port: 6379
+  server: 38.143.66.99
+  password: cdBIDV42DCwnfIN
+  port: 8118
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-38.143.66.99:5001-可用-直连-不支持Netflix
+  type: ss
+  server: 38.143.66.99
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-14.29.124.168:24003-可用-中转:223.26.73.202-不支持Netflix
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24003
+  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:24000-可用-中转:223.26.73.202-不支持Netflix
   type: ss
   server: 14.29.124.168
@@ -83,18 +89,18 @@ proxies:
   password: QazEdcTgb159@$*
   port: 11045
   cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24002-可用-中转:223.26.73.202-不支持Netflix
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24002
+  cipher: aes-128-cfb
 - name: 🇺🇸:美国-ss-38.91.107.72:5500-可用-直连-不支持Netflix
   type: ss
   server: 38.91.107.72
   password: KixLvKzwjekG00rm
   port: 5500
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-14.29.124.168:24007-可用-中转:223.26.73.202-不支持Netflix
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24007
-  cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.174:11035-可用-中转:129.227.144.195-不支持Netflix
   type: ss
   server: 14.29.124.174
@@ -125,12 +131,6 @@ proxies:
   password: bwhskrskr05
   port: 238
   cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9027-可用-直连-仅支持瑞士地区NF自制剧
-  type: ss
-  server: 185.126.116.123
-  password: EXN3S3eQpjE7EJu8
-  port: 9027
-  cipher: aes-256-cfb
 - name: 🇨🇳:中国-ss-14.29.124.168:24006-可用-中转:223.26.73.202-不支持Netflix
   type: ss
   server: 14.29.124.168
@@ -149,19 +149,37 @@ proxies:
   password: bwhskrskr03
   port: 252
   cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24009-可用-中转:223.26.73.202-不支持Netflix
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24009
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24008-可用-中转:223.26.73.202-不支持Netflix
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24008
+  cipher: aes-128-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9042-可用-直连-仅支持瑞士地区NF自制剧
   type: ss
   server: 185.126.116.123
   password: S7KwUu7yBy58S3Ga
   port: 9042
   cipher: aes-256-cfb
+- name: 🇺🇸:美国-ss-167.88.61.14:6379-可用-直连-不支持Netflix
+  type: ss
+  server: 167.88.61.14
+  password: zDNVedRFPQexG9v
+  port: 6379
+  cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-iepltr04.kczz2038.online:61309-可用-中转:194.156.133.48-仅支持香港地区NF自制剧
   type: ss
   server: iepltr04.kczz2038.online
   password: bb7eeda8-9be7-4f43-9066-b730aadccdf7
   port: 61309
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-vmess-v74.xn--6nq44r2uh9rhj7f.com:80-可用-中转:137.184.113.4-解锁美国地区NF非自制剧
+- name: 🇺🇸:美国-vmess-v74.xn--6nq44r2uh9rhj7f.com:80-可用-中转:128.199.12.239-仅支持美国地区NF自制剧
   type: vmess
   server: v74.xn--6nq44r2uh9rhj7f.com
   network: ws
@@ -171,17 +189,17 @@ proxies:
   cipher: auto
   udp: false
   ws-path: /
-- name: 🇺🇸:美国-vmess-seoul.napsternetv.com:443-可用-中转:132.226.171.149-解锁韩国地区NF非自制剧
+- name: 🇺🇸:美国-vmess-v2ray.wefuckgfw.ga:2096-可用-中转:45.90.58.175-仅支持瑞士地区NF自制剧
   type: vmess
-  server: seoul.napsternetv.com
+  server: v2ray.wefuckgfw.ga
   network: ws
-  port: 443
-  uuid: 5ADDADF4-E05B-65E6-A409-E08CEA8826DF
+  port: 2096
+  uuid: cc71185e-88a2-4364-8610-4006dc1a80a4
   alterId: 4
   cipher: auto
   udp: false
   tls: true
-  ws-path: /
+  ws-path: /H8VswtUJ/
 - name: 🇨🇳:中国-vmess-ingress-i1.onebox6.org:38201-可用-中转:61.224.62.40-不支持Netflix
   type: vmess
   server: ingress-i1.onebox6.org
@@ -237,7 +255,7 @@ proxies:
   udp: false
   tls: true
   ws-path: /freehk
-- name: 🇺🇸:美国-vmess-v71.xn--6nq44r2uh9rhj7f.com:80-可用-中转:35.87.35.213-解锁美国地区NF非自制剧
+- name: 🇺🇸:美国-vmess-v71.xn--6nq44r2uh9rhj7f.com:80-可用-中转:35.87.35.213-仅支持美国地区NF自制剧
   type: vmess
   server: v71.xn--6nq44r2uh9rhj7f.com
   network: ws
@@ -313,17 +331,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
-- name: :0-vmess-id-herza.v2-ray.com:443-可用-中转:103.173.75.164-不支持Netflix
-  type: vmess
-  server: id-herza.v2-ray.com
-  network: ws
-  port: 443
-  uuid: fbf78c1f-6f42-45e0-a1a9-67de703b90f8
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /fastssh/hkaa0/6315d6fd8ece0/
 - name: 🇺🇸:美国-vmess-jp1.v2rayserv.com:80-可用-中转:38.54.88.138-不支持Netflix
   type: vmess
   server: jp1.v2rayserv.com
@@ -335,7 +342,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /sshocean
-- name: 🇨🇦:加拿大-vmess-v81.xn--6nq44r2uh9rhj7f.com:80-可用-中转:3.96.125.250-仅支持加拿大地区NF自制剧
+- name: 🇨🇦:加拿大-vmess-v81.xn--6nq44r2uh9rhj7f.com:80-可用-中转:15.223.70.22-仅支持加拿大地区NF自制剧
   type: vmess
   server: v81.xn--6nq44r2uh9rhj7f.com
   network: ws
@@ -378,7 +385,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇺🇸:美国-vmess-v73.xn--6nq44r2uh9rhj7f.com:80-可用-中转:45.79.87.180-仅支持美国地区NF自制剧
+- name: 🇺🇸:美国-vmess-v73.xn--6nq44r2uh9rhj7f.com:80-可用-中转:192.155.86.52-解锁美国地区NF非自制剧
   type: vmess
   server: v73.xn--6nq44r2uh9rhj7f.com
   network: ws
@@ -410,16 +417,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /hls/cctv5phd.m3u8
-- name: 🇨🇳:中国-vmess-154.208.10.62:80-可用-直连-不支持Netflix
-  type: vmess
-  server: 154.208.10.62
-  network: ws
-  port: 80
-  uuid: ebff8d4f-7815-4b2a-bf28-add96fc48cfb
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /
 - name: 🇨🇳:中国-vmess-106.12.168.13:23117-可用-直连-完全不支持NF
   type: vmess
   server: 106.12.168.13
@@ -474,14 +471,63 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇺🇸:美国-trojan-45.88.148.234:28443-可用-直连-解锁新加坡地区NF非自制剧
+- name: 🇷🇺:俄罗斯-trojan-aeadruaes01.xn--z4q48lcvp.com:35475-可用-中转:45.89.228.209-完全不支持NF
   type: trojan
-  server: 45.88.148.234
-  password: 7f38669a-90f2-481f-8591-8a09c5108959
+  server: aeadruaes01.xn--z4q48lcvp.com
+  password: 6fceea79-f0af-4480-9247-d198d166b522
   udp: true
   skip-cert-verify: true
-  sni: zaelot.cc
-  port: 28443
+  port: 35475
+- name: 🇩🇪:德国-trojan-194.195.254.50:443-可用-直连-解锁新加坡地区NF非自制剧
+  type: trojan
+  server: 194.195.254.50
+  password: a1e12464-9208-4583-bd21-ab6889fdd242
+  udp: true
+  skip-cert-verify: true
+  sni: cdn.qchwnd.moe
+  port: 443
+- name: 🇨🇳:中国-trojan-usb-zf.jiashumao.net:43001-可用-中转:104.249.174.156-解锁美国地区NF非自制剧
+  type: trojan
+  server: usb-zf.jiashumao.net
+  password: f01a7126-eb1e-38be-bc48-1085c91839b3
+  udp: true
+  skip-cert-verify: true
+  port: 43001
+- name: 🇺🇸:美国-trojan-www.h99xbwg.xyz:443-可用-中转:212.50.246.86-不支持Netflix
+  type: trojan
+  server: www.h99xbwg.xyz
+  password: T2xgCp0yVLS03Lc8
+  udp: true
+  skip-cert-verify: true
+  port: 443
+- name: 🇨🇳:中国-trojan-twa-zf.jiashumao.net:27919-可用-中转:1.162.92.193-解锁台湾地区NF非自制剧
+  type: trojan
+  server: twa-zf.jiashumao.net
+  password: f01a7126-eb1e-38be-bc48-1085c91839b3
+  udp: true
+  skip-cert-verify: true
+  port: 27919
+- name: 🇯🇵:日本-trojan-musashino.freetrade.link:443-可用-中转:52.192.189.119-仅支持日本地区NF自制剧
+  type: trojan
+  server: musashino.freetrade.link
+  password: ZDqCRlxB8uFj9pxNEeanya3DIpDlOYR7K0wOYX3eScA36gTAazCyZ5SC3FS428
+  udp: true
+  skip-cert-verify: true
+  port: 443
+- name: 🇦🇷:阿根廷-trojan-agt-zf.jiashumao.net:24540-可用-中转:190.103.177.48-仅支持阿根廷地区NF自制剧
+  type: trojan
+  server: agt-zf.jiashumao.net
+  password: f01a7126-eb1e-38be-bc48-1085c91839b3
+  udp: true
+  skip-cert-verify: true
+  port: 24540
+- name: 🇺🇸:美国-trojan-www.sxsy88.tk:44150-可用-中转:138.2.8.227-解锁日本地区NF非自制剧
+  type: trojan
+  server: www.sxsy88.tk
+  password: zFyLKH62WN
+  udp: true
+  skip-cert-verify: true
+  port: 44150
 - name: 🇺🇸:美国-trojan-170.187.182.212:443-可用-直连-解锁美国地区NF非自制剧
   type: trojan
   server: 170.187.182.212
@@ -498,31 +544,38 @@ proxies:
   skip-cert-verify: true
   sni: cdn.qchwnd.moe
   port: 443
-- name: 🇩🇪:德国-trojan-194.195.254.50:443-可用-直连-解锁新加坡地区NF非自制剧
+- name: 🇨🇳:中国-trojan-yn-zf.jiashumao.net:40375-可用-中转:103.199.16.200-仅支持越南地区NF自制剧
   type: trojan
-  server: 194.195.254.50
+  server: yn-zf.jiashumao.net
+  password: f01a7126-eb1e-38be-bc48-1085c91839b3
+  udp: true
+  skip-cert-verify: true
+  port: 40375
+- name: 🇺🇸:美国-trojan-45.33.57.17:443-可用-直连-解锁美国地区NF非自制剧
+  type: trojan
+  server: 45.33.57.17
   password: a1e12464-9208-4583-bd21-ab6889fdd242
   udp: true
   skip-cert-verify: true
   sni: cdn.qchwnd.moe
   port: 443
-- name: 🇺🇸:美国-trojan-www.h99xbwg.xyz:443-可用-中转:212.50.246.86-不支持Netflix
+- name: 🇨🇳:中国-trojan-ma-zf.jiashumao.net:22983-可用-中转:118.169.68.88-解锁台湾地区NF非自制剧
   type: trojan
-  server: www.h99xbwg.xyz
-  password: T2xgCp0yVLS03Lc8
+  server: ma-zf.jiashumao.net
+  password: f01a7126-eb1e-38be-bc48-1085c91839b3
   udp: true
   skip-cert-verify: true
-  port: 443
-- name: 🇦🇺:澳大利亚-trojan-ttt3.swiftfalcon.app:8443-可用-中转:91.243.81.150-不支持Netflix
+  port: 22983
+- name: 🇨🇳:中国-trojan-hkc-zf.jiashumao.net:33481-可用-中转:171.22.195.172-解锁香港地区NF非自制剧
   type: trojan
-  server: ttt3.swiftfalcon.app
-  password: coldwar2
+  server: hkc-zf.jiashumao.net
+  password: f01a7126-eb1e-38be-bc48-1085c91839b3
   udp: true
   skip-cert-verify: true
-  port: 8443
-- name: 🇺🇸:美国-trojan-45.33.57.17:443-可用-直连-解锁美国地区NF非自制剧
+  port: 33481
+- name: 🇸🇬:新加坡-trojan-139.162.46.222:443-可用-直连-解锁新加坡地区NF非自制剧
   type: trojan
-  server: 45.33.57.17
+  server: 139.162.46.222
   password: a1e12464-9208-4583-bd21-ab6889fdd242
   udp: true
   skip-cert-verify: true
@@ -535,14 +588,6 @@ proxies:
   udp: true
   skip-cert-verify: true
   port: 443
-- name: 🇸🇬:新加坡-trojan-139.162.46.222:443-可用-直连-解锁新加坡地区NF非自制剧
-  type: trojan
-  server: 139.162.46.222
-  password: a1e12464-9208-4583-bd21-ab6889fdd242
-  udp: true
-  skip-cert-verify: true
-  sni: cdn.qchwnd.moe
-  port: 443
 - name: 🇨🇦:加拿大-trojan-99tw03.tfzhc.top:443-可用-中转:165.154.253.95-仅支持新加坡地区NF自制剧
   type: trojan
   server: 99tw03.tfzhc.top
@@ -550,3 +595,10 @@ proxies:
   udp: true
   skip-cert-verify: true
   port: 443
+- name: 🇨🇳:中国-trojan-usa-zf.jiashumao.net:42001-可用-中转:45.151.135.134-仅支持美国地区NF自制剧
+  type: trojan
+  server: usa-zf.jiashumao.net
+  password: f01a7126-eb1e-38be-bc48-1085c91839b3
+  udp: true
+  skip-cert-verify: true
+  port: 42001
