@@ -35,17 +35,29 @@ dns:
       - 240.0.0.0/4
 # 个人节点
 proxies:
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-183.240.209.15:31905-可用-中转:103.105.50.108-不支持Netflix"
+    type: ss
+    server: 183.240.209.15
+    password: bBEXIq
+    port: 31905
+    cipher: aes-256-gcm
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.143.66.99:9102-可用-直连-不支持Netflix"
+    type: ss
+    server: 38.143.66.99
+    password: e4FCWrgpkji3QY
+    port: 9102
+    cipher: aes-256-gcm
   - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.178:806-可用-直连-不支持Netflix"
     type: ss
     server: 134.195.196.178
     password: G!yBwPWH3Vao
     port: 806
     cipher: chacha20-ietf-poly1305
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-IEPL01.mzthcj.cn:20011-可用-中转:157.254.193.19-不支持Netflix"
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-IEPL02.mzthcj.cn:21650-可用-中转:218.102.244.222-解锁香港地区NF非自制剧"
     type: ss
-    server: IEPL01.mzthcj.cn
+    server: IEPL02.mzthcj.cn
     password: 6b4e840d-d3b6-4157-a4ae-b9cdaf84799a
-    port: 20011
+    port: 21650
     cipher: aes-128-gcm
   - name: "\U0001F1EC\U0001F1E7:英国-ss-212.102.53.194:443-可用-直连-不支持Netflix"
     type: ss
@@ -59,23 +71,23 @@ proxies:
     password: shadowsocks
     port: 443
     cipher: aes-128-gcm
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-IEPL02.mzthcj.cn:21650-可用-中转:218.102.244.222-解锁香港地区NF非自制剧"
+  - name: "\U0001F1E9\U0001F1EA:德国-ss-mf01.xmss.vip:18888-可用-中转:94.131.107.12-不支持Netflix"
     type: ss
-    server: IEPL02.mzthcj.cn
-    password: 6b4e840d-d3b6-4157-a4ae-b9cdaf84799a
-    port: 21650
-    cipher: aes-128-gcm
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-38.143.66.99:8118-可用-直连-不支持Netflix"
-    type: ss
-    server: 38.143.66.99
-    password: cdBIDV42DCwnfIN
-    port: 8118
-    cipher: aes-256-gcm
+    server: mf01.xmss.vip
+    password: d6c38de7-ef74-4e93-88c7-837a53127e5d
+    port: 18888
+    cipher: chacha20-ietf-poly1305
   - name: "\U0001F1EC\U0001F1E7:英国-ss-212.102.53.81:443-可用-直连-不支持Netflix"
     type: ss
     server: 212.102.53.81
     password: shadowsocks
     port: 443
+    cipher: aes-128-gcm
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-IEPL01.mzthcj.cn:20011-可用-中转:157.254.193.19-不支持Netflix"
+    type: ss
+    server: IEPL01.mzthcj.cn
+    password: 6b4e840d-d3b6-4157-a4ae-b9cdaf84799a
+    port: 20011
     cipher: aes-128-gcm
   - name: "\U0001F1EF\U0001F1F5:日本-ss-45.66.134.176:806-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧"
     type: ss
@@ -245,161 +257,71 @@ proxies:
     password: G!yBwPWH3Vao
     port: 809
     cipher: chacha20-ietf-poly1305
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11034-可用-中转:129.227.144.195-不支持Netflix"
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11039-可用-中转:129.227.144.195-不支持Netflix"
     type: ss
     server: 14.29.124.174
     password: QazEdcTgb159@$*
-    port: 11034
+    port: 11039
     cipher: aes-128-cfb
-  - name: "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.125:9020-可用-直连-仅支持瑞士地区NF自制剧"
-    type: ss
-    server: 185.126.116.125
-    password: BNmAXXxAHYpTRdzu
-    port: 9020
-    cipher: aes-256-cfb
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.178:804-可用-直连-不支持Netflix"
-    type: ss
-    server: 134.195.196.178
-    password: G!yBwPWH3Vao
-    port: 804
-    cipher: chacha20-ietf-poly1305
-  - name: "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.125:9027-可用-直连-仅支持瑞士地区NF自制剧"
-    type: ss
-    server: 185.126.116.125
-    password: EXN3S3eQpjE7EJu8
-    port: 9027
-    cipher: aes-256-cfb
-  - name: "\U0001F1F3\U0001F1F1:荷兰-ss-213.183.59.191:9033-可用-直连-不支持Netflix"
-    type: ss
-    server: 213.183.59.191
-    password: UTJA57ypk2XKQpnm
-    port: 9033
-    cipher: aes-256-cfb
   - name: "\U0001F1F3\U0001F1F1:荷兰-ss-213.183.59.191:9026-可用-直连-不支持Netflix"
     type: ss
     server: 213.183.59.191
     password: QWDDvVE9npNurQfA
     port: 9026
     cipher: aes-256-cfb
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11049-可用-中转:129.227.144.195-不支持Netflix"
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11034-可用-中转:129.227.144.195-不支持Netflix"
     type: ss
     server: 14.29.124.174
     password: QazEdcTgb159@$*
-    port: 11049
+    port: 11034
     cipher: aes-128-cfb
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11048-可用-中转:129.227.144.195-不支持Netflix"
-    type: ss
-    server: 14.29.124.174
-    password: QazEdcTgb159@$*
-    port: 11048
-    cipher: aes-128-cfb
-  - name: "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.125:9098-可用-直连-不支持Netflix"
-    type: ss
-    server: 185.126.116.125
-    password: aLpQtfEZe445QyHk
-    port: 9098
-    cipher: aes-256-cfb
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-156.146.38.163:443-可用-直连-不支持Netflix"
-    type: ss
-    server: 156.146.38.163
-    password: shadowsocks
-    port: 443
-    cipher: aes-128-cfb
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.178:811-可用-直连-不支持Netflix"
-    type: ss
-    server: 134.195.196.178
-    password: G!yBwPWH3Vao
-    port: 811
-    cipher: chacha20-ietf-poly1305
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11043-可用-中转:129.227.144.195-不支持Netflix"
-    type: ss
-    server: 14.29.124.174
-    password: QazEdcTgb159@$*
-    port: 11043
-    cipher: aes-128-cfb
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11015-可用-中转:129.227.144.194-不支持Netflix"
-    type: ss
-    server: 14.29.124.174
-    password: QazEdcTgb159@$*
-    port: 11015
-    cipher: aes-128-cfb
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11004-可用-中转:129.227.144.194-不支持Netflix"
-    type: ss
-    server: 14.29.124.174
-    password: QazEdcTgb159@$*
-    port: 11004
-    cipher: aes-128-cfb
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.178:807-可用-直连-不支持Netflix"
-    type: ss
-    server: 134.195.196.178
-    password: G!yBwPWH3Vao
-    port: 807
-    cipher: chacha20-ietf-poly1305
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.168:24000-可用-中转:223.26.73.202-不支持Netflix"
-    type: ss
-    server: 14.29.124.168
-    password: QazEdcTgb159@$*
-    port: 24000
-    cipher: aes-128-cfb
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.178:810-可用-直连-不支持Netflix"
-    type: ss
-    server: 134.195.196.178
-    password: G!yBwPWH3Vao
-    port: 810
-    cipher: chacha20-ietf-poly1305
   - name: "\U0001F1F3\U0001F1F1:荷兰-ss-213.183.59.191:9053-可用-直连-不支持Netflix"
     type: ss
     server: 213.183.59.191
     password: SBM7R883jBmnqe6C
     port: 9053
     cipher: aes-256-cfb
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11009-可用-中转:129.227.144.194-不支持Netflix"
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.178:811-可用-直连-不支持Netflix"
     type: ss
-    server: 14.29.124.174
-    password: QazEdcTgb159@$*
-    port: 11009
-    cipher: aes-128-cfb
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11035-可用-中转:129.227.144.195-不支持Netflix"
-    type: ss
-    server: 14.29.124.174
-    password: QazEdcTgb159@$*
-    port: 11035
-    cipher: aes-128-cfb
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.168:24009-可用-中转:223.26.73.202-不支持Netflix"
-    type: ss
-    server: 14.29.124.168
-    password: QazEdcTgb159@$*
-    port: 24009
-    cipher: aes-128-cfb
+    server: 134.195.196.178
+    password: G!yBwPWH3Vao
+    port: 811
+    cipher: chacha20-ietf-poly1305
   - name: "\U0001F1F0\U0001F1F7:韩国-ss-3.36.118.190:443-可用-直连-不支持Netflix"
     type: ss
     server: 3.36.118.190
     password: amazonskr05
     port: 443
     cipher: aes-256-cfb
-  - name: "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.125:9043-可用-直连-不支持Netflix"
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.168:24006-可用-中转:223.26.73.202-不支持Netflix"
     type: ss
-    server: 185.126.116.125
-    password: HSZuyJQcWe8dxNdF
-    port: 9043
-    cipher: aes-256-cfb
+    server: 14.29.124.168
+    password: QazEdcTgb159@$*
+    port: 24006
+    cipher: aes-128-cfb
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.168:24000-可用-中转:223.26.73.202-不支持Netflix"
+    type: ss
+    server: 14.29.124.168
+    password: QazEdcTgb159@$*
+    port: 24000
+    cipher: aes-128-cfb
   - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11036-可用-中转:129.227.144.195-不支持Netflix"
     type: ss
     server: 14.29.124.174
     password: QazEdcTgb159@$*
     port: 11036
     cipher: aes-128-cfb
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11007-可用-中转:129.227.144.194-不支持Netflix"
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11011-可用-中转:129.227.144.194-不支持Netflix"
     type: ss
     server: 14.29.124.174
     password: QazEdcTgb159@$*
-    port: 11007
+    port: 11011
     cipher: aes-128-cfb
-  - name: "\U0001F1F3\U0001F1F1:荷兰-ss-213.183.59.191:9032-可用-直连-不支持Netflix"
+  - name: "\U0001F1F3\U0001F1F1:荷兰-ss-213.183.59.191:9033-可用-直连-不支持Netflix"
     type: ss
     server: 213.183.59.191
-    password: UWZQeLRWnkqgkseq
-    port: 9032
+    password: UTJA57ypk2XKQpnm
+    port: 9033
     cipher: aes-256-cfb
   - name: "\U0001F1FA\U0001F1F8:美国-ss-169.197.141.14:5001-可用-直连-不支持Netflix"
     type: ss
@@ -407,35 +329,107 @@ proxies:
     password: Y6R9pAtvxxzmGC
     port: 5001
     cipher: aes-256-gcm
-  - name: "\U0001F1E8\U0001F1F3:中国-ss-bfb7573d.jvgnwn.sbs:12055-可用-中转:103.156.242.116-不支持Netflix"
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.178:810-可用-直连-不支持Netflix"
     type: ss
-    server: bfb7573d.jvgnwn.sbs
-    password: 114514fuckimm
-    port: 12055
-    cipher: aes-128-gcm
+    server: 134.195.196.178
+    password: G!yBwPWH3Vao
+    port: 810
+    cipher: chacha20-ietf-poly1305
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11007-可用-中转:129.227.144.194-不支持Netflix"
+    type: ss
+    server: 14.29.124.174
+    password: QazEdcTgb159@$*
+    port: 11007
+    cipher: aes-128-cfb
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11032-可用-中转:129.227.144.195-不支持Netflix"
+    type: ss
+    server: 14.29.124.174
+    password: QazEdcTgb159@$*
+    port: 11032
+    cipher: aes-128-cfb
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.178:807-可用-直连-不支持Netflix"
+    type: ss
+    server: 134.195.196.178
+    password: G!yBwPWH3Vao
+    port: 807
+    cipher: chacha20-ietf-poly1305
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-156.146.38.163:443-可用-直连-不支持Netflix"
+    type: ss
+    server: 156.146.38.163
+    password: shadowsocks
+    port: 443
+    cipher: aes-128-cfb
+  - name: "\U0001F1E9\U0001F1EA:德国-ss-mf01.xmss.vip:18888-可用-中转:45.87.154.160-仅支持荷兰地区NF自制剧"
+    type: ss
+    server: mf01.xmss.vip
+    password: d6c38de7-ef74-4e93-88c7-837a53127e5d
+    port: 18888
+    cipher: chacha20-ietf-poly1305
   - name: "\U0001F1FA\U0001F1F8:美国-ss-169.197.141.14:7002-可用-直连-不支持Netflix"
     type: ss
     server: 169.197.141.14
     password: RexnBgU7EV5ADxG
     port: 7002
     cipher: aes-256-gcm
-  - name: "\U0001F1FA\U0001F1F8:美国-ss-169.197.141.14:7001-可用-直连-不支持Netflix"
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11050-可用-中转:129.227.144.195-不支持Netflix"
     type: ss
-    server: 169.197.141.14
-    password: RexnBgU7EV5ADxG
-    port: 7001
-    cipher: aes-256-gcm
-  - name: "\U0001F1F7\U0001F1FA:俄罗斯-ss-mf02.xmss.vip:18888-可用-中转:45.144.176.39-不支持Netflix"
+    server: 14.29.124.174
+    password: QazEdcTgb159@$*
+    port: 11050
+    cipher: aes-128-cfb
+  - name: "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.125:9027-可用-直连-仅支持瑞士地区NF自制剧"
     type: ss
-    server: mf02.xmss.vip
-    password: 5595f1cf-d7c0-4121-a3bf-19e423c1f9a1
-    port: 18888
+    server: 185.126.116.125
+    password: EXN3S3eQpjE7EJu8
+    port: 9027
+    cipher: aes-256-cfb
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11048-可用-中转:129.227.144.195-不支持Netflix"
+    type: ss
+    server: 14.29.124.174
+    password: QazEdcTgb159@$*
+    port: 11048
+    cipher: aes-128-cfb
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.178:804-可用-直连-不支持Netflix"
+    type: ss
+    server: 134.195.196.178
+    password: G!yBwPWH3Vao
+    port: 804
     cipher: chacha20-ietf-poly1305
   - name: "\U0001F1FA\U0001F1F8:美国-ss-169.197.141.14:9101-可用-直连-不支持Netflix"
     type: ss
     server: 169.197.141.14
     password: e4FCWrgpkji3QY
     port: 9101
+    cipher: aes-256-gcm
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11009-可用-中转:129.227.144.194-不支持Netflix"
+    type: ss
+    server: 14.29.124.174
+    password: QazEdcTgb159@$*
+    port: 11009
+    cipher: aes-128-cfb
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11043-可用-中转:129.227.144.195-不支持Netflix"
+    type: ss
+    server: 14.29.124.174
+    password: QazEdcTgb159@$*
+    port: 11043
+    cipher: aes-128-cfb
+  - name: "\U0001F1E8\U0001F1F3:中国-ss-bfb7573d.jvgnwn.sbs:12055-可用-中转:103.156.242.116-不支持Netflix"
+    type: ss
+    server: bfb7573d.jvgnwn.sbs
+    password: 114514fuckimm
+    port: 12055
+    cipher: aes-128-gcm
+  - name: "\U0001F1F3\U0001F1F1:荷兰-ss-213.183.59.191:9032-可用-直连-不支持Netflix"
+    type: ss
+    server: 213.183.59.191
+    password: UWZQeLRWnkqgkseq
+    port: 9032
+    cipher: aes-256-cfb
+  - name: "\U0001F1FA\U0001F1F8:美国-ss-169.197.141.14:7001-可用-直连-不支持Netflix"
+    type: ss
+    server: 169.197.141.14
+    password: RexnBgU7EV5ADxG
+    port: 7001
     cipher: aes-256-gcm
   - name: "\U0001F1F3\U0001F1F1:荷兰-ss-213.183.59.191:9003-可用-直连-不支持Netflix"
     type: ss
@@ -635,33 +629,40 @@ proxies:
     password: G!yBwPWH3Vao
     port: 805
     cipher: chacha20-ietf-poly1305
-  - name: "\U0001F1EF\U0001F1F5:日本-ssr-jp-am48-6.eqnode.net:8081-可用-中转:13.115.53.139-不支持Netflix"
+  - name: "\U0001F1E8\U0001F1FE:塞浦路斯-ss-213.169.137.221:989-被墙-直连-解锁塞浦路斯地区NF非自制剧"
+    type: ss
+    server: 213.169.137.221
+    password: f8f7aCzcPKbsF8p3
+    port: 989
+    cipher: aes-256-cfb
+  - name: "\U0001F1F8\U0001F1EC:新加坡-ssr-sg-am3.eqsunshine.com:32001-可用-中转:13.229.250.110-不支持Netflix"
     type: ssr
-    server: jp-am48-6.eqnode.net
-    password: eAokbaDN6
+    server: sg-am3.eqsunshine.com
+    password: 3g0dHlKME
     obfs: tls1.2_ticket_auth
     protocol: origin
-    port: 8081
+    port: 32001
     cipher: aes-256-cfb
     protocol-param: ""
     obfs-param: ""
-  - name: "\U0001F1EF\U0001F1F5:日本-vmess-172.104.70.195:8080-可用-直连-仅支持日本地区NF自制剧"
+  - name: "\U0001F1E8\U0001F1F3:中国-vmess-106.12.168.13:13156-可用-直连-完全不支持NF"
     type: vmess
-    server: 172.104.70.195
+    server: 106.12.168.13
     network: ws
-    port: 8080
-    uuid: 826b8d0a-e0d3-407a-927d-19953c170779
-    alterId: 0
+    port: 13156
+    uuid: 9bf4cba4-9e9e-4da4-8e65-f7c487c539df
+    alterId: 4
     cipher: auto
     udp: false
-    ws-path: /cctv13/hd.m3u8
-  - name: "\U0001F1E8\U0001F1F3:中国-trojan-nf.755657.xyz:2083-可用-中转:104.28.247.68-仅支持香港地区NF自制剧"
+    tls: false
+    ws-path: /
+  - name: "\U0001F1E8\U0001F1E6:加拿大-trojan-913tw.tfzhc.top:44318-可用-中转:165.154.226.137-仅支持新加坡地区NF自制剧"
     type: trojan
-    server: nf.755657.xyz
-    password: 11b8206c-8ae2-4ab3-a92c-208cdb8cc73d
+    server: 913tw.tfzhc.top
+    password: a48338e4-9585-470a-ad09-7600a05b2c5e
     udp: true
     skip-cert-verify: true
-    port: 2083
+    port: 44318
 # 类型选择 简介
 # select : 用于选择代理或代理组, 可以通过 RESTful API 来切换代理，建议在 GUI 中使用
 # load-balance : 相同eTLD+1的请求将拨号到同一个代理。
@@ -680,7 +681,7 @@ proxy-groups:
     interval: 300
     proxies:
       - DIRECT
-      - "\U0001F1FA\U0001F1F8:美国-ss-38.143.66.99:8118-可用-直连-不支持Netflix"
+      - "\U0001F1FA\U0001F1F8:美国-ss-38.143.66.99:9102-可用-直连-不支持Netflix"
       - "\U0001F1FA\U0001F1F8:美国-ss-169.197.141.14:9101-可用-直连-不支持Netflix"
       - "\U0001F1FA\U0001F1F8:美国-ss-169.197.141.14:8888-可用-直连-不支持Netflix"
       - "\U0001F1FA\U0001F1F8:美国-ss-169.197.141.14:7002-可用-直连-不支持Netflix"
@@ -692,39 +693,38 @@ proxy-groups:
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.178:807-可用-直连-不支持Netflix"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.178:806-可用-直连-不支持Netflix"
       - "\U0001F1FA\U0001F1F8:美国-ss-134.195.196.178:804-可用-直连-不支持Netflix"
-      - "\U0001F1F7\U0001F1FA:俄罗斯-ss-mf02.xmss.vip:18888-可用-中转:45.144.176.39-不支持Netflix"
-      - "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.125:9098-可用-直连-不支持Netflix"
-      - "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.125:9043-可用-直连-不支持Netflix"
+      - "\U0001F1F8\U0001F1EC:新加坡-ssr-sg-am3.eqsunshine.com:32001-可用-中转:13.229.250.110-不支持Netflix"
       - "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.125:9027-可用-直连-仅支持瑞士地区NF自制剧"
-      - "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.125:9020-可用-直连-仅支持瑞士地区NF自制剧"
       - "\U0001F1F3\U0001F1F1:荷兰-ss-213.183.59.191:9053-可用-直连-不支持Netflix"
       - "\U0001F1F3\U0001F1F1:荷兰-ss-213.183.59.191:9033-可用-直连-不支持Netflix"
       - "\U0001F1F3\U0001F1F1:荷兰-ss-213.183.59.191:9032-可用-直连-不支持Netflix"
       - "\U0001F1F3\U0001F1F1:荷兰-ss-213.183.59.191:9026-可用-直连-不支持Netflix"
       - "\U0001F1F3\U0001F1F1:荷兰-ss-213.183.59.191:9003-可用-直连-不支持Netflix"
       - "\U0001F1F0\U0001F1F7:韩国-ss-3.36.118.190:443-可用-直连-不支持Netflix"
-      - "\U0001F1EF\U0001F1F5:日本-vmess-172.104.70.195:8080-可用-直连-仅支持日本地区NF自制剧"
-      - "\U0001F1EF\U0001F1F5:日本-ssr-jp-am48-6.eqnode.net:8081-可用-中转:13.115.53.139-不支持Netflix"
       - "\U0001F1EC\U0001F1E7:英国-ss-212.102.53.81:443-可用-直连-不支持Netflix"
       - "\U0001F1EC\U0001F1E7:英国-ss-212.102.53.78:443-可用-直连-不支持Netflix"
       - "\U0001F1EC\U0001F1E7:英国-ss-212.102.53.197:443-可用-直连-不支持Netflix"
       - "\U0001F1EC\U0001F1E7:英国-ss-212.102.53.194:443-可用-直连-不支持Netflix"
-      - "\U0001F1E8\U0001F1F3:中国-trojan-nf.755657.xyz:2083-可用-中转:104.28.247.68-仅支持香港地区NF自制剧"
+      - "\U0001F1E9\U0001F1EA:德国-ss-mf01.xmss.vip:18888-可用-中转:94.131.107.12-不支持Netflix"
+      - "\U0001F1E9\U0001F1EA:德国-ss-mf01.xmss.vip:18888-可用-中转:45.87.154.160-仅支持荷兰地区NF自制剧"
+      - "\U0001F1E8\U0001F1F3:中国-vmess-106.12.168.13:13156-可用-直连-完全不支持NF"
       - "\U0001F1E8\U0001F1F3:中国-ss-bfb7573d.jvgnwn.sbs:12055-可用-中转:103.156.242.116-不支持Netflix"
       - "\U0001F1E8\U0001F1F3:中国-ss-IEPL02.mzthcj.cn:21650-可用-中转:218.102.244.222-解锁香港地区NF非自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-IEPL01.mzthcj.cn:20011-可用-中转:157.254.193.19-不支持Netflix"
-      - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11049-可用-中转:129.227.144.195-不支持Netflix"
+      - "\U0001F1E8\U0001F1F3:中国-ss-183.240.209.15:31905-可用-中转:103.105.50.108-不支持Netflix"
+      - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11050-可用-中转:129.227.144.195-不支持Netflix"
       - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11048-可用-中转:129.227.144.195-不支持Netflix"
       - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11043-可用-中转:129.227.144.195-不支持Netflix"
+      - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11039-可用-中转:129.227.144.195-不支持Netflix"
       - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11036-可用-中转:129.227.144.195-不支持Netflix"
-      - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11035-可用-中转:129.227.144.195-不支持Netflix"
       - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11034-可用-中转:129.227.144.195-不支持Netflix"
-      - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11015-可用-中转:129.227.144.194-不支持Netflix"
+      - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11032-可用-中转:129.227.144.195-不支持Netflix"
+      - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11011-可用-中转:129.227.144.194-不支持Netflix"
       - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11009-可用-中转:129.227.144.194-不支持Netflix"
       - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11007-可用-中转:129.227.144.194-不支持Netflix"
-      - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.174:11004-可用-中转:129.227.144.194-不支持Netflix"
-      - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.168:24009-可用-中转:223.26.73.202-不支持Netflix"
+      - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.168:24006-可用-中转:223.26.73.202-不支持Netflix"
       - "\U0001F1E8\U0001F1F3:中国-ss-14.29.124.168:24000-可用-中转:223.26.73.202-不支持Netflix"
+      - "\U0001F1E8\U0001F1E6:加拿大-trojan-913tw.tfzhc.top:44318-可用-中转:165.154.226.137-仅支持新加坡地区NF自制剧"
   - name: 被墙代理组
     type: select
     url: http://www.gstatic.com/generate_204
@@ -786,6 +786,7 @@ proxy-groups:
       - "\U0001F1EE\U0001F1F1:以色列-ss-185.162.126.217:50004-被墙-直连-解锁以色列地区NF非自制剧"
       - "\U0001F1EE\U0001F1F1:以色列-ss-185.162.125.91:50004-被墙-直连-解锁以色列地区NF非自制剧"
       - "\U0001F1EC\U0001F1E7:英国-ss-83.229.73.60:50003-被墙-直连-解锁以色列地区NF非自制剧"
+      - "\U0001F1E8\U0001F1FE:塞浦路斯-ss-213.169.137.221:989-被墙-直连-解锁塞浦路斯地区NF非自制剧"
       - "\U0001F1E8\U0001F1F3:中国-ss-103.92.86.76:23456-被墙-直连-解锁香港地区NF非自制剧"
       - "\U0001F1E8\U0001F1E6:加拿大-ss-72.140.224.196:812-被墙-直连-解锁加拿大地区NF非自制剧"
       - "\U0001F1E8\U0001F1E6:加拿大-ss-38.64.138.53:1035-被墙-直连-解锁美国地区NF非自制剧"
@@ -796,9 +797,8 @@ proxy-groups:
     proxies:
       - DIRECT
       - "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.125:9027-可用-直连-仅支持瑞士地区NF自制剧"
-      - "\U0001F1F7\U0001F1F4:罗马尼亚-ss-185.126.116.125:9020-可用-直连-仅支持瑞士地区NF自制剧"
-      - "\U0001F1EF\U0001F1F5:日本-vmess-172.104.70.195:8080-可用-直连-仅支持日本地区NF自制剧"
-      - "\U0001F1E8\U0001F1F3:中国-trojan-nf.755657.xyz:2083-可用-中转:104.28.247.68-仅支持香港地区NF自制剧"
+      - "\U0001F1E9\U0001F1EA:德国-ss-mf01.xmss.vip:18888-可用-中转:45.87.154.160-仅支持荷兰地区NF自制剧"
+      - "\U0001F1E8\U0001F1E6:加拿大-trojan-913tw.tfzhc.top:44318-可用-中转:165.154.226.137-仅支持新加坡地区NF自制剧"
   - name: 解锁Netflix非自制剧
     type: select
     url: http://www.gstatic.com/generate_204
