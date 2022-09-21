@@ -23,12 +23,24 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11035-可用-中转:129.227.144.195-不支持Netflix
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11035
+  cipher: aes-128-cfb
 - name: 🇳🇱:荷兰-ss-213.183.59.191:9033-可用-直连-不支持Netflix
   type: ss
   server: 213.183.59.191
   password: UTJA57ypk2XKQpnm
   port: 9033
   cipher: aes-256-cfb
+- name: 🇯🇵:日本-ss-172.105.242.17:20020-可用-直连-仅支持日本地区NF自制剧
+  type: ss
+  server: 172.105.242.17
+  password: '200000000000000000000020'
+  port: 20020
+  cipher: aes-128-gcm
 - name: 🇨🇳:中国-ss-14.29.124.174:11007-可用-中转:129.227.144.194-不支持Netflix
   type: ss
   server: 14.29.124.174
@@ -47,6 +59,12 @@ proxies:
   password: RexnBgU7EV5ADxG
   port: 7002
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-38.143.66.99:8118-可用-直连-不支持Netflix
+  type: ss
+  server: 38.143.66.99
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-14.29.124.174:11050-可用-中转:129.227.144.195-不支持Netflix
   type: ss
   server: 14.29.124.174
@@ -59,6 +77,12 @@ proxies:
   password: EXN3S3eQpjE7EJu8
   port: 9027
   cipher: aes-256-cfb
+- name: 🇨🇳:中国-ss-14.29.124.168:24004-可用-中转:223.26.73.202-不支持Netflix
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24004
+  cipher: aes-128-cfb
 - name: 🇬🇧:英国-ss-212.102.53.197:443-可用-直连-不支持Netflix
   type: ss
   server: 212.102.53.197
@@ -119,16 +143,6 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 8888
   cipher: aes-256-gcm
-- name: 🇸🇬:新加坡-ssr-sg-am3.eqsunshine.com:32001-可用-中转:13.229.250.110-不支持Netflix
-  type: ssr
-  server: sg-am3.eqsunshine.com
-  password: 3g0dHlKME
-  obfs: tls1.2_ticket_auth
-  protocol: origin
-  port: 32001
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
 - name: 🇯🇵:日本-ssr-jp-am48-6.eqnode.net:8081-可用-中转:13.115.53.139-不支持Netflix
   type: ssr
   server: jp-am48-6.eqnode.net
@@ -478,7 +492,7 @@ proxies:
   udp: false
   tls: true
   ws-path: /
-- name: 🇩🇪:德国-vmess-ca2.3320.top:443-可用-中转:172.105.20.182-仅支持加拿大地区NF自制剧
+- name: 🇩🇪:德国-vmess-ca2.3320.top:443-可用-中转:172.105.20.182-解锁加拿大地区NF非自制剧
   type: vmess
   server: ca2.3320.top
   network: ws
@@ -489,6 +503,17 @@ proxies:
   udp: false
   tls: true
   ws-path: /
+- name: 🇺🇸:美国-vmess-51.178.86.75:80-可用-直连-完全不支持NF
+  type: vmess
+  server: 51.178.86.75
+  network: ws
+  port: 80
+  uuid: 43c1cbf5-22f1-42dd-a3a2-cd1f59fbfff7
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /vmess
 - name: 🇺🇸:美国-vmess-frm2.3320.top:443-可用-中转:45.33.110.250-仅支持美国地区NF自制剧
   type: vmess
   server: frm2.3320.top
@@ -584,10 +609,3 @@ proxies:
   udp: true
   skip-cert-verify: true
   port: 41477
-- name: 🇺🇸:美国-trojan-susan.leosvps.space:443-可用-中转:138.2.74.47-解锁新加坡地区NF非自制剧
-  type: trojan
-  server: susan.leosvps.space
-  password: NGyhpgytIJ
-  udp: true
-  skip-cert-verify: true
-  port: 443
