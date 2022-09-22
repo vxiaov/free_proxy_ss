@@ -1,4 +1,10 @@
 proxies:
+- name: 🇳🇱:荷兰-ss-45.144.176.39:18888-可用-直连-完全不支持NF
+  type: ss
+  server: 45.144.176.39
+  password: 5595f1cf-d7c0-4121-a3bf-19e423c1f9a1
+  port: 18888
+  cipher: chacha20-ietf-poly1305
 - name: 🇬🇧:英国-ss-212.102.53.78:443-可用-直连-不支持Netflix
   type: ss
   server: 212.102.53.78
@@ -17,18 +23,24 @@ proxies:
   password: shadowsocks
   port: 443
   cipher: aes-128-gcm
+- name: 🇺🇸:美国-ss-mf01.xmss.vip:18888-可用-中转:94.131.107.12-解锁荷兰地区NF非自制剧
+  type: ss
+  server: mf01.xmss.vip
+  password: 5595f1cf-d7c0-4121-a3bf-19e423c1f9a1
+  port: 18888
+  cipher: chacha20-ietf-poly1305
 - name: 🇬🇧:英国-ss-212.102.53.81:443-可用-直连-不支持Netflix
   type: ss
   server: 212.102.53.81
   password: shadowsocks
   port: 443
   cipher: aes-128-gcm
-- name: 🇷🇺:俄罗斯-ss-mf02.xmss.vip:18888-可用-中转:89.185.85.145-仅支持荷兰地区NF自制剧
+- name: 🇰🇷:韩国-ss-3.36.118.190:443-可用-直连-不支持Netflix
   type: ss
-  server: mf02.xmss.vip
-  password: 5595f1cf-d7c0-4121-a3bf-19e423c1f9a1
-  port: 18888
-  cipher: chacha20-ietf-poly1305
+  server: 3.36.118.190
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
 - name: 🇨🇳:中国-ss-hk1-ss.sshstores.net:8388-可用-中转:52.139.171.7-不支持Netflix
   type: ss
   server: hk1-ss.sshstores.net
@@ -209,6 +221,17 @@ proxies:
   cipher: auto
   udp: false
   ws-path: /cctv13/hd.m3u8
+- name: 🇬🇧:英国-vmess-165.227.231.254:8080-可用-直连-仅支持英国地区NF自制剧
+  type: vmess
+  server: 165.227.231.254
+  network: ws
+  port: 8080
+  uuid: 826b8d0a-e0d3-407a-927d-19953c170779
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /cctv13/hd.m3u8
 - name: 🇯🇵:日本-vmess-jp1.3320.top:443-可用-中转:172.105.239.215-仅支持日本地区NF自制剧
   type: vmess
   server: jp1.3320.top
@@ -220,17 +243,6 @@ proxies:
   udp: false
   tls: true
   ws-path: /
-- name: 🇺🇸:美国-vmess-vde2.0bad.com:443-可用-中转:139.144.77.97-仅支持德国地区NF自制剧
-  type: vmess
-  server: vde2.0bad.com
-  network: ws
-  port: 443
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /chat
 - name: 🇺🇸:美国-vmess-de2.3320.top:443-可用-中转:192.46.237.69-仅支持德国地区NF自制剧
   type: vmess
   server: de2.3320.top
@@ -242,6 +254,28 @@ proxies:
   udp: false
   tls: true
   ws-path: /
+- name: 🇨🇳:中国-vmess-lt.tbstbstbstbs.com:18814-可用-中转:45.79.95.209-仅支持美国地区NF自制剧
+  type: vmess
+  server: lt.tbstbstbstbs.com
+  network: ws
+  port: 18814
+  uuid: c9f239f7-ef34-3a81-80f3-22f7a8dc154e
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇺🇸:美国-vmess-159.223.32.230:8080-可用-直连-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: 159.223.32.230
+  network: ws
+  port: 8080
+  uuid: e4e46233-376c-49be-b302-3ff6fce7a8fb
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /cctv13/hd.m3u8
 - name: 🇨🇳:中国-vmess-175.178.163.153:443-可用-直连-完全不支持NF
   type: vmess
   server: 175.178.163.153
@@ -274,7 +308,7 @@ proxies:
   cipher: auto
   udp: false
   tls: false
-  ws-path: ''
+  ws-path: /
 - name: 🇨🇦:加拿大-vmess-138.197.165.31:8080-可用-直连-仅支持加拿大地区NF自制剧
   type: vmess
   server: 138.197.165.31
@@ -308,17 +342,6 @@ proxies:
   udp: false
   tls: true
   ws-path: /
-- name: 🇺🇸:美国-vmess-ojje-laowang.apps.ir-thr-at1.arvan.run:443-可用-中转:185.220.225.45-不支持Netflix
-  type: vmess
-  server: ojje-laowang.apps.ir-thr-at1.arvan.run
-  network: ws
-  port: 443
-  uuid: 2112b632-fb6c-4781-bb42-d4d310aa532f
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /laowang
 - name: 🇺🇸:美国-vmess-kr.wangfuzheng.top:443-可用-中转:150.230.255.151-仅支持韩国地区NF自制剧
   type: vmess
   server: kr.wangfuzheng.top
@@ -341,17 +364,6 @@ proxies:
   udp: false
   tls: true
   ws-path: /
-- name: 🇨🇳:中国-vmess-yd.tbstbstbstbs666.com:18820-可用-中转:46.20.99.140-不支持Netflix
-  type: vmess
-  server: yd.tbstbstbstbs666.com
-  network: ws
-  port: 18820
-  uuid: c9f239f7-ef34-3a81-80f3-22f7a8dc154e
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: ''
 - name: 🇬🇧:英国-vmess-uk2.3320.top:443-可用-中转:178.79.182.140-仅支持英国地区NF自制剧
   type: vmess
   server: uk2.3320.top
@@ -385,6 +397,20 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇺🇸:美国-trojan-susan.leosvps.space:443-可用-中转:138.2.74.47-仅支持新加坡地区NF自制剧
+  type: trojan
+  server: susan.leosvps.space
+  password: NGyhpgytIJ
+  udp: true
+  skip-cert-verify: true
+  port: 443
+- name: 🇦🇺:澳大利亚-trojan-wangqifei.ga:41477-可用-中转:152.67.102.195-仅支持澳大利亚地区NF自制剧
+  type: trojan
+  server: wangqifei.ga
+  password: 3oquVrpxPg
+  udp: true
+  skip-cert-verify: true
+  port: 41477
 - name: 🇨🇦:加拿大-trojan-free.biggerdogs.eu.org:443-可用-中转:154.12.53.218-不支持Netflix
   type: trojan
   server: free.biggerdogs.eu.org
