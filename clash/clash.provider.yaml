@@ -1,16 +1,4 @@
 proxies:
-- name: 🇺🇸:美国-ss-167.88.61.175:9102-可用-直连-不支持Netflix
-  type: ss
-  server: 167.88.61.175
-  password: e4FCWrgpkji3QY
-  port: 9102
-  cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.61.175:5001-可用-直连-不支持Netflix
-  type: ss
-  server: 167.88.61.175
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  cipher: aes-256-gcm
 - name: 🇬🇧:英国-ss-212.102.53.78:443-可用-直连-不支持Netflix
   type: ss
   server: 212.102.53.78
@@ -23,12 +11,6 @@ proxies:
   password: shadowsocks
   port: 443
   cipher: aes-128-gcm
-- name: 🇺🇸:美国-ss-167.88.61.175:7307-可用-直连-不支持Netflix
-  type: ss
-  server: 167.88.61.175
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  cipher: aes-256-gcm
 - name: 🇬🇧:英国-ss-212.102.53.194:443-可用-直连-不支持Netflix
   type: ss
   server: 212.102.53.194
@@ -89,6 +71,28 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇬🇧:英国-vmess-uk1.3320.top:443-可用-中转:178.79.181.178-仅支持英国地区NF自制剧
+  type: vmess
+  server: uk1.3320.top
+  network: ws
+  port: 443
+  uuid: e8d870e3-bce3-4a4f-8166-700a9f3cac35
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /
+- name: 🇸🇬:新加坡-vmess-sg2.3320.top:443-可用-中转:172.104.163.126-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: sg2.3320.top
+  network: ws
+  port: 443
+  uuid: 4111ed89-8dc3-4102-867c-ae807a759d0c
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /
 - name: 🇨🇳:中国-vmess-47.93.231.218:53022-可用-直连-完全不支持NF
   type: vmess
   server: 47.93.231.218
@@ -122,17 +126,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇮🇳:印度-vmess-139.59.85.231:8080-可用-直连-仅支持印度地区NF自制剧
-  type: vmess
-  server: 139.59.85.231
-  network: ws
-  port: 8080
-  uuid: d019484c-2181-4d4a-a0fb-302a55351156
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /cctv13/hd.m3u8
 - name: 🇦🇺:澳大利亚-vmess-au2.3320.top:443-可用-中转:45.79.237.232-仅支持澳大利亚地区NF自制剧
   type: vmess
   server: au2.3320.top
@@ -221,6 +214,17 @@ proxies:
   udp: false
   tls: true
   ws-path: /
+- name: 🇺🇸:美国-vmess-ojje-laowang.apps.ir-thr-at1.arvan.run:443-可用-中转:185.220.225.45-不支持Netflix
+  type: vmess
+  server: ojje-laowang.apps.ir-thr-at1.arvan.run
+  network: ws
+  port: 443
+  uuid: 2112b632-fb6c-4781-bb42-d4d310aa532f
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /laowang
 - name: 🇮🇳:印度-vmess-in1.3320.top:443-可用-中转:45.79.122.156-仅支持印度地区NF自制剧
   type: vmess
   server: in1.3320.top
@@ -242,6 +246,28 @@ proxies:
   cipher: auto
   udp: false
   ws-path: /cctv13/hd.m3u8
+- name: 🇺🇸:美国-vmess-kr.wangfuzheng.top:443-可用-中转:150.230.255.151-仅支持韩国地区NF自制剧
+  type: vmess
+  server: kr.wangfuzheng.top
+  network: ws
+  port: 443
+  uuid: 47d0be27-bb7f-48a7-bf9f-c7f8a9f3de24
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /
+- name: 🇯🇵:日本-vmess-jp1.3320.top:443-可用-中转:172.105.239.215-仅支持日本地区NF自制剧
+  type: vmess
+  server: jp1.3320.top
+  network: ws
+  port: 443
+  uuid: 168bd6bb-3061-48a8-8099-95ff7ce3a532
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /
 - name: 🇬🇧:英国-vmess-165.227.231.254:8080-可用-直连-仅支持英国地区NF自制剧
   type: vmess
   server: 165.227.231.254
@@ -253,6 +279,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /cctv13/hd.m3u8
+- name: 🇩🇪:德国-vmess-au1.3320.top:443-可用-中转:194.195.127.251-仅支持澳大利亚地区NF自制剧
+  type: vmess
+  server: au1.3320.top
+  network: ws
+  port: 443
+  uuid: c7938aaf-0c69-4bd2-ab22-7a580962c0ec
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /
 - name: 🇬🇧:英国-vmess-uk2.3320.top:443-可用-中转:178.79.182.140-仅支持英国地区NF自制剧
   type: vmess
   server: uk2.3320.top
@@ -275,6 +312,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇺🇸:美国-vmess-vde2.0bad.com:443-可用-中转:139.144.77.97-仅支持德国地区NF自制剧
+  type: vmess
+  server: vde2.0bad.com
+  network: ws
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /chat
 - name: 🇺🇸:美国-vmess-de2.3320.top:443-可用-中转:192.46.237.69-仅支持德国地区NF自制剧
   type: vmess
   server: de2.3320.top
@@ -286,13 +334,6 @@ proxies:
   udp: false
   tls: true
   ws-path: /
-- name: 🇸🇬:新加坡-trojan-sg.1719.love:443-可用-中转:172.104.50.122-仅支持新加坡地区NF自制剧
-  type: trojan
-  server: sg.1719.love
-  password: 57c26fd9-6752-4ed6-9523-428c99d00745
-  udp: true
-  skip-cert-verify: true
-  port: 443
 - name: 🇨🇦:加拿大-trojan-free.biggerdogs.eu.org:443-可用-中转:154.12.53.218-不支持Netflix
   type: trojan
   server: free.biggerdogs.eu.org
