@@ -1,10 +1,4 @@
 proxies:
-- name: 🇺🇸:美国-ss-167.88.61.175:8080-可用-直连-不支持Netflix
-  type: ss
-  server: 167.88.61.175
-  password: KixLvKzwjekG00rm
-  port: 8080
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-134.195.196.178:806-可用-直连-不支持Netflix
   type: ss
   server: 134.195.196.178
@@ -35,24 +29,24 @@ proxies:
   password: G!yBwPWH3Vao
   port: 807
   cipher: chacha20-ietf-poly1305
-- name: 🇬🇧:英国-ss-212.102.53.81:443-可用-直连-不支持Netflix
-  type: ss
-  server: 212.102.53.81
-  password: shadowsocks
-  port: 443
-  cipher: aes-128-gcm
-- name: 🇺🇸:美国-ss-38.143.66.99:8118-可用-直连-不支持Netflix
-  type: ss
-  server: 38.143.66.99
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  cipher: aes-256-gcm
 - name: 🇰🇷:韩国-ss-3.36.118.190:443-可用-直连-不支持Netflix
   type: ss
   server: 3.36.118.190
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
+- name: 🇦🇺:澳大利亚-ss-185.167.116.250:9007-可用-直连-仅支持澳大利亚地区NF自制剧
+  type: ss
+  server: 185.167.116.250
+  password: kSPmvwdFzGMMW5pY
+  port: 9007
+  cipher: aes-256-cfb
+- name: 🇺🇸:美国-ss-51.161.118.38:801-可用-直连-不支持Netflix
+  type: ss
+  server: 51.161.118.38
+  password: G!yBwPWH3Vao
+  port: 801
+  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-172.105.242.17:20020-可用-直连-仅支持日本地区NF自制剧
   type: ss
   server: 172.105.242.17
@@ -71,24 +65,18 @@ proxies:
   password: shadowsocks
   port: 443
   cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11004-可用-中转:129.227.144.194-不支持Netflix
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11004
-  cipher: aes-128-cfb
 - name: 🇬🇧:英国-ss-212.102.53.197:443-可用-直连-不支持Netflix
   type: ss
   server: 212.102.53.197
   password: shadowsocks
   port: 443
   cipher: aes-128-gcm
-- name: 🇨🇳:中国-ss-14.29.124.174:11009-可用-中转:129.227.144.194-不支持Netflix
+- name: 🇺🇸:美国-ss-38.143.66.99:5001-可用-直连-不支持Netflix
   type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11009
-  cipher: aes-128-cfb
+  server: 38.143.66.99
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  cipher: aes-256-gcm
 - name: 🇨🇳:中国-ss-14.29.124.174:11049-可用-中转:129.227.144.195-不支持Netflix
   type: ss
   server: 14.29.124.174
@@ -101,12 +89,12 @@ proxies:
   password: QazEdcTgb159@$*
   port: 11008
   cipher: aes-128-cfb
-- name: 🇬🇧:英国-ss-212.102.53.78:443-可用-直连-不支持Netflix
+- name: 🇺🇸:美国-ss-51.161.118.38:808-可用-直连-不支持Netflix
   type: ss
-  server: 212.102.53.78
-  password: shadowsocks
-  port: 443
-  cipher: aes-128-gcm
+  server: 51.161.118.38
+  password: G!yBwPWH3Vao
+  port: 808
+  cipher: chacha20-ietf-poly1305
 - name: 🇸🇬:新加坡-ssr-sg-am3.eqsunshine.com:32001-可用-中转:18.142.229.113-不支持Netflix
   type: ssr
   server: sg-am3.eqsunshine.com
@@ -237,17 +225,6 @@ proxies:
   udp: false
   tls: true
   ws-path: /
-- name: 🇺🇸:美国-vmess-159.223.32.230:8080-可用-直连-仅支持新加坡地区NF自制剧
-  type: vmess
-  server: 159.223.32.230
-  network: ws
-  port: 8080
-  uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /cctv13/hd.m3u8
 - name: 🇦🇺:澳大利亚-vmess-au2.3320.top:443-可用-中转:45.79.237.232-仅支持澳大利亚地区NF自制剧
   type: vmess
   server: au2.3320.top
@@ -259,17 +236,17 @@ proxies:
   udp: false
   tls: true
   ws-path: /
-- name: 🇺🇸:美国-vmess-kr.wangfuzheng.top:443-可用-中转:150.230.255.151-解锁韩国地区NF非自制剧
+- name: 🇦🇺:澳大利亚-vmess-43.198.22.0:44300-可用-直连-不支持Netflix
   type: vmess
-  server: kr.wangfuzheng.top
+  server: 43.198.22.0
   network: ws
-  port: 443
-  uuid: 47d0be27-bb7f-48a7-bf9f-c7f8a9f3de24
+  port: 44300
+  uuid: a4ba44ef-3755-3607-bfd7-869d4154a603
   alterId: 4
   cipher: auto
   udp: false
-  tls: true
-  ws-path: /
+  tls: false
+  ws-path: /fm
 - name: 🇮🇳:印度-vmess-139.59.85.231:8080-可用-直连-仅支持印度地区NF自制剧
   type: vmess
   server: 139.59.85.231
@@ -292,17 +269,27 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇩🇪:德国-vmess-de1.3320.top:443-可用-中转:172.105.68.211-仅支持德国地区NF自制剧
+- name: 🇺🇸:美国-vmess-us1.grpc.stream:80-可用-中转:173.82.155.24-不支持Netflix
   type: vmess
-  server: de1.3320.top
+  server: us1.grpc.stream
   network: ws
-  port: 443
-  uuid: 8253d710-f3b5-4f73-9cb0-66e1dd2fef48
+  port: 80
+  uuid: 6031b5c3-d8ba-5756-b708-f61084a2b678
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /us1
+- name: 🇬🇧:英国-vmess-165.227.231.254:8080-可用-直连-仅支持英国地区NF自制剧
+  type: vmess
+  server: 165.227.231.254
+  network: ws
+  port: 8080
+  uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a
   alterId: 4
   cipher: auto
   udp: false
-  tls: true
-  ws-path: /
+  tls: false
+  ws-path: /cctv13/hd.m3u8
 - name: 🇨🇳:中国-vmess-124.223.44.153:80-可用-直连-完全不支持NF
   type: vmess
   server: 124.223.44.153
@@ -314,6 +301,28 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇺🇸:美国-vmess-68.183.129.197:8080-可用-直连-仅支持美国地区NF自制剧
+  type: vmess
+  server: 68.183.129.197
+  network: ws
+  port: 8080
+  uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /cctv13/hd.m3u8
+- name: 🇨🇦:加拿大-vmess-138.197.165.31:8080-可用-直连-仅支持加拿大地区NF自制剧
+  type: vmess
+  server: 138.197.165.31
+  network: ws
+  port: 8080
+  uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /cctv13/hd.m3u8
 - name: 🇺🇸:美国-vmess-ojje-laowang.apps.ir-thr-at1.arvan.run:443-可用-中转:185.220.225.45-不支持Netflix
   type: vmess
   server: ojje-laowang.apps.ir-thr-at1.arvan.run
@@ -398,7 +407,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   port: 44318
-- name: 🇨🇦:加拿大-trojan-921tw.tfzhc.top:443-可用-中转:165.154.243.144-解锁新加坡地区NF非自制剧
+- name: 🇨🇦:加拿大-trojan-921tw.tfzhc.top:443-可用-中转:165.154.243.144-仅支持新加坡地区NF自制剧
   type: trojan
   server: 921tw.tfzhc.top
   password: db61d0d6-d8e9-4d3e-b86b-81be6243bcee
