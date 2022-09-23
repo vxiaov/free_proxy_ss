@@ -161,11 +161,11 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
-- name: 🇨🇾:塞浦路斯-ss-213.169.137.221:989-被墙-直连-解锁塞浦路斯地区NF非自制剧
+- name: 🇮🇱:以色列-ss-31.133.100.49:50004-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
-  server: 213.169.137.221
-  password: f8f7aCzcPKbsF8p3
-  port: 989
+  server: 31.133.100.49
+  password: '4415934295'
+  port: 50004
   cipher: aes-256-cfb
 - name: 🇺🇸:美国-vmess-mycfwork.herokuapp.com:443-被墙-中转:54.221.158.124-解锁美国地区NF非自制剧
   type: vmess
@@ -266,16 +266,16 @@ proxies:
   udp: false
   tls: true
   ws-path: /123
-- name: 🇺🇸:美国-vmess-kr.wangfuzheng.top:443-被墙-中转:150.230.255.151-解锁韩国地区NF非自制剧
+- name: 🇨🇳:中国-vmess-8.214.33.158:80-被墙-直连-解锁新加坡地区NF非自制剧
   type: vmess
-  server: kr.wangfuzheng.top
+  server: 8.214.33.158
   network: ws
-  port: 443
-  uuid: 47d0be27-bb7f-48a7-bf9f-c7f8a9f3de24
+  port: 80
+  uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
   alterId: 4
   cipher: auto
   udp: false
-  tls: true
+  tls: false
   ws-path: /
 - name: 🇺🇸:美国-vmess-usamd.ptuu.tk:443-被墙-中转:129.146.186.108-解锁美国地区NF非自制剧
   type: vmess
@@ -343,3 +343,14 @@ proxies:
   udp: false
   tls: true
   ws-path: /123
+- name: 🇩🇪:德国-vmess-ca2.3320.top:443-被墙-中转:172.105.20.182-解锁加拿大地区NF非自制剧
+  type: vmess
+  server: ca2.3320.top
+  network: ws
+  port: 443
+  uuid: fdfe8f6a-5901-46ff-aa39-f4be758aa150
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /
