@@ -161,11 +161,11 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
-- name: 🇮🇱:以色列-ss-31.133.100.49:50004-被墙-直连-解锁以色列地区NF非自制剧
+- name: 🇨🇾:塞浦路斯-ss-213.169.137.221:989-被墙-直连-解锁塞浦路斯地区NF非自制剧
   type: ss
-  server: 31.133.100.49
-  password: '4415934295'
-  port: 50004
+  server: 213.169.137.221
+  password: f8f7aCzcPKbsF8p3
+  port: 989
   cipher: aes-256-cfb
 - name: 🇺🇸:美国-vmess-mycfwork.herokuapp.com:443-被墙-中转:54.221.158.124-解锁美国地区NF非自制剧
   type: vmess
@@ -178,6 +178,39 @@ proxies:
   udp: false
   tls: true
   ws-path: /07a3a1e3-d52e-4acc-958e-c301681b5f09-vmess
+- name: 🇺🇸:美国-vmess-157.254.193.68:10020-被墙-直连-解锁日本地区NF非自制剧
+  type: vmess
+  server: 157.254.193.68
+  network: ws
+  port: 10020
+  uuid: f1f45005-f074-430b-a4db-7109f50c3bce
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇺🇸:美国-vmess-sgp.ycsfree.xyz:443-被墙-中转:129.150.33.76-解锁新加坡地区NF非自制剧
+  type: vmess
+  server: sgp.ycsfree.xyz
+  network: ws
+  port: 443
+  uuid: c753e8a8-e180-4e76-a486-c917273d718b
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /zcjd
+- name: 🇺🇸:美国-vmess-usarm.ptuu.cf:443-被墙-中转:129.146.43.181-解锁美国地区NF非自制剧
+  type: vmess
+  server: usarm.ptuu.cf
+  network: ws
+  port: 443
+  uuid: c19b138c-6e30-43b4-f66d-a94c6e869d12
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /ray
 - name: 🇺🇸:美国-vmess-ca.0112233.xyz:8443-被墙-中转:199.87.210.186-解锁新加坡地区NF非自制剧
   type: vmess
   server: ca.0112233.xyz
@@ -233,6 +266,17 @@ proxies:
   udp: false
   tls: true
   ws-path: /123
+- name: 🇺🇸:美国-vmess-kr.wangfuzheng.top:443-被墙-中转:150.230.255.151-解锁韩国地区NF非自制剧
+  type: vmess
+  server: kr.wangfuzheng.top
+  network: ws
+  port: 443
+  uuid: 47d0be27-bb7f-48a7-bf9f-c7f8a9f3de24
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /
 - name: 🇺🇸:美国-vmess-usamd.ptuu.tk:443-被墙-中转:129.146.186.108-解锁美国地区NF非自制剧
   type: vmess
   server: usamd.ptuu.tk
@@ -266,6 +310,17 @@ proxies:
   udp: false
   tls: true
   ws-path: /123
+- name: 🇨🇳:中国-vmess-61.222.202.140:33792-被墙-直连-解锁台湾地区NF非自制剧
+  type: vmess
+  server: 61.222.202.140
+  network: ws
+  port: 33792
+  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇺🇸:美国-vmess-jparm.fineyoo.ml:443-被墙-中转:138.2.33.90-解锁日本地区NF非自制剧
   type: vmess
   server: jparm.fineyoo.ml
@@ -288,25 +343,3 @@ proxies:
   udp: false
   tls: true
   ws-path: /123
-- name: 🇺🇸:美国-vmess-amdkr.ptuu.ga:443-被墙-中转:152.69.229.222-解锁韩国地区NF非自制剧
-  type: vmess
-  server: amdkr.ptuu.ga
-  network: ws
-  port: 443
-  uuid: a612b67f-a79b-4a71-a82b-a46906752023
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /408
-- name: 🇺🇸:美国-vmess-amdkr.ptuu.ml:443-被墙-中转:146.56.96.75-解锁韩国地区NF非自制剧
-  type: vmess
-  server: amdkr.ptuu.ml
-  network: ws
-  port: 443
-  uuid: e2cdc305-dda7-465e-b675-ba0468d2a8b3
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /987
