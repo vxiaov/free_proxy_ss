@@ -155,12 +155,30 @@ proxies:
   password: )1N1E6v0SU_rGTpg
   port: 1035
   cipher: chacha20-ietf-poly1305
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.123:9060-被墙-直连-解锁瑞士地区NF非自制剧
+  type: ss
+  server: 185.126.116.123
+  password: ueLXVkvh4hckhErQ
+  port: 9060
+  cipher: aes-256-cfb
 - name: 🇮🇱:以色列-ss-185.162.125.91:50004-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
   server: 185.162.125.91
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
+- name: 🇨🇾:塞浦路斯-ss-213.169.137.221:989-被墙-直连-解锁塞浦路斯地区NF非自制剧
+  type: ss
+  server: 213.169.137.221
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  cipher: aes-256-cfb
+- name: 🇷🇺:俄罗斯-ss-mf02.xmss.vip:18888-被墙-中转:192.54.57.32-解锁荷兰地区NF非自制剧
+  type: ss
+  server: mf02.xmss.vip
+  password: 5595f1cf-d7c0-4121-a3bf-19e423c1f9a1
+  port: 18888
+  cipher: chacha20-ietf-poly1305
 - name: 🇮🇱:以色列-ss-31.133.100.49:50004-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
   server: 31.133.100.49
@@ -343,14 +361,3 @@ proxies:
   udp: false
   tls: true
   ws-path: /123
-- name: 🇩🇪:德国-vmess-ca2.3320.top:443-被墙-中转:172.105.20.182-解锁加拿大地区NF非自制剧
-  type: vmess
-  server: ca2.3320.top
-  network: ws
-  port: 443
-  uuid: fdfe8f6a-5901-46ff-aa39-f4be758aa150
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /
