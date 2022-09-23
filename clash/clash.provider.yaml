@@ -1,10 +1,4 @@
 proxies:
-- name: 🇺🇸:美国-ss-38.143.66.99:5001-可用-直连-不支持Netflix
-  type: ss
-  server: 38.143.66.99
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  cipher: aes-256-gcm
 - name: 🇳🇱:荷兰-ss-45.144.176.39:18888-可用-直连-完全不支持NF
   type: ss
   server: 45.144.176.39
@@ -17,12 +11,6 @@ proxies:
   password: shadowsocks
   port: 443
   cipher: aes-128-gcm
-- name: 🇨🇳:中国-ss-14.29.124.174:11048-可用-中转:129.227.144.195-不支持Netflix
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11048
-  cipher: aes-128-cfb
 - name: 🇬🇧:英国-ss-212.102.53.81:443-可用-直连-不支持Netflix
   type: ss
   server: 212.102.53.81
@@ -46,12 +34,6 @@ proxies:
   server: 14.29.124.174
   password: QazEdcTgb159@$*
   port: 11004
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11038-可用-中转:129.227.144.195-不支持Netflix
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11038
   cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.174:11015-可用-中转:129.227.144.194-不支持Netflix
   type: ss
@@ -77,7 +59,7 @@ proxies:
   password: QazEdcTgb159@$*
   port: 11019
   cipher: aes-128-cfb
-- name: 🇷🇺:俄罗斯-ss-mf02.xmss.vip:18888-可用-中转:45.144.176.39-完全不支持NF
+- name: 🇳🇱:荷兰-ss-mf02.xmss.vip:18888-可用-中转:89.185.85.145-仅支持荷兰地区NF自制剧
   type: ss
   server: mf02.xmss.vip
   password: 5595f1cf-d7c0-4121-a3bf-19e423c1f9a1
@@ -88,12 +70,6 @@ proxies:
   server: 14.29.124.174
   password: QazEdcTgb159@$*
   port: 11035
-  cipher: aes-128-cfb
-- name: 🇨🇳:中国-ss-14.29.124.174:11044-可用-中转:129.227.144.195-不支持Netflix
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11044
   cipher: aes-128-cfb
 - name: 🇨🇳:中国-ss-14.29.124.174:11011-可用-中转:129.227.144.194-不支持Netflix
   type: ss
@@ -119,6 +95,12 @@ proxies:
   password: shadowsocks
   port: 443
   cipher: aes-128-gcm
+- name: 🇨🇳:中国-ss-14.29.124.174:11008-可用-中转:129.227.144.194-不支持Netflix
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11008
+  cipher: aes-128-cfb
 - name: 🇯🇵:日本-ssr-jp-am48-6.eqnode.net:8081-可用-中转:13.230.177.238-不支持Netflix
   type: ssr
   server: jp-am48-6.eqnode.net
@@ -161,17 +143,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /cctv13/hd.m3u8
-- name: 🇬🇧:英国-vmess-uk1.3320.top:443-可用-中转:178.79.181.178-仅支持英国地区NF自制剧
-  type: vmess
-  server: uk1.3320.top
-  network: ws
-  port: 443
-  uuid: e8d870e3-bce3-4a4f-8166-700a9f3cac35
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /
 - name: 🇸🇬:新加坡-vmess-sg2.3320.top:443-可用-中转:172.104.163.126-仅支持新加坡地区NF自制剧
   type: vmess
   server: sg2.3320.top
@@ -193,17 +164,6 @@ proxies:
   cipher: auto
   udp: false
   tls: false
-  ws-path: /
-- name: 🇦🇺:澳大利亚-vmess-au2.3320.top:443-可用-中转:45.79.237.232-仅支持澳大利亚地区NF自制剧
-  type: vmess
-  server: au2.3320.top
-  network: ws
-  port: 443
-  uuid: 753780ad-c282-4d82-b49b-65ad43533e1a
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
   ws-path: /
 - name: 🇮🇳:印度-vmess-139.59.85.231:8080-可用-直连-仅支持印度地区NF自制剧
   type: vmess
@@ -315,6 +275,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /cctv13/hd.m3u8
+- name: 🇺🇸:美国-vmess-ifffffffuuuuuuus.qiqicdn2.cf:443-可用-中转:34.239.106.208-解锁美国地区NF非自制剧
+  type: vmess
+  server: ifffffffuuuuuuus.qiqicdn2.cf
+  network: ws
+  port: 443
+  uuid: 5a36cce4-0527-4d36-bf4a-6c215ef9c524
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /5a36cce4-0527-4d36-bf4a-6c215ef9c524-vmess
 - name: 🇺🇸:美国-vmess-test.taskerprofile.cf:443-可用-中转:44.193.7.20-解锁美国地区NF非自制剧
   type: vmess
   server: test.taskerprofile.cf
@@ -370,17 +341,6 @@ proxies:
   udp: false
   tls: true
   ws-path: /
-- name: 🇩🇪:德国-vmess-ae.755657.xyz:8443-可用-中转:104.28.253.39-仅支持德国地区NF自制剧
-  type: vmess
-  server: ae.755657.xyz
-  network: ws
-  port: 8443
-  uuid: 11b8206c-8ae2-4ab3-a92c-208cdb8cc73d
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /javasdkjhugf
 - name: 🇩🇪:德国-vmess-ca2.3320.top:443-可用-中转:172.105.20.182-解锁加拿大地区NF非自制剧
   type: vmess
   server: ca2.3320.top
@@ -425,18 +385,7 @@ proxies:
   udp: false
   tls: true
   ws-path: /
-- name: 🇬🇧:英国-vmess-uk2.3320.top:443-可用-中转:178.79.182.140-仅支持英国地区NF自制剧
-  type: vmess
-  server: uk2.3320.top
-  network: ws
-  port: 443
-  uuid: 6cc27d4f-074c-430d-a3a1-64724db55ab5
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /
-- name: 🇩🇪:德国-vmess-au1.3320.top:443-可用-中转:194.195.127.251-不支持Netflix
+- name: 🇩🇪:德国-vmess-au1.3320.top:443-可用-中转:194.195.127.251-仅支持澳大利亚地区NF自制剧
   type: vmess
   server: au1.3320.top
   network: ws
