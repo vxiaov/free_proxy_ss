@@ -1,19 +1,23 @@
 proxies:
-- name: 🇨🇳:中国-ss-US-01.leco.ml:41560-可用-中转:35.87.210.59-仅支持美国地区NF自制剧
-  type: ss
-  server: US-01.leco.ml
-  password: fd85e31b-0d47-418c-b641-8cc11b2e0cdb
-  port: 41560
-  cipher: aes-256-gcm
-- name: 🇸🇬:新加坡-ss-139.162.23.118:20020-可用-直连-仅支持新加坡地区NF自制剧
-  type: ss
-  server: 139.162.23.118
-  password: '200000000000000000000020'
-  port: 20020
-  cipher: aes-128-gcm
-- name: 🇸🇬:新加坡-ss-sg.securevpn.cc:20020-可用-中转:139.162.23.118-仅支持新加坡地区NF自制剧
-  type: ss
-  server: sg.securevpn.cc
-  password: '200000000000000000000020'
-  port: 20020
-  cipher: aes-128-gcm
+- name: 🇨🇳:中国-vmess-cn7.gmdns.net:543-可用-中转:112.118.43.146-仅支持香港地区NF自制剧
+  type: vmess
+  server: cn7.gmdns.net
+  network: ws
+  port: 543
+  uuid: 62f693e0-f3f7-11ea-93a2-d5a741458b8c
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /_ohmysocket
+- name: 🇨🇳:中国-vmess-cn8.gmdns.net:543-可用-中转:112.118.43.146-仅支持香港地区NF自制剧
+  type: vmess
+  server: cn8.gmdns.net
+  network: ws
+  port: 543
+  uuid: 62f693e0-f3f7-11ea-93a2-d5a741458b8c
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /_ohmysocket
