@@ -1,4 +1,16 @@
 proxies:
+- name: 🇷🇺:俄罗斯-ss-mf01.xmss.vip:18888-可用-中转:45.87.154.160-不支持Netflix
+  type: ss
+  server: mf01.xmss.vip
+  password: 35b0f578-8961-4a2b-99a1-db9555e522e4
+  port: 18888
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-US-01.leco.ml:41560-可用-中转:35.87.210.59-仅支持美国地区NF自制剧
+  type: ss
+  server: US-01.leco.ml
+  password: fd85e31b-0d47-418c-b641-8cc11b2e0cdb
+  port: 41560
+  cipher: aes-256-gcm
 - name: 🇬🇧:英国-ss-212.102.53.81:443-可用-直连-不支持Netflix
   type: ss
   server: 212.102.53.81
@@ -11,23 +23,29 @@ proxies:
   password: shadowsocks
   port: 443
   cipher: aes-128-gcm
-- name: 🇬🇧:英国-ss-212.102.53.197:443-可用-直连-不支持Netflix
-  type: ss
-  server: 212.102.53.197
-  password: shadowsocks
-  port: 443
-  cipher: aes-128-gcm
 - name: 🇬🇧:英国-ss-212.102.53.194:443-可用-直连-不支持Netflix
   type: ss
   server: 212.102.53.194
   password: shadowsocks
   port: 443
   cipher: aes-128-gcm
+- name: 🇺🇸:美国-ss-uk01.proxysocks.xyz:8388-可用-中转:51.195.218.78-不支持Netflix
+  type: ss
+  server: uk01.proxysocks.xyz
+  password: OTBhY
+  port: 8388
+  cipher: chacha20-ietf-poly1305
 - name: 🇸🇬:新加坡-ss-139.162.23.118:20020-可用-直连-仅支持新加坡地区NF自制剧
   type: ss
   server: 139.162.23.118
   password: '200000000000000000000020'
   port: 20020
+  cipher: aes-128-gcm
+- name: 🇬🇧:英国-ss-212.102.53.197:443-可用-直连-不支持Netflix
+  type: ss
+  server: 212.102.53.197
+  password: shadowsocks
+  port: 443
   cipher: aes-128-gcm
 - name: 🇸🇬:新加坡-ss-sg.securevpn.cc:20020-可用-中转:139.162.23.118-仅支持新加坡地区NF自制剧
   type: ss
@@ -35,3 +53,14 @@ proxies:
   password: '200000000000000000000020'
   port: 20020
   cipher: aes-128-gcm
+- name: 🇷🇺:俄罗斯-vmess-46.29.161.247:10022-可用-直连-完全不支持NF
+  type: vmess
+  server: 46.29.161.247
+  network: ws
+  port: 10022
+  uuid: eeb8093c-bf82-4e28-9604-57eae6b656e0
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: ''
