@@ -5,12 +5,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 806
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-162.251.61.221:802-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 162.251.61.221
-  password: G!yBwPWH3Vao
-  port: 802
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-162.251.61.221:805-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 162.251.61.221
@@ -83,6 +77,12 @@ proxies:
   password: PCnnH6SQSnfoS27
   port: 8090
   cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-103.92.86.76:23456-被墙-直连-解锁香港地区NF非自制剧
+  type: ss
+  server: 103.92.86.76
+  password: ggp1006
+  port: 23456
+  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-167.88.62.68:5600-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.62.68
@@ -124,6 +124,12 @@ proxies:
   server: 45.66.134.176
   password: G!yBwPWH3Vao
   port: 809
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-162.251.61.221:802-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 162.251.61.221
+  password: G!yBwPWH3Vao
+  port: 802
   cipher: chacha20-ietf-poly1305
 - name: 🇬🇧:英国-ss-83.229.73.60:50003-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
@@ -167,9 +173,9 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   cipher: aes-256-cfb
-- name: 🇷🇺:俄罗斯-ss-mf02.xmss.vip:18888-被墙-中转:192.54.57.32-解锁荷兰地区NF非自制剧
+- name: 🇺🇸:美国-ss-mf01.xmss.vip:18888-被墙-中转:94.131.107.12-解锁荷兰地区NF非自制剧
   type: ss
-  server: mf02.xmss.vip
+  server: mf01.xmss.vip
   password: 5595f1cf-d7c0-4121-a3bf-19e423c1f9a1
   port: 18888
   cipher: chacha20-ietf-poly1305
@@ -233,6 +239,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /4g.mkvn.net
+- name: :0-vmess-103.182.17.179:80-被墙-直连-解锁越南地区NF非自制剧
+  type: vmess
+  server: 103.182.17.179
+  network: ws
+  port: 80
+  uuid: a479fc02-07c5-4864-8564-c4f147dfa488
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /shopvpn.net
 - name: 🇺🇸:美国-vmess-usa.jcnf.app:443-被墙-中转:192.9.226.158-解锁美国地区NF非自制剧
   type: vmess
   server: usa.jcnf.app
@@ -287,6 +304,17 @@ proxies:
   udp: false
   tls: true
   ws-path: /123
+- name: 🇨🇳:中国-vmess-s354.okggnode.top:33954-被墙-中转:8.219.152.104-解锁新加坡地区NF非自制剧
+  type: vmess
+  server: s354.okggnode.top
+  network: ws
+  port: 33954
+  uuid: e4832ca0-d6f6-32c8-87da-f3eccffe73c0
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /panelmyadmin
 - name: 🇺🇸:美国-vmess-jpamd.fineyoo.ml:443-被墙-中转:138.2.33.102-解锁日本地区NF非自制剧
   type: vmess
   server: jpamd.fineyoo.ml
