@@ -1,13 +1,19 @@
 proxies:
+- name: 🇬🇧:英国-ss-212.102.53.81:443-可用-直连-不支持Netflix
+  type: ss
+  server: 212.102.53.81
+  password: shadowsocks
+  port: 443
+  cipher: aes-128-gcm
 - name: 🇬🇧:英国-ss-212.102.53.78:443-可用-直连-不支持Netflix
   type: ss
   server: 212.102.53.78
   password: shadowsocks
   port: 443
   cipher: aes-128-gcm
-- name: 🇬🇧:英国-ss-212.102.53.81:443-可用-直连-不支持Netflix
+- name: 🇬🇧:英国-ss-212.102.53.197:443-可用-直连-不支持Netflix
   type: ss
-  server: 212.102.53.81
+  server: 212.102.53.197
   password: shadowsocks
   port: 443
   cipher: aes-128-gcm
@@ -17,7 +23,7 @@ proxies:
   password: shadowsocks
   port: 443
   cipher: aes-128-gcm
-- name: 🇸🇬:新加坡-ss-139.162.23.118:20020-可用-直连-不支持Netflix
+- name: 🇸🇬:新加坡-ss-139.162.23.118:20020-可用-直连-仅支持新加坡地区NF自制剧
   type: ss
   server: 139.162.23.118
   password: '200000000000000000000020'
@@ -29,64 +35,9 @@ proxies:
   password: QazEdcTgb159@$*
   port: 11050
   cipher: aes-128-cfb
-- name: 🇬🇧:英国-ss-212.102.53.197:443-可用-直连-不支持Netflix
+- name: 🇸🇬:新加坡-ss-sg.securevpn.cc:20020-可用-中转:139.162.23.118-仅支持新加坡地区NF自制剧
   type: ss
-  server: 212.102.53.197
-  password: shadowsocks
-  port: 443
+  server: sg.securevpn.cc
+  password: '200000000000000000000020'
+  port: 20020
   cipher: aes-128-gcm
-- name: 🇨🇳:中国-vmess-119.91.223.167:80-可用-直连-完全不支持NF
-  type: vmess
-  server: 119.91.223.167
-  network: ws
-  port: 80
-  uuid: 5087e6ea-b650-443e-923f-b754661b8c47
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇨🇳:中国-vmess-110.42.138.122:18080-可用-直连-完全不支持NF
-  type: vmess
-  server: 110.42.138.122
-  network: ws
-  port: 18080
-  uuid: 6a9a236c-e99b-44d8-b414-bbcd6e7b1465
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇯🇵:日本-vmess-172.105.192.230:443-可用-直连-不支持Netflix
-  type: vmess
-  server: 172.105.192.230
-  network: ws
-  port: 443
-  uuid: 0c58b166-cbb6-4c02-98b7-c239a7104c6c
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /TG电报@herhr6
-- name: 🇸🇬:新加坡-vmess-sg-ovh1.v2-ray.com:80-可用-中转:51.79.164.146-完全不支持NF
-  type: vmess
-  server: sg-ovh1.v2-ray.com
-  network: ws
-  port: 80
-  uuid: afef92d5-b5b9-46aa-a982-3914fe62c1c5
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /fastssh/ghhhur/632736634acba/
-- name: 🇨🇳:中国-vmess-47.93.231.218:53022-可用-直连-完全不支持NF
-  type: vmess
-  server: 47.93.231.218
-  network: ws
-  port: 53022
-  uuid: 95fd7642-2160-4528-e909-3d526b533013
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
