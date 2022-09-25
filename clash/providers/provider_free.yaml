@@ -1,4 +1,22 @@
 proxies:
+- name: 🇨🇳:中国-ss-cdn.ssport.one:33556-可用-中转:172.105.221.22-解锁日本地区NF非自制剧
+  type: ss
+  server: cdn.ssport.one
+  password: ccf047b4-f2df-4605-b95d-f3880c1a9c48
+  port: 33556
+  cipher: aes-128-gcm
+- name: 🇷🇺:俄罗斯-ss-mf02.xmss.vip:18888-可用-中转:146.19.191.108-仅支持荷兰地区NF自制剧
+  type: ss
+  server: mf02.xmss.vip
+  password: 5595f1cf-d7c0-4121-a3bf-19e423c1f9a1
+  port: 18888
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳:中国-ss-cdn.ssport.one:13554-可用-中转:165.154.225.60-解锁香港地区NF非自制剧
+  type: ss
+  server: cdn.ssport.one
+  password: ccf047b4-f2df-4605-b95d-f3880c1a9c48
+  port: 13554
+  cipher: aes-128-gcm
 - name: 🇨🇳:中国-ss-124.225.24.134:7586-可用-中转:5.188.238.64-不支持Netflix
   type: ss
   server: 124.225.24.134
@@ -17,6 +35,12 @@ proxies:
   password: shadowsocks
   port: 443
   cipher: aes-128-gcm
+- name: 🇨🇳:中国-ss-cdn.ssport.one:23654-可用-中转:165.154.243.141-解锁台湾地区NF非自制剧
+  type: ss
+  server: cdn.ssport.one
+  password: ccf047b4-f2df-4605-b95d-f3880c1a9c48
+  port: 23654
+  cipher: aes-128-gcm
 - name: 🇬🇧:英国-ss-212.102.53.194:443-可用-直连-不支持Netflix
   type: ss
   server: 212.102.53.194
@@ -29,7 +53,7 @@ proxies:
   password: f964C0QL8vQTaAZU
   port: 7586
   cipher: aes-128-gcm
-- name: 🇩🇪:德国-ss-mf01.xmss.vip:18888-可用-中转:45.87.154.160-仅支持荷兰地区NF自制剧
+- name: 🇺🇸:美国-ss-mf01.xmss.vip:18888-可用-中转:94.131.107.12-仅支持荷兰地区NF自制剧
   type: ss
   server: mf01.xmss.vip
   password: 35b0f578-8961-4a2b-99a1-db9555e522e4
@@ -59,3 +83,69 @@ proxies:
   password: shadowsocks
   port: 443
   cipher: aes-128-gcm
+- name: 🇺🇸:美国-vmess-dm-us03-direct01.dm-us03.lc-node.com:443-可用-中转:136.175.179.89-不支持Netflix
+  type: vmess
+  server: dm-us03-direct01.dm-us03.lc-node.com
+  network: ws
+  port: 443
+  uuid: 2f12170d-0a36-3111-8f60-5a3e05c8236d
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /
+- name: 🇨🇳:中国-vmess-bp.335.wdpdk.link:10093-可用-中转:219.76.157.204-仅支持香港地区NF自制剧
+  type: vmess
+  server: bp.335.wdpdk.link
+  network: ws
+  port: 10093
+  uuid: db6df81c-3864-383a-8045-0c07360f5a68
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /wmsxwd
+- name: 🇺🇸:美国-vmess-lc-us02-direct01.lc-us02.lc-node.com:443-可用-中转:23.105.193.45-不支持Netflix
+  type: vmess
+  server: lc-us02-direct01.lc-us02.lc-node.com
+  network: ws
+  port: 443
+  uuid: b08e9b1f-b546-3919-b42d-88e684a12b24
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /
+- name: 🇺🇸:美国-vmess-lc-us06-direct01.lc-us06.lc-node.com:443-可用-中转:23.95.215.142-不支持Netflix
+  type: vmess
+  server: lc-us06-direct01.lc-us06.lc-node.com
+  network: ws
+  port: 443
+  uuid: b08e9b1f-b546-3919-b42d-88e684a12b24
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /
+- name: 🇺🇸:美国-vmess-dm-us02-direct01.dm-us02.lc-node.com:443-可用-中转:136.175.179.85-不支持Netflix
+  type: vmess
+  server: dm-us02-direct01.dm-us02.lc-node.com
+  network: ws
+  port: 443
+  uuid: e71bbbf9-a8ff-3618-9030-82a420201e59
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /
+- name: 🇺🇸:美国-vmess-dm-us02-direct02.dm-us02.lc-node.com:443-可用-中转:136.175.179.85-不支持Netflix
+  type: vmess
+  server: dm-us02-direct02.dm-us02.lc-node.com
+  network: ws
+  port: 443
+  uuid: b08e9b1f-b546-3919-b42d-88e684a12b24
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /
