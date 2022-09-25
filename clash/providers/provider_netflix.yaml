@@ -1,10 +1,4 @@
 proxies:
-- name: 🇯🇵:日本-ss-45.66.134.176:806-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
-  type: ss
-  server: 45.66.134.176
-  password: G!yBwPWH3Vao
-  port: 806
-  cipher: chacha20-ietf-poly1305
 - name: 🇨🇦:加拿大-ss-72.140.224.196:812-被墙-直连-解锁加拿大地区NF非自制剧
   type: ss
   server: 72.140.224.196
@@ -35,6 +29,12 @@ proxies:
   password: faBAoD54k87UJG7
   port: 2375
   cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-a07.qqddnsa.com:22203-被墙-中转:171.22.195.101-解锁香港地区NF非自制剧
+  type: ss
+  server: a07.qqddnsa.com
+  password: dc2bb987-0718-452e-b170-6baabbcfd003
+  port: 22203
+  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-167.88.63.99:7307-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.63.99
@@ -125,12 +125,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 809
   cipher: chacha20-ietf-poly1305
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.125:9094-被墙-直连-解锁瑞士地区NF非自制剧
-  type: ss
-  server: 185.126.116.125
-  password: rpgbNnU9rDDU4aWZ
-  port: 9094
-  cipher: aes-256-cfb
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.125:9053-被墙-直连-解锁瑞士地区NF非自制剧
   type: ss
   server: 185.126.116.125
@@ -161,6 +155,12 @@ proxies:
   password: faBAoD54k87UJG7
   port: 2376
   cipher: aes-256-gcm
+- name: 🇯🇵:日本-ss-45.66.134.176:807-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
+  type: ss
+  server: 45.66.134.176
+  password: G!yBwPWH3Vao
+  port: 807
+  cipher: chacha20-ietf-poly1305
 - name: 🇮🇱:以色列-ss-185.162.126.217:50004-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
   server: 185.162.126.217
@@ -184,6 +184,12 @@ proxies:
   server: 35.91.237.33
   password: amazonskr05
   port: 443
+  cipher: aes-256-cfb
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.125:9025-被墙-直连-解锁瑞士地区NF非自制剧
+  type: ss
+  server: 185.126.116.125
+  password: XPtzA9sCug3SPR4c
+  port: 9025
   cipher: aes-256-cfb
 - name: 🇯🇵:日本-ss-193.38.139.204:809-被墙-中转:193.38.139.201-解锁日本地区NF非自制剧
   type: ss
@@ -212,39 +218,6 @@ proxies:
 - name: 🇺🇸:美国-vmess-sgp.ycsfree.xyz:443-被墙-中转:129.150.33.76-解锁新加坡地区NF非自制剧
   type: vmess
   server: sgp.ycsfree.xyz
-  network: ws
-  port: 443
-  uuid: c753e8a8-e180-4e76-a486-c917273d718b
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /zcjd
-- name: 🇺🇸:美国-vmess-ca.0112233.xyz:8443-被墙-中转:199.87.210.186-解锁新加坡地区NF非自制剧
-  type: vmess
-  server: ca.0112233.xyz
-  network: ws
-  port: 8443
-  uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /home
-- name: 🇻🇳:越南-vmess-hcm-1.4g.mkvn.net:80-被墙-中转:103.3.244.135-解锁越南地区NF非自制剧
-  type: vmess
-  server: hcm-1.4g.mkvn.net
-  network: ws
-  port: 80
-  uuid: 952e97d2-17ef-4e42-b8aa-c9f892ca4eed
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /4g.mkvn.net
-- name: 🇺🇸:美国-vmess-usa.jcnf.app:443-被墙-中转:192.9.226.158-解锁美国地区NF非自制剧
-  type: vmess
-  server: usa.jcnf.app
   network: ws
   port: 443
   uuid: c753e8a8-e180-4e76-a486-c917273d718b
