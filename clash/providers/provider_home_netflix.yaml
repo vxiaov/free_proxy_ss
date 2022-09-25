@@ -1,4 +1,16 @@
 proxies:
+- name: 🇷🇺:俄罗斯-ss-mf01.xmss.vip:18888-可用-中转:45.87.154.160-仅支持荷兰地区NF自制剧
+  type: ss
+  server: mf01.xmss.vip
+  password: 35b0f578-8961-4a2b-99a1-db9555e522e4
+  port: 18888
+  cipher: chacha20-ietf-poly1305
+- name: 🇸🇬:新加坡-ss-139.162.23.118:20020-可用-直连-仅支持新加坡地区NF自制剧
+  type: ss
+  server: 139.162.23.118
+  password: '200000000000000000000020'
+  port: 20020
+  cipher: aes-128-gcm
 - name: 🇨🇳:中国-vmess-cn7.gmdns.net:543-可用-中转:112.118.43.146-仅支持香港地区NF自制剧
   type: vmess
   server: cn7.gmdns.net
@@ -10,6 +22,17 @@ proxies:
   udp: false
   tls: true
   ws-path: /_ohmysocket
+- name: 🇯🇵:日本-vmess-freejp.kozow.com:443-可用-中转:172.93.221.39-仅支持日本地区NF自制剧
+  type: vmess
+  server: freejp.kozow.com
+  network: ws
+  port: 443
+  uuid: af0924fb-8a5e-413f-bed9-b00659716fd9
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /
 - name: 🇨🇳:中国-vmess-cn8.gmdns.net:543-可用-中转:112.118.43.146-仅支持香港地区NF自制剧
   type: vmess
   server: cn8.gmdns.net

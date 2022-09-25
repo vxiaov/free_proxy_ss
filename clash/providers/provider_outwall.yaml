@@ -41,12 +41,6 @@ proxies:
   password: faBAoD54k87UJG7
   port: 2375
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.62.68:5003-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.62.68
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.63.99:7307-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.63.99
@@ -83,12 +77,18 @@ proxies:
   password: PCnnH6SQSnfoS27
   port: 8090
   cipher: aes-256-gcm
-- name: 🇺🇸:美国-ss-167.88.62.68:5600-被墙-直连-解锁美国地区NF非自制剧
+- name: 🇺🇸:美国-ss-167.88.62.68:3306-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.62.68
   password: Y6R9pAtvxxzmGC
-  port: 5600
+  port: 3306
   cipher: aes-256-gcm
+- name: 🇺🇸:美国-ss-162.251.61.221:804-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 162.251.61.221
+  password: G!yBwPWH3Vao
+  port: 804
+  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-138.68.248.130:811-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 138.68.248.130
@@ -113,6 +113,12 @@ proxies:
   password: G!yBwPWH3Vao
   port: 801
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-167.88.62.68:8080-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.62.68
+  password: KixLvKzwjekG00rm
+  port: 8080
+  cipher: aes-256-gcm
 - name: 🇯🇵:日本-ss-45.66.134.176:809-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
   type: ss
   server: 45.66.134.176
@@ -155,18 +161,6 @@ proxies:
   password: faBAoD54k87UJG7
   port: 2376
   cipher: aes-256-gcm
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.125:9046-被墙-直连-解锁瑞士地区NF非自制剧
-  type: ss
-  server: 185.126.116.125
-  password: NvS8N4Vf8qAGPSCL
-  port: 9046
-  cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-162.251.61.221:809-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 162.251.61.221
-  password: G!yBwPWH3Vao
-  port: 809
-  cipher: chacha20-ietf-poly1305
 - name: 🇮🇱:以色列-ss-185.162.126.217:50004-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
   server: 185.162.126.217
@@ -179,17 +173,35 @@ proxies:
   password: 9XwYyZsK8SNzQDtY
   port: 9059
   cipher: aes-256-cfb
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.125:9032-被墙-直连-解锁瑞士地区NF非自制剧
+  type: ss
+  server: 185.126.116.125
+  password: UWZQeLRWnkqgkseq
+  port: 9032
+  cipher: aes-256-cfb
 - name: 🇺🇸:美国-ss-35.91.237.33:443-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 35.91.237.33
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇮🇱:以色列-ss-185.162.125.91:50004-被墙-直连-解锁以色列地区NF非自制剧
+- name: 🇯🇵:日本-ss-193.38.139.204:809-被墙-中转:193.38.139.201-解锁日本地区NF非自制剧
   type: ss
-  server: 185.162.125.91
-  password: '4415934295'
-  port: 50004
+  server: 193.38.139.204
+  password: G!yBwPWH3Vao
+  port: 809
+  cipher: chacha20-ietf-poly1305
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.124:9037-被墙-直连-解锁瑞士地区NF非自制剧
+  type: ss
+  server: 185.126.116.124
+  password: TN2YqghxeFDKZfLU
+  port: 9037
+  cipher: aes-256-cfb
+- name: 🇨🇾:塞浦路斯-ss-213.169.137.221:989-被墙-直连-解锁塞浦路斯地区NF非自制剧
+  type: ss
+  server: 213.169.137.221
+  password: f8f7aCzcPKbsF8p3
+  port: 989
   cipher: aes-256-cfb
 - name: 🇮🇱:以色列-ss-31.133.100.49:50004-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
@@ -197,27 +209,6 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-vmess-mycfwork.herokuapp.com:443-被墙-中转:44.200.209.22-解锁美国地区NF非自制剧
-  type: vmess
-  server: mycfwork.herokuapp.com
-  network: ws
-  port: 443
-  uuid: 07a3a1e3-d52e-4acc-958e-c301681b5f09
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /07a3a1e3-d52e-4acc-958e-c301681b5f09-vmess
-- name: 🇺🇸:美国-vmess-157.254.193.68:10020-被墙-直连-解锁日本地区NF非自制剧
-  type: vmess
-  server: 157.254.193.68
-  network: ws
-  port: 10020
-  uuid: f1f45005-f074-430b-a4db-7109f50c3bce
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /
 - name: 🇺🇸:美国-vmess-ca.0112233.xyz:8443-被墙-中转:199.87.210.186-解锁新加坡地区NF非自制剧
   type: vmess
   server: ca.0112233.xyz
@@ -251,16 +242,17 @@ proxies:
   udp: false
   tls: true
   ws-path: /zcjd
-- name: :0-vmess-103.186.149.132:80-被墙-直连-解锁越南地区NF非自制剧
+- name: 🇦🇺:澳大利亚-vmess-india.ycsfree.xyz:443-被墙-中转:129.154.230.79-解锁印度地区NF非自制剧
   type: vmess
-  server: 103.186.149.132
+  server: india.ycsfree.xyz
   network: ws
-  port: 80
-  uuid: 67468d89-cf87-443c-baca-49f1e73b5991
-  alterId: 0
+  port: 443
+  uuid: c753e8a8-e180-4e76-a486-c917273d718b
+  alterId: 4
   cipher: auto
   udp: false
-  ws-path: /shopvpn.net
+  tls: true
+  ws-path: /zcjd
 - name: 🇨🇳:中国-vmess-8.214.33.158:80-被墙-直连-解锁新加坡地区NF非自制剧
   type: vmess
   server: 8.214.33.158
@@ -282,6 +274,17 @@ proxies:
   udp: false
   tls: true
   ws-path: /123
+- name: 🇨🇳:中国-vmess-61.222.202.140:33792-被墙-直连-解锁台湾地区NF非自制剧
+  type: vmess
+  server: 61.222.202.140
+  network: ws
+  port: 33792
+  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇺🇸:美国-vmess-jparm.fineyoo.ml:443-被墙-中转:138.2.33.90-解锁日本地区NF非自制剧
   type: vmess
   server: jparm.fineyoo.ml
@@ -293,14 +296,14 @@ proxies:
   udp: false
   tls: true
   ws-path: /123
-- name: 🇺🇸:美国-vmess-jpamd.fineyoo.ml:443-被墙-中转:138.2.33.102-解锁日本地区NF非自制剧
+- name: 🇨🇳:中国-vmess-s351.okggnode.top:39503-被墙-中转:8.219.179.131-解锁新加坡地区NF非自制剧
   type: vmess
-  server: jpamd.fineyoo.ml
+  server: s351.okggnode.top
   network: ws
-  port: 443
-  uuid: 35e5e2ea-1372-4745-dff8-fb2bd11016c4
+  port: 39503
+  uuid: e4832ca0-d6f6-32c8-87da-f3eccffe73c0
   alterId: 4
   cipher: auto
   udp: false
   tls: true
-  ws-path: /123
+  ws-path: /panelmyadmin
