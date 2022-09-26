@@ -11,12 +11,6 @@ proxies:
   password: shadowsocks
   port: 443
   cipher: aes-128-gcm
-- name: 🇺🇸:美国-ss-mf01.xmss.vip:18888-可用-中转:94.131.107.12-解锁荷兰地区NF非自制剧
-  type: ss
-  server: mf01.xmss.vip
-  password: 35b0f578-8961-4a2b-99a1-db9555e522e4
-  port: 18888
-  cipher: chacha20-ietf-poly1305
 - name: 🇨🇳:中国-ss-124.225.24.143:7586-可用-中转:5.188.238.64-不支持Netflix
   type: ss
   server: 124.225.24.143
@@ -53,17 +47,17 @@ proxies:
   password: shadowsocks
   port: 443
   cipher: aes-128-gcm
-- name: 🇨🇳:中国-ss-14.29.124.174:11048-可用-中转:129.227.144.195-不支持Netflix
-  type: ss
-  server: 14.29.124.174
-  password: QazEdcTgb159@$*
-  port: 11048
-  cipher: aes-128-cfb
 - name: 🇺🇸:美国-ss-156.146.38.163:443-可用-直连-不支持Netflix
   type: ss
   server: 156.146.38.163
   password: shadowsocks
   port: 443
+  cipher: aes-128-cfb
+- name: 🇨🇳:中国-ss-14.29.124.174:11048-可用-中转:129.227.144.195-不支持Netflix
+  type: ss
+  server: 14.29.124.174
+  password: QazEdcTgb159@$*
+  port: 11048
   cipher: aes-128-cfb
 - name: 🇨🇳:中国-vmess-119.91.223.167:80-可用-直连-完全不支持NF
   type: vmess
