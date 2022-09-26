@@ -35,6 +35,12 @@ dns:
     - 240.0.0.0/4
 # 个人节点
 proxies:
+- name: 🇩🇪:德国-ss-mf01.xmss.vip:18888-可用-中转:45.87.154.160-仅支持荷兰地区NF自制剧
+  type: ss
+  server: mf01.xmss.vip
+  password: 35b0f578-8961-4a2b-99a1-db9555e522e4
+  port: 18888
+  cipher: chacha20-ietf-poly1305
 - name: 🇬🇧:英国-ss-212.102.53.197:443-可用-直连-不支持Netflix
   type: ss
   server: 212.102.53.197
@@ -119,12 +125,6 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 4444
   cipher: aes-256-gcm
-- name: 🇳🇱:荷兰-ss-mf02.xmss.vip:18888-被墙-中转:192.54.57.32-解锁荷兰地区NF非自制剧
-  type: ss
-  server: mf02.xmss.vip
-  password: 5595f1cf-d7c0-4121-a3bf-19e423c1f9a1
-  port: 18888
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-162.251.61.221:804-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 162.251.61.221
@@ -143,42 +143,30 @@ proxies:
   password: G!yBwPWH3Vao
   port: 801
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-yd-03.paofunlink.com:1157-可用-中转:5.180.44.103-不支持Netflix
+- name: 🇨🇳:中国-ss-yd-03.paofunlink.com:1157-可用-中转:5.180.44.104-不支持Netflix
   type: ss
   server: yd-03.paofunlink.com
   password: Paofu
   port: 1157
   cipher: rc4-md5
-- name: 🇨🇳:中国-ss-yd-03.paofunlink.com:1158-可用-中转:5.180.44.114-不支持Netflix
+- name: 🇨🇳:中国-ss-yd-03.paofunlink.com:1158-可用-中转:5.180.44.113-不支持Netflix
   type: ss
   server: yd-03.paofunlink.com
   password: Paofu
   port: 1158
   cipher: rc4-md5
-- name: 🇨🇳:中国-ss-yd-03.paofunlink.com:1186-可用-中转:15.204.13.117-不支持Netflix
-  type: ss
-  server: yd-03.paofunlink.com
-  password: Paofu
-  port: 1186
-  cipher: rc4-md5
-- name: 🇨🇳:中国-ss-yd-03.paofunlink.com:1156-可用-中转:5.180.44.113-不支持Netflix
+- name: 🇨🇳:中国-ss-yd-03.paofunlink.com:1156-可用-中转:5.180.44.103-不支持Netflix
   type: ss
   server: yd-03.paofunlink.com
   password: Paofu
   port: 1156
   cipher: rc4-md5
-- name: 🇨🇳:中国-ss-124.225.24.134:7586-可用-中转:5.188.238.64-不支持Netflix
+- name: 🇨🇳:中国-ss-yd-03.paofunlink.com:1187-可用-中转:15.204.13.117-不支持Netflix
   type: ss
-  server: 124.225.24.134
-  password: f964C0QL8vQTaAZU
-  port: 7586
-  cipher: aes-128-gcm
-- name: 🇨🇳:中国-ss-139.217.103.21:7586-可用-中转:5.188.238.64-不支持Netflix
-  type: ss
-  server: 139.217.103.21
-  password: f964C0QL8vQTaAZU
-  port: 7586
-  cipher: aes-128-gcm
+  server: yd-03.paofunlink.com
+  password: Paofu
+  port: 1187
+  cipher: rc4-md5
 - name: 🇬🇧:英国-ss-212.102.53.78:443-可用-直连-不支持Netflix
   type: ss
   server: 212.102.53.78
@@ -191,7 +179,7 @@ proxies:
   password: shadowsocks
   port: 443
   cipher: aes-128-gcm
-- name: 🇨🇳:中国-ss-yd-03.paofunlink.com:1197-可用-中转:51.79.145.192-不支持Netflix
+- name: 🇨🇳:中国-ss-yd-03.paofunlink.com:1197-可用-中转:51.79.220.231-不支持Netflix
   type: ss
   server: yd-03.paofunlink.com
   password: Paofu
@@ -481,17 +469,16 @@ proxy-groups:
   - 🇬🇧:英国-ss-212.102.53.78:443-可用-直连-不支持Netflix
   - 🇬🇧:英国-ss-212.102.53.197:443-可用-直连-不支持Netflix
   - 🇬🇧:英国-ss-212.102.53.194:443-可用-直连-不支持Netflix
+  - 🇩🇪:德国-ss-mf01.xmss.vip:18888-可用-中转:45.87.154.160-仅支持荷兰地区NF自制剧
   - 🇨🇳:中国-vmess-47.93.231.218:53022-可用-直连-完全不支持NF
   - 🇨🇳:中国-vmess-124.223.44.153:80-可用-直连-完全不支持NF
   - 🇨🇳:中国-vmess-119.91.223.167:80-可用-直连-完全不支持NF
   - 🇨🇳:中国-vmess-106.12.168.13:13156-可用-直连-完全不支持NF
-  - 🇨🇳:中国-ss-yd-03.paofunlink.com:1197-可用-中转:51.79.145.192-不支持Netflix
-  - 🇨🇳:中国-ss-yd-03.paofunlink.com:1186-可用-中转:15.204.13.117-不支持Netflix
-  - 🇨🇳:中国-ss-yd-03.paofunlink.com:1158-可用-中转:5.180.44.114-不支持Netflix
-  - 🇨🇳:中国-ss-yd-03.paofunlink.com:1157-可用-中转:5.180.44.103-不支持Netflix
-  - 🇨🇳:中国-ss-yd-03.paofunlink.com:1156-可用-中转:5.180.44.113-不支持Netflix
-  - 🇨🇳:中国-ss-139.217.103.21:7586-可用-中转:5.188.238.64-不支持Netflix
-  - 🇨🇳:中国-ss-124.225.24.134:7586-可用-中转:5.188.238.64-不支持Netflix
+  - 🇨🇳:中国-ss-yd-03.paofunlink.com:1197-可用-中转:51.79.220.231-不支持Netflix
+  - 🇨🇳:中国-ss-yd-03.paofunlink.com:1187-可用-中转:15.204.13.117-不支持Netflix
+  - 🇨🇳:中国-ss-yd-03.paofunlink.com:1158-可用-中转:5.180.44.113-不支持Netflix
+  - 🇨🇳:中国-ss-yd-03.paofunlink.com:1157-可用-中转:5.180.44.104-不支持Netflix
+  - 🇨🇳:中国-ss-yd-03.paofunlink.com:1156-可用-中转:5.180.44.103-不支持Netflix
 - name: 被墙代理组
   type: select
   url: http://www.gstatic.com/generate_204
@@ -525,7 +512,6 @@ proxy-groups:
   - 🇷🇴:罗马尼亚-ss-185.126.116.124:9033-被墙-直连-解锁瑞士地区NF非自制剧
   - 🇷🇴:罗马尼亚-ss-185.126.116.124:9027-被墙-直连-解锁瑞士地区NF非自制剧
   - 🇷🇴:罗马尼亚-ss-185.126.116.124:9001-被墙-直连-解锁瑞士地区NF非自制剧
-  - 🇳🇱:荷兰-ss-mf02.xmss.vip:18888-被墙-中转:192.54.57.32-解锁荷兰地区NF非自制剧
   - 🇯🇵:日本-ss-52.197.66.243:443-被墙-直连-解锁日本地区NF非自制剧
   - 🇯🇵:日本-ss-45.66.134.176:811-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
   - 🇯🇵:日本-ss-45.66.134.176:810-被墙-中转:185.168.20.250-解锁日本地区NF非自制剧
@@ -548,6 +534,7 @@ proxy-groups:
   proxies:
   - DIRECT
   - 🇯🇵:日本-vmess-freejp.kozow.com:443-可用-中转:172.93.221.39-仅支持日本地区NF自制剧
+  - 🇩🇪:德国-ss-mf01.xmss.vip:18888-可用-中转:45.87.154.160-仅支持荷兰地区NF自制剧
 - name: 解锁Netflix非自制剧
   type: select
   url: http://www.gstatic.com/generate_204
