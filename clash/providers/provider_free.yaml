@@ -5,24 +5,30 @@ proxies:
   password: shadowsocks
   port: 443
   cipher: aes-128-gcm
-- name: 🇨🇳:中国-ss-yd-03.paofunlink.com:1158-可用-中转:5.180.44.104-不支持Netflix
+- name: 🇨🇳:中国-ss-yd-03.paofunlink.com:1157-可用-中转:5.180.44.103-不支持Netflix
+  type: ss
+  server: yd-03.paofunlink.com
+  password: Paofu
+  port: 1157
+  cipher: rc4-md5
+- name: 🇨🇳:中国-ss-yd-03.paofunlink.com:1158-可用-中转:5.180.44.114-不支持Netflix
   type: ss
   server: yd-03.paofunlink.com
   password: Paofu
   port: 1158
   cipher: rc4-md5
-- name: 🇨🇳:中国-ss-124.225.24.143:7586-可用-中转:5.188.238.64-不支持Netflix
+- name: 🇨🇳:中国-ss-yd-03.paofunlink.com:1186-可用-中转:15.204.13.117-不支持Netflix
   type: ss
-  server: 124.225.24.143
-  password: f964C0QL8vQTaAZU
-  port: 7586
-  cipher: aes-128-gcm
-- name: 🇨🇳:中国-ss-124.225.24.153:7586-可用-中转:5.188.238.64-不支持Netflix
+  server: yd-03.paofunlink.com
+  password: Paofu
+  port: 1186
+  cipher: rc4-md5
+- name: 🇨🇳:中国-ss-yd-03.paofunlink.com:1156-可用-中转:5.180.44.113-不支持Netflix
   type: ss
-  server: 124.225.24.153
-  password: f964C0QL8vQTaAZU
-  port: 7586
-  cipher: aes-128-gcm
+  server: yd-03.paofunlink.com
+  password: Paofu
+  port: 1156
+  cipher: rc4-md5
 - name: 🇨🇳:中国-ss-124.225.24.134:7586-可用-中转:5.188.238.64-不支持Netflix
   type: ss
   server: 124.225.24.134
@@ -47,7 +53,7 @@ proxies:
   password: shadowsocks
   port: 443
   cipher: aes-128-gcm
-- name: 🇨🇳:中国-ss-yd-03.paofunlink.com:1197-可用-中转:51.79.144.55-不支持Netflix
+- name: 🇨🇳:中国-ss-yd-03.paofunlink.com:1197-可用-中转:51.79.145.192-不支持Netflix
   type: ss
   server: yd-03.paofunlink.com
   password: Paofu
@@ -64,17 +70,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇨🇳:中国-vmess-tw1ssltide.gmdns.net:543-可用-中转:211.21.204.106-不支持Netflix
-  type: vmess
-  server: tw1ssltide.gmdns.net
-  network: ws
-  port: 543
-  uuid: 62f693e0-f3f7-11ea-93a2-d5a741458b8c
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /_ohmysocket
 - name: 🇨🇳:中国-vmess-124.223.44.153:80-可用-直连-完全不支持NF
   type: vmess
   server: 124.223.44.153
@@ -86,6 +81,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇯🇵:日本-vmess-freejp.kozow.com:443-可用-中转:172.93.221.39-仅支持日本地区NF自制剧
+  type: vmess
+  server: freejp.kozow.com
+  network: ws
+  port: 443
+  uuid: c6fe5de9-c0a4-4377-d46c-078438dfc92b
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /freechina
 - name: 🇨🇳:中国-vmess-106.12.168.13:13156-可用-直连-完全不支持NF
   type: vmess
   server: 106.12.168.13
