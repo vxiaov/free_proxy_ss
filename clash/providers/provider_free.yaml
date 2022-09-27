@@ -1,5 +1,11 @@
 proxies:
-- name: 🇺🇸:美国-ss-mf01.xmss.vip:18888-可用-中转:94.131.107.12-不支持Netflix
+- name: 🇺🇸:美国-ss-mf01.xmss.vip:18888-可用-中转:45.87.154.160-仅支持美国地区NF自制剧
+  type: ss
+  server: mf01.xmss.vip
+  password: 35b0f578-8961-4a2b-99a1-db9555e522e4
+  port: 18888
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸:美国-ss-mf01.xmss.vip:18888-可用-中转:45.87.154.160-仅支持荷兰地区NF自制剧
   type: ss
   server: mf01.xmss.vip
   password: 35b0f578-8961-4a2b-99a1-db9555e522e4
@@ -38,17 +44,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇺🇸:美国-vmess-zz.fmmmz1.com:48000-可用-中转:138.2.33.57-不支持Netflix
-  type: vmess
-  server: zz.fmmmz1.com
-  network: ws
-  port: 48000
-  uuid: e52a9166-244a-3ba2-8850-5c8a7df2ac8b
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /fm
 - name: 🇨🇳:中国-vmess-47.93.231.218:53022-可用-直连-完全不支持NF
   type: vmess
   server: 47.93.231.218
