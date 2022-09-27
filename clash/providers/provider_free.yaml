@@ -1,34 +1,16 @@
 proxies:
-- name: 🇺🇸:美国-ss-mf01.xmss.vip:18888-可用-中转:94.131.107.12-不支持Netflix
+- name: 🇬🇧:英国-ss-212.102.53.78:443-可用-直连-不支持Netflix
   type: ss
-  server: mf01.xmss.vip
-  password: 35b0f578-8961-4a2b-99a1-db9555e522e4
-  port: 18888
-  cipher: chacha20-ietf-poly1305
+  server: 212.102.53.78
+  password: shadowsocks
+  port: 443
+  cipher: aes-128-gcm
 - name: 🇬🇧:英国-ss-212.102.53.197:443-可用-直连-不支持Netflix
   type: ss
   server: 212.102.53.197
   password: shadowsocks
   port: 443
   cipher: aes-128-gcm
-- name: 🇨🇳:中国-ss-yd-03.paofunlink.com:1157-可用-中转:5.180.44.114-不支持Netflix
-  type: ss
-  server: yd-03.paofunlink.com
-  password: Paofu
-  port: 1157
-  cipher: rc4-md5
-- name: 🇨🇳:中国-ss-yd-03.paofunlink.com:1156-可用-中转:5.180.44.113-不支持Netflix
-  type: ss
-  server: yd-03.paofunlink.com
-  password: Paofu
-  port: 1156
-  cipher: rc4-md5
-- name: 🇨🇳:中国-ss-yd-03.paofunlink.com:1155-可用-中转:5.180.44.113-不支持Netflix
-  type: ss
-  server: yd-03.paofunlink.com
-  password: Paofu
-  port: 1155
-  cipher: rc4-md5
 - name: 🇨🇳:中国-vmess-119.91.223.167:80-可用-直连-完全不支持NF
   type: vmess
   server: 119.91.223.167
