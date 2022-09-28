@@ -179,23 +179,29 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.125:9025-被墙-直连-解锁瑞士地区NF非自制剧
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.125:9042-被墙-直连-解锁瑞士地区NF非自制剧
   type: ss
   server: 185.126.116.125
-  password: XPtzA9sCug3SPR4c
-  port: 9025
+  password: S7KwUu7yBy58S3Ga
+  port: 9042
   cipher: aes-256-cfb
-- name: 🇷🇴:罗马尼亚-ss-185.126.116.125:9015-被墙-直连-解锁瑞士地区NF非自制剧
+- name: 🇷🇴:罗马尼亚-ss-185.126.116.125:9070-被墙-直连-解锁瑞士地区NF非自制剧
   type: ss
   server: 185.126.116.125
-  password: ZpNDDKRu9MagNvaf
-  port: 9015
+  password: bf7v334KKDV3YDhH
+  port: 9070
   cipher: aes-256-cfb
 - name: 🇯🇵:日本-ss-193.38.139.204:809-被墙-中转:193.38.139.201-解锁日本地区NF非自制剧
   type: ss
   server: 193.38.139.204
   password: G!yBwPWH3Vao
   port: 809
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇦:加拿大-ss-38.64.138.53:1035-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 38.64.138.53
+  password: )1N1E6v0SU_rGTpg
+  port: 1035
   cipher: chacha20-ietf-poly1305
 - name: 🇮🇱:以色列-ss-185.162.125.91:50004-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
@@ -248,6 +254,26 @@ proxies:
   udp: false
   tls: true
   ws-path: /home
+- name: 🇸🇬:新加坡-vmess-v36.idcloudhost.de:80-被墙-中转:3.0.177.2-解锁新加坡地区NF非自制剧
+  type: vmess
+  server: v36.idcloudhost.de
+  network: ws
+  port: 80
+  uuid: cb4a24b2-52ea-4411-8104-e145f3144b9e
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /
+- name: 🇰🇷:韩国-vmess-kr.idcloudhost.de:80-被墙-中转:3.34.200.61-解锁新加坡地区NF非自制剧
+  type: vmess
+  server: kr.idcloudhost.de
+  network: ws
+  port: 80
+  uuid: cb4a24b2-52ea-4411-8104-e145f3144b9e
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /
 - name: 🇺🇸:美国-vmess-arm.ptuu.gq:443-被墙-中转:141.148.149.105-解锁美国地区NF非自制剧
   type: vmess
   server: arm.ptuu.gq
@@ -259,12 +285,12 @@ proxies:
   udp: false
   tls: true
   ws-path: /123
-- name: 🇺🇸:美国-vmess-lio.miaoge.gay:443-被墙-中转:104.28.250.190-解锁印度地区NF非自制剧
+- name: 🇸🇬:新加坡-vmess-v39.idcloudhost.de:80-被墙-中转:128.199.103.15-解锁新加坡地区NF非自制剧
   type: vmess
-  server: lio.miaoge.gay
+  server: v39.idcloudhost.de
   network: ws
-  port: 443
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
+  port: 80
+  uuid: cb4a24b2-52ea-4411-8104-e145f3144b9e
   alterId: 0
   cipher: auto
   udp: false
@@ -275,6 +301,26 @@ proxies:
   network: ws
   port: 80
   uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /
+- name: 🇺🇸:美国-vmess-v38.idcloudhost.de:80-被墙-中转:170.187.231.84-解锁新加坡地区NF非自制剧
+  type: vmess
+  server: v38.idcloudhost.de
+  network: ws
+  port: 80
+  uuid: cb4a24b2-52ea-4411-8104-e145f3144b9e
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /
+- name: 🇸🇬:新加坡-vmess-sg.idcloudhost.de:80-被墙-中转:3.0.177.2-解锁新加坡地区NF非自制剧
+  type: vmess
+  server: sg.idcloudhost.de
+  network: ws
+  port: 80
+  uuid: cb4a24b2-52ea-4411-8104-e145f3144b9e
   alterId: 0
   cipher: auto
   udp: false
@@ -301,66 +347,12 @@ proxies:
   udp: false
   tls: true
   ws-path: /123
-- name: 🇨🇳:中国-vmess-61.222.202.140:33792-被墙-直连-解锁台湾地区NF非自制剧
+- name: 🇦🇺:澳大利亚-vmess-v31.idcloudhost.de:80-被墙-中转:43.201.15.94-解锁新加坡地区NF非自制剧
   type: vmess
-  server: 61.222.202.140
+  server: v31.idcloudhost.de
   network: ws
-  port: 33792
-  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /
-- name: 🇺🇸:美国-vmess-jparm.fineyoo.ml:443-被墙-中转:138.2.33.90-解锁日本地区NF非自制剧
-  type: vmess
-  server: jparm.fineyoo.ml
-  network: ws
-  port: 443
-  uuid: 10ba478e-9de1-4aa9-c09e-7707025334d3
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /123
-- name: 🇺🇸:美国-vmess-jpamd.fineyoo.ml:443-被墙-中转:138.2.33.102-解锁日本地区NF非自制剧
-  type: vmess
-  server: jpamd.fineyoo.ml
-  network: ws
-  port: 443
-  uuid: 35e5e2ea-1372-4745-dff8-fb2bd11016c4
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /123
-- name: 🇺🇸:美国-vmess-amdkr.ptuu.ga:443-被墙-中转:152.69.229.222-解锁韩国地区NF非自制剧
-  type: vmess
-  server: amdkr.ptuu.ga
-  network: ws
-  port: 443
-  uuid: a612b67f-a79b-4a71-a82b-a46906752023
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /408
-- name: 🇺🇸:美国-vmess-amdkr.ptuu.ml:443-被墙-中转:146.56.96.75-解锁韩国地区NF非自制剧
-  type: vmess
-  server: amdkr.ptuu.ml
-  network: ws
-  port: 443
-  uuid: e2cdc305-dda7-465e-b675-ba0468d2a8b3
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /987
-- name: 🇺🇸:美国-vmess-20.233.12.144:443-被墙-中转:104.28.250.190-解锁印度地区NF非自制剧
-  type: vmess
-  server: 20.233.12.144
-  network: ws
-  port: 443
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
+  port: 80
+  uuid: cb4a24b2-52ea-4411-8104-e145f3144b9e
   alterId: 0
   cipher: auto
   udp: false
