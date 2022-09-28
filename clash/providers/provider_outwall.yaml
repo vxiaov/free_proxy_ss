@@ -35,12 +35,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 807
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳:中国-ss-iepl.linghun3.xyz:39995-被墙-中转:192.9.225.16-解锁美国地区NF非自制剧
-  type: ss
-  server: iepl.linghun3.xyz
-  password: 81369ad1-2e03-4eaf-beea-797fdca4d2dd
-  port: 39995
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.63.99:2375-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.63.99
@@ -101,29 +95,11 @@ proxies:
   password: e4FCWrgpkji3QY
   port: 9102
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-us2.linghun3.xyz:40007-被墙-中转:192.18.137.56-解锁美国地区NF非自制剧
-  type: ss
-  server: us2.linghun3.xyz
-  password: 81369ad1-2e03-4eaf-beea-797fdca4d2dd
-  port: 40007
-  cipher: aes-128-gcm
 - name: 🇺🇸:美国-ss-167.88.62.68:4444-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.62.68
   password: pKEW8JPByTVTLtM
   port: 4444
-  cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-hk3.linghun3.xyz:40003-被墙-中转:218.252.169.4-解锁香港地区NF非自制剧
-  type: ss
-  server: hk3.linghun3.xyz
-  password: 81369ad1-2e03-4eaf-beea-797fdca4d2dd
-  port: 40003
-  cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-iepl.linghun3.xyz:39990-被墙-中转:209.146.111.116-解锁香港地区NF非自制剧
-  type: ss
-  server: iepl.linghun3.xyz
-  password: 81369ad1-2e03-4eaf-beea-797fdca4d2dd
-  port: 39990
   cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-162.251.61.221:804-被墙-直连-解锁美国地区NF非自制剧
   type: ss
@@ -239,12 +215,6 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇨🇾:塞浦路斯-ss-213.169.137.221:989-被墙-直连-解锁塞浦路斯地区NF非自制剧
-  type: ss
-  server: 213.169.137.221
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  cipher: aes-256-cfb
 - name: 🇮🇱:以色列-ss-31.133.100.49:50004-被墙-直连-解锁以色列地区NF非自制剧
   type: ss
   server: 31.133.100.49
@@ -295,17 +265,6 @@ proxies:
   udp: false
   tls: true
   ws-path: /123
-- name: 🇨🇳:中国-vmess-8.214.33.158:80-被墙-直连-解锁新加坡地区NF非自制剧
-  type: vmess
-  server: 8.214.33.158
-  network: ws
-  port: 80
-  uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: ''
 - name: 🇺🇸:美国-vmess-usamd.ptuu.tk:443-被墙-中转:129.146.186.108-解锁美国地区NF非自制剧
   type: vmess
   server: usamd.ptuu.tk
@@ -328,6 +287,16 @@ proxies:
   udp: false
   tls: true
   ws-path: /123
+- name: 🇨🇳:中国-vmess-61.222.202.140:33792-被墙-直连-解锁台湾地区NF非自制剧
+  type: vmess
+  server: 61.222.202.140
+  network: ws
+  port: 33792
+  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /
 - name: 🇺🇸:美国-vmess-jparm.fineyoo.ml:443-被墙-中转:138.2.33.90-解锁日本地区NF非自制剧
   type: vmess
   server: jparm.fineyoo.ml
@@ -339,3 +308,36 @@ proxies:
   udp: false
   tls: true
   ws-path: /123
+- name: 🇺🇸:美国-vmess-jpamd.fineyoo.ml:443-被墙-中转:138.2.33.102-解锁日本地区NF非自制剧
+  type: vmess
+  server: jpamd.fineyoo.ml
+  network: ws
+  port: 443
+  uuid: 35e5e2ea-1372-4745-dff8-fb2bd11016c4
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /123
+- name: 🇺🇸:美国-vmess-amdkr.ptuu.ga:443-被墙-中转:152.69.229.222-解锁韩国地区NF非自制剧
+  type: vmess
+  server: amdkr.ptuu.ga
+  network: ws
+  port: 443
+  uuid: a612b67f-a79b-4a71-a82b-a46906752023
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /408
+- name: 🇺🇸:美国-vmess-amdkr.ptuu.ml:443-被墙-中转:146.56.96.75-解锁韩国地区NF非自制剧
+  type: vmess
+  server: amdkr.ptuu.ml
+  network: ws
+  port: 443
+  uuid: e2cdc305-dda7-465e-b675-ba0468d2a8b3
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /987
