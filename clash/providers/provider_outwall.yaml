@@ -83,6 +83,12 @@ proxies:
   password: PCnnH6SQSnfoS27
   port: 8090
   cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-103.92.86.76:23456-被墙-直连-解锁香港地区NF非自制剧
+  type: ss
+  server: 103.92.86.76
+  password: ggp1006
+  port: 23456
+  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-193.38.139.203:803-被墙-中转:193.38.139.201-解锁日本地区NF非自制剧
   type: ss
   server: 193.38.139.203
@@ -233,12 +239,12 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
-- name: 🇨🇳:中国-ss-103.92.86.76:23456-被墙-直连-解锁香港地区NF非自制剧
+- name: 🇺🇸:美国-ss-156.146.38.163:443-被墙-直连-解锁美国地区NF非自制剧
   type: ss
-  server: 103.92.86.76
-  password: ggp1006
-  port: 23456
-  cipher: chacha20-ietf-poly1305
+  server: 156.146.38.163
+  password: shadowsocks
+  port: 443
+  cipher: aes-128-cfb
 - name: 🇨🇾:塞浦路斯-ss-213.169.137.221:989-被墙-直连-解锁塞浦路斯地区NF非自制剧
   type: ss
   server: 213.169.137.221
@@ -328,14 +334,3 @@ proxies:
   udp: false
   tls: true
   ws-path: /123
-- name: 🇨🇳:中国-vmess-61.222.202.140:33792-被墙-直连-解锁台湾地区NF非自制剧
-  type: vmess
-  server: 61.222.202.140
-  network: ws
-  port: 33792
-  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /

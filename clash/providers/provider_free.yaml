@@ -1,5 +1,5 @@
 proxies:
-- name: 🇫🇷:法国-ss-mf02.xmss.vip:18888-可用-中转:146.19.191.108-仅支持德国地区NF自制剧
+- name: 🇫🇷:法国-ss-mf02.xmss.vip:18888-可用-中转:146.19.191.100-仅支持德国地区NF自制剧
   type: ss
   server: mf02.xmss.vip
   password: 5595f1cf-d7c0-4121-a3bf-19e423c1f9a1
@@ -27,6 +27,39 @@ proxies:
   udp: false
   tls: false
   ws-path: ''
+- name: 🇲🇽:墨西哥-vmess-131.196.253.140:80-可用-直连-不支持Netflix
+  type: vmess
+  server: 131.196.253.140
+  network: ws
+  port: 80
+  uuid: f1b438a7-b8f3-4cd7-8aca-d54efdaf64e3
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /sshocean
+- name: 🇨🇳:中国-vmess-s354.okggnode.top:33954-可用-中转:8.219.152.104-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: s354.okggnode.top
+  network: ws
+  port: 33954
+  uuid: e4832ca0-d6f6-32c8-87da-f3eccffe73c0
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /panelmyadmin
+- name: 🇫🇷:法国-vmess-51.38.48.107:80-可用-直连-完全不支持NF
+  type: vmess
+  server: 51.38.48.107
+  network: ws
+  port: 80
+  uuid: 2c294d59-f28c-4930-88ce-b68b24f1e8db
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /vmess
 - name: 🇨🇳:中国-vmess-124.223.44.153:80-可用-直连-完全不支持NF
   type: vmess
   server: 124.223.44.153
@@ -38,6 +71,28 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇺🇸:美国-vmess-riop.miaoge110.cf:443-可用-中转:104.28.211.27-不支持Netflix
+  type: vmess
+  server: riop.miaoge110.cf
+  network: ws
+  port: 443
+  uuid: 8a0e0eed-3294-42cb-982f-b3bb949c5a4c
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: ''
+- name: 🇺🇸:美国-vmess-imkcp.gay:8443-可用-中转:139.162.29.179-仅支持新加坡地区NF自制剧
+  type: vmess
+  server: imkcp.gay
+  network: ws
+  port: 8443
+  uuid: 73973a3e-202a-4160-db24-f6fc734ab11c
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /imkcp.gay
 - name: 🇰🇷:韩国-vmess-nice1509.xn--8lt534m.tk:443-可用-中转:13.125.43.34-仅支持韩国地区NF自制剧
   type: vmess
   server: nice1509.xn--8lt534m.tk
