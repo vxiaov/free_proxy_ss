@@ -83,12 +83,6 @@ proxies:
   password: PCnnH6SQSnfoS27
   port: 8090
   cipher: aes-256-gcm
-- name: 🇨🇳:中国-ss-103.92.86.76:23456-被墙-直连-解锁香港地区NF非自制剧
-  type: ss
-  server: 103.92.86.76
-  password: ggp1006
-  port: 23456
-  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-193.38.139.203:803-被墙-中转:193.38.139.201-解锁日本地区NF非自制剧
   type: ss
   server: 193.38.139.203
@@ -239,12 +233,6 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-156.146.38.163:443-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 156.146.38.163
-  password: shadowsocks
-  port: 443
-  cipher: aes-128-cfb
 - name: 🇨🇾:塞浦路斯-ss-213.169.137.221:989-被墙-直连-解锁塞浦路斯地区NF非自制剧
   type: ss
   server: 213.169.137.221
@@ -257,6 +245,17 @@ proxies:
   password: '4415934295'
   port: 50004
   cipher: aes-256-cfb
+- name: 🇺🇸:美国-vmess-vus3.0bad.com:443-被墙-中转:45.33.62.68-解锁美国地区NF非自制剧
+  type: vmess
+  server: vus3.0bad.com
+  network: ws
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /chat
 - name: 🇯🇵:日本-vmess-146.56.40.117:27675-被墙-直连-解锁韩国地区NF非自制剧
   type: vmess
   server: 146.56.40.117
@@ -329,6 +328,17 @@ proxies:
   network: ws
   port: 443
   uuid: bd5ee249-fe7b-4669-a6d9-b3f5eecb98e6
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /123
+- name: 🇺🇸:美国-vmess-jparm.fineyoo.ml:443-被墙-中转:138.2.33.90-解锁日本地区NF非自制剧
+  type: vmess
+  server: jparm.fineyoo.ml
+  network: ws
+  port: 443
+  uuid: 10ba478e-9de1-4aa9-c09e-7707025334d3
   alterId: 4
   cipher: auto
   udp: false
