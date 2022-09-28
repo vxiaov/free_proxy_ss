@@ -11,12 +11,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 806
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇦:加拿大-ss-72.140.224.196:812-被墙-直连-解锁加拿大地区NF非自制剧
-  type: ss
-  server: 72.140.224.196
-  password: G!yBwPWH3Vao
-  port: 812
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸:美国-ss-162.251.61.221:805-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 162.251.61.221
@@ -131,6 +125,12 @@ proxies:
   password: rpgbNnU9rDDU4aWZ
   port: 9094
   cipher: aes-256-cfb
+- name: 🇨🇦:加拿大-ss-72.140.224.196:812-被墙-直连-解锁加拿大地区NF非自制剧
+  type: ss
+  server: 72.140.224.196
+  password: G!yBwPWH3Vao
+  port: 812
+  cipher: chacha20-ietf-poly1305
 - name: 🇷🇴:罗马尼亚-ss-185.126.116.125:9053-被墙-直连-解锁瑞士地区NF非自制剧
   type: ss
   server: 185.126.116.125
@@ -253,12 +253,12 @@ proxies:
   udp: false
   tls: true
   ws-path: /123
-- name: 🇨🇳:中国-vmess-8.214.33.158:80-被墙-直连-解锁新加坡地区NF非自制剧
+- name: 🇺🇸:美国-vmess-lio.miaoge.gay:443-被墙-中转:104.28.250.190-解锁阿联酋地区NF非自制剧
   type: vmess
-  server: 8.214.33.158
+  server: lio.miaoge.gay
   network: ws
-  port: 80
-  uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
+  port: 443
+  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
   alterId: 0
   cipher: auto
   udp: false
@@ -285,6 +285,16 @@ proxies:
   udp: false
   tls: true
   ws-path: /123
+- name: 🇨🇳:中国-vmess-61.222.202.140:33792-被墙-直连-解锁台湾地区NF非自制剧
+  type: vmess
+  server: 61.222.202.140
+  network: ws
+  port: 33792
+  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /
 - name: 🇺🇸:美国-vmess-jparm.fineyoo.ml:443-被墙-中转:138.2.33.90-解锁日本地区NF非自制剧
   type: vmess
   server: jparm.fineyoo.ml
