@@ -77,6 +77,12 @@ proxies:
   password: PCnnH6SQSnfoS27
   port: 8090
   cipher: aes-256-gcm
+- name: 🇨🇳:中国-ss-103.92.86.76:23456-被墙-直连-解锁香港地区NF非自制剧
+  type: ss
+  server: 103.92.86.76
+  password: ggp1006
+  port: 23456
+  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵:日本-ss-193.38.139.203:803-被墙-中转:193.38.139.201-解锁日本地区NF非自制剧
   type: ss
   server: 193.38.139.203
@@ -119,12 +125,6 @@ proxies:
   password: G!yBwPWH3Vao
   port: 802
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸:美国-ss-167.88.63.99:8091-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 167.88.63.99
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  cipher: aes-256-gcm
 - name: 🇺🇸:美国-ss-167.88.63.99:7306-被墙-直连-解锁美国地区NF非自制剧
   type: ss
   server: 167.88.63.99
@@ -155,6 +155,12 @@ proxies:
   password: '8460400130'
   port: 50003
   cipher: aes-256-cfb
+- name: 🇺🇸:美国-ss-167.88.63.99:2376-被墙-直连-解锁美国地区NF非自制剧
+  type: ss
+  server: 167.88.63.99
+  password: faBAoD54k87UJG7
+  port: 2376
+  cipher: aes-256-gcm
 - name: 🇯🇵:日本-ss-193.38.139.204:806-被墙-中转:193.38.139.201-解锁日本地区NF非自制剧
   type: ss
   server: 193.38.139.204
@@ -190,12 +196,6 @@ proxies:
   server: 185.126.116.125
   password: XPtzA9sCug3SPR4c
   port: 9025
-  cipher: aes-256-cfb
-- name: 🇺🇸:美国-ss-35.87.114.40:443-被墙-直连-解锁美国地区NF非自制剧
-  type: ss
-  server: 35.87.114.40
-  password: amazonskr05
-  port: 443
   cipher: aes-256-cfb
 - name: 🇯🇵:日本-ss-193.38.139.204:809-被墙-中转:193.38.139.201-解锁日本地区NF非自制剧
   type: ss
@@ -265,6 +265,16 @@ proxies:
   udp: false
   tls: true
   ws-path: /123
+- name: 🇨🇳:中国-vmess-8.214.33.158:80-被墙-直连-解锁新加坡地区NF非自制剧
+  type: vmess
+  server: 8.214.33.158
+  network: ws
+  port: 80
+  uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /
 - name: 🇺🇸:美国-vmess-usamd.ptuu.tk:443-被墙-中转:129.146.186.108-解锁美国地区NF非自制剧
   type: vmess
   server: usamd.ptuu.tk
@@ -287,16 +297,6 @@ proxies:
   udp: false
   tls: true
   ws-path: /123
-- name: 🇨🇳:中国-vmess-61.222.202.140:33792-被墙-直连-解锁台湾地区NF非自制剧
-  type: vmess
-  server: 61.222.202.140
-  network: ws
-  port: 33792
-  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /
 - name: 🇺🇸:美国-vmess-jparm.fineyoo.ml:443-被墙-中转:138.2.33.90-解锁日本地区NF非自制剧
   type: vmess
   server: jparm.fineyoo.ml
