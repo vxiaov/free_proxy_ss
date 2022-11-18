@@ -1,4 +1,10 @@
 proxies:
+- name: 中国-河南-驻马店-ss-202.110.80.135:48336
+  type: ss
+  server: 202.110.80.135
+  port: 48336
+  cipher: chacha20-ietf-poly1305
+  password: 2d9b2fd2-3be3-49a5-9af0-59b7ae64aa52
 - name: 中国-广东-广州-v2ray-fly4.fastestcloud.xyz:30014
   type: vmess
   server: fly4.fastestcloud.xyz
@@ -29,3 +35,13 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 美国-俄亥俄-辛辛那提-v2ray-do-1.heicloud.cf:7771
+  type: vmess
+  server: do-1.heicloud.cf
+  network: ws
+  port: 7771
+  uuid: b9c76bfb-2a78-4442-b40a-9faf19a99541
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /m1
