@@ -5,13 +5,7 @@ proxies:
   port: 45535
   cipher: chacha20-ietf-poly1305
   password: 8a4b7ed7-3e24-48d5-93d2-2c58a2e8305d
-- name: 美国-0-0-ss-jp2.trumpmvp.com:18521
-  type: ss
-  server: jp2.trumpmvp.com
-  port: 18521
-  cipher: chacha20-ietf-poly1305
-  password: 5bd2d25a-ea0e-4c76-af2f-6413d9e78d75
-- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
+- name: 美国-0-0-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
@@ -31,3 +25,13 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /sshkit/Deroxbxb7/63530b4859a5f/
+- name: 德国-0-0-v2ray-azstu.oppo.quest:2082
+  type: vmess
+  server: azstu.oppo.quest
+  network: ws
+  port: 2082
+  uuid: f46d5b0d-c103-406c-df16-105976fc2aa3
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /aries
