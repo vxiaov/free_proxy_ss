@@ -5,7 +5,7 @@ proxies:
   port: 45535
   cipher: chacha20-ietf-poly1305
   password: 8a4b7ed7-3e24-48d5-93d2-2c58a2e8305d
-- name: 美国-0-0-v2ray-els200.jslist.tk:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
@@ -15,6 +15,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /wo.php
+- name: 美国-加利福尼亚-旧金山-v2ray-zhuyong.hucloud-dns.xyz:443
+  type: vmess
+  server: zhuyong.hucloud-dns.xyz
+  network: ws
+  port: 443
+  uuid: 4ce21a11-44fe-4814-a639-4b7caf501031
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /
 - name: 美国-佐治亚-亚特兰大-v2ray-sg-lb.vhax.net:80
   type: vmess
   server: sg-lb.vhax.net
