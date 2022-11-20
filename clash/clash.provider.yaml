@@ -29,6 +29,12 @@ proxies:
   port: 15243
   cipher: chacha20-ietf-poly1305
   password: 3dbdf038-ef96-4b51-834e-ac7e5ce94fe2
+- name: 英国-伦敦-伦敦-ss-212.102.53.79:443
+  type: ss
+  server: 212.102.53.79
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
 - name: 美国-加利福尼亚-旧金山-v2ray-king6.workingoogle.ga:8880
   type: vmess
   server: king6.workingoogle.ga
@@ -59,7 +65,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /sshkit/Ertusg86/635014638c264/
-- name: 美国-0-0-v2ray-wr4xiang4.suyun.live:80
+- name: 中国-香港-0-v2ray-wr4xiang4.suyun.live:80
   type: vmess
   server: wr4xiang4.suyun.live
   network: ws
