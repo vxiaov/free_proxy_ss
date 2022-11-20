@@ -47,7 +47,13 @@ proxies:
   port: 48336
   cipher: chacha20-ietf-poly1305
   password: 60a6c4c0-2028-4a05-81b0-852750672581
-- name: 美国-0-0-v2ray-king6.workingoogle.ga:8880
+- name: 中国-河南-驻马店-ss-202.110.80.135:27325
+  type: ss
+  server: 202.110.80.135
+  port: 27325
+  cipher: chacha20-ietf-poly1305
+  password: d9b6a69a-69af-42ac-8c90-da6acb6be41b
+- name: 美国-加利福尼亚-旧金山-v2ray-king6.workingoogle.ga:8880
   type: vmess
   server: king6.workingoogle.ga
   network: ws
@@ -147,3 +153,13 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /6
+- name: 德国-法兰克福-法兰克福-v2ray-vde2.0bad.com:443
+  type: vmess
+  server: vde2.0bad.com
+  network: ws
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /chat
