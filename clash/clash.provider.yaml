@@ -113,7 +113,31 @@ proxies:
   port: 27325
   cipher: chacha20-ietf-poly1305
   password: d9b6a69a-69af-42ac-8c90-da6acb6be41b
-- name: 美国-加利福尼亚-旧金山-v2ray-king6.workingoogle.ga:8880
+- name: 中国-海南-海口-ss-hnzz.ikuncloud.com:48979
+  type: ss
+  server: hnzz.ikuncloud.com
+  port: 48979
+  cipher: chacha20-ietf-poly1305
+  password: c961c48e-4f59-4be1-a658-821e493fc62e
+- name: 中国-福建-泉州-ss-zh01lv3tw03.feiguayun.xyz:50321
+  type: ss
+  server: zh01lv3tw03.feiguayun.xyz
+  port: 50321
+  cipher: aes-256-gcm
+  password: f453f122-4c14-423f-b55b-86f10f040505
+- name: 中国-福建-泉州-ss-zh01lv3us03.feiguayun.xyz:50001
+  type: ss
+  server: zh01lv3us03.feiguayun.xyz
+  port: 50001
+  cipher: aes-256-gcm
+  password: 9eec2ee8-daf7-4894-b22e-82fa53d6145a
+- name: 中国-河南-新乡-ss-zh01lv3jp01.feiguayun.xyz:50021
+  type: ss
+  server: zh01lv3jp01.feiguayun.xyz
+  port: 50021
+  cipher: aes-256-gcm
+  password: f453f122-4c14-423f-b55b-86f10f040505
+- name: 美国-0-0-v2ray-king6.workingoogle.ga:8880
   type: vmess
   server: king6.workingoogle.ga
   network: ws
@@ -133,3 +157,13 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /6
+- name: 德国-法兰克福-法兰克福-v2ray-vde2.0bad.com:443
+  type: vmess
+  server: vde2.0bad.com
+  network: ws
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /chat
