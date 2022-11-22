@@ -65,6 +65,30 @@ proxies:
   port: 5004
   cipher: aes-256-gcm
   password: g5MeD6Ft3CWlJId
+- name: 0-0-0-ss-103.172.116.8:9043
+  type: ss
+  server: 103.172.116.8
+  port: 9043
+  cipher: aes-256-cfb
+  password: HSZuyJQcWe8dxNdF
+- name: 日本-东京都-东京-ss-85.208.108.60:6379
+  type: ss
+  server: 85.208.108.60
+  port: 6379
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+- name: 中国-湖南-郴州-ss-h217022.waihuizhibiaowang.com:15143
+  type: ss
+  server: h217022.waihuizhibiaowang.com
+  port: 15143
+  cipher: chacha20-ietf-poly1305
+  password: 3dbdf038-ef96-4b51-834e-ac7e5ce94fe2
+- name: 中国-安徽-合肥-ss-h649960.waihuizhibiaowang.com:15443
+  type: ss
+  server: h649960.waihuizhibiaowang.com
+  port: 15443
+  cipher: chacha20-ietf-poly1305
+  password: 3dbdf038-ef96-4b51-834e-ac7e5ce94fe2
 - name: 美国-加利福尼亚-0-v2ray-16v2.hyproxy.xyz:443
   type: vmess
   server: 16v2.hyproxy.xyz
@@ -85,7 +109,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vpndata.shop
-- name: 美国-加利福尼亚-旧金山-v2ray-king6.workingoogle.ga:8880
+- name: 美国-0-0-v2ray-king6.workingoogle.ga:8880
   type: vmess
   server: king6.workingoogle.ga
   network: ws
