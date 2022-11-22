@@ -29,6 +29,12 @@ proxies:
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
+- name: 英国-伦敦-伦敦-ss-212.102.53.196:443
+  type: ss
+  server: 212.102.53.196
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
 - name: 美国-加利福尼亚-0-v2ray-16v2.hyproxy.xyz:443
   type: vmess
   server: 16v2.hyproxy.xyz
@@ -68,7 +74,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-king6.workingoogle.ga:8880
+- name: 美国-0-0-v2ray-king6.workingoogle.ga:8880
   type: vmess
   server: king6.workingoogle.ga
   network: ws
@@ -77,3 +83,23 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /fh454hg4fthfh
+- name: 美国-加利福尼亚-0-v2ray-152.69.230.170:80
+  type: vmess
+  server: 152.69.230.170
+  network: ws
+  port: 80
+  uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 美国-0-0-v2ray-azhk02.ajdkjaljdj.xyz:51011
+  type: vmess
+  server: azhk02.ajdkjaljdj.xyz
+  network: ws
+  port: 51011
+  uuid: cad23ca0-336a-3463-a4b4-44c1ece96b30
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /6
