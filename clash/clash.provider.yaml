@@ -83,12 +83,6 @@ proxies:
   port: 3389
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
-- name: 中国-广东-广州-ss-14.29.124.168:24002
-  type: ss
-  server: 14.29.124.168
-  port: 24002
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
 - name: 日本-东京都-东京-ss-85.208.108.60:6697
   type: ss
   server: 85.208.108.60
@@ -185,6 +179,12 @@ proxies:
   port: 15743
   cipher: chacha20-ietf-poly1305
   password: 3dbdf038-ef96-4b51-834e-ac7e5ce94fe2
+- name: 中国-广东-0-ss-catnet-moble.gatknqh.cn:11047
+  type: ss
+  server: catnet-moble.gatknqh.cn
+  port: 11047
+  cipher: aes-128-gcm
+  password: c7031b6c-b7e0-442e-8dd2-594084715e22
 - name: 美国-加利福尼亚-0-v2ray-16v2.hyproxy.xyz:443
   type: vmess
   server: 16v2.hyproxy.xyz
@@ -214,7 +214,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /fh454hg4fthfh
-- name: 德国-Nordrhein-Westfalen-0-v2ray-45.72img.xyz:443
+- name: 意大利-0-0-v2ray-45.72img.xyz:443
   type: vmess
   server: 45.72img.xyz
   network: ws
@@ -224,7 +224,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
-- name: 美国-科罗拉多-0-v2ray-34.72img.xyz:443
+- name: 意大利-0-0-v2ray-34.72img.xyz:443
   type: vmess
   server: 34.72img.xyz
   network: ws
@@ -234,7 +234,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
-- name: 德国-Nordrhein-Westfalen-0-v2ray-30.72img.xyz:443
+- name: 意大利-0-0-v2ray-30.72img.xyz:443
   type: vmess
   server: 30.72img.xyz
   network: ws
@@ -254,3 +254,13 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 美国-佛罗里达-0-v2ray-vipus02.ajdkjaljdj.xyz:2080
+  type: vmess
+  server: vipus02.ajdkjaljdj.xyz
+  network: ws
+  port: 2080
+  uuid: cad23ca0-336a-3463-a4b4-44c1ece96b30
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /6
