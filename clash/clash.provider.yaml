@@ -1,16 +1,4 @@
 proxies:
-- name: 0-0-0-ss-103.172.116.8:9064
-  type: ss
-  server: 103.172.116.8
-  port: 9064
-  cipher: aes-256-cfb
-  password: cp8pRSUAyLhTfVWH
-- name: 中国-河南-驻马店-ss-h745768.waihuizhibiaowang.com:15443
-  type: ss
-  server: h745768.waihuizhibiaowang.com
-  port: 15443
-  cipher: chacha20-ietf-poly1305
-  password: 3dbdf038-ef96-4b51-834e-ac7e5ce94fe2
 - name: 英国-伦敦-伦敦-ss-212.102.53.193:443
   type: ss
   server: 212.102.53.193
@@ -101,7 +89,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /6
-- name: 美国-加利福尼亚-旧金山-v2ray-buyvm.imkcp.eu.org:443
+- name: 美国-0-0-v2ray-buyvm.imkcp.eu.org:443
   type: vmess
   server: buyvm.imkcp.eu.org
   network: ws
