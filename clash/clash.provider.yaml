@@ -17,24 +17,6 @@ proxies:
   port: 8091
   cipher: aes-256-gcm
   password: PCnnH6SQSnfoS27
-- name: 德国-黑森-0-ss-145.239.1.100:5500
-  type: ss
-  server: 145.239.1.100
-  port: 5500
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
-- name: 美国-加利福尼亚-圣何塞-ss-167.88.61.213:8091
-  type: ss
-  server: 167.88.61.213
-  port: 8091
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
-- name: 德国-黑森-0-ss-145.239.1.100:5601
-  type: ss
-  server: 145.239.1.100
-  port: 5601
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
 - name: 日本-东京都-东京-ss-85.208.108.61:8008
   type: ss
   server: 85.208.108.61
@@ -107,12 +89,6 @@ proxies:
   port: 803
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
-- name: 波兰-华沙-0-ss-51.77.53.200:2376
-  type: ss
-  server: 51.77.53.200
-  port: 2376
-  cipher: aes-256-gcm
-  password: faBAoD54k87UJG7
 - name: 美国-新泽西-0-ss-38.68.135.19:8080
   type: ss
   server: 38.68.135.19
@@ -185,12 +161,6 @@ proxies:
   port: 5003
   cipher: aes-256-gcm
   password: g5MeD6Ft3CWlJId
-- name: 德国-黑森-0-ss-145.239.1.100:5004
-  type: ss
-  server: 145.239.1.100
-  port: 5004
-  cipher: aes-256-gcm
-  password: g5MeD6Ft3CWlJId
 - name: 美国-0-0-ss-134.195.196.231:2376
   type: ss
   server: 134.195.196.231
@@ -203,12 +173,6 @@ proxies:
   port: 8000
   cipher: aes-256-gcm
   password: KixLvKzwjekG00rm
-- name: 德国-黑森-0-ss-145.239.1.100:7002
-  type: ss
-  server: 145.239.1.100
-  port: 7002
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
 - name: 美国-佛罗里达-迈阿密-ss-38.91.107.225:802
   type: ss
   server: 38.91.107.225
@@ -245,12 +209,6 @@ proxies:
   port: 5004
   cipher: aes-256-gcm
   password: g5MeD6Ft3CWlJId
-- name: 法国-巴黎-0-ss-163.172.110.153:810
-  type: ss
-  server: 163.172.110.153
-  port: 810
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
 - name: 加拿大-安大略-多伦多-ss-196.247.59.156:808
   type: ss
   server: 196.247.59.156
@@ -353,24 +311,12 @@ proxies:
   port: 8000
   cipher: aes-256-gcm
   password: KixLvKzwjekG00rm
-- name: 美国-加利福尼亚-圣何塞-ss-167.88.61.213:7307
-  type: ss
-  server: 167.88.61.213
-  port: 7307
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
 - name: 美国-佐治亚-亚特兰大-ss-169.197.141.39:9101
   type: ss
   server: 169.197.141.39
   port: 9101
   cipher: aes-256-gcm
   password: e4FCWrgpkji3QY
-- name: 美国-德克萨斯-达拉斯-ss-38.121.43.204:8009
-  type: ss
-  server: 38.121.43.204
-  port: 8009
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
 - name: 美国-康涅狄格-0-ss-172.99.190.39:3389
   type: ss
   server: 172.99.190.39
@@ -539,12 +485,6 @@ proxies:
   port: 809
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
-- name: 美国-德克萨斯-达拉斯-ss-38.121.43.204:8119
-  type: ss
-  server: 38.121.43.204
-  port: 8119
-  cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
 - name: 美国-康涅狄格-0-ss-172.99.190.39:6379
   type: ss
   server: 172.99.190.39
@@ -887,12 +827,6 @@ proxies:
   port: 5004
   cipher: aes-256-gcm
   password: g5MeD6Ft3CWlJId
-- name: 美国-加利福尼亚-圣何塞-ss-167.88.61.213:8119
-  type: ss
-  server: 167.88.61.213
-  port: 8119
-  cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
 - name: 加拿大-安大略-多伦多-ss-196.247.59.156:806
   type: ss
   server: 196.247.59.156
@@ -1023,7 +957,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-xjp4h.mayaa.ml:443
+- name: 美国-加利福尼亚-旧金山-v2ray-xjp4h.mayaa.ml:443
   type: vmess
   server: xjp4h.mayaa.ml
   network: ws
@@ -1079,6 +1013,26 @@ proxies:
   network: ws
   port: 25951
   uuid: fb6d3d97-fb67-4cf6-9402-739aa4eb0ec3
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 德国-0-0-v2ray-159.69.30.80:19905
+  type: vmess
+  server: 159.69.30.80
+  network: ws
+  port: 19905
+  uuid: ee5b9220-d4ba-46fd-9e29-5d06d85fb13d
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 中国-湖南-岳阳-v2ray-cu.kapoknode.com:25957
+  type: vmess
+  server: cu.kapoknode.com
+  network: ws
+  port: 25957
+  uuid: 0516d38b-778d-4611-8ab5-15b4298881d1
   alterId: 4
   cipher: auto
   tls: false
