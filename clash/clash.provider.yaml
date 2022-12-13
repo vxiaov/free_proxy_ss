@@ -1,22 +1,4 @@
 proxies:
-- name: 日本-东京都-东京-ss-85.208.108.92:8009
-  type: ss
-  server: 85.208.108.92
-  port: 8009
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-- name: 日本-东京都-东京-ss-85.208.108.92:8881
-  type: ss
-  server: 85.208.108.92
-  port: 8881
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-- name: 日本-东京都-东京-ss-85.208.108.92:5000
-  type: ss
-  server: 85.208.108.92
-  port: 5000
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
 - name: 韩国-首尔-首尔-v2ray-kr01.170203.xyz:45453
   type: vmess
   server: kr01.170203.xyz
@@ -27,7 +9,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-xjp4h.mayaa.ml:443
+- name: 美国-加利福尼亚-旧金山-v2ray-xjp4h.mayaa.ml:443
   type: vmess
   server: xjp4h.mayaa.ml
   network: ws
@@ -126,7 +108,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /pineapple
-- name: 美国-加利福尼亚-旧金山-v2ray-sun.prxpro.cc:80
+- name: 美国-纽约-纽约-v2ray-142.93.238.178:80
+  type: vmess
+  server: 142.93.238.178
+  network: ws
+  port: 80
+  uuid: 941e0ba2-01b6-4bfe-81a4-6be93702cae3
+  alterId: 0
+  cipher: auto
+  ws-path: /graphql
+- name: 美国-0-0-v2ray-sun.prxpro.cc:80
   type: vmess
   server: sun.prxpro.cc
   network: ws
