@@ -1,5 +1,5 @@
 proxies:
-- name: 美国-加利福尼亚-旧金山-v2ray-xjp4h.mayaa.ml:443
+- name: 美国-0-0-v2ray-xjp4h.mayaa.ml:443
   type: vmess
   server: xjp4h.mayaa.ml
   network: ws
@@ -27,6 +27,16 @@ proxies:
   alterId: 4
   cipher: auto
   tls: true
+  ws-path: /
+- name: 美国-0-0-v2ray-20.247.115.108:80
+  type: vmess
+  server: 20.247.115.108
+  network: ws
+  port: 80
+  uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7
+  alterId: 4
+  cipher: auto
+  tls: false
   ws-path: /
 - name: 中国-江苏-镇江-v2ray-szcm.xdyxuj.xyz:30015
   type: vmess
