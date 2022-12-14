@@ -1,4 +1,24 @@
 proxies:
+- name: 新加坡-0-0-v2ray-fullaccesstosingaporenet.azurewebsites.net:443
+  type: vmess
+  server: fullaccesstosingaporenet.azurewebsites.net
+  network: ws
+  port: 443
+  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /ws
+- name: 日本-东京都-东京-v2ray-jp02.170203.xyz:23245
+  type: vmess
+  server: jp02.170203.xyz
+  network: ws
+  port: 23245
+  uuid: 2c5986f0-fa83-4f0a-8850-792266c1cab9
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
 - name: 0-0-0-v2ray-103.167.196.48:80
   type: vmess
   server: 103.167.196.48
