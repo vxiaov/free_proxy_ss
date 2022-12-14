@@ -5,56 +5,6 @@ proxies:
   port: 444
   cipher: chacha20-ietf-poly1305
   password: Neavloims
-- name: 法国-0-0-v2ray-fr2.v2rayserv.com:80
-  type: vmess
-  server: fr2.v2rayserv.com
-  network: ws
-  port: 80
-  uuid: 720e5c4e-4e44-40f6-8e73-7c32e18b61d0
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
-- name: 美国-0-0-v2ray-9b8893e5-65c4-e996-bb01-a8859107c17c.cnnic.rip:80
-  type: vmess
-  server: 9b8893e5-65c4-e996-bb01-a8859107c17c.cnnic.rip
-  network: ws
-  port: 80
-  uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
-- name: 美国-0-0-v2ray-3ab83739-e995-4f97-9629-41faac2255c9.xn--9kq12xdq7a.com:80
-  type: vmess
-  server: 3ab83739-e995-4f97-9629-41faac2255c9.xn--9kq12xdq7a.com
-  network: ws
-  port: 80
-  uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
-- name: 中国-湖南-郴州-v2ray-sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com:30045
-  type: vmess
-  server: sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com
-  network: ws
-  port: 30045
-  uuid: 2d975ae8-c573-4583-b881-77c120823bc1
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /aceamedv
-- name: 新加坡-0-0-v2ray-sg03.170203.xyz:43543
-  type: vmess
-  server: sg03.170203.xyz
-  network: ws
-  port: 43543
-  uuid: 0b32b3cb-2efa-4328-99ba-53ef235227de
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
 - name: 美国-0-0-v2ray-sun.prxpro.cc:80
   type: vmess
   server: sun.prxpro.cc
@@ -205,6 +155,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 中国-湖南-郴州-v2ray-sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com:30045
+  type: vmess
+  server: sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com
+  network: ws
+  port: 30045
+  uuid: 2d975ae8-c573-4583-b881-77c120823bc1
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /aceamedv
 - name: 韩国-首尔-首尔-v2ray-kr002.170203.xyz:23245
   type: vmess
   server: kr002.170203.xyz
@@ -255,7 +215,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-king2.mmadserr.ml:2095
+- name: 美国-0-0-v2ray-king2.mmadserr.ml:2095
   type: vmess
   server: king2.mmadserr.ml
   network: ws
@@ -264,12 +224,62 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /fhf5hfth565fhtf
+- name: 韩国-0-0-v2ray-997946b4-2642-ea3f-7b88-bda61300c226.cnnic.rip:80
+  type: vmess
+  server: 997946b4-2642-ea3f-7b88-bda61300c226.cnnic.rip
+  network: ws
+  port: 80
+  uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
 - name: 中国-香港-0-v2ray-82c7e5d7-eac9-4cfc-9415-2decc41aff37.xn--9kq12xdq7a.com:80
   type: vmess
   server: 82c7e5d7-eac9-4cfc-9415-2decc41aff37.xn--9kq12xdq7a.com
   network: ws
   port: 80
   uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 美国-0-0-v2ray-3ab83739-e995-4f97-9629-41faac2255c9.xn--9kq12xdq7a.com:80
+  type: vmess
+  server: 3ab83739-e995-4f97-9629-41faac2255c9.xn--9kq12xdq7a.com
+  network: ws
+  port: 80
+  uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 美国-0-0-v2ray-9b8893e5-65c4-e996-bb01-a8859107c17c.cnnic.rip:80
+  type: vmess
+  server: 9b8893e5-65c4-e996-bb01-a8859107c17c.cnnic.rip
+  network: ws
+  port: 80
+  uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 法国-0-0-v2ray-fr2.v2rayserv.com:80
+  type: vmess
+  server: fr2.v2rayserv.com
+  network: ws
+  port: 80
+  uuid: 720e5c4e-4e44-40f6-8e73-7c32e18b61d0
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 新加坡-0-0-v2ray-sg03.170203.xyz:43543
+  type: vmess
+  server: sg03.170203.xyz
+  network: ws
+  port: 43543
+  uuid: 0b32b3cb-2efa-4328-99ba-53ef235227de
   alterId: 4
   cipher: auto
   tls: false
