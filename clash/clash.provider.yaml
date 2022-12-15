@@ -23,6 +23,16 @@ proxies:
   port: 54993
   cipher: chacha20-ietf-poly1305
   password: c34a4436-c854-46e0-b883-a1c5b264c647
+- name: 新加坡-0-0-v2ray-206.189.61.143:80
+  type: vmess
+  server: 206.189.61.143
+  network: ws
+  port: 80
+  uuid: 8626e5b2-4bcd-49a7-b70d-8f270b5266ea
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /worryfree/ntls
 - name: 法国-0-0-v2ray-fr2.v2rayserv.com:80
   type: vmess
   server: fr2.v2rayserv.com
@@ -89,6 +99,16 @@ proxies:
   network: ws
   port: 43543
   uuid: 1f316fdc-c9c2-49d0-98ae-121c9569295d
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 中国-香港-0-v2ray-154.91.170.22:16343
+  type: vmess
+  server: 154.91.170.22
+  network: ws
+  port: 16343
+  uuid: 49680439-ddb7-4a8a-95e2-9e9b441d1c98
   alterId: 4
   cipher: auto
   tls: false
