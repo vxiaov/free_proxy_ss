@@ -5,12 +5,6 @@ proxies:
   port: 54993
   cipher: chacha20-ietf-poly1305
   password: c34a4436-c854-46e0-b883-a1c5b264c647
-- name: 中国-上海-上海-ss-clientss.asucaeva.net:49001
-  type: ss
-  server: clientss.asucaeva.net
-  port: 49001
-  cipher: chacha20-ietf-poly1305
-  password: 57042b18-79b0-4697-b70b-470b3e7e7bc2
 - name: 中国-上海-上海-ss-clientss.asucaeva.net:48101
   type: ss
   server: clientss.asucaeva.net
@@ -83,6 +77,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /opt/video/images
+- name: 法国-0-0-v2ray-fr2.v2rayserv.com:80
+  type: vmess
+  server: fr2.v2rayserv.com
+  network: ws
+  port: 80
+  uuid: 720e5c4e-4e44-40f6-8e73-7c32e18b61d0
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /sshocean
 - name: 0-0-0-v2ray-103.167.196.48:80
   type: vmess
   server: 103.167.196.48
