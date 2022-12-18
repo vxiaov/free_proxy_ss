@@ -1,4 +1,10 @@
 proxies:
+- name: 中国-湖南-长沙-ss-04.123445566.xyz:42716
+  type: ss
+  server: 04.123445566.xyz
+  port: 42716
+  cipher: chacha20-ietf-poly1305
+  password: 0a3be07c-e30f-4187-a899-b57fe7d750c1
 - name: 中国-0-0-v2ray-xjp.mvzaixian3.com:443
   type: vmess
   server: xjp.mvzaixian3.com
@@ -138,7 +144,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /das2
-- name: 美国-0-0-v2ray-sun.prxpro.cc:80
+- name: 美国-加利福尼亚-旧金山-v2ray-sun.prxpro.cc:80
   type: vmess
   server: sun.prxpro.cc
   network: ws
