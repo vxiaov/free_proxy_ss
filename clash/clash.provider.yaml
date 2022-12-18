@@ -1,4 +1,14 @@
 proxies:
+- name: 美国-马萨诸塞-0-v2ray-65.109.129.15:25459
+  type: vmess
+  server: 65.109.129.15
+  network: ws
+  port: 25459
+  uuid: ead3843c-d06a-4224-88db-8946e448de6b
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
 - name: 中国-湖南-岳阳-v2ray-hncu.donghui.tech:23050
   type: vmess
   server: hncu.donghui.tech
@@ -178,7 +188,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /das2
-- name: 美国-加利福尼亚-旧金山-v2ray-sun.prxpro.cc:80
+- name: 美国-0-0-v2ray-sun.prxpro.cc:80
   type: vmess
   server: sun.prxpro.cc
   network: ws
@@ -234,6 +244,16 @@ proxies:
   network: ws
   port: 43002
   uuid: 07d34a0a-5387-45a3-a0af-47f571fc8f3f
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /fly
+- name: 中国-广东-广州-v2ray-gddx.fosi.hk:41173
+  type: vmess
+  server: gddx.fosi.hk
+  network: ws
+  port: 41173
+  uuid: 85ad7e9b-396d-451d-baa8-845071651e1c
   alterId: 4
   cipher: auto
   tls: false
