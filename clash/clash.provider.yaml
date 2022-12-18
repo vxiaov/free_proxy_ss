@@ -1,10 +1,14 @@
 proxies:
-- name: 中国-湖南-长沙-ss-04.123445566.xyz:42716
-  type: ss
-  server: 04.123445566.xyz
-  port: 42716
-  cipher: chacha20-ietf-poly1305
-  password: 0a3be07c-e30f-4187-a899-b57fe7d750c1
+- name: 中国-湖南-岳阳-v2ray-hncu.donghui.tech:23050
+  type: vmess
+  server: hncu.donghui.tech
+  network: ws
+  port: 23050
+  uuid: c649f191-e08f-4f12-9421-e06301aa8385
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /fly
 - name: 中国-0-0-v2ray-xjp.mvzaixian3.com:443
   type: vmess
   server: xjp.mvzaixian3.com
@@ -35,6 +39,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /sshkit/Ertusg86/635014638c264/
+- name: 中国-海南-儋州-v2ray-cm.kapoknode.com:25955
+  type: vmess
+  server: cm.kapoknode.com
+  network: ws
+  port: 25955
+  uuid: d722d4c9-38c2-47b3-8c85-e3e75da57b65
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
 - name: 中国-湖南-郴州-v2ray-sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com:30028
   type: vmess
   server: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com
@@ -154,7 +168,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /das2
-- name: 美国-加利福尼亚-旧金山-v2ray-sun.prxpro.cc:80
+- name: 美国-0-0-v2ray-sun.prxpro.cc:80
   type: vmess
   server: sun.prxpro.cc
   network: ws
