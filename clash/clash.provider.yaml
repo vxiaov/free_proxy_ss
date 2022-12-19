@@ -17,30 +17,6 @@ proxies:
   port: 8000
   cipher: aes-256-gcm
   password: KixLvKzwjekG00rm
-- name: 中国-广东-深圳-ss-asia.miaocn.cyou:10922
-  type: ss
-  server: asia.miaocn.cyou
-  port: 10922
-  cipher: aes-128-gcm
-  password: 395a3528-54a8-41a7-959d-84945e0cd1a3
-- name: 中国-广东-深圳-ss-eu.miaocn.cyou:10929
-  type: ss
-  server: eu.miaocn.cyou
-  port: 10929
-  cipher: aes-128-gcm
-  password: 395a3528-54a8-41a7-959d-84945e0cd1a3
-- name: 中国-广东-深圳-ss-asia.miaocn.cyou:10917
-  type: ss
-  server: asia.miaocn.cyou
-  port: 10917
-  cipher: aes-128-gcm
-  password: 395a3528-54a8-41a7-959d-84945e0cd1a3
-- name: 中国-广东-深圳-ss-asia.miaocn.cyou:10925
-  type: ss
-  server: asia.miaocn.cyou
-  port: 10925
-  cipher: aes-128-gcm
-  password: 395a3528-54a8-41a7-959d-84945e0cd1a3
 - name: 新加坡-0-0-v2ray-sg1-v.sshmax.xyz:443
   type: vmess
   server: sg1-v.sshmax.xyz
@@ -71,6 +47,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 美国-加利福尼亚-0-v2ray-154.17.22.56:8083
+  type: vmess
+  server: 154.17.22.56
+  network: ws
+  port: 8083
+  uuid: cb4489c7-a966-320c-9120-f17a7dfb4999
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /game
 - name: 美国-纽约-纽约-v2ray-157.230.36.235:80
   type: vmess
   server: 157.230.36.235
@@ -169,7 +155,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-sun.prxpro.cc:80
+- name: 美国-0-0-v2ray-sun.prxpro.cc:80
   type: vmess
   server: sun.prxpro.cc
   network: ws
@@ -229,6 +215,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /book
+- name: 德国-Nordrhein-Westfalen-0-v2ray-sgm2.1yuanfly.live:80
+  type: vmess
+  server: sgm2.1yuanfly.live
+  network: ws
+  port: 80
+  uuid: 8ddb31f1-6b0f-3abb-994e-d6316d755310
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /videos
 - name: 日本-东京都-东京-v2ray-wide.wideladder.top:10088
   type: vmess
   server: wide.wideladder.top
