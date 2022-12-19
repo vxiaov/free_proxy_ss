@@ -17,6 +17,18 @@ proxies:
   port: 8000
   cipher: aes-256-gcm
   password: KixLvKzwjekG00rm
+- name: 中国-广东-深圳-ss-asia.miaocn.cyou:10922
+  type: ss
+  server: asia.miaocn.cyou
+  port: 10922
+  cipher: aes-128-gcm
+  password: 395a3528-54a8-41a7-959d-84945e0cd1a3
+- name: 中国-广东-深圳-ss-eu.miaocn.cyou:10929
+  type: ss
+  server: eu.miaocn.cyou
+  port: 10929
+  cipher: aes-128-gcm
+  password: 395a3528-54a8-41a7-959d-84945e0cd1a3
 - name: 印度尼西亚-大雅加达-雅加达-v2ray-103.157.27.148:80
   type: vmess
   server: 103.157.27.148
@@ -47,6 +59,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /das3218ssxc
+- name: 美国-加利福尼亚-0-v2ray-154.17.22.56:8083
+  type: vmess
+  server: 154.17.22.56
+  network: ws
+  port: 8083
+  uuid: cb4489c7-a966-320c-9120-f17a7dfb4999
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /game
 - name: 美国-佐治亚-亚特兰大-v2ray-15.235.147.186:80
   type: vmess
   server: 15.235.147.186
@@ -166,7 +188,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /usr
-- name: 美国-加利福尼亚-旧金山-v2ray-sun.prxpro.cc:80
+- name: 美国-0-0-v2ray-sun.prxpro.cc:80
   type: vmess
   server: sun.prxpro.cc
   network: ws
@@ -206,6 +228,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /das321
+- name: 印度-卡纳塔克-班加罗尔-v2ray-68.183.83.94:59477
+  type: vmess
+  server: 68.183.83.94
+  network: ws
+  port: 59477
+  uuid: b8f6a71c-6925-4e84-fb93-6e54f8d98b25
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
 - name: 中国-0-0-v2ray-do7.yyhm9.com:443
   type: vmess
   server: do7.yyhm9.com
