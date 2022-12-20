@@ -41,6 +41,12 @@ proxies:
   port: 22620
   cipher: chacha20-ietf-poly1305
   password: 0a0bc6da-7586-433f-86c7-91a439020879
+- name: 美国-俄勒冈-0-ss-52.13.16.81:443
+  type: ss
+  server: 52.13.16.81
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 印度尼西亚-大雅加达-雅加达-v2ray-103.157.27.148:80
   type: vmess
   server: 103.157.27.148
@@ -71,7 +77,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /updata9d43c
-- name: 美国-0-0-v2ray-els200.jslist.tk:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
@@ -190,6 +196,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 美国-0-0-v2ray-bk.muieupdata.top:52338
+  type: vmess
+  server: bk.muieupdata.top
+  network: ws
+  port: 52338
+  uuid: e28fb751-7982-4e58-9238-64e7391e2339
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /updata1
 - name: 卢森堡-Luxembourg-0-v2ray-107.189.28.253:2086
   type: vmess
   server: 107.189.28.253
