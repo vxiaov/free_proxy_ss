@@ -35,18 +35,6 @@ proxies:
   port: 6679
   cipher: aes-256-gcm
   password: TEzjfAYq2IjtuoS
-- name: 美国-俄勒冈-0-ss-52.13.16.81:443
-  type: ss
-  server: 52.13.16.81
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 日本-东京都-东京-ss-85.208.108.60:8881
-  type: ss
-  server: 85.208.108.60
-  port: 8881
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
 - name: 美国-佐治亚-亚特兰大-ss-169.197.142.48:8008
   type: ss
   server: 169.197.142.48
@@ -57,6 +45,24 @@ proxies:
   type: ss
   server: 120.240.236.28
   port: 31367
+  cipher: chacha20-ietf-poly1305
+  password: 0a0bc6da-7586-433f-86c7-91a439020879
+- name: 中国-广东-揭阳-ss-120.240.236.28:22620
+  type: ss
+  server: 120.240.236.28
+  port: 22620
+  cipher: chacha20-ietf-poly1305
+  password: 0a0bc6da-7586-433f-86c7-91a439020879
+- name: 中国-广东-广州-ss-14.29.124.168:24009
+  type: ss
+  server: 14.29.124.168
+  port: 24009
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 中国-广东-揭阳-ss-120.240.236.28:24037
+  type: ss
+  server: 120.240.236.28
+  port: 24037
   cipher: chacha20-ietf-poly1305
   password: 0a0bc6da-7586-433f-86c7-91a439020879
 - name: 印度尼西亚-大雅加达-雅加达-v2ray-103.157.27.148:80
@@ -99,7 +105,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /updata
-- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
+- name: 美国-0-0-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
@@ -139,7 +145,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-sun.prxpro.cc:80
+- name: 美国-0-0-v2ray-sun.prxpro.cc:80
   type: vmess
   server: sun.prxpro.cc
   network: ws
@@ -209,6 +215,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /jhndsmlanj11223
+- name: 印度-卡纳塔克-班加罗尔-v2ray-68.183.83.94:59477
+  type: vmess
+  server: 68.183.83.94
+  network: ws
+  port: 59477
+  uuid: b8f6a71c-6925-4e84-fb93-6e54f8d98b25
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
 - name: 美国-0-0-v2ray-petal.ga:443
   type: vmess
   server: petal.ga
@@ -276,7 +292,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /zh-cn/download
-- name: 美国-加利福尼亚-旧金山-v2ray-buyvm.imkcp.eu.org:443
+- name: 美国-0-0-v2ray-buyvm.imkcp.eu.org:443
   type: vmess
   server: buyvm.imkcp.eu.org
   network: ws
@@ -316,7 +332,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /game
-- name: 美国-加利福尼亚-旧金山-v2ray-amshare.jingledev.me:443
+- name: 美国-0-0-v2ray-amshare.jingledev.me:443
   type: vmess
   server: amshare.jingledev.me
   network: ws
