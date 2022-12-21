@@ -1,10 +1,4 @@
 proxies:
-- name: 中国-广东-广州-ss-14.29.124.168:24009
-  type: ss
-  server: 14.29.124.168
-  port: 24009
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
 - name: 美国-康涅狄格-0-ss-172.99.188.99:2376
   type: ss
   server: 172.99.188.99
@@ -137,12 +131,6 @@ proxies:
   port: 8090
   cipher: aes-256-gcm
   password: PCnnH6SQSnfoS27
-- name: 0-0-0-ss-103.172.116.9:9040
-  type: ss
-  server: 103.172.116.9
-  port: 9040
-  cipher: aes-256-cfb
-  password: p9z5BVADH2YFs3MN
 - name: 美国-康涅狄格-0-ss-172.99.188.99:2375
   type: ss
   server: 172.99.188.99
@@ -167,6 +155,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.201.52.252:443
+  type: ss
+  server: 43.201.52.252
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 卢森堡-Luxembourg-0-v2ray-107.189.28.253:2086
   type: vmess
   server: 107.189.28.253
@@ -186,7 +180,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-加利福尼亚-旧金山-v2ray-v10.toddns.tk:80
+- name: 美国-0-0-v2ray-v10.toddns.tk:80
   type: vmess
   server: v10.toddns.tk
   network: ws
@@ -205,7 +199,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /sshkit/Ertusg86/635014638c264/
-- name: 美国-0-0-v2ray-v143.toddns.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-v143.toddns.tk:80
   type: vmess
   server: v143.toddns.tk
   network: ws
@@ -214,7 +208,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /de143-dxddxxj
-- name: 美国-加利福尼亚-旧金山-v2ray-v12a.toddns.tk:80
+- name: 美国-0-0-v2ray-v12a.toddns.tk:80
   type: vmess
   server: v12a.toddns.tk
   network: ws
