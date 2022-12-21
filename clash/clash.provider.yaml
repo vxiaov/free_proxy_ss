@@ -185,12 +185,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.213.2.160:443
-  type: ss
-  server: 13.213.2.160
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 新加坡-0-0-ss-3.0.148.195:443
   type: ss
   server: 3.0.148.195
@@ -209,6 +203,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 中国-广东-广州-ss-14.29.124.168:24009
+  type: ss
+  server: 14.29.124.168
+  port: 24009
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - name: 印度尼西亚-大雅加达-雅加达-v2ray-id-v.sshmax.xyz:80
   type: vmess
   server: id-v.sshmax.xyz
@@ -294,7 +294,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /v47-unlimitndxd
-- name: 美国-加利福尼亚-旧金山-v2ray-v143a.toddns.tk:80
+- name: 美国-0-0-v2ray-v143a.toddns.tk:80
   type: vmess
   server: v143a.toddns.tk
   network: ws
@@ -386,6 +386,26 @@ proxies:
   network: ws
   port: 8443
   uuid: e666f40b-c8bd-4bf5-898f-64bb0dd0bcab
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 土耳其-0-0-v2ray-185.242.161.206:25212
+  type: vmess
+  server: 185.242.161.206
+  network: ws
+  port: 25212
+  uuid: 43a988d1-8c8c-4303-9e03-8d651de6f376
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: ''
+- name: 越南-河内-0-v2ray-42.96.3.193:80
+  type: vmess
+  server: 42.96.3.193
+  network: ws
+  port: 80
+  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
   alterId: 4
   cipher: auto
   tls: false
