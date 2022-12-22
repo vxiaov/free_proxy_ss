@@ -59,18 +59,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 日本-东京都-东京-ss-3.112.193.151:443
-  type: ss
-  server: 3.112.193.151
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.174.243:443
-  type: ss
-  server: 13.215.174.243
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.201.47.102:443
   type: ss
   server: 43.201.47.102
@@ -165,7 +153,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-v10.toddns.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-v10.toddns.tk:80
   type: vmess
   server: v10.toddns.tk
   network: ws
@@ -224,7 +212,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /fastssh
-- name: 美国-0-0-v2ray-v12a.toddns.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-v12a.toddns.tk:80
   type: vmess
   server: v12a.toddns.tk
   network: ws
@@ -244,3 +232,13 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 荷兰-阿姆斯特丹-阿姆斯特丹-v2ray-surongwei.eu.org:443
+  type: vmess
+  server: surongwei.eu.org
+  network: ws
+  port: 443
+  uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /reffs7y26g0ua
