@@ -11,12 +11,6 @@ proxies:
   port: 31675
   cipher: aes-256-cfb
   password: m7pZhBG
-- name: 日本-东京都-东京-ss-3.112.193.151:443
-  type: ss
-  server: 3.112.193.151
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 日本-东京都-东京-ss-85.208.108.60:5500
   type: ss
   server: 85.208.108.60
@@ -53,15 +47,27 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.213.2.160:443
-  type: ss
-  server: 13.213.2.160
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 新加坡-0-0-ss-13.229.105.31:443
   type: ss
   server: 13.229.105.31
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 中国-广东-揭阳-ss-120.240.236.28:24037
+  type: ss
+  server: 120.240.236.28
+  port: 24037
+  cipher: chacha20-ietf-poly1305
+  password: 0a0bc6da-7586-433f-86c7-91a439020879
+- name: 澳大利亚-0-0-ss-43.206.221.164:443
+  type: ss
+  server: 43.206.221.164
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-康涅狄格-0-ss-13.215.174.243:443
+  type: ss
+  server: 13.215.174.243
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -250,3 +256,23 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /reffs7y26g0ua
+- name: 日本-0-0-v2ray-amd2.xlr-ml.ml:10020
+  type: vmess
+  server: amd2.xlr-ml.ml
+  network: ws
+  port: 10020
+  uuid: fb91e1d7-440e-4470-b0a0-a791e5c32dc8
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: ''
+- name: 日本-0-0-v2ray-amd2.xlr-ml.ml:80
+  type: vmess
+  server: amd2.xlr-ml.ml
+  network: ws
+  port: 80
+  uuid: fb91e1d7-440e-4470-b0a0-a791e5c32dc8
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
