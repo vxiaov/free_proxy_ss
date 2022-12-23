@@ -65,24 +65,27 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.206.221.164:443
-  type: ss
-  server: 43.206.221.164
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 日本-东京都-东京-ss-3.112.193.151:443
   type: ss
   server: 3.112.193.151
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.207.1.14:443
+- name: 新加坡-0-0-ss-18.142.183.235:443
   type: ss
-  server: 43.207.1.14
+  server: 18.142.183.235
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 德国-Sachsen-0-v2ray-188.40.132.112:80
+  type: vmess
+  server: 188.40.132.112
+  network: ws
+  port: 80
+  uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246
+  alterId: 0
+  cipher: auto
+  ws-path: /p3573l6m92h1ham3q23t
 - name: 美国-佐治亚-亚特兰大-v2ray-sg-lb.vhax.net:80
   type: vmess
   server: sg-lb.vhax.net
@@ -151,6 +154,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /nl-unlimitxxx
+- name: 美国-纽约-纽约-v2ray-157.230.36.235:80
+  type: vmess
+  server: 157.230.36.235
+  network: ws
+  port: 80
+  uuid: b484d576-b3e3-4ac5-b108-88a300dfe7e3
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /graphql
 - name: 美国-马萨诸塞-0-v2ray-hk80.sanfen001.pics:80
   type: vmess
   server: hk80.sanfen001.pics
@@ -161,7 +174,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /zh-cn/download
-- name: 美国-加利福尼亚-旧金山-v2ray-scherehtzflk02.sudoer.online:443
+- name: 美国-0-0-v2ray-scherehtzflk02.sudoer.online:443
   type: vmess
   server: scherehtzflk02.sudoer.online
   network: ws
