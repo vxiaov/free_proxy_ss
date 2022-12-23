@@ -137,6 +137,18 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 美国-康涅狄格-0-ss-13.213.2.160:443
+  type: ss
+  server: 13.213.2.160
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 荷兰-0-0-ss-194.26.229.90:34418
+  type: ss
+  server: 194.26.229.90
+  port: 34418
+  cipher: chacha20-ietf-poly1305
+  password: OIoLTApW9EjZWghiQvMcsFJSE
 - name: 美国-加利福尼亚-0-v2ray-152.69.230.170:80
   type: vmess
   server: 152.69.230.170
@@ -186,6 +198,15 @@ proxies:
   cipher: auto
   tls: false
   ws-path: ''
+- name: 荷兰-Flevoland-0-v2ray-5.255.112.158:19182
+  type: vmess
+  server: 5.255.112.158
+  network: ws
+  port: 19182
+  uuid: 8f11ba8c-a72b-47df-a783-2490205ff10f
+  alterId: 0
+  cipher: auto
+  ws-path: /
 - name: 荷兰-0-0-v2ray-45.136.244.181:80
   type: vmess
   server: 45.136.244.181
@@ -206,7 +227,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /nl-unlimitxxx
-- name: 美国-0-0-v2ray-sun.prxpro.cc:80
+- name: 美国-加利福尼亚-旧金山-v2ray-sun.prxpro.cc:80
   type: vmess
   server: sun.prxpro.cc
   network: ws
@@ -234,7 +255,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: ''
-- name: 美国-0-0-v2ray-v143.toddns.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-v143.toddns.tk:80
   type: vmess
   server: v143.toddns.tk
   network: ws
