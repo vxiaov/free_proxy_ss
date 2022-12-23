@@ -149,7 +149,25 @@ proxies:
   port: 24001
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 美国-0-0-v2ray-de-01.legeth.tk:80
+- name: 澳大利亚-0-0-ss-43.206.221.164:443
+  type: ss
+  server: 43.206.221.164
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-新泽西-0-ss-de.archnet.cyou:2055
+  type: ss
+  server: de.archnet.cyou
+  port: 2055
+  cipher: chacha20-ietf-poly1305
+  password: 8ce6f8a8-9aca-4029-994a-cedc1ba8292c
+- name: 新加坡-0-0-ss-18.142.183.235:443
+  type: ss
+  server: 18.142.183.235
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-加利福尼亚-旧金山-v2ray-de-01.legeth.tk:80
   type: vmess
   server: de-01.legeth.tk
   network: ws
@@ -198,6 +216,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
+- name: 芬兰-Uusimaa-0-v2ray-135.181.29.18:63456
+  type: vmess
+  server: 135.181.29.18
+  network: ws
+  port: 63456
+  uuid: ed28b4d7-2810-455b-a4a5-3435026b70f7
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
 - name: 荷兰-阿姆斯特丹-阿姆斯特丹-v2ray-surongwei.eu.org:443
   type: vmess
   server: surongwei.eu.org
