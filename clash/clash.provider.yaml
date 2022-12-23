@@ -149,12 +149,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-新泽西-0-ss-de.archnet.cyou:2055
-  type: ss
-  server: de.archnet.cyou
-  port: 2055
-  cipher: chacha20-ietf-poly1305
-  password: 8ce6f8a8-9aca-4029-994a-cedc1ba8292c
 - name: 新加坡-0-0-ss-18.142.183.235:443
   type: ss
   server: 18.142.183.235
@@ -164,6 +158,12 @@ proxies:
 - name: 新加坡-0-0-ss-13.250.54.18:443
   type: ss
   server: 13.250.54.18
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 日本-东京都-东京-ss-3.112.193.151:443
+  type: ss
+  server: 3.112.193.151
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -197,7 +197,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: ''
-- name: 美国-0-0-v2ray-us-01.legeth.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-us-01.legeth.tk:80
   type: vmess
   server: us-01.legeth.tk
   network: ws
@@ -217,7 +217,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /sshkit/Ertusg86/635014638c264/
-- name: 美国-加利福尼亚-旧金山-v2ray-v10.toddns.tk:80
+- name: 美国-0-0-v2ray-v10.toddns.tk:80
   type: vmess
   server: v10.toddns.tk
   network: ws
@@ -296,7 +296,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /nl-unlimitxxx
-- name: 美国-加利福尼亚-旧金山-v2ray-v47a.toddns.tk:80
+- name: 美国-0-0-v2ray-v47a.toddns.tk:80
   type: vmess
   server: v47a.toddns.tk
   network: ws
@@ -315,7 +315,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /graphql
-- name: 美国-加利福尼亚-旧金山-v2ray-awskr2.jiasub.xyz:8443
+- name: 美国-0-0-v2ray-awskr2.jiasub.xyz:8443
   type: vmess
   server: awskr2.jiasub.xyz
   network: ws
@@ -335,7 +335,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Download
-- name: 美国-0-0-v2ray-10us3.jiasub.xyz:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-10us3.jiasub.xyz:8443
   type: vmess
   server: 10us3.jiasub.xyz
   network: ws
