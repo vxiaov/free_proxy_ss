@@ -179,12 +179,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 日本-东京都-东京-ss-3.112.193.151:443
-  type: ss
-  server: 3.112.193.151
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 美国-康涅狄格-0-ss-13.212.109.136:443
   type: ss
   server: 13.212.109.136
@@ -227,6 +221,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.206.226.94:443
+  type: ss
+  server: 43.206.226.94
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ssr-14.29.124.168:24005
   type: ssr
   server: 14.29.124.168
@@ -247,7 +247,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-v10.toddns.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-v10.toddns.tk:80
   type: vmess
   server: v10.toddns.tk
   network: ws
@@ -256,7 +256,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /ZPKLSPJjLBEy
-- name: 美国-加利福尼亚-旧金山-v2ray-us-01.legeth.tk:80
+- name: 美国-0-0-v2ray-us-01.legeth.tk:80
   type: vmess
   server: us-01.legeth.tk
   network: ws
@@ -286,7 +286,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /zh-cn/download
-- name: 美国-加利福尼亚-旧金山-v2ray-jp-01.legeth.tk:80
+- name: 美国-0-0-v2ray-jp-01.legeth.tk:80
   type: vmess
   server: jp-01.legeth.tk
   network: ws
@@ -296,7 +296,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-awskr2.jiasub.xyz:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-awskr2.jiasub.xyz:8443
   type: vmess
   server: awskr2.jiasub.xyz
   network: ws
@@ -403,6 +403,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Download
+- name: 美国-加利福尼亚-0-v2ray-150.230.199.99:8080
+  type: vmess
+  server: 150.230.199.99
+  network: ws
+  port: 8080
+  uuid: 15f9af40-73d6-4759-a5fc-b1d8a16ec6cf
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
 - name: 法国-0-0-v2ray-146.59.92.219:2096
   type: vmess
   server: 146.59.92.219
