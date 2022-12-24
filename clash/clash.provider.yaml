@@ -5,18 +5,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 日本-东京都-东京-ss-54.168.247.37:443
-  type: ss
-  server: 54.168.247.37
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 中国-广东-广州-ss-14.29.124.168:24005
-  type: ss
-  server: 14.29.124.168
-  port: 24005
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
 - name: 澳大利亚-0-0-ss-43.207.1.14:443
   type: ss
   server: 43.207.1.14
@@ -41,12 +29,6 @@ proxies:
   port: 24001
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 澳大利亚-0-0-ss-43.206.221.164:443
-  type: ss
-  server: 43.206.221.164
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 新加坡-0-0-ss-13.250.54.18:443
   type: ss
   server: 13.250.54.18
@@ -65,6 +47,18 @@ proxies:
   port: 34418
   cipher: chacha20-ietf-poly1305
   password: OIoLTApW9EjZWghiQvMcsFJSE
+- name: 日本-东京都-东京-ss-85.208.108.60:2376
+  type: ss
+  server: 85.208.108.60
+  port: 2376
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 新加坡-0-0-ss-18.142.183.235:443
+  type: ss
+  server: 18.142.183.235
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ssr-14.29.124.168:24005
   type: ssr
   server: 14.29.124.168
@@ -105,7 +99,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /p3573l6m92h1ham3q23t
-- name: 美国-加利福尼亚-旧金山-v2ray-awskr1.jiasub.xyz:8443
+- name: 美国-0-0-v2ray-awskr1.jiasub.xyz:8443
   type: vmess
   server: awskr1.jiasub.xyz
   network: ws
@@ -145,7 +139,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /zh-cn/download
-- name: 美国-加利福尼亚-旧金山-v2ray-jp-01.legeth.tk:80
+- name: 美国-0-0-v2ray-jp-01.legeth.tk:80
   type: vmess
   server: jp-01.legeth.tk
   network: ws
@@ -264,7 +258,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /graphql
-- name: 美国-加利福尼亚-旧金山-v2ray-awskr2.jiasub.xyz:8443
+- name: 美国-0-0-v2ray-awskr2.jiasub.xyz:8443
   type: vmess
   server: awskr2.jiasub.xyz
   network: ws
@@ -284,7 +278,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Download
-- name: 美国-0-0-v2ray-awsjp4.jiasub.xyz:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-awsjp4.jiasub.xyz:8443
   type: vmess
   server: awsjp4.jiasub.xyz
   network: ws
