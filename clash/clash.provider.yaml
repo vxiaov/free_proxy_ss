@@ -1,82 +1,50 @@
 proxies:
-- name: 日本-东京都-东京-ss-85.208.108.60:5004
-  type: ss
-  server: 85.208.108.60
-  port: 5004
-  cipher: aes-256-gcm
-  password: g5MeD6Ft3CWlJId
-- name: 日本-东京都-东京-ss-3.112.193.151:443
-  type: ss
-  server: 3.112.193.151
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.201.57.66:443
-  type: ss
-  server: 43.201.57.66
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.212.109.136:443
-  type: ss
-  server: 13.212.109.136
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 新加坡-0-0-ss-3.1.211.223:443
-  type: ss
-  server: 3.1.211.223
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 新加坡-0-0-ss-18.141.183.204:443
-  type: ss
-  server: 18.141.183.204
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.206.223.130:443
-  type: ss
-  server: 43.206.223.130
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 新加坡-0-0-ss-13.250.54.18:443
-  type: ss
-  server: 13.250.54.18
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 新加坡-0-0-ss-3.0.148.195:443
-  type: ss
-  server: 3.0.148.195
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-俄勒冈-0-ss-52.13.16.81:443
-  type: ss
-  server: 52.13.16.81
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 新加坡-0-0-ss-13.250.46.178:443
-  type: ss
-  server: 13.250.46.178
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 日本-东京都-东京-ss-54.168.247.37:443
-  type: ss
-  server: 54.168.247.37
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:24001
   type: ss
   server: 14.29.124.168
   port: 24001
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 澳大利亚-0-0-ss-43.206.240.30:443
+  type: ss
+  server: 43.206.240.30
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.201.86.30:443
+  type: ss
+  server: 43.201.86.30
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 荷兰-0-0-ss-194.26.229.90:34418
+  type: ss
+  server: 194.26.229.90
+  port: 34418
+  cipher: chacha20-ietf-poly1305
+  password: OIoLTApW9EjZWghiQvMcsFJSE
+- name: 日本-东京都-东京-ss-54.249.72.10:443
+  type: ss
+  server: 54.249.72.10
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.200.245.35:443
+  type: ss
+  server: 43.200.245.35
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 中国-广东-广州-ssr-14.29.124.168:24005
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24005
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 俄罗斯-0-0-v2ray-gcssg.sylu.cyou:443
   type: vmess
   server: gcssg.sylu.cyou
@@ -107,16 +75,6 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /das321
-- name: 美国-0-0-v2ray-tw-01.legeth.tk:80
-  type: vmess
-  server: tw-01.legeth.tk
-  network: ws
-  port: 80
-  uuid: eb23d569-7dc4-4fbe-a276-17c83305a39c
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
 - name: 美国-佐治亚-亚特兰大-v2ray-sg-lb.vhax.net:80
   type: vmess
   server: sg-lb.vhax.net
@@ -137,16 +95,6 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /zh-cn/download
-- name: 美国-0-0-v2ray-jp-01.legeth.tk:80
-  type: vmess
-  server: jp-01.legeth.tk
-  network: ws
-  port: 80
-  uuid: e5250de0-1b91-4c00-9561-ccbe977298af
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
 - name: 荷兰-阿姆斯特丹-阿姆斯特丹-v2ray-surongwei.eu.org:443
   type: vmess
   server: surongwei.eu.org
@@ -167,7 +115,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-au-01.legeth.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-au-01.legeth.tk:80
   type: vmess
   server: au-01.legeth.tk
   network: ws
@@ -207,26 +155,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 荷兰-0-0-v2ray-v10a.toddns.tk:80
-  type: vmess
-  server: v10a.toddns.tk
-  network: ws
-  port: 80
-  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
-  alterId: 0
-  cipher: auto
-  ws-path: /ZPKLSPJjLBEy
-- name: 美国-加利福尼亚-旧金山-v2ray-jp1.caoyyds.top:8443
-  type: vmess
-  server: jp1.caoyyds.top
-  network: ws
-  port: 8443
-  uuid: 1e74a724-8a33-480e-9337-903c3b9b05bc
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /cao
-- name: 美国-0-0-v2ray-us-02.legeth.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-us-02.legeth.tk:80
   type: vmess
   server: us-02.legeth.tk
   network: ws
@@ -236,25 +165,6 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 德国-Sachsen-0-v2ray-188.40.132.112:80
-  type: vmess
-  server: 188.40.132.112
-  network: ws
-  port: 80
-  uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246
-  alterId: 0
-  cipher: auto
-  ws-path: /p3573l6m92h1ham3q23t
-- name: 美国-加利福尼亚-旧金山-v2ray-v47.toddns.tk:80
-  type: vmess
-  server: v47.toddns.tk
-  network: ws
-  port: 80
-  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /v47-unlimitndxd
 - name: 美国-0-0-v2ray-51.81.220.34:80
   type: vmess
   server: 51.81.220.34
@@ -265,16 +175,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-0-0-v2ray-v47a.toddns.tk:80
-  type: vmess
-  server: v47a.toddns.tk
-  network: ws
-  port: 80
-  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
-  alterId: 0
-  cipher: auto
-  ws-path: /v47-unlimitndxd
-- name: 美国-加利福尼亚-旧金山-v2ray-us-01.legeth.tk:80
+- name: 美国-0-0-v2ray-us-01.legeth.tk:80
   type: vmess
   server: us-01.legeth.tk
   network: ws
@@ -304,16 +205,6 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-jp3.caoyyds.top:9009
-  type: vmess
-  server: jp3.caoyyds.top
-  network: ws
-  port: 9009
-  uuid: 1e74a724-8a33-480e-9337-903c3b9b05bc
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /cao
 - name: 美国-0-0-v2ray-fr-01.legeth.tk:80
   type: vmess
   server: fr-01.legeth.tk
