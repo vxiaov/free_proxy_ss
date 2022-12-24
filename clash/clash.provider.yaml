@@ -11,12 +11,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 新加坡-0-0-ss-3.0.148.195:443
-  type: ss
-  server: 3.0.148.195
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.200.245.35:443
   type: ss
   server: 43.200.245.35
@@ -59,6 +53,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 中国-广东-广州-ss-14.29.124.168:24005
+  type: ss
+  server: 14.29.124.168
+  port: 24005
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - name: 中国-广东-广州-ssr-14.29.124.168:24005
   type: ssr
   server: 14.29.124.168
@@ -89,7 +89,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /p3573l6m92h1ham3q23t
-- name: 美国-0-0-v2ray-awskr1.jiasub.xyz:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-awskr1.jiasub.xyz:8443
   type: vmess
   server: awskr1.jiasub.xyz
   network: ws
@@ -219,7 +219,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Download
-- name: 美国-0-0-v2ray-awsjp2.jiasub.xyz:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-awsjp2.jiasub.xyz:8443
   type: vmess
   server: awsjp2.jiasub.xyz
   network: ws
@@ -267,7 +267,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Download
-- name: 美国-0-0-v2ray-10us3.jiasub.xyz:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-10us3.jiasub.xyz:8443
   type: vmess
   server: 10us3.jiasub.xyz
   network: ws
