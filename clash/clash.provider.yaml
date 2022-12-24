@@ -215,6 +215,24 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 中国-广东-广州-ss-14.29.124.168:24005
+  type: ss
+  server: 14.29.124.168
+  port: 24005
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 澳大利亚-0-0-ss-43.201.57.66:443
+  type: ss
+  server: 43.201.57.66
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.206.240.30:443
+  type: ss
+  server: 43.206.240.30
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ssr-14.29.124.168:24001
   type: ssr
   server: 14.29.124.168
@@ -295,7 +313,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-au-01.legeth.tk:80
+- name: 美国-0-0-v2ray-au-01.legeth.tk:80
   type: vmess
   server: au-01.legeth.tk
   network: ws
@@ -305,6 +323,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 美国-德克萨斯-休斯顿-v2ray-hk80.sanfen001.pics:80
+  type: vmess
+  server: hk80.sanfen001.pics
+  network: ws
+  port: 80
+  uuid: a63b1080-1b4c-4c55-b073-aec6f5689d94
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /zh-cn/download
 - name: 新加坡-0-0-v2ray-51.79.144.35:80
   type: vmess
   server: 51.79.144.35
@@ -315,7 +343,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-加利福尼亚-旧金山-v2ray-us-02.legeth.tk:80
+- name: 美国-0-0-v2ray-us-02.legeth.tk:80
   type: vmess
   server: us-02.legeth.tk
   network: ws
@@ -345,7 +373,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-awsjp2.jiasub.xyz:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-awsjp2.jiasub.xyz:8443
   type: vmess
   server: awsjp2.jiasub.xyz
   network: ws
@@ -355,6 +383,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Download
+- name: 美国-加利福尼亚-旧金山-v2ray-fr-01.legeth.tk:80
+  type: vmess
+  server: fr-01.legeth.tk
+  network: ws
+  port: 80
+  uuid: eb23d569-7dc4-4fbe-a276-17c83305a39c
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
 - name: 法国-0-0-v2ray-146.59.92.219:2096
   type: vmess
   server: 146.59.92.219
