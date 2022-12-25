@@ -5,39 +5,9 @@ proxies:
   port: 24001
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 澳大利亚-0-0-ss-43.206.240.30:443
+- name: 澳大利亚-0-0-ss-43.201.57.66:443
   type: ss
-  server: 43.206.240.30
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.213.2.160:443
-  type: ss
-  server: 13.213.2.160
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 新加坡-0-0-ss-3.0.148.195:443
-  type: ss
-  server: 3.0.148.195
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 日本-东京都-东京-ss-54.249.72.10:443
-  type: ss
-  server: 54.249.72.10
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-俄勒冈-0-ss-52.13.16.81:443
-  type: ss
-  server: 52.13.16.81
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 新加坡-0-0-ss-3.1.211.223:443
-  type: ss
-  server: 3.1.211.223
+  server: 43.201.57.66
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -81,16 +51,6 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Falling42gcssgnode
-- name: 中国-0-0-v2ray-do5.yyhm9.com:443
-  type: vmess
-  server: do5.yyhm9.com
-  network: ws
-  port: 443
-  uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /das321
 - name: 美国-佐治亚-亚特兰大-v2ray-sg-lb.vhax.net:80
   type: vmess
   server: sg-lb.vhax.net
@@ -101,16 +61,25 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /sshkit/Ertusg86/635014638c264/
-- name: 美国-0-0-v2ray-sg-01.legeth.tk:80
+- name: 美国-0-0-v2ray-jp-01.legeth.tk:80
   type: vmess
-  server: sg-01.legeth.tk
+  server: jp-01.legeth.tk
   network: ws
   port: 80
-  uuid: eb23d569-7dc4-4fbe-a276-17c83305a39c
+  uuid: ef51cdb3-2170-4757-82d7-0c2bfd9c97db
+  alterId: 0
+  cipher: auto
+  ws-path: /
+- name: 日本-东京都-东京-v2ray-vjp1.0bad.com:443
+  type: vmess
+  server: vjp1.0bad.com
+  network: ws
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
   alterId: 4
   cipher: auto
-  tls: false
-  ws-path: /
+  tls: true
+  ws-path: /chat
 - name: 新加坡-0-0-v2ray-51.79.144.35:80
   type: vmess
   server: 51.79.144.35
@@ -121,16 +90,6 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-加利福尼亚-旧金山-v2ray-fr-01.legeth.tk:80
-  type: vmess
-  server: fr-01.legeth.tk
-  network: ws
-  port: 80
-  uuid: ef51cdb3-2170-4757-82d7-0c2bfd9c97db
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
 - name: 韩国-首尔-首尔-v2ray-13.125.24.112:49517
   type: vmess
   server: 13.125.24.112
@@ -140,16 +99,6 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /
-- name: 美国-0-0-v2ray-51.81.220.34:80
-  type: vmess
-  server: 51.81.220.34
-  network: ws
-  port: 80
-  uuid: 0842be25-d718-491a-bca8-5e9d080150e6
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /vmess
 - name: 美国-佐治亚-亚特兰大-v2ray-15.204.31.63:80
   type: vmess
   server: 15.204.31.63
@@ -170,26 +119,6 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Falling42gcoresgnode
-- name: 美国-0-0-v2ray-us-01.legeth.tk:80
-  type: vmess
-  server: us-01.legeth.tk
-  network: ws
-  port: 80
-  uuid: eb23d569-7dc4-4fbe-a276-17c83305a39c
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
-- name: 中国-0-0-v2ray-az.mvzaixian3.com:443
-  type: vmess
-  server: az.mvzaixian3.com
-  network: ws
-  port: 443
-  uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /das2
 - name: 韩国-首尔-首尔-v2ray-13.125.24.112:42517
   type: vmess
   server: 13.125.24.112
