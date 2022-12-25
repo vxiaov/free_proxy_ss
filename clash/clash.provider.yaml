@@ -1,7 +1,55 @@
 proxies:
-- name: 新加坡-0-0-ss-13.250.46.178:443
+- name: 新加坡-0-0-ss-18.141.183.204:443
   type: ss
-  server: 13.250.46.178
+  server: 18.141.183.204
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.206.223.130:443
+  type: ss
+  server: 43.206.223.130
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 日本-东京都-东京-ss-3.112.193.151:443
+  type: ss
+  server: 3.112.193.151
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.201.57.66:443
+  type: ss
+  server: 43.201.57.66
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-加利福尼亚-0-ss-176.122.186.117:18575
+  type: ss
+  server: 176.122.186.117
+  port: 18575
+  cipher: aes-256-gcm
+  password: sfWWeAKvY5mLYbfZ
+- name: 澳大利亚-0-0-ss-43.206.240.30:443
+  type: ss
+  server: 43.206.240.30
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 新加坡-0-0-ss-3.0.148.195:443
+  type: ss
+  server: 3.0.148.195
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 日本-东京都-东京-ss-54.249.72.10:443
+  type: ss
+  server: 54.249.72.10
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.201.86.30:443
+  type: ss
+  server: 43.201.86.30
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -55,7 +103,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /sshkit/Ertusg86/635014638c264/
-- name: 美国-加利福尼亚-旧金山-v2ray-jp-01.legeth.tk:80
+- name: 美国-0-0-v2ray-jp-01.legeth.tk:80
   type: vmess
   server: jp-01.legeth.tk
   network: ws
@@ -93,6 +141,16 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /
+- name: 中国-0-0-v2ray-do5.yyhm9.com:443
+  type: vmess
+  server: do5.yyhm9.com
+  network: ws
+  port: 443
+  uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /das321
 - name: 美国-佐治亚-亚特兰大-v2ray-15.204.31.63:80
   type: vmess
   server: 15.204.31.63
