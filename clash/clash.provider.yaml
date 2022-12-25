@@ -5,21 +5,9 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 日本-东京都-东京-ss-3.112.193.151:443
-  type: ss
-  server: 3.112.193.151
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 新加坡-0-0-ss-13.250.54.18:443
   type: ss
   server: 13.250.54.18
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.201.86.30:443
-  type: ss
-  server: 43.201.86.30
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -65,18 +53,6 @@ proxies:
   port: 24005
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 澳大利亚-0-0-ss-43.201.57.66:443
-  type: ss
-  server: 43.201.57.66
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.207.1.14:443
-  type: ss
-  server: 43.207.1.14
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 日本-东京都-东京-ss-85.208.108.60:5003
   type: ss
   server: 85.208.108.60
@@ -119,12 +95,6 @@ proxies:
   port: 8000
   cipher: aes-256-gcm
   password: KixLvKzwjekG00rm
-- name: 美国-康涅狄格-0-ss-13.213.2.160:443
-  type: ss
-  server: 13.213.2.160
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 日本-东京都-东京-ss-85.208.108.60:5004
   type: ss
   server: 85.208.108.60
@@ -155,12 +125,6 @@ proxies:
   port: 5500
   cipher: aes-256-gcm
   password: KixLvKzwjekG00rm
-- name: 澳大利亚-0-0-ss-43.200.245.35:443
-  type: ss
-  server: 43.200.245.35
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 日本-东京都-东京-ss-85.208.108.60:5000
   type: ss
   server: 85.208.108.60
@@ -197,16 +161,30 @@ proxies:
   port: 9101
   cipher: aes-256-gcm
   password: e4FCWrgpkji3QY
-- name: 中国-广东-广州-ssr-14.29.124.168:24000
-  type: ssr
+- name: 澳大利亚-0-0-ss-43.206.240.30:443
+  type: ss
+  server: 43.206.240.30
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 日本-东京都-东京-ss-54.249.72.10:443
+  type: ss
+  server: 54.249.72.10
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 中国-广东-广州-ss-14.29.124.168:24001
+  type: ss
   server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  obfs: plain
-  protocol: origin
-  port: 24000
+  port: 24001
   cipher: aes-128-cfb
-  protocol-param: ''
-  obfs-param: ''
+  password: QazEdcTgb159@$*
+- name: 日本-东京都-东京-ss-54.168.247.37:443
+  type: ss
+  server: 54.168.247.37
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ssr-14.29.124.168:24001
   type: ssr
   server: 14.29.124.168
@@ -214,6 +192,16 @@ proxies:
   obfs: plain
   protocol: origin
   port: 24001
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 中国-广东-广州-ssr-14.29.124.168:24005
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24005
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
@@ -267,7 +255,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /sshkit/Ertusg86/635014638c264/
-- name: 美国-0-0-v2ray-v47a.toddns.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-v47a.toddns.tk:80
   type: vmess
   server: v47a.toddns.tk
   network: ws
@@ -295,7 +283,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-au-01.legeth.tk:80
+- name: 美国-0-0-v2ray-au-01.legeth.tk:80
   type: vmess
   server: au-01.legeth.tk
   network: ws
@@ -334,7 +322,26 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /zingfast/
-- name: 美国-0-0-v2ray-us-02.legeth.tk:80
+- name: 美国-德克萨斯-0-v2ray-159.223.80.40:80
+  type: vmess
+  server: 159.223.80.40
+  network: ws
+  port: 80
+  uuid: 5612c06f-d0c1-4c86-aacf-10e1bfaa4254
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /zingfast/
+- name: 韩国-首尔-首尔-v2ray-13.125.24.112:42517
+  type: vmess
+  server: 13.125.24.112
+  network: ws
+  port: 42517
+  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
+  alterId: 0
+  cipher: auto
+  ws-path: /
+- name: 美国-加利福尼亚-旧金山-v2ray-us-02.legeth.tk:80
   type: vmess
   server: us-02.legeth.tk
   network: ws
@@ -393,7 +400,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Falling42gcoresgnode
-- name: 美国-加利福尼亚-旧金山-v2ray-us-01.legeth.tk:80
+- name: 美国-0-0-v2ray-us-01.legeth.tk:80
   type: vmess
   server: us-01.legeth.tk
   network: ws
@@ -422,7 +429,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /zingfast/
-- name: 美国-加利福尼亚-旧金山-v2ray-v47.toddns.tk:80
+- name: 美国-0-0-v2ray-v47.toddns.tk:80
   type: vmess
   server: v47.toddns.tk
   network: ws
@@ -432,7 +439,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /v47-unlimitndxd
-- name: 美国-0-0-v2ray-fr-01.legeth.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-fr-01.legeth.tk:80
   type: vmess
   server: fr-01.legeth.tk
   network: ws
