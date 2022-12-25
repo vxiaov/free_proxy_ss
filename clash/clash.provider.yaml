@@ -1,42 +1,42 @@
 proxies:
-- name: 中国-广东-广州-ss-14.29.124.168:24005
-  type: ss
-  server: 14.29.124.168
-  port: 24005
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 日本-东京都-东京-ss-85.208.108.60:7307
-  type: ss
-  server: 85.208.108.60
-  port: 7307
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
 - name: 中国-广东-广州-ss-14.29.124.168:24001
   type: ss
   server: 14.29.124.168
   port: 24001
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 中国-广东-广州-ssr-14.29.124.168:24000
+- name: 澳大利亚-0-0-ss-43.201.86.30:443
+  type: ss
+  server: 43.201.86.30
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 新加坡-0-0-ss-13.250.46.178:443
+  type: ss
+  server: 13.250.46.178
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 中国-广东-广州-ssr-14.29.124.168:24001
   type: ssr
   server: 14.29.124.168
   password: QazEdcTgb159@$*
   obfs: plain
   protocol: origin
-  port: 24000
+  port: 24001
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 美国-马萨诸塞-0-v2ray-hk80-2.sanfen001.pics:80
+- name: 美国-德克萨斯-达拉斯-v2ray-hkg.mooooobai.top:21229
   type: vmess
-  server: hk80-2.sanfen001.pics
+  server: hkg.mooooobai.top
   network: ws
-  port: 80
-  uuid: cd1d82d9-253c-44a7-9b2f-94c8d80b49c7
+  port: 21229
+  uuid: 7000f68f-cbcb-31e1-9cb4-897803f2edc3
   alterId: 4
   cipher: auto
   tls: false
-  ws-path: /zh-cn/download
+  ws-path: /
 - name: 美国-亚利桑那-凤凰城-v2ray-97.74.86.86:7654
   type: vmess
   server: 97.74.86.86
@@ -77,35 +77,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /sshkit/Ertusg86/635014638c264/
-- name: 美国-加利福尼亚-旧金山-v2ray-v47a.toddns.tk:80
-  type: vmess
-  server: v47a.toddns.tk
-  network: ws
-  port: 80
-  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
-  alterId: 0
-  cipher: auto
-  ws-path: /v47-unlimitndxd
-- name: 新加坡-0-0-v2ray-128.199.139.36:80
-  type: vmess
-  server: 128.199.139.36
-  network: ws
-  port: 80
-  uuid: 5612c06f-d0c1-4c86-aacf-10e1bfaa4254
-  alterId: 0
-  cipher: auto
-  ws-path: /zingfast/
-- name: 美国-亚利桑那-凤凰城-v2ray-97.74.86.186:15477
-  type: vmess
-  server: 97.74.86.186
-  network: ws
-  port: 15477
-  uuid: be6af055-a7ff-6faa-0cbb-f48ac6a777af
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-au-01.legeth.tk:80
+- name: 美国-0-0-v2ray-au-01.legeth.tk:80
   type: vmess
   server: au-01.legeth.tk
   network: ws
@@ -115,7 +87,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-sg-01.legeth.tk:80
+- name: 美国-0-0-v2ray-sg-01.legeth.tk:80
   type: vmess
   server: sg-01.legeth.tk
   network: ws
@@ -135,53 +107,15 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-德克萨斯-0-v2ray-159.223.194.122:80
-  type: vmess
-  server: 159.223.194.122
-  network: ws
-  port: 80
-  uuid: 5612c06f-d0c1-4c86-aacf-10e1bfaa4254
-  alterId: 0
-  cipher: auto
-  ws-path: /zingfast/
-- name: 美国-德克萨斯-0-v2ray-159.223.80.40:80
-  type: vmess
-  server: 159.223.80.40
-  network: ws
-  port: 80
-  uuid: 5612c06f-d0c1-4c86-aacf-10e1bfaa4254
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /zingfast/
-- name: 韩国-首尔-首尔-v2ray-13.125.24.112:42517
+- name: 韩国-首尔-首尔-v2ray-13.125.24.112:49517
   type: vmess
   server: 13.125.24.112
   network: ws
-  port: 42517
+  port: 49517
   uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
   alterId: 0
   cipher: auto
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-us-02.legeth.tk:80
-  type: vmess
-  server: us-02.legeth.tk
-  network: ws
-  port: 80
-  uuid: ef51cdb3-2170-4757-82d7-0c2bfd9c97db
-  alterId: 0
-  cipher: auto
-  ws-path: /
-- name: 美国-纽约-纽约-v2ray-24.199.92.121:80
-  type: vmess
-  server: 24.199.92.121
-  network: ws
-  port: 80
-  uuid: 5612c06f-d0c1-4c86-aacf-10e1bfaa4254
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /zingfast/
 - name: 美国-0-0-v2ray-51.81.220.34:80
   type: vmess
   server: 51.81.220.34
@@ -212,7 +146,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Falling42gcoresgnode
-- name: 美国-加利福尼亚-旧金山-v2ray-us-01.legeth.tk:80
+- name: 美国-0-0-v2ray-us-01.legeth.tk:80
   type: vmess
   server: us-01.legeth.tk
   network: ws
@@ -232,34 +166,14 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /das2
-- name: 新加坡-0-0-v2ray-165.22.105.43:80
+- name: 韩国-首尔-首尔-v2ray-13.125.24.112:42517
   type: vmess
-  server: 165.22.105.43
+  server: 13.125.24.112
   network: ws
-  port: 80
-  uuid: 5612c06f-d0c1-4c86-aacf-10e1bfaa4254
+  port: 42517
+  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
   alterId: 0
   cipher: auto
-  ws-path: /zingfast/
-- name: 美国-加利福尼亚-旧金山-v2ray-v47.toddns.tk:80
-  type: vmess
-  server: v47.toddns.tk
-  network: ws
-  port: 80
-  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /v47-unlimitndxd
-- name: 美国-0-0-v2ray-fr-01.legeth.tk:80
-  type: vmess
-  server: fr-01.legeth.tk
-  network: ws
-  port: 80
-  uuid: eb23d569-7dc4-4fbe-a276-17c83305a39c
-  alterId: 4
-  cipher: auto
-  tls: false
   ws-path: /
 - name: 法国-0-0-v2ray-146.59.92.219:2096
   type: vmess
@@ -270,13 +184,3 @@ proxies:
   alterId: '0'
   cipher: auto
   ws-path: ''
-- name: 美国-伊利诺伊-0-v2ray-170.64.128.161:80
-  type: vmess
-  server: 170.64.128.161
-  network: ws
-  port: 80
-  uuid: 5612c06f-d0c1-4c86-aacf-10e1bfaa4254
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /zingfast/
