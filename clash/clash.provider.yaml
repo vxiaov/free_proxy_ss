@@ -23,48 +23,18 @@ proxies:
   port: 32025
   cipher: chacha20-ietf-poly1305
   password: 5393f4a9-dff5-4c7e-a7ae-5e3f39a9c933
-- name: 澳大利亚-0-0-ss-43.206.223.130:443
-  type: ss
-  server: 43.206.223.130
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 日本-东京都-东京-ss-3.112.193.151:443
-  type: ss
-  server: 3.112.193.151
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:24005
   type: ss
   server: 14.29.124.168
   port: 24005
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 澳大利亚-0-0-ss-43.201.57.66:443
+- name: 中国-浙江-台州-ss-a.karyl.cc:32014
   type: ss
-  server: 43.201.57.66
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.213.2.160:443
-  type: ss
-  server: 13.213.2.160
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 新加坡-0-0-ss-13.250.54.18:443
-  type: ss
-  server: 13.250.54.18
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.200.245.35:443
-  type: ss
-  server: 43.200.245.35
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
+  server: a.karyl.cc
+  port: 32014
+  cipher: chacha20-ietf-poly1305
+  password: 5393f4a9-dff5-4c7e-a7ae-5e3f39a9c933
 - name: 澳大利亚-0-0-ss-43.201.86.30:443
   type: ss
   server: 43.201.86.30
@@ -95,18 +65,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 新加坡-0-0-ss-18.141.183.204:443
-  type: ss
-  server: 18.141.183.204
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 中国-广东-广州-ss-14.29.124.168:24001
-  type: ss
-  server: 14.29.124.168
-  port: 24001
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
 - name: 中国-广东-广州-ssr-14.29.124.168:24005
   type: ssr
   server: 14.29.124.168
@@ -114,6 +72,16 @@ proxies:
   obfs: plain
   protocol: origin
   port: 24005
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 中国-广东-广州-ssr-14.29.124.168:24000
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24000
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
@@ -137,15 +105,6 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 澳大利亚-0-0-v2ray-hk80-2.sanfen001.pics:80
-  type: vmess
-  server: hk80-2.sanfen001.pics
-  network: ws
-  port: 80
-  uuid: cd1d82d9-253c-44a7-9b2f-94c8d80b49c7
-  alterId: 0
-  cipher: auto
-  ws-path: /zh-cn/download
 - name: 中国-0-0-v2ray-do5.yyhm9.com:443
   type: vmess
   server: do5.yyhm9.com
@@ -166,6 +125,15 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /sshkit/Ertusg86/635014638c264/
+- name: 德国-法兰克福-法兰克福-v2ray-165.227.175.88:28164
+  type: vmess
+  server: 165.227.175.88
+  network: ws
+  port: 28164
+  uuid: eba8ccf5-5ab9-4b6b-de4b-83ab920c1005
+  alterId: '0'
+  cipher: auto
+  ws-path: ''
 - name: 美国-0-0-v2ray-v47a.toddns.tk:80
   type: vmess
   server: v47a.toddns.tk
@@ -175,6 +143,24 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /v47-unlimitndxd
+- name: 韩国-首尔-首尔-v2ray-13.125.24.112:49517
+  type: vmess
+  server: 13.125.24.112
+  network: ws
+  port: 49517
+  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
+  alterId: 0
+  cipher: auto
+  ws-path: /
+- name: 新加坡-0-0-v2ray-128.199.139.36:80
+  type: vmess
+  server: 128.199.139.36
+  network: ws
+  port: 80
+  uuid: 5612c06f-d0c1-4c86-aacf-10e1bfaa4254
+  alterId: 0
+  cipher: auto
+  ws-path: /zingfast/
 - name: 美国-亚利桑那-凤凰城-v2ray-97.74.86.186:15477
   type: vmess
   server: 97.74.86.186
@@ -185,7 +171,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-au-01.legeth.tk:80
+- name: 美国-0-0-v2ray-au-01.legeth.tk:80
   type: vmess
   server: au-01.legeth.tk
   network: ws
@@ -205,16 +191,6 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-德克萨斯-休斯顿-v2ray-hk80.sanfen001.pics:80
-  type: vmess
-  server: hk80.sanfen001.pics
-  network: ws
-  port: 80
-  uuid: a63b1080-1b4c-4c55-b073-aec6f5689d94
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /zh-cn/download
 - name: 新加坡-0-0-v2ray-51.79.144.35:80
   type: vmess
   server: 51.79.144.35
@@ -234,35 +210,15 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /zingfast/
-- name: 日本-东京都-东京-v2ray-vjp1.0bad.com:443
+- name: 荷兰-Flevoland-0-v2ray-5.255.112.158:19182
   type: vmess
-  server: vjp1.0bad.com
+  server: 5.255.112.158
   network: ws
-  port: 443
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 4
+  port: 19182
+  uuid: 8f11ba8c-a72b-47df-a783-2490205ff10f
+  alterId: '0'
   cipher: auto
-  tls: true
-  ws-path: /chat
-- name: 新加坡-0-0-v2ray-206.189.61.143:80
-  type: vmess
-  server: 206.189.61.143
-  network: ws
-  port: 80
-  uuid: 8626e5b2-4bcd-49a7-b70d-8f270b5266ea
-  alterId: 0
-  cipher: auto
-  ws-path: /worryfree/ntls
-- name: 美国-加利福尼亚-旧金山-v2ray-us-02.legeth.tk:80
-  type: vmess
-  server: us-02.legeth.tk
-  network: ws
-  port: 80
-  uuid: eb23d569-7dc4-4fbe-a276-17c83305a39c
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
+  ws-path: ''
 - name: 美国-纽约-纽约-v2ray-24.199.92.121:80
   type: vmess
   server: 24.199.92.121
@@ -273,7 +229,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /zingfast/
-- name: 美国-加利福尼亚-旧金山-v2ray-mm3.pianyijc.top:443
+- name: 美国-0-0-v2ray-mm3.pianyijc.top:443
   type: vmess
   server: mm3.pianyijc.top
   network: ws
@@ -313,7 +269,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Falling42gcoresgnode
-- name: 美国-0-0-v2ray-us-01.legeth.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-us-01.legeth.tk:80
   type: vmess
   server: us-01.legeth.tk
   network: ws
@@ -342,7 +298,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /zingfast/
-- name: 美国-0-0-v2ray-v47.toddns.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-v47.toddns.tk:80
   type: vmess
   server: v47.toddns.tk
   network: ws
@@ -352,7 +308,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /v47-unlimitndxd
-- name: 美国-加利福尼亚-旧金山-v2ray-fr-01.legeth.tk:80
+- name: 美国-0-0-v2ray-fr-01.legeth.tk:80
   type: vmess
   server: fr-01.legeth.tk
   network: ws
@@ -362,6 +318,15 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 法国-0-0-v2ray-146.59.92.219:2096
+  type: vmess
+  server: 146.59.92.219
+  network: ws
+  port: 2096
+  uuid: aca71b13-ec8a-466d-c28f-43516d3cf246
+  alterId: '0'
+  cipher: auto
+  ws-path: ''
 - name: 美国-伊利诺伊-0-v2ray-170.64.128.161:80
   type: vmess
   server: 170.64.128.161
