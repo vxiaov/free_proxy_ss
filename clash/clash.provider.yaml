@@ -59,45 +59,9 @@ proxies:
   port: 20233
   cipher: chacha20-ietf-poly1305
   password: fa337b21-b80c-4add-8235-a9d0996d371d
-- name: 美国-康涅狄格-0-ss-13.213.2.160:443
+- name: 澳大利亚-0-0-ss-43.201.57.66:443
   type: ss
-  server: 13.213.2.160
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 新加坡-0-0-ss-3.0.148.195:443
-  type: ss
-  server: 3.0.148.195
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 日本-东京都-东京-ss-54.249.72.10:443
-  type: ss
-  server: 54.249.72.10
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.200.245.35:443
-  type: ss
-  server: 43.200.245.35
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-俄勒冈-0-ss-52.13.16.81:443
-  type: ss
-  server: 52.13.16.81
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 新加坡-0-0-ss-13.250.46.178:443
-  type: ss
-  server: 13.250.46.178
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 新加坡-0-0-ss-3.1.211.223:443
-  type: ss
-  server: 3.1.211.223
+  server: 43.201.57.66
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -218,6 +182,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Falling42gcoresgnode
+- name: 波兰-0-0-v2ray-188.116.22.171:80
+  type: vmess
+  server: 188.116.22.171
+  network: ws
+  port: 80
+  uuid: 3c6c608d-68c0-4782-86ac-98ea1ada3a25
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /vmess
 - name: 美国-0-0-v2ray-51.81.220.34:80
   type: vmess
   server: 51.81.220.34
@@ -257,7 +231,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-0-0-v2ray-do-sg-2.heima-bot.tech:2082
+- name: 美国-加利福尼亚-旧金山-v2ray-do-sg-2.heima-bot.tech:2082
   type: vmess
   server: do-sg-2.heima-bot.tech
   network: ws
