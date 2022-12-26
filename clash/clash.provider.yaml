@@ -5,6 +5,24 @@ proxies:
   port: 24001
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 新加坡-0-0-ss-18.142.183.235:443
+  type: ss
+  server: 18.142.183.235
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-康涅狄格-0-ss-13.213.2.160:443
+  type: ss
+  server: 13.213.2.160
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 新加坡-0-0-ss-3.0.148.195:443
+  type: ss
+  server: 3.0.148.195
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ssr-14.29.124.168:24001
   type: ssr
   server: 14.29.124.168
@@ -35,7 +53,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /sshkit/Ertusg86/635014638c264/
-- name: 美国-加利福尼亚-旧金山-v2ray-v2ray.ibgfw.top:2083
+- name: 美国-0-0-v2ray-v2ray.ibgfw.top:2083
   type: vmess
   server: v2ray.ibgfw.top
   network: ws
@@ -45,6 +63,26 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /PK9sTRVt/
+- name: 中国-上海-上海-v2ray-pfgo.zone.legeth.net:14401
+  type: vmess
+  server: pfgo.zone.legeth.net
+  network: ws
+  port: 14401
+  uuid: 0c1324d6-fe1c-4524-88f9-aa01f4f763a6
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 新加坡-0-0-v2ray-sg04.170203.xyz:43543
+  type: vmess
+  server: sg04.170203.xyz
+  network: ws
+  port: 43543
+  uuid: 71f69f19-e27d-4ba4-b7dc-e06a7181c7e4
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: ''
 - name: 中国-湖南-长沙-v2ray-ctcs.hffb.xyz:30018
   type: vmess
   server: ctcs.hffb.xyz
@@ -85,7 +123,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-纽约-纽约-v2ray-sg.fuzzypn.me:80
+- name: 新加坡-0-0-v2ray-sg.fuzzypn.me:80
   type: vmess
   server: sg.fuzzypn.me
   network: ws
@@ -115,7 +153,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-0-0-v2ray-do-sg-2.heima-bot.tech:2082
+- name: 美国-加利福尼亚-旧金山-v2ray-do-sg-2.heima-bot.tech:2082
   type: vmess
   server: do-sg-2.heima-bot.tech
   network: ws
