@@ -5,18 +5,54 @@ proxies:
   port: 50137
   cipher: chacha20-ietf-poly1305
   password: a54aa618-faf0-4e85-a8ff-13072ac113b3
-- name: 新加坡-0-0-ss-18.141.183.204:443
+- name: 中国-0-0-ss-iepl.suke.wiki:20245
   type: ss
-  server: 18.141.183.204
+  server: iepl.suke.wiki
+  port: 20245
+  cipher: chacha20-ietf-poly1305
+  password: fa337b21-b80c-4add-8235-a9d0996d371d
+- name: 日本-东京都-东京-ss-3.112.193.151:443
+  type: ss
+  server: 3.112.193.151
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.201.57.66:443
+- name: 中国-北京-北京-ss-hwbgp.cndns.shop:20223
   type: ss
-  server: 43.201.57.66
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
+  server: hwbgp.cndns.shop
+  port: 20223
+  cipher: chacha20-ietf-poly1305
+  password: fa337b21-b80c-4add-8235-a9d0996d371d
+- name: 中国-0-0-ss-iepl.suke.wiki:20402
+  type: ss
+  server: iepl.suke.wiki
+  port: 20402
+  cipher: chacha20-ietf-poly1305
+  password: fa337b21-b80c-4add-8235-a9d0996d371d
+- name: 中国-0-0-ss-iepl.suke.wiki:20231
+  type: ss
+  server: iepl.suke.wiki
+  port: 20231
+  cipher: chacha20-ietf-poly1305
+  password: fa337b21-b80c-4add-8235-a9d0996d371d
+- name: 中国-广东-深圳-ss-sukev-hainans.cndns.shop:20773
+  type: ss
+  server: sukev-hainans.cndns.shop
+  port: 20773
+  cipher: chacha20-ietf-poly1305
+  password: fa337b21-b80c-4add-8235-a9d0996d371d
+- name: 中国-0-0-ss-iepl.suke.wiki:20241
+  type: ss
+  server: iepl.suke.wiki
+  port: 20241
+  cipher: chacha20-ietf-poly1305
+  password: fa337b21-b80c-4add-8235-a9d0996d371d
+- name: 中国-0-0-ss-iepl.suke.wiki:20401
+  type: ss
+  server: iepl.suke.wiki
+  port: 20401
+  cipher: chacha20-ietf-poly1305
+  password: fa337b21-b80c-4add-8235-a9d0996d371d
 - name: 中国-广东-广州-ssr-14.29.124.168:24001
   type: ssr
   server: 14.29.124.168
@@ -57,7 +93,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /sshkit/Ertusg86/635014638c264/
-- name: 美国-0-0-v2ray-v2ray.ibgfw.top:2083
+- name: 美国-加利福尼亚-旧金山-v2ray-v2ray.ibgfw.top:2083
   type: vmess
   server: v2ray.ibgfw.top
   network: ws
@@ -67,6 +103,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /PK9sTRVt/
+- name: 美国-加利福尼亚-旧金山-v2ray-do-2.heima-bot.tech:2082
+  type: vmess
+  server: do-2.heima-bot.tech
+  network: ws
+  port: 2082
+  uuid: e3fa5050-67f5-4625-a778-5d9283f4334f
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /m2
 - name: 荷兰-0-0-v2ray-v10a.toddns.tk:80
   type: vmess
   server: v10a.toddns.tk
@@ -150,6 +196,16 @@ proxies:
 - name: 美国-德克萨斯-休斯顿-v2ray-hk80.sanfen001.pics:80
   type: vmess
   server: hk80.sanfen001.pics
+  network: ws
+  port: 80
+  uuid: cd1d82d9-253c-44a7-9b2f-94c8d80b49c7
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /zh-cn/download
+- name: 美国-0-0-v2ray-hk80-2.sanfen001.pics:80
+  type: vmess
+  server: hk80-2.sanfen001.pics
   network: ws
   port: 80
   uuid: cd1d82d9-253c-44a7-9b2f-94c8d80b49c7
