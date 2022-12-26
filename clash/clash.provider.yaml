@@ -1,4 +1,16 @@
 proxies:
+- name: 中国-上海-上海-ss-v3meltransfer.lineshort.xyz:50137
+  type: ss
+  server: v3meltransfer.lineshort.xyz
+  port: 50137
+  cipher: chacha20-ietf-poly1305
+  password: a54aa618-faf0-4e85-a8ff-13072ac113b3
+- name: 中国-广东-广州-ss-14.29.124.168:24001
+  type: ss
+  server: 14.29.124.168
+  port: 24001
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - name: 中国-广东-广州-ssr-14.29.124.168:24008
   type: ssr
   server: 14.29.124.168
@@ -39,7 +51,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /sshkit/Ertusg86/635014638c264/
-- name: 美国-加利福尼亚-旧金山-v2ray-v2ray.ibgfw.top:2083
+- name: 美国-0-0-v2ray-v2ray.ibgfw.top:2083
   type: vmess
   server: v2ray.ibgfw.top
   network: ws
