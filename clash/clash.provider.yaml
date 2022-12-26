@@ -11,12 +11,6 @@ proxies:
   port: 20245
   cipher: chacha20-ietf-poly1305
   password: fa337b21-b80c-4add-8235-a9d0996d371d
-- name: 中国-北京-北京-ss-hwbgp.cndns.shop:20223
-  type: ss
-  server: hwbgp.cndns.shop
-  port: 20223
-  cipher: chacha20-ietf-poly1305
-  password: fa337b21-b80c-4add-8235-a9d0996d371d
 - name: 中国-0-0-ss-iepl.suke.wiki:20402
   type: ss
   server: iepl.suke.wiki
@@ -41,12 +35,6 @@ proxies:
   port: 20401
   cipher: chacha20-ietf-poly1305
   password: fa337b21-b80c-4add-8235-a9d0996d371d
-- name: 中国-北京-北京-ss-hwbgp.cndns.shop:20222
-  type: ss
-  server: hwbgp.cndns.shop
-  port: 20222
-  cipher: chacha20-ietf-poly1305
-  password: fa337b21-b80c-4add-8235-a9d0996d371d
 - name: 中国-0-0-ss-iepl.suke.wiki:20243
   type: ss
   server: iepl.suke.wiki
@@ -59,30 +47,18 @@ proxies:
   port: 20235
   cipher: chacha20-ietf-poly1305
   password: fa337b21-b80c-4add-8235-a9d0996d371d
-- name: 中国-北京-北京-ss-hwbgp.cndns.shop:20221
-  type: ss
-  server: hwbgp.cndns.shop
-  port: 20221
-  cipher: chacha20-ietf-poly1305
-  password: fa337b21-b80c-4add-8235-a9d0996d371d
 - name: 中国-0-0-ss-iepl.suke.wiki:20403
   type: ss
   server: iepl.suke.wiki
   port: 20403
   cipher: chacha20-ietf-poly1305
   password: fa337b21-b80c-4add-8235-a9d0996d371d
-- name: 澳大利亚-0-0-ss-43.206.240.30:443
+- name: 中国-0-0-ss-iepl.suke.wiki:20233
   type: ss
-  server: 43.206.240.30
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 新加坡-0-0-ss-3.1.211.223:443
-  type: ss
-  server: 3.1.211.223
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
+  server: iepl.suke.wiki
+  port: 20233
+  cipher: chacha20-ietf-poly1305
+  password: fa337b21-b80c-4add-8235-a9d0996d371d
 - name: 美国-康涅狄格-0-ss-13.213.2.160:443
   type: ss
   server: 13.213.2.160
@@ -119,16 +95,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-广东-广州-ssr-14.29.124.168:24001
-  type: ssr
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  obfs: plain
-  protocol: origin
-  port: 24001
-  cipher: aes-128-cfb
-  protocol-param: ''
-  obfs-param: ''
+- name: 新加坡-0-0-ss-3.1.211.223:443
+  type: ss
+  server: 3.1.211.223
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 俄罗斯-0-0-v2ray-gcssg.sylu.cyou:443
   type: vmess
   server: gcssg.sylu.cyou
@@ -139,6 +111,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Falling42gcssgnode
+- name: 土耳其-0-0-v2ray-212.64.193.83:34162
+  type: vmess
+  server: 212.64.193.83
+  network: ws
+  port: 34162
+  uuid: 7cf5af29-7bc3-44b6-9269-dd67f295def3
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
 - name: 澳大利亚-0-0-v2ray-get.iqslocker.com:443
   type: vmess
   server: get.iqslocker.com
@@ -159,7 +141,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /sshkit/Ertusg86/635014638c264/
-- name: 美国-加利福尼亚-旧金山-v2ray-v2ray.ibgfw.top:2083
+- name: 美国-0-0-v2ray-v2ray.ibgfw.top:2083
   type: vmess
   server: v2ray.ibgfw.top
   network: ws
@@ -169,26 +151,35 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /PK9sTRVt/
-- name: 美国-0-0-v2ray-do-2.heima-bot.tech:2082
+- name: 日本-东京都-东京-v2ray-v-aws-tk-4.heima-bot.tech:7772
   type: vmess
-  server: do-2.heima-bot.tech
+  server: v-aws-tk-4.heima-bot.tech
   network: ws
-  port: 2082
+  port: 7772
   uuid: e3fa5050-67f5-4625-a778-5d9283f4334f
   alterId: 4
   cipher: auto
   tls: false
-  ws-path: /m2
-- name: 荷兰-0-0-v2ray-v10a.toddns.tk:80
+  ws-path: /m3
+- name: 美国-0-0-v2ray-38.54.89.67:80
   type: vmess
-  server: v10a.toddns.tk
+  server: 38.54.89.67
   network: ws
   port: 80
-  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  uuid: 317722d3-baf5-4932-bd0d-aaeacb52e0b0
   alterId: 4
   cipher: auto
   tls: false
-  ws-path: /fr-unlimitxxx
+  ws-path: /sshocean
+- name: 美国-加利福尼亚-0-v2ray-204.15.74.75:11023
+  type: vmess
+  server: 204.15.74.75
+  network: ws
+  port: 11023
+  uuid: 713a91c6-e123-461c-a205-94a37796c791
+  alterId: '0'
+  cipher: auto
+  ws-path: ''
 - name: 新加坡-0-0-v2ray-51.79.144.35:80
   type: vmess
   server: 51.79.144.35
@@ -199,6 +190,24 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
+- name: 德国-法兰克福-法兰克福-v2ray-165.227.175.88:28164
+  type: vmess
+  server: 165.227.175.88
+  network: ws
+  port: 28164
+  uuid: eba8ccf5-5ab9-4b6b-de4b-83ab920c1005
+  alterId: '0'
+  cipher: auto
+  ws-path: ''
+- name: 法国-0-0-v2ray-51.77.158.169:2096
+  type: vmess
+  server: 51.77.158.169
+  network: ws
+  port: 2096
+  uuid: c92fd902-b5d3-4208-bb48-630b1c7babea
+  alterId: '0'
+  cipher: auto
+  ws-path: ''
 - name: 俄罗斯-列宁格勒-圣彼得堡-v2ray-gcoresg.sylu.cyou:443
   type: vmess
   server: gcoresg.sylu.cyou
@@ -209,16 +218,6 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Falling42gcoresgnode
-- name: 英国-伦敦-伦敦-v2ray-do3.yyhm9.com:443
-  type: vmess
-  server: do3.yyhm9.com
-  network: ws
-  port: 443
-  uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /das212
 - name: 美国-0-0-v2ray-51.81.220.34:80
   type: vmess
   server: 51.81.220.34
@@ -229,15 +228,6 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-加利福尼亚-圣何塞-v2ray-152.67.254.16:43815
-  type: vmess
-  server: 152.67.254.16
-  network: ws
-  port: 43815
-  uuid: 7a9f026f-f7a8-40ca-f2f9-3b380c287c0d
-  alterId: 0
-  cipher: auto
-  ws-path: /abc
 - name: 中国-0-0-v2ray-do5.yyhm9.com:443
   type: vmess
   server: do5.yyhm9.com
@@ -258,26 +248,45 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-德克萨斯-休斯顿-v2ray-hk80.sanfen001.pics:80
+- name: 美国-0-0-v2ray-do-sg-2.heima-bot.tech:2082
   type: vmess
-  server: hk80.sanfen001.pics
+  server: do-sg-2.heima-bot.tech
   network: ws
-  port: 80
-  uuid: cd1d82d9-253c-44a7-9b2f-94c8d80b49c7
+  port: 2082
+  uuid: e3fa5050-67f5-4625-a778-5d9283f4334f
   alterId: 4
   cipher: auto
   tls: false
-  ws-path: /zh-cn/download
-- name: 美国-0-0-v2ray-hk80-2.sanfen001.pics:80
+  ws-path: /m3
+- name: 美国-德克萨斯-0-v2ray-159.223.89.233:11451
   type: vmess
-  server: hk80-2.sanfen001.pics
+  server: 159.223.89.233
   network: ws
-  port: 80
-  uuid: cd1d82d9-253c-44a7-9b2f-94c8d80b49c7
+  port: 11451
+  uuid: d57d3206-d398-449e-b637-19471a3943e4
   alterId: 4
   cipher: auto
   tls: false
-  ws-path: /zh-cn/download
+  ws-path: /ws
+- name: 美国-加利福尼亚-旧金山-v2ray-awsjp1.jiasub.xyz:8443
+  type: vmess
+  server: awsjp1.jiasub.xyz
+  network: ws
+  port: 8443
+  uuid: 6b3244a3-44ca-3ef2-b40f-90c1bfae7dac
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /Download
+- name: 印度-卡纳塔克-班加罗尔-v2ray-68.183.83.94:59477
+  type: vmess
+  server: 68.183.83.94
+  network: ws
+  port: 59477
+  uuid: b8f6a71c-6925-4e84-fb93-6e54f8d98b25
+  alterId: '0'
+  cipher: auto
+  ws-path: ''
 - name: 法国-0-0-v2ray-146.59.92.219:2096
   type: vmess
   server: 146.59.92.219
