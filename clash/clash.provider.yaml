@@ -41,12 +41,6 @@ proxies:
   port: 7307
   cipher: aes-256-gcm
   password: FoOiGlkAA9yPEGP
-- name: 澳大利亚-0-0-ss-43.200.245.35:443
-  type: ss
-  server: 43.200.245.35
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 日本-东京都-东京-ss-85.208.108.60:2375
   type: ss
   server: 85.208.108.60
@@ -95,6 +89,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
+- name: 中国-上海-上海-v2ray-pfgo.zone.legeth.net:18411
+  type: vmess
+  server: pfgo.zone.legeth.net
+  network: ws
+  port: 18411
+  uuid: 0c1324d6-fe1c-4524-88f9-aa01f4f763a6
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
 - name: 美国-佐治亚-亚特兰大-v2ray-sg-lb.vhax.net:80
   type: vmess
   server: sg-lb.vhax.net
@@ -195,7 +199,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /das212
-- name: 中国-江苏-扬州-v2ray-video.tiktokuu.xyz:1204
+- name: 中国-广东-广州-v2ray-video.tiktokuu.xyz:1204
   type: vmess
   server: video.tiktokuu.xyz
   network: ws
