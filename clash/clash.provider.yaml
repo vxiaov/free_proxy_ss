@@ -137,16 +137,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-广东-广州-ssr-14.29.124.168:24001
-  type: ssr
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  obfs: plain
-  protocol: origin
-  port: 24001
-  cipher: aes-128-cfb
-  protocol-param: ''
-  obfs-param: ''
 - name: 俄罗斯-0-0-v2ray-gcoresgg.sylu.cyou:443
   type: vmess
   server: gcoresgg.sylu.cyou
@@ -276,6 +266,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /sshocean
+- name: 中国-海南-儋州-v2ray-hainan.sfjsq001.info:33203
+  type: vmess
+  server: hainan.sfjsq001.info
+  network: ws
+  port: 33203
+  uuid: 3fef34c0-fd08-3cfe-8d25-dcd183218567
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /test
 - name: 德国-法兰克福-法兰克福-v2ray-v7germany.ronaghi.tk:443
   type: vmess
   server: v7germany.ronaghi.tk
