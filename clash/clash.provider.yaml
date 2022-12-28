@@ -53,12 +53,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 新加坡-0-0-ss-18.141.183.204:443
-  type: ss
-  server: 18.141.183.204
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 日本-东京都-东京-ss-85.208.108.60:7306
   type: ss
   server: 85.208.108.60
@@ -128,6 +122,18 @@ proxies:
 - name: 日本-东京都-东京-ss-54.168.247.37:443
   type: ss
   server: 54.168.247.37
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 日本-东京都-东京-ss-3.112.193.151:443
+  type: ss
+  server: 3.112.193.151
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.201.57.66:443
+  type: ss
+  server: 43.201.57.66
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -201,7 +207,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Falling42gcsshkkknode
-- name: 美国-加利福尼亚-旧金山-v2ray-v2ray.ibgfw.top:2083
+- name: 美国-0-0-v2ray-v2ray.ibgfw.top:2083
   type: vmess
   server: v2ray.ibgfw.top
   network: ws
@@ -330,7 +336,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-v47a.toddns.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-v47a.toddns.tk:80
   type: vmess
   server: v47a.toddns.tk
   network: ws
@@ -386,6 +392,16 @@ proxies:
   network: ws
   port: 80
   uuid: 9f0925ee-2d16-4153-a77e-f6c1c596fd6d
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 0-0-0-v2ray-103.167.196.8:80
+  type: vmess
+  server: 103.167.196.8
+  network: ws
+  port: 80
+  uuid: 56716a96-a265-448c-8969-03e626889580
   alterId: 4
   cipher: auto
   tls: false
