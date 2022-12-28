@@ -1,88 +1,76 @@
 proxies:
-- name: 澳大利亚-0-0-ss-43.201.57.66:443
-  type: ss
-  server: 43.201.57.66
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.201.61.203:443
-  type: ss
-  server: 43.201.61.203
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 新加坡-0-0-ss-18.142.183.235:443
-  type: ss
-  server: 18.142.183.235
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 日本-东京都-东京-ss-85.208.108.60:443
-  type: ss
-  server: 85.208.108.60
-  port: 443
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-- name: 澳大利亚-0-0-ss-43.201.31.131:443
-  type: ss
-  server: 43.201.31.131
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 日本-东京都-东京-ss-85.208.108.60:5001
-  type: ss
-  server: 85.208.108.60
-  port: 5001
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 日本-东京都-东京-ss-54.249.72.10:443
-  type: ss
-  server: 54.249.72.10
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.154.132:443
-  type: ss
-  server: 13.215.154.132
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 日本-东京都-东京-ss-52.68.161.195:443
-  type: ss
-  server: 52.68.161.195
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 日本-东京都-东京-ss-85.208.108.60:2375
-  type: ss
-  server: 85.208.108.60
-  port: 2375
-  cipher: aes-256-gcm
-  password: faBAoD54k87UJG7
-- name: 日本-东京都-东京-ss-85.208.108.60:7001
-  type: ss
-  server: 85.208.108.60
-  port: 7001
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
 - name: 中国-广东-东莞-ss-sg16.nachoneko.shop:38906
   type: ss
   server: sg16.nachoneko.shop
   port: 38906
   cipher: rc4-md5
   password: dUMWAX
-- name: 新加坡-0-0-ss-13.250.46.178:443
-  type: ss
-  server: 13.250.46.178
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-广东-东莞-ss-hgc09.nachoneko.shop:38906
   type: ss
   server: hgc09.nachoneko.shop
   port: 38906
   cipher: rc4-md5
   password: dUMWAX
+- name: 韩国-首尔-首尔-ss-13.125.34.62:443
+  type: ss
+  server: 13.125.34.62
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 日本-东京都-东京-ss-85.208.108.60:8080
+  type: ss
+  server: 85.208.108.60
+  port: 8080
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+- name: 日本-东京都-东京-ss-3.112.193.151:443
+  type: ss
+  server: 3.112.193.151
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 新加坡-0-0-ss-54.169.62.50:443
+  type: ss
+  server: 54.169.62.50
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.206.240.30:443
+  type: ss
+  server: 43.206.240.30
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 新加坡-0-0-ss-13.251.156.128:443
+  type: ss
+  server: 13.251.156.128
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-康涅狄格-0-ss-13.215.178.204:443
+  type: ss
+  server: 13.215.178.204
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 新加坡-0-0-ss-54.169.211.238:443
+  type: ss
+  server: 54.169.211.238
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 新加坡-0-0-ss-3.1.211.223:443
+  type: ss
+  server: 3.1.211.223
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 新加坡-0-0-ss-54.179.175.33:443
+  type: ss
+  server: 54.179.175.33
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-0-0-v2ray-xjp.mvzaixian3.com:443
   type: vmess
   server: xjp.mvzaixian3.com
@@ -301,6 +289,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /m3
+- name: 美国-加利福尼亚-0-v2ray-202.marst1-node.top:2443
+  type: vmess
+  server: 202.marst1-node.top
+  network: ws
+  port: 2443
+  uuid: f4afef9e-e48d-3d28-8ebf-7c61cbfd6850
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /css3
 - name: 荷兰-0-0-v2ray-v10a.toddns.tk:80
   type: vmess
   server: v10a.toddns.tk
