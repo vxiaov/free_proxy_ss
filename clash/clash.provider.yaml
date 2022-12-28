@@ -1,16 +1,4 @@
 proxies:
-- name: 日本-东京都-东京-ss-85.208.108.60:8080
-  type: ss
-  server: 85.208.108.60
-  port: 8080
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
-- name: 澳大利亚-0-0-ss-43.201.31.131:443
-  type: ss
-  server: 43.201.31.131
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 新加坡-0-0-ss-13.251.156.128:443
   type: ss
   server: 13.251.156.128
@@ -23,84 +11,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 日本-东京都-东京-ss-52.68.161.195:443
-  type: ss
-  server: 52.68.161.195
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.201.61.203:443
-  type: ss
-  server: 43.201.61.203
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 日本-东京都-东京-ss-85.208.108.60:443
-  type: ss
-  server: 85.208.108.60
-  port: 443
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-- name: 日本-东京都-东京-ss-54.249.72.10:443
-  type: ss
-  server: 54.249.72.10
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.200.245.35:443
-  type: ss
-  server: 43.200.245.35
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.154.132:443
-  type: ss
-  server: 13.215.154.132
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 日本-东京都-东京-ss-85.208.108.60:7001
-  type: ss
-  server: 85.208.108.60
-  port: 7001
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-- name: 新加坡-0-0-ss-3.1.211.223:443
-  type: ss
-  server: 3.1.211.223
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 日本-东京都-东京-ss-85.208.108.60:2375
-  type: ss
-  server: 85.208.108.60
-  port: 2375
-  cipher: aes-256-gcm
-  password: faBAoD54k87UJG7
-- name: 日本-东京都-东京-ss-3.112.193.151:443
-  type: ss
-  server: 3.112.193.151
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.201.57.66:443
-  type: ss
-  server: 43.201.57.66
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 日本-东京都-东京-ss-85.208.108.60:5004
-  type: ss
-  server: 85.208.108.60
-  port: 5004
-  cipher: aes-256-gcm
-  password: g5MeD6Ft3CWlJId
-- name: 日本-东京都-东京-ss-85.208.108.60:8090
-  type: ss
-  server: 85.208.108.60
-  port: 8090
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
 - name: 日本-东京都-东京-ss-85.208.108.60:6379
   type: ss
   server: 85.208.108.60
@@ -113,30 +23,6 @@ proxies:
   port: 3389
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
-- name: 新加坡-0-0-ss-18.141.183.204:443
-  type: ss
-  server: 18.141.183.204
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 新加坡-0-0-ss-18.142.183.235:443
-  type: ss
-  server: 18.142.183.235
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 日本-东京都-东京-ss-85.208.108.60:5001
-  type: ss
-  server: 85.208.108.60
-  port: 5001
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 日本-东京都-东京-ss-85.208.108.60:7307
-  type: ss
-  server: 85.208.108.60
-  port: 7307
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
 - name: 新加坡-0-0-ss-13.250.46.178:443
   type: ss
   server: 13.250.46.178
@@ -153,6 +39,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /das3218ssxc
+- name: 日本-东京都-东京-v2ray-v-aws-tk-3.heima-bot.tech:7771
+  type: vmess
+  server: v-aws-tk-3.heima-bot.tech
+  network: ws
+  port: 7771
+  uuid: bdab8aa9-708e-4d34-8de7-8c02368166d4
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /m3
 - name: 保加利亚-Sofia-0-v2ray-gcorepl.sylu.cyou:443
   type: vmess
   server: gcorepl.sylu.cyou
@@ -173,7 +69,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /sshkit/Ertusg86/635014638c264/
-- name: 美国-0-0-v2ray-v2ray.ibgfw.top:2083
+- name: 美国-加利福尼亚-旧金山-v2ray-v2ray.ibgfw.top:2083
   type: vmess
   server: v2ray.ibgfw.top
   network: ws
@@ -301,6 +197,15 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /das212
+- name: 荷兰-Flevoland-0-v2ray-5.255.112.158:19182
+  type: vmess
+  server: 5.255.112.158
+  network: ws
+  port: 19182
+  uuid: 8f11ba8c-a72b-47df-a783-2490205ff10f
+  alterId: '0'
+  cipher: auto
+  ws-path: ''
 - name: 新加坡-0-0-v2ray-sg1-v.sshmax.xyz:80
   type: vmess
   server: sg1-v.sshmax.xyz
