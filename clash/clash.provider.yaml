@@ -71,6 +71,18 @@ proxies:
   port: 7001
   cipher: aes-256-gcm
   password: RexnBgU7EV5ADxG
+- name: 新加坡-0-0-ss-3.1.211.223:443
+  type: ss
+  server: 3.1.211.223
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 日本-东京都-东京-ss-85.208.108.60:2375
+  type: ss
+  server: 85.208.108.60
+  port: 2375
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
 - name: 日本-东京都-东京-v2ray-v-aws-tk-1.heima-bot.tech:7771
   type: vmess
   server: v-aws-tk-1.heima-bot.tech
@@ -120,7 +132,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /css3
-- name: 美国-加利福尼亚-旧金山-v2ray-sun.prxpro.cc:80
+- name: 美国-0-0-v2ray-sun.prxpro.cc:80
   type: vmess
   server: sun.prxpro.cc
   network: ws
@@ -129,6 +141,16 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /g7970d1b58m1ixn3i16i
+- name: 中国-湖南-长沙-v2ray-r001.baipiaoxd.com:11451
+  type: vmess
+  server: r001.baipiaoxd.com
+  network: ws
+  port: 11451
+  uuid: d57d3206-d398-449e-b637-19471a3943e4
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /ws
 - name: 德国-法兰克福-法兰克福-v2ray-165.227.175.88:28164
   type: vmess
   server: 165.227.175.88
