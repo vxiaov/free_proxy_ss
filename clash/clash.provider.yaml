@@ -5,12 +5,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 日本-东京都-东京-ss-85.208.108.60:8080
-  type: ss
-  server: 85.208.108.60
-  port: 8080
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
 - name: 新加坡-0-0-ss-54.169.62.50:443
   type: ss
   server: 54.169.62.50
@@ -41,12 +35,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 新加坡-0-0-ss-18.141.183.204:443
-  type: ss
-  server: 18.141.183.204
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.207.68.221:443
   type: ss
   server: 43.207.68.221
@@ -56,12 +44,6 @@ proxies:
 - name: 澳大利亚-0-0-ss-43.206.241.153:443
   type: ss
   server: 43.206.241.153
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.200.245.35:443
-  type: ss
-  server: 43.200.245.35
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -101,9 +83,9 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 新加坡-0-0-ss-3.1.211.223:443
+- name: 日本-东京都-东京-ss-3.112.193.151:443
   type: ss
-  server: 3.1.211.223
+  server: 3.112.193.151
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -177,6 +159,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ws
+- name: 德国-法兰克福-法兰克福-v2ray-v7germany.ronaghi.tk:443
+  type: vmess
+  server: v7germany.ronaghi.tk
+  network: ws
+  port: 443
+  uuid: b6ed2bcb-b0da-4fca-a74e-4360b25bbfbc
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /
 - name: 美国-伊利诺伊-芝加哥-v2ray-129.150.44.64:46075
   type: vmess
   server: 129.150.44.64
