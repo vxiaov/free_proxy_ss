@@ -1,16 +1,4 @@
 proxies:
-- name: 澳大利亚-0-0-ss-43.201.57.66:443
-  type: ss
-  server: 43.201.57.66
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 日本-东京都-东京-ss-54.168.247.37:443
-  type: ss
-  server: 54.168.247.37
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.201.63.83:443
   type: ss
   server: 43.201.63.83
@@ -77,6 +65,24 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 日本-东京都-东京-ss-85.208.108.60:8080
+  type: ss
+  server: 85.208.108.60
+  port: 8080
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
+- name: 日本-东京都-东京-ss-85.208.108.60:8888
+  type: ss
+  server: 85.208.108.60
+  port: 8888
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 日本-东京都-东京-ss-85.208.108.60:7307
+  type: ss
+  server: 85.208.108.60
+  port: 7307
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
 - name: 中国-广东-广州-ssr-14.29.124.168:24008
   type: ssr
   server: 14.29.124.168
@@ -157,7 +163,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Falling42gcsshkkknode
-- name: 美国-0-0-v2ray-v2ray.ibgfw.top:2083
+- name: 美国-加利福尼亚-旧金山-v2ray-v2ray.ibgfw.top:2083
   type: vmess
   server: v2ray.ibgfw.top
   network: ws
@@ -226,6 +232,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /sshocean
+- name: 日本-东京都-东京-v2ray-v-aws-tk-4.heima-bot.tech:7772
+  type: vmess
+  server: v-aws-tk-4.heima-bot.tech
+  network: ws
+  port: 7772
+  uuid: bdab8aa9-708e-4d34-8de7-8c02368166d4
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /m3
 - name: 俄罗斯-莫斯科-莫斯科-v2ray-gcsshkk.sylu.cyou:443
   type: vmess
   server: gcsshkk.sylu.cyou
@@ -276,6 +292,15 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Falling42gcorehkknode
+- name: 德国-法兰克福-法兰克福-v2ray-165.227.175.88:28164
+  type: vmess
+  server: 165.227.175.88
+  network: ws
+  port: 28164
+  uuid: eba8ccf5-5ab9-4b6b-de4b-83ab920c1005
+  alterId: '0'
+  cipher: auto
+  ws-path: ''
 - name: 荷兰-0-0-v2ray-45.136.244.181:80
   type: vmess
   server: 45.136.244.181
@@ -296,6 +321,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 日本-东京都-东京-v2ray-vjp1.0bad.com:443
+  type: vmess
+  server: vjp1.0bad.com
+  network: ws
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /chat
 - name: 新加坡-0-0-v2ray-sg1-v.sshmax.xyz:80
   type: vmess
   server: sg1-v.sshmax.xyz
