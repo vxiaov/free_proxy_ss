@@ -5,6 +5,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 中国-广东-广州-ss-14.29.124.168:24009
+  type: ss
+  server: 14.29.124.168
+  port: 24009
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - name: 中国-台湾-0-v2ray-d041a585-0c1e-e928-dfbb-c5c4bb7f9685.cnnic.rip:80
   type: vmess
   server: d041a585-0c1e-e928-dfbb-c5c4bb7f9685.cnnic.rip
@@ -65,6 +71,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Falling42gcoresggnode
+- name: 中国-海南-海口-v2ray-ff142c07-dccd-0fd9-0424-f1b9f3ac4bdb.cnnic.rip:80
+  type: vmess
+  server: ff142c07-dccd-0fd9-0424-f1b9f3ac4bdb.cnnic.rip
+  network: ws
+  port: 80
+  uuid: d761c5e4-8af1-4be8-8b20-af82fff30af2
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /sk
 - name: 立陶宛-0-0-v2ray-gcsshkkk.sylu.cyou:443
   type: vmess
   server: gcsshkkk.sylu.cyou
