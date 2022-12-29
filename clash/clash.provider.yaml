@@ -101,6 +101,26 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 中国-广东-广州-ssr-14.29.124.168:24001
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24001
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 澳大利亚-0-0-ssr-jp-am48-6.eqnode.net:8081
+  type: ssr
+  server: jp-am48-6.eqnode.net
+  password: eAokbaDN6
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 中国-台湾-0-v2ray-d041a585-0c1e-e928-dfbb-c5c4bb7f9685.cnnic.rip:80
   type: vmess
   server: d041a585-0c1e-e928-dfbb-c5c4bb7f9685.cnnic.rip
@@ -181,7 +201,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Falling42gcsshkkknode
-- name: 美国-0-0-v2ray-v2ray.ibgfw.top:2083
+- name: 美国-加利福尼亚-旧金山-v2ray-v2ray.ibgfw.top:2083
   type: vmess
   server: v2ray.ibgfw.top
   network: ws
@@ -300,7 +320,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-v47a.toddns.tk:80
+- name: 美国-0-0-v2ray-v47a.toddns.tk:80
   type: vmess
   server: v47a.toddns.tk
   network: ws
@@ -320,6 +340,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Falling42gcorehkknode
+- name: 韩国-0-0-v2ray-lu1.gogogoo.cyou:443
+  type: vmess
+  server: lu1.gogogoo.cyou
+  network: ws
+  port: 443
+  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /go
 - name: 中国-海南-海口-v2ray-a3894e87-ba58-3101-112c-01938c0af70f.cnnic.rip:80
   type: vmess
   server: a3894e87-ba58-3101-112c-01938c0af70f.cnnic.rip
@@ -350,36 +380,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
-- name: 澳大利亚-0-0-v2ray-43.198.91.243:80
+- name: 美国-加利福尼亚-旧金山-v2ray-v10.toddns.tk:80
   type: vmess
-  server: 43.198.91.243
+  server: v10.toddns.tk
   network: ws
   port: 80
-  uuid: 9f0925ee-2d16-4153-a77e-f6c1c596fd6d
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
   alterId: 4
   cipher: auto
   tls: false
-  ws-path: /
-- name: 澳大利亚-0-0-v2ray-hk-3.daoxin.shop:80
-  type: vmess
-  server: hk-3.daoxin.shop
-  network: ws
-  port: 80
-  uuid: 9f0925ee-2d16-4153-a77e-f6c1c596fd6d
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
-- name: 澳大利亚-0-0-v2ray-43.198.73.251:80
-  type: vmess
-  server: 43.198.73.251
-  network: ws
-  port: 80
-  uuid: 9f0925ee-2d16-4153-a77e-f6c1c596fd6d
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
+  ws-path: /ZPKLSPJjLBEy
 - name: 美国-0-0-v2ray-24a51f02-f25c-87fa-7acf-eea632e63c7c.cnnic.rip:80
   type: vmess
   server: 24a51f02-f25c-87fa-7acf-eea632e63c7c.cnnic.rip
