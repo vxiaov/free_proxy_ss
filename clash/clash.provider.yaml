@@ -137,16 +137,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-广东-广州-ssr-14.29.124.168:24001
-  type: ssr
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  obfs: plain
-  protocol: origin
-  port: 24001
-  cipher: aes-128-cfb
-  protocol-param: ''
-  obfs-param: ''
 - name: 中国-广东-广州-ssr-14.29.124.168:24000
   type: ssr
   server: 14.29.124.168
@@ -167,46 +157,6 @@ proxies:
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-xjp4h.mayaa.ml:443
-  type: vmess
-  server: xjp4h.mayaa.ml
-  network: ws
-  port: 443
-  uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /dsadsa1dsadsa33434
-- name: 俄罗斯-0-0-v2ray-gcsssg.sylu.cyou:443
-  type: vmess
-  server: gcsssg.sylu.cyou
-  network: ws
-  port: 443
-  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /Falling42gcsssgnode
-- name: 俄罗斯-莫斯科-莫斯科-v2ray-gcsshk.sylu.cyou:443
-  type: vmess
-  server: gcsshk.sylu.cyou
-  network: ws
-  port: 443
-  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /Falling42gcsshknode
-- name: 保加利亚-Sofia-0-v2ray-gcspl.sylu.cyou:443
-  type: vmess
-  server: gcspl.sylu.cyou
-  network: ws
-  port: 443
-  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /Falling42gcsplnode
 - name: 美国-佐治亚-亚特兰大-v2ray-sg-lb.vhax.net:80
   type: vmess
   server: sg-lb.vhax.net
@@ -267,7 +217,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Falling42gcsshkkknode
-- name: 美国-0-0-v2ray-v2ray.ibgfw.top:2083
+- name: 美国-加利福尼亚-旧金山-v2ray-v2ray.ibgfw.top:2083
   type: vmess
   server: v2ray.ibgfw.top
   network: ws
@@ -416,7 +366,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /m3
-- name: 美国-加利福尼亚-旧金山-v2ray-v47.toddns.tk:80
+- name: 美国-0-0-v2ray-v47.toddns.tk:80
   type: vmess
   server: v47.toddns.tk
   network: ws
@@ -576,7 +526,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Falling42gcsdenode
-- name: 美国-加利福尼亚-旧金山-v2ray-v12a.toddns.tk:80
+- name: 美国-0-0-v2ray-v12a.toddns.tk:80
   type: vmess
   server: v12a.toddns.tk
   network: ws
@@ -646,6 +596,36 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /tr
+- name: 俄罗斯-莫斯科-莫斯科-v2ray-gcsshk.sylu.cyou:443
+  type: vmess
+  server: gcsshk.sylu.cyou
+  network: ws
+  port: 443
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /Falling42gcsshknode
+- name: 俄罗斯-0-0-v2ray-gcsssg.sylu.cyou:443
+  type: vmess
+  server: gcsssg.sylu.cyou
+  network: ws
+  port: 443
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /Falling42gcsssgnode
+- name: 中国-海南-海口-v2ray-148e9178-8681-05de-7498-518779dceb98.cnnic.rip:80
+  type: vmess
+  server: 148e9178-8681-05de-7498-518779dceb98.cnnic.rip
+  network: ws
+  port: 80
+  uuid: d761c5e4-8af1-4be8-8b20-af82fff30af2
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /ca
 - name: 中国-台湾-0-v2ray-d041a585-0c1e-e928-dfbb-c5c4bb7f9685.cnnic.rip:80
   type: vmess
   server: d041a585-0c1e-e928-dfbb-c5c4bb7f9685.cnnic.rip
@@ -656,3 +636,23 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 保加利亚-Sofia-0-v2ray-gcspl.sylu.cyou:443
+  type: vmess
+  server: gcspl.sylu.cyou
+  network: ws
+  port: 443
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /Falling42gcsplnode
+- name: 美国-0-0-v2ray-xjp4h.mayaa.ml:443
+  type: vmess
+  server: xjp4h.mayaa.ml
+  network: ws
+  port: 443
+  uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /dsadsa1dsadsa33434
