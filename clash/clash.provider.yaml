@@ -119,6 +119,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 中国-江苏-扬州-ss-223.111.122.145:777
+  type: ss
+  server: 223.111.122.145
+  port: 777
+  cipher: chacha20-ietf-poly1305
+  password: 96cce2e8-ec7e-4e94-884e-d974fe78d0d8
 - name: 中国-广东-广州-ssr-14.29.124.168:24000
   type: ssr
   server: 14.29.124.168
@@ -179,7 +185,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /zh-cn
-- name: 美国-0-0-v2ray-els200.jslist.tk:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
@@ -278,7 +284,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Falling42gcorehkknode
-- name: 美国-加利福尼亚-旧金山-v2ray-v47.toddns.tk:80
+- name: 美国-0-0-v2ray-v47.toddns.tk:80
   type: vmess
   server: v47.toddns.tk
   network: ws
