@@ -1,64 +1,4 @@
 proxies:
-- name: 中国-广东-广州-ss-iepl.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz:12185
-  type: ss
-  server: iepl.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz
-  port: 12185
-  cipher: aes-128-gcm
-  password: 8a1f01c7-4cf8-4d49-a142-b2ffd52653c0
-- name: 中国-北京-北京-ss-bj.zhuanfa.tk:29102
-  type: ss
-  server: bj.zhuanfa.tk
-  port: 29102
-  cipher: chacha20-ietf-poly1305
-  password: 64fcb262-539a-49ce-bee5-83228638b878
-- name: 中国-广东-广州-ss-iepl.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz:21764
-  type: ss
-  server: iepl.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz
-  port: 21764
-  cipher: aes-128-gcm
-  password: 8a1f01c7-4cf8-4d49-a142-b2ffd52653c0
-- name: 中国-安徽-蚌埠-ss-dxhefei01.baipiaozf.com:23236
-  type: ss
-  server: dxhefei01.baipiaozf.com
-  port: 23236
-  cipher: chacha20-ietf-poly1305
-  password: 64fcb262-539a-49ce-bee5-83228638b878
-- name: 中国-广东-广州-ss-dxguangzhou01.baipiaozf.com:51915
-  type: ss
-  server: dxguangzhou01.baipiaozf.com
-  port: 51915
-  cipher: chacha20-ietf-poly1305
-  password: 64fcb262-539a-49ce-bee5-83228638b878
-- name: 中国-广东-广州-ss-iepl.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz:45312
-  type: ss
-  server: iepl.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz
-  port: 45312
-  cipher: aes-128-gcm
-  password: 8a1f01c7-4cf8-4d49-a142-b2ffd52653c0
-- name: 中国-安徽-蚌埠-ss-dxhefei01.baipiaozf.com:49094
-  type: ss
-  server: dxhefei01.baipiaozf.com
-  port: 49094
-  cipher: chacha20-ietf-poly1305
-  password: 64fcb262-539a-49ce-bee5-83228638b878
-- name: 中国-广东-广州-ss-iepl.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz:18894
-  type: ss
-  server: iepl.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz
-  port: 18894
-  cipher: aes-128-gcm
-  password: 8a1f01c7-4cf8-4d49-a142-b2ffd52653c0
-- name: 中国-广东-广州-ss-iepl.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz:15500
-  type: ss
-  server: iepl.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz
-  port: 15500
-  cipher: aes-128-gcm
-  password: 8a1f01c7-4cf8-4d49-a142-b2ffd52653c0
-- name: 中国-广东-广州-ss-gdzf.zhuanfa.tk:14789
-  type: ss
-  server: gdzf.zhuanfa.tk
-  port: 14789
-  cipher: chacha20-ietf-poly1305
-  password: 64fcb262-539a-49ce-bee5-83228638b878
 - name: 美国-康涅狄格-0-ss-13.215.159.84:443
   type: ss
   server: 13.215.159.84
@@ -71,15 +11,33 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-广东-广州-ss-iepl.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz:11886
-  type: ss
-  server: iepl.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz
-  port: 11886
-  cipher: aes-128-gcm
-  password: 8a1f01c7-4cf8-4d49-a142-b2ffd52653c0
 - name: 澳大利亚-0-0-ss-43.206.241.153:443
   type: ss
   server: 43.206.241.153
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.207.74.249:443
+  type: ss
+  server: 43.207.74.249
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-康涅狄格-0-ss-13.215.173.2:443
+  type: ss
+  server: 13.215.173.2
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.201.51.15:443
+  type: ss
+  server: 43.201.51.15
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.201.31.131:443
+  type: ss
+  server: 43.201.31.131
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -123,7 +81,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /zh-cn
-- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
+- name: 美国-0-0-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
@@ -193,6 +151,26 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 中国-北京-北京-v2ray-dxbeijing01.baipiaozf.com:27480
+  type: vmess
+  server: dxbeijing01.baipiaozf.com
+  network: ws
+  port: 27480
+  uuid: e325401c-7efc-40be-b1cf-3f6781c41c83
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 中国-湖南-岳阳-v2ray-cscu.pfgo.xn--kiv15t.cn:26637
+  type: vmess
+  server: cscu.pfgo.xn--kiv15t.cn
+  network: ws
+  port: 26637
+  uuid: c70e6a4c-f5b0-4cd6-990c-65f15213303e
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /fly
 - name: 俄罗斯-莫斯科-莫斯科-v2ray-gcorehkk.sylu.cyou:443
   type: vmess
   server: gcorehkk.sylu.cyou
