@@ -35,12 +35,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.206.224.222:443
-  type: ss
-  server: 43.206.224.222
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 美国-康涅狄格-0-ss-13.215.163.54:443
   type: ss
   server: 13.215.163.54
@@ -50,12 +44,6 @@ proxies:
 - name: 美国-康涅狄格-0-ss-13.215.51.220:443
   type: ss
   server: 13.215.51.220
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 新加坡-0-0-ss-13.250.46.178:443
-  type: ss
-  server: 13.250.46.178
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -83,12 +71,6 @@ proxies:
   port: 777
   cipher: chacha20-ietf-poly1305
   password: 96cce2e8-ec7e-4e94-884e-d974fe78d0d8
-- name: 澳大利亚-0-0-ss-43.207.1.14:443
-  type: ss
-  server: 43.207.1.14
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.206.241.153:443
   type: ss
   server: 43.206.241.153
@@ -119,6 +101,24 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 中国-广东-广州-ss-iepl.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz:15500
+  type: ss
+  server: iepl.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz
+  port: 15500
+  cipher: aes-128-gcm
+  password: 8a1f01c7-4cf8-4d49-a142-b2ffd52653c0
+- name: 中国-广东-广州-ss-gdzf.zhuanfa.tk:14789
+  type: ss
+  server: gdzf.zhuanfa.tk
+  port: 14789
+  cipher: chacha20-ietf-poly1305
+  password: 64fcb262-539a-49ce-bee5-83228638b878
+- name: 中国-广东-广州-ss-iepl.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz:12185
+  type: ss
+  server: iepl.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.suijiceshi.xyz
+  port: 12185
+  cipher: aes-128-gcm
+  password: 8a1f01c7-4cf8-4d49-a142-b2ffd52653c0
 - name: 中国-广东-广州-ssr-14.29.124.168:24005
   type: ssr
   server: 14.29.124.168
@@ -189,7 +189,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /65fe4644-da7c-4c41-bb44-c4ea7a30be22
-- name: 美国-0-0-v2ray-els200.jslist.tk:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
@@ -279,7 +279,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Falling42gcsplnode
-- name: 美国-0-0-v2ray-xjp4h.mayaa.ml:443
+- name: 美国-加利福尼亚-旧金山-v2ray-xjp4h.mayaa.ml:443
   type: vmess
   server: xjp4h.mayaa.ml
   network: ws
@@ -318,7 +318,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Falling42gcorehkknode
-- name: 美国-加利福尼亚-旧金山-v2ray-v47.toddns.tk:80
+- name: 美国-0-0-v2ray-v47.toddns.tk:80
   type: vmess
   server: v47.toddns.tk
   network: ws
