@@ -101,6 +101,12 @@ proxies:
   port: 5001
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
+- name: 澳大利亚-0-0-ss-43.201.37.72:443
+  type: ss
+  server: 43.201.37.72
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ssr-14.29.124.168:24008
   type: ssr
   server: 14.29.124.168
@@ -201,6 +207,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
+- name: 俄罗斯-0-0-v2ray-91.199.84.239:454
+  type: vmess
+  server: 91.199.84.239
+  network: ws
+  port: 454
+  uuid: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
 - name: 美国-加利福尼亚-0-v2ray-679888.xyz:443
   type: vmess
   server: 679888.xyz
@@ -271,6 +287,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /dsadsa1dsadsa33434
+- name: 中国-海南-儋州-v2ray-hainan.sfjsq001.info:33203
+  type: vmess
+  server: hainan.sfjsq001.info
+  network: ws
+  port: 33203
+  uuid: 18d452c7-81ae-3dfd-a764-ae7cef0c887e
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /test
 - name: 中国-广东-广州-v2ray-gz.dougou.me:37428
   type: vmess
   server: gz.dougou.me
