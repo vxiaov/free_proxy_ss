@@ -41,12 +41,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 新加坡-0-0-ss-13.251.156.128:443
-  type: ss
-  server: 13.251.156.128
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.201.16.231:443
   type: ss
   server: 43.201.16.231
@@ -122,6 +116,12 @@ proxies:
 - name: 澳大利亚-0-0-ss-43.201.59.70:443
   type: ss
   server: 43.201.59.70
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.201.51.15:443
+  type: ss
+  server: 43.201.51.15
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -264,3 +264,12 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Falling42gcorehkknode
+- name: 美国-0-0-v2ray-v47a.toddns.tk:80
+  type: vmess
+  server: v47a.toddns.tk
+  network: ws
+  port: 80
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  alterId: 0
+  cipher: auto
+  ws-path: /v47-unlimitndxd
