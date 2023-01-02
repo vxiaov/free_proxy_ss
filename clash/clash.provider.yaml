@@ -131,15 +131,16 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 法国-0-0-v2ray-fr2.v2rayserv.com:80
+- name: 日本-0-0-v2ray-iamxx.easonfan.online:443
   type: vmess
-  server: fr2.v2rayserv.com
+  server: iamxx.easonfan.online
   network: ws
-  port: 80
-  uuid: 720e5c4e-4e44-40f6-8e73-7c32e18b61d0
-  alterId: '0'
+  port: 443
+  uuid: 13bd348d-a4d1-46e9-94f9-1e8441e535ad
+  alterId: 4
   cipher: auto
-  ws-path: ''
+  tls: true
+  ws-path: /13bd348d-a4d1-46e9-94f9-1e8441e535ad
 - name: 荷兰-0-0-v2ray-45.136.244.181:80
   type: vmess
   server: 45.136.244.181
@@ -239,7 +240,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Falling42gcorehkknode
-- name: 美国-加利福尼亚-旧金山-v2ray-juzi1.82a.xyz:443
+- name: 美国-0-0-v2ray-juzi1.82a.xyz:443
   type: vmess
   server: juzi1.82a.xyz
   network: ws
