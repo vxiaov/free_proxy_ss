@@ -17,21 +17,9 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.163.54:443
-  type: ss
-  server: 13.215.163.54
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.201.16.231:443
   type: ss
   server: 43.201.16.231
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.206.241.153:443
-  type: ss
-  server: 43.206.241.153
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -80,12 +68,6 @@ proxies:
 - name: 澳大利亚-0-0-ss-43.207.66.188:443
   type: ss
   server: 43.207.66.188
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.48.189:443
-  type: ss
-  server: 13.215.48.189
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -158,7 +140,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Falling42gcssjpnode
-- name: 美国-0-0-v2ray-els200.jslist.tk:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
@@ -168,6 +150,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /wo.php
+- name: 中国-海南-儋州-v2ray-hainan.sfjsq001.info:33203
+  type: vmess
+  server: hainan.sfjsq001.info
+  network: ws
+  port: 33203
+  uuid: 18d452c7-81ae-3dfd-a764-ae7cef0c887e
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /test
 - name: 新加坡-0-0-v2ray-178.128.86.198:80
   type: vmess
   server: 178.128.86.198
