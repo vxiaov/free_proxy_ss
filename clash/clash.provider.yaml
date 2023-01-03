@@ -1,10 +1,4 @@
 proxies:
-- name: 澳大利亚-0-0-ss-43.201.48.212:443
-  type: ss
-  server: 43.201.48.212
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.207.3.68:443
   type: ss
   server: 43.207.3.68
@@ -14,12 +8,6 @@ proxies:
 - name: 澳大利亚-0-0-ss-43.201.103.37:443
   type: ss
   server: 43.201.103.37
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.207.66.188:443
-  type: ss
-  server: 43.207.66.188
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -47,12 +35,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-佐治亚-亚特兰大-ss-167.88.63.79:443
-  type: ss
-  server: 167.88.63.79
-  port: 443
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
 - name: 中国-江苏-扬州-ss-223.111.122.136:840
   type: ss
   server: 223.111.122.136
@@ -71,42 +53,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-佐治亚-亚特兰大-ss-167.88.63.79:8009
-  type: ss
-  server: 167.88.63.79
-  port: 8009
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-- name: 美国-佐治亚-亚特兰大-ss-167.88.63.79:2375
-  type: ss
-  server: 167.88.63.79
-  port: 2375
-  cipher: aes-256-gcm
-  password: faBAoD54k87UJG7
-- name: 美国-佐治亚-亚特兰大-ss-167.88.63.79:5003
-  type: ss
-  server: 167.88.63.79
-  port: 5003
-  cipher: aes-256-gcm
-  password: g5MeD6Ft3CWlJId
-- name: 美国-佐治亚-亚特兰大-ss-167.88.63.79:7307
-  type: ss
-  server: 167.88.63.79
-  port: 7307
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-- name: 美国-佐治亚-亚特兰大-ss-167.88.63.79:3389
-  type: ss
-  server: 167.88.63.79
-  port: 3389
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 澳大利亚-0-0-ss-43.207.1.14:443
-  type: ss
-  server: 43.207.1.14
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 新加坡-0-0-ss-13.250.46.178:443
   type: ss
   server: 13.250.46.178
@@ -119,15 +65,15 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.163.54:443
-  type: ss
-  server: 13.215.163.54
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.206.241.153:443
   type: ss
   server: 43.206.241.153
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.201.51.15:443
+  type: ss
+  server: 43.201.51.15
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -141,7 +87,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-de.gongyiyun.cf:8080
+- name: 美国-0-0-v2ray-de.gongyiyun.cf:8080
   type: vmess
   server: de.gongyiyun.cf
   network: ws
@@ -161,7 +107,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /myblog
-- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
+- name: 美国-0-0-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
@@ -171,6 +117,15 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /wo.php
+- name: 美国-加利福尼亚-0-v2ray-152.69.230.170:80
+  type: vmess
+  server: 152.69.230.170
+  network: ws
+  port: 80
+  uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77
+  alterId: '0'
+  cipher: auto
+  ws-path: ''
 - name: 新加坡-0-0-v2ray-178.128.86.198:80
   type: vmess
   server: 178.128.86.198
