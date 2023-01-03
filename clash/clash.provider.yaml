@@ -77,6 +77,16 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 美国-0-0-v2ray-kr1.sanfen001.pics:443
+  type: vmess
+  server: kr1.sanfen001.pics
+  network: ws
+  port: 443
+  uuid: b596daf8-2d9c-4a2d-8c7d-b6794065ddb4
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /zh-cn
 - name: 美国-加利福尼亚-旧金山-v2ray-de.gongyiyun.cf:8080
   type: vmess
   server: de.gongyiyun.cf
@@ -87,7 +97,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-vfly3.win:443
+- name: 美国-加利福尼亚-旧金山-v2ray-vfly3.win:443
   type: vmess
   server: vfly3.win
   network: ws
@@ -147,6 +157,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
+- name: 中国-台湾-0-v2ray-tw1.sanfen001.pics:443
+  type: vmess
+  server: tw1.sanfen001.pics
+  network: ws
+  port: 443
+  uuid: b596daf8-2d9c-4a2d-8c7d-b6794065ddb4
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /zh-cn
 - name: 俄罗斯-Khabarovskiy-0-v2ray-gcssjp.sylu.cyou:443
   type: vmess
   server: gcssjp.sylu.cyou
