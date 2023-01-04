@@ -5,18 +5,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.159.84:443
-  type: ss
-  server: 13.215.159.84
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.163.54:443
-  type: ss
-  server: 13.215.163.54
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 美国-康涅狄格-0-ss-13.215.48.189:443
   type: ss
   server: 13.215.48.189
@@ -29,21 +17,9 @@ proxies:
   port: 301
   cipher: chacha20-ietf-poly1305
   password: 3d81e6fb-c7f0-4791-af2e-82c93d149483
-- name: 澳大利亚-0-0-ss-43.201.64.3:443
-  type: ss
-  server: 43.201.64.3
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 美国-康涅狄格-0-ss-13.215.178.204:443
   type: ss
   server: 13.215.178.204
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.206.223.61:443
-  type: ss
-  server: 43.206.223.61
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -65,7 +41,13 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-俄勒冈-0-v2ray-v51.kamatera.online:80
+- name: 澳大利亚-0-0-ss-43.207.74.249:443
+  type: ss
+  server: 43.207.74.249
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-密歇根-0-v2ray-v51.kamatera.online:80
   type: vmess
   server: v51.kamatera.online
   network: ws
@@ -95,6 +77,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Falling42gcssjpnode
+- name: 中国-香港-0-v2ray-ahk02.skyjsq.space:2053
+  type: vmess
+  server: ahk02.skyjsq.space
+  network: ws
+  port: 2053
+  uuid: 8ac982a7-9b59-a7dc-cf4e-232f2fe72903
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /ray
 - name: 俄罗斯-莫斯科-莫斯科-v2ray-gcorehkk.sylu.cyou:443
   type: vmess
   server: gcorehkk.sylu.cyou
@@ -124,7 +116,17 @@ proxies:
   alterId: '0'
   cipher: auto
   ws-path: ''
-- name: 澳大利亚-0-0-v2ray-kr.kamatera.online:80
+- name: 美国-伊利诺伊-0-v2ray-v43.kamatera.online:80
+  type: vmess
+  server: v43.kamatera.online
+  network: ws
+  port: 80
+  uuid: 59e004fd-959f-4844-9354-1125c9c67333
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 韩国-首尔-首尔-v2ray-kr.kamatera.online:80
   type: vmess
   server: kr.kamatera.online
   network: ws
@@ -164,7 +166,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 韩国-首尔-首尔-v2ray-v36.kamatera.online:80
+- name: 澳大利亚-0-0-v2ray-v36.kamatera.online:80
   type: vmess
   server: v36.kamatera.online
   network: ws
@@ -174,7 +176,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
+- name: 美国-0-0-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
