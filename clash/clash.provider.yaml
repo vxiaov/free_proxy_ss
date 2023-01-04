@@ -47,6 +47,18 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.201.48.212:443
+  type: ss
+  server: 43.201.48.212
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.206.224.222:443
+  type: ss
+  server: 43.206.224.222
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 俄罗斯-Khabarovskiy-0-v2ray-gcssjp.sylu.cyou:443
   type: vmess
   server: gcssjp.sylu.cyou
@@ -77,7 +89,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 澳大利亚-0-0-v2ray-kr.kamatera.online:80
+- name: 美国-加利福尼亚-0-v2ray-152.69.230.170:80
+  type: vmess
+  server: 152.69.230.170
+  network: ws
+  port: 80
+  uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77
+  alterId: '0'
+  cipher: auto
+  ws-path: ''
+- name: 韩国-首尔-首尔-v2ray-kr.kamatera.online:80
   type: vmess
   server: kr.kamatera.online
   network: ws
@@ -127,7 +148,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
+- name: 美国-0-0-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
