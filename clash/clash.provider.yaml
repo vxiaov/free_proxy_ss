@@ -41,12 +41,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-北京-北京-ss-zz1.sb520.xyz:13002
-  type: ss
-  server: zz1.sb520.xyz
-  port: 13002
-  cipher: chacha20-ietf-poly1305
-  password: 38803cae-1ce6-4a89-afaf-65fe8af3bab2
 - name: 澳大利亚-0-0-ss-43.206.223.61:443
   type: ss
   server: 43.206.223.61
@@ -56,6 +50,12 @@ proxies:
 - name: 美国-康涅狄格-0-ss-13.215.178.204:443
   type: ss
   server: 13.215.178.204
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.201.51.15:443
+  type: ss
+  server: 43.201.51.15
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -88,7 +88,7 @@ proxies:
   alterId: '0'
   cipher: auto
   ws-path: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-sl2.mayaa.eu.org:443
+- name: 美国-0-0-v2ray-sl2.mayaa.eu.org:443
   type: vmess
   server: sl2.mayaa.eu.org
   network: ws
@@ -108,7 +108,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /htvviru.top
-- name: 美国-0-0-v2ray-51fly99.win:443
+- name: 美国-加利福尼亚-旧金山-v2ray-51fly99.win:443
   type: vmess
   server: 51fly99.win
   network: ws
@@ -118,7 +118,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /myblog
-- name: 美国-0-0-v2ray-els200.jslist.tk:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
