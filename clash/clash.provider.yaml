@@ -71,6 +71,12 @@ proxies:
   port: 301
   cipher: chacha20-ietf-poly1305
   password: 3d81e6fb-c7f0-4791-af2e-82c93d149483
+- name: 澳大利亚-0-0-ss-43.201.64.3:443
+  type: ss
+  server: 43.201.64.3
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 德国-Nordrhein-Westfalen-0-v2ray-de-v.sshmax.xyz:80
   type: vmess
   server: de-v.sshmax.xyz
@@ -91,7 +97,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /htvviru.top
-- name: 美国-0-0-v2ray-de.gongyiyun.cf:8080
+- name: 美国-加利福尼亚-旧金山-v2ray-de.gongyiyun.cf:8080
   type: vmess
   server: de.gongyiyun.cf
   network: ws
@@ -160,6 +166,16 @@ proxies:
   alterId: '0'
   cipher: auto
   ws-path: ''
+- name: 韩国-首尔-首尔-v2ray-v36.kamatera.online:80
+  type: vmess
+  server: v36.kamatera.online
+  network: ws
+  port: 80
+  uuid: 59e004fd-959f-4844-9354-1125c9c67333
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
 - name: 美国-0-0-v2ray-51.89.138.147:80
   type: vmess
   server: 51.89.138.147
@@ -206,6 +222,16 @@ proxies:
   network: ws
   port: 63456
   uuid: 5b0376bf-6edb-4ec3-8bb5-1444fff99893
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 加拿大-安大略-奥克维尔-v2ray-v28.kamatera.online:80
+  type: vmess
+  server: v28.kamatera.online
+  network: ws
+  port: 80
+  uuid: 59e004fd-959f-4844-9354-1125c9c67333
   alterId: 4
   cipher: auto
   tls: false
