@@ -59,22 +59,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.207.1.14:443
-  type: ss
-  server: 43.207.1.14
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 加拿大-安大略-多伦多-v2ray-159.203.28.40:80
-  type: vmess
-  server: 159.203.28.40
-  network: ws
-  port: 80
-  uuid: e1f6f737-e6df-4947-b469-cf2b9698c50b
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /vmess
 - name: 中国-广东-东莞-v2ray-ggzx.tingliang92.com:19732
   type: vmess
   server: ggzx.tingliang92.com
@@ -164,3 +148,13 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Falling42gcssjpnode
+- name: 加拿大-安大略-多伦多-v2ray-159.203.28.40:80
+  type: vmess
+  server: 159.203.28.40
+  network: ws
+  port: 80
+  uuid: e1f6f737-e6df-4947-b469-cf2b9698c50b
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /vmess
