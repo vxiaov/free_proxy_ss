@@ -59,16 +59,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 俄罗斯-Khabarovskiy-0-v2ray-gcssjp.sylu.cyou:443
-  type: vmess
-  server: gcssjp.sylu.cyou
-  network: ws
-  port: 443
-  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /Falling42gcssjpnode
 - name: 中国-香港-0-v2ray-gang1.htvviru.top:21
   type: vmess
   server: gang1.htvviru.top
@@ -89,6 +79,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /zh-cn
+- name: 俄罗斯-Khabarovskiy-0-v2ray-gcssjp.sylu.cyou:443
+  type: vmess
+  server: gcssjp.sylu.cyou
+  network: ws
+  port: 443
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /Falling42gcssjpnode
 - name: 加拿大-安大略-多伦多-v2ray-159.203.28.40:80
   type: vmess
   server: 159.203.28.40
@@ -148,7 +148,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /dsadsa144113s
-- name: 美国-0-0-v2ray-51fly99.win:443
+- name: 美国-加利福尼亚-旧金山-v2ray-51fly99.win:443
   type: vmess
   server: 51fly99.win
   network: ws
@@ -158,3 +158,13 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /myblog
+- name: 中国-0-0-v2ray-mei1.htvviru.top:301
+  type: vmess
+  server: mei1.htvviru.top
+  network: ws
+  port: 301
+  uuid: 3d81e6fb-c7f0-4791-af2e-82c93d149483
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /htvviru.top
