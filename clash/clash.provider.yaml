@@ -1,10 +1,4 @@
 proxies:
-- name: 澳大利亚-0-0-ss-43.201.57.66:443
-  type: ss
-  server: 43.201.57.66
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 美国-康涅狄格-0-ss-13.215.51.220:443
   type: ss
   server: 13.215.51.220
@@ -20,24 +14,6 @@ proxies:
 - name: 澳大利亚-0-0-ss-43.207.1.14:443
   type: ss
   server: 43.207.1.14
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.178.204:443
-  type: ss
-  server: 13.215.178.204
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.201.48.212:443
-  type: ss
-  server: 43.201.48.212
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.48.189:443
-  type: ss
-  server: 13.215.48.189
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -98,6 +74,16 @@ proxies:
   alterId: '0'
   cipher: auto
   ws-path: ''
+- name: 中国-海南-儋州-v2ray-hainan.sfjsq001.info:33203
+  type: vmess
+  server: hainan.sfjsq001.info
+  network: ws
+  port: 33203
+  uuid: 2068342d-3374-3c3c-bef3-8719f9945f0b
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /test
 - name: 日本-0-0-v2ray-seoul-arm1.egg.run:80
   type: vmess
   server: seoul-arm1.egg.run
