@@ -11,18 +11,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.206.224.222:443
-  type: ss
-  server: 43.206.224.222
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.201.51.15:443
-  type: ss
-  server: 43.201.51.15
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-福建-厦门-ss-tina.coffeefed.top:39999
   type: ss
   server: tina.coffeefed.top
@@ -119,65 +107,6 @@ proxies:
   port: 40070
   cipher: chacha20-ietf-poly1305
   password: 0e73bef8-1363-4d84-b2d0-a70dc4e6af6f
-- name: 中国-0-0-v2ray-xin1.htvviru.top:123
-  type: vmess
-  server: xin1.htvviru.top
-  network: ws
-  port: 123
-  uuid: 3d81e6fb-c7f0-4791-af2e-82c93d149483
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /cctv13/hd.m3u8
-- name: 美国-马萨诸塞-0-v2ray-hk80-2.sanfen001.pics:80
-  type: vmess
-  server: hk80-2.sanfen001.pics
-  network: ws
-  port: 80
-  uuid: 46748b7e-8080-4f7b-ad4f-fa26a7373804
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /zh-cn/
-- name: 中国-广东-东莞-v2ray-ggzx.tingliang92.com:19732
-  type: vmess
-  server: ggzx.tingliang92.com
-  network: ws
-  port: 19732
-  uuid: c76aa5ac-2697-40a1-a3ef-b492b48a67fb
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /hkpro01
-- name: 美国-加利福尼亚-0-v2ray-152.69.230.170:80
-  type: vmess
-  server: 152.69.230.170
-  network: ws
-  port: 80
-  uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77
-  alterId: '0'
-  cipher: auto
-  ws-path: ''
-- name: 法国-0-0-v2ray-193.70.85.191:80
-  type: vmess
-  server: 193.70.85.191
-  network: ws
-  port: 80
-  uuid: 88bc28e5-c046-4b96-9c92-e9a75a4f6b92
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /vmess
-- name: 中国-香港-0-v2ray-gang1.htvviru.top:21
-  type: vmess
-  server: gang1.htvviru.top
-  network: ws
-  port: 21
-  uuid: 3d81e6fb-c7f0-4791-af2e-82c93d149483
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /htvviru.top
 - name: 俄罗斯-Khabarovskiy-0-v2ray-gcssjp.sylu.cyou:443
   type: vmess
   server: gcssjp.sylu.cyou
@@ -208,7 +137,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-加利福尼亚-旧金山-v2ray-sl2.mayaa.eu.org:443
+- name: 美国-0-0-v2ray-sl2.mayaa.eu.org:443
   type: vmess
   server: sl2.mayaa.eu.org
   network: ws
@@ -238,7 +167,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /myblog
-- name: 美国-0-0-v2ray-els200.jslist.tk:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
@@ -248,3 +177,72 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /wo.php
+- name: 美国-马萨诸塞-0-v2ray-hk80-2.sanfen001.pics:80
+  type: vmess
+  server: hk80-2.sanfen001.pics
+  network: ws
+  port: 80
+  uuid: 46748b7e-8080-4f7b-ad4f-fa26a7373804
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /zh-cn/
+- name: 加拿大-安大略-多伦多-v2ray-159.203.28.40:80
+  type: vmess
+  server: 159.203.28.40
+  network: ws
+  port: 80
+  uuid: e1f6f737-e6df-4947-b469-cf2b9698c50b
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /vmess
+- name: 中国-广东-东莞-v2ray-ggzx.tingliang92.com:19732
+  type: vmess
+  server: ggzx.tingliang92.com
+  network: ws
+  port: 19732
+  uuid: c76aa5ac-2697-40a1-a3ef-b492b48a67fb
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /hkpro01
+- name: 法国-0-0-v2ray-193.70.85.191:80
+  type: vmess
+  server: 193.70.85.191
+  network: ws
+  port: 80
+  uuid: 88bc28e5-c046-4b96-9c92-e9a75a4f6b92
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /vmess
+- name: 美国-加利福尼亚-0-v2ray-152.69.230.170:80
+  type: vmess
+  server: 152.69.230.170
+  network: ws
+  port: 80
+  uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77
+  alterId: '0'
+  cipher: auto
+  ws-path: ''
+- name: 中国-香港-0-v2ray-gang1.htvviru.top:21
+  type: vmess
+  server: gang1.htvviru.top
+  network: ws
+  port: 21
+  uuid: 3d81e6fb-c7f0-4791-af2e-82c93d149483
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /htvviru.top
+- name: 中国-0-0-v2ray-xin1.htvviru.top:123
+  type: vmess
+  server: xin1.htvviru.top
+  network: ws
+  port: 123
+  uuid: 3d81e6fb-c7f0-4791-af2e-82c93d149483
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /cctv13/hd.m3u8
