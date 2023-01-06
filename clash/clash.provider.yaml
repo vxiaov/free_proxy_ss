@@ -89,25 +89,13 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 新加坡-0-0-ss-ah.emoooo.club:38861
-  type: ss
-  server: ah.emoooo.club
-  port: 38861
-  cipher: chacha20-ietf-poly1305
-  password: 97239aa5-913f-44b6-bad1-1d88e9a605b9
 - name: 澳大利亚-0-0-ss-43.206.224.222:443
   type: ss
   server: 43.206.224.222
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.48.189:443
-  type: ss
-  server: 13.215.48.189
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 新加坡-0-0-ss-ah.emoooo.club:18780
+- name: 美国-康涅狄格-0-ss-ah.emoooo.club:18780
   type: ss
   server: ah.emoooo.club
   port: 18780
@@ -145,6 +133,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /zh-cn/
+- name: 法国-0-0-v2ray-193.70.85.191:80
+  type: vmess
+  server: 193.70.85.191
+  network: ws
+  port: 80
+  uuid: 88bc28e5-c046-4b96-9c92-e9a75a4f6b92
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /vmess
 - name: 美国-康涅狄格-0-v2ray-162.19.224.176:80
   type: vmess
   server: 162.19.224.176
@@ -234,6 +232,15 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 美国-加利福尼亚-0-v2ray-152.69.230.170:80
+  type: vmess
+  server: 152.69.230.170
+  network: ws
+  port: 80
+  uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77
+  alterId: '0'
+  cipher: auto
+  ws-path: ''
 - name: 法国-0-0-v2ray-51.77.212.145:80
   type: vmess
   server: 51.77.212.145
