@@ -59,6 +59,12 @@ proxies:
   port: 20
   cipher: chacha20-ietf-poly1305
   password: 3d81e6fb-c7f0-4791-af2e-82c93d149483
+- name: 美国-康涅狄格-0-ss-13.214.212.124:443
+  type: ss
+  server: 13.214.212.124
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 0-0-0-v2ray-fldsubgigtujuy.marisalnc.com:2082
   type: vmess
   server: fldsubgigtujuy.marisalnc.com
@@ -127,7 +133,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /miao
-- name: 美国-加利福尼亚-旧金山-v2ray-fr-01.legeth.tk:80
+- name: 美国-0-0-v2ray-fr-01.legeth.tk:80
   type: vmess
   server: fr-01.legeth.tk
   network: ws
@@ -146,6 +152,16 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /javajdk
+- name: 美国-0-0-v2ray-51.81.202.62:80
+  type: vmess
+  server: 51.81.202.62
+  network: ws
+  port: 80
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /v47-unlimitndxd
 - name: 0-0-0-v2ray-basblamd.marisalnc.com:2052
   type: vmess
   server: basblamd.marisalnc.com
@@ -176,7 +192,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-0-0-v2ray-us-02.legeth.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-us-02.legeth.tk:80
   type: vmess
   server: us-02.legeth.tk
   network: ws
@@ -252,6 +268,16 @@ proxies:
   network: ws
   port: 30961
   uuid: 220852b3-3b16-458a-89b1-dd5cd80af5f5
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 美国-0-0-v2ray-us-01.legeth.tk:80
+  type: vmess
+  server: us-01.legeth.tk
+  network: ws
+  port: 80
+  uuid: 664be14f-1729-463b-855b-801943630c8d
   alterId: 4
   cipher: auto
   tls: false
