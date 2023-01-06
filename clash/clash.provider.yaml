@@ -101,18 +101,22 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-湖南-岳阳-ss-hk-f-b.ccks.top:20501
-  type: ss
-  server: hk-f-b.ccks.top
-  port: 20501
-  cipher: chacha20-ietf-poly1305
-  password: 8c78fdba-4bcd-4f03-8116-7eef6c586e94
 - name: 澳大利亚-0-0-ss-43.206.241.153:443
   type: ss
   server: 43.206.241.153
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 加拿大-安大略-多伦多-v2ray-159.203.18.119:80
+  type: vmess
+  server: 159.203.18.119
+  network: ws
+  port: 80
+  uuid: 7118fddb-3e01-4932-a01d-6fb6799d2876
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /vmess
 - name: 澳大利亚-0-0-v2ray-hk80.sanfen001.pics:80
   type: vmess
   server: hk80.sanfen001.pics
@@ -153,7 +157,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /htvviru.top
-- name: 美国-加利福尼亚-旧金山-v2ray-au-01.legeth.tk:80
+- name: 美国-0-0-v2ray-au-01.legeth.tk:80
   type: vmess
   server: au-01.legeth.tk
   network: ws
@@ -163,7 +167,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-us-01.legeth.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-us-01.legeth.tk:80
   type: vmess
   server: us-01.legeth.tk
   network: ws
@@ -202,7 +206,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-fr-01.legeth.tk:80
+- name: 美国-0-0-v2ray-fr-01.legeth.tk:80
   type: vmess
   server: fr-01.legeth.tk
   network: ws
@@ -242,7 +246,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-加利福尼亚-旧金山-v2ray-sl2.mayaa.eu.org:443
+- name: 美国-0-0-v2ray-sl2.mayaa.eu.org:443
   type: vmess
   server: sl2.mayaa.eu.org
   network: ws
@@ -262,7 +266,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /zh-cn/
-- name: 美国-加利福尼亚-旧金山-v2ray-sg-01.legeth.tk:80
+- name: 美国-0-0-v2ray-sg-01.legeth.tk:80
   type: vmess
   server: sg-01.legeth.tk
   network: ws
