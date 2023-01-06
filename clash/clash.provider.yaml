@@ -11,12 +11,6 @@ proxies:
   port: 8888
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
-- name: 澳大利亚-0-0-ss-43.201.48.212:443
-  type: ss
-  server: 43.201.48.212
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 美国-康涅狄格-0-ss-13.215.163.54:443
   type: ss
   server: 13.215.163.54
@@ -47,21 +41,9 @@ proxies:
   port: 17525
   cipher: chacha20-ietf-poly1305
   password: 45620e03-b8c6-4937-afb0-7ffee4dc8686
-- name: 澳大利亚-0-0-ss-43.201.59.236:443
-  type: ss
-  server: 43.201.59.236
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.206.241.153:443
   type: ss
   server: 43.206.241.153
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.206.224.222:443
-  type: ss
-  server: 43.206.224.222
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -71,12 +53,16 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.51.220:443
-  type: ss
-  server: 13.215.51.220
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
+- name: 中国-广东-广州-v2ray-a9ht.cdn.node.a.tddns-ounk.com:20578
+  type: vmess
+  server: a9ht.cdn.node.a.tddns-ounk.com
+  network: ws
+  port: 20578
+  uuid: e462e8b6-3ac2-3252-8d16-a467ff137d6c
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8
 - name: 中国-湖南-岳阳-v2ray-sh-cn-1.dnspro.icu:20025
   type: vmess
   server: sh-cn-1.dnspro.icu
@@ -236,7 +222,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /197c2808-5cda-4362-b137-e82cd56d87cc.y.live03.m3u8
-- name: 美国-0-0-v2ray-us-02.legeth.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-us-02.legeth.tk:80
   type: vmess
   server: us-02.legeth.tk
   network: ws
@@ -476,7 +462,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /acaaaad0-54f5-4e10-94bb-1e6ab04649e1.y.live02.m3u8
-- name: 美国-0-0-v2ray-fr-01.legeth.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-fr-01.legeth.tk:80
   type: vmess
   server: fr-01.legeth.tk
   network: ws
@@ -526,7 +512,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-加利福尼亚-旧金山-v2ray-sl2.mayaa.eu.org:443
+- name: 美国-0-0-v2ray-sl2.mayaa.eu.org:443
   type: vmess
   server: sl2.mayaa.eu.org
   network: ws
@@ -546,7 +532,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /zh-cn/
-- name: 美国-0-0-v2ray-sg-01.legeth.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-sg-01.legeth.tk:80
   type: vmess
   server: sg-01.legeth.tk
   network: ws
@@ -586,6 +572,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /197c2808-5cda-4362-b137-e82cd56d87cc.y.live03.m3u8
+- name: 中国-海南-儋州-v2ray-fg6bc.cdn.node.a.tddns-ounk.com:20643
+  type: vmess
+  server: fg6bc.cdn.node.a.tddns-ounk.com
+  network: ws
+  port: 20643
+  uuid: e462e8b6-3ac2-3252-8d16-a467ff137d6c
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8
 - name: 中国-广东-广州-v2ray-ap15ad.cdn.node.a.tddns-ounk.com:20292
   type: vmess
   server: ap15ad.cdn.node.a.tddns-ounk.com
