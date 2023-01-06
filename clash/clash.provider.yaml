@@ -107,6 +107,12 @@ proxies:
   port: 20501
   cipher: chacha20-ietf-poly1305
   password: 8c78fdba-4bcd-4f03-8116-7eef6c586e94
+- name: 澳大利亚-0-0-ss-43.206.241.153:443
+  type: ss
+  server: 43.206.241.153
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 美国-加利福尼亚-0-v2ray-osaka-arm3.egg.run:80
   type: vmess
   server: osaka-arm3.egg.run
@@ -217,6 +223,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
+- name: 中国-海南-儋州-v2ray-6a9jh.cdn.node.a.tddns-ounk.com:20491
+  type: vmess
+  server: 6a9jh.cdn.node.a.tddns-ounk.com
+  network: ws
+  port: 20491
+  uuid: e462e8b6-3ac2-3252-8d16-a467ff137d6c
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /3c675bf1-d618-42de-a358-498396d49cc6.y.live04.m3u8
 - name: 美国-0-0-v2ray-us-02.legeth.tk:80
   type: vmess
   server: us-02.legeth.tk
@@ -297,6 +313,15 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 加拿大-安大略-多伦多-v2ray-159.203.28.40:80
+  type: vmess
+  server: 159.203.28.40
+  network: ws
+  port: 80
+  uuid: e1f6f737-e6df-4947-b469-cf2b9698c50b
+  alterId: 0
+  cipher: auto
+  ws-path: /vmess
 - name: 中国-广东-广州-v2ray-a8hm3.cdn.node.a.tddns-ounk.com:20509
   type: vmess
   server: a8hm3.cdn.node.a.tddns-ounk.com
@@ -317,6 +342,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /iso
+- name: 美国-加利福尼亚-0-v2ray-toronto-arm4.egg.run:80
+  type: vmess
+  server: toronto-arm4.egg.run
+  network: ws
+  port: 80
+  uuid: 23a753bd-890e-39e6-8e0a-1e0db8012a5f
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: toronto-arm4.egg.run/
 - name: 加拿大-安大略-多伦多-v2ray-toronto2.egg.run:80
   type: vmess
   server: toronto2.egg.run
@@ -397,7 +432,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: toronto1.egg.run/
-- name: 美国-0-0-v2ray-fr-01.legeth.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-fr-01.legeth.tk:80
   type: vmess
   server: fr-01.legeth.tk
   network: ws
@@ -437,7 +472,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-加利福尼亚-旧金山-v2ray-sl2.mayaa.eu.org:443
+- name: 美国-0-0-v2ray-sl2.mayaa.eu.org:443
   type: vmess
   server: sl2.mayaa.eu.org
   network: ws
@@ -487,3 +522,13 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /197c2808-5cda-4362-b137-e82cd56d87cc.y.live03.m3u8
+- name: 美国-加利福尼亚-0-v2ray-toronto-arm6.egg.run:80
+  type: vmess
+  server: toronto-arm6.egg.run
+  network: ws
+  port: 80
+  uuid: 23a753bd-890e-39e6-8e0a-1e0db8012a5f
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: toronto-arm6.egg.run/
