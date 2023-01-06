@@ -1,4 +1,10 @@
 proxies:
+- name: 日本-东京都-东京-ss-85.208.108.60:8080
+  type: ss
+  server: 85.208.108.60
+  port: 8080
+  cipher: aes-256-gcm
+  password: KixLvKzwjekG00rm
 - name: 0-0-0-v2ray-fldsubgigtujuy.marisalnc.com:2082
   type: vmess
   server: fldsubgigtujuy.marisalnc.com
@@ -96,7 +102,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-0-0-v2ray-sl2.mayaa.eu.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-sl2.mayaa.eu.org:443
   type: vmess
   server: sl2.mayaa.eu.org
   network: ws
