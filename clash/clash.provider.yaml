@@ -89,6 +89,26 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 美国-0-0-ssr-playweb.ml:6983
+  type: ssr
+  server: playweb.ml
+  password: Hucloud12
+  obfs: plain
+  protocol: auth_sha1_v4
+  port: 6983
+  cipher: chacha20-ietf
+  protocol-param: ''
+  obfs-param: ''
+- name: 中国-广东-广州-ssr-14.29.124.168:24005
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24005
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 加拿大-安大略-多伦多-v2ray-159.203.18.119:80
   type: vmess
   server: 159.203.18.119
@@ -119,17 +139,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-hk80.sanfen001.pics:80
-  type: vmess
-  server: hk80.sanfen001.pics
-  network: ws
-  port: 80
-  uuid: 45620e03-b8c6-4937-afb0-7ffee4dc8686
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /zh-cn/
-- name: 美国-加利福尼亚-旧金山-v2ray-au-01.legeth.tk:80
+- name: 美国-0-0-v2ray-au-01.legeth.tk:80
   type: vmess
   server: au-01.legeth.tk
   network: ws
@@ -149,7 +159,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /iso
-- name: 美国-0-0-v2ray-us-01.legeth.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-us-01.legeth.tk:80
   type: vmess
   server: us-01.legeth.tk
   network: ws
@@ -188,7 +198,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-fr-01.legeth.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-fr-01.legeth.tk:80
   type: vmess
   server: fr-01.legeth.tk
   network: ws
@@ -198,16 +208,6 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-hk80-2.sanfen001.pics:80
-  type: vmess
-  server: hk80-2.sanfen001.pics
-  network: ws
-  port: 80
-  uuid: 45620e03-b8c6-4937-afb0-7ffee4dc8686
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /zh-cn/
 - name: 法国-0-0-v2ray-51.77.212.145:80
   type: vmess
   server: 51.77.212.145
@@ -218,7 +218,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-0-0-v2ray-sl2.mayaa.eu.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-sl2.mayaa.eu.org:443
   type: vmess
   server: sl2.mayaa.eu.org
   network: ws
