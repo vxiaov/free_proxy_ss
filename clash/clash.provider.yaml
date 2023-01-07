@@ -89,6 +89,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.201.51.15:443
+  type: ss
+  server: 43.201.51.15
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 美国-0-0-ssr-playweb.ml:6983
   type: ssr
   server: playweb.ml
@@ -227,7 +233,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-0-0-v2ray-us-02.legeth.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-us-02.legeth.tk:80
   type: vmess
   server: us-02.legeth.tk
   network: ws
@@ -247,7 +253,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /iso
-- name: 美国-加利福尼亚-旧金山-v2ray-au-01.legeth.tk:80
+- name: 美国-0-0-v2ray-au-01.legeth.tk:80
   type: vmess
   server: au-01.legeth.tk
   network: ws
@@ -297,6 +303,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 中国-湖南-郴州-v2ray-cn-pk.dnspro.icu:8003
+  type: vmess
+  server: cn-pk.dnspro.icu
+  network: ws
+  port: 8003
+  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /iso
 - name: 中国-湖南-郴州-v2ray-cn-ar.dnspro.icu:41000
   type: vmess
   server: cn-ar.dnspro.icu
@@ -317,7 +333,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /chat
-- name: 美国-0-0-v2ray-vn-01.legeth.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-vn-01.legeth.tk:80
   type: vmess
   server: vn-01.legeth.tk
   network: ws
