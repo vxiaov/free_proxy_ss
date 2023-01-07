@@ -87,6 +87,16 @@ proxies:
   cipher: chacha20-ietf
   protocol-param: ''
   obfs-param: ''
+- name: 中国-广东-广州-ssr-14.29.124.168:24000
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24000
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 中国-湖南-郴州-v2ray-steam.dnspro.icu:5000
   type: vmess
   server: steam.dnspro.icu
@@ -195,16 +205,6 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 澳大利亚-新南威尔士-悉尼-v2ray-vau1.0bad.com:443
-  type: vmess
-  server: vau1.0bad.com
-  network: ws
-  port: 443
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /chat
 - name: 美国-0-0-v2ray-au-01.legeth.tk:80
   type: vmess
   server: au-01.legeth.tk
@@ -315,17 +315,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-0-0-v2ray-hk2.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com:8002
-  type: vmess
-  server: hk2.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
-  network: ws
-  port: 8002
-  uuid: 982e8d64-b1e6-473f-a830-c9bac41eba8f
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
-- name: 美国-0-0-v2ray-sl2.mayaa.eu.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-sl2.mayaa.eu.org:443
   type: vmess
   server: sl2.mayaa.eu.org
   network: ws
@@ -335,7 +325,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /dsadsa144113s
-- name: 美国-0-0-v2ray-sg-01.legeth.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-sg-01.legeth.tk:80
   type: vmess
   server: sg-01.legeth.tk
   network: ws
