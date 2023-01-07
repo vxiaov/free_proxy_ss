@@ -1,19 +1,7 @@
 proxies:
-- name: 澳大利亚-0-0-ss-43.207.82.53:443
-  type: ss
-  server: 43.207.82.53
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 美国-康涅狄格-0-ss-13.215.178.204:443
   type: ss
   server: 13.215.178.204
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.159.84:443
-  type: ss
-  server: 13.215.159.84
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -32,18 +20,6 @@ proxies:
 - name: 澳大利亚-0-0-ss-43.201.51.15:443
   type: ss
   server: 43.201.51.15
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 中国-广东-广州-ss-14.29.124.168:24009
-  type: ss
-  server: 14.29.124.168
-  port: 24009
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 澳大利亚-0-0-ss-43.207.74.249:443
-  type: ss
-  server: 43.207.74.249
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -71,6 +47,15 @@ proxies:
   port: 24002
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 美国-加利福尼亚-0-v2ray-152.69.230.170:80
+  type: vmess
+  server: 152.69.230.170
+  network: ws
+  port: 80
+  uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77
+  alterId: '0'
+  cipher: auto
+  ws-path: ''
 - name: 荷兰-0-0-v2ray-v10a.toddns.tk:80
   type: vmess
   server: v10a.toddns.tk
@@ -161,7 +146,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Falling42gcoresgnode
-- name: 美国-加利福尼亚-旧金山-v2ray-au-01.legeth.tk:80
+- name: 美国-0-0-v2ray-au-01.legeth.tk:80
   type: vmess
   server: au-01.legeth.tk
   network: ws
@@ -211,7 +196,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /iso
-- name: 美国-0-0-v2ray-vn-01.legeth.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-vn-01.legeth.tk:80
   type: vmess
   server: vn-01.legeth.tk
   network: ws
@@ -241,7 +226,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /fr-unlimitxxx
-- name: 美国-加利福尼亚-旧金山-v2ray-fr-01.legeth.tk:80
+- name: 美国-0-0-v2ray-fr-01.legeth.tk:80
   type: vmess
   server: fr-01.legeth.tk
   network: ws
@@ -281,7 +266,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-加利福尼亚-旧金山-v2ray-sl2.mayaa.eu.org:443
+- name: 美国-0-0-v2ray-sl2.mayaa.eu.org:443
   type: vmess
   server: sl2.mayaa.eu.org
   network: ws
@@ -291,7 +276,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /dsadsa144113s
-- name: 美国-加利福尼亚-旧金山-v2ray-sg-01.legeth.tk:80
+- name: 美国-0-0-v2ray-sg-01.legeth.tk:80
   type: vmess
   server: sg-01.legeth.tk
   network: ws
