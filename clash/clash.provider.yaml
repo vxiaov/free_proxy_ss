@@ -17,12 +17,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-广东-深圳-ss-cta.yibao.site:30324
-  type: ss
-  server: cta.yibao.site
-  port: 30324
-  cipher: chacha20-ietf-poly1305
-  password: 228b7349-513a-4aa5-8394-9f3a88526f67
 - name: 澳大利亚-0-0-ss-43.201.48.212:443
   type: ss
   server: 43.201.48.212
@@ -71,12 +65,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.178.204:443
-  type: ss
-  server: 13.215.178.204
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.206.224.222:443
   type: ss
   server: 43.206.224.222
@@ -86,6 +74,12 @@ proxies:
 - name: 澳大利亚-0-0-ss-43.206.241.153:443
   type: ss
   server: 43.206.241.153
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-康涅狄格-0-ss-13.214.212.124:443
+  type: ss
+  server: 13.214.212.124
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -189,7 +183,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Falling42gcsplnode
-- name: 美国-加利福尼亚-旧金山-v2ray-us-01.legeth.tk:80
+- name: 美国-0-0-v2ray-us-01.legeth.tk:80
   type: vmess
   server: us-01.legeth.tk
   network: ws
@@ -199,7 +193,17 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-vn-01.legeth.tk:80
+- name: 美国-德克萨斯-休斯顿-v2ray-hk80.sanfen001.pics:80
+  type: vmess
+  server: hk80.sanfen001.pics
+  network: ws
+  port: 80
+  uuid: 777876d9-ab76-4094-b81c-349801c78675
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /zh-cn/
+- name: 美国-加利福尼亚-旧金山-v2ray-vn-01.legeth.tk:80
   type: vmess
   server: vn-01.legeth.tk
   network: ws
@@ -248,7 +252,7 @@ proxies:
   alterId: '0'
   cipher: auto
   ws-path: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-sg-01.legeth.tk:80
+- name: 美国-0-0-v2ray-sg-01.legeth.tk:80
   type: vmess
   server: sg-01.legeth.tk
   network: ws
