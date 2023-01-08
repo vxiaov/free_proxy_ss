@@ -5,12 +5,6 @@ proxies:
   port: 993
   cipher: chacha20-ietf-poly1305
   password: b3da4b74-ab6a-4fed-96de-ad873251d665
-- name: 中国-0-0-ss-dong1.htvviru.top:12
-  type: ss
-  server: dong1.htvviru.top
-  port: 12
-  cipher: chacha20-ietf-poly1305
-  password: 3d81e6fb-c7f0-4791-af2e-82c93d149483
 - name: 荷兰-0-0-ss-194.26.229.90:34418
   type: ss
   server: 194.26.229.90
@@ -26,6 +20,24 @@ proxies:
 - name: 澳大利亚-0-0-ss-43.207.1.14:443
   type: ss
   server: 43.207.1.14
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.207.74.249:443
+  type: ss
+  server: 43.207.74.249
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-康涅狄格-0-ss-13.214.212.124:443
+  type: ss
+  server: 13.214.212.124
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-康涅狄格-0-ss-13.215.159.84:443
+  type: ss
+  server: 13.215.159.84
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -119,7 +131,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Falling42gcsplnode
-- name: 美国-加利福尼亚-旧金山-v2ray-us-01.legeth.tk:80
+- name: 美国-0-0-v2ray-us-01.legeth.tk:80
   type: vmess
   server: us-01.legeth.tk
   network: ws
