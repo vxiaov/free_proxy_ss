@@ -5,12 +5,6 @@ proxies:
   port: 993
   cipher: chacha20-ietf-poly1305
   password: b3da4b74-ab6a-4fed-96de-ad873251d665
-- name: 中国-广东-广州-ss-14.29.124.168:24009
-  type: ss
-  server: 14.29.124.168
-  port: 24009
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
 - name: 美国-康涅狄格-0-ss-13.215.163.54:443
   type: ss
   server: 13.215.163.54
@@ -121,6 +115,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /iso
+- name: 美国-加利福尼亚-旧金山-v2ray-fr-01.legeth.tk:80
+  type: vmess
+  server: fr-01.legeth.tk
+  network: ws
+  port: 80
+  uuid: 664be14f-1729-463b-855b-801943630c8d
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: ''
 - name: 立陶宛-0-0-v2ray-gcorehk.sylu.cyou:443
   type: vmess
   server: gcorehk.sylu.cyou
@@ -171,7 +175,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-0-0-v2ray-au-01.legeth.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-au-01.legeth.tk:80
   type: vmess
   server: au-01.legeth.tk
   network: ws
@@ -281,7 +285,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /dsadsa144113s
-- name: 美国-加利福尼亚-旧金山-v2ray-sg-01.legeth.tk:80
+- name: 美国-0-0-v2ray-sg-01.legeth.tk:80
   type: vmess
   server: sg-01.legeth.tk
   network: ws
