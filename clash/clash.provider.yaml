@@ -11,12 +11,6 @@ proxies:
   port: 24002
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 美国-康涅狄格-0-ss-13.215.163.54:443
-  type: ss
-  server: 13.215.163.54
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 美国-康涅狄格-0-ss-13.214.212.124:443
   type: ss
   server: 13.214.212.124
@@ -26,12 +20,6 @@ proxies:
 - name: 澳大利亚-0-0-ss-43.201.59.236:443
   type: ss
   server: 43.201.59.236
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.206.224.222:443
-  type: ss
-  server: 43.206.224.222
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -65,36 +53,18 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.201.48.212:443
-  type: ss
-  server: 43.201.48.212
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-上海-上海-ss-vj5uk1zh9lf5ldxwoh.ziir.cn:15464
   type: ss
   server: vj5uk1zh9lf5ldxwoh.ziir.cn
   port: 15464
   cipher: aes-128-gcm
   password: 52856fc1-c93a-46c8-93be-28363b612f4b
-- name: 中国-江苏-南京-ss-dxnanjing02.baipiaozf.com:33336
-  type: ss
-  server: dxnanjing02.baipiaozf.com
-  port: 33336
-  cipher: chacha20-ietf-poly1305
-  password: 6d8bcf0d-7f6a-456e-8e4e-94af9b7cf73a
 - name: 中国-北京-北京-ss-aws-bj.qianlong520.vip:993
   type: ss
   server: aws-bj.qianlong520.vip
   port: 993
   cipher: chacha20-ietf-poly1305
   password: b3da4b74-ab6a-4fed-96de-ad873251d665
-- name: 澳大利亚-0-0-ss-43.201.57.30:443
-  type: ss
-  server: 43.201.57.30
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.207.1.14:443
   type: ss
   server: 43.207.1.14
@@ -220,6 +190,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
+- name: 美国-0-0-v2ray-jp-01.legeth.tk:80
+  type: vmess
+  server: jp-01.legeth.tk
+  network: ws
+  port: 80
+  uuid: 664be14f-1729-463b-855b-801943630c8d
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
 - name: 美国-加利福尼亚-旧金山-v2ray-us-02.legeth.tk:80
   type: vmess
   server: us-02.legeth.tk
@@ -240,7 +220,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /iso
-- name: 美国-0-0-v2ray-au-01.legeth.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-au-01.legeth.tk:80
   type: vmess
   server: au-01.legeth.tk
   network: ws
@@ -300,7 +280,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /roewesu
-- name: 美国-0-0-v2ray-us-01.legeth.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-us-01.legeth.tk:80
   type: vmess
   server: us-01.legeth.tk
   network: ws
@@ -330,7 +310,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /iso
-- name: 美国-加利福尼亚-旧金山-v2ray-vn-01.legeth.tk:80
+- name: 美国-0-0-v2ray-vn-01.legeth.tk:80
   type: vmess
   server: vn-01.legeth.tk
   network: ws
@@ -370,6 +350,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
+- name: 美国-加利福尼亚-0-v2ray-sg4.egg.run:80
+  type: vmess
+  server: sg4.egg.run
+  network: ws
+  port: 80
+  uuid: 23a753bd-890e-39e6-8e0a-1e0db8012a5f
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: sg4.egg.run/
 - name: 中国-海南-儋州-v2ray-tw-gx-1.dnspro.icu:3433
   type: vmess
   server: tw-gx-1.dnspro.icu
@@ -410,7 +400,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-加利福尼亚-旧金山-v2ray-fr-01.legeth.tk:80
+- name: 美国-0-0-v2ray-fr-01.legeth.tk:80
   type: vmess
   server: fr-01.legeth.tk
   network: ws
@@ -459,3 +449,13 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /iso
+- name: 美国-加利福尼亚-0-v2ray-fra-arm4.egg.run:80
+  type: vmess
+  server: fra-arm4.egg.run
+  network: ws
+  port: 80
+  uuid: 23a753bd-890e-39e6-8e0a-1e0db8012a5f
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: fra-arm4.egg.run/
