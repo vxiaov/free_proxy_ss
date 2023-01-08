@@ -5,24 +5,12 @@ proxies:
   port: 993
   cipher: chacha20-ietf-poly1305
   password: b3da4b74-ab6a-4fed-96de-ad873251d665
-- name: 荷兰-0-0-ss-194.26.229.90:34418
-  type: ss
-  server: 194.26.229.90
-  port: 34418
-  cipher: chacha20-ietf-poly1305
-  password: OIoLTApW9EjZWghiQvMcsFJSE
 - name: 中国-广东-深圳-ss-cta.yibao.site:30324
   type: ss
   server: cta.yibao.site
   port: 30324
   cipher: chacha20-ietf-poly1305
   password: 1759aa5b-ef38-459f-a868-e749cbeb76ea
-- name: 澳大利亚-0-0-ss-43.207.1.14:443
-  type: ss
-  server: 43.207.1.14
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.207.74.249:443
   type: ss
   server: 43.207.74.249
@@ -59,12 +47,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.163.54:443
-  type: ss
-  server: 13.215.163.54
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.207.0.146:443
   type: ss
   server: 43.207.0.146
@@ -74,6 +56,12 @@ proxies:
 - name: 澳大利亚-0-0-ss-43.206.241.153:443
   type: ss
   server: 43.206.241.153
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-康涅狄格-0-ss-13.215.178.204:443
+  type: ss
+  server: 13.215.178.204
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -87,6 +75,16 @@ proxies:
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
+- name: 中国-湖南-郴州-v2ray-cn-pk.dnspro.icu:8003
+  type: vmess
+  server: cn-pk.dnspro.icu
+  network: ws
+  port: 8003
+  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /iso
 - name: 俄罗斯-莫斯科-莫斯科-v2ray-gcorehkk.sylu.cyou:443
   type: vmess
   server: gcorehkk.sylu.cyou
