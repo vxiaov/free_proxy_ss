@@ -89,37 +89,19 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-海南-儋州-v2ray-tw-gx-1.dnspro.icu:3433
-  type: vmess
-  server: tw-gx-1.dnspro.icu
-  network: ws
-  port: 3433
-  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /iso
-- name: 立陶宛-0-0-v2ray-gcorehk.sylu.cyou:443
-  type: vmess
-  server: gcorehk.sylu.cyou
-  network: ws
+- name: 澳大利亚-0-0-ss-43.207.82.53:443
+  type: ss
+  server: 43.207.82.53
   port: 443
-  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /Falling42gcorehknode
-- name: 荷兰-0-0-v2ray-45.136.244.181:80
-  type: vmess
-  server: 45.136.244.181
-  network: ws
-  port: 80
-  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /nl-unlimitxxx
-- name: 美国-0-0-v2ray-sl2.mayaa.eu.org:443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-康涅狄格-0-ss-13.215.163.54:443
+  type: ss
+  server: 13.215.163.54
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-加利福尼亚-旧金山-v2ray-sl2.mayaa.eu.org:443
   type: vmess
   server: sl2.mayaa.eu.org
   network: ws
@@ -188,6 +170,16 @@ proxies:
   alterId: '0'
   cipher: auto
   ws-path: ''
+- name: 中国-海南-儋州-v2ray-tw-gx-1.dnspro.icu:3433
+  type: vmess
+  server: tw-gx-1.dnspro.icu
+  network: ws
+  port: 3433
+  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /iso
 - name: 保加利亚-Sofia-0-v2ray-gcspl.sylu.cyou:443
   type: vmess
   server: gcspl.sylu.cyou
@@ -198,3 +190,23 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Falling42gcsplnode
+- name: 立陶宛-0-0-v2ray-gcorehk.sylu.cyou:443
+  type: vmess
+  server: gcorehk.sylu.cyou
+  network: ws
+  port: 443
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /Falling42gcorehknode
+- name: 荷兰-0-0-v2ray-45.136.244.181:80
+  type: vmess
+  server: 45.136.244.181
+  network: ws
+  port: 80
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /nl-unlimitxxx
