@@ -1,25 +1,7 @@
 proxies:
-- name: 中国-广东-深圳-ss-cta.yibao.site:30324
-  type: ss
-  server: cta.yibao.site
-  port: 30324
-  cipher: chacha20-ietf-poly1305
-  password: 1759aa5b-ef38-459f-a868-e749cbeb76ea
-- name: 中国-广东-深圳-ss-cta.yibao.site:23999
-  type: ss
-  server: cta.yibao.site
-  port: 23999
-  cipher: chacha20-ietf-poly1305
-  password: 1759aa5b-ef38-459f-a868-e749cbeb76ea
 - name: 澳大利亚-0-0-ss-43.206.224.222:443
   type: ss
   server: 43.206.224.222
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.207.0.146:443
-  type: ss
-  server: 43.207.0.146
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -89,6 +71,36 @@ proxies:
   port: 991
   cipher: chacha20-ietf-poly1305
   password: b3da4b74-ab6a-4fed-96de-ad873251d665
+- name: 美国-华盛顿-西雅图-ss-38.91.102.123:9102
+  type: ss
+  server: 38.91.102.123
+  port: 9102
+  cipher: aes-256-gcm
+  password: e4FCWrgpkji3QY
+- name: 美国-华盛顿-西雅图-ss-38.91.102.123:2376
+  type: ss
+  server: 38.91.102.123
+  port: 2376
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- name: 美国-康涅狄格-0-ss-13.214.212.124:443
+  type: ss
+  server: 13.214.212.124
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-康涅狄格-0-ss-172.99.188.99:5600
+  type: ss
+  server: 172.99.188.99
+  port: 5600
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 日本-东京都-东京-ss-85.208.108.60:5000
+  type: ss
+  server: 85.208.108.60
+  port: 5000
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
 - name: 中国-广东-广州-ssr-14.29.124.168:24005
   type: ssr
   server: 14.29.124.168
@@ -178,7 +190,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-加利福尼亚-旧金山-v2ray-sl2.mayaa.eu.org:443
+- name: 美国-0-0-v2ray-sl2.mayaa.eu.org:443
   type: vmess
   server: sl2.mayaa.eu.org
   network: ws
