@@ -71,12 +71,6 @@ proxies:
   port: 17525
   cipher: chacha20-ietf-poly1305
   password: e30fa02c-d604-4191-9b81-c550b32f82bc
-- name: 中国-广东-0-ss-shankh.772xx.cn:17124
-  type: ss
-  server: shankh.772xx.cn
-  port: 17124
-  cipher: chacha20-ietf-poly1305
-  password: 3e502712-c451-45f8-a934-50faaf7ba348
 - name: 中国-广东-0-ss-m3u8.cm.772xx.cn:27762
   type: ss
   server: m3u8.cm.772xx.cn
@@ -113,12 +107,6 @@ proxies:
   port: 17115
   cipher: chacha20-ietf-poly1305
   password: 3e502712-c451-45f8-a934-50faaf7ba348
-- name: 美国-康涅狄格-0-ss-13.215.163.54:443
-  type: ss
-  server: 13.215.163.54
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.207.74.249:443
   type: ss
   server: 43.207.74.249
@@ -146,6 +134,12 @@ proxies:
 - name: 澳大利亚-0-0-ss-43.206.224.222:443
   type: ss
   server: 43.206.224.222
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.207.82.53:443
+  type: ss
+  server: 43.207.82.53
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -288,7 +282,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Falling42gcorehknode
-- name: 美国-加利福尼亚-旧金山-v2ray-zhuyong.hucloud-dns.xyz:443
+- name: 美国-0-0-v2ray-zhuyong.hucloud-dns.xyz:443
   type: vmess
   server: zhuyong.hucloud-dns.xyz
   network: ws
