@@ -23,12 +23,6 @@ proxies:
   port: 5000
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
-- name: 美国-康涅狄格-0-ss-172.99.188.99:3306
-  type: ss
-  server: 172.99.188.99
-  port: 3306
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
 - name: 美国-佛罗里达-迈阿密-ss-38.91.107.37:7001
   type: ss
   server: 38.91.107.37
@@ -89,12 +83,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.173.114:443
-  type: ss
-  server: 13.215.173.114
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 美国-康涅狄格-0-ss-13.215.159.84:443
   type: ss
   server: 13.215.159.84
@@ -113,6 +101,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 中国-上海-上海-ss-9bdc7f3764a60fb0.sanfen001.pics:17525
+  type: ss
+  server: 9bdc7f3764a60fb0.sanfen001.pics
+  port: 17525
+  cipher: chacha20-ietf-poly1305
+  password: 8543e573-88d6-4d54-9159-4f2aeb3fef9b
 - name: 美国-0-0-v2ray-huclouds.ml:5505
   type: vmess
   server: huclouds.ml
