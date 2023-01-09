@@ -77,15 +77,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-加利福尼亚-0-v2ray-152.69.230.170:80
-  type: vmess
-  server: 152.69.230.170
-  network: ws
-  port: 80
-  uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77
-  alterId: '0'
-  cipher: auto
-  ws-path: ''
 - name: 越南-河内-0-v2ray-103.56.160.184:80
   type: vmess
   server: 103.56.160.184
@@ -126,7 +117,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 意大利-0-0-v2ray-v19.emovpn.xyz:443
+- name: 美国-科罗拉多-0-v2ray-v19.emovpn.xyz:443
   type: vmess
   server: v19.emovpn.xyz
   network: ws
@@ -166,3 +157,22 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
+- name: 中国-广东-广州-v2ray-jipro.cdn.01.njser.xyz:23601
+  type: vmess
+  server: jipro.cdn.01.njser.xyz
+  network: ws
+  port: 23601
+  uuid: 4ece63f1-77d6-41b7-896b-25947714042f
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /97a824953bee.live140.m3u8
+- name: 美国-加利福尼亚-0-v2ray-152.69.230.170:80
+  type: vmess
+  server: 152.69.230.170
+  network: ws
+  port: 80
+  uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77
+  alterId: '0'
+  cipher: auto
+  ws-path: ''
