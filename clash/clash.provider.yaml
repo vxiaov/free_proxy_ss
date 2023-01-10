@@ -77,7 +77,7 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-0-0-v2ray-jt2.nmsl.pics:443
+- name: 美国-加利福尼亚-旧金山-v2ray-jt2.nmsl.pics:443
   type: vmess
   server: jt2.nmsl.pics
   network: ws
@@ -107,16 +107,6 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 中国-广东-广州-v2ray-jipro.cdn.01.njser.xyz:23502
-  type: vmess
-  server: jipro.cdn.01.njser.xyz
-  network: ws
-  port: 23502
-  uuid: 4ece63f1-77d6-41b7-896b-25947714042f
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /de7d8a9a23f5.live113.m3u8
 - name: 美国-佐治亚-亚特兰大-v2ray-15.235.202.111:80
   type: vmess
   server: 15.235.202.111
@@ -143,6 +133,15 @@ proxies:
   network: ws
   port: 80
   uuid: 96da5902-9c0a-473c-bb9f-577eb4b9f214
+  alterId: 0
+  cipher: auto
+  ws-path: /vmess
+- name: 新加坡-0-0-v2ray-139.99.61.53:80
+  type: vmess
+  server: 139.99.61.53
+  network: ws
+  port: 80
+  uuid: 60f30e26-0af7-4b64-ba94-71450ed77e23
   alterId: 0
   cipher: auto
   ws-path: /vmess
