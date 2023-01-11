@@ -5,36 +5,18 @@ proxies:
   port: 8881
   cipher: aes-256-gcm
   password: kDWvXYZoTBcGkC4
-- name: 澳大利亚-0-0-ss-43.201.48.212:443
-  type: ss
-  server: 43.201.48.212
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 美国-华盛顿-西雅图-ss-38.91.102.123:9102
   type: ss
   server: 38.91.102.123
   port: 9102
   cipher: aes-256-gcm
   password: e4FCWrgpkji3QY
-- name: 澳大利亚-0-0-ss-43.201.59.236:443
-  type: ss
-  server: 43.201.59.236
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-江苏-扬州-ss-ss.mayiyun.shop:22002
   type: ss
   server: ss.mayiyun.shop
   port: 22002
   cipher: aes-128-gcm
   password: 9f866716-17f5-47be-bc45-673144572385
-- name: 日本-东京都-东京-ss-85.208.108.60:443
-  type: ss
-  server: 85.208.108.60
-  port: 443
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
 - name: 美国-康涅狄格-0-ss-13.215.178.204:443
   type: ss
   server: 13.215.178.204
@@ -53,12 +35,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-江苏-扬州-ss-ss.mayiyun.shop:20000
-  type: ss
-  server: ss.mayiyun.shop
-  port: 20000
-  cipher: aes-128-gcm
-  password: 9f866716-17f5-47be-bc45-673144572385
 - name: 美国-康涅狄格-0-ss-13.214.212.124:443
   type: ss
   server: 13.214.212.124
@@ -71,15 +47,15 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.51.220:443
-  type: ss
-  server: 13.215.51.220
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.201.103.37:443
   type: ss
   server: 43.201.103.37
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-康涅狄格-0-ss-13.215.173.114:443
+  type: ss
+  server: 13.215.173.114
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -152,7 +128,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-加利福尼亚-旧金山-v2ray-jt2.nmsl.pics:443
+- name: 美国-0-0-v2ray-jt2.nmsl.pics:443
   type: vmess
   server: jt2.nmsl.pics
   network: ws
@@ -182,7 +158,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 中国-广东-广州-v2ray-g.j.v4.1.kiki789.com:23038
+- name: 中国-0-0-v2ray-g.j.v4.1.kiki789.com:23038
   type: vmess
   server: g.j.v4.1.kiki789.com
   network: ws
@@ -221,7 +197,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ZPK2023jLBEy
-- name: 中国-广东-广州-v2ray-ovhsg.v4.kiki789.com:29041
+- name: 中国-0-0-v2ray-ovhsg.v4.kiki789.com:29041
   type: vmess
   server: ovhsg.v4.kiki789.com
   network: ws
@@ -231,7 +207,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8
-- name: 中国-广东-广州-v2ray-g.j.v4.1.kiki789.com:23939
+- name: 中国-0-0-v2ray-g.j.v4.1.kiki789.com:23939
   type: vmess
   server: g.j.v4.1.kiki789.com
   network: ws
@@ -251,3 +227,33 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /aln/15
+- name: 英国-伦敦-伦敦-v2ray-vuk2.0bad.com:443
+  type: vmess
+  server: vuk2.0bad.com
+  network: ws
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /chat
+- name: 中国-0-0-v2ray-g.j.v4.1.kiki789.com:23156
+  type: vmess
+  server: g.j.v4.1.kiki789.com
+  network: ws
+  port: 23156
+  uuid: 07da79a2-75ff-349c-8ded-0af6a9735ab0
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8
+- name: 中国-0-0-v2ray-ovhsg.v4.kiki789.com:10444
+  type: vmess
+  server: ovhsg.v4.kiki789.com
+  network: ws
+  port: 10444
+  uuid: 07da79a2-75ff-349c-8ded-0af6a9735ab0
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8
