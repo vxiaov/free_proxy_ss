@@ -1,16 +1,4 @@
 proxies:
-- name: 澳大利亚-0-0-ss-43.200.2.173:443
-  type: ss
-  server: 43.200.2.173
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.173.114:443
-  type: ss
-  server: 13.215.173.114
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 美国-康涅狄格-0-ss-172.99.188.99:8881
   type: ss
   server: 172.99.188.99
@@ -47,12 +35,6 @@ proxies:
   port: 9101
   cipher: aes-256-gcm
   password: e4FCWrgpkji3QY
-- name: 澳大利亚-0-0-ss-43.201.103.37:443
-  type: ss
-  server: 43.201.103.37
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.201.59.236:443
   type: ss
   server: 43.201.59.236
@@ -65,18 +47,6 @@ proxies:
   port: 7001
   cipher: aes-256-gcm
   password: RexnBgU7EV5ADxG
-- name: 澳大利亚-0-0-ss-43.207.82.53:443
-  type: ss
-  server: 43.207.82.53
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.163.54:443
-  type: ss
-  server: 13.215.163.54
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-江苏-扬州-ss-ss.mayiyun.shop:22002
   type: ss
   server: ss.mayiyun.shop
@@ -89,12 +59,6 @@ proxies:
   port: 20000
   cipher: aes-128-gcm
   password: 9f866716-17f5-47be-bc45-673144572385
-- name: 澳大利亚-0-0-ss-43.201.51.15:443
-  type: ss
-  server: 43.201.51.15
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.207.74.249:443
   type: ss
   server: 43.207.74.249
@@ -180,7 +144,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /sshkit/Ertusg86/635014638c264/
-- name: 美国-加利福尼亚-旧金山-v2ray-v125.toddns.tk:80
+- name: 美国-0-0-v2ray-v125.toddns.tk:80
   type: vmess
   server: v125.toddns.tk
   network: ws
@@ -268,3 +232,13 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /hucloudblog
+- name: 新加坡-0-0-v2ray-139.99.61.53:80
+  type: vmess
+  server: 139.99.61.53
+  network: ws
+  port: 80
+  uuid: 60f30e26-0af7-4b64-ba94-71450ed77e23
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /vmess
