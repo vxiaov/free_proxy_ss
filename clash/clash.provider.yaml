@@ -35,18 +35,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.173.114:443
-  type: ss
-  server: 13.215.173.114
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 中国-江苏-扬州-ss-ss.mayiyun.shop:22005
-  type: ss
-  server: ss.mayiyun.shop
-  port: 22005
-  cipher: aes-128-gcm
-  password: 9f866716-17f5-47be-bc45-673144572385
 - name: 美国-康涅狄格-0-ss-13.215.163.54:443
   type: ss
   server: 13.215.163.54
@@ -59,12 +47,18 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-江苏-扬州-ss-ss.mayiyun.shop:20000
+- name: 中国-江苏-扬州-ss-yd-yz.7766.org:6541
   type: ss
-  server: ss.mayiyun.shop
-  port: 20000
+  server: yd-yz.7766.org
+  port: 6541
   cipher: aes-128-gcm
-  password: 9f866716-17f5-47be-bc45-673144572385
+  password: HAjs37
+- name: 澳大利亚-0-0-ss-43.201.51.15:443
+  type: ss
+  server: 43.201.51.15
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 美国-佐治亚-亚特兰大-v2ray-15.235.147.186:80
   type: vmess
   server: 15.235.147.186
@@ -144,7 +138,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 中国-0-0-v2ray-g.j.v4.1.kiki789.com:23038
+- name: 中国-广东-广州-v2ray-g.j.v4.1.kiki789.com:23038
   type: vmess
   server: g.j.v4.1.kiki789.com
   network: ws
@@ -192,7 +186,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ZPK2023jLBEy
-- name: 中国-0-0-v2ray-g.j.v4.1.kiki789.com:23939
+- name: 中国-广东-广州-v2ray-g.j.v4.1.kiki789.com:23939
   type: vmess
   server: g.j.v4.1.kiki789.com
   network: ws
@@ -211,7 +205,7 @@ proxies:
   alterId: '0'
   cipher: auto
   ws-path: ''
-- name: 中国-0-0-v2ray-g.j.v4.1.kiki789.com:23156
+- name: 中国-广东-广州-v2ray-g.j.v4.1.kiki789.com:23156
   type: vmess
   server: g.j.v4.1.kiki789.com
   network: ws
@@ -221,3 +215,13 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8
+- name: 越南-河内-0-v2ray-103.75.186.153:80
+  type: vmess
+  server: 103.75.186.153
+  network: ws
+  port: 80
+  uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /tandung288.click
