@@ -53,19 +53,19 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-广东-深圳-ss-iepl02.nnooddee.cyou:6594
+- name: 中国-江苏-0-ss-iepl02.nnooddee.cyou:6594
   type: ss
   server: iepl02.nnooddee.cyou
   port: 6594
   cipher: aes-128-gcm
   password: HAjs37
-- name: 中国-江苏-0-ss-iepl1.nnooddee.cyou:6541
+- name: 中国-广东-深圳-ss-iepl1.nnooddee.cyou:6541
   type: ss
   server: iepl1.nnooddee.cyou
   port: 6541
   cipher: aes-128-gcm
   password: HAjs37
-- name: 中国-广东-深圳-ss-iepl02.nnooddee.cyou:6597
+- name: 中国-江苏-0-ss-iepl02.nnooddee.cyou:6597
   type: ss
   server: iepl02.nnooddee.cyou
   port: 6597
@@ -77,7 +77,7 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-江苏-0-ss-iepl1.nnooddee.cyou:6531
+- name: 中国-广东-深圳-ss-iepl1.nnooddee.cyou:6531
   type: ss
   server: iepl1.nnooddee.cyou
   port: 6531
@@ -101,7 +101,7 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-广东-深圳-ss-iepl3.nnooddee.cyou:6531
+- name: 中国-江苏-0-ss-iepl3.nnooddee.cyou:6531
   type: ss
   server: iepl3.nnooddee.cyou
   port: 6531
@@ -119,16 +119,37 @@ proxies:
   port: 443
   cipher: aes-256-gcm
   password: pKEW8JPByTVTLtM
-- name: 美国-佐治亚-亚特兰大-v2ray-15.235.147.186:80
+- name: 澳大利亚-0-0-ss-43.201.59.236:443
+  type: ss
+  server: 43.201.59.236
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 中国-江苏-扬州-ss-ss.mayiyun.shop:22005
+  type: ss
+  server: ss.mayiyun.shop
+  port: 22005
+  cipher: aes-128-gcm
+  password: 9f866716-17f5-47be-bc45-673144572385
+- name: 美国-佐治亚-亚特兰大-v2ray-15.235.140.178:80
   type: vmess
-  server: 15.235.147.186
+  server: 15.235.140.178
   network: ws
   port: 80
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  uuid: 275ff4e2-8054-44ed-b996-e3d19c21a55b
   alterId: 4
   cipher: auto
   tls: false
-  ws-path: /sshkit/Ertusg86/635014638c264/
+  ws-path: /vmess
+- name: 越南-河内-0-v2ray-103.56.160.184:80
+  type: vmess
+  server: 103.56.160.184
+  network: ws
+  port: 80
+  uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca
+  alterId: 0
+  cipher: auto
+  ws-path: /tandung288.click
 - name: 0-0-0-v2ray-103.166.183.226:80
   type: vmess
   server: 103.166.183.226
@@ -149,69 +170,11 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 越南-河内-0-v2ray-103.56.160.184:80
+- name: 中国-广东-广州-v2ray-ovhsg.v4.kiki789.com:23043
   type: vmess
-  server: 103.56.160.184
+  server: ovhsg.v4.kiki789.com
   network: ws
-  port: 80
-  uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca
-  alterId: 0
-  cipher: auto
-  ws-path: /tandung288.click
-- name: 美国-佐治亚-亚特兰大-v2ray-sg-lb.vhax.net:80
-  type: vmess
-  server: sg-lb.vhax.net
-  network: ws
-  port: 80
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /sshkit/Ertusg86/635014638c264/
-- name: 新加坡-0-0-v2ray-139.99.45.193:80
-  type: vmess
-  server: 139.99.45.193
-  network: ws
-  port: 80
-  uuid: 98958185-8b1b-4718-9578-a13460c53b6f
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /vmess
-- name: 中国-0-0-v2ray-g.j.v4.1.kiki789.com:23038
-  type: vmess
-  server: g.j.v4.1.kiki789.com
-  network: ws
-  port: 23038
-  uuid: 07da79a2-75ff-349c-8ded-0af6a9735ab0
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8
-- name: 新加坡-0-0-v2ray-139.99.61.154:80
-  type: vmess
-  server: 139.99.61.154
-  network: ws
-  port: 80
-  uuid: 6a620223-84f8-40f4-b6ba-ed6abfe4e4f2
-  alterId: 0
-  cipher: auto
-  ws-path: /vmess
-- name: 荷兰-0-0-v2ray-v10a.toddns.tk:80
-  type: vmess
-  server: v10a.toddns.tk
-  network: ws
-  port: 80
-  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /ZPK2023jLBEy
-- name: 中国-0-0-v2ray-g.j.v4.1.kiki789.com:23939
-  type: vmess
-  server: g.j.v4.1.kiki789.com
-  network: ws
-  port: 23939
+  port: 23043
   uuid: 07da79a2-75ff-349c-8ded-0af6a9735ab0
   alterId: 4
   cipher: auto
@@ -227,26 +190,6 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8
-- name: 美国-佐治亚-亚特兰大-v2ray-15.235.140.178:80
-  type: vmess
-  server: 15.235.140.178
-  network: ws
-  port: 80
-  uuid: 275ff4e2-8054-44ed-b996-e3d19c21a55b
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /vmess
-- name: 中国-广东-广州-v2ray-ovhsg.v4.kiki789.com:23043
-  type: vmess
-  server: ovhsg.v4.kiki789.com
-  network: ws
-  port: 23043
-  uuid: 07da79a2-75ff-349c-8ded-0af6a9735ab0
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8
 - name: 越南-胡志明-胡志明-v2ray-hcm1.safepn.net:80
   type: vmess
   server: hcm1.safepn.net
@@ -256,6 +199,26 @@ proxies:
   alterId: '0'
   cipher: auto
   ws-path: ''
+- name: 中国-0-0-v2ray-g.j.v4.1.kiki789.com:23038
+  type: vmess
+  server: g.j.v4.1.kiki789.com
+  network: ws
+  port: 23038
+  uuid: 07da79a2-75ff-349c-8ded-0af6a9735ab0
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8
+- name: 中国-0-0-v2ray-g.j.v4.1.kiki789.com:23939
+  type: vmess
+  server: g.j.v4.1.kiki789.com
+  network: ws
+  port: 23939
+  uuid: 07da79a2-75ff-349c-8ded-0af6a9735ab0
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8
 - name: 0-0-0-v2ray-103.166.185.227:80
   type: vmess
   server: 103.166.185.227
@@ -266,3 +229,52 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /tandung288.click
+- name: 新加坡-0-0-v2ray-139.99.45.193:80
+  type: vmess
+  server: 139.99.45.193
+  network: ws
+  port: 80
+  uuid: 98958185-8b1b-4718-9578-a13460c53b6f
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /vmess
+- name: 荷兰-0-0-v2ray-v10a.toddns.tk:80
+  type: vmess
+  server: v10a.toddns.tk
+  network: ws
+  port: 80
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /ZPK2023jLBEy
+- name: 美国-佐治亚-亚特兰大-v2ray-sg-lb.vhax.net:80
+  type: vmess
+  server: sg-lb.vhax.net
+  network: ws
+  port: 80
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /sshkit/Ertusg86/635014638c264/
+- name: 美国-佐治亚-亚特兰大-v2ray-15.235.147.186:80
+  type: vmess
+  server: 15.235.147.186
+  network: ws
+  port: 80
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /sshkit/Ertusg86/635014638c264/
+- name: 新加坡-0-0-v2ray-139.99.61.154:80
+  type: vmess
+  server: 139.99.61.154
+  network: ws
+  port: 80
+  uuid: 6a620223-84f8-40f4-b6ba-ed6abfe4e4f2
+  alterId: 0
+  cipher: auto
+  ws-path: /vmess
