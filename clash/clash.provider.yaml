@@ -53,12 +53,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-江苏-扬州-ss-ss.mayiyun.shop:22005
-  type: ss
-  server: ss.mayiyun.shop
-  port: 22005
-  cipher: aes-128-gcm
-  password: 9f866716-17f5-47be-bc45-673144572385
 - name: 美国-康涅狄格-0-ss-13.215.173.114:443
   type: ss
   server: 13.215.173.114
@@ -68,6 +62,12 @@ proxies:
 - name: 澳大利亚-0-0-ss-43.206.224.222:443
   type: ss
   server: 43.206.224.222
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.200.2.173:443
+  type: ss
+  server: 43.200.2.173
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -179,7 +179,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-加利福尼亚-旧金山-v2ray-jt2.nmsl.pics:443
+- name: 美国-0-0-v2ray-jt2.nmsl.pics:443
   type: vmess
   server: jt2.nmsl.pics
   network: ws
