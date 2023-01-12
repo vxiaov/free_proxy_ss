@@ -107,6 +107,18 @@ proxies:
   port: 14102
   cipher: aes-128-gcm
   password: d725502a-9479-411c-a06e-6d7e5a9e95da
+- name: 日本-东京都-东京-ss-85.208.108.60:8090
+  type: ss
+  server: 85.208.108.60
+  port: 8090
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 日本-东京都-东京-ss-85.208.108.60:5001
+  type: ss
+  server: 85.208.108.60
+  port: 5001
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
 - name: 美国-加利福尼亚-0-ssr-2.59.151.182:43555
   type: ssr
   server: 2.59.151.182
@@ -224,6 +236,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /1654431
+- name: 德国-0-0-v2ray-5.75.154.136:63456
+  type: vmess
+  server: 5.75.154.136
+  network: ws
+  port: 63456
+  uuid: dab6ce8a-8059-4357-9083-c5283e1908b2
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
 - name: 美国-佐治亚-亚特兰大-v2ray-15.235.140.178:80
   type: vmess
   server: 15.235.140.178
