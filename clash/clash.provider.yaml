@@ -59,18 +59,12 @@ proxies:
   port: 57368
   cipher: chacha20-ietf-poly1305
   password: 46f85ce6-3cd7-4a90-af2f-77be06d0a71d
-- name: 澳大利亚-0-0-ss-43.201.51.15:443
+- name: 澳大利亚-0-0-ss-43.201.48.212:443
   type: ss
-  server: 43.201.51.15
+  server: 43.201.48.212
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 日本-东京都-东京-ss-agroup.node1.s.nodelist-gfwairport1.download:50001
-  type: ss
-  server: agroup.node1.s.nodelist-gfwairport1.download
-  port: 50001
-  cipher: chacha20-ietf-poly1305
-  password: 26188b3e-c28e-4230-8bee-53d77ff5ff49
 - name: 美国-加利福尼亚-0-ssr-2.59.151.182:43555
   type: ssr
   server: 2.59.151.182
@@ -110,6 +104,16 @@ proxies:
   alterId: '0'
   cipher: auto
   ws-path: ''
+- name: 美国-伊利诺伊-0-v2ray-cdn.decli.6641634715834932.me:80
+  type: vmess
+  server: cdn.decli.6641634715834932.me
+  network: ws
+  port: 80
+  uuid: fcd76421-6b33-4563-b590-85dd74a200b5
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /aln/15
 - name: 越南-河内-0-v2ray-103.56.160.184:80
   type: vmess
   server: 103.56.160.184
@@ -129,7 +133,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /tandung288.click
-- name: 韩国-首尔-首尔-v2ray-kr.gaowosiquanjia.top:80
+- name: 澳大利亚-0-0-v2ray-kr.gaowosiquanjia.top:80
   type: vmess
   server: kr.gaowosiquanjia.top
   network: ws
@@ -208,7 +212,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-us-01.legeth.tk:80
+- name: 美国-0-0-v2ray-us-01.legeth.tk:80
   type: vmess
   server: us-01.legeth.tk
   network: ws
