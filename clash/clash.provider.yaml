@@ -5,12 +5,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.201.103.37:443
-  type: ss
-  server: 43.201.103.37
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.207.82.53:443
   type: ss
   server: 43.207.82.53
@@ -125,6 +119,18 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 中国-广东-0-ss-blx-moble.gatknqh.cn:14110
+  type: ss
+  server: blx-moble.gatknqh.cn
+  port: 14110
+  cipher: aes-128-gcm
+  password: d725502a-9479-411c-a06e-6d7e5a9e95da
+- name: 中国-广东-0-ss-blx-moble.gatknqh.cn:14114
+  type: ss
+  server: blx-moble.gatknqh.cn
+  port: 14114
+  cipher: aes-128-gcm
+  password: d725502a-9479-411c-a06e-6d7e5a9e95da
 - name: 美国-加利福尼亚-0-ssr-2.59.151.182:43555
   type: ssr
   server: 2.59.151.182
@@ -282,7 +288,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-v10.toddns.tk:80
+- name: 美国-0-0-v2ray-v10.toddns.tk:80
   type: vmess
   server: v10.toddns.tk
   network: ws
