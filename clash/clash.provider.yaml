@@ -41,12 +41,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.214.212.124:443
-  type: ss
-  server: 13.214.212.124
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 美国-康涅狄格-0-ss-13.215.173.114:443
   type: ss
   server: 13.215.173.114
@@ -68,6 +62,12 @@ proxies:
 - name: 澳大利亚-0-0-ss-43.207.82.53:443
   type: ss
   server: 43.207.82.53
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-康涅狄格-0-ss-13.214.210.171:443
+  type: ss
+  server: 13.214.210.171
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -278,7 +278,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-us-01.legeth.tk:80
+- name: 美国-0-0-v2ray-us-01.legeth.tk:80
   type: vmess
   server: us-01.legeth.tk
   network: ws
