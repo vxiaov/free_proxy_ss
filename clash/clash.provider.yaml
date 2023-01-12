@@ -11,12 +11,6 @@ proxies:
   port: 8881
   cipher: aes-256-gcm
   password: kDWvXYZoTBcGkC4
-- name: 日本-东京都-东京-ss-85.208.108.60:443
-  type: ss
-  server: 85.208.108.60
-  port: 443
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
 - name: 澳大利亚-0-0-ss-43.201.69.62:443
   type: ss
   server: 43.201.69.62
@@ -29,18 +23,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-上海-上海-ss-blx-unicom.gatknqh.cn:14112
-  type: ss
-  server: blx-unicom.gatknqh.cn
-  port: 14112
-  cipher: aes-128-gcm
-  password: d725502a-9479-411c-a06e-6d7e5a9e95da
-- name: 中国-广东-0-ss-blx-moble.gatknqh.cn:14102
-  type: ss
-  server: blx-moble.gatknqh.cn
-  port: 14102
-  cipher: aes-128-gcm
-  password: d725502a-9479-411c-a06e-6d7e5a9e95da
 - name: 日本-东京都-东京-ss-85.208.108.60:8090
   type: ss
   server: 85.208.108.60
@@ -53,12 +35,6 @@ proxies:
   port: 5001
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
-- name: 中国-上海-上海-ss-blx-unicom.gatknqh.cn:14111
-  type: ss
-  server: blx-unicom.gatknqh.cn
-  port: 14111
-  cipher: aes-128-gcm
-  password: d725502a-9479-411c-a06e-6d7e5a9e95da
 - name: 美国-康涅狄格-0-ss-13.215.178.204:443
   type: ss
   server: 13.215.178.204
@@ -83,12 +59,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-广东-0-ss-blx-moble.gatknqh.cn:14114
-  type: ss
-  server: blx-moble.gatknqh.cn
-  port: 14114
-  cipher: aes-128-gcm
-  password: d725502a-9479-411c-a06e-6d7e5a9e95da
 - name: 美国-康涅狄格-0-ss-13.215.173.114:443
   type: ss
   server: 13.215.173.114
@@ -101,12 +71,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-广东-0-ss-blx-moble.gatknqh.cn:14105
-  type: ss
-  server: blx-moble.gatknqh.cn
-  port: 14105
-  cipher: aes-128-gcm
-  password: d725502a-9479-411c-a06e-6d7e5a9e95da
 - name: 美国-加利福尼亚-0-ssr-2.59.151.182:43555
   type: ssr
   server: 2.59.151.182
@@ -117,65 +81,6 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 美国-加利福尼亚-费利蒙-v2ray-vus4.0bad.com:443
-  type: vmess
-  server: vus4.0bad.com
-  network: ws
-  port: 443
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /chat
-- name: 英国-0-0-v2ray-51.68.139.22:80
-  type: vmess
-  server: 51.68.139.22
-  network: ws
-  port: 80
-  uuid: c6744c44-4eb7-48d5-a879-a10474e2ba34
-  alterId: 0
-  cipher: auto
-  ws-path: /vmess
-- name: 美国-德克萨斯-休斯顿-v2ray-hk80-2.sanfen001.pics:80
-  type: vmess
-  server: hk80-2.sanfen001.pics
-  network: ws
-  port: 80
-  uuid: 506d93ec-ffdb-41cd-bbc3-367039c4b18f
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /zh-cn/
-- name: 美国-加利福尼亚-旧金山-v2ray-us-01.legeth.tk:80
-  type: vmess
-  server: us-01.legeth.tk
-  network: ws
-  port: 80
-  uuid: c72a3a35-f595-4b11-b13c-cdc71fe73dd6
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-v10.toddns.tk:80
-  type: vmess
-  server: v10.toddns.tk
-  network: ws
-  port: 80
-  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /ZPK2023jLBEy
-- name: 美国-佐治亚-亚特兰大-v2ray-15.235.140.178:80
-  type: vmess
-  server: 15.235.140.178
-  network: ws
-  port: 80
-  uuid: 275ff4e2-8054-44ed-b996-e3d19c21a55b
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /vmess
 - name: 法国-0-0-v2ray-51.77.212.145:80
   type: vmess
   server: 51.77.212.145
@@ -275,6 +180,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
+- name: 美国-伊利诺伊-0-v2ray-cdn.decli.6641634715834932.me:80
+  type: vmess
+  server: cdn.decli.6641634715834932.me
+  network: ws
+  port: 80
+  uuid: fcd76421-6b33-4563-b590-85dd74a200b5
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /aln/15
 - name: 越南-河内-0-v2ray-103.56.160.184:80
   type: vmess
   server: 103.56.160.184
@@ -294,6 +209,46 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /tandung288.click
+- name: 美国-加利福尼亚-费利蒙-v2ray-vus4.0bad.com:443
+  type: vmess
+  server: vus4.0bad.com
+  network: ws
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /chat
+- name: 美国-佐治亚-亚特兰大-v2ray-15.235.140.178:80
+  type: vmess
+  server: 15.235.140.178
+  network: ws
+  port: 80
+  uuid: 275ff4e2-8054-44ed-b996-e3d19c21a55b
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /vmess
+- name: 美国-0-0-v2ray-v10.toddns.tk:80
+  type: vmess
+  server: v10.toddns.tk
+  network: ws
+  port: 80
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /ZPK2023jLBEy
+- name: 美国-康涅狄格-0-v2ray-162.19.224.176:80
+  type: vmess
+  server: 162.19.224.176
+  network: ws
+  port: 80
+  uuid: 32a919f6-f41f-4874-a559-cd914d8840a2
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /vmess
 - name: 越南-河内-0-v2ray-103.75.186.153:80
   type: vmess
   server: 103.75.186.153
@@ -364,3 +319,32 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /sshkit/Ertusg86/635014638c264/
+- name: 英国-0-0-v2ray-51.68.139.22:80
+  type: vmess
+  server: 51.68.139.22
+  network: ws
+  port: 80
+  uuid: c6744c44-4eb7-48d5-a879-a10474e2ba34
+  alterId: 0
+  cipher: auto
+  ws-path: /vmess
+- name: 美国-0-0-v2ray-us-01.legeth.tk:80
+  type: vmess
+  server: us-01.legeth.tk
+  network: ws
+  port: 80
+  uuid: c72a3a35-f595-4b11-b13c-cdc71fe73dd6
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 美国-德克萨斯-休斯顿-v2ray-hk80-2.sanfen001.pics:80
+  type: vmess
+  server: hk80-2.sanfen001.pics
+  network: ws
+  port: 80
+  uuid: 506d93ec-ffdb-41cd-bbc3-367039c4b18f
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /zh-cn/
