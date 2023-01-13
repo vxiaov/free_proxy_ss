@@ -1,40 +1,4 @@
 proxies:
-- name: 美国-康涅狄格-0-ss-172.99.188.99:5000
-  type: ss
-  server: 172.99.188.99
-  port: 5000
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 美国-康涅狄格-0-ss-172.99.188.99:6379
-  type: ss
-  server: 172.99.188.99
-  port: 6379
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-- name: 美国-康涅狄格-0-ss-172.99.188.99:8888
-  type: ss
-  server: 172.99.188.99
-  port: 8888
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 日本-东京都-东京-ss-85.208.108.60:5001
-  type: ss
-  server: 85.208.108.60
-  port: 5001
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 日本-东京都-东京-ss-85.208.108.60:5004
-  type: ss
-  server: 85.208.108.60
-  port: 5004
-  cipher: aes-256-gcm
-  password: g5MeD6Ft3CWlJId
-- name: 美国-康涅狄格-0-ss-172.99.188.99:3389
-  type: ss
-  server: 172.99.188.99
-  port: 3389
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
 - name: 美国-康涅狄格-0-ss-13.215.51.220:443
   type: ss
   server: 13.215.51.220
@@ -77,12 +41,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.206.224.222:443
-  type: ss
-  server: 43.206.224.222
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.201.103.37:443
   type: ss
   server: 43.201.103.37
@@ -92,6 +50,12 @@ proxies:
 - name: 澳大利亚-0-0-ss-43.207.82.53:443
   type: ss
   server: 43.207.82.53
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.201.48.212:443
+  type: ss
+  server: 43.201.48.212
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -164,7 +128,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-加利福尼亚-旧金山-v2ray-v125.toddns.tk:80
+- name: 美国-0-0-v2ray-v125.toddns.tk:80
   type: vmess
   server: v125.toddns.tk
   network: ws
