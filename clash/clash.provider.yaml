@@ -23,12 +23,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.200.2.173:443
-  type: ss
-  server: 43.200.2.173
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 美国-康涅狄格-0-ss-13.215.173.114:443
   type: ss
   server: 13.215.173.114
@@ -50,18 +44,6 @@ proxies:
 - name: 澳大利亚-0-0-ss-43.201.150.91:443
   type: ss
   server: 43.201.150.91
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.51.220:443
-  type: ss
-  server: 13.215.51.220
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.207.1.14:443
-  type: ss
-  server: 43.207.1.14
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -226,6 +208,16 @@ proxies:
   network: ws
   port: 80
   uuid: 56716a96-a265-448c-8969-03e626889580
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 0-0-0-v2ray-vn2.hello4g.pw:80
+  type: vmess
+  server: vn2.hello4g.pw
+  network: ws
+  port: 80
+  uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070
   alterId: 4
   cipher: auto
   tls: false
