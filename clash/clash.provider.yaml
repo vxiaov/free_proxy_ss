@@ -5,18 +5,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.163.54:443
-  type: ss
-  server: 13.215.163.54
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.178.204:443
-  type: ss
-  server: 13.215.178.204
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 美国-康涅狄格-0-v2ray-162.19.224.176:80
   type: vmess
   server: 162.19.224.176
@@ -37,6 +25,15 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
+- name: 美国-加利福尼亚-旧金山-v2ray-v125a.toddns.tk:80
+  type: vmess
+  server: v125a.toddns.tk
+  network: ws
+  port: 80
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  alterId: 0
+  cipher: auto
+  ws-path: /usv125N93nz6Py
 - name: 美国-弗吉尼亚-阿什本-v2ray-147.135.112.248:80
   type: vmess
   server: 147.135.112.248
