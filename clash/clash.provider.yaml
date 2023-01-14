@@ -1,55 +1,7 @@
 proxies:
-- name: 日本-东京都-东京-ss-85.208.108.60:8080
+- name: 美国-康涅狄格-0-ss-13.215.173.114:443
   type: ss
-  server: 85.208.108.60
-  port: 8080
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
-- name: 日本-东京都-东京-ss-85.208.108.60:7307
-  type: ss
-  server: 85.208.108.60
-  port: 7307
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-- name: 美国-康涅狄格-0-ss-13.215.163.54:443
-  type: ss
-  server: 13.215.163.54
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.178.204:443
-  type: ss
-  server: 13.215.178.204
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.214.212.124:443
-  type: ss
-  server: 13.214.212.124
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.201.48.212:443
-  type: ss
-  server: 43.201.48.212
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.201.59.236:443
-  type: ss
-  server: 43.201.59.236
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.206.224.222:443
-  type: ss
-  server: 43.206.224.222
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.207.82.53:443
-  type: ss
-  server: 43.207.82.53
+  server: 13.215.173.114
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -153,6 +105,15 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /aln/13
+- name: 美国-0-0-v2ray-v125a.toddns.tk:80
+  type: vmess
+  server: v125a.toddns.tk
+  network: ws
+  port: 80
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  alterId: 0
+  cipher: auto
+  ws-path: /usv125N93nz6Py
 - name: 新加坡-0-0-v2ray-139.99.61.53:80
   type: vmess
   server: 139.99.61.53
