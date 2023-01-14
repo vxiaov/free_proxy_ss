@@ -59,24 +59,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.207.74.249:443
-  type: ss
-  server: 43.207.74.249
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.51.220:443
-  type: ss
-  server: 13.215.51.220
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.201.48.212:443
-  type: ss
-  server: 43.201.48.212
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.207.82.53:443
   type: ss
   server: 43.207.82.53
@@ -89,18 +71,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.163.54:443
-  type: ss
-  server: 13.215.163.54
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 中国-河南-驻马店-ss-unicomus.mipglxi.cn:5628
-  type: ss
-  server: unicomus.mipglxi.cn
-  port: 5628
-  cipher: aes-128-gcm
-  password: 27fdeaac-dee2-469d-928f-4de839daac45
 - name: 美国-密歇根-0-v2ray-more.letitbe.ink:443
   type: vmess
   server: more.letitbe.ink
@@ -111,6 +81,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /pokocatvws
+- name: 0-0-0-v2ray-103.167.196.8:80
+  type: vmess
+  server: 103.167.196.8
+  network: ws
+  port: 80
+  uuid: 56716a96-a265-448c-8969-03e626889580
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
 - name: 美国-佐治亚-亚特兰大-v2ray-15.204.31.63:80
   type: vmess
   server: 15.204.31.63
