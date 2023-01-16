@@ -17,12 +17,6 @@ proxies:
   port: 59001
   cipher: aes-256-gcm
   password: 8791b842-2b5e-47cf-9b36-e6ed04f645cd
-- name: 澳大利亚-0-0-ss-43.207.74.249:443
-  type: ss
-  server: 43.207.74.249
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 美国-华盛顿-雷德蒙德-v2ray-20.24.72.248:80
   type: vmess
   server: 20.24.72.248
@@ -203,6 +197,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
+- name: 中国-广东-广州-v2ray-jipro.cdn.02.njser.xyz:23203
+  type: vmess
+  server: jipro.cdn.02.njser.xyz
+  network: ws
+  port: 23203
+  uuid: 4ece63f1-77d6-41b7-896b-25947714042f
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /ba029dff0306.live238.m3u8
 - name: 美国-德克萨斯-休斯顿-v2ray-16.162.22.106:80
   type: vmess
   server: 16.162.22.106
