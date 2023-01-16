@@ -5,6 +5,12 @@ proxies:
   port: 23100
   cipher: chacha20-ietf-poly1305
   password: d7bee830-09aa-43b2-8945-3b341b8787db
+- name: 澳大利亚-0-0-ss-43.206.224.222:443
+  type: ss
+  server: 43.206.224.222
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 美国-华盛顿-雷德蒙德-v2ray-20.24.72.248:80
   type: vmess
   server: 20.24.72.248
@@ -145,6 +151,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
+- name: 中国-海南-儋州-v2ray-cu.chassvideo.xyz:12003
+  type: vmess
+  server: cu.chassvideo.xyz
+  network: ws
+  port: 12003
+  uuid: 146aaa8d-6100-4a09-85d8-ec7623f61ef4
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
 - name: 中国-海南-儋州-v2ray-cu.chassvideo.xyz:10021
   type: vmess
   server: cu.chassvideo.xyz
