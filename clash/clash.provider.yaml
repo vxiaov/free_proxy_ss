@@ -65,6 +65,18 @@ proxies:
   port: 8881
   cipher: aes-256-gcm
   password: kDWvXYZoTBcGkC4
+- name: 澳大利亚-0-0-ss-43.206.224.222:443
+  type: ss
+  server: 43.206.224.222
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.201.103.37:443
+  type: ss
+  server: 43.201.103.37
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 美国-康涅狄格-0-v2ray-162.19.224.175:80
   type: vmess
   server: 162.19.224.175
@@ -95,7 +107,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-加利福尼亚-旧金山-v2ray-v125.toddns.tk:80
+- name: 美国-0-0-v2ray-v125.toddns.tk:80
   type: vmess
   server: v125.toddns.tk
   network: ws
@@ -153,6 +165,15 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
+- name: 美国-俄勒冈-0-v2ray-sg1.safepn.net:80
+  type: vmess
+  server: sg1.safepn.net
+  network: ws
+  port: 80
+  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
+  alterId: '0'
+  cipher: auto
+  ws-path: ''
 - name: 俄罗斯-0-0-v2ray-195.54.174.18:80
   type: vmess
   server: 195.54.174.18
