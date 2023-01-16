@@ -1,82 +1,10 @@
 proxies:
-- name: 中国-江苏-扬州-ss-zh01a1us02.y5y3.com:59051
-  type: ss
-  server: zh01a1us02.y5y3.com
-  port: 59051
-  cipher: aes-256-gcm
-  password: 8791b842-2b5e-47cf-9b36-e6ed04f645cd
-- name: 中国-江苏-扬州-ss-zh01a1us03.y5y3.com:59051
-  type: ss
-  server: zh01a1us03.y5y3.com
-  port: 59051
-  cipher: aes-256-gcm
-  password: 8791b842-2b5e-47cf-9b36-e6ed04f645cd
-- name: 中国-江苏-盐城-ss-zh01a1hk01.y5y3.com:59001
-  type: ss
-  server: zh01a1hk01.y5y3.com
-  port: 59001
-  cipher: aes-256-gcm
-  password: 8791b842-2b5e-47cf-9b36-e6ed04f645cd
-- name: 美国-康涅狄格-0-ss-13.215.51.220:443
-  type: ss
-  server: 13.215.51.220
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.214.212.124:443
-  type: ss
-  server: 13.214.212.124
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.201.103.37:443
-  type: ss
-  server: 43.201.103.37
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.201.59.236:443
-  type: ss
-  server: 43.201.59.236
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.207.82.53:443
-  type: ss
-  server: 43.207.82.53
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.173.114:443
-  type: ss
-  server: 13.215.173.114
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.163.54:443
-  type: ss
-  server: 13.215.163.54
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.201.48.212:443
-  type: ss
-  server: 43.201.48.212
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-江苏-扬州-ss-p1.bxy-fun3.com:23100
   type: ss
   server: p1.bxy-fun3.com
   port: 23100
   cipher: chacha20-ietf-poly1305
   password: d7bee830-09aa-43b2-8945-3b341b8787db
-- name: 澳大利亚-0-0-ss-43.207.74.249:443
-  type: ss
-  server: 43.207.74.249
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 美国-华盛顿-雷德蒙德-v2ray-20.24.72.248:80
   type: vmess
   server: 20.24.72.248
@@ -93,6 +21,16 @@ proxies:
   network: ws
   port: 80
   uuid: 3c4a7934-f0fa-4b5b-bdde-686c8cabec94
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 中国-广东-佛山-v2ray-cm.chassvideo.xyz:12004
+  type: vmess
+  server: cm.chassvideo.xyz
+  network: ws
+  port: 12004
+  uuid: 146aaa8d-6100-4a09-85d8-ec7623f61ef4
   alterId: 4
   cipher: auto
   tls: false
