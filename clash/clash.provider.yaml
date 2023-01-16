@@ -17,6 +17,12 @@ proxies:
   port: 59001
   cipher: aes-256-gcm
   password: 8791b842-2b5e-47cf-9b36-e6ed04f645cd
+- name: 澳大利亚-0-0-ss-43.207.74.249:443
+  type: ss
+  server: 43.207.74.249
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 美国-华盛顿-雷德蒙德-v2ray-20.24.72.248:80
   type: vmess
   server: 20.24.72.248
@@ -127,6 +133,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
+- name: 美国-0-0-v2ray-mei3.htvviru.top:1235
+  type: vmess
+  server: mei3.htvviru.top
+  network: ws
+  port: 1235
+  uuid: 3d81e6fb-c7f0-4791-af2e-82c93d149483
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /cctv13/hd.m3u8
 - name: 美国-加利福尼亚-0-v2ray-pics.quicklyfast.xyz:443
   type: vmess
   server: pics.quicklyfast.xyz
