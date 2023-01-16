@@ -29,15 +29,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 澳大利亚-新南威尔士-悉尼-v2ray-cdn.ausli.6641634715834932.me:80
-  type: vmess
-  server: cdn.ausli.6641634715834932.me
-  network: ws
-  port: 80
-  uuid: fcd76421-6b33-4563-b590-85dd74a200b5
-  alterId: 0
-  cipher: auto
-  ws-path: /aln/13
 - name: 美国-弗吉尼亚-0-v2ray-74.119.193.18:80
   type: vmess
   server: 74.119.193.18
@@ -156,25 +147,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-0-v2ray-152.69.230.170:80
+- name: 新加坡-0-0-v2ray-139.99.61.154:80
   type: vmess
-  server: 152.69.230.170
+  server: 139.99.61.154
   network: ws
   port: 80
-  uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77
-  alterId: '0'
-  cipher: auto
-  ws-path: ''
-- name: 俄罗斯-莫斯科-莫斯科-v2ray-ru.kxswa.tk:57358
-  type: vmess
-  server: ru.kxswa.tk
-  network: ws
-  port: 57358
-  uuid: c0b30a88-9050-4853-93fe-ac89fb4af5e0
+  uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
   alterId: 4
   cipher: auto
-  tls: true
-  ws-path: /kxswa
+  tls: false
+  ws-path: /vmess
 - name: 法国-0-0-v2ray-217.182.75.17:38075
   type: vmess
   server: 217.182.75.17
@@ -197,16 +179,6 @@ proxies:
 - name: 美国-0-0-v2ray-hk80.sanfen001.pics:80
   type: vmess
   server: hk80.sanfen001.pics
-  network: ws
-  port: 80
-  uuid: e0b06a10-9b9d-4e17-8c47-92a4c57489bd
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /zh-cn/
-- name: 美国-密歇根-0-v2ray-us80-3.sanfen001.pics:80
-  type: vmess
-  server: us80-3.sanfen001.pics
   network: ws
   port: 80
   uuid: e0b06a10-9b9d-4e17-8c47-92a4c57489bd
@@ -244,16 +216,6 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 中国-香港-0-v2ray-petal.ga:443
-  type: vmess
-  server: petal.ga
-  network: ws
-  port: 443
-  uuid: b744f5cc-eab2-d2cd-f477-76646d17987f
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /petalvws
 - name: 美国-密苏里-0-v2ray-147.182.152.1:80
   type: vmess
   server: 147.182.152.1
