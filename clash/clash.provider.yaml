@@ -77,16 +77,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-广东-广州-ssr-14.29.124.168:24000
-  type: ssr
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  obfs: plain
-  protocol: origin
-  port: 24000
-  cipher: aes-128-cfb
-  protocol-param: ''
-  obfs-param: ''
 - name: 美国-华盛顿-雷德蒙德-v2ray-20.24.72.248:80
   type: vmess
   server: 20.24.72.248
@@ -147,6 +137,15 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
+- name: 美国-俄勒冈-0-v2ray-sg1.safepn.net:80
+  type: vmess
+  server: sg1.safepn.net
+  network: ws
+  port: 80
+  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
+  alterId: '0'
+  cipher: auto
+  ws-path: ''
 - name: 德国-Nordrhein-Westfalen-0-v2ray-89.163.213.20:80
   type: vmess
   server: 89.163.213.20
@@ -157,7 +156,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 中国-北京-北京-v2ray-t.cccao.cyou:16636
+- name: 中国-江苏-南京-v2ray-t.cccao.cyou:16636
   type: vmess
   server: t.cccao.cyou
   network: ws
@@ -265,6 +264,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
+- name: 德国-0-0-v2ray-cdn.ausli.6641634715834932.me:80
+  type: vmess
+  server: cdn.ausli.6641634715834932.me
+  network: ws
+  port: 80
+  uuid: fcd76421-6b33-4563-b590-85dd74a200b5
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /aln/13
 - name: 美国-加利福尼亚-旧金山-v2ray-au-01.legeth.tk:80
   type: vmess
   server: au-01.legeth.tk
@@ -275,7 +284,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-ovh-3.555530.xyz:80
+- name: 美国-加利福尼亚-旧金山-v2ray-ovh-3.555530.xyz:80
   type: vmess
   server: ovh-3.555530.xyz
   network: ws
@@ -285,7 +294,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /happy
-- name: 美国-加利福尼亚-旧金山-v2ray-oplg1.cfcdn2.xyz:443
+- name: 美国-0-0-v2ray-oplg1.cfcdn2.xyz:443
   type: vmess
   server: oplg1.cfcdn2.xyz
   network: ws
@@ -295,7 +304,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /AUIKN8AU
-- name: 中国-海南-儋州-v2ray-m.lwvzmdu.cn:23309
+- name: 中国-广东-佛山-v2ray-m.lwvzmdu.cn:23309
   type: vmess
   server: m.lwvzmdu.cn
   network: ws
