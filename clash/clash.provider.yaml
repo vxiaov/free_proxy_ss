@@ -77,6 +77,16 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 中国-湖南-岳阳-v2ray-yes.iamagoodman.net:16620
+  type: vmess
+  server: yes.iamagoodman.net
+  network: ws
+  port: 16620
+  uuid: d2eb7266-b912-4fc0-bcfb-47277251b506
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
 - name: 美国-华盛顿-雷德蒙德-v2ray-20.24.72.248:80
   type: vmess
   server: 20.24.72.248
@@ -107,12 +117,32 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 法国-0-0-v2ray-135.125.190.21:2052
+  type: vmess
+  server: 135.125.190.21
+  network: ws
+  port: 2052
+  uuid: 5153acf2-62be-4219-f1c6-d6cfa4be45f8
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
 - name: 美国-弗吉尼亚-阿什本-v2ray-147.135.112.248:80
   type: vmess
   server: 147.135.112.248
   network: ws
   port: 80
   uuid: 973c2639-c9c2-484d-ae9b-3d68b2f30d9e
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /vmess
+- name: 美国-佐治亚-亚特兰大-v2ray-15.204.31.63:80
+  type: vmess
+  server: 15.204.31.63
+  network: ws
+  port: 80
+  uuid: ab4a729f-e4d4-4a78-8c24-3107c5e4faee
   alterId: 4
   cipher: auto
   tls: false
@@ -175,7 +205,17 @@ proxies:
   alterId: '0'
   cipher: auto
   ws-path: ''
-- name: 中国-北京-北京-v2ray-t.cccao.cyou:16642
+- name: 美国-伊利诺伊-0-v2ray-cdn.decli.6641634715834932.me:80
+  type: vmess
+  server: cdn.decli.6641634715834932.me
+  network: ws
+  port: 80
+  uuid: fcd76421-6b33-4563-b590-85dd74a200b5
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /aln/15
+- name: 中国-江苏-南京-v2ray-t.cccao.cyou:16642
   type: vmess
   server: t.cccao.cyou
   network: ws
@@ -194,6 +234,26 @@ proxies:
   alterId: '0'
   cipher: auto
   ws-path: ''
+- name: 日本-东京都-东京-v2ray-vjp1.0bad.com:443
+  type: vmess
+  server: vjp1.0bad.com
+  network: ws
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /chat
+- name: 德国-Nordrhein-Westfalen-0-v2ray-de-v.sshmax.xyz:80
+  type: vmess
+  server: de-v.sshmax.xyz
+  network: ws
+  port: 80
+  uuid: 5668ff97-631f-4602-a13f-b56552c67abe
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /vmess
 - name: 美国-0-0-v2ray-mei3.htvviru.top:1235
   type: vmess
   server: mei3.htvviru.top
@@ -284,7 +344,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-ovh-3.555530.xyz:80
+- name: 美国-0-0-v2ray-ovh-3.555530.xyz:80
   type: vmess
   server: ovh-3.555530.xyz
   network: ws
@@ -304,7 +364,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /AUIKN8AU
-- name: 中国-广东-佛山-v2ray-m.lwvzmdu.cn:23309
+- name: 中国-海南-儋州-v2ray-m.lwvzmdu.cn:23309
   type: vmess
   server: m.lwvzmdu.cn
   network: ws
