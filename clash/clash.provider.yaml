@@ -29,6 +29,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 美国-0-0-ss-mei3.htvviru.top:3632
+  type: ss
+  server: mei3.htvviru.top
+  port: 3632
+  cipher: chacha20-ietf-poly1305
+  password: 3d81e6fb-c7f0-4791-af2e-82c93d149483
 - name: 美国-华盛顿-雷德蒙德-v2ray-20.24.72.248:80
   type: vmess
   server: 20.24.72.248
@@ -118,6 +124,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /cctv13/hd.m3u8
+- name: 美国-0-0-v2ray-v2ray.wefuckgfw.gq:2083
+  type: vmess
+  server: v2ray.wefuckgfw.gq
+  network: ws
+  port: 2083
+  uuid: 68979c01-0823-433d-9d07-e2c8ab964411
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /aiHUGq4P/
 - name: 新加坡-0-0-v2ray-139.99.61.154:80
   type: vmess
   server: 139.99.61.154
@@ -128,7 +144,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-加利福尼亚-旧金山-v2ray-oplg1.zhujicn2.com:443
+- name: 美国-0-0-v2ray-oplg1.zhujicn2.com:443
   type: vmess
   server: oplg1.zhujicn2.com
   network: ws
