@@ -23,13 +23,13 @@ proxies:
   port: 9101
   cipher: aes-256-gcm
   password: e4FCWrgpkji3QY
-- name: 中国-广东-广州-ss-gdcm.bqbcmn.shop:14066
+- name: 中国-广东-揭阳-ss-gdcm.bqbcmn.shop:14066
   type: ss
   server: gdcm.bqbcmn.shop
   port: 14066
   cipher: aes-128-gcm
   password: d6549a5c-9cf3-49c3-b383-51d40ae79535
-- name: 中国-广东-揭阳-ss-gdcm.bqbcmn.shop:14057
+- name: 中国-广东-广州-ss-gdcm.bqbcmn.shop:14057
   type: ss
   server: gdcm.bqbcmn.shop
   port: 14057
@@ -413,7 +413,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /vmess
-- name: 中国-海南-儋州-v2ray-m.lwvzmdu.cn:16620
+- name: 中国-广东-佛山-v2ray-m.lwvzmdu.cn:16620
   type: vmess
   server: m.lwvzmdu.cn
   network: ws
@@ -473,3 +473,32 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 中国-广东-佛山-v2ray-m.lwvzmdu.cn:16637
+  type: vmess
+  server: m.lwvzmdu.cn
+  network: ws
+  port: 16637
+  uuid: d6eb1026-91a9-453d-aefe-5048303dd951
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 美国-密歇根-0-v2ray-free-us.tencent.cfd:61616
+  type: vmess
+  server: free-us.tencent.cfd
+  network: ws
+  port: 61616
+  uuid: d1860587-aa33-4b76-85cd-c191edecb338
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /videos
+- name: 越南-河内-0-v2ray-42.96.3.193:80
+  type: vmess
+  server: 42.96.3.193
+  network: ws
+  port: 80
+  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
+  alterId: '0'
+  cipher: auto
+  ws-path: ''
