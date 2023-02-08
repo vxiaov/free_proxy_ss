@@ -1,10 +1,4 @@
 proxies:
-- name: 中国-广东-广州-ss-14.29.124.168:25238
-  type: ss
-  server: 14.29.124.168
-  port: 25238
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
 - name: 中国-广东-广州-ss-14.29.124.168:25252
   type: ss
   server: 14.29.124.168
@@ -53,12 +47,6 @@ proxies:
   port: 25287
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 美国-康涅狄格-0-ss-13.215.178.190:443
-  type: ss
-  server: 13.215.178.190
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:25217
   type: ss
   server: 14.29.124.168
@@ -77,12 +65,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-广东-广州-ss-14.29.124.168:25230
-  type: ss
-  server: 14.29.124.168
-  port: 25230
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
 - name: 中国-广东-广州-ss-14.29.124.168:24007
   type: ss
   server: 14.29.124.168
@@ -143,18 +125,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-广东-广州-ss-14.29.124.168:25247
-  type: ss
-  server: 14.29.124.168
-  port: 25247
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 中国-广东-广州-ss-14.29.124.168:25297
-  type: ss
-  server: 14.29.124.168
-  port: 25297
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
 - name: 中国-广东-广州-ss-14.29.124.168:25219
   type: ss
   server: 14.29.124.168
@@ -281,12 +251,6 @@ proxies:
   port: 25270
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 日本-东京都-东京-ss-54.178.60.213:443
-  type: ss
-  server: 54.178.60.213
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:25271
   type: ss
   server: 14.29.124.168
@@ -339,7 +303,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /sg
-- name: 美国-加利福尼亚-旧金山-v2ray-h2.arsalanv3.sbs:80
+- name: 美国-0-0-v2ray-h2.arsalanv3.sbs:80
   type: vmess
   server: h2.arsalanv3.sbs
   network: ws
@@ -359,7 +323,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 新加坡-0-0-v2ray-cft.hicoom.com:443
+- name: 美国-马萨诸塞-0-v2ray-cft.hicoom.com:443
   type: vmess
   server: cft.hicoom.com
   network: ws
@@ -439,7 +403,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-us-2.free.yuji2022.gq:8880
+- name: 美国-加利福尼亚-旧金山-v2ray-us-2.free.yuji2022.gq:8880
   type: vmess
   server: us-2.free.yuji2022.gq
   network: ws
@@ -478,3 +442,13 @@ proxies:
   cipher: auto
   tls: false
   ws-path: ''
+- name: 巴西-圣保罗-圣保罗-v2ray-140.238.178.56:443
+  type: vmess
+  server: 140.238.178.56
+  network: ws
+  port: 443
+  uuid: d99f257d-a203-4cea-eb08-e4326f6ccb69
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
