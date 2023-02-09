@@ -209,6 +209,12 @@ proxies:
   port: 25231
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 中国-广东-广州-ss-14.29.124.168:25207
+  type: ss
+  server: 14.29.124.168
+  port: 25207
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - name: 中国-广东-广州-ss-14.29.124.168:25279
   type: ss
   server: 14.29.124.168
@@ -337,7 +343,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-马萨诸塞-0-v2ray-cft.hicoom.com:443
+- name: 美国-加利福尼亚-山景-v2ray-cft.hicoom.com:443
   type: vmess
   server: cft.hicoom.com
   network: ws
@@ -526,7 +532,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /gogo
-- name: 日本-东京都-东京-v2ray-free-sg1.tencent.cfd:50328
+- name: 韩国-首尔-首尔-v2ray-free-sg1.tencent.cfd:50328
   type: vmess
   server: free-sg1.tencent.cfd
   network: ws
@@ -536,3 +542,13 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 美国-俄勒冈-0-v2ray-sfo.wyatt.cf:443
+  type: vmess
+  server: sfo.wyatt.cf
+  network: ws
+  port: 443
+  uuid: dc822f4e-cd60-4174-a93e-c1d3865976aa
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /us
