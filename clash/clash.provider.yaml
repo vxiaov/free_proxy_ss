@@ -301,6 +301,16 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
+- name: 中国-广东-广州-ssr-z84001.security-cloudfront-cdn.com:42833
+  type: ssr
+  server: z84001.security-cloudfront-cdn.com
+  password: YpX2opBbrfqJzzMs
+  obfs: http_simple
+  protocol: origin
+  port: 42833
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 美国-加利福尼亚-0-v2ray-152.70.109.16:443
   type: vmess
   server: 152.70.109.16
@@ -361,7 +371,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-cvywfavasdc.cymlr.xyz:443
+- name: 美国-加利福尼亚-旧金山-v2ray-cvywfavasdc.cymlr.xyz:443
   type: vmess
   server: cvywfavasdc.cymlr.xyz
   network: ws
@@ -391,7 +401,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-new3.hucloud-dns.xyz:443
+- name: 美国-加利福尼亚-旧金山-v2ray-new3.hucloud-dns.xyz:443
   type: vmess
   server: new3.hucloud-dns.xyz
   network: ws
@@ -401,7 +411,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
-- name: 美国-0-0-v2ray-hucloud.tk:443
+- name: 美国-加利福尼亚-旧金山-v2ray-hucloud.tk:443
   type: vmess
   server: hucloud.tk
   network: ws
@@ -441,7 +451,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 新加坡-0-0-v2ray-free-sg1.tencent.cfd:50328
+- name: 日本-东京都-东京-v2ray-free-sg1.tencent.cfd:50328
   type: vmess
   server: free-sg1.tencent.cfd
   network: ws
@@ -531,7 +541,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vAambj4DgXrs5sfCFptMk
-- name: 美国-加利福尼亚-旧金山-v2ray-lu1.gogogoo.cyou:443
+- name: 韩国-0-0-v2ray-lu1.gogogoo.cyou:443
   type: vmess
   server: lu1.gogogoo.cyou
   network: ws
@@ -551,3 +561,13 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /m3
+- name: 新加坡-0-0-v2ray-vus2.0bad.com:443
+  type: vmess
+  server: vus2.0bad.com
+  network: ws
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /chat
