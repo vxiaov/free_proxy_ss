@@ -65,12 +65,6 @@ proxies:
   port: 25297
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 新加坡-0-0-ss-54.179.221.54:443
-  type: ss
-  server: 54.179.221.54
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:25219
   type: ss
   server: 14.29.124.168
@@ -155,12 +149,6 @@ proxies:
   port: 25261
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 美国-0-0-ss-51.161.118.38:800
-  type: ss
-  server: 51.161.118.38
-  port: 800
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
 - name: 中国-广东-广州-ss-14.29.124.168:25251
   type: ss
   server: 14.29.124.168
@@ -221,12 +209,6 @@ proxies:
   port: 25280
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 澳大利亚-0-0-ss-43.201.48.212:443
-  type: ss
-  server: 43.201.48.212
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:25287
   type: ss
   server: 14.29.124.168
@@ -269,12 +251,6 @@ proxies:
   port: 25270
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 美国-0-0-ss-51.161.118.38:807
-  type: ss
-  server: 51.161.118.38
-  port: 807
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
 - name: 中国-广东-广州-ss-14.29.124.168:25268
   type: ss
   server: 14.29.124.168
@@ -287,7 +263,7 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-加利福尼亚-旧金山-v2ray-khvwycch.cymlr.xyz:443
+- name: 美国-0-0-v2ray-khvwycch.cymlr.xyz:443
   type: vmess
   server: khvwycch.cymlr.xyz
   network: ws
@@ -317,7 +293,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /chat
-- name: 美国-0-0-v2ray-v140a.toddns.tk:443
+- name: 美国-加利福尼亚-旧金山-v2ray-v140a.toddns.tk:443
   type: vmess
   server: v140a.toddns.tk
   network: ws
@@ -377,7 +353,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-v125.toddns.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-v125.toddns.tk:80
   type: vmess
   server: v125.toddns.tk
   network: ws
@@ -397,7 +373,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /chat
-- name: 韩国-首尔-首尔-v2ray-free-sg10210.tencent.cfd:50328
+- name: 日本-东京都-东京-v2ray-free-sg10210.tencent.cfd:50328
   type: vmess
   server: free-sg10210.tencent.cfd
   network: ws
@@ -427,3 +403,13 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 中国-香港-0-v2ray-104.208.119.71:80
+  type: vmess
+  server: 104.208.119.71
+  network: ws
+  port: 80
+  uuid: bf68c481-e0c6-33ff-80f3-611936ac0306
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /ny
