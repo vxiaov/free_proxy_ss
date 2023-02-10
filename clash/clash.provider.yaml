@@ -71,24 +71,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 新加坡-0-0-ss-54.251.24.187:443
-  type: ss
-  server: 54.251.24.187
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:25219
   type: ss
   server: 14.29.124.168
   port: 25219
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 澳大利亚-0-0-ss-43.201.14.153:443
-  type: ss
-  server: 43.201.14.153
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:24003
   type: ss
   server: 14.29.124.168
@@ -287,6 +275,18 @@ proxies:
   port: 807
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
+- name: 中国-广东-广州-ss-14.29.124.168:25268
+  type: ss
+  server: 14.29.124.168
+  port: 25268
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 澳大利亚-0-0-ss-43.207.153.185:443
+  type: ss
+  server: 43.207.153.185
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-v2ray-106.55.187.139:8448
   type: vmess
   server: 106.55.187.139
@@ -297,7 +297,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-khvwycch.cymlr.xyz:443
+- name: 美国-0-0-v2ray-khvwycch.cymlr.xyz:443
   type: vmess
   server: khvwycch.cymlr.xyz
   network: ws
@@ -387,7 +387,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-v125.toddns.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-v125.toddns.tk:80
   type: vmess
   server: v125.toddns.tk
   network: ws
@@ -416,7 +416,7 @@ proxies:
   alterId: '0'
   cipher: auto
   ws-path: ''
-- name: 韩国-首尔-首尔-v2ray-free-sg10210.tencent.cfd:50328
+- name: 新加坡-0-0-v2ray-free-sg10210.tencent.cfd:50328
   type: vmess
   server: free-sg10210.tencent.cfd
   network: ws
