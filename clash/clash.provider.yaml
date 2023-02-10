@@ -347,16 +347,6 @@ proxies:
   port: 25230
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 中国-江苏-0-ssr-z00041.security-cloudfront-cdn.com:42833
-  type: ssr
-  server: z00041.security-cloudfront-cdn.com
-  password: YpX2opBbrfqJzzMs
-  obfs: http_simple
-  protocol: origin
-  port: 42833
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
 - name: 美国-加利福尼亚-0-v2ray-152.70.109.16:443
   type: vmess
   server: 152.70.109.16
@@ -447,7 +437,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /fr-111unlimitxxx
-- name: 美国-0-0-v2ray-v125.toddns.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-v125.toddns.tk:80
   type: vmess
   server: v125.toddns.tk
   network: ws
@@ -577,7 +567,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /clientarea
-- name: 美国-0-0-v2ray-do-2.heima-bot.tech:2082
+- name: 美国-加利福尼亚-旧金山-v2ray-do-2.heima-bot.tech:2082
   type: vmess
   server: do-2.heima-bot.tech
   network: ws
@@ -597,7 +587,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: ''
-- name: 美国-俄勒冈-0-v2ray-free-us3.tencent.cfd:53517
+- name: 美国-密歇根-0-v2ray-free-us3.tencent.cfd:53517
   type: vmess
   server: free-us3.tencent.cfd
   network: ws
@@ -627,7 +617,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /pq/jp3
-- name: 美国-0-0-v2ray-ovh-3.555530.xyz:80
+- name: 美国-加利福尼亚-旧金山-v2ray-ovh-3.555530.xyz:80
   type: vmess
   server: ovh-3.555530.xyz
   network: ws
@@ -644,4 +634,14 @@ proxies:
   uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
   alterId: '0'
   cipher: auto
+  ws-path: ''
+- name: 韩国-首尔-首尔-v2ray-52.78.213.224:80
+  type: vmess
+  server: 52.78.213.224
+  network: ws
+  port: 80
+  uuid: 6f442823-6b73-4b31-f1f5-aa1e907b051e
+  alterId: 4
+  cipher: auto
+  tls: false
   ws-path: ''
