@@ -101,18 +101,24 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 中国-河南-驻马店-ss-p1.bxy-fun3.com:24105
+  type: ss
+  server: p1.bxy-fun3.com
+  port: 24105
+  cipher: chacha20-ietf-poly1305
+  password: d7bee830-09aa-43b2-8945-3b341b8787db
+- name: 中国-江苏-扬州-ss-p1.bxy-fun1.com:44101
+  type: ss
+  server: p1.bxy-fun1.com
+  port: 44101
+  cipher: chacha20-ietf-poly1305
+  password: d7bee830-09aa-43b2-8945-3b341b8787db
 - name: 日本-东京都-东京-ss-85.208.108.60:8118
   type: ss
   server: 85.208.108.60
   port: 8118
   cipher: aes-256-gcm
   password: cdBIDV42DCwnfIN
-- name: 美国-0-0-ss-51.161.118.38:802
-  type: ss
-  server: 51.161.118.38
-  port: 802
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
 - name: 澳大利亚-0-0-ss-43.201.48.212:443
   type: ss
   server: 43.201.48.212
@@ -197,7 +203,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /fkcgvws
-- name: 美国-0-0-v2ray-gb.free.yuji2022.gq:8880
+- name: 美国-加利福尼亚-旧金山-v2ray-gb.free.yuji2022.gq:8880
   type: vmess
   server: gb.free.yuji2022.gq
   network: ws
