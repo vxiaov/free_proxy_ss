@@ -53,6 +53,12 @@ proxies:
   port: 31046
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 中国-江苏-盐城-ss-zz.luosi.me:10001
+  type: ss
+  server: zz.luosi.me
+  port: 10001
+  cipher: chacha20-ietf-poly1305
+  password: 4dbc9238-c7a5-4e16-b1af-ff0360b78e21
 - name: 中国-广东-广州-ssr-z0003.security-cloudfront-cdn.com:42833
   type: ssr
   server: z0003.security-cloudfront-cdn.com
@@ -76,6 +82,16 @@ proxies:
 - name: 中国-福建-泉州-ssr-117.28.245.197:42833
   type: ssr
   server: 117.28.245.197
+  password: YpX2opBbrfqJzzMs
+  obfs: http_simple
+  protocol: origin
+  port: 42833
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 中国-广东-广州-ssr-z80001.security-cloudfront-cdn.com:42833
+  type: ssr
+  server: z80001.security-cloudfront-cdn.com
   password: YpX2opBbrfqJzzMs
   obfs: http_simple
   protocol: origin
@@ -153,7 +169,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /fkcgvws
-- name: 美国-0-0-v2ray-v2ray.ibgfw.top:2083
+- name: 美国-加利福尼亚-旧金山-v2ray-v2ray.ibgfw.top:2083
   type: vmess
   server: v2ray.ibgfw.top
   network: ws
