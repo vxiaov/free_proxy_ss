@@ -43,15 +43,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /it0svahf
-- name: 美国-加利福尼亚-0-v2ray-hk2.safepn.net:80
+- name: 英国-伦敦-伦敦-v2ray-uk2-full.privateip.net:443
   type: vmess
-  server: hk2.safepn.net
+  server: uk2-full.privateip.net
   network: ws
-  port: 80
-  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
-  alterId: '0'
+  port: 443
+  uuid: 96fe5bcc-1c23-4fc5-ba75-d482e34f6688
+  alterId: 4
   cipher: auto
-  ws-path: ''
+  tls: true
+  ws-path: /racevpn
 - name: 中国-青海-西宁-v2ray-220.167.140.109:46794
   type: vmess
   server: 220.167.140.109
@@ -101,6 +102,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
+- name: 法国-0-0-v2ray-5.135.43.119:58732
+  type: vmess
+  server: 5.135.43.119
+  network: ws
+  port: 58732
+  uuid: d159c5be-8291-45c4-bd21-51d024658a6d
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: ''
 - name: 印度尼西亚-大雅加达-雅加达-v2ray-jpjoq.ftvpn.xyz:80
   type: vmess
   server: jpjoq.ftvpn.xyz
