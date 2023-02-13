@@ -1,10 +1,4 @@
 proxies:
-- name: 韩国-首尔-首尔-ss-52.79.169.105:443
-  type: ss
-  server: 52.79.169.105
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.207.153.185:443
   type: ss
   server: 43.207.153.185
@@ -144,6 +138,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /chat
+- name: 日本-东京都-东京-v2ray-vjp1.0bad.com:443
+  type: vmess
+  server: vjp1.0bad.com
+  network: ws
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /chat
 - name: 美国-加利福尼亚-旧金山-v2ray-uk-1.sharecentre.online:443
   type: vmess
   server: uk-1.sharecentre.online
@@ -204,6 +208,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /hL4SnGmR6jDw2R8zjSmeT
+- name: 美国-0-0-v2ray-51.81.202.62:80
+  type: vmess
+  server: 51.81.202.62
+  network: ws
+  port: 80
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /v47-2023unlimitndxd
 - name: 美国-0-0-v2ray-v47a.toddns.tk:80
   type: vmess
   server: v47a.toddns.tk
@@ -233,6 +247,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /roewesu
+- name: 荷兰-阿姆斯特丹-阿姆斯特丹-v2ray-kr01.cctvvip.ml:80
+  type: vmess
+  server: kr01.cctvvip.ml
+  network: ws
+  port: 80
+  uuid: 1bf8cebf-7911-4c25-b0a4-b642a5bdd4d7
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /ws
 - name: 中国-北京-北京-v2ray-47.93.231.218:53022
   type: vmess
   server: 47.93.231.218
