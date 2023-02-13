@@ -17,6 +17,12 @@ proxies:
   port: 24007
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 新加坡-0-0-ss-54.179.221.54:443
+  type: ss
+  server: 54.179.221.54
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.201.14.153:443
   type: ss
   server: 43.201.14.153
@@ -85,6 +91,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 美国-伊利诺伊-芝加哥-v2ray-173.249.199.27:443
+  type: vmess
+  server: 173.249.199.27
+  network: ws
+  port: 443
+  uuid: e5543efd-5400-3760-9bb6-02767728e888
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /video
 - name: 新加坡-0-0-v2ray-174.138.25.187:8880
   type: vmess
   server: 174.138.25.187
@@ -145,7 +161,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /ob74vrme
-- name: 美国-加利福尼亚-旧金山-v2ray-gb.free.yuji2022.gq:8880
+- name: 美国-0-0-v2ray-gb.free.yuji2022.gq:8880
   type: vmess
   server: gb.free.yuji2022.gq
   network: ws
@@ -175,6 +191,15 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /vmess
+- name: 美国-0-0-v2ray-51.81.202.62:80
+  type: vmess
+  server: 51.81.202.62
+  network: ws
+  port: 80
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  alterId: 0
+  cipher: auto
+  ws-path: /v47-2023unlimitndxd
 - name: 美国-加利福尼亚-0-v2ray-suzhihan.eu.org:443
   type: vmess
   server: suzhihan.eu.org
