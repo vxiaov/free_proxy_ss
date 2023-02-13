@@ -77,18 +77,6 @@ proxies:
   port: 811
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
-- name: 中国-广东-揭阳-ss-moblev2.mipglxi.cn:5608
-  type: ss
-  server: moblev2.mipglxi.cn
-  port: 5608
-  cipher: aes-128-gcm
-  password: 27fdeaac-dee2-469d-928f-4de839daac45
-- name: 中国-江苏-扬州-ss-p1.bxy-fun2.com:24101
-  type: ss
-  server: p1.bxy-fun2.com
-  port: 24101
-  cipher: chacha20-ietf-poly1305
-  password: d7bee830-09aa-43b2-8945-3b341b8787db
 - name: 中国-广东-广州-ss-14.29.124.168:24008
   type: ss
   server: 14.29.124.168
@@ -107,18 +95,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-河南-驻马店-ss-p1.bxy-fun3.com:24105
-  type: ss
-  server: p1.bxy-fun3.com
-  port: 24105
-  cipher: chacha20-ietf-poly1305
-  password: d7bee830-09aa-43b2-8945-3b341b8787db
-- name: 中国-江苏-扬州-ss-p1.bxy-fun1.com:44101
-  type: ss
-  server: p1.bxy-fun1.com
-  port: 44101
-  cipher: chacha20-ietf-poly1305
-  password: d7bee830-09aa-43b2-8945-3b341b8787db
 - name: 日本-东京都-东京-ss-85.208.108.60:8118
   type: ss
   server: 85.208.108.60
@@ -159,9 +135,9 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 中国-福建-泉州-ssr-117.28.245.197:42833
+- name: 中国-广东-广州-ssr-z84001.security-cloudfront-cdn.com:42833
   type: ssr
-  server: 117.28.245.197
+  server: z84001.security-cloudfront-cdn.com
   password: YpX2opBbrfqJzzMs
   obfs: http_simple
   protocol: origin
@@ -169,35 +145,73 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 美国-加利福尼亚-0-v2ray-suzhihan.eu.org:443
+- name: 法国-0-0-v2ray-fr-1.0rd.net:443
   type: vmess
-  server: suzhihan.eu.org
+  server: fr-1.0rd.net
   network: ws
   port: 443
-  uuid: 0b873cff-11ab-4716-c41a-04f886135091
+  uuid: 497e12d0-a645-11ed-b930-205c6d5f5d78
   alterId: 4
   cipher: auto
   tls: true
-  ws-path: /roewesu
-- name: 中国-北京-北京-v2ray-47.93.231.218:53022
+  ws-path: /it0svahf
+- name: 中国-青海-西宁-v2ray-220.167.140.109:46794
   type: vmess
-  server: 47.93.231.218
+  server: 220.167.140.109
   network: ws
-  port: 53022
-  uuid: 95fd7642-2160-4528-e909-3d526b533013
+  port: 46794
+  uuid: e8bab75e-c7e1-43e0-b031-4e3565b1afaf
   alterId: 4
   cipher: auto
   tls: false
   ws-path: /
-- name: 中国-广东-广州-v2ray-106.55.187.139:8448
+- name: 0-0-0-v2ray-hn3.safepn.net:80
   type: vmess
-  server: 106.55.187.139
+  server: hn3.safepn.net
   network: ws
-  port: 8448
-  uuid: 5a464707-3162-4a09-e9e2-d70a6b892267
+  port: 80
+  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
+  alterId: '0'
+  cipher: auto
+  ws-path: ''
+- name: 美国-德克萨斯-达拉斯-v2ray-64.31.55.208:80
+  type: vmess
+  server: 64.31.55.208
+  network: ws
+  port: 80
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
   alterId: 4
   cipher: auto
   tls: false
+  ws-path: /usv125N93nz
+- name: 新加坡-0-0-v2ray-vsg1.0bad.com:443
+  type: vmess
+  server: vsg1.0bad.com
+  network: ws
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /chat
+- name: 美国-加利福尼亚-旧金山-v2ray-uk-1.sharecentre.online:443
+  type: vmess
+  server: uk-1.sharecentre.online
+  network: ws
+  port: 443
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /shirker
+- name: 美国-伊利诺伊-芝加哥-v2ray-129.151.164.152:55600
+  type: vmess
+  server: 129.151.164.152
+  network: ws
+  port: 55600
+  uuid: e30f8588-2555-48b8-c354-c8e63f57232d
+  alterId: 0
+  cipher: auto
   ws-path: /
 - name: 美国-佛罗里达-0-v2ray-0121136175176168.xhtk.cc:443
   type: vmess
@@ -209,105 +223,6 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /fkcgvws
-- name: 美国-0-0-v2ray-gb.free.yuji2022.gq:8880
-  type: vmess
-  server: gb.free.yuji2022.gq
-  network: ws
-  port: 8880
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /hL4SnGmR6jDw2R8zjSmeT
-- name: 美国-德克萨斯-达拉斯-v2ray-64.31.55.208:80
-  type: vmess
-  server: 64.31.55.208
-  network: ws
-  port: 80
-  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /usv125N93nz
-- name: 美国-0-0-v2ray-uk-1.sharecentre.online:443
-  type: vmess
-  server: uk-1.sharecentre.online
-  network: ws
-  port: 443
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /shirker
-- name: 法国-0-0-v2ray-fr-1.0rd.net:443
-  type: vmess
-  server: fr-1.0rd.net
-  network: ws
-  port: 443
-  uuid: 497e12d0-a645-11ed-b930-205c6d5f5d78
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /it0svahf
-- name: 美国-0-0-v2ray-51.81.202.62:80
-  type: vmess
-  server: 51.81.202.62
-  network: ws
-  port: 80
-  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /v47-2023unlimitndxd
-- name: 中国-青海-西宁-v2ray-220.167.140.109:46794
-  type: vmess
-  server: 220.167.140.109
-  network: ws
-  port: 46794
-  uuid: e8bab75e-c7e1-43e0-b031-4e3565b1afaf
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
-- name: 法国-0-0-v2ray-5.135.43.119:58732
-  type: vmess
-  server: 5.135.43.119
-  network: ws
-  port: 58732
-  uuid: d159c5be-8291-45c4-bd21-51d024658a6d
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
-- name: 美国-亚利桑那-凤凰城-v2ray-158.101.7.8:80
-  type: vmess
-  server: 158.101.7.8
-  network: ws
-  port: 80
-  uuid: 95b45c49-f5c0-4959-bb64-2b8fbc4a869c
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
-- name: 美国-伊利诺伊-芝加哥-v2ray-129.151.164.152:55600
-  type: vmess
-  server: 129.151.164.152
-  network: ws
-  port: 55600
-  uuid: e30f8588-2555-48b8-c354-c8e63f57232d
-  alterId: 0
-  cipher: auto
-  ws-path: /
-- name: 新加坡-0-0-v2ray-awssg10-tg-data.amazonwebservicess.com:443
-  type: vmess
-  server: awssg10-tg-data.amazonwebservicess.com
-  network: ws
-  port: 443
-  uuid: 27f55fca-f2ba-4faa-933e-2b8948d0a28b
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
 - name: 印度尼西亚-大雅加达-雅加达-v2ray-reog.xtls.my.id:443
   type: vmess
   server: reog.xtls.my.id
@@ -318,3 +233,73 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /vmess
+- name: 法国-0-0-v2ray-5.135.43.119:58732
+  type: vmess
+  server: 5.135.43.119
+  network: ws
+  port: 58732
+  uuid: d159c5be-8291-45c4-bd21-51d024658a6d
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 美国-0-0-v2ray-gb.free.yuji2022.gq:8880
+  type: vmess
+  server: gb.free.yuji2022.gq
+  network: ws
+  port: 8880
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /hL4SnGmR6jDw2R8zjSmeT
+- name: 中国-广东-广州-v2ray-106.55.187.139:8448
+  type: vmess
+  server: 106.55.187.139
+  network: ws
+  port: 8448
+  uuid: 5a464707-3162-4a09-e9e2-d70a6b892267
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 美国-加利福尼亚-0-v2ray-suzhihan.eu.org:443
+  type: vmess
+  server: suzhihan.eu.org
+  network: ws
+  port: 443
+  uuid: 0b873cff-11ab-4716-c41a-04f886135091
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /roewesu
+- name: 新加坡-0-0-v2ray-awssg10-tg-data.amazonwebservicess.com:443
+  type: vmess
+  server: awssg10-tg-data.amazonwebservicess.com
+  network: ws
+  port: 443
+  uuid: 27f55fca-f2ba-4faa-933e-2b8948d0a28b
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+- name: 中国-北京-北京-v2ray-47.93.231.218:53022
+  type: vmess
+  server: 47.93.231.218
+  network: ws
+  port: 53022
+  uuid: 95fd7642-2160-4528-e909-3d526b533013
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 美国-0-0-v2ray-51.81.202.62:80
+  type: vmess
+  server: 51.81.202.62
+  network: ws
+  port: 80
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /v47-2023unlimitndxd
