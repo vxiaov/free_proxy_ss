@@ -1,4 +1,10 @@
 proxies:
+- name: 中国-江苏-扬州-ss-catnet-moble.gatknqh.cn:11034
+  type: ss
+  server: catnet-moble.gatknqh.cn
+  port: 11034
+  cipher: aes-128-gcm
+  password: 09a40621-1c88-482c-9d2a-2cb56a12dc77
 - name: 新加坡-0-0-ss-54.251.24.187:443
   type: ss
   server: 54.251.24.187
@@ -113,7 +119,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /it0svahf
-- name: 美国-0-0-v2ray-gb.woiden.yuji2022.gq:80
+- name: 美国-加利福尼亚-旧金山-v2ray-gb.woiden.yuji2022.gq:80
   type: vmess
   server: gb.woiden.yuji2022.gq
   network: ws
@@ -132,6 +138,15 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 美国-加利福尼亚-0-v2ray-198.252.107.240:80
+  type: vmess
+  server: 198.252.107.240
+  network: ws
+  port: 80
+  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
+  alterId: '0'
+  cipher: auto
+  ws-path: ''
 - name: 美国-德克萨斯-达拉斯-v2ray-64.31.55.208:80
   type: vmess
   server: 64.31.55.208
@@ -152,7 +167,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /chat
-- name: 美国-加利福尼亚-旧金山-v2ray-de.woiden.yuji2022.gq:80
+- name: 美国-0-0-v2ray-de.woiden.yuji2022.gq:80
   type: vmess
   server: de.woiden.yuji2022.gq
   network: ws
@@ -180,7 +195,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /v47-2023unlimitndxd
-- name: 美国-0-0-v2ray-uk-1.sharecentre.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-uk-1.sharecentre.online:443
   type: vmess
   server: uk-1.sharecentre.online
   network: ws
@@ -230,7 +245,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-gb.free.yuji2022.gq:8880
+- name: 美国-0-0-v2ray-gb.free.yuji2022.gq:8880
   type: vmess
   server: gb.free.yuji2022.gq
   network: ws
