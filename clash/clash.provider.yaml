@@ -1,10 +1,4 @@
 proxies:
-- name: 日本-东京都-东京-ss-175.41.205.247:443
-  type: ss
-  server: 175.41.205.247
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:24007
   type: ss
   server: 14.29.124.168
@@ -65,7 +59,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-de.woiden.yuji2022.gq:80
+- name: 美国-0-0-v2ray-de.woiden.yuji2022.gq:80
   type: vmess
   server: de.woiden.yuji2022.gq
   network: ws
@@ -114,7 +108,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /chat
-- name: 美国-0-0-v2ray-uk-1.sharecentre.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-uk-1.sharecentre.online:443
   type: vmess
   server: uk-1.sharecentre.online
   network: ws
@@ -164,6 +158,15 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /hL4SnGmR6jDw2R8zjSmeT
+- name: 美国-加利福尼亚-0-v2ray-hk1.safepn.net:80
+  type: vmess
+  server: hk1.safepn.net
+  network: ws
+  port: 80
+  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
+  alterId: '0'
+  cipher: auto
+  ws-path: ''
 - name: 美国-亚利桑那-凤凰城-v2ray-158.101.7.8:80
   type: vmess
   server: 158.101.7.8
