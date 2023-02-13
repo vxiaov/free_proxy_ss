@@ -11,18 +11,36 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 韩国-首尔-首尔-ss-13.124.119.204:443
+  type: ss
+  server: 13.124.119.204
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 日本-东京都-东京-ss-175.41.205.247:443
   type: ss
   server: 175.41.205.247
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 中国-广东-广州-ss-14.29.124.168:24007
+  type: ss
+  server: 14.29.124.168
+  port: 24007
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - name: 中国-广东-广州-ss-14.29.124.168:24008
   type: ss
   server: 14.29.124.168
   port: 24008
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 美国-康涅狄格-0-ss-13.215.191.190:443
+  type: ss
+  server: 13.215.191.190
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 美国-康涅狄格-0-ss-13.215.49.89:443
   type: ss
   server: 13.215.49.89
@@ -106,44 +124,6 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /
-- name: 美国-俄勒冈-0-v2ray-free-zf-us2.tencent.cfd:50328
-  type: vmess
-  server: free-zf-us2.tencent.cfd
-  network: ws
-  port: 50328
-  uuid: d1860587-aa33-4b76-85cd-c191edecb338
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
-- name: 新加坡-0-0-v2ray-vsg1.0bad.com:443
-  type: vmess
-  server: vsg1.0bad.com
-  network: ws
-  port: 443
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /chat
-- name: 美国-0-0-v2ray-eu4.hax.yuji2022.gq:80
-  type: vmess
-  server: eu4.hax.yuji2022.gq
-  network: ws
-  port: 80
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
-  alterId: 0
-  cipher: auto
-  ws-path: /WKtzeN11GLqwVNBTp9mX
-- name: 美国-加利福尼亚-旧金山-v2ray-de.woiden.yuji2022.gq:80
-  type: vmess
-  server: de.woiden.yuji2022.gq
-  network: ws
-  port: 80
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
-  alterId: 0
-  cipher: auto
-  ws-path: /XQ2WCa29jfDMGBcbnQ
 - name: 美国-加利福尼亚-旧金山-v2ray-uk-1.sharecentre.online:443
   type: vmess
   server: uk-1.sharecentre.online
@@ -204,24 +184,6 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /hL4SnGmR6jDw2R8zjSmeT
-- name: 美国-0-0-v2ray-vmess.woiden.yuji2022.gq:8880
-  type: vmess
-  server: vmess.woiden.yuji2022.gq
-  network: ws
-  port: 8880
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
-  alterId: 0
-  cipher: auto
-  ws-path: /E86414F638E11
-- name: 美国-0-0-v2ray-gb.woiden.yuji2022.gq:80
-  type: vmess
-  server: gb.woiden.yuji2022.gq
-  network: ws
-  port: 80
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
-  alterId: 0
-  cipher: auto
-  ws-path: /Eynyyo4kJfl2fkJfl2f
 - name: 中国-广东-广州-v2ray-106.55.187.139:8448
   type: vmess
   server: 106.55.187.139
@@ -242,16 +204,6 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /roewesu
-- name: 美国-亚利桑那-凤凰城-v2ray-158.101.7.8:80
-  type: vmess
-  server: 158.101.7.8
-  network: ws
-  port: 80
-  uuid: 95b45c49-f5c0-4959-bb64-2b8fbc4a869c
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
 - name: 中国-北京-北京-v2ray-47.93.231.218:53022
   type: vmess
   server: 47.93.231.218
@@ -262,13 +214,3 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 新加坡-0-0-v2ray-139.162.43.101:80
-  type: vmess
-  server: 139.162.43.101
-  network: ws
-  port: 80
-  uuid: efada0c6-f141-4578-8031-37ff31e84ae0
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /images
