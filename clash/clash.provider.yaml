@@ -1,4 +1,46 @@
 proxies:
+- name: 美国-0-0-ss-51.161.118.38:801
+  type: ss
+  server: 51.161.118.38
+  port: 801
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- name: 美国-0-0-ss-51.161.118.38:802
+  type: ss
+  server: 51.161.118.38
+  port: 802
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- name: 新加坡-0-0-ss-54.169.7.77:443
+  type: ss
+  server: 54.169.7.77
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.201.14.153:443
+  type: ss
+  server: 43.201.14.153
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 新加坡-0-0-ss-54.179.221.54:443
+  type: ss
+  server: 54.179.221.54
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-康涅狄格-0-ss-13.215.191.190:443
+  type: ss
+  server: 13.215.191.190
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-康涅狄格-0-ss-13.215.177.216:443
+  type: ss
+  server: 13.215.177.216
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 韩国-首尔-首尔-ss-13.124.119.204:443
   type: ss
   server: 13.124.119.204
@@ -17,42 +59,6 @@ proxies:
   port: 24007
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 新加坡-0-0-ss-54.179.221.54:443
-  type: ss
-  server: 54.179.221.54
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.201.14.153:443
-  type: ss
-  server: 43.201.14.153
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 新加坡-0-0-ss-54.169.7.77:443
-  type: ss
-  server: 54.169.7.77
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.191.190:443
-  type: ss
-  server: 13.215.191.190
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.177.216:443
-  type: ss
-  server: 13.215.177.216
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 中国-河南-驻马店-ss-p1.bxy-fun3.com:24105
-  type: ss
-  server: p1.bxy-fun3.com
-  port: 24105
-  cipher: chacha20-ietf-poly1305
-  password: d7bee830-09aa-43b2-8945-3b341b8787db
 - name: 中国-广东-广州-ssr-z84001.security-cloudfront-cdn.com:42833
   type: ssr
   server: z84001.security-cloudfront-cdn.com
@@ -102,7 +108,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /WKtzeN11GLqwVNBTp9mX
-- name: 美国-0-0-v2ray-gb.woiden.yuji2022.gq:80
+- name: 美国-加利福尼亚-旧金山-v2ray-gb.woiden.yuji2022.gq:80
   type: vmess
   server: gb.woiden.yuji2022.gq
   network: ws
@@ -141,7 +147,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /vmess
-- name: 美国-加利福尼亚-旧金山-v2ray-vmess.woiden.yuji2022.gq:8880
+- name: 美国-0-0-v2ray-vmess.woiden.yuji2022.gq:8880
   type: vmess
   server: vmess.woiden.yuji2022.gq
   network: ws
@@ -150,7 +156,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /E86414F638E11
-- name: 美国-加利福尼亚-旧金山-v2ray-de.woiden.yuji2022.gq:80
+- name: 美国-0-0-v2ray-de.woiden.yuji2022.gq:80
   type: vmess
   server: de.woiden.yuji2022.gq
   network: ws
