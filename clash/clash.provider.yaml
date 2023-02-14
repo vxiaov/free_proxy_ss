@@ -47,12 +47,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 韩国-首尔-首尔-ss-52.78.108.80:443
+- name: 美国-0-0-ss-51.161.118.38:812
   type: ss
-  server: 52.78.108.80
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
+  server: 51.161.118.38
+  port: 812
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
 - name: 美国-0-0-ss-ak1617.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:802
   type: ss
   server: ak1617.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
@@ -79,7 +79,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-de.woiden.yuji2022.gq:80
+- name: 美国-加利福尼亚-旧金山-v2ray-de.woiden.yuji2022.gq:80
   type: vmess
   server: de.woiden.yuji2022.gq
   network: ws
@@ -137,6 +137,15 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /clientarea
+- name: 美国-加利福尼亚-旧金山-v2ray-vmess.woiden.yuji2022.gq:8880
+  type: vmess
+  server: vmess.woiden.yuji2022.gq
+  network: ws
+  port: 8880
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  alterId: 0
+  cipher: auto
+  ws-path: /E86414F638E11
 - name: 德国-Nordrhein-Westfalen-0-v2ray-89.163.213.20:80
   type: vmess
   server: 89.163.213.20
