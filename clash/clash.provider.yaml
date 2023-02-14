@@ -41,12 +41,6 @@ proxies:
   port: 811
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
-- name: 中国-广东-广州-ss-14.29.124.168:24003
-  type: ss
-  server: 14.29.124.168
-  port: 24003
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
 - name: 美国-康涅狄格-0-ss-13.215.177.216:443
   type: ss
   server: 13.215.177.216
@@ -184,7 +178,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ws
-- name: 美国-加利福尼亚-旧金山-v2ray-eu4.hax.yuji2022.gq:80
+- name: 美国-0-0-v2ray-eu4.hax.yuji2022.gq:80
   type: vmess
   server: eu4.hax.yuji2022.gq
   network: ws
@@ -193,7 +187,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /WKtzeN11GLqwVNBTp9mX
-- name: 美国-0-0-v2ray-gb.woiden.yuji2022.gq:80
+- name: 美国-加利福尼亚-旧金山-v2ray-gb.woiden.yuji2022.gq:80
   type: vmess
   server: gb.woiden.yuji2022.gq
   network: ws
@@ -251,6 +245,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /roewesu
+- name: 印度尼西亚-大雅加达-雅加达-v2ray-reog.xtls.my.id:443
+  type: vmess
+  server: reog.xtls.my.id
+  network: ws
+  port: 443
+  uuid: da9df159-e7ad-4042-ae68-57d6404867bc
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /vmess
 - name: 荷兰-阿姆斯特丹-阿姆斯特丹-v2ray-kr01.cctvvip.ml:80
   type: vmess
   server: kr01.cctvvip.ml
