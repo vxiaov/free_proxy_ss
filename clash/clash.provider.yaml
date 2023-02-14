@@ -17,12 +17,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.207.153.185:443
-  type: ss
-  server: 43.207.153.185
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.201.14.153:443
   type: ss
   server: 43.201.14.153
@@ -77,6 +71,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 中国-湖南-郴州-v2ray-116.129.253.105:50033
+  type: vmess
+  server: 116.129.253.105
+  network: ws
+  port: 50033
+  uuid: af01c6dd-9eb0-349e-83a7-7c63ac2d069a
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /v2ray
 - name: 新加坡-0-0-v2ray-174.138.25.187:8880
   type: vmess
   server: 174.138.25.187
@@ -87,7 +91,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /hkaa0
-- name: 美国-加利福尼亚-旧金山-v2ray-202442cd6ad9a30ba.spbohk.com:443
+- name: 美国-0-0-v2ray-202442cd6ad9a30ba.spbohk.com:443
   type: vmess
   server: 202442cd6ad9a30ba.spbohk.com
   network: ws
