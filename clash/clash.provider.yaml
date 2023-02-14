@@ -1,40 +1,4 @@
 proxies:
-- name: 美国-康涅狄格-0-ss-13.215.177.216:443
-  type: ss
-  server: 13.215.177.216
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 韩国-首尔-首尔-ss-52.78.108.80:443
-  type: ss
-  server: 52.78.108.80
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 韩国-首尔-首尔-ss-13.124.119.204:443
-  type: ss
-  server: 13.124.119.204
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.201.48.212:443
-  type: ss
-  server: 43.201.48.212
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 中国-广东-广州-ss-14.29.124.168:24007
-  type: ss
-  server: 14.29.124.168
-  port: 24007
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 美国-0-0-ss-ak1617.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:802
-  type: ss
-  server: ak1617.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  port: 802
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
 - name: 美国-0-0-ss-51.161.118.38:805
   type: ss
   server: 51.161.118.38
@@ -83,6 +47,18 @@ proxies:
   port: 24003
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 美国-康涅狄格-0-ss-13.215.177.216:443
+  type: ss
+  server: 13.215.177.216
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 中国-广东-广州-ss-14.29.124.168:24007
+  type: ss
+  server: 14.29.124.168
+  port: 24007
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - name: 日本-东京都-东京-ss-18.183.216.48:443
   type: ss
   server: 18.183.216.48
@@ -101,12 +77,24 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.191.190:443
+- name: 韩国-首尔-首尔-ss-13.124.119.204:443
   type: ss
-  server: 13.215.191.190
+  server: 13.124.119.204
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 韩国-首尔-首尔-ss-52.78.108.80:443
+  type: ss
+  server: 52.78.108.80
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-0-0-ss-ak1617.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:802
+  type: ss
+  server: ak1617.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  port: 802
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
 - name: 中国-广东-广州-ssr-z84001.security-cloudfront-cdn.com:42833
   type: ssr
   server: z84001.security-cloudfront-cdn.com
@@ -157,6 +145,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 美国-0-0-v2ray-hkgjgterg.76898102.xyz:2052
+  type: vmess
+  server: hkgjgterg.76898102.xyz
+  network: ws
+  port: 2052
+  uuid: 56673d1c-bf0f-3ccc-9c5a-48d93906af1c
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /miaohk
 - name: 新加坡-0-0-v2ray-174.138.25.187:8880
   type: vmess
   server: 174.138.25.187
@@ -167,7 +165,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /hkaa0
-- name: 美国-0-0-v2ray-202442cd6ad9a30ba.spbohk.com:443
+- name: 美国-加利福尼亚-旧金山-v2ray-202442cd6ad9a30ba.spbohk.com:443
   type: vmess
   server: 202442cd6ad9a30ba.spbohk.com
   network: ws
@@ -177,6 +175,15 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /f57a88ea406d
+- name: 美国-0-0-v2ray-eu4.hax.yuji2022.gq:80
+  type: vmess
+  server: eu4.hax.yuji2022.gq
+  network: ws
+  port: 80
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  alterId: 0
+  cipher: auto
+  ws-path: /WKtzeN11GLqwVNBTp9mX
 - name: 0-0-0-v2ray-sea21.nb1.fr:64443
   type: vmess
   server: sea21.nb1.fr
@@ -187,7 +194,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /clientarea
-- name: 美国-加利福尼亚-旧金山-v2ray-gb.free.yuji2022.gq:8880
+- name: 美国-0-0-v2ray-gb.free.yuji2022.gq:8880
   type: vmess
   server: gb.free.yuji2022.gq
   network: ws
@@ -207,6 +214,15 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ray12345
+- name: 美国-加利福尼亚-旧金山-v2ray-vmess.woiden.yuji2022.gq:8880
+  type: vmess
+  server: vmess.woiden.yuji2022.gq
+  network: ws
+  port: 8880
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  alterId: 0
+  cipher: auto
+  ws-path: /E86414F638E11
 - name: 美国-0-0-v2ray-51.81.202.62:80
   type: vmess
   server: 51.81.202.62
@@ -226,7 +242,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /roewesu
-- name: 美国-0-0-v2ray-gb.woiden.yuji2022.gq:80
+- name: 美国-加利福尼亚-旧金山-v2ray-gb.woiden.yuji2022.gq:80
   type: vmess
   server: gb.woiden.yuji2022.gq
   network: ws
