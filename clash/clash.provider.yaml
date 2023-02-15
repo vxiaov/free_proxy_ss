@@ -1,4 +1,10 @@
 proxies:
+- name: 中国-广东-广州-ss-14.29.124.168:24003
+  type: ss
+  server: 14.29.124.168
+  port: 24003
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - name: 韩国-首尔-首尔-ss-13.124.119.204:443
   type: ss
   server: 13.124.119.204
@@ -61,6 +67,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: ''
+- name: 美国-加利福尼亚-旧金山-v2ray-lg1.trump2023.us:443
+  type: vmess
+  server: lg1.trump2023.us
+  network: ws
+  port: 443
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /ECTCJ0DF
 - name: 新加坡-0-0-v2ray-174.138.25.187:8880
   type: vmess
   server: 174.138.25.187
@@ -71,7 +87,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /hkaa0
-- name: 美国-加利福尼亚-旧金山-v2ray-v2ray.ibgfw.top:2083
+- name: 美国-0-0-v2ray-v2ray.ibgfw.top:2083
   type: vmess
   server: v2ray.ibgfw.top
   network: ws
@@ -158,7 +174,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-gb.woiden.yuji2022.gq:80
+- name: 美国-0-0-v2ray-gb.woiden.yuji2022.gq:80
   type: vmess
   server: gb.woiden.yuji2022.gq
   network: ws
@@ -177,7 +193,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ws
-- name: 美国-加利福尼亚-旧金山-v2ray-buyvm.sharecentre.online:443
+- name: 美国-0-0-v2ray-buyvm.sharecentre.online:443
   type: vmess
   server: buyvm.sharecentre.online
   network: ws
