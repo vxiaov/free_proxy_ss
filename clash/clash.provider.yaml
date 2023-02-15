@@ -1,4 +1,10 @@
 proxies:
+- name: 澳大利亚-0-0-ss-43.201.14.153:443
+  type: ss
+  server: 43.201.14.153
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 韩国-首尔-首尔-ss-13.124.119.204:443
   type: ss
   server: 13.124.119.204
@@ -191,7 +197,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ws
-- name: 美国-0-0-v2ray-buyvm.sharecentre.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-buyvm.sharecentre.online:443
   type: vmess
   server: buyvm.sharecentre.online
   network: ws
@@ -201,6 +207,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
+- name: 马来西亚-雪兰莪-0-v2ray-join-bedee.unlimiteddev.tk:80
+  type: vmess
+  server: join-bedee.unlimiteddev.tk
+  network: ws
+  port: 80
+  uuid: 303d3583-a996-4b74-8d3a-9114e7ee6f49
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
 - name: 中国-北京-北京-v2ray-47.93.231.218:53022
   type: vmess
   server: 47.93.231.218
