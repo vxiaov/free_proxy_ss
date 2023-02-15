@@ -47,6 +47,16 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 中国-广东-广州-ssr-z84001.security-cloudfront-cdn.com:42833
+  type: ssr
+  server: z84001.security-cloudfront-cdn.com
+  password: YpX2opBbrfqJzzMs
+  obfs: http_simple
+  protocol: origin
+  port: 42833
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 法国-0-0-v2ray-5.135.43.119:58732
   type: vmess
   server: 5.135.43.119
@@ -87,6 +97,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 中国-青海-西宁-v2ray-220.167.140.109:46794
+  type: vmess
+  server: 220.167.140.109
+  network: ws
+  port: 46794
+  uuid: e8bab75e-c7e1-43e0-b031-4e3565b1afaf
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
 - name: 美国-0-0-v2ray-v2ray.ibgfw.top:2083
   type: vmess
   server: v2ray.ibgfw.top
@@ -107,7 +127,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ws
-- name: 美国-0-0-v2ray-ovh-3.555530.xyz:80
+- name: 美国-加利福尼亚-旧金山-v2ray-ovh-3.555530.xyz:80
   type: vmess
   server: ovh-3.555530.xyz
   network: ws
@@ -116,7 +136,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /happy
-- name: 美国-加利福尼亚-旧金山-v2ray-vmess.woiden.yuji2022.gq:8880
+- name: 美国-0-0-v2ray-vmess.woiden.yuji2022.gq:8880
   type: vmess
   server: vmess.woiden.yuji2022.gq
   network: ws
@@ -155,7 +175,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ws
-- name: 美国-加利福尼亚-旧金山-v2ray-buyvm.sharecentre.online:443
+- name: 美国-0-0-v2ray-buyvm.sharecentre.online:443
   type: vmess
   server: buyvm.sharecentre.online
   network: ws
