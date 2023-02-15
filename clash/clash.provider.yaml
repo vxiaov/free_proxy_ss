@@ -11,6 +11,12 @@ proxies:
   port: 24003
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 澳大利亚-0-0-ss-43.201.48.212:443
+  type: ss
+  server: 43.201.48.212
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.201.57.87:443
   type: ss
   server: 43.201.57.87
@@ -51,26 +57,6 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-lu.sharecentre.online:443
-  type: vmess
-  server: lu.sharecentre.online
-  network: ws
-  port: 443
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-hstr1675520106270.aidapp.life:443
-  type: vmess
-  server: hstr1675520106270.aidapp.life
-  network: ws
-  port: 443
-  uuid: ee30d3ff-da14-4ea8-bcd2-02e8ee3667de
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /aidapp.lifevws
 - name: 新加坡-0-0-v2ray-174.138.25.187:8880
   type: vmess
   server: 174.138.25.187
@@ -150,7 +136,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /ECTCJ0DF
-- name: 美国-加利福尼亚-旧金山-v2ray-vc-us1.sudoxin.tk:443
+- name: 美国-0-0-v2ray-vc-us1.sudoxin.tk:443
   type: vmess
   server: vc-us1.sudoxin.tk
   network: ws
@@ -170,7 +156,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /3be87398-797a-4a94-cc44-498381c93175
-- name: 美国-0-0-v2ray-vc-uk1.sudoxin.tk:443
+- name: 美国-加利福尼亚-旧金山-v2ray-vc-uk1.sudoxin.tk:443
   type: vmess
   server: vc-uk1.sudoxin.tk
   network: ws
@@ -346,3 +332,33 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
+- name: 美国-加利福尼亚-旧金山-v2ray-hstr1675520106270.aidapp.life:443
+  type: vmess
+  server: hstr1675520106270.aidapp.life
+  network: ws
+  port: 443
+  uuid: ee30d3ff-da14-4ea8-bcd2-02e8ee3667de
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /aidapp.lifevws
+- name: 美国-加利福尼亚-旧金山-v2ray-lu.sharecentre.online:443
+  type: vmess
+  server: lu.sharecentre.online
+  network: ws
+  port: 443
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /shirker
+- name: 美国-宾夕法尼亚-0-v2ray-de-full.privateip.net:443
+  type: vmess
+  server: de-full.privateip.net
+  network: ws
+  port: 443
+  uuid: c9459985-d2d6-4e01-a5a1-1ed0815ac841
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /racevpn
