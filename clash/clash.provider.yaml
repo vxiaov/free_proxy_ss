@@ -35,6 +35,12 @@ proxies:
   port: 24007
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 日本-东京都-东京-ss-85.208.108.60:8888
+  type: ss
+  server: 85.208.108.60
+  port: 8888
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
 - name: 日本-东京都-东京-ss-13.230.172.169:443
   type: ss
   server: 13.230.172.169
@@ -71,7 +77,17 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /hkaa0
-- name: 美国-0-0-v2ray-v2ray.ibgfw.top:2083
+- name: 新加坡-0-0-v2ray-free-zf-us1.tencent.cfd:50328
+  type: vmess
+  server: free-zf-us1.tencent.cfd
+  network: ws
+  port: 50328
+  uuid: d1860587-aa33-4b76-85cd-c191edecb338
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 美国-加利福尼亚-旧金山-v2ray-v2ray.ibgfw.top:2083
   type: vmess
   server: v2ray.ibgfw.top
   network: ws
@@ -109,7 +125,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /E86414F638E11
-- name: 美国-0-0-v2ray-woiden-uk1.sudoxin.tk:443
+- name: 美国-加利福尼亚-旧金山-v2ray-woiden-uk1.sudoxin.tk:443
   type: vmess
   server: woiden-uk1.sudoxin.tk
   network: ws
