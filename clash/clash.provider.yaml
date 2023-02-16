@@ -1,52 +1,4 @@
 proxies:
-- name: 美国-0-0-ss-51.161.118.38:811
-  type: ss
-  server: 51.161.118.38
-  port: 811
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-- name: 中国-广东-广州-ss-14.29.124.168:24003
-  type: ss
-  server: 14.29.124.168
-  port: 24003
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 美国-0-0-ss-51.161.118.38:812
-  type: ss
-  server: 51.161.118.38
-  port: 812
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-- name: 美国-0-0-ss-51.161.118.38:802
-  type: ss
-  server: 51.161.118.38
-  port: 802
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-- name: 新加坡-0-0-ss-54.169.7.77:443
-  type: ss
-  server: 54.169.7.77
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.201.57.87:443
-  type: ss
-  server: 43.201.57.87
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-0-0-ss-51.161.118.38:803
-  type: ss
-  server: 51.161.118.38
-  port: 803
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-- name: 美国-加利福尼亚-0-ss-176.122.169.67:19198
-  type: ss
-  server: 176.122.169.67
-  port: 19198
-  cipher: aes-256-gcm
-  password: zBYfHGewsH8zEcmf
 - name: 中国-广东-广州-ss-14.29.124.168:24007
   type: ss
   server: 14.29.124.168
@@ -95,6 +47,48 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 美国-0-0-ss-51.161.118.38:811
+  type: ss
+  server: 51.161.118.38
+  port: 811
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- name: 中国-广东-广州-ss-14.29.124.168:24003
+  type: ss
+  server: 14.29.124.168
+  port: 24003
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 澳大利亚-0-0-ss-43.201.57.87:443
+  type: ss
+  server: 43.201.57.87
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 新加坡-0-0-ss-54.169.7.77:443
+  type: ss
+  server: 54.169.7.77
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-0-0-ss-51.161.118.38:812
+  type: ss
+  server: 51.161.118.38
+  port: 812
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- name: 澳大利亚-0-0-ss-43.201.48.212:443
+  type: ss
+  server: 43.201.48.212
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-0-0-ss-51.161.118.38:803
+  type: ss
+  server: 51.161.118.38
+  port: 803
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
 - name: 日本-东京都-东京-ss-13.230.172.169:443
   type: ss
   server: 13.230.172.169
@@ -104,6 +98,24 @@ proxies:
 - name: 澳大利亚-0-0-ss-43.201.14.153:443
   type: ss
   server: 43.201.14.153
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-0-0-ss-51.161.118.38:802
+  type: ss
+  server: 51.161.118.38
+  port: 802
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- name: 美国-加利福尼亚-0-ss-176.122.169.67:19198
+  type: ss
+  server: 176.122.169.67
+  port: 19198
+  cipher: aes-256-gcm
+  password: zBYfHGewsH8zEcmf
+- name: 新加坡-0-0-ss-54.179.221.54:443
+  type: ss
+  server: 54.179.221.54
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -137,7 +149,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: ''
-- name: 美国-0-0-v2ray-kh.sharecentre.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-kh.sharecentre.online:443
   type: vmess
   server: kh.sharecentre.online
   network: ws
@@ -225,7 +237,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /dongtaiwang.com
-- name: 美国-加利福尼亚-旧金山-v2ray-nl.sharecentre.online:443
+- name: 美国-0-0-v2ray-nl.sharecentre.online:443
   type: vmess
   server: nl.sharecentre.online
   network: ws
@@ -235,6 +247,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
+- name: 中国-湖南-郴州-v2ray-116.129.253.105:50033
+  type: vmess
+  server: 116.129.253.105
+  network: ws
+  port: 50033
+  uuid: af01c6dd-9eb0-349e-83a7-7c63ac2d069a
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /v2ray
 - name: 中国-北京-北京-v2ray-47.93.231.218:53022
   type: vmess
   server: 47.93.231.218
@@ -265,7 +287,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-de-1.sharecentre.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-de-1.sharecentre.online:443
   type: vmess
   server: de-1.sharecentre.online
   network: ws
@@ -285,7 +307,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-hstr1675520106270.aidapp.life:443
+- name: 美国-加利福尼亚-旧金山-v2ray-hstr1675520106270.aidapp.life:443
   type: vmess
   server: hstr1675520106270.aidapp.life
   network: ws
@@ -295,7 +317,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /aidapp.lifevws
-- name: 美国-0-0-v2ray-lu.sharecentre.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-lu.sharecentre.online:443
   type: vmess
   server: lu.sharecentre.online
   network: ws
@@ -385,7 +407,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-buyvm.sharecentre.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-buyvm.sharecentre.online:443
   type: vmess
   server: buyvm.sharecentre.online
   network: ws
