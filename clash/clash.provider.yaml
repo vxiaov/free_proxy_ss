@@ -45,16 +45,6 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 中国-广东-广州-ssr-14.29.124.168:24000
-  type: ssr
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  obfs: plain
-  protocol: origin
-  port: 24000
-  cipher: aes-128-cfb
-  protocol-param: ''
-  obfs-param: ''
 - name: 中国-广东-广州-ssr-z0003.security-cloudfront-cdn.com:42833
   type: ssr
   server: z0003.security-cloudfront-cdn.com
@@ -65,27 +55,17 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 印度-特伦甘地-0-v2ray-152.67.161.155:17355
-  type: vmess
-  server: 152.67.161.155
-  network: ws
-  port: 17355
-  uuid: 52768552-c2b2-4460-89f1-e740cc145b99
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /ws-path
-- name: 美国-0-0-v2ray-els200.jslist.tk:8443
-  type: vmess
-  server: els200.jslist.tk
-  network: ws
-  port: 8443
-  uuid: e30cfa80-bc2c-43df-e808-97876aee77e2
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /wo.php
-- name: 美国-0-0-v2ray-de-1.sharecentre.online:443
+- name: 中国-江苏-常州-ssr-z3002.security-cloudfront-cdn.com:42833
+  type: ssr
+  server: z3002.security-cloudfront-cdn.com
+  password: YpX2opBbrfqJzzMs
+  obfs: http_simple
+  protocol: origin
+  port: 42833
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 美国-加利福尼亚-旧金山-v2ray-de-1.sharecentre.online:443
   type: vmess
   server: de-1.sharecentre.online
   network: ws
@@ -105,6 +85,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 印度-特伦甘地-0-v2ray-152.67.161.155:17355
+  type: vmess
+  server: 152.67.161.155
+  network: ws
+  port: 17355
+  uuid: 52768552-c2b2-4460-89f1-e740cc145b99
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /ws-path
 - name: 法国-0-0-v2ray-5.135.43.119:58732
   type: vmess
   server: 5.135.43.119
@@ -155,6 +145,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
+- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
+  type: vmess
+  server: els200.jslist.tk
+  network: ws
+  port: 8443
+  uuid: e30cfa80-bc2c-43df-e808-97876aee77e2
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /wo.php
 - name: 澳大利亚-新南威尔士-悉尼-v2ray-vau1.0bad.com:443
   type: vmess
   server: vau1.0bad.com
@@ -185,3 +185,13 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ws-path
+- name: 美国-马萨诸塞-波士顿-v2ray-surongwei.eu.org:443
+  type: vmess
+  server: surongwei.eu.org
+  network: ws
+  port: 443
+  uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /reffs7y26g0ua
