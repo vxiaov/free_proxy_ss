@@ -197,6 +197,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /v2ray
+- name: 美国-0-0-v2ray-nl.riemunode.ga:8443
+  type: vmess
+  server: nl.riemunode.ga
+  network: ws
+  port: 8443
+  uuid: 089dec2a-b0e6-3259-a904-430a56baa0eb
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /microsoft
 - name: 加拿大-魁北克-蒙特利尔-v2ray-168.138.68.36:14252
   type: vmess
   server: 168.138.68.36
@@ -217,7 +227,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-us-dp.sharecentre.online:443
+- name: 美国-0-0-v2ray-us-dp.sharecentre.online:443
   type: vmess
   server: us-dp.sharecentre.online
   network: ws
@@ -257,7 +267,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ws-path
-- name: 美国-0-0-v2ray-de-1.sharecentre.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-de-1.sharecentre.online:443
   type: vmess
   server: de-1.sharecentre.online
   network: ws
