@@ -71,6 +71,18 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 美国-0-0-ss-51.161.118.38:807
+  type: ss
+  server: 51.161.118.38
+  port: 807
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- name: 美国-0-0-ss-51.161.118.38:803
+  type: ss
+  server: 51.161.118.38
+  port: 803
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
 - name: 中国-江苏-0-ssr-z00041.security-cloudfront-cdn.com:42833
   type: ssr
   server: z00041.security-cloudfront-cdn.com
@@ -260,7 +272,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-us-dp.sharecentre.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-us-dp.sharecentre.online:443
   type: vmess
   server: us-dp.sharecentre.online
   network: ws
@@ -290,6 +302,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
+- name: 德国-Bayern-0-v2ray-78.47.131.39:8082
+  type: vmess
+  server: 78.47.131.39
+  network: ws
+  port: 8082
+  uuid: dddea2dc-3493-4bef-b25f-e9a30f8522ab
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /@hashmakvpn 🇩🇪
 - name: 美国-加利福尼亚-旧金山-v2ray-us-2.free.yuji2022.gq:8880
   type: vmess
   server: us-2.free.yuji2022.gq
