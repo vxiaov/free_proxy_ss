@@ -17,12 +17,6 @@ proxies:
   port: 24007
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 澳大利亚-0-0-ss-43.201.57.87:443
-  type: ss
-  server: 43.201.57.87
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:24002
   type: ss
   server: 14.29.124.168
@@ -44,6 +38,12 @@ proxies:
 - name: 新加坡-0-0-ss-54.179.221.54:443
   type: ss
   server: 54.179.221.54
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.201.82.194:443
+  type: ss
+  server: 43.201.82.194
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -87,6 +87,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /racevpn
+- name: 印度尼西亚-大雅加达-雅加达-v2ray-147.139.160.130:80
+  type: vmess
+  server: 147.139.160.130
+  network: ws
+  port: 80
+  uuid: b9f6ef01-a4a6-4a95-8c22-59666be14599
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /vmess
 - name: 印度-特伦甘地-0-v2ray-152.67.161.155:17355
   type: vmess
   server: 152.67.161.155
@@ -117,7 +127,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
+- name: 美国-0-0-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
@@ -256,7 +266,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /v2ray
-- name: 美国-加利福尼亚-旧金山-v2ray-ghxlh.tk:443
+- name: 美国-0-0-v2ray-ghxlh.tk:443
   type: vmess
   server: ghxlh.tk
   network: ws
