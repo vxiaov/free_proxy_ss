@@ -53,6 +53,24 @@ proxies:
   port: 801
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
+- name: 美国-0-0-ss-51.161.118.38:810
+  type: ss
+  server: 51.161.118.38
+  port: 810
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- name: 美国-0-0-ss-51.161.118.38:802
+  type: ss
+  server: 51.161.118.38
+  port: 802
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- name: 澳大利亚-0-0-ss-43.201.48.212:443
+  type: ss
+  server: 43.201.48.212
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-江苏-0-ssr-z00041.security-cloudfront-cdn.com:42833
   type: ssr
   server: z00041.security-cloudfront-cdn.com
@@ -109,6 +127,16 @@ proxies:
   network: ws
   port: 443
   uuid: 9b6f7da8-6638-414c-f5c1-78d245e9ae31
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 美国-康涅狄格-0-v2ray-kr.jeidian.xyz:80
+  type: vmess
+  server: kr.jeidian.xyz
+  network: ws
+  port: 80
+  uuid: 2d81eefd-7d1e-4ea7-b12c-5e426e08979d
   alterId: 4
   cipher: auto
   tls: false
@@ -222,7 +250,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ws-path
-- name: 美国-加利福尼亚-旧金山-v2ray-hk-gcore.sharecentre.online:443
+- name: 美国-0-0-v2ray-hk-gcore.sharecentre.online:443
   type: vmess
   server: hk-gcore.sharecentre.online
   network: ws
@@ -262,7 +290,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-0-0-v2ray-us-2.free.yuji2022.gq:8880
+- name: 美国-加利福尼亚-旧金山-v2ray-us-2.free.yuji2022.gq:8880
   type: vmess
   server: us-2.free.yuji2022.gq
   network: ws
@@ -312,7 +340,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /v2ray
-- name: 美国-加利福尼亚-旧金山-v2ray-ghxlh.tk:443
+- name: 美国-0-0-v2ray-ghxlh.tk:443
   type: vmess
   server: ghxlh.tk
   network: ws
@@ -401,3 +429,13 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 美国-加利福尼亚-0-v2ray-152.69.206.73:12794
+  type: vmess
+  server: 152.69.206.73
+  network: ws
+  port: 12794
+  uuid: 52768552-c2b2-4460-89f1-e740cc145b99
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /ws-path
