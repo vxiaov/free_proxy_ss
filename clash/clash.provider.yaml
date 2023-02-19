@@ -1,22 +1,28 @@
 proxies:
+- name: 澳大利亚-0-0-ss-43.201.50.13:443
+  type: ss
+  server: 43.201.50.13
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:24003
   type: ss
   server: 14.29.124.168
   port: 24003
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 美国-0-0-ss-51.161.118.38:801
+  type: ss
+  server: 51.161.118.38
+  port: 801
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
 - name: 新加坡-0-0-ss-54.179.221.54:443
   type: ss
   server: 54.179.221.54
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-广东-广州-ss-14.29.124.168:24007
-  type: ss
-  server: 14.29.124.168
-  port: 24007
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
 - name: 新加坡-0-0-ss-13.229.224.224:443
   type: ss
   server: 13.229.224.224
@@ -131,7 +137,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-els200.jslist.tk:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
@@ -151,7 +157,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ws-path
-- name: 美国-0-0-v2ray-gb.free.yuji2022.gq:8880
+- name: 美国-加利福尼亚-旧金山-v2ray-gb.free.yuji2022.gq:8880
   type: vmess
   server: gb.free.yuji2022.gq
   network: ws
@@ -180,7 +186,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /v2ray
-- name: 美国-0-0-v2ray-nl.riemunode.ga:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-nl.riemunode.ga:8443
   type: vmess
   server: nl.riemunode.ga
   network: ws
@@ -200,7 +206,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ws-path
-- name: 美国-加利福尼亚-旧金山-v2ray-hk-gcore.sharecentre.online:443
+- name: 美国-0-0-v2ray-hk-gcore.sharecentre.online:443
   type: vmess
   server: hk-gcore.sharecentre.online
   network: ws
@@ -210,7 +216,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-us-dp.sharecentre.online:443
+- name: 美国-0-0-v2ray-us-dp.sharecentre.online:443
   type: vmess
   server: us-dp.sharecentre.online
   network: ws
@@ -260,7 +266,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ws-path
-- name: 美国-0-0-v2ray-de-1.sharecentre.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-de-1.sharecentre.online:443
   type: vmess
   server: de-1.sharecentre.online
   network: ws
