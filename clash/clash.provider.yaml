@@ -5,63 +5,15 @@ proxies:
   port: 24008
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 瑞典-0-0-ss-51.124.217.177:62048
-  type: ss
-  server: 51.124.217.177
-  port: 62048
-  cipher: chacha20-ietf-poly1305
-  password: TRoGQKepg1AsWO2kTnfPnb
-- name: 新加坡-0-0-ss-54.169.7.77:443
-  type: ss
-  server: 54.169.7.77
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.201.97.222:443
-  type: ss
-  server: 43.201.97.222
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-俄勒冈-0-ss-54.245.219.99:443
-  type: ss
-  server: 54.245.219.99
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:24009
   type: ss
   server: 14.29.124.168
   port: 24009
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 美国-0-0-ss-51.161.118.38:801
-  type: ss
-  server: 51.161.118.38
-  port: 801
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-- name: 澳大利亚-0-0-ss-43.206.225.91:443
-  type: ss
-  server: 43.206.225.91
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 美国-俄勒冈-0-ss-54.187.181.151:443
   type: ss
   server: 54.187.181.151
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.207.166.104:443
-  type: ss
-  server: 43.207.166.104
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.177.216:443
-  type: ss
-  server: 13.215.177.216
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -71,36 +23,12 @@ proxies:
   port: 34394
   cipher: chacha20-ietf-poly1305
   password: 030d48b3-80e9-49ae-8cbd-6327b1ba84d2
-- name: 澳大利亚-0-0-ss-43.201.57.87:443
-  type: ss
-  server: 43.201.57.87
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 新加坡-0-0-ss-13.229.224.224:443
-  type: ss
-  server: 13.229.224.224
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 新加坡-0-0-ss-54.179.221.54:443
-  type: ss
-  server: 54.179.221.54
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:24003
   type: ss
   server: 14.29.124.168
   port: 24003
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 澳大利亚-0-0-ss-43.201.50.13:443
-  type: ss
-  server: 43.201.50.13
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-广东-广州-ssr-z00001.security-cloudfront-cdn.com:42833
   type: ssr
   server: z00001.security-cloudfront-cdn.com
@@ -151,7 +79,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /speedtest
-- name: 美国-加利福尼亚-旧金山-v2ray-foxpol2.fovi.tk:2053
+- name: 美国-0-0-v2ray-foxpol2.fovi.tk:2053
   type: vmess
   server: foxpol2.fovi.tk
   network: ws
@@ -211,3 +139,23 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
+- name: 美国-加利福尼亚-旧金山-v2ray-jp1.sharecentre.online:443
+  type: vmess
+  server: jp1.sharecentre.online
+  network: ws
+  port: 443
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /shirker
+- name: 日本-东京都-东京-v2ray-vjp3.0bad.com:443
+  type: vmess
+  server: vjp3.0bad.com
+  network: ws
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /chat
