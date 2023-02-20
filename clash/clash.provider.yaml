@@ -5,6 +5,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 瑞典-0-0-ss-51.124.217.177:62048
+  type: ss
+  server: 51.124.217.177
+  port: 62048
+  cipher: chacha20-ietf-poly1305
+  password: TRoGQKepg1AsWO2kTnfPnb
 - name: 中国-广东-广州-ss-14.29.124.168:24009
   type: ss
   server: 14.29.124.168
@@ -192,3 +198,13 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /Eynyyo4kJfl2fkJfl2f
+- name: 美国-0-0-v2ray-88.8888789.xyz:443
+  type: vmess
+  server: 88.8888789.xyz
+  network: ws
+  port: 443
+  uuid: b7a8e701-d9de-4d92-e845-5952aaf7f878
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /
