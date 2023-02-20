@@ -29,12 +29,6 @@ proxies:
   port: 810
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
-- name: 中国-广东-广州-ss-14.29.124.168:24009
-  type: ss
-  server: 14.29.124.168
-  port: 24009
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
 - name: 瑞典-0-0-ss-51.124.217.177:62048
   type: ss
   server: 51.124.217.177
@@ -50,12 +44,6 @@ proxies:
 - name: 澳大利亚-0-0-ss-43.207.166.104:443
   type: ss
   server: 43.207.166.104
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-俄勒冈-0-ss-54.245.219.99:443
-  type: ss
-  server: 54.245.219.99
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -81,12 +69,6 @@ proxies:
   type: ss
   server: 14.29.124.168
   port: 24007
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 中国-广东-广州-ss-14.29.124.168:24003
-  type: ss
-  server: 14.29.124.168
-  port: 24003
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
 - name: 美国-0-0-ss-51.161.118.38:808
@@ -145,7 +127,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /speedtest
-- name: 美国-加利福尼亚-旧金山-v2ray-foxpol2.fovi.tk:2053
+- name: 美国-0-0-v2ray-foxpol2.fovi.tk:2053
   type: vmess
   server: foxpol2.fovi.tk
   network: ws
@@ -205,7 +187,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-gb.free.yuji2022.gq:8880
+- name: 美国-加利福尼亚-旧金山-v2ray-gb.free.yuji2022.gq:8880
   type: vmess
   server: gb.free.yuji2022.gq
   network: ws
@@ -252,7 +234,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /ws-path
-- name: 美国-0-0-v2ray-jp1.sharecentre.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-jp1.sharecentre.online:443
   type: vmess
   server: jp1.sharecentre.online
   network: ws
@@ -262,7 +244,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-vmess.woiden.yuji2022.gq:8880
+- name: 美国-加利福尼亚-旧金山-v2ray-vmess.woiden.yuji2022.gq:8880
   type: vmess
   server: vmess.woiden.yuji2022.gq
   network: ws
@@ -291,3 +273,13 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /clientarea
+- name: 美国-0-0-v2ray-20.205.8.203:80
+  type: vmess
+  server: 20.205.8.203
+  network: ws
+  port: 80
+  uuid: baac4cc1-d0ee-4add-a6e6-65a18b99b6c1
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
