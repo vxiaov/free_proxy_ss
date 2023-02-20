@@ -1,7 +1,19 @@
 proxies:
+- name: 新加坡-0-0-ss-13.229.224.224:443
+  type: ss
+  server: 13.229.224.224
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 美国-俄勒冈-0-ss-54.187.181.151:443
   type: ss
   server: 54.187.181.151
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 新加坡-0-0-ss-54.179.221.54:443
+  type: ss
+  server: 54.179.221.54
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -269,7 +281,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-vmess.woiden.yuji2022.gq:8880
+- name: 美国-0-0-v2ray-vmess.woiden.yuji2022.gq:8880
   type: vmess
   server: vmess.woiden.yuji2022.gq
   network: ws
@@ -305,3 +317,40 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /hL4SnGmR6jDw2R8zjSmeT
+- name: 0-0-0-v2ray-hn3.safepn.net:80
+  type: vmess
+  server: hn3.safepn.net
+  network: ws
+  port: 80
+  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
+  alterId: '0'
+  cipher: auto
+  ws-path: ''
+- name: 美国-加利福尼亚-0-v2ray-152.69.197.74:12345
+  type: vmess
+  server: 152.69.197.74
+  network: ws
+  port: 12345
+  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
+  alterId: 0
+  cipher: auto
+  ws-path: /bb
+- name: 美国-0-0-v2ray-eu1.hax.yuji2022.gq:80
+  type: vmess
+  server: eu1.hax.yuji2022.gq
+  network: ws
+  port: 80
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  alterId: 0
+  cipher: auto
+  ws-path: /8kH8qnepjkprbsidLrLkmX
+- name: 日本-东京都-东京-v2ray-jp3.elkcloud.gq:443
+  type: vmess
+  server: jp3.elkcloud.gq
+  network: ws
+  port: 443
+  uuid: 5a1174f3-6a74-3a03-a470-3cd408305e0d
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /qatjpji
