@@ -47,6 +47,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 中国-广东-广州-ss-14.29.124.168:31046
+  type: ss
+  server: 14.29.124.168
+  port: 31046
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - name: 中国-广东-广州-ss-14.29.124.168:24003
   type: ss
   server: 14.29.124.168
@@ -59,6 +65,12 @@ proxies:
   port: 6337
   cipher: aes-256-gcm
   password: 6cUPm6BMWPZAbySE
+- name: 美国-俄勒冈-0-ss-54.187.181.151:443
+  type: ss
+  server: 54.187.181.151
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:24007
   type: ss
   server: 14.29.124.168
@@ -215,7 +227,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ray12345
-- name: 美国-加利福尼亚-旧金山-v2ray-haxus3.janechiu.icu:443
+- name: 美国-0-0-v2ray-haxus3.janechiu.icu:443
   type: vmess
   server: haxus3.janechiu.icu
   network: ws
@@ -264,7 +276,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /7a17336201?ed=2048
-- name: 美国-加利福尼亚-旧金山-v2ray-www.jingangjing.top:8443
+- name: 美国-0-0-v2ray-www.jingangjing.top:8443
   type: vmess
   server: www.jingangjing.top
   network: ws
@@ -274,7 +286,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-new6.hucloud-dns.xyz:443
+- name: 美国-0-0-v2ray-new6.hucloud-dns.xyz:443
   type: vmess
   server: new6.hucloud-dns.xyz
   network: ws
@@ -312,7 +324,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /Eynyyo4kJfl2fkJfl2f
-- name: 美国-加利福尼亚-旧金山-v2ray-us-1.free.yuji2022.gq:8880
+- name: 美国-0-0-v2ray-us-1.free.yuji2022.gq:8880
   type: vmess
   server: us-1.free.yuji2022.gq
   network: ws
@@ -331,3 +343,13 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /hls
+- name: 法国-0-0-v2ray-213.32.108.93:28565
+  type: vmess
+  server: 213.32.108.93
+  network: ws
+  port: 28565
+  uuid: 0529bca5-be1c-43d2-e662-e862fad1491a
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
