@@ -125,12 +125,6 @@ proxies:
   port: 803
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
-- name: 瑞典-0-0-ss-51.124.217.177:62048
-  type: ss
-  server: 51.124.217.177
-  port: 62048
-  cipher: chacha20-ietf-poly1305
-  password: TRoGQKepg1AsWO2kTnfPnb
 - name: 中国-广东-广州-ss-14.29.124.168:24009
   type: ss
   server: 14.29.124.168
@@ -350,7 +344,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /v2ray
-- name: 美国-加利福尼亚-旧金山-v2ray-gb.free.yuji2022.gq:8880
+- name: 美国-0-0-v2ray-gb.free.yuji2022.gq:8880
   type: vmess
   server: gb.free.yuji2022.gq
   network: ws
@@ -423,6 +417,16 @@ proxies:
   network: ws
   port: 8443
   uuid: e5a54d64-da81-4089-a3c2-3eb73b541c4e
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /
+- name: 美国-0-0-v2ray-new6.hucloud-dns.xyz:443
+  type: vmess
+  server: new6.hucloud-dns.xyz
+  network: ws
+  port: 443
+  uuid: 0a5dc877-0211-4352-f73a-8fbdae81d673
   alterId: 4
   cipher: auto
   tls: true
