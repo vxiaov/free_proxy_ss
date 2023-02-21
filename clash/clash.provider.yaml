@@ -93,7 +93,17 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 美国-0-0-v2ray-xn--5buw85e.xn--ghqw6jkw0a.live:443
+- name: 中国-广东-广州-ssr-14.29.124.168:24000
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24000
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 美国-加利福尼亚-旧金山-v2ray-xn--5buw85e.xn--ghqw6jkw0a.live:443
   type: vmess
   server: xn--5buw85e.xn--ghqw6jkw0a.live
   network: ws
@@ -139,7 +149,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-us-1.free.yuji2022.gq:8880
+- name: 美国-0-0-v2ray-us-1.free.yuji2022.gq:8880
   type: vmess
   server: us-1.free.yuji2022.gq
   network: ws
@@ -195,7 +205,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /zh-cn/
-- name: 美国-加利福尼亚-旧金山-v2ray-i5.arsalanv3.sbs:80
+- name: 美国-0-0-v2ray-i5.arsalanv3.sbs:80
   type: vmess
   server: i5.arsalanv3.sbs
   network: ws
@@ -253,7 +263,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-new6.hucloud-dns.xyz:443
+- name: 美国-加利福尼亚-旧金山-v2ray-new6.hucloud-dns.xyz:443
   type: vmess
   server: new6.hucloud-dns.xyz
   network: ws
@@ -407,3 +417,13 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /v47-2023unlimitndxd
+- name: 日本-东京都-东京-v2ray-vjp3.0bad.com:443
+  type: vmess
+  server: vjp3.0bad.com
+  network: ws
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /chat
