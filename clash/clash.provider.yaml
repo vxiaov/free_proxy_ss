@@ -59,6 +59,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 新加坡-0-0-ss-13.229.224.224:443
+  type: ss
+  server: 13.229.224.224
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ssr-z00001.security-cloudfront-cdn.com:42833
   type: ssr
   server: z00001.security-cloudfront-cdn.com
@@ -214,7 +220,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /uympvws
-- name: 美国-0-0-v2ray-us-1.free.yuji2022.gq:8880
+- name: 美国-加利福尼亚-旧金山-v2ray-us-1.free.yuji2022.gq:8880
   type: vmess
   server: us-1.free.yuji2022.gq
   network: ws
@@ -330,7 +336,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /bb
-- name: 美国-加利福尼亚-旧金山-v2ray-us-2.free.yuji2022.gq:8880
+- name: 美国-0-0-v2ray-us-2.free.yuji2022.gq:8880
   type: vmess
   server: us-2.free.yuji2022.gq
   network: ws
@@ -436,3 +442,22 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /aceamedv
+- name: 中国-湖南-郴州-v2ray-v01.gutingting.com:30035
+  type: vmess
+  server: v01.gutingting.com
+  network: ws
+  port: 30035
+  uuid: 5836f3d6-dac6-4330-8ea3-339b7f8bf94b
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /aceamedv
+- name: 美国-加利福尼亚-0-v2ray-173.211.42.221:42506
+  type: vmess
+  server: 173.211.42.221
+  network: ws
+  port: 42506
+  uuid: 2695c341-26e4-464a-e6fd-facefd72ffd1
+  alterId: 0
+  cipher: auto
+  ws-path: /
