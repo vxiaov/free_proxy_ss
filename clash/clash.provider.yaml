@@ -41,6 +41,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 美国-密歇根-0-ss-35.77.86.41:443
+  type: ss
+  server: 35.77.86.41
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ssr-z00001.security-cloudfront-cdn.com:42833
   type: ssr
   server: z00001.security-cloudfront-cdn.com
@@ -283,7 +289,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /ws-path
-- name: 美国-0-0-v2ray-sg-1.sharecentre.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-sg-1.sharecentre.online:443
   type: vmess
   server: sg-1.sharecentre.online
   network: ws
@@ -293,7 +299,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-hk-2.sharecentre.online:443
+- name: 美国-0-0-v2ray-hk-2.sharecentre.online:443
   type: vmess
   server: hk-2.sharecentre.online
   network: ws
@@ -361,7 +367,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /bb
-- name: 美国-加利福尼亚-旧金山-v2ray-us-2.free.yuji2022.gq:8880
+- name: 美国-0-0-v2ray-us-2.free.yuji2022.gq:8880
   type: vmess
   server: us-2.free.yuji2022.gq
   network: ws
@@ -370,7 +376,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /SRhXKZqggNrPMELA525Kw
-- name: 美国-0-0-v2ray-hax-us3.sudoxin.tk:443
+- name: 美国-加利福尼亚-旧金山-v2ray-hax-us3.sudoxin.tk:443
   type: vmess
   server: hax-us3.sudoxin.tk
   network: ws
@@ -389,3 +395,13 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: ''
+- name: 中国-香港-0-v2ray-download2hkt.windowsupdate.lol:80
+  type: vmess
+  server: download2hkt.windowsupdate.lol
+  network: ws
+  port: 80
+  uuid: b1e5fb98-1c24-48d5-b0ff-7f3ea060d885
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /pq/jp3
