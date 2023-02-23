@@ -45,7 +45,27 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 美国-0-0-v2ray-us-1.free.yuji2022.gq:8880
+- name: 中国-香港-0-v2ray-103.117.101.104:51298
+  type: vmess
+  server: 103.117.101.104
+  network: ws
+  port: 51298
+  uuid: 899c4e65-4129-4e9b-f65f-058f469bdd90
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /789
+- name: 美国-加利福尼亚-旧金山-v2ray-haxus3.janechiu.icu:443
+  type: vmess
+  server: haxus3.janechiu.icu
+  network: ws
+  port: 443
+  uuid: 0df258cb-a376-4b8e-a378-a556a4658aeb
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /
+- name: 美国-加利福尼亚-旧金山-v2ray-us-1.free.yuji2022.gq:8880
   type: vmess
   server: us-1.free.yuji2022.gq
   network: ws
@@ -63,63 +83,3 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /ws-path
-- name: 荷兰-Flevoland-0-v2ray-194.146.49.166:10000
-  type: vmess
-  server: 194.146.49.166
-  network: ws
-  port: 10000
-  uuid: bb04db48-b275-11ed-aa2e-00163e7a9696
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /vpnjantit
-- name: 中国-香港-0-v2ray-103.117.101.104:51298
-  type: vmess
-  server: 103.117.101.104
-  network: ws
-  port: 51298
-  uuid: 899c4e65-4129-4e9b-f65f-058f469bdd90
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /789
-- name: 中国-香港-0-v2ray-cdn.hkhkt.6641634715834932.me:80
-  type: vmess
-  server: cdn.hkhkt.6641634715834932.me
-  network: ws
-  port: 80
-  uuid: a4955acf-b475-47b5-8c63-8574fee2a2e3
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /wel/14
-- name: 美国-0-0-v2ray-88.8888789.xyz:443
-  type: vmess
-  server: 88.8888789.xyz
-  network: ws
-  port: 443
-  uuid: b7a8e701-d9de-4d92-e845-5952aaf7f878
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /
-- name: 法国-巴黎-0-v2ray-212.129.20.7:10000
-  type: vmess
-  server: 212.129.20.7
-  network: ws
-  port: 10000
-  uuid: e3fb99ec-b275-11ed-88b4-52540000fafa
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /vpnjantit
-- name: 美国-加利福尼亚-旧金山-v2ray-haxus3.janechiu.icu:443
-  type: vmess
-  server: haxus3.janechiu.icu
-  network: ws
-  port: 443
-  uuid: 0df258cb-a376-4b8e-a378-a556a4658aeb
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /
