@@ -35,12 +35,6 @@ proxies:
   port: 24003
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 韩国-首尔-首尔-ss-3.36.51.105:443
-  type: ss
-  server: 3.36.51.105
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.201.72.249:443
   type: ss
   server: 43.201.72.249
@@ -65,18 +59,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-密歇根-0-ss-35.77.86.41:443
-  type: ss
-  server: 35.77.86.41
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 中国-广东-广州-ss-14.29.124.168:31046
-  type: ss
-  server: 14.29.124.168
-  port: 31046
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
 - name: 新加坡-0-0-ss-13.229.224.224:443
   type: ss
   server: 13.229.224.224
@@ -178,6 +160,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vpnjantit
+- name: 美国-弗吉尼亚-阿什本-v2ray-cooing-luxuriant-blue.glitch.me:443
+  type: vmess
+  server: cooing-luxuriant-blue.glitch.me
+  network: ws
+  port: 443
+  uuid: 80e7dd59-b1fc-45a0-98be-1478a9af89f2
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /api
 - name: 德国-0-0-v2ray-87.106.198.110:10000
   type: vmess
   server: 87.106.198.110
@@ -358,7 +350,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /zh-cn/
-- name: 美国-0-0-v2ray-haxus3.janechiu.icu:443
+- name: 美国-加利福尼亚-旧金山-v2ray-haxus3.janechiu.icu:443
   type: vmess
   server: haxus3.janechiu.icu
   network: ws
@@ -397,6 +389,15 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vpnjantit
+- name: 美国-0-0-v2ray-v47a.toddns.tk:80
+  type: vmess
+  server: v47a.toddns.tk
+  network: ws
+  port: 80
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  alterId: 0
+  cipher: auto
+  ws-path: /v47-2023unlimitndxd
 - name: 中国-香港-0-v2ray-193.200.130.161:31755
   type: vmess
   server: 193.200.130.161
@@ -407,7 +408,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /download
-- name: 美国-0-0-v2ray-hk-2.sharecentre.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-hk-2.sharecentre.online:443
   type: vmess
   server: hk-2.sharecentre.online
   network: ws
