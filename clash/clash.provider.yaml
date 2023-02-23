@@ -11,6 +11,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 美国-康涅狄格-0-ss-13.215.206.242:443
+  type: ss
+  server: 13.215.206.242
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.201.50.13:443
   type: ss
   server: 43.201.50.13
@@ -47,12 +53,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-广东-广州-ss-14.29.124.168:24008
+- name: 美国-康涅狄格-0-ss-13.215.191.190:443
   type: ss
-  server: 14.29.124.168
-  port: 24008
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
+  server: 13.215.191.190
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.201.57.87:443
   type: ss
   server: 43.201.57.87
@@ -77,12 +83,6 @@ proxies:
   port: 9059
   cipher: aes-256-gcm
   password: gexPQBgSELQ6FYfa
-- name: 新加坡-0-0-ss-54.179.221.54:443
-  type: ss
-  server: 54.179.221.54
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-河南-驻马店-ssr-z00031.security-cloudfront-cdn.com:42833
   type: ssr
   server: z00031.security-cloudfront-cdn.com
@@ -103,7 +103,7 @@ proxies:
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-us-1.free.yuji2022.gq:8880
+- name: 美国-0-0-v2ray-us-1.free.yuji2022.gq:8880
   type: vmess
   server: us-1.free.yuji2022.gq
   network: ws
@@ -198,6 +198,15 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /ws-path
+- name: 美国-加利福尼亚-旧金山-v2ray-eu1.hax.yuji2022.gq:80
+  type: vmess
+  server: eu1.hax.yuji2022.gq
+  network: ws
+  port: 80
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  alterId: 0
+  cipher: auto
+  ws-path: /8kH8qnepjkprbsidLrLkmX
 - name: 荷兰-Flevoland-0-v2ray-194.146.49.166:10000
   type: vmess
   server: 194.146.49.166
@@ -257,7 +266,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /wel/14
-- name: 美国-0-0-v2ray-gb.free.yuji2022.gq:8880
+- name: 美国-加利福尼亚-旧金山-v2ray-gb.free.yuji2022.gq:8880
   type: vmess
   server: gb.free.yuji2022.gq
   network: ws
@@ -312,6 +321,15 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /download
+- name: 美国-加利福尼亚-0-v2ray-129.146.113.254:44107
+  type: vmess
+  server: 129.146.113.254
+  network: ws
+  port: 44107
+  uuid: fd84746b-24ed-449f-c53e-def4b90e122e
+  alterId: 0
+  cipher: auto
+  ws-path: /
 - name: 美国-马萨诸塞-0-v2ray-hk80.sanfen001.pics:80
   type: vmess
   server: hk80.sanfen001.pics
@@ -370,7 +388,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /v47-2023unlimitndxd
-- name: 美国-加利福尼亚-旧金山-v2ray-hk-2.sharecentre.online:443
+- name: 美国-0-0-v2ray-hk-2.sharecentre.online:443
   type: vmess
   server: hk-2.sharecentre.online
   network: ws
