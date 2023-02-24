@@ -65,18 +65,6 @@ proxies:
   port: 48152
   cipher: aes-256-gcm
   password: ce46b7be-c170-461d-a1a3-9f02c2c905fd
-- name: 美国-0-0-ss-ak1617.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:802
-  type: ss
-  server: ak1617.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  port: 802
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-- name: 中国-广东-广州-ss-14.29.124.168:31046
-  type: ss
-  server: 14.29.124.168
-  port: 31046
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
 - name: 美国-0-0-ss-51.161.118.38:804
   type: ss
   server: 51.161.118.38
@@ -345,6 +333,16 @@ proxies:
   network: ws
   port: 30015
   uuid: 574299a6-450c-4d30-89ff-5c70f32ee29f
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /aceamedv
+- name: 中国-山东-济宁-v2ray-v02.gutingting.com:30025
+  type: vmess
+  server: v02.gutingting.com
+  network: ws
+  port: 30025
+  uuid: 6e1b7b82-6c23-4cca-a3a9-f8b6b65d479a
   alterId: 4
   cipher: auto
   tls: false
