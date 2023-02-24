@@ -1,14 +1,32 @@
 proxies:
+- name: 美国-0-0-ss-51.161.118.38:805
+  type: ss
+  server: 51.161.118.38
+  port: 805
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
 - name: 美国-康涅狄格-0-ss-13.215.191.190:443
   type: ss
   server: 13.215.191.190
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 美国-0-0-ss-51.161.118.38:811
+  type: ss
+  server: 51.161.118.38
+  port: 811
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
 - name: 中国-广东-广州-ss-14.29.124.168:24009
   type: ss
   server: 14.29.124.168
   port: 24009
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 中国-广东-广州-ss-14.29.124.168:24006
+  type: ss
+  server: 14.29.124.168
+  port: 24006
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
 - name: 中国-广东-广州-ss-14.29.124.168:31046
@@ -77,16 +95,6 @@ proxies:
   protocol: origin
   port: 24008
   cipher: aes-128-cfb
-  protocol-param: ''
-  obfs-param: ''
-- name: 中国-河南-驻马店-ssr-z00031.security-cloudfront-cdn.com:42833
-  type: ssr
-  server: z00031.security-cloudfront-cdn.com
-  password: YpX2opBbrfqJzzMs
-  obfs: http_simple
-  protocol: origin
-  port: 42833
-  cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
 - name: 中国-广东-广州-ssr-z80001.security-cloudfront-cdn.com:42833
@@ -225,7 +233,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ws-path
-- name: 美国-0-0-v2ray-v2ray.ibgfw.top:2083
+- name: 美国-加利福尼亚-旧金山-v2ray-v2ray.ibgfw.top:2083
   type: vmess
   server: v2ray.ibgfw.top
   network: ws
@@ -235,7 +243,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /5rtP40gj/
-- name: 美国-0-0-v2ray-els200.jslist.tk:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
@@ -375,7 +383,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /123
-- name: 美国-加利福尼亚-旧金山-v2ray-sg-gcore.sharecentre.online:443
+- name: 美国-0-0-v2ray-sg-gcore.sharecentre.online:443
   type: vmess
   server: sg-gcore.sharecentre.online
   network: ws
@@ -405,7 +413,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /usv125N93nz
-- name: 美国-0-0-v2ray-hk-2.sharecentre.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-hk-2.sharecentre.online:443
   type: vmess
   server: hk-2.sharecentre.online
   network: ws
@@ -415,7 +423,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-hk-gcore.sharecentre.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-hk-gcore.sharecentre.online:443
   type: vmess
   server: hk-gcore.sharecentre.online
   network: ws
@@ -425,7 +433,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-lu.sharecentre.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-lu.sharecentre.online:443
   type: vmess
   server: lu.sharecentre.online
   network: ws
@@ -455,7 +463,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
-- name: 美国-0-0-v2ray-us-dp2.sharecentre.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-us-dp2.sharecentre.online:443
   type: vmess
   server: us-dp2.sharecentre.online
   network: ws
@@ -485,7 +493,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /wel/18
-- name: 韩国-0-0-v2ray-lu1.gogogoo.cyou:443
+- name: 意大利-0-0-v2ray-lu1.gogogoo.cyou:443
   type: vmess
   server: lu1.gogogoo.cyou
   network: ws
@@ -614,7 +622,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-buyvm.sharecentre.online:443
+- name: 美国-0-0-v2ray-buyvm.sharecentre.online:443
   type: vmess
   server: buyvm.sharecentre.online
   network: ws
