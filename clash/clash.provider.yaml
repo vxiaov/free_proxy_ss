@@ -1,28 +1,4 @@
 proxies:
-- name: 美国-0-0-ss-ak1617.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:802
-  type: ss
-  server: ak1617.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  port: 802
-  cipher: chacha20-ietf-poly1305
-  password: G!yBwPWH3Vao
-- name: 美国-俄勒冈-0-ss-54.187.181.151:443
-  type: ss
-  server: 54.187.181.151
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 中国-广东-广州-ss-14.29.124.168:31046
-  type: ss
-  server: 14.29.124.168
-  port: 31046
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 澳大利亚-0-0-ss-43.207.166.104:443
-  type: ss
-  server: 43.207.166.104
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 美国-0-0-ss-51.161.118.38:804
   type: ss
   server: 51.161.118.38
@@ -89,6 +65,18 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 美国-俄勒冈-0-ss-54.187.181.151:443
+  type: ss
+  server: 54.187.181.151
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.207.166.104:443
+  type: ss
+  server: 43.207.166.104
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 美国-0-0-ss-51.161.118.38:803
   type: ss
   server: 51.161.118.38
@@ -101,10 +89,28 @@ proxies:
   port: 48152
   cipher: aes-256-gcm
   password: ce46b7be-c170-461d-a1a3-9f02c2c905fd
+- name: 美国-0-0-ss-ak1617.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:802
+  type: ss
+  server: ak1617.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  port: 802
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- name: 中国-广东-广州-ss-14.29.124.168:31046
+  type: ss
+  server: 14.29.124.168
+  port: 31046
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - name: 美国-0-0-ss-51.161.118.38:802
   type: ss
   server: 51.161.118.38
   port: 802
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
+- name: 美国-0-0-ss-51.161.118.38:811
+  type: ss
+  server: 51.161.118.38
+  port: 811
   cipher: chacha20-ietf-poly1305
   password: G!yBwPWH3Vao
 - name: 中国-广东-广州-ssr-z00001.security-cloudfront-cdn.com:42833
@@ -219,7 +225,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /hL4SnGmR6jDw2R8zjSmeT
-- name: 美国-加利福尼亚-旧金山-v2ray-v125.toddns.tk:80
+- name: 美国-0-0-v2ray-v125.toddns.tk:80
   type: vmess
   server: v125.toddns.tk
   network: ws
