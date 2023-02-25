@@ -1,4 +1,10 @@
 proxies:
+- name: 美国-俄勒冈-0-ss-34.210.24.64:443
+  type: ss
+  server: 34.210.24.64
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 美国-俄勒冈-0-ss-54.187.181.151:443
   type: ss
   server: 54.187.181.151
@@ -156,7 +162,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ws-path
-- name: 美国-0-0-v2ray-els200.jslist.tk:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
@@ -196,7 +202,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ws-path
-- name: 美国-加利福尼亚-旧金山-v2ray-sg-1.sharecentre.online:443
+- name: 美国-0-0-v2ray-sg-1.sharecentre.online:443
   type: vmess
   server: sg-1.sharecentre.online
   network: ws
@@ -216,7 +222,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /123
-- name: 美国-加利福尼亚-旧金山-v2ray-us-dp.sharecentre.online:443
+- name: 美国-0-0-v2ray-us-dp.sharecentre.online:443
   type: vmess
   server: us-dp.sharecentre.online
   network: ws
@@ -226,7 +232,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-hk-2.sharecentre.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-hk-2.sharecentre.online:443
   type: vmess
   server: hk-2.sharecentre.online
   network: ws
@@ -246,7 +252,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
-- name: 美国-0-0-v2ray-us-dp2.sharecentre.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-us-dp2.sharecentre.online:443
   type: vmess
   server: us-dp2.sharecentre.online
   network: ws
@@ -459,3 +465,23 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /api
+- name: 印度-马哈拉施特拉-孟买-v2ray-152.67.8.205:80
+  type: vmess
+  server: 152.67.8.205
+  network: ws
+  port: 80
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 中国-香港-0-v2ray-cdn.hkhgc.6641634715834932.me:80
+  type: vmess
+  server: cdn.hkhgc.6641634715834932.me
+  network: ws
+  port: 80
+  uuid: a4955acf-b475-47b5-8c63-8574fee2a2e3
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /wel/20
