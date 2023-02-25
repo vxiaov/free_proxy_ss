@@ -1,4 +1,10 @@
 proxies:
+- name: 美国-0-0-ss-51.161.118.38:811
+  type: ss
+  server: 51.161.118.38
+  port: 811
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
 - name: 中国-北京-北京-ss-1a89b7f5-207b-d0ee-d79b-33a3353bd315.interface.buzz:48152
   type: ss
   server: 1a89b7f5-207b-d0ee-d79b-33a3353bd315.interface.buzz
@@ -192,7 +198,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ws-path
-- name: 美国-加利福尼亚-旧金山-v2ray-sg-1.sharecentre.online:443
+- name: 美国-0-0-v2ray-sg-1.sharecentre.online:443
   type: vmess
   server: sg-1.sharecentre.online
   network: ws
@@ -202,7 +208,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-b.gguu.pp.ua:443
+- name: 美国-0-0-v2ray-b.gguu.pp.ua:443
   type: vmess
   server: b.gguu.pp.ua
   network: ws
@@ -232,7 +238,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-hk-gcore.sharecentre.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-hk-gcore.sharecentre.online:443
   type: vmess
   server: hk-gcore.sharecentre.online
   network: ws
@@ -292,7 +298,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /chat
-- name: 美国-加利福尼亚-旧金山-v2ray-buyvm.sharecentre.online:443
+- name: 美国-0-0-v2ray-buyvm.sharecentre.online:443
   type: vmess
   server: buyvm.sharecentre.online
   network: ws
@@ -488,3 +494,13 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 美国-弗吉尼亚-阿什本-v2ray-cooing-luxuriant-blue.glitch.me:443
+  type: vmess
+  server: cooing-luxuriant-blue.glitch.me
+  network: ws
+  port: 443
+  uuid: 80e7dd59-b1fc-45a0-98be-1478a9af89f2
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /api
