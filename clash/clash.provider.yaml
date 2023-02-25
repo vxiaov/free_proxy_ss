@@ -5,6 +5,12 @@ proxies:
   port: 24006
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 澳大利亚-0-0-ss-43.201.57.87:443
+  type: ss
+  server: 43.201.57.87
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:24009
   type: ss
   server: 14.29.124.168
@@ -61,6 +67,16 @@ proxies:
   protocol: origin
   port: 42833
   cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 中国-广东-广州-ssr-14.29.124.168:24000
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24000
+  cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
 - name: 中国-北京-北京-v2ray-47.93.231.218:53022
@@ -160,7 +176,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ws-path
-- name: 美国-0-0-v2ray-sg-1.sharecentre.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-sg-1.sharecentre.online:443
   type: vmess
   server: sg-1.sharecentre.online
   network: ws
@@ -343,3 +359,13 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /chat
+- name: 美国-加利福尼亚-0-v2ray-138.2.42.241:80
+  type: vmess
+  server: 138.2.42.241
+  network: ws
+  port: 80
+  uuid: 53c7cb63-bc39-460b-e41b-ca65363e3e83
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /ray
