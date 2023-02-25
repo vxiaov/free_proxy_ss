@@ -5,24 +5,6 @@ proxies:
   port: 24007
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 澳大利亚-0-0-ss-43.201.57.87:443
-  type: ss
-  server: 43.201.57.87
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-俄勒冈-0-ss-54.187.181.151:443
-  type: ss
-  server: 54.187.181.151
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-密歇根-0-ss-35.77.86.41:443
-  type: ss
-  server: 35.77.86.41
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:31046
   type: ss
   server: 14.29.124.168
@@ -41,24 +23,12 @@ proxies:
   port: 48152
   cipher: aes-256-gcm
   password: ce46b7be-c170-461d-a1a3-9f02c2c905fd
-- name: 韩国-首尔-首尔-ss-13.124.119.204:443
+- name: 中国-广东-广州-ss-14.29.124.168:24009
   type: ss
-  server: 13.124.119.204
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-俄勒冈-0-ss-34.210.24.64:443
-  type: ss
-  server: 34.210.24.64
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.207.166.104:443
-  type: ss
-  server: 43.207.166.104
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
+  server: 14.29.124.168
+  port: 24009
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - name: 中国-广东-广州-ss-14.29.124.168:24006
   type: ss
   server: 14.29.124.168
@@ -172,7 +142,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /vpnjantit
-- name: 美国-0-0-v2ray-xn--5buw85e.xn--ghqw6jkw0a.live:443
+- name: 美国-加利福尼亚-旧金山-v2ray-xn--5buw85e.xn--ghqw6jkw0a.live:443
   type: vmess
   server: xn--5buw85e.xn--ghqw6jkw0a.live
   network: ws
@@ -252,7 +222,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /123
-- name: 美国-0-0-v2ray-us-dp.sharecentre.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-us-dp.sharecentre.online:443
   type: vmess
   server: us-dp.sharecentre.online
   network: ws
@@ -272,7 +242,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-hk-gcore.sharecentre.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-hk-gcore.sharecentre.online:443
   type: vmess
   server: hk-gcore.sharecentre.online
   network: ws
@@ -538,3 +508,13 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /usv125N93nz
+- name: 日本-东京都-东京-v2ray-lay.donpau.com:443
+  type: vmess
+  server: lay.donpau.com
+  network: ws
+  port: 443
+  uuid: 3a2cc75a-5fc1-4123-983b-7a1c86a10888
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /
