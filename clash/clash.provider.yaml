@@ -35,6 +35,12 @@ proxies:
   port: 24008
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 美国-0-0-ss-51.161.118.38:803
+  type: ss
+  server: 51.161.118.38
+  port: 803
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
 - name: 美国-俄勒冈-0-ss-34.210.24.64:443
   type: ss
   server: 34.210.24.64
@@ -77,6 +83,12 @@ proxies:
   port: 24002
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 美国-0-0-ss-51.161.118.38:808
+  type: ss
+  server: 51.161.118.38
+  port: 808
+  cipher: chacha20-ietf-poly1305
+  password: G!yBwPWH3Vao
 - name: 中国-海南-儋州-ss-sh.cm.izhimajiasu.com:45787
   type: ss
   server: sh.cm.izhimajiasu.com
@@ -95,29 +107,9 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-广东-广州-ssr-z84001.security-cloudfront-cdn.com:42833
-  type: ssr
-  server: z84001.security-cloudfront-cdn.com
-  password: YpX2opBbrfqJzzMs
-  obfs: http_simple
-  protocol: origin
-  port: 42833
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
 - name: 中国-广东-广州-ssr-z80001.security-cloudfront-cdn.com:42833
   type: ssr
   server: z80001.security-cloudfront-cdn.com
-  password: YpX2opBbrfqJzzMs
-  obfs: http_simple
-  protocol: origin
-  port: 42833
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
-- name: 中国-广东-广州-ssr-z0003.security-cloudfront-cdn.com:42833
-  type: ssr
-  server: z0003.security-cloudfront-cdn.com
   password: YpX2opBbrfqJzzMs
   obfs: http_simple
   protocol: origin
@@ -242,7 +234,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ws-path
-- name: 美国-加利福尼亚-旧金山-v2ray-sg-1.sharecentre.online:443
+- name: 美国-0-0-v2ray-sg-1.sharecentre.online:443
   type: vmess
   server: sg-1.sharecentre.online
   network: ws
@@ -262,7 +254,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /123
-- name: 美国-加利福尼亚-旧金山-v2ray-us-dp.sharecentre.online:443
+- name: 美国-0-0-v2ray-us-dp.sharecentre.online:443
   type: vmess
   server: us-dp.sharecentre.online
   network: ws
@@ -272,7 +264,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-hk-2.sharecentre.online:443
+- name: 美国-0-0-v2ray-hk-2.sharecentre.online:443
   type: vmess
   server: hk-2.sharecentre.online
   network: ws
@@ -312,7 +304,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-us1.wanwusheng.me:443
+- name: 美国-0-0-v2ray-us1.wanwusheng.me:443
   type: vmess
   server: us1.wanwusheng.me
   network: ws
