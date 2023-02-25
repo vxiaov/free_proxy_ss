@@ -1,4 +1,10 @@
 proxies:
+- name: 澳大利亚-0-0-ss-43.201.57.87:443
+  type: ss
+  server: 43.201.57.87
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 美国-密歇根-0-ss-35.77.86.41:443
   type: ss
   server: 35.77.86.41
@@ -160,7 +166,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ws-path
-- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
+- name: 美国-0-0-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
@@ -404,3 +410,13 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
+- name: 美国-加利福尼亚-费利蒙-v2ray-v53.gaowosiquanjia.top:80
+  type: vmess
+  server: v53.gaowosiquanjia.top
+  network: ws
+  port: 80
+  uuid: 6f96a2e9-daf3-41d4-a159-2bfe0d86dfac
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: ''
