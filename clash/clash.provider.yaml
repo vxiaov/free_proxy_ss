@@ -11,12 +11,6 @@ proxies:
   port: 24009
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 新加坡-0-0-ss-54.179.221.54:443
-  type: ss
-  server: 54.179.221.54
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:24006
   type: ss
   server: 14.29.124.168
@@ -29,12 +23,6 @@ proxies:
   port: 24003
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 澳大利亚-0-0-ss-43.207.166.104:443
-  type: ss
-  server: 43.207.166.104
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:31046
   type: ss
   server: 14.29.124.168
@@ -150,3 +138,21 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /shirker
+- name: 新加坡-0-0-v2ray-sg-ovh2.1server.co:8080
+  type: vmess
+  server: sg-ovh2.1server.co
+  network: ws
+  port: 8080
+  uuid: 397489e0-a0b4-11ed-b443-1577c1651679
+  alterId: 0
+  cipher: auto
+  ws-path: /files
+- name: 美国-0-0-v2ray-51.91.248.209:10000
+  type: vmess
+  server: 51.91.248.209
+  network: ws
+  port: 10000
+  uuid: ff7c5648-b275-11ed-8842-2f75954514f8
+  alterId: 0
+  cipher: auto
+  ws-path: /vpnjantit
