@@ -41,12 +41,6 @@ proxies:
   port: 31046
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 中国-广东-广州-ss-14.29.124.168:24007
-  type: ss
-  server: 14.29.124.168
-  port: 24007
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
 - name: 中国-江苏-0-ssr-z00041.security-cloudfront-cdn.com:42833
   type: ssr
   server: z00041.security-cloudfront-cdn.com
@@ -86,7 +80,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /vpnjantit
-- name: 美国-加利福尼亚-旧金山-v2ray-xn--5buw85e.xn--ghqw6jkw0a.live:443
+- name: 美国-0-0-v2ray-xn--5buw85e.xn--ghqw6jkw0a.live:443
   type: vmess
   server: xn--5buw85e.xn--ghqw6jkw0a.live
   network: ws
@@ -106,7 +100,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /wo.php
-- name: 美国-加利福尼亚-旧金山-v2ray-sg-1.sharecentre.online:443
+- name: 美国-0-0-v2ray-sg-1.sharecentre.online:443
   type: vmess
   server: sg-1.sharecentre.online
   network: ws
@@ -224,3 +218,13 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /chat
+- name: 美国-伊利诺伊-芝加哥-v2ray-173.249.199.27:443
+  type: vmess
+  server: 173.249.199.27
+  network: ws
+  port: 443
+  uuid: e5543efd-5400-3760-9bb6-02767728e888
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /video
