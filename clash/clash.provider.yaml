@@ -1,4 +1,10 @@
 proxies:
+- name: 澳大利亚-0-0-ss-43.207.166.104:443
+  type: ss
+  server: 43.207.166.104
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 美国-康涅狄格-0-ss-13.215.191.190:443
   type: ss
   server: 13.215.191.190
@@ -17,6 +23,12 @@ proxies:
   port: 24003
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 美国-佐治亚-亚特兰大-ss-167.88.63.44:443
+  type: ss
+  server: 167.88.63.44
+  port: 443
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
 - name: 中国-广东-广州-ss-14.29.124.168:24007
   type: ss
   server: 14.29.124.168
@@ -58,7 +70,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /vpnjantit
-- name: 美国-0-0-v2ray-xn--5buw85e.xn--ghqw6jkw0a.live:443
+- name: 美国-加利福尼亚-旧金山-v2ray-xn--5buw85e.xn--ghqw6jkw0a.live:443
   type: vmess
   server: xn--5buw85e.xn--ghqw6jkw0a.live
   network: ws
@@ -78,7 +90,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /wo.php
-- name: 美国-加利福尼亚-旧金山-v2ray-sg-1.sharecentre.online:443
+- name: 美国-0-0-v2ray-sg-1.sharecentre.online:443
   type: vmess
   server: sg-1.sharecentre.online
   network: ws
@@ -108,7 +120,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-v125.toddns.tk:80
+- name: 美国-0-0-v2ray-v125.toddns.tk:80
   type: vmess
   server: v125.toddns.tk
   network: ws
