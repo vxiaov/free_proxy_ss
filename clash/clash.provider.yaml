@@ -1,19 +1,7 @@
 proxies:
-- name: 中国-广东-广州-ss-14.29.124.168:24009
+- name: 澳大利亚-0-0-ss-43.207.66.114:443
   type: ss
-  server: 14.29.124.168
-  port: 24009
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 中国-广东-广州-ss-14.29.124.168:24007
-  type: ss
-  server: 14.29.124.168
-  port: 24007
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 澳大利亚-0-0-ss-43.207.165.110:443
-  type: ss
-  server: 43.207.165.110
+  server: 43.207.66.114
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -43,3 +31,13 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /graphql
+- name: 0-0-0-v2ray-103.178.228.138:80
+  type: vmess
+  server: 103.178.228.138
+  network: ws
+  port: 80
+  uuid: 3deb7492-182d-4f14-aaeb-923126414cdc
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /datare
