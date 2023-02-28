@@ -35,6 +35,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 日本-东京都-东京-ss-3.112.246.87:443
+  type: ss
+  server: 3.112.246.87
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 德国-法兰克福-法兰克福-ss-3.123.34.37:10736
   type: ss
   server: 3.123.34.37
@@ -71,3 +77,12 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /clientarea
+- name: 印度尼西亚-大雅加达-雅加达-v2ray-103.143.209.42:80
+  type: vmess
+  server: 103.143.209.42
+  network: ws
+  port: 80
+  uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
+  alterId: 0
+  cipher: auto
+  ws-path: /
