@@ -29,6 +29,16 @@ proxies:
   port: 24003
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 中国-广东-广州-ssr-14.29.124.168:24000
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24000
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 中国-北京-北京-v2ray-47.93.231.218:53022
   type: vmess
   server: 47.93.231.218
@@ -39,7 +49,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-free.hzzrzz.gq:443
+- name: 美国-0-0-v2ray-free.hzzrzz.gq:443
   type: vmess
   server: free.hzzrzz.gq
   network: ws
