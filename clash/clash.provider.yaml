@@ -17,12 +17,6 @@ proxies:
   port: 16609
   cipher: chacha20-ietf-poly1305
   password: 9f2fb5b4-c1a4-4760-be78-6811c49b8046
-- name: 中国-广东-揭阳-ss-szzz.yuyan.online:10003
-  type: ss
-  server: szzz.yuyan.online
-  port: 10003
-  cipher: chacha20-ietf-poly1305
-  password: f39b89ed-e166-43f5-a02d-9fbd8e015c03
 - name: 中国-山东-济宁-ss-01-nl01.xmss.vip:16614
   type: ss
   server: 01-nl01.xmss.vip
@@ -59,6 +53,24 @@ proxies:
   port: 8119
   cipher: aes-256-gcm
   password: cdBIDV42DCwnfIN
+- name: 澳大利亚-0-0-ss-43.200.244.234:443
+  type: ss
+  server: 43.200.244.234
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.207.66.114:443
+  type: ss
+  server: 43.207.66.114
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-俄勒冈-0-ss-54.203.94.5:443
+  type: ss
+  server: 54.203.94.5
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ssr-z84001.security-cloudfront-cdn.com:42833
   type: ssr
   server: z84001.security-cloudfront-cdn.com
@@ -89,7 +101,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /TG:@hkaa0
-- name: 美国-加利福尼亚-旧金山-v2ray-afc-58.f-sub.xyz:8080
+- name: 美国-0-0-v2ray-afc-58.f-sub.xyz:8080
   type: vmess
   server: afc-58.f-sub.xyz
   network: ws
@@ -99,7 +111,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: ''
-- name: 美国-0-0-v2ray-s245.rpscloud3.cloud:80
+- name: 美国-加利福尼亚-旧金山-v2ray-s245.rpscloud3.cloud:80
   type: vmess
   server: s245.rpscloud3.cloud
   network: ws
