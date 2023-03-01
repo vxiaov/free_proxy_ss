@@ -17,6 +17,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.207.166.104:443
+  type: ss
+  server: 43.207.166.104
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ssr-z84001.security-cloudfront-cdn.com:42833
   type: ssr
   server: z84001.security-cloudfront-cdn.com
@@ -47,7 +53,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-ca1.sharecentre.online:443
+- name: 美国-0-0-v2ray-ca1.sharecentre.online:443
   type: vmess
   server: ca1.sharecentre.online
   network: ws
@@ -86,3 +92,13 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /TG:@hkaa0
+- name: 俄罗斯-0-0-v2ray-194.87.169.200:80
+  type: vmess
+  server: 194.87.169.200
+  network: ws
+  port: 80
+  uuid: a406b612-26f7-4bf0-8652-816970a1c122
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
