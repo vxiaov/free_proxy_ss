@@ -17,13 +17,13 @@ proxies:
   port: 36253
   cipher: aes-128-gcm
   password: c6d8be6f-cf07-4c2e-b1be-da5fd49868b0
-- name: 中国-广东-深圳-ss-cnuakpj.772xx.cn:17302
+- name: 中国-浙江-杭州-ss-cnuakpj.772xx.cn:17302
   type: ss
   server: cnuakpj.772xx.cn
   port: 17302
   cipher: chacha20-ietf-poly1305
   password: f69d8348-0ab3-4514-abd9-57200d924f25
-- name: 中国-江苏-0-ss-oxaxcgs.772xx.cn:38405
+- name: 中国-广东-深圳-ss-oxaxcgs.772xx.cn:38405
   type: ss
   server: oxaxcgs.772xx.cn
   port: 38405
@@ -41,7 +41,7 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-浙江-杭州-ss-oxaxcgs.772xx.cn:38404
+- name: 中国-江苏-0-ss-oxaxcgs.772xx.cn:38404
   type: ss
   server: oxaxcgs.772xx.cn
   port: 38404
@@ -105,7 +105,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-s245.rpscloud3.cloud:80
+- name: 美国-加利福尼亚-旧金山-v2ray-s245.rpscloud3.cloud:80
   type: vmess
   server: s245.rpscloud3.cloud
   network: ws
@@ -114,16 +114,6 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /graphql
-- name: 新加坡-0-0-v2ray-hk-v.somnode.top:80
-  type: vmess
-  server: hk-v.somnode.top
-  network: ws
-  port: 80
-  uuid: d41c193f-52ca-3ef9-9cf5-e7d50330f26e
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /ws?ed=2048
 - name: 美国-伊利诺伊-芝加哥-v2ray-174.136.207.177.xhtk.cc:443
   type: vmess
   server: 174.136.207.177.xhtk.cc
@@ -134,22 +124,3 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /kmbkvws
-- name: 日本-东京都-东京-v2ray-d1k8bewjynktzm.cloudfront.net:443
-  type: vmess
-  server: d1k8bewjynktzm.cloudfront.net
-  network: ws
-  port: 443
-  uuid: f77f973c-44eb-4d1e-fbf0-0fac66dfcc43
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /fire
-- name: 新加坡-0-0-v2ray-139.162.43.101:80
-  type: vmess
-  server: 139.162.43.101
-  network: ws
-  port: 80
-  uuid: 8441c430-0b7d-4253-8896-c0b5954e77d1
-  alterId: 0
-  cipher: auto
-  ws-path: /images
