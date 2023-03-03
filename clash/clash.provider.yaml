@@ -83,9 +83,19 @@ proxies:
   port: 24002
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 中国-广东-广州-ssr-z84001.security-cloudfront-cdn.com:42833
+- name: 中国-上海-上海-ssr-z00031.security-cloudfront-cdn.com:42833
   type: ssr
-  server: z84001.security-cloudfront-cdn.com
+  server: z00031.security-cloudfront-cdn.com
+  password: YpX2opBbrfqJzzMs
+  obfs: http_simple
+  protocol: origin
+  port: 42833
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 中国-广东-广州-ssr-z00001.security-cloudfront-cdn.com:42833
+  type: ssr
+  server: z00001.security-cloudfront-cdn.com
   password: YpX2opBbrfqJzzMs
   obfs: http_simple
   protocol: origin
@@ -103,7 +113,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-v125.toddns.tk:80
+- name: 美国-加利福尼亚-旧金山-v2ray-v125.toddns.tk:80
   type: vmess
   server: v125.toddns.tk
   network: ws
@@ -112,7 +122,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /usv125N93nz
-- name: 美国-0-0-v2ray-s245.rpscloud3.cloud:80
+- name: 美国-加利福尼亚-旧金山-v2ray-s245.rpscloud3.cloud:80
   type: vmess
   server: s245.rpscloud3.cloud
   network: ws
@@ -121,7 +131,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /graphql
-- name: 美国-0-0-v2ray-usdo.tzccifq.ga:443
+- name: 美国-加利福尼亚-旧金山-v2ray-usdo.tzccifq.ga:443
   type: vmess
   server: usdo.tzccifq.ga
   network: ws
