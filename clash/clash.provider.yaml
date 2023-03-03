@@ -53,6 +53,24 @@ proxies:
   port: 34281
   cipher: aes-128-gcm
   password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3
+- name: 美国-康涅狄格-0-ss-13.215.183.79:8080
+  type: ss
+  server: 13.215.183.79
+  port: 8080
+  cipher: aes-256-cfb
+  password: doub.io
+- name: 澳大利亚-0-0-ss-43.207.166.104:443
+  type: ss
+  server: 43.207.166.104
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-密歇根-0-ss-35.92.132.241:443
+  type: ss
+  server: 35.92.132.241
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ssr-z84001.security-cloudfront-cdn.com:42833
   type: ssr
   server: z84001.security-cloudfront-cdn.com
@@ -73,7 +91,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-buyvm-ny.sharecentre.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-buyvm-ny.sharecentre.online:443
   type: vmess
   server: buyvm-ny.sharecentre.online
   network: ws
@@ -101,7 +119,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /graphql
-- name: 美国-0-0-v2ray-us-vir.minl.me:443
+- name: 美国-加利福尼亚-旧金山-v2ray-us-vir.minl.me:443
   type: vmess
   server: us-vir.minl.me
   network: ws
@@ -121,3 +139,12 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
+- name: 澳大利亚-0-0-v2ray-kr1.microsoftjs.top:80
+  type: vmess
+  server: kr1.microsoftjs.top
+  network: ws
+  port: 80
+  uuid: 20f58795-bd31-425d-9fdc-b8742ff2cb03
+  alterId: 0
+  cipher: auto
+  ws-path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
