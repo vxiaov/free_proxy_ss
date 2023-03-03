@@ -35,12 +35,6 @@ proxies:
   port: 24008
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 中国-广东-江门-ss-gdyd.aikun.online:11698
-  type: ss
-  server: gdyd.aikun.online
-  port: 11698
-  cipher: aes-128-gcm
-  password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3
 - name: 中国-广东-广州-ssr-z80001.security-cloudfront-cdn.com:42833
   type: ssr
   server: z80001.security-cloudfront-cdn.com
@@ -120,7 +114,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
-- name: 美国-0-0-v2ray-haxus3.janechiu.icu:443
+- name: 美国-加利福尼亚-旧金山-v2ray-haxus3.janechiu.icu:443
   type: vmess
   server: haxus3.janechiu.icu
   network: ws
@@ -160,7 +154,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-加利福尼亚-旧金山-v2ray-4bb4ced4.8200860.xyz:2096
+- name: 美国-0-0-v2ray-4bb4ced4.8200860.xyz:2096
   type: vmess
   server: 4bb4ced4.8200860.xyz
   network: ws
@@ -260,3 +254,13 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 中国-湖南-益阳-v2ray-cs1.bbcloud.life:17127
+  type: vmess
+  server: cs1.bbcloud.life
+  network: ws
+  port: 17127
+  uuid: b25693cd-1173-42f3-e609-51062d1c65c5
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /@abcdefghijk147
