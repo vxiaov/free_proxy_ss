@@ -41,6 +41,16 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 中国-广东-广州-ssr-z84001.security-cloudfront-cdn.com:42833
+  type: ssr
+  server: z84001.security-cloudfront-cdn.com
+  password: YpX2opBbrfqJzzMs
+  obfs: http_simple
+  protocol: origin
+  port: 42833
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 中国-北京-北京-v2ray-47.93.231.218:53022
   type: vmess
   server: 47.93.231.218
@@ -51,7 +61,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-finland2.yj2022.ga:443
+- name: 美国-0-0-v2ray-finland2.yj2022.ga:443
   type: vmess
   server: finland2.yj2022.ga
   network: ws
@@ -61,7 +71,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /yWJGGBHoVpr3DbNuVycP
-- name: 美国-0-0-v2ray-buyvm-ny.sharecentre.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-buyvm-ny.sharecentre.online:443
   type: vmess
   server: buyvm-ny.sharecentre.online
   network: ws
@@ -208,7 +218,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ws?ed=2048
-- name: 日本-东京都-东京-v2ray-d1k8bewjynktzm.cloudfront.net:443
+- name: 美国-马萨诸塞-0-v2ray-d1k8bewjynktzm.cloudfront.net:443
   type: vmess
   server: d1k8bewjynktzm.cloudfront.net
   network: ws
