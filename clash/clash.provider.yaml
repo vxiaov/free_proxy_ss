@@ -29,27 +29,27 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-江苏-无锡-ss-180.101.193.226:10068
-  type: ss
-  server: 180.101.193.226
-  port: 10068
-  cipher: aes-256-cfb
-  password: RsDk3peCSuo76B68
 - name: 中国-广东-广州-ss-14.29.124.168:24002
   type: ss
   server: 14.29.124.168
   port: 24002
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 荷兰-阿姆斯特丹-阿姆斯特丹-ss-213.183.59.211:9079
-  type: ss
-  server: 213.183.59.211
-  port: 9079
-  cipher: aes-256-cfb
-  password: TPqX8edgbAURcAMb
 - name: 美国-俄勒冈-0-ss-34.221.222.115:443
   type: ss
   server: 34.221.222.115
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 中国-广东-江门-ss-gdyd.aikun.online:11698
+  type: ss
+  server: gdyd.aikun.online
+  port: 11698
+  cipher: aes-128-gcm
+  password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3
+- name: 美国-俄勒冈-0-ss-54.186.216.67:443
+  type: ss
+  server: 54.186.216.67
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -82,7 +82,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /usv125N93nz
-- name: 美国-加利福尼亚-旧金山-v2ray-s245.rpscloud3.cloud:80
+- name: 美国-0-0-v2ray-s245.rpscloud3.cloud:80
   type: vmess
   server: s245.rpscloud3.cloud
   network: ws
@@ -130,4 +130,14 @@ proxies:
   alterId: 4
   cipher: auto
   tls: false
+  ws-path: /
+- name: 美国-0-0-v2ray-new3.hucloud-dns.xyz:443
+  type: vmess
+  server: new3.hucloud-dns.xyz
+  network: ws
+  port: 443
+  uuid: d8eb886b-05be-4628-f2a2-a7e5b305e35a
+  alterId: 4
+  cipher: auto
+  tls: true
   ws-path: /
