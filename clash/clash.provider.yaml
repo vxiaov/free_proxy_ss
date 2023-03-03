@@ -103,6 +103,16 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
+- name: 中国-广东-广州-ssr-z80001.security-cloudfront-cdn.com:42833
+  type: ssr
+  server: z80001.security-cloudfront-cdn.com
+  password: YpX2opBbrfqJzzMs
+  obfs: http_simple
+  protocol: origin
+  port: 42833
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 中国-北京-北京-v2ray-47.93.231.218:53022
   type: vmess
   server: 47.93.231.218
@@ -113,7 +123,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-v125.toddns.tk:80
+- name: 美国-0-0-v2ray-v125.toddns.tk:80
   type: vmess
   server: v125.toddns.tk
   network: ws
@@ -122,7 +132,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /usv125N93nz
-- name: 美国-加利福尼亚-旧金山-v2ray-s245.rpscloud3.cloud:80
+- name: 美国-0-0-v2ray-s245.rpscloud3.cloud:80
   type: vmess
   server: s245.rpscloud3.cloud
   network: ws
@@ -131,13 +141,3 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /graphql
-- name: 美国-加利福尼亚-旧金山-v2ray-usdo.tzccifq.ga:443
-  type: vmess
-  server: usdo.tzccifq.ga
-  network: ws
-  port: 443
-  uuid: 58eb724d-5a95-4b9c-851e-2cb3b408e85f
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /
