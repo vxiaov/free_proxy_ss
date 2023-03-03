@@ -11,18 +11,6 @@ proxies:
   port: 14108
   cipher: aes-128-gcm
   password: e1af570e-b7e2-402d-a60e-a363ffdfee7e
-- name: 美国-俄勒冈-0-ss-34.221.222.115:443
-  type: ss
-  server: 34.221.222.115
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-密歇根-0-ss-35.92.132.241:443
-  type: ss
-  server: 35.92.132.241
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:24003
   type: ss
   server: 14.29.124.168
@@ -35,12 +23,30 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 荷兰-阿姆斯特丹-阿姆斯特丹-ss-213.183.59.211:9008
+- name: 中国-广东-江门-ss-gdyd.aikun.online:11079
+  type: ss
+  server: gdyd.aikun.online
+  port: 11079
+  cipher: aes-128-gcm
+  password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3
+- name: 中国-广东-佛山-ss-fs.651651.xyz:40107
+  type: ss
+  server: fs.651651.xyz
+  port: 40107
+  cipher: aes-256-gcm
+  password: e3b4a5ca-6d91-44ef-a192-796904748207
+- name: 中国-广东-江门-ss-gdyd.aikun.online:27429
+  type: ss
+  server: gdyd.aikun.online
+  port: 27429
+  cipher: aes-128-gcm
+  password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3
+- name: 荷兰-阿姆斯特丹-阿姆斯特丹-ss-213.183.59.211:9079
   type: ss
   server: 213.183.59.211
-  port: 9008
+  port: 9079
   cipher: aes-256-cfb
-  password: y9VURyNzJWNRYEGQ
+  password: TPqX8edgbAURcAMb
 - name: 中国-广东-广州-ssr-z84001.security-cloudfront-cdn.com:42833
   type: ssr
   server: z84001.security-cloudfront-cdn.com
@@ -61,7 +67,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-finland2.yj2022.ga:443
+- name: 美国-0-0-v2ray-finland2.yj2022.ga:443
   type: vmess
   server: finland2.yj2022.ga
   network: ws
@@ -71,7 +77,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /yWJGGBHoVpr3DbNuVycP
-- name: 美国-加利福尼亚-旧金山-v2ray-buyvm-ny.sharecentre.online:443
+- name: 美国-0-0-v2ray-buyvm-ny.sharecentre.online:443
   type: vmess
   server: buyvm-ny.sharecentre.online
   network: ws
@@ -91,7 +97,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ws?ed=2048
-- name: 美国-华盛顿-0-v2ray-d1k8bewjynktzm.cloudfront.net:443
+- name: 日本-东京都-东京-v2ray-d1k8bewjynktzm.cloudfront.net:443
   type: vmess
   server: d1k8bewjynktzm.cloudfront.net
   network: ws
