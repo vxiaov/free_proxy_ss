@@ -91,6 +91,16 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
+- name: 中国-江苏-常州-ssr-z3002.security-cloudfront-cdn.com:42833
+  type: ssr
+  server: z3002.security-cloudfront-cdn.com
+  password: YpX2opBbrfqJzzMs
+  obfs: http_simple
+  protocol: origin
+  port: 42833
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 中国-北京-北京-v2ray-47.93.231.218:53022
   type: vmess
   server: 47.93.231.218
@@ -110,15 +120,6 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /usv125N93nz
-- name: 美国-0-0-v2ray-s245.rpscloud3.cloud:80
-  type: vmess
-  server: s245.rpscloud3.cloud
-  network: ws
-  port: 80
-  uuid: d65ca664-72d3-4a14-a836-00eadd0df46e
-  alterId: 0
-  cipher: auto
-  ws-path: /graphql
 - name: 中国-香港-0-v2ray-223.19.177.145:21052
   type: vmess
   server: 223.19.177.145
@@ -129,16 +130,6 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-伊利诺伊-0-v2ray-vus5.0bad.com:443
-  type: vmess
-  server: vus5.0bad.com
-  network: ws
-  port: 443
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /chat
 - name: 新加坡-0-0-v2ray-hk-iv.somnode.top:80
   type: vmess
   server: hk-iv.somnode.top
@@ -169,27 +160,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
-- name: 中国-北京-北京-v2ray-124.222.189.225:80
-  type: vmess
-  server: 124.222.189.225
-  network: ws
-  port: 80
-  uuid: a8c9ad5b-1f58-4234-b5fe-a895bee9a047
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
-- name: 美国-加利福尼亚-0-v2ray-vau1.0bad.com:443
-  type: vmess
-  server: vau1.0bad.com
-  network: ws
-  port: 443
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /chat
-- name: 美国-加利福尼亚-旧金山-v2ray-haxus3.janechiu.icu:443
+- name: 美国-0-0-v2ray-haxus3.janechiu.icu:443
   type: vmess
   server: haxus3.janechiu.icu
   network: ws
