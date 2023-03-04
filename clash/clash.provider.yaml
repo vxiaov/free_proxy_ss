@@ -63,6 +63,16 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
+- name: 中国-广东-广州-ssr-z0001.security-cloudfront-cdn.com:42833
+  type: ssr
+  server: z0001.security-cloudfront-cdn.com
+  password: YpX2opBbrfqJzzMs
+  obfs: http_simple
+  protocol: origin
+  port: 42833
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 中国-北京-北京-v2ray-47.93.231.218:53022
   type: vmess
   server: 47.93.231.218
@@ -153,7 +163,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-arsalan.arsalanv3.sbs:2095
+- name: 美国-0-0-v2ray-arsalan.arsalanv3.sbs:2095
   type: vmess
   server: arsalan.arsalanv3.sbs
   network: ws
@@ -173,3 +183,23 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 德国-Nordrhein-Westfalen-0-v2ray-89.163.213.20:80
+  type: vmess
+  server: 89.163.213.20
+  network: ws
+  port: 80
+  uuid: 5668ff97-631f-4602-a13f-b56552c67abe
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /vmess
+- name: 美国-德克萨斯-休斯顿-v2ray-petal.ga:443
+  type: vmess
+  server: petal.ga
+  network: ws
+  port: 443
+  uuid: b744f5cc-eab2-d2cd-f477-76646d17987f
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /petalvws
