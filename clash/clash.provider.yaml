@@ -89,6 +89,12 @@ proxies:
   port: 31046
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 英国-伦敦-伦敦-ss-212.102.53.196:443
+  type: ss
+  server: 212.102.53.196
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
 - name: 中国-广东-广州-ssr-z80001.security-cloudfront-cdn.com:42833
   type: ssr
   server: z80001.security-cloudfront-cdn.com
@@ -129,16 +135,6 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 中国-广东-广州-ssr-14.29.124.168:24008
-  type: ssr
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  obfs: plain
-  protocol: origin
-  port: 24008
-  cipher: aes-128-cfb
-  protocol-param: ''
-  obfs-param: ''
 - name: 中国-北京-北京-v2ray-47.93.231.218:53022
   type: vmess
   server: 47.93.231.218
@@ -149,7 +145,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-haxus3.janechiu.icu:443
+- name: 美国-加利福尼亚-旧金山-v2ray-haxus3.janechiu.icu:443
   type: vmess
   server: haxus3.janechiu.icu
   network: ws
@@ -299,7 +295,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /5gsieutoc.com
-- name: 美国-加利福尼亚-旧金山-v2ray-dsdfj2.dslovedfj.icu:80
+- name: 美国-0-0-v2ray-dsdfj2.dslovedfj.icu:80
   type: vmess
   server: dsdfj2.dslovedfj.icu
   network: ws
@@ -358,7 +354,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-hax.smely.eu.org:80
+- name: 美国-加利福尼亚-旧金山-v2ray-hax.smely.eu.org:80
   type: vmess
   server: hax.smely.eu.org
   network: ws
@@ -387,7 +383,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /TG:@hkaa0
-- name: 美国-加利福尼亚-旧金山-v2ray-america2.yj2022.ga:443
+- name: 美国-0-0-v2ray-america2.yj2022.ga:443
   type: vmess
   server: america2.yj2022.ga
   network: ws
