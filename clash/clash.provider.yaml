@@ -45,16 +45,6 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 中国-广东-广州-ssr-z84001.security-cloudfront-cdn.com:42833
-  type: ssr
-  server: z84001.security-cloudfront-cdn.com
-  password: YpX2opBbrfqJzzMs
-  obfs: http_simple
-  protocol: origin
-  port: 42833
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
 - name: 中国-广东-广州-ssr-z0001.security-cloudfront-cdn.com:42833
   type: ssr
   server: z0001.security-cloudfront-cdn.com
@@ -105,7 +95,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /index
-- name: 美国-0-0-v2ray-germany1.yj2022.ga:443
+- name: 美国-加利福尼亚-旧金山-v2ray-germany1.yj2022.ga:443
   type: vmess
   server: germany1.yj2022.ga
   network: ws
@@ -185,7 +175,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /5gsieutoc.com
-- name: 美国-0-0-v2ray-s245.rpscloud3.cloud:80
+- name: 美国-加利福尼亚-旧金山-v2ray-s245.rpscloud3.cloud:80
   type: vmess
   server: s245.rpscloud3.cloud
   network: ws
@@ -293,7 +283,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /TG:@hkaa0
-- name: 美国-加利福尼亚-旧金山-v2ray-america2.yj2022.ga:443
+- name: 美国-0-0-v2ray-america2.yj2022.ga:443
   type: vmess
   server: america2.yj2022.ga
   network: ws
@@ -333,3 +323,22 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /chat
+- name: 德国-Nordrhein-Westfalen-0-v2ray-89.163.213.20:80
+  type: vmess
+  server: 89.163.213.20
+  network: ws
+  port: 80
+  uuid: 5668ff97-631f-4602-a13f-b56552c67abe
+  alterId: 0
+  cipher: auto
+  ws-path: /vmess
+- name: 美国-加利福尼亚-旧金山-v2ray-vceu3.718398.xyz:8080
+  type: vmess
+  server: vceu3.718398.xyz
+  network: ws
+  port: 8080
+  uuid: 2ddcf12d-52fa-4e09-b4f1-c52d5cbee69b
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /cctv06
