@@ -81,6 +81,16 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
+- name: 中国-上海-上海-ssr-z00031.security-cloudfront-cdn.com:42833
+  type: ssr
+  server: z00031.security-cloudfront-cdn.com
+  password: YpX2opBbrfqJzzMs
+  obfs: http_simple
+  protocol: origin
+  port: 42833
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 中国-北京-北京-v2ray-47.93.231.218:53022
   type: vmess
   server: 47.93.231.218
@@ -91,7 +101,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-haxus3.janechiu.icu:443
+- name: 美国-加利福尼亚-旧金山-v2ray-haxus3.janechiu.icu:443
   type: vmess
   server: haxus3.janechiu.icu
   network: ws
@@ -121,7 +131,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /index
-- name: 美国-加利福尼亚-旧金山-v2ray-germany1.yj2022.ga:443
+- name: 美国-0-0-v2ray-germany1.yj2022.ga:443
   type: vmess
   server: germany1.yj2022.ga
   network: ws
@@ -231,3 +241,13 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /5gsieutoc.com
+- name: 马来西亚-雪兰莪-0-v2ray-bia-to.paraphdev.click:80
+  type: vmess
+  server: bia-to.paraphdev.click
+  network: ws
+  port: 80
+  uuid: e46a7588-f18b-4d08-deaa-835047bd2895
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
