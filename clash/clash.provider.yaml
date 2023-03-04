@@ -1,10 +1,4 @@
 proxies:
-- name: 中国-广东-广州-ss-14.29.124.168:24002
-  type: ss
-  server: 14.29.124.168
-  port: 24002
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
 - name: 中国-广东-广州-ss-14.29.124.168:31046
   type: ss
   server: 14.29.124.168
@@ -26,12 +20,6 @@ proxies:
 - name: 新加坡-0-0-ss-54.169.113.143:443
   type: ss
   server: 54.169.113.143
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.213.38.103:443
-  type: ss
-  server: 13.213.38.103
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -155,6 +143,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 美国-康涅狄格-0-ss-13.215.191.190:443
+  type: ss
+  server: 13.215.191.190
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ssr-z0001.security-cloudfront-cdn.com:42833
   type: ssr
   server: z0001.security-cloudfront-cdn.com
@@ -195,7 +189,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-germany1.yj2022.ga:443
+- name: 美国-0-0-v2ray-germany1.yj2022.ga:443
   type: vmess
   server: germany1.yj2022.ga
   network: ws
