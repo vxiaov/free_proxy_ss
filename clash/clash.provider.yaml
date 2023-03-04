@@ -23,78 +23,18 @@ proxies:
   port: 24009
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 荷兰-阿姆斯特丹-阿姆斯特丹-ss-213.183.59.211:9064
-  type: ss
-  server: 213.183.59.211
-  port: 9064
-  cipher: aes-256-cfb
-  password: cp8pRSUAyLhTfVWH
-- name: 美国-康涅狄格-0-ss-172.99.188.99:5000
-  type: ss
-  server: 172.99.188.99
-  port: 5000
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 美国-康涅狄格-0-ss-172.99.188.99:6379
-  type: ss
-  server: 172.99.188.99
-  port: 6379
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-- name: 美国-俄勒冈-0-ss-34.221.222.115:443
-  type: ss
-  server: 34.221.222.115
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-172.99.188.99:5003
-  type: ss
-  server: 172.99.188.99
-  port: 5003
-  cipher: aes-256-gcm
-  password: g5MeD6Ft3CWlJId
-- name: 美国-密歇根-0-ss-35.92.132.241:443
-  type: ss
-  server: 35.92.132.241
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.201.57.87:443
-  type: ss
-  server: 43.201.57.87
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.154.95:443
-  type: ss
-  server: 13.215.154.95
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-172.99.188.99:8888
-  type: ss
-  server: 172.99.188.99
-  port: 8888
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 新加坡-0-0-ss-18.141.181.186:443
-  type: ss
-  server: 18.141.181.186
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:31046
   type: ss
   server: 14.29.124.168
   port: 31046
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 英国-伦敦-伦敦-ss-212.102.53.196:443
+- name: 美国-俄勒冈-0-ss-34.209.215.97:443
   type: ss
-  server: 212.102.53.196
+  server: 34.209.215.97
   port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ssr-z80001.security-cloudfront-cdn.com:42833
   type: ssr
   server: z80001.security-cloudfront-cdn.com
@@ -165,7 +105,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /index
-- name: 美国-加利福尼亚-旧金山-v2ray-germany1.yj2022.ga:443
+- name: 美国-0-0-v2ray-germany1.yj2022.ga:443
   type: vmess
   server: germany1.yj2022.ga
   network: ws
@@ -185,7 +125,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-arsalan.arsalanv3.sbs:2095
+- name: 美国-0-0-v2ray-arsalan.arsalanv3.sbs:2095
   type: vmess
   server: arsalan.arsalanv3.sbs
   network: ws
@@ -245,7 +185,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /5gsieutoc.com
-- name: 美国-0-0-v2ray-s245.rpscloud3.cloud:80
+- name: 美国-加利福尼亚-旧金山-v2ray-s245.rpscloud3.cloud:80
   type: vmess
   server: s245.rpscloud3.cloud
   network: ws
@@ -334,7 +274,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-hax.smely.eu.org:80
+- name: 美国-加利福尼亚-旧金山-v2ray-hax.smely.eu.org:80
   type: vmess
   server: hax.smely.eu.org
   network: ws
@@ -353,7 +293,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /TG:@hkaa0
-- name: 美国-加利福尼亚-旧金山-v2ray-america2.yj2022.ga:443
+- name: 美国-0-0-v2ray-america2.yj2022.ga:443
   type: vmess
   server: america2.yj2022.ga
   network: ws
@@ -373,3 +313,13 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /5gsieutoc.com
+- name: 中国-广东-广州-v2ray-2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip:20004
+  type: vmess
+  server: 2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip
+  network: ws
+  port: 20004
+  uuid: 9589b882-569a-43c5-924e-a9e852d4ff9e
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
