@@ -29,6 +29,18 @@ proxies:
   port: 34281
   cipher: aes-128-gcm
   password: d0dc5f19-5854-4cb7-8e7e-4c8336dbcfb3
+- name: 美国-康涅狄格-0-ss-13.213.38.103:443
+  type: ss
+  server: 13.213.38.103
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-俄勒冈-0-ss-34.209.215.97:443
+  type: ss
+  server: 34.209.215.97
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ssr-112.33.52.63:42833
   type: ssr
   server: 112.33.52.63
@@ -49,7 +61,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-us3.minl.me:8443
+- name: 美国-0-0-v2ray-us3.minl.me:8443
   type: vmess
   server: us3.minl.me
   network: ws
@@ -59,7 +71,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /us3vcus
-- name: 美国-加利福尼亚-旧金山-v2ray-germany1.yj2022.ga:443
+- name: 美国-0-0-v2ray-germany1.yj2022.ga:443
   type: vmess
   server: germany1.yj2022.ga
   network: ws
