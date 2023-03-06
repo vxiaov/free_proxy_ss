@@ -1,10 +1,4 @@
 proxies:
-- name: 新加坡-0-0-ss-18.141.224.98:443
-  type: ss
-  server: 18.141.224.98
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 美国-康涅狄格-0-ss-13.215.154.95:443
   type: ss
   server: 13.215.154.95
@@ -47,7 +41,13 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-加利福尼亚-旧金山-v2ray-sv3.adsensor.top:80
+- name: 澳大利亚-0-0-ss-43.201.70.114:443
+  type: ss
+  server: 43.201.70.114
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-0-0-v2ray-sv3.adsensor.top:80
   type: vmess
   server: sv3.adsensor.top
   network: ws
@@ -76,7 +76,7 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-de3.noml.app:8080
+- name: 美国-0-0-v2ray-de3.noml.app:8080
   type: vmess
   server: de3.noml.app
   network: ws
@@ -94,3 +94,12 @@ proxies:
   alterId: 0
   cipher: auto
   ws-path: /tadabfw
+- name: 美国-加利福尼亚-旧金山-v2ray-jpnewacs.114514782.xyz:2052
+  type: vmess
+  server: jpnewacs.114514782.xyz
+  network: ws
+  port: 2052
+  uuid: bbe033d3-d3be-3110-b81a-4fed343e2fc2
+  alterId: 0
+  cipher: auto
+  ws-path: /vvfdgtrh
