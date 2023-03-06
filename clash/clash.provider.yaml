@@ -65,12 +65,6 @@ proxies:
   port: 5003
   cipher: aes-256-gcm
   password: g5MeD6Ft3CWlJId
-- name: 澳大利亚-0-0-ss-43.201.48.212:443
-  type: ss
-  server: 43.201.48.212
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 美国-康涅狄格-0-ss-172.99.188.99:5004
   type: ss
   server: 172.99.188.99
@@ -95,7 +89,13 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-加利福尼亚-旧金山-v2ray-fr1.pqjc.buzz:443
+- name: 澳大利亚-新南威尔士-悉尼-ss-185.167.116.253:9057
+  type: ss
+  server: 185.167.116.253
+  port: 9057
+  cipher: aes-256-cfb
+  password: wjTugX3ZtHMB9c3Z
+- name: 美国-0-0-v2ray-fr1.pqjc.buzz:443
   type: vmess
   server: fr1.pqjc.buzz
   network: ws
@@ -115,3 +115,13 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /graphql
+- name: 美国-加利福尼亚-旧金山-v2ray-sv3.adsensor.top:80
+  type: vmess
+  server: sv3.adsensor.top
+  network: ws
+  port: 80
+  uuid: 7a5af201-b588-4f13-9f02-185c68acd89b
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /manageit
