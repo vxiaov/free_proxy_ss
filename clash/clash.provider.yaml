@@ -1,10 +1,4 @@
 proxies:
-- name: 中国-广东-广州-ss-14.29.124.168:24002
-  type: ss
-  server: 14.29.124.168
-  port: 24002
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
 - name: 澳大利亚-0-0-ss-43.207.166.104:443
   type: ss
   server: 43.207.166.104
@@ -20,12 +14,6 @@ proxies:
 - name: 美国-俄勒冈-0-ss-54.203.94.5:443
   type: ss
   server: 54.203.94.5
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-俄勒冈-0-ss-34.209.215.97:443
-  type: ss
-  server: 34.209.215.97
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -83,6 +71,24 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 美国-康涅狄格-0-ss-172.99.188.99:6379
+  type: ss
+  server: 172.99.188.99
+  port: 6379
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+- name: 美国-俄勒冈-0-ss-54.186.216.67:443
+  type: ss
+  server: 54.186.216.67
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 日本-东京都-东京-ss-52.196.166.33:443
+  type: ss
+  server: 52.196.166.33
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 美国-加利福尼亚-旧金山-v2ray-fr1.pqjc.buzz:443
   type: vmess
   server: fr1.pqjc.buzz
@@ -113,7 +119,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /manageit
-- name: 美国-加利福尼亚-旧金山-v2ray-mci1.servernett.shop:2095
+- name: 美国-0-0-v2ray-mci1.servernett.shop:2095
   type: vmess
   server: mci1.servernett.shop
   network: ws
