@@ -41,18 +41,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 澳大利亚-新南威尔士-悉尼-ss-185.167.116.253:9043
-  type: ss
-  server: 185.167.116.253
-  port: 9043
-  cipher: aes-256-cfb
-  password: HSZuyJQcWe8dxNdF
-- name: 日本-东京都-东京-ss-52.196.166.33:443
-  type: ss
-  server: 52.196.166.33
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 新加坡-0-0-ss-18.141.181.186:443
   type: ss
   server: 18.141.181.186
@@ -89,9 +77,15 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.201.86.41:443
+- name: 澳大利亚-0-0-ss-43.201.57.87:443
   type: ss
-  server: 43.201.86.41
+  server: 43.201.57.87
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.201.48.212:443
+  type: ss
+  server: 43.201.48.212
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -145,3 +139,12 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /jjpwvws
+- name: 美国-加利福尼亚-旧金山-v2ray-jpnewacs.114514782.xyz:2052
+  type: vmess
+  server: jpnewacs.114514782.xyz
+  network: ws
+  port: 2052
+  uuid: bbe033d3-d3be-3110-b81a-4fed343e2fc2
+  alterId: 0
+  cipher: auto
+  ws-path: /vvfdgtrh
