@@ -53,7 +53,7 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-广东-江门-ss-edge-hncm.themars.top:50000
+- name: 中国-广东-广州-ss-edge-hncm.themars.top:50000
   type: ss
   server: edge-hncm.themars.top
   port: 50000
@@ -77,7 +77,7 @@ proxies:
   port: 11023
   cipher: aes-256-gcm
   password: ll668668@
-- name: 中国-广东-江门-ss-edge-hncm.themars.top:50002
+- name: 中国-广东-广州-ss-edge-hncm.themars.top:50002
   type: ss
   server: edge-hncm.themars.top
   port: 50002
@@ -185,7 +185,7 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-0-0-v2ray-sv3.adsensor.top:80
+- name: 美国-加利福尼亚-旧金山-v2ray-sv3.adsensor.top:80
   type: vmess
   server: sv3.adsensor.top
   network: ws
@@ -214,4 +214,14 @@ proxies:
   alterId: 4
   cipher: auto
   tls: true
+  ws-path: /vmess
+- name: 印度尼西亚-大雅加达-雅加达-v2ray-147.139.160.130:80
+  type: vmess
+  server: 147.139.160.130
+  network: ws
+  port: 80
+  uuid: b9f6ef01-a4a6-4a95-8c22-59666be14599
+  alterId: 4
+  cipher: auto
+  tls: false
   ws-path: /vmess
