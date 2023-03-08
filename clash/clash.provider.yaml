@@ -77,12 +77,6 @@ proxies:
   port: 11023
   cipher: aes-256-gcm
   password: ll668668@
-- name: 中国-广东-广州-ss-14.29.124.168:24009
-  type: ss
-  server: 14.29.124.168
-  port: 24009
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
 - name: 中国-广东-广州-ss-14.29.124.168:24007
   type: ss
   server: 14.29.124.168
@@ -131,12 +125,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-广东-广州-ss-14.29.124.168:24002
-  type: ss
-  server: 14.29.124.168
-  port: 24002
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
 - name: 新加坡-0-0-ss-13.229.46.52:443
   type: ss
   server: 13.229.46.52
@@ -152,6 +140,18 @@ proxies:
 - name: 澳大利亚-0-0-ss-43.200.244.234:443
   type: ss
   server: 43.200.244.234
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.207.166.104:443
+  type: ss
+  server: 43.207.166.104
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.201.70.114:443
+  type: ss
+  server: 43.201.70.114
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -185,7 +185,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-usdo.tzccifq.ga:443
+- name: 美国-0-0-v2ray-usdo.tzccifq.ga:443
   type: vmess
   server: usdo.tzccifq.ga
   network: ws
@@ -205,7 +205,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /chat
-- name: 美国-加利福尼亚-旧金山-v2ray-germany2.yj2022.ga:443
+- name: 美国-0-0-v2ray-germany2.yj2022.ga:443
   type: vmess
   server: germany2.yj2022.ga
   network: ws
@@ -265,7 +265,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /speedtest
-- name: 美国-0-0-v2ray-finland1.yj2022.ga:443
+- name: 美国-加利福尼亚-旧金山-v2ray-finland1.yj2022.ga:443
   type: vmess
   server: finland1.yj2022.ga
   network: ws
