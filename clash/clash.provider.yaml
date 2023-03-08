@@ -131,6 +131,18 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 美国-康涅狄格-0-ss-13.215.154.95:443
+  type: ss
+  server: 13.215.154.95
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.200.244.234:443
+  type: ss
+  server: 43.200.244.234
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 美国-0-0-v2ray-hk80.af49c4e4c2ef.sanfen001.pics:80
   type: vmess
   server: hk80.af49c4e4c2ef.sanfen001.pics
@@ -181,7 +193,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-la.awsbest.com:443
+- name: 美国-0-0-v2ray-la.awsbest.com:443
   type: vmess
   server: la.awsbest.com
   network: ws
@@ -271,3 +283,13 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 韩国-首尔-首尔-v2ray-140.238.1.117:80
+  type: vmess
+  server: 140.238.1.117
+  network: ws
+  port: 80
+  uuid: c4a6952e-138a-3fe9-803b-8f2d2dd0254b
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /4gmp
