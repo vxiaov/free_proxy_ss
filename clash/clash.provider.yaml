@@ -29,24 +29,6 @@ proxies:
   port: 11023
   cipher: aes-256-gcm
   password: ll668668@
-- name: 中国-广东-广州-ss-14.29.124.168:24002
-  type: ss
-  server: 14.29.124.168
-  port: 24002
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 中国-广东-广州-ss-14.29.124.168:24009
-  type: ss
-  server: 14.29.124.168
-  port: 24009
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 中国-广东-广州-ss-14.29.124.168:24003
-  type: ss
-  server: 14.29.124.168
-  port: 24003
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
 - name: 中国-广东-广州-ss-14.29.124.168:24006
   type: ss
   server: 14.29.124.168
@@ -86,6 +68,18 @@ proxies:
 - name: 新加坡-0-0-ss-18.141.224.98:443
   type: ss
   server: 18.141.224.98
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-俄勒冈-0-ss-54.203.94.5:443
+  type: ss
+  server: 54.203.94.5
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.201.146.250:443
+  type: ss
+  server: 43.201.146.250
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -139,7 +133,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /index
-- name: 美国-0-0-v2ray-Tokyo.v2ray.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-Tokyo.v2ray.online:443
   type: vmess
   server: Tokyo.v2ray.online
   network: ws
@@ -169,7 +163,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /yWJGGBHoVpr3DbNuVycP
-- name: 美国-0-0-v2ray-us1.wanwusheng.me:443
+- name: 美国-加利福尼亚-旧金山-v2ray-us1.wanwusheng.me:443
   type: vmess
   server: us1.wanwusheng.me
   network: ws
@@ -205,6 +199,16 @@ proxies:
   network: ws
   port: 2095
   uuid: 3522d2e8-e880-4e3a-a836-496a0bb92f60
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 中国-湖南-益阳-v2ray-cs1.bbcloud.life:41406
+  type: vmess
+  server: cs1.bbcloud.life
+  network: ws
+  port: 41406
+  uuid: d0731cf1-db62-478d-aa20-3b73b98a9c6f
   alterId: 4
   cipher: auto
   tls: false
