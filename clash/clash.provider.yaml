@@ -1,16 +1,4 @@
 proxies:
-- name: 中国-0-0-ss-36.137.106.115:11023
-  type: ss
-  server: 36.137.106.115
-  port: 11023
-  cipher: aes-256-gcm
-  password: ll668668@
-- name: 中国-0-0-ss-36.137.106.45:11023
-  type: ss
-  server: 36.137.106.45
-  port: 11023
-  cipher: aes-256-gcm
-  password: ll668668@
 - name: 中国-0-0-ss-36.139.166.231:11023
   type: ss
   server: 36.139.166.231
@@ -20,12 +8,6 @@ proxies:
 - name: 中国-0-0-ss-36.138.193.128:11023
   type: ss
   server: 36.138.193.128
-  port: 11023
-  cipher: aes-256-gcm
-  password: ll668668@
-- name: 中国-0-0-ss-36.139.166.247:11023
-  type: ss
-  server: 36.139.166.247
   port: 11023
   cipher: aes-256-gcm
   password: ll668668@
@@ -89,12 +71,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-加利福尼亚-0-ss-104.243.30.252:246
-  type: ss
-  server: 104.243.30.252
-  port: 246
-  cipher: aes-256-cfb
-  password: bwhskrskr03
 - name: 美国-俄勒冈-0-ss-54.203.94.5:443
   type: ss
   server: 54.203.94.5
@@ -137,7 +113,31 @@ proxies:
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 美国-0-0-v2ray-servsermci15.numallas.shop:2095
+- name: 澳大利亚-0-0-ss-43.201.48.212:443
+  type: ss
+  server: 43.201.48.212
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.201.146.250:443
+  type: ss
+  server: 43.201.146.250
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 中国-0-0-ss-36.139.166.252:11023
+  type: ss
+  server: 36.139.166.252
+  port: 11023
+  cipher: aes-256-gcm
+  password: ll668668@
+- name: 美国-康涅狄格-0-ss-13.215.154.95:443
+  type: ss
+  server: 13.215.154.95
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-加利福尼亚-旧金山-v2ray-servsermci15.numallas.shop:2095
   type: vmess
   server: servsermci15.numallas.shop
   network: ws
@@ -187,3 +187,13 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /yWJGGBHoVpr3DbNuVycP
+- name: 法国-0-0-v2ray-188.165.170.83:80
+  type: vmess
+  server: 188.165.170.83
+  network: ws
+  port: 80
+  uuid: 860a862a-2798-4037-8513-b060e310e7fc
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
