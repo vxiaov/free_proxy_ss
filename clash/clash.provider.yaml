@@ -203,12 +203,6 @@ proxies:
   port: 48371
   cipher: chacha20-ietf-poly1305
   password: 39f05363-bd5b-4393-a1e1-47af326ba487
-- name: 中国-广东-深圳-ss-jsxzcm.kczz2038.online:51033
-  type: ss
-  server: jsxzcm.kczz2038.online
-  port: 51033
-  cipher: chacha20-ietf-poly1305
-  password: 39f05363-bd5b-4393-a1e1-47af326ba487
 - name: 中国-广东-深圳-ss-justmobile.kczz2038.online:40172
   type: ss
   server: justmobile.kczz2038.online
@@ -231,12 +225,6 @@ proxies:
   type: ss
   server: szct.kczz2038.online
   port: 10819
-  cipher: chacha20-ietf-poly1305
-  password: 39f05363-bd5b-4393-a1e1-47af326ba487
-- name: 中国-广东-深圳-ss-jsxzcm.kczz2038.online:34129
-  type: ss
-  server: jsxzcm.kczz2038.online
-  port: 34129
   cipher: chacha20-ietf-poly1305
   password: 39f05363-bd5b-4393-a1e1-47af326ba487
 - name: 中国-广东-深圳-ss-szct.kczz2038.online:28094
@@ -359,78 +347,18 @@ proxies:
   port: 38464
   cipher: chacha20-ietf-poly1305
   password: 39f05363-bd5b-4393-a1e1-47af326ba487
-- name: 新加坡-0-0-ss-18.141.224.98:443
-  type: ss
-  server: 18.141.224.98
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-俄勒冈-0-ss-35.165.81.130:443
-  type: ss
-  server: 35.165.81.130
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-广东-深圳-ss-justmobile.kczz2038.online:40102
   type: ss
   server: justmobile.kczz2038.online
   port: 40102
   cipher: chacha20-ietf-poly1305
   password: 39f05363-bd5b-4393-a1e1-47af326ba487
-- name: 韩国-首尔-首尔-ss-3.34.40.140:443
-  type: ss
-  server: 3.34.40.140
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-加利福尼亚-0-ss-97.64.28.52:254
-  type: ss
-  server: 97.64.28.52
-  port: 254
-  cipher: aes-256-cfb
-  password: bwhskrskr03
-- name: 澳大利亚-0-0-ss-43.206.194.133:443
-  type: ss
-  server: 43.206.194.133
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 中国-广东-广州-ss-hncu.donghui.tech:52806
-  type: ss
-  server: hncu.donghui.tech
-  port: 52806
-  cipher: aes-128-gcm
-  password: f9fcf3e2-3be3-4908-ab4e-42b86ddf6a04
-- name: 美国-俄勒冈-0-ss-52.11.43.114:443
-  type: ss
-  server: 52.11.43.114
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.215.154.95:443
-  type: ss
-  server: 13.215.154.95
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 英国-伦敦-伦敦-ss-212.102.53.79:443
-  type: ss
-  server: 212.102.53.79
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
 - name: 中国-广东-深圳-ss-szct.kczz2038.online:49854
   type: ss
   server: szct.kczz2038.online
   port: 49854
   cipher: chacha20-ietf-poly1305
   password: 39f05363-bd5b-4393-a1e1-47af326ba487
-- name: 澳大利亚-0-0-ss-43.200.244.234:443
-  type: ss
-  server: 43.200.244.234
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-广东-广州-ssr-14.29.124.168:24000
   type: ssr
   server: 14.29.124.168
@@ -501,7 +429,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-dp2.scproxy.top:443
+- name: 美国-加利福尼亚-旧金山-v2ray-dp2.scproxy.top:443
   type: vmess
   server: dp2.scproxy.top
   network: ws
@@ -521,7 +449,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-加利福尼亚-旧金山-v2ray-4bb4ced4.ikunxiao.top:2096
+- name: 美国-0-0-v2ray-4bb4ced4.ikunxiao.top:2096
   type: vmess
   server: 4bb4ced4.ikunxiao.top
   network: ws
@@ -541,3 +469,33 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /chat
+- name: 美国-俄勒冈-0-v2ray-54.212.155.149:80
+  type: vmess
+  server: 54.212.155.149
+  network: ws
+  port: 80
+  uuid: a6d981d3-fa6b-41a5-c5e8-ad935fb7c9c1
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 美国-加利福尼亚-0-v2ray-74.120.169.229:80
+  type: vmess
+  server: 74.120.169.229
+  network: ws
+  port: 80
+  uuid: d4d97aee-ebda-4a44-b208-9b5414d92033
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: ''
+- name: 法国-0-0-v2ray-188.165.170.83:80
+  type: vmess
+  server: 188.165.170.83
+  network: ws
+  port: 80
+  uuid: 860a862a-2798-4037-8513-b060e310e7fc
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: ''
