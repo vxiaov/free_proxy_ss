@@ -65,12 +65,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.207.117.53:443
-  type: ss
-  server: 43.207.117.53
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.206.194.133:443
   type: ss
   server: 43.206.194.133
@@ -119,21 +113,9 @@ proxies:
   port: 53002
   cipher: chacha20-ietf-poly1305
   password: 0434ab32-f89e-45c3-a9b0-dbeda5c7211f
-- name: 中国-江苏-盐城-ss-deguo.101cloud.xyz:31714
-  type: ss
-  server: deguo.101cloud.xyz
-  port: 31714
-  cipher: chacha20-ietf-poly1305
-  password: 0434ab32-f89e-45c3-a9b0-dbeda5c7211f
 - name: 新加坡-0-0-ss-18.143.137.38:443
   type: ss
   server: 18.143.137.38
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.212.247.7:443
-  type: ss
-  server: 13.212.247.7
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -155,12 +137,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-江苏-盐城-ss-lsb.101cloud.xyz:16881
-  type: ss
-  server: lsb.101cloud.xyz
-  port: 16881
-  cipher: chacha20-ietf-poly1305
-  password: 0434ab32-f89e-45c3-a9b0-dbeda5c7211f
 - name: 澳大利亚-0-0-ss-43.200.244.234:443
   type: ss
   server: 43.200.244.234
@@ -173,6 +149,30 @@ proxies:
   port: 52001
   cipher: chacha20-ietf-poly1305
   password: 0434ab32-f89e-45c3-a9b0-dbeda5c7211f
+- name: 中国-0-0-ss-36.138.140.208:11023
+  type: ss
+  server: 36.138.140.208
+  port: 11023
+  cipher: aes-256-gcm
+  password: ll668668@
+- name: 美国-康涅狄格-0-ss-13.215.191.190:443
+  type: ss
+  server: 13.215.191.190
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-俄勒冈-0-ss-54.203.94.5:443
+  type: ss
+  server: 54.203.94.5
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 新加坡-0-0-ss-18.141.208.17:443
+  type: ss
+  server: 18.141.208.17
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-北京-北京-v2ray-47.93.231.218:53022
   type: vmess
   server: 47.93.231.218
@@ -183,7 +183,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-v2ray3.ibgfw.top:2083
+- name: 美国-加利福尼亚-旧金山-v2ray-v2ray3.ibgfw.top:2083
   type: vmess
   server: v2ray3.ibgfw.top
   network: ws
@@ -213,7 +213,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-germany2.yj2022.ga:443
+- name: 美国-加利福尼亚-旧金山-v2ray-germany2.yj2022.ga:443
   type: vmess
   server: germany2.yj2022.ga
   network: ws
@@ -233,7 +233,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-finland2.yj2022.ga:443
+- name: 美国-加利福尼亚-旧金山-v2ray-finland2.yj2022.ga:443
   type: vmess
   server: finland2.yj2022.ga
   network: ws
@@ -253,7 +253,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /index
-- name: 美国-加利福尼亚-旧金山-v2ray-Kansas.v2ray.online:443
+- name: 美国-0-0-v2ray-Kansas.v2ray.online:443
   type: vmess
   server: Kansas.v2ray.online
   network: ws
@@ -263,7 +263,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /speedtest
-- name: 美国-加利福尼亚-旧金山-v2ray-dp1.scproxy.top:443
+- name: 美国-0-0-v2ray-dp1.scproxy.top:443
   type: vmess
   server: dp1.scproxy.top
   network: ws
@@ -273,7 +273,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-lv2.sharecentrepro.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-lv2.sharecentrepro.org:443
   type: vmess
   server: lv2.sharecentrepro.org
   network: ws
@@ -293,7 +293,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-fr1.pqjc.buzz:443
+- name: 美国-0-0-v2ray-fr1.pqjc.buzz:443
   type: vmess
   server: fr1.pqjc.buzz
   network: ws
@@ -303,7 +303,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /pq/fr1?ed=2048
-- name: 美国-加利福尼亚-旧金山-v2ray-movie1.fun1yearsfun.top:443
+- name: 美国-0-0-v2ray-movie1.fun1yearsfun.top:443
   type: vmess
   server: movie1.fun1yearsfun.top
   network: ws
@@ -333,7 +333,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: ''
-- name: 美国-0-0-v2ray-s1.shahrivar.shop:2053
+- name: 美国-加利福尼亚-旧金山-v2ray-s1.shahrivar.shop:2053
   type: vmess
   server: s1.shahrivar.shop
   network: ws
@@ -353,3 +353,13 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+- name: 美国-佛罗里达-0-v2ray-vuk2.0bad.com:443
+  type: vmess
+  server: vuk2.0bad.com
+  network: ws
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /chat
