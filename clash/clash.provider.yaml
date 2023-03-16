@@ -53,16 +53,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-德克萨斯-休斯顿-v2ray-hk80-2.af49c4e4c2ef.sanfen001.pics:80
-  type: vmess
-  server: hk80-2.af49c4e4c2ef.sanfen001.pics
-  network: ws
-  port: 80
-  uuid: 1f1136af-9479-4851-aa8b-6ae7e6a4bd33
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /zh-cn/
 - name: 中国-北京-北京-v2ray-47.93.231.218:53022
   type: vmess
   server: 47.93.231.218
@@ -93,23 +83,13 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 荷兰-阿姆斯特丹-阿姆斯特丹-v2ray-130.162.134.218:80
+- name: 美国-加利福尼亚-旧金山-v2ray-Amsterdam.v2ray.online:443
   type: vmess
-  server: 130.162.134.218
-  network: ws
-  port: 80
-  uuid: bb2f7a4e-97f2-4d21-dba1-b0699c5cdfa2
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /ww
-- name: 荷兰-阿姆斯特丹-阿姆斯特丹-v2ray-130.162.134.218:443
-  type: vmess
-  server: 130.162.134.218
+  server: Amsterdam.v2ray.online
   network: ws
   port: 443
-  uuid: 417c5108-ef6b-49f0-a13d-8746fe6e204c
+  uuid: A59E320C-BAC6-45E3-8A27-1518610708D0
   alterId: 4
   cipher: auto
-  tls: false
-  ws-path: /hgg
+  tls: true
+  ws-path: /speedtest
