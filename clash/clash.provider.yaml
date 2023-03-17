@@ -53,7 +53,7 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-加利福尼亚-旧金山-v2ray-fdf7.v9966.shop:443
+- name: 美国-0-0-v2ray-fdf7.v9966.shop:443
   type: vmess
   server: fdf7.v9966.shop
   network: ws
@@ -63,7 +63,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-6bf5.v9966.shop:80
+- name: 美国-0-0-v2ray-6bf5.v9966.shop:80
   type: vmess
   server: 6bf5.v9966.shop
   network: ws
@@ -93,13 +93,23 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
-- name: 荷兰-阿姆斯特丹-阿姆斯特丹-v2ray-130.162.134.218:47971
+- name: 芬兰-Uusimaa-0-v2ray-95.217.30.252:2083
   type: vmess
-  server: 130.162.134.218
+  server: 95.217.30.252
   network: ws
-  port: 47971
-  uuid: c66fe225-648d-4d6b-8d31-94dca65268a4
+  port: 2083
+  uuid: 8990d035-5377-466a-e590-1160c8a39b6c
   alterId: 4
   cipher: auto
   tls: false
-  ws-path: /www
+  ws-path: /
+- name: 美国-加利福尼亚-旧金山-v2ray-9733.v9966.shop:80
+  type: vmess
+  server: 9733.v9966.shop
+  network: ws
+  port: 80
+  uuid: 38554260-c1b9-11ed-b536-205c6d5f5d78
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
