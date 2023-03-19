@@ -95,12 +95,6 @@ proxies:
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 美国-康涅狄格-0-ss-13.215.191.190:443
-  type: ss
-  server: 13.215.191.190
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.207.225.151:443
   type: ss
   server: 43.207.225.151
@@ -113,9 +107,15 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.201.146.250:443
+- name: 澳大利亚-0-0-ss-43.207.166.104:443
   type: ss
-  server: 43.201.146.250
+  server: 43.207.166.104
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.201.48.212:443
+  type: ss
+  server: 43.201.48.212
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -129,7 +129,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-lsb-gy.heinu.cf:2096
+- name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2096
   type: vmess
   server: lsb-gy.heinu.cf
   network: ws
@@ -149,7 +149,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /@heinuhome
-- name: 美国-加利福尼亚-旧金山-v2ray-us1.ghostnet.shop:8443
+- name: 美国-0-0-v2ray-us1.ghostnet.shop:8443
   type: vmess
   server: us1.ghostnet.shop
   network: ws
