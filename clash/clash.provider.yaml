@@ -21,7 +21,17 @@ proxies:
   cipher: chacha20-ietf
   protocol-param: ''
   obfs-param: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2095
+- name: 中国-广东-广州-ssr-14.29.124.168:24000
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24000
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 美国-0-0-v2ray-lsb-gy.heinu.cf:2095
   type: vmess
   server: lsb-gy.heinu.cf
   network: ws
@@ -31,16 +41,6 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /@heinuhome
-- name: 美国-加利福尼亚-旧金山-v2ray-ftp.lizi.buzz:443
-  type: vmess
-  server: ftp.lizi.buzz
-  network: ws
-  port: 443
-  uuid: ef59760b-92d8-4d77-8e19-08e36bd31ca4
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /Vmx4tBCK/
 - name: 美国-0-0-v2ray-dp2.scproxy.top:443
   type: vmess
   server: dp2.scproxy.top
@@ -51,7 +51,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-dp1.scproxy.top:443
+- name: 美国-加利福尼亚-旧金山-v2ray-dp1.scproxy.top:443
   type: vmess
   server: dp1.scproxy.top
   network: ws
@@ -61,7 +61,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-lv2.sharecentrepro.org:443
+- name: 美国-0-0-v2ray-lv2.sharecentrepro.org:443
   type: vmess
   server: lv2.sharecentrepro.org
   network: ws
