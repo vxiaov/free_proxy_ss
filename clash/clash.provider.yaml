@@ -119,12 +119,6 @@ proxies:
   port: 9101
   cipher: aes-256-gcm
   password: e4FCWrgpkji3QY
-- name: 美国-佐治亚-亚特兰大-ss-167.88.63.79:7307
-  type: ss
-  server: 167.88.63.79
-  port: 7307
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
 - name: 中国-广东-广州-ss-14.29.124.168:25266
   type: ss
   server: 14.29.124.168
@@ -209,6 +203,48 @@ proxies:
   port: 25286
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 美国-康涅狄格-0-ss-13.213.17.234:443
+  type: ss
+  server: 13.213.17.234
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 中国-0-0-ss-36.138.140.208:11023
+  type: ss
+  server: 36.138.140.208
+  port: 11023
+  cipher: aes-256-gcm
+  password: ll668668@
+- name: 美国-康涅狄格-0-ss-13.215.191.190:443
+  type: ss
+  server: 13.215.191.190
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 中国-广东-广州-ss-14.29.124.168:24009
+  type: ss
+  server: 14.29.124.168
+  port: 24009
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 中国-广东-0-ss-120.233.31.72:39330
+  type: ss
+  server: 120.233.31.72
+  port: 39330
+  cipher: aes-256-gcm
+  password: 294b8d95-2302-4b95-8595-d1870305cedb
+- name: 澳大利亚-0-0-ss-43.201.86.41:443
+  type: ss
+  server: 43.201.86.41
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.201.57.87:443
+  type: ss
+  server: 43.201.57.87
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ssr-14.29.124.168:24005
   type: ssr
   server: 14.29.124.168
@@ -249,7 +285,7 @@ proxies:
   cipher: chacha20-ietf
   protocol-param: ''
   obfs-param: ''
-- name: 美国-0-0-v2ray-pm.motori.pw:8880
+- name: 美国-加利福尼亚-旧金山-v2ray-pm.motori.pw:8880
   type: vmess
   server: pm.motori.pw
   network: ws
@@ -309,7 +345,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ray
-- name: 美国-0-0-v2ray-woiden.739256.xyz:443
+- name: 美国-加利福尼亚-旧金山-v2ray-woiden.739256.xyz:443
   type: vmess
   server: woiden.739256.xyz
   network: ws
@@ -339,7 +375,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /84b4d2ac-699b-4ba5-a6b2-adaaa82b667d-vm
-- name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2095
+- name: 美国-0-0-v2ray-lsb-gy.heinu.cf:2095
   type: vmess
   server: lsb-gy.heinu.cf
   network: ws
@@ -349,7 +385,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /@heinuhome
-- name: 美国-加利福尼亚-旧金山-v2ray-social.progbyrazyar.ir:2096
+- name: 美国-0-0-v2ray-social.progbyrazyar.ir:2096
   type: vmess
   server: social.progbyrazyar.ir
   network: ws
@@ -369,3 +405,13 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 美国-加利福尼亚-0-v2ray-45.86.65.239:443
+  type: vmess
+  server: 45.86.65.239
+  network: ws
+  port: 443
+  uuid: cb196c69-16ad-4c9f-aa7f-11f9003b37f7
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /ray
