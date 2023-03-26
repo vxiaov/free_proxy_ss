@@ -467,6 +467,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.207.66.60:443
+  type: ss
+  server: 43.207.66.60
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ssr-14.29.124.168:24000
   type: ssr
   server: 14.29.124.168
@@ -497,7 +503,7 @@ proxies:
   cipher: chacha20-ietf
   protocol-param: ''
   obfs-param: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-77.v2ray1.xyz:443
+- name: 美国-0-0-v2ray-77.v2ray1.xyz:443
   type: vmess
   server: 77.v2ray1.xyz
   network: ws
@@ -527,3 +533,33 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /hahuutung
+- name: 印度-马哈拉施特拉-0-v2ray-103.197.184.43:80
+  type: vmess
+  server: 103.197.184.43
+  network: ws
+  port: 80
+  uuid: 7bea35a3-d29c-4a33-b471-1eb63b3ecf70
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /hahuutung
+- name: 美国-加利福尼亚-0-v2ray-45.89.106.101:443
+  type: vmess
+  server: 45.89.106.101
+  network: ws
+  port: 443
+  uuid: 19fc9d1f-fe78-4b76-de4f-ea79546805e9
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /ray
+- name: 美国-0-0-v2ray-vi.mot20.ga:8080
+  type: vmess
+  server: vi.mot20.ga
+  network: ws
+  port: 8080
+  uuid: 342e932e-d990-4ad4-b38a-837a8ed3463c
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
