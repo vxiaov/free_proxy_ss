@@ -545,6 +545,12 @@ proxies:
   port: 23102
   cipher: chacha20-ietf-poly1305
   password: d7bee830-09aa-43b2-8945-3b341b8787db
+- name: 日本-东京都-东京-ss-85.208.108.60:6697
+  type: ss
+  server: 85.208.108.60
+  port: 6697
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
 - name: 美国-弗吉尼亚-阿什本-ssr-playweb.ml:6983
   type: ssr
   server: playweb.ml
@@ -585,6 +591,16 @@ proxies:
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
+- name: 日本-东京都-东京-ssr-jp-am48-6.eqnode.net:8081
+  type: ssr
+  server: jp-am48-6.eqnode.net
+  password: eAokbaDN6
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 印度-马哈拉施特拉-0-v2ray-103.197.184.40:80
   type: vmess
   server: 103.197.184.40
@@ -615,7 +631,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ray
-- name: 美国-加利福尼亚-旧金山-v2ray-holyquran19.store:443
+- name: 美国-0-0-v2ray-holyquran19.store:443
   type: vmess
   server: holyquran19.store
   network: ws
@@ -635,7 +651,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ray
-- name: 美国-加利福尼亚-旧金山-v2ray-quranweb12.xyz:443
+- name: 美国-0-0-v2ray-quranweb12.xyz:443
   type: vmess
   server: quranweb12.xyz
   network: ws
@@ -665,7 +681,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ray
-- name: 美国-0-0-v2ray-ny1.sharecentrepro.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-ny1.sharecentrepro.org:443
   type: vmess
   server: ny1.sharecentrepro.org
   network: ws
@@ -735,7 +751,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-holyquran15.store:443
+- name: 美国-0-0-v2ray-holyquran15.store:443
   type: vmess
   server: holyquran15.store
   network: ws
@@ -745,7 +761,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-加利福尼亚-旧金山-v2ray-holyquran8.store:443
+- name: 美国-0-0-v2ray-holyquran8.store:443
   type: vmess
   server: holyquran8.store
   network: ws
@@ -845,7 +861,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ray
-- name: 美国-0-0-v2ray-holyquran18.store:443
+- name: 美国-加利福尼亚-旧金山-v2ray-holyquran18.store:443
   type: vmess
   server: holyquran18.store
   network: ws
@@ -875,7 +891,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-surongwei.eu.org:443
+- name: 美国-0-0-v2ray-surongwei.eu.org:443
   type: vmess
   server: surongwei.eu.org
   network: ws
@@ -895,7 +911,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-dp1.scproxy.top:443
+- name: 美国-0-0-v2ray-dp1.scproxy.top:443
   type: vmess
   server: dp1.scproxy.top
   network: ws
