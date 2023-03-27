@@ -509,6 +509,12 @@ proxies:
   port: 25261
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 澳大利亚-0-0-ss-43.207.66.60:443
+  type: ss
+  server: 43.207.66.60
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 美国-弗吉尼亚-阿什本-ssr-playweb.ml:6983
   type: ssr
   server: playweb.ml
@@ -517,6 +523,16 @@ proxies:
   protocol: auth_sha1_v4
   port: 6983
   cipher: chacha20-ietf
+  protocol-param: ''
+  obfs-param: ''
+- name: 中国-广东-广州-ssr-14.29.124.168:24005
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24005
+  cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
 - name: 美国-0-0-v2ray-quranweb19.xyz:443
@@ -529,7 +545,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-加利福尼亚-旧金山-v2ray-cf-topspeedone.uk:443
+- name: 美国-0-0-v2ray-cf-topspeedone.uk:443
   type: vmess
   server: cf-topspeedone.uk
   network: ws
@@ -569,7 +585,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-quranweb40.xyz:443
+- name: 美国-0-0-v2ray-quranweb40.xyz:443
   type: vmess
   server: quranweb40.xyz
   network: ws
@@ -579,7 +595,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-0-0-v2ray-quranweb23.xyz:443
+- name: 美国-加利福尼亚-旧金山-v2ray-quranweb23.xyz:443
   type: vmess
   server: quranweb23.xyz
   network: ws
@@ -609,7 +625,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /flkwdfads
-- name: 美国-加利福尼亚-旧金山-v2ray-frarmbc.76898102.xyz:2052
+- name: 美国-0-0-v2ray-frarmbc.76898102.xyz:2052
   type: vmess
   server: frarmbc.76898102.xyz
   network: ws
