@@ -89,6 +89,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 中国-广东-广州-ss-14.29.124.168:25230
+  type: ss
+  server: 14.29.124.168
+  port: 25230
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - name: 美国-弗吉尼亚-阿什本-ssr-playweb.ml:6983
   type: ssr
   server: playweb.ml
@@ -129,3 +135,13 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
+- name: 美国-0-0-v2ray-quranweb23.xyz:443
+  type: vmess
+  server: quranweb23.xyz
+  network: ws
+  port: 443
+  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /current_time
