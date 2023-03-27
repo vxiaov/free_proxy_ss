@@ -167,6 +167,30 @@ proxies:
   port: 10068
   cipher: aes-256-cfb
   password: RsDk3peCSuo76B68
+- name: 中国-广东-广州-ss-14.29.124.168:25226
+  type: ss
+  server: 14.29.124.168
+  port: 25226
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 日本-东京都-东京-ss-85.208.108.60:5600
+  type: ss
+  server: 85.208.108.60
+  port: 5600
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 日本-东京都-东京-ss-85.208.108.60:8882
+  type: ss
+  server: 85.208.108.60
+  port: 8882
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+- name: 中国-广东-广州-ss-14.29.124.168:25266
+  type: ss
+  server: 14.29.124.168
+  port: 25266
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - name: 美国-弗吉尼亚-阿什本-ssr-playweb.ml:6983
   type: ssr
   server: playweb.ml
@@ -197,7 +221,17 @@ proxies:
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-lv2.sharecentrepro.org:443
+- name: 中国-广东-广州-ssr-14.29.124.168:24000
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24000
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 美国-0-0-v2ray-lv2.sharecentrepro.org:443
   type: vmess
   server: lv2.sharecentrepro.org
   network: ws
@@ -247,3 +281,13 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /wo.php
+- name: 印度-马哈拉施特拉-0-v2ray-103.197.184.43:80
+  type: vmess
+  server: 103.197.184.43
+  network: ws
+  port: 80
+  uuid: 7bea35a3-d29c-4a33-b471-1eb63b3ecf70
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /hahuutung
