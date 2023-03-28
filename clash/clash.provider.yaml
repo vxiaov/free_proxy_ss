@@ -491,7 +491,7 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-广东-揭阳-ss-v3-jp.aliyun-obsd.xyz:5620
+- name: 中国-广东-中山-ss-v3-jp.aliyun-obsd.xyz:5620
   type: ss
   server: v3-jp.aliyun-obsd.xyz
   port: 5620
@@ -551,6 +551,24 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 中国-广东-揭阳-ss-xiby-zf.clm10086.xyz:22881
+  type: ss
+  server: xiby-zf.clm10086.xyz
+  port: 22881
+  cipher: chacha20-ietf-poly1305
+  password: f20f0301-12ad-41ee-9d41-9f52d3e583f9
+- name: 澳大利亚-0-0-ss-43.207.205.208:443
+  type: ss
+  server: 43.207.205.208
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.207.110.173:443
+  type: ss
+  server: 43.207.110.173
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 美国-弗吉尼亚-阿什本-ssr-playweb.ml:6983
   type: ssr
   server: playweb.ml
@@ -559,16 +577,6 @@ proxies:
   protocol: auth_sha1_v4
   port: 6983
   cipher: chacha20-ietf
-  protocol-param: ''
-  obfs-param: ''
-- name: 中国-广东-广州-ssr-14.29.124.168:24008
-  type: ssr
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  obfs: plain
-  protocol: origin
-  port: 24008
-  cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
 - name: 美国-康涅狄格-0-ssr-sg-am3.eqsunshine.com:32001
@@ -581,14 +589,14 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 日本-东京都-东京-ssr-jp-am48-6.eqnode.net:8081
+- name: 中国-广东-广州-ssr-14.29.124.168:24005
   type: ssr
-  server: jp-am48-6.eqnode.net
-  password: eAokbaDN6
-  obfs: tls1.2_ticket_auth
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
   protocol: origin
-  port: 8081
-  cipher: aes-256-cfb
+  port: 24005
+  cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
 - name: 美国-加利福尼亚-旧金山-v2ray-lv2.sharecentrepro.org:443
@@ -631,7 +639,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-0-0-v2ray-els200.jslist.tk:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
@@ -661,7 +669,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-加利福尼亚-旧金山-v2ray-quranweb34.xyz:443
+- name: 美国-0-0-v2ray-quranweb34.xyz:443
   type: vmess
   server: quranweb34.xyz
   network: ws
@@ -671,7 +679,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-0-0-v2ray-dp1.scproxy.top:443
+- name: 美国-加利福尼亚-旧金山-v2ray-dp1.scproxy.top:443
   type: vmess
   server: dp1.scproxy.top
   network: ws
@@ -681,7 +689,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-quran-audio4.xyz:443
+- name: 美国-加利福尼亚-旧金山-v2ray-quran-audio4.xyz:443
   type: vmess
   server: quran-audio4.xyz
   network: ws
@@ -701,7 +709,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-0-0-v2ray-quranweb12.xyz:443
+- name: 美国-加利福尼亚-旧金山-v2ray-quranweb12.xyz:443
   type: vmess
   server: quranweb12.xyz
   network: ws
@@ -741,7 +749,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-quran-audio2.xyz:443
+- name: 美国-加利福尼亚-旧金山-v2ray-quran-audio2.xyz:443
   type: vmess
   server: quran-audio2.xyz
   network: ws
@@ -771,7 +779,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-germany1.yj2022.ga:443
+- name: 美国-加利福尼亚-旧金山-v2ray-germany1.yj2022.ga:443
   type: vmess
   server: germany1.yj2022.ga
   network: ws
@@ -791,7 +799,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-加利福尼亚-旧金山-v2ray-holyquran15.store:443
+- name: 美国-0-0-v2ray-holyquran15.store:443
   type: vmess
   server: holyquran15.store
   network: ws
@@ -811,7 +819,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /chat
-- name: 美国-0-0-v2ray-lsb-gy.heinu.cf:2096
+- name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2096
   type: vmess
   server: lsb-gy.heinu.cf
   network: ws
@@ -831,7 +839,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-0-0-v2ray-s245.rpscloud3.cloud:80
+- name: 美国-加利福尼亚-旧金山-v2ray-s245.rpscloud3.cloud:80
   type: vmess
   server: s245.rpscloud3.cloud
   network: ws
@@ -841,7 +849,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /graphql
-- name: 美国-加利福尼亚-旧金山-v2ray-freequranbook.uk:443
+- name: 美国-0-0-v2ray-freequranbook.uk:443
   type: vmess
   server: freequranbook.uk
   network: ws
@@ -871,7 +879,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-加利福尼亚-旧金山-v2ray-Amsterdam.v2ray.online:443
+- name: 美国-0-0-v2ray-Amsterdam.v2ray.online:443
   type: vmess
   server: Amsterdam.v2ray.online
   network: ws
@@ -881,7 +889,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /speedtest
-- name: 美国-加利福尼亚-旧金山-v2ray-quran-audio1.xyz:443
+- name: 美国-0-0-v2ray-quran-audio1.xyz:443
   type: vmess
   server: quran-audio1.xyz
   network: ws
@@ -891,7 +899,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-加利福尼亚-旧金山-v2ray-quranweb6.xyz:443
+- name: 美国-0-0-v2ray-quranweb6.xyz:443
   type: vmess
   server: quranweb6.xyz
   network: ws
@@ -911,7 +919,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shares
-- name: 美国-加利福尼亚-旧金山-v2ray-finland2.yj2022.ga:443
+- name: 美国-0-0-v2ray-finland2.yj2022.ga:443
   type: vmess
   server: finland2.yj2022.ga
   network: ws
@@ -921,7 +929,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /yWJGGBHoVpr3DbNuVycP
-- name: 美国-加利福尼亚-旧金山-v2ray-quranweb4.xyz:443
+- name: 美国-0-0-v2ray-quranweb4.xyz:443
   type: vmess
   server: quranweb4.xyz
   network: ws
@@ -931,7 +939,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-加利福尼亚-旧金山-v2ray-germany2.yj2022.ga:443
+- name: 美国-0-0-v2ray-germany2.yj2022.ga:443
   type: vmess
   server: germany2.yj2022.ga
   network: ws
@@ -941,7 +949,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /8kH8qnepjkprbsidLrLkmX
-- name: 美国-加利福尼亚-旧金山-v2ray-wwwow.ir:443
+- name: 0-0-内网IP-v2ray-wwwow.ir:443
   type: vmess
   server: wwwow.ir
   network: ws
@@ -971,7 +979,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-加利福尼亚-旧金山-v2ray-cf-topspeedoneplus.uk:443
+- name: 美国-0-0-v2ray-cf-topspeedoneplus.uk:443
   type: vmess
   server: cf-topspeedoneplus.uk
   network: ws
