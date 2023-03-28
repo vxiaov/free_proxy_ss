@@ -1,10 +1,4 @@
 proxies:
-- name: 中国-广东-广州-ss-14.29.124.168:25233
-  type: ss
-  server: 14.29.124.168
-  port: 25233
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
 - name: 日本-东京都-东京-ss-85.208.108.60:8091
   type: ss
   server: 85.208.108.60
@@ -27,12 +21,6 @@ proxies:
   type: ss
   server: 14.29.124.168
   port: 25238
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 中国-广东-广州-ss-14.29.124.168:25259
-  type: ss
-  server: 14.29.124.168
-  port: 25259
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
 - name: 中国-广东-广州-ss-14.29.124.168:25296
@@ -299,12 +287,6 @@ proxies:
   port: 25231
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 中国-广东-广州-ss-14.29.124.168:25287
-  type: ss
-  server: 14.29.124.168
-  port: 25287
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
 - name: 新加坡-0-0-ss-52.77.220.17:443
   type: ss
   server: 52.77.220.17
@@ -503,22 +485,10 @@ proxies:
   port: 25284
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 中国-广东-广州-ss-14.29.124.168:25245
-  type: ss
-  server: 14.29.124.168
-  port: 25245
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
 - name: 中国-广东-广州-ss-14.29.124.168:25226
   type: ss
   server: 14.29.124.168
   port: 25226
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 中国-广东-广州-ss-14.29.124.168:25217
-  type: ss
-  server: 14.29.124.168
-  port: 25217
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
 - name: 中国-广东-广州-ss-14.29.124.168:25289
@@ -554,6 +524,12 @@ proxies:
 - name: 美国-康涅狄格-0-ss-13.215.191.190:443
   type: ss
   server: 13.215.191.190
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.207.225.151:443
+  type: ss
+  server: 43.207.225.151
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -607,7 +583,7 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-lv2.sharecentrepro.org:443
+- name: 美国-0-0-v2ray-lv2.sharecentrepro.org:443
   type: vmess
   server: lv2.sharecentrepro.org
   network: ws
@@ -637,7 +613,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-0-0-v2ray-quranweb12.xyz:443
+- name: 美国-加利福尼亚-旧金山-v2ray-quranweb12.xyz:443
   type: vmess
   server: quranweb12.xyz
   network: ws
@@ -667,7 +643,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-quran-audio2.xyz:443
+- name: 美国-0-0-v2ray-quran-audio2.xyz:443
   type: vmess
   server: quran-audio2.xyz
   network: ws
@@ -677,7 +653,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-0-0-v2ray-holyquran15.store:443
+- name: 美国-加利福尼亚-旧金山-v2ray-holyquran15.store:443
   type: vmess
   server: holyquran15.store
   network: ws
@@ -717,7 +693,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-加利福尼亚-旧金山-v2ray-quranweb19.xyz:443
+- name: 美国-0-0-v2ray-quranweb19.xyz:443
   type: vmess
   server: quranweb19.xyz
   network: ws
@@ -737,7 +713,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /speedtest
-- name: 美国-加利福尼亚-旧金山-v2ray-la.awsbest.com:443
+- name: 美国-0-0-v2ray-la.awsbest.com:443
   type: vmess
   server: la.awsbest.com
   network: ws
@@ -777,7 +753,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /8kH8qnepjkprbsidLrLkmX
-- name: 美国-0-0-v2ray-wwwow.ir:443
+- name: 美国-加利福尼亚-旧金山-v2ray-wwwow.ir:443
   type: vmess
   server: wwwow.ir
   network: ws
@@ -787,7 +763,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /84b4d2ac-699b-4ba5-a6b2-adaaa82b667d-vm
-- name: 美国-加利福尼亚-旧金山-v2ray-quranweb7.xyz:443
+- name: 美国-0-0-v2ray-quranweb7.xyz:443
   type: vmess
   server: quranweb7.xyz
   network: ws
@@ -797,7 +773,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-0-0-v2ray-cf-topspeedoneplus.uk:443
+- name: 美国-加利福尼亚-旧金山-v2ray-cf-topspeedoneplus.uk:443
   type: vmess
   server: cf-topspeedoneplus.uk
   network: ws
@@ -817,7 +793,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-ny1.sharecentrepro.org:443
+- name: 美国-0-0-v2ray-ny1.sharecentrepro.org:443
   type: vmess
   server: ny1.sharecentrepro.org
   network: ws
@@ -827,7 +803,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-holyquran10.store:443
+- name: 美国-加利福尼亚-旧金山-v2ray-holyquran10.store:443
   type: vmess
   server: holyquran10.store
   network: ws
@@ -837,7 +813,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-0-0-v2ray-quranweb17.xyz:443
+- name: 美国-加利福尼亚-旧金山-v2ray-quranweb17.xyz:443
   type: vmess
   server: quranweb17.xyz
   network: ws
@@ -867,7 +843,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-加利福尼亚-旧金山-v2ray-cfr.cfrunner.sbs:2096
+- name: 美国-0-0-v2ray-cfr.cfrunner.sbs:2096
   type: vmess
   server: cfr.cfrunner.sbs
   network: ws
@@ -887,7 +863,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /yunavpn.com
-- name: 美国-加利福尼亚-旧金山-v2ray-quran-audio.xyz:443
+- name: 美国-0-0-v2ray-quran-audio.xyz:443
   type: vmess
   server: quran-audio.xyz
   network: ws
@@ -937,7 +913,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-holyquran1.store:443
+- name: 美国-0-0-v2ray-holyquran1.store:443
   type: vmess
   server: holyquran1.store
   network: ws
@@ -957,7 +933,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: ''
-- name: 美国-0-0-v2ray-quranweb16.xyz:443
+- name: 美国-加利福尼亚-旧金山-v2ray-quranweb16.xyz:443
   type: vmess
   server: quranweb16.xyz
   network: ws
@@ -967,7 +943,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-0-0-v2ray-cf-topspeedv9.uk:443
+- name: 美国-加利福尼亚-旧金山-v2ray-cf-topspeedv9.uk:443
   type: vmess
   server: cf-topspeedv9.uk
   network: ws
@@ -987,7 +963,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /WKtzeN11GLqwVNBTp9mX
-- name: 美国-加利福尼亚-旧金山-v2ray-cf-topspeedv4.uk:443
+- name: 美国-0-0-v2ray-cf-topspeedv4.uk:443
   type: vmess
   server: cf-topspeedv4.uk
   network: ws
@@ -997,7 +973,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-加利福尼亚-旧金山-v2ray-frgt1.ssr-free2.xyz:443
+- name: 美国-0-0-v2ray-frgt1.ssr-free2.xyz:443
   type: vmess
   server: frgt1.ssr-free2.xyz
   network: ws
@@ -1047,7 +1023,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-quranweb20.xyz:443
+- name: 美国-加利福尼亚-旧金山-v2ray-quranweb20.xyz:443
   type: vmess
   server: quranweb20.xyz
   network: ws
@@ -1067,7 +1043,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-lv1.sharecentrepro.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-lv1.sharecentrepro.org:443
   type: vmess
   server: lv1.sharecentrepro.org
   network: ws
