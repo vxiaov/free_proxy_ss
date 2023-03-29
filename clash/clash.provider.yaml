@@ -101,6 +101,12 @@ proxies:
   port: 25295
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 新加坡-0-0-ss-3.1.102.60:443
+  type: ss
+  server: 3.1.102.60
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-0-0-ss-36.139.166.247:11023
   type: ss
   server: 36.139.166.247
@@ -119,6 +125,12 @@ proxies:
   port: 25254
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 美国-康涅狄格-0-ss-172.99.188.99:8888
+  type: ss
+  server: 172.99.188.99
+  port: 8888
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
 - name: 中国-广东-广州-ss-14.29.124.168:25267
   type: ss
   server: 14.29.124.168
@@ -311,7 +323,7 @@ proxies:
   cipher: chacha20-ietf
   protocol-param: ''
   obfs-param: ''
-- name: 美国-0-0-v2ray-lv2.sharecentrepro.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-lv2.sharecentrepro.org:443
   type: vmess
   server: lv2.sharecentrepro.org
   network: ws
@@ -324,6 +336,16 @@ proxies:
 - name: 美国-加利福尼亚-旧金山-v2ray-cf-topspeedv9.uk:443
   type: vmess
   server: cf-topspeedv9.uk
+  network: ws
+  port: 443
+  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /current_time
+- name: 美国-加利福尼亚-旧金山-v2ray-quranweb23.xyz:443
+  type: vmess
+  server: quranweb23.xyz
   network: ws
   port: 443
   uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
