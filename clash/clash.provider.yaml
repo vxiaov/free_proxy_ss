@@ -1,4 +1,10 @@
 proxies:
+- name: 中国-广东-广州-ss-14.29.124.168:24008
+  type: ss
+  server: 14.29.124.168
+  port: 24008
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - name: 中国-广东-广州-ss-14.29.124.168:25252
   type: ss
   server: 14.29.124.168
@@ -35,6 +41,12 @@ proxies:
   port: 25238
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 美国-康涅狄格-0-ss-13.215.191.190:443
+  type: ss
+  server: 13.215.191.190
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:31046
   type: ss
   server: 14.29.124.168
@@ -153,6 +165,12 @@ proxies:
   type: ss
   server: 14.29.124.168
   port: 25218
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 中国-广东-广州-ss-14.29.124.168:25230
+  type: ss
+  server: 14.29.124.168
+  port: 25230
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
 - name: 中国-广东-广州-ss-14.29.124.168:25296
@@ -281,6 +299,12 @@ proxies:
   port: 24006
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 澳大利亚-0-0-ss-43.207.110.173:443
+  type: ss
+  server: 43.207.110.173
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:25259
   type: ss
   server: 14.29.124.168
@@ -391,7 +415,17 @@ proxies:
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-germany1.yj2022.ga:443
+- name: 新加坡-0-0-ssr-sg-am3.eqsunshine.com:32001
+  type: ssr
+  server: sg-am3.eqsunshine.com
+  password: 3g0dHlKME
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 32001
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 美国-0-0-v2ray-germany1.yj2022.ga:443
   type: vmess
   server: germany1.yj2022.ga
   network: ws
@@ -421,7 +455,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2096
+- name: 美国-0-0-v2ray-lsb-gy.heinu.cf:2096
   type: vmess
   server: lsb-gy.heinu.cf
   network: ws
@@ -441,7 +475,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-加利福尼亚-旧金山-v2ray-cf-topspeedonline.uk:443
+- name: 美国-0-0-v2ray-cf-topspeedonline.uk:443
   type: vmess
   server: cf-topspeedonline.uk
   network: ws
@@ -461,7 +495,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-0-0-v2ray-quranweb6.xyz:443
+- name: 美国-加利福尼亚-旧金山-v2ray-quranweb6.xyz:443
   type: vmess
   server: quranweb6.xyz
   network: ws
@@ -501,7 +535,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-加利福尼亚-旧金山-v2ray-cf-topspeed.uk:443
+- name: 美国-0-0-v2ray-cf-topspeed.uk:443
   type: vmess
   server: cf-topspeed.uk
   network: ws
@@ -511,7 +545,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-加利福尼亚-旧金山-v2ray-quranweb1.xyz:443
+- name: 美国-0-0-v2ray-quranweb1.xyz:443
   type: vmess
   server: quranweb1.xyz
   network: ws
@@ -521,7 +555,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-0-0-v2ray-holyquran4.store:443
+- name: 美国-加利福尼亚-旧金山-v2ray-holyquran4.store:443
   type: vmess
   server: holyquran4.store
   network: ws
@@ -531,7 +565,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-加利福尼亚-旧金山-v2ray-quranweb26.xyz:443
+- name: 美国-0-0-v2ray-quranweb26.xyz:443
   type: vmess
   server: quranweb26.xyz
   network: ws
@@ -551,7 +585,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2095
+- name: 美国-0-0-v2ray-lsb-gy.heinu.cf:2095
   type: vmess
   server: lsb-gy.heinu.cf
   network: ws
@@ -601,7 +635,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /hls/cctv5phd.m3u8
-- name: 美国-0-0-v2ray-surongwei.eu.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-surongwei.eu.org:443
   type: vmess
   server: surongwei.eu.org
   network: ws
@@ -621,7 +655,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: ''
-- name: 美国-0-0-v2ray-holyquran11.store:443
+- name: 美国-加利福尼亚-旧金山-v2ray-holyquran11.store:443
   type: vmess
   server: holyquran11.store
   network: ws
@@ -631,7 +665,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-0-0-v2ray-woiden.739256.xyz:443
+- name: 美国-加利福尼亚-旧金山-v2ray-woiden.739256.xyz:443
   type: vmess
   server: woiden.739256.xyz
   network: ws
