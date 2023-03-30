@@ -365,6 +365,12 @@ proxies:
   port: 25294
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 中国-广东-广州-ss-14.29.124.168:25247
+  type: ss
+  server: 14.29.124.168
+  port: 25247
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - name: 中国-广东-广州-ss-14.29.124.168:25296
   type: ss
   server: 14.29.124.168
@@ -471,7 +477,17 @@ proxies:
   cipher: chacha20-ietf
   protocol-param: ''
   obfs-param: ''
-- name: 美国-0-0-v2ray-lv2.sharecentrepro.org:443
+- name: 中国-广东-广州-ssr-14.29.124.168:24000
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24000
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 美国-加利福尼亚-旧金山-v2ray-lv2.sharecentrepro.org:443
   type: vmess
   server: lv2.sharecentrepro.org
   network: ws
@@ -481,7 +497,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-cf-topspeedv9.uk:443
+- name: 美国-加利福尼亚-旧金山-v2ray-cf-topspeedv9.uk:443
   type: vmess
   server: cf-topspeedv9.uk
   network: ws
@@ -491,7 +507,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-0-0-v2ray-quranweb23.xyz:443
+- name: 美国-加利福尼亚-旧金山-v2ray-quranweb23.xyz:443
   type: vmess
   server: quranweb23.xyz
   network: ws
@@ -531,7 +547,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-加利福尼亚-旧金山-v2ray-dp1.scproxy.top:443
+- name: 美国-0-0-v2ray-dp1.scproxy.top:443
   type: vmess
   server: dp1.scproxy.top
   network: ws
@@ -561,7 +577,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-0-0-v2ray-ming2.kiwireich.com:443
+- name: 美国-加利福尼亚-旧金山-v2ray-ming2.kiwireich.com:443
   type: vmess
   server: ming2.kiwireich.com
   network: ws
@@ -591,7 +607,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-quran-audio2.xyz:443
+- name: 美国-0-0-v2ray-quran-audio2.xyz:443
   type: vmess
   server: quran-audio2.xyz
   network: ws
@@ -601,7 +617,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-0-0-v2ray-frarmbc.76898102.xyz:2052
+- name: 美国-加利福尼亚-旧金山-v2ray-frarmbc.76898102.xyz:2052
   type: vmess
   server: frarmbc.76898102.xyz
   network: ws
@@ -621,3 +637,13 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
+- name: 美国-加利福尼亚-旧金山-v2ray-frgt1.ssr-free2.xyz:443
+  type: vmess
+  server: frgt1.ssr-free2.xyz
+  network: ws
+  port: 443
+  uuid: 9379fea0-006d-4fd3-8e35-d45a5af72aa2
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /UMW36262
