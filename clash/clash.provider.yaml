@@ -299,6 +299,12 @@ proxies:
   port: 25235
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 澳大利亚-0-0-ss-agroup.node1.s.nodelist-gfwairport1.download:50001
+  type: ss
+  server: agroup.node1.s.nodelist-gfwairport1.download
+  port: 50001
+  cipher: chacha20-ietf-poly1305
+  password: 3f319a18-1d20-4475-b775-f5c98a52ba18
 - name: 中国-江苏-0-ss-p1.bxy-fun2.com:23105
   type: ss
   server: p1.bxy-fun2.com
@@ -629,7 +635,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-wwwow.ir:443
+- name: 美国-0-0-v2ray-wwwow.ir:443
   type: vmess
   server: wwwow.ir
   network: ws
@@ -639,16 +645,6 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /84b4d2ac-699b-4ba5-a6b2-adaaa82b667d-vm
-- name: 美国-0-0-v2ray-holyquran15.store:443
-  type: vmess
-  server: holyquran15.store
-  network: ws
-  port: 443
-  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /current_time
 - name: 美国-加利福尼亚-旧金山-v2ray-us.glucy.top:443
   type: vmess
   server: us.glucy.top
@@ -659,16 +655,6 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /11
-- name: 中国-江苏-镇江-v2ray-hncu.xdyxuj.xyz:30007
-  type: vmess
-  server: hncu.xdyxuj.xyz
-  network: ws
-  port: 30007
-  uuid: 01885776-6232-3ac4-bbd3-daa77b23c18a
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
 - name: 美国-加利福尼亚-旧金山-v2ray-finland1.yj2022.ga:443
   type: vmess
   server: finland1.yj2022.ga
@@ -682,16 +668,6 @@ proxies:
 - name: 美国-加利福尼亚-旧金山-v2ray-lv2.sharecentrepro.org:443
   type: vmess
   server: lv2.sharecentrepro.org
-  network: ws
-  port: 443
-  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-ca.ilovescp.com:443
-  type: vmess
-  server: ca.ilovescp.com
   network: ws
   port: 443
   uuid: 823c31da-701f-483d-b36e-896e5cf0987a
@@ -719,7 +695,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-surongwei.eu.org:443
+- name: 美国-0-0-v2ray-surongwei.eu.org:443
   type: vmess
   server: surongwei.eu.org
   network: ws
@@ -759,17 +735,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-dallas.starsea.vip:443
-  type: vmess
-  server: dallas.starsea.vip
-  network: ws
-  port: 443
-  uuid: 10735fe6-6c8f-498b-b22e-8e98a57e033d
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-ny1.sharecentrepro.org:443
+- name: 美国-0-0-v2ray-ny1.sharecentrepro.org:443
   type: vmess
   server: ny1.sharecentrepro.org
   network: ws
@@ -779,17 +745,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-sermci19.numallas.shop:8880
-  type: vmess
-  server: sermci19.numallas.shop
-  network: ws
-  port: 8880
-  uuid: c3b965e5-57f3-42ce-900e-dfcd17547650
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2095
+- name: 美国-0-0-v2ray-lsb-gy.heinu.cf:2095
   type: vmess
   server: lsb-gy.heinu.cf
   network: ws
@@ -799,7 +755,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /@heinuhome
-- name: 美国-加利福尼亚-旧金山-v2ray-freectg.uitsrt.me:2086
+- name: 美国-0-0-v2ray-freectg.uitsrt.me:2086
   type: vmess
   server: freectg.uitsrt.me
   network: ws
@@ -819,16 +775,6 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /vxt99
-- name: 美国-0-0-v2ray-de1.sharecentrepro.org:443
-  type: vmess
-  server: de1.sharecentrepro.org
-  network: ws
-  port: 443
-  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /shirker
 - name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2096
   type: vmess
   server: lsb-gy.heinu.cf
@@ -849,23 +795,3 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-vi.mot20.ga:8080
-  type: vmess
-  server: vi.mot20.ga
-  network: ws
-  port: 8080
-  uuid: 342e932e-d990-4ad4-b38a-837a8ed3463c
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: ''
-- name: 美国-0-0-v2ray-eu6.739256.xyz:443
-  type: vmess
-  server: eu6.739256.xyz
-  network: ws
-  port: 443
-  uuid: 5775d530-ab7a-455f-d841-82bdca57b9b2
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /
