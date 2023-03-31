@@ -101,6 +101,12 @@ proxies:
   port: 9101
   cipher: aes-256-gcm
   password: e4FCWrgpkji3QY
+- name: 中国-广东-广州-ss-14.29.124.168:24009
+  type: ss
+  server: 14.29.124.168
+  port: 24009
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - name: 日本-东京都-东京-ss-13.115.133.207:443
   type: ss
   server: 13.115.133.207
@@ -501,16 +507,6 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 中国-广东-广州-ssr-14.29.124.168:24008
-  type: ssr
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  obfs: plain
-  protocol: origin
-  port: 24008
-  cipher: aes-128-cfb
-  protocol-param: ''
-  obfs-param: ''
 - name: 澳大利亚-0-0-ssr-jp-am48-6.eqnode.net:8081
   type: ssr
   server: jp-am48-6.eqnode.net
@@ -521,7 +517,7 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-holyquran3.store:443
+- name: 美国-0-0-v2ray-holyquran3.store:443
   type: vmess
   server: holyquran3.store
   network: ws
@@ -561,7 +557,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-加利福尼亚-旧金山-v2ray-us.glucy.top:443
+- name: 美国-0-0-v2ray-us.glucy.top:443
   type: vmess
   server: us.glucy.top
   network: ws
@@ -591,7 +587,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /WKtzeN11GLqwVNBTp9mX
-- name: 美国-0-0-v2ray-lv2.sharecentrepro.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-lv2.sharecentrepro.org:443
   type: vmess
   server: lv2.sharecentrepro.org
   network: ws
@@ -601,7 +597,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-ca.ilovescp.com:443
+- name: 美国-加利福尼亚-旧金山-v2ray-ca.ilovescp.com:443
   type: vmess
   server: ca.ilovescp.com
   network: ws
@@ -621,7 +617,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /current_time
-- name: 美国-加利福尼亚-旧金山-v2ray-lv1.sharecentrepro.org:443
+- name: 美国-0-0-v2ray-lv1.sharecentrepro.org:443
   type: vmess
   server: lv1.sharecentrepro.org
   network: ws
@@ -631,7 +627,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-surongwei.eu.org:443
+- name: 美国-0-0-v2ray-surongwei.eu.org:443
   type: vmess
   server: surongwei.eu.org
   network: ws
@@ -641,7 +637,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /reffs7y26g0ua
-- name: 美国-0-0-v2ray-la.awsbest.com:443
+- name: 美国-加利福尼亚-旧金山-v2ray-la.awsbest.com:443
   type: vmess
   server: la.awsbest.com
   network: ws
@@ -651,7 +647,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shares
-- name: 美国-加利福尼亚-旧金山-v2ray-germany2.yj2022.ga:443
+- name: 美国-0-0-v2ray-germany2.yj2022.ga:443
   type: vmess
   server: germany2.yj2022.ga
   network: ws
@@ -691,7 +687,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-sermci19.numallas.shop:8880
+- name: 美国-加利福尼亚-旧金山-v2ray-sermci19.numallas.shop:8880
   type: vmess
   server: sermci19.numallas.shop
   network: ws
@@ -701,7 +697,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-lsb-gy.heinu.cf:2095
+- name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2095
   type: vmess
   server: lsb-gy.heinu.cf
   network: ws
@@ -731,7 +727,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /vxt99
-- name: 美国-0-0-v2ray-de1.sharecentrepro.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-de1.sharecentrepro.org:443
   type: vmess
   server: de1.sharecentrepro.org
   network: ws
