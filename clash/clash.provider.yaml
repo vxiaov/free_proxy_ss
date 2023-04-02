@@ -35,6 +35,12 @@ proxies:
   port: 10093
   cipher: aes-256-gcm
   password: Ge8RK9CqlH1XyYrw
+- name: 澳大利亚-0-0-ss-43.201.148.126:443
+  type: ss
+  server: 43.201.148.126
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 美国-俄勒冈-0-ss-54.189.189.150:443
   type: ss
   server: 54.189.189.150
@@ -51,6 +57,12 @@ proxies:
   type: ss
   server: 14.29.124.168
   port: 25233
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 中国-广东-广州-ss-14.29.124.168:25287
+  type: ss
+  server: 14.29.124.168
+  port: 25287
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
 - name: 美国-密歇根-0-ss-35.90.18.88:443
@@ -167,6 +179,12 @@ proxies:
   port: 25217
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 中国-0-0-ss-36.137.106.45:11023
+  type: ss
+  server: 36.137.106.45
+  port: 11023
+  cipher: aes-256-gcm
+  password: ll668668@
 - name: 澳大利亚-0-0-ss-43.207.66.114:443
   type: ss
   server: 43.207.66.114
@@ -239,6 +257,12 @@ proxies:
   port: 25283
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 中国-江苏-无锡-ss-180.101.193.226:10068
+  type: ss
+  server: 180.101.193.226
+  port: 10068
+  cipher: aes-256-cfb
+  password: RsDk3peCSuo76B68
 - name: 美国-俄勒冈-0-ss-52.13.110.247:443
   type: ss
   server: 52.13.110.247
@@ -493,6 +517,26 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
+- name: 中国-广东-广州-ssr-14.29.124.168:24000
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24000
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 中国-广东-广州-ssr-14.29.124.168:24008
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24008
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 美国-加利福尼亚-旧金山-v2ray-haxeu3.glucy.top:443
   type: vmess
   server: haxeu3.glucy.top
@@ -503,7 +547,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-justhost.739256.xyz:443
+- name: 美国-0-0-v2ray-justhost.739256.xyz:443
   type: vmess
   server: justhost.739256.xyz
   network: ws
@@ -563,7 +607,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-ny1.sharecentrepro.org:443
+- name: 美国-0-0-v2ray-ny1.sharecentrepro.org:443
   type: vmess
   server: ny1.sharecentrepro.org
   network: ws
@@ -593,7 +637,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /WKtzeN11GLqwVNBTp9mX
-- name: 美国-加利福尼亚-旧金山-v2ray-uk1.scproxy.top:443
+- name: 美国-0-0-v2ray-uk1.scproxy.top:443
   type: vmess
   server: uk1.scproxy.top
   network: ws
@@ -613,7 +657,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-lv2.sharecentrepro.org:443
+- name: 美国-0-0-v2ray-lv2.sharecentrepro.org:443
   type: vmess
   server: lv2.sharecentrepro.org
   network: ws
@@ -623,7 +667,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-lv3.sharecentrepro.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-lv3.sharecentrepro.org:443
   type: vmess
   server: lv3.sharecentrepro.org
   network: ws
@@ -633,7 +677,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-dp1.scproxy.top:443
+- name: 美国-0-0-v2ray-dp1.scproxy.top:443
   type: vmess
   server: dp1.scproxy.top
   network: ws
@@ -643,7 +687,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-lsb-gy.heinu.cf:2095
+- name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2095
   type: vmess
   server: lsb-gy.heinu.cf
   network: ws
@@ -663,7 +707,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-eu2.glucy.top:443
+- name: 美国-加利福尼亚-旧金山-v2ray-eu2.glucy.top:443
   type: vmess
   server: eu2.glucy.top
   network: ws
@@ -683,7 +727,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-s245.rpscloud3.cloud:80
+- name: 美国-0-0-v2ray-s245.rpscloud3.cloud:80
   type: vmess
   server: s245.rpscloud3.cloud
   network: ws
@@ -693,7 +737,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /graphql
-- name: 美国-加利福尼亚-旧金山-v2ray-dg.glucy.top:443
+- name: 美国-0-0-v2ray-dg.glucy.top:443
   type: vmess
   server: dg.glucy.top
   network: ws
@@ -703,7 +747,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /111
-- name: 美国-0-0-v2ray-eu3.glucy.top:443
+- name: 美国-加利福尼亚-旧金山-v2ray-eu3.glucy.top:443
   type: vmess
   server: eu3.glucy.top
   network: ws
@@ -713,7 +757,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
-- name: 美国-0-0-v2ray-germany2.yj2022.ga:443
+- name: 美国-加利福尼亚-旧金山-v2ray-germany2.yj2022.ga:443
   type: vmess
   server: germany2.yj2022.ga
   network: ws
@@ -723,7 +767,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /8kH8qnepjkprbsidLrLkmX
-- name: 美国-0-0-v2ray-4bb4ced4.ikunxiao.top:2096
+- name: 美国-加利福尼亚-旧金山-v2ray-4bb4ced4.ikunxiao.top:2096
   type: vmess
   server: 4bb4ced4.ikunxiao.top
   network: ws
@@ -733,7 +777,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /index
-- name: 美国-0-0-v2ray-ccdc2.6252369.xyz:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-ccdc2.6252369.xyz:8443
   type: vmess
   server: ccdc2.6252369.xyz
   network: ws
