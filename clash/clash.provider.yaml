@@ -29,6 +29,12 @@ proxies:
   port: 10093
   cipher: aes-256-gcm
   password: Ge8RK9CqlH1XyYrw
+- name: 中国-0-0-ss-36.137.106.45:11023
+  type: ss
+  server: 36.137.106.45
+  port: 11023
+  cipher: aes-256-gcm
+  password: ll668668@
 - name: 中国-广东-广州-ss-14.29.124.168:24009
   type: ss
   server: 14.29.124.168
@@ -467,6 +473,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 美国-加利福尼亚-0-ss-184.170.213.204:443
+  type: ss
+  server: 184.170.213.204
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: dqlr7JCgDrOK
 - name: 中国-广东-广州-ss-14.29.124.168:25261
   type: ss
   server: 14.29.124.168
@@ -543,7 +555,17 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-dp1.scproxy.top:443
+- name: 中国-广东-广州-ssr-14.29.124.168:24000
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24000
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 美国-0-0-v2ray-dp1.scproxy.top:443
   type: vmess
   server: dp1.scproxy.top
   network: ws
@@ -553,7 +575,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-us.glucy.top:443
+- name: 美国-加利福尼亚-旧金山-v2ray-us.glucy.top:443
   type: vmess
   server: us.glucy.top
   network: ws
@@ -583,7 +605,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-lv1.sharecentrepro.org:443
+- name: 美国-0-0-v2ray-lv1.sharecentrepro.org:443
   type: vmess
   server: lv1.sharecentrepro.org
   network: ws
@@ -593,7 +615,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-la.awsbest.com:443
+- name: 美国-0-0-v2ray-la.awsbest.com:443
   type: vmess
   server: la.awsbest.com
   network: ws
@@ -613,7 +635,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /8kH8qnepjkprbsidLrLkmX
-- name: 美国-0-0-v2ray-ny1.sharecentrepro.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-ny1.sharecentrepro.org:443
   type: vmess
   server: ny1.sharecentrepro.org
   network: ws
@@ -623,7 +645,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-lsb-gy.heinu.cf:2095
+- name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2095
   type: vmess
   server: lsb-gy.heinu.cf
   network: ws
@@ -673,7 +695,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /tg@aries
-- name: 美国-加利福尼亚-旧金山-v2ray-eu3.glucy.top:443
+- name: 美国-0-0-v2ray-eu3.glucy.top:443
   type: vmess
   server: eu3.glucy.top
   network: ws
@@ -683,7 +705,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-best1.glucy.top:443
+- name: 美国-0-0-v2ray-best1.glucy.top:443
   type: vmess
   server: best1.glucy.top
   network: ws
@@ -693,7 +715,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /11
-- name: 美国-0-0-v2ray-s245.rpscloud3.cloud:80
+- name: 美国-加利福尼亚-旧金山-v2ray-s245.rpscloud3.cloud:80
   type: vmess
   server: s245.rpscloud3.cloud
   network: ws
@@ -703,7 +725,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /graphql
-- name: 美国-0-0-v2ray-de1.sharecentrepro.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-de1.sharecentrepro.org:443
   type: vmess
   server: de1.sharecentrepro.org
   network: ws
@@ -713,7 +735,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-ca.ilovescp.com:443
+- name: 美国-0-0-v2ray-ca.ilovescp.com:443
   type: vmess
   server: ca.ilovescp.com
   network: ws
@@ -743,7 +765,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 韩国-0-0-v2ray-in-jp-1.iivvppnn.info:38301
+- name: 中国-广东-广州-v2ray-in-jp-1.iivvppnn.info:38301
   type: vmess
   server: in-jp-1.iivvppnn.info
   network: ws
@@ -773,7 +795,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-hk-hytron.ilovescp.com:443
+- name: 美国-加利福尼亚-旧金山-v2ray-hk-hytron.ilovescp.com:443
   type: vmess
   server: hk-hytron.ilovescp.com
   network: ws
@@ -783,7 +805,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-vi.mot20.ga:8080
+- name: 美国-加利福尼亚-旧金山-v2ray-vi.mot20.ga:8080
   type: vmess
   server: vi.mot20.ga
   network: ws
