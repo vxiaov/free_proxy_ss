@@ -535,47 +535,27 @@ proxies:
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-4bb4ced4.ikunxiao.top:2096
-  type: vmess
-  server: 4bb4ced4.ikunxiao.top
-  network: ws
-  port: 2096
-  uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /index
-- name: 美国-加利福尼亚-旧金山-v2ray-ccdc2.6252369.xyz:8443
-  type: vmess
-  server: ccdc2.6252369.xyz
-  network: ws
-  port: 8443
-  uuid: f8949dfe-c501-453c-96b6-6786fb03d5f9
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /vxt99
-- name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2095
-  type: vmess
-  server: lsb-gy.heinu.cf
-  network: ws
-  port: 2095
-  uuid: 1eda6b95-f248-4f3b-ae10-d7503415a788
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /@heinuhome
-- name: 新加坡-0-0-v2ray-103.83.156.70:80
-  type: vmess
-  server: 103.83.156.70
-  network: ws
-  port: 80
-  uuid: acd17818-d434-49ae-80a6-d194bcaf6392
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /vvip
-- name: 美国-0-0-v2ray-dp3.scproxy.top:443
+- name: 中国-广东-广州-ssr-14.29.124.168:24008
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24008
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 日本-东京都-东京-ssr-jp-am48-6.eqnode.net:8081
+  type: ssr
+  server: jp-am48-6.eqnode.net
+  password: eAokbaDN6
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 美国-加利福尼亚-旧金山-v2ray-dp3.scproxy.top:443
   type: vmess
   server: dp3.scproxy.top
   network: ws
@@ -585,7 +565,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-hk-hytron.ilovescp.com:443
+- name: 美国-0-0-v2ray-hk-hytron.ilovescp.com:443
   type: vmess
   server: hk-hytron.ilovescp.com
   network: ws
@@ -645,7 +625,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /tg@aries
-- name: 美国-0-0-v2ray-ca.ilovescp.com:443
+- name: 美国-加利福尼亚-旧金山-v2ray-ca.ilovescp.com:443
   type: vmess
   server: ca.ilovescp.com
   network: ws
@@ -655,7 +635,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-la.awsbest.com:443
+- name: 美国-0-0-v2ray-la.awsbest.com:443
   type: vmess
   server: la.awsbest.com
   network: ws
@@ -685,7 +665,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /11
-- name: 美国-0-0-v2ray-vi.mot20.ga:8080
+- name: 美国-加利福尼亚-旧金山-v2ray-vi.mot20.ga:8080
   type: vmess
   server: vi.mot20.ga
   network: ws
@@ -695,7 +675,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-ny1.sharecentrepro.org:443
+- name: 美国-0-0-v2ray-ny1.sharecentrepro.org:443
   type: vmess
   server: ny1.sharecentrepro.org
   network: ws
@@ -765,7 +745,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-dp1.scproxy.top:443
+- name: 美国-0-0-v2ray-dp1.scproxy.top:443
   type: vmess
   server: dp1.scproxy.top
   network: ws
@@ -775,7 +755,27 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-eu3.glucy.top:443
+- name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2095
+  type: vmess
+  server: lsb-gy.heinu.cf
+  network: ws
+  port: 2095
+  uuid: 1eda6b95-f248-4f3b-ae10-d7503415a788
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /@heinuhome
+- name: 美国-0-0-v2ray-dg.glucy.top:443
+  type: vmess
+  server: dg.glucy.top
+  network: ws
+  port: 443
+  uuid: aad35faa-883a-421f-d0a7-5f49f67ab294
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /111
+- name: 美国-加利福尼亚-旧金山-v2ray-eu3.glucy.top:443
   type: vmess
   server: eu3.glucy.top
   network: ws
@@ -785,7 +785,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-germany2.yj2022.ga:443
+- name: 美国-0-0-v2ray-germany2.yj2022.ga:443
   type: vmess
   server: germany2.yj2022.ga
   network: ws
@@ -795,6 +795,36 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /8kH8qnepjkprbsidLrLkmX
+- name: 美国-加利福尼亚-旧金山-v2ray-4bb4ced4.ikunxiao.top:2096
+  type: vmess
+  server: 4bb4ced4.ikunxiao.top
+  network: ws
+  port: 2096
+  uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /index
+- name: 美国-加利福尼亚-旧金山-v2ray-ccdc2.6252369.xyz:8443
+  type: vmess
+  server: ccdc2.6252369.xyz
+  network: ws
+  port: 8443
+  uuid: f8949dfe-c501-453c-96b6-6786fb03d5f9
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /vxt99
+- name: 新加坡-0-0-v2ray-103.83.156.70:80
+  type: vmess
+  server: 103.83.156.70
+  network: ws
+  port: 80
+  uuid: acd17818-d434-49ae-80a6-d194bcaf6392
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /vvip
 - name: 美国-加利福尼亚-0-v2ray-155.248.161.113:8080
   type: vmess
   server: 155.248.161.113
