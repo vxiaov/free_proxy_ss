@@ -11,6 +11,12 @@ proxies:
   port: 25270
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 中国-0-0-ss-36.137.106.45:11023
+  type: ss
+  server: 36.137.106.45
+  port: 11023
+  cipher: aes-256-gcm
+  password: ll668668@
 - name: 中国-广东-广州-ss-14.29.124.168:25289
   type: ss
   server: 14.29.124.168
@@ -53,6 +59,12 @@ proxies:
   port: 25287
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 澳大利亚-0-0-ss-43.207.214.255:443
+  type: ss
+  server: 43.207.214.255
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:25238
   type: ss
   server: 14.29.124.168
@@ -95,12 +107,30 @@ proxies:
   port: 25247
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 澳大利亚-0-0-ss-43.201.149.16:443
+  type: ss
+  server: 43.201.149.16
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.201.70.114:443
+  type: ss
+  server: 43.201.70.114
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 美国-马萨诸塞-波士顿-ss-131.186.21.62:4433
   type: ss
   server: 131.186.21.62
   port: 4433
   cipher: aes-256-gcm
   password: yy595721
+- name: 美国-康涅狄格-0-ss-13.215.191.190:443
+  type: ss
+  server: 13.215.191.190
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 新加坡-0-0-ss-3.1.50.20:443
   type: ss
   server: 3.1.50.20
@@ -257,6 +287,12 @@ proxies:
   port: 25256
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 美国-俄勒冈-0-ss-52.13.110.247:443
+  type: ss
+  server: 52.13.110.247
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-0-0-ss-36.139.166.244:11023
   type: ss
   server: 36.139.166.244
@@ -269,6 +305,12 @@ proxies:
   port: 25267
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 美国-加利福尼亚-0-ss-184.170.213.204:443
+  type: ss
+  server: 184.170.213.204
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: dqlr7JCgDrOK
 - name: 中国-广东-广州-ss-14.29.124.168:25210
   type: ss
   server: 14.29.124.168
@@ -293,6 +335,12 @@ proxies:
   port: 25272
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 澳大利亚-0-0-ss-43.201.146.228:443
+  type: ss
+  server: 43.201.146.228
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:25251
   type: ss
   server: 14.29.124.168
@@ -323,6 +371,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 乌克兰-0-0-ss-130.0.233.20:31675
+  type: ss
+  server: 130.0.233.20
+  port: 31675
+  cipher: aes-256-cfb
+  password: m7pZhBG
 - name: 澳大利亚-0-0-ss-43.201.57.87:443
   type: ss
   server: 43.201.57.87
@@ -371,16 +425,6 @@ proxies:
   port: 25295
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 中国-广东-广州-ssr-14.29.124.168:24008
-  type: ssr
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  obfs: plain
-  protocol: origin
-  port: 24008
-  cipher: aes-128-cfb
-  protocol-param: ''
-  obfs-param: ''
 - name: 中国-广东-广州-ssr-14.29.124.168:24005
   type: ssr
   server: 14.29.124.168
@@ -389,16 +433,6 @@ proxies:
   protocol: origin
   port: 24005
   cipher: aes-128-cfb
-  protocol-param: ''
-  obfs-param: ''
-- name: 新加坡-0-0-ssr-sg-am3.eqsunshine.com:32001
-  type: ssr
-  server: sg-am3.eqsunshine.com
-  password: 3g0dHlKME
-  obfs: tls1.2_ticket_auth
-  protocol: origin
-  port: 32001
-  cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
 - name: 美国-0-0-v2ray-lv3.sharecentrepro.org:443
@@ -411,7 +445,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-dp1.scproxy.top:443
+- name: 美国-0-0-v2ray-dp1.scproxy.top:443
   type: vmess
   server: dp1.scproxy.top
   network: ws
@@ -441,7 +475,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /11
-- name: 美国-加利福尼亚-旧金山-v2ray-de1.sharecentrepro.org:443
+- name: 美国-0-0-v2ray-de1.sharecentrepro.org:443
   type: vmess
   server: de1.sharecentrepro.org
   network: ws
@@ -471,7 +505,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /111
-- name: 美国-加利福尼亚-旧金山-v2ray-haxeu3.glucy.top:443
+- name: 美国-0-0-v2ray-haxeu3.glucy.top:443
   type: vmess
   server: haxeu3.glucy.top
   network: ws
@@ -481,7 +515,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
-- name: 美国-0-0-v2ray-justhost.739256.xyz:443
+- name: 美国-加利福尼亚-旧金山-v2ray-justhost.739256.xyz:443
   type: vmess
   server: justhost.739256.xyz
   network: ws
@@ -511,7 +545,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-best1.glucy.top:443
+- name: 美国-0-0-v2ray-best1.glucy.top:443
   type: vmess
   server: best1.glucy.top
   network: ws
@@ -521,7 +555,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /11
-- name: 美国-0-0-v2ray-ny1.sharecentrepro.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-ny1.sharecentrepro.org:443
   type: vmess
   server: ny1.sharecentrepro.org
   network: ws
@@ -541,7 +575,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-finland1.yj2022.ga:443
+- name: 美国-0-0-v2ray-finland1.yj2022.ga:443
   type: vmess
   server: finland1.yj2022.ga
   network: ws
@@ -571,7 +605,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-eu3.glucy.top:443
+- name: 美国-加利福尼亚-旧金山-v2ray-eu3.glucy.top:443
   type: vmess
   server: eu3.glucy.top
   network: ws
@@ -581,7 +615,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
-- name: 美国-0-0-v2ray-germany2.yj2022.ga:443
+- name: 美国-加利福尼亚-旧金山-v2ray-germany2.yj2022.ga:443
   type: vmess
   server: germany2.yj2022.ga
   network: ws
@@ -601,7 +635,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /index
-- name: 美国-0-0-v2ray-ccdc2.6252369.xyz:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-ccdc2.6252369.xyz:8443
   type: vmess
   server: ccdc2.6252369.xyz
   network: ws
@@ -621,7 +655,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vvip
-- name: 美国-0-0-v2ray-dp3.scproxy.top:443
+- name: 美国-加利福尼亚-旧金山-v2ray-dp3.scproxy.top:443
   type: vmess
   server: dp3.scproxy.top
   network: ws
@@ -661,7 +695,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-frarmbc.76898102.xyz:2052
+- name: 美国-0-0-v2ray-frarmbc.76898102.xyz:2052
   type: vmess
   server: frarmbc.76898102.xyz
   network: ws
