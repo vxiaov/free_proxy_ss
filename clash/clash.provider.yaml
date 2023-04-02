@@ -1,4 +1,10 @@
 proxies:
+- name: 中国-广东-广州-ss-14.29.124.168:25207
+  type: ss
+  server: 14.29.124.168
+  port: 25207
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - name: 中国-广东-广州-ss-14.29.124.168:25270
   type: ss
   server: 14.29.124.168
@@ -485,6 +491,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 荷兰-阿姆斯特丹-阿姆斯特丹-ss-213.183.59.185:9037
+  type: ss
+  server: 213.183.59.185
+  port: 9037
+  cipher: aes-256-cfb
+  password: TN2YqghxeFDKZfLU
 - name: 美国-俄勒冈-0-ss-54.189.189.150:443
   type: ss
   server: 54.189.189.150
@@ -511,7 +523,17 @@ proxies:
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-lv3.sharecentrepro.org:443
+- name: 中国-广东-广州-ssr-14.29.124.168:24000
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24000
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 美国-0-0-v2ray-lv3.sharecentrepro.org:443
   type: vmess
   server: lv3.sharecentrepro.org
   network: ws
@@ -521,7 +543,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-dp1.scproxy.top:443
+- name: 美国-加利福尼亚-旧金山-v2ray-dp1.scproxy.top:443
   type: vmess
   server: dp1.scproxy.top
   network: ws
@@ -531,7 +553,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-lsb-gy.heinu.cf:2095
+- name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2095
   type: vmess
   server: lsb-gy.heinu.cf
   network: ws
@@ -541,7 +563,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /@heinuhome
-- name: 美国-加利福尼亚-旧金山-v2ray-eu2.glucy.top:443
+- name: 美国-0-0-v2ray-eu2.glucy.top:443
   type: vmess
   server: eu2.glucy.top
   network: ws
@@ -581,7 +603,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /graphql
-- name: 美国-0-0-v2ray-dg.glucy.top:443
+- name: 美国-加利福尼亚-旧金山-v2ray-dg.glucy.top:443
   type: vmess
   server: dg.glucy.top
   network: ws
@@ -591,7 +613,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /111
-- name: 美国-加利福尼亚-旧金山-v2ray-haxeu3.glucy.top:443
+- name: 美国-0-0-v2ray-haxeu3.glucy.top:443
   type: vmess
   server: haxeu3.glucy.top
   network: ws
@@ -601,7 +623,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
-- name: 美国-0-0-v2ray-justhost.739256.xyz:443
+- name: 美国-加利福尼亚-旧金山-v2ray-justhost.739256.xyz:443
   type: vmess
   server: justhost.739256.xyz
   network: ws
@@ -621,7 +643,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
-- name: 美国-0-0-v2ray-lv1.sharecentrepro.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-lv1.sharecentrepro.org:443
   type: vmess
   server: lv1.sharecentrepro.org
   network: ws
@@ -631,7 +653,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-best1.glucy.top:443
+- name: 美国-加利福尼亚-旧金山-v2ray-best1.glucy.top:443
   type: vmess
   server: best1.glucy.top
   network: ws
@@ -641,7 +663,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /11
-- name: 美国-加利福尼亚-旧金山-v2ray-ny1.sharecentrepro.org:443
+- name: 美国-0-0-v2ray-ny1.sharecentrepro.org:443
   type: vmess
   server: ny1.sharecentrepro.org
   network: ws
@@ -651,7 +673,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-vi.mot20.ga:8080
+- name: 美国-0-0-v2ray-vi.mot20.ga:8080
   type: vmess
   server: vi.mot20.ga
   network: ws
@@ -681,7 +703,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /11
-- name: 美国-加利福尼亚-旧金山-v2ray-lv2.sharecentrepro.org:443
+- name: 美国-0-0-v2ray-lv2.sharecentrepro.org:443
   type: vmess
   server: lv2.sharecentrepro.org
   network: ws
@@ -691,7 +713,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-eu3.glucy.top:443
+- name: 美国-加利福尼亚-旧金山-v2ray-eu3.glucy.top:443
   type: vmess
   server: eu3.glucy.top
   network: ws
@@ -701,7 +723,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
-- name: 美国-0-0-v2ray-germany2.yj2022.ga:443
+- name: 美国-加利福尼亚-旧金山-v2ray-germany2.yj2022.ga:443
   type: vmess
   server: germany2.yj2022.ga
   network: ws
@@ -711,7 +733,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /8kH8qnepjkprbsidLrLkmX
-- name: 美国-0-0-v2ray-4bb4ced4.ikunxiao.top:2096
+- name: 美国-加利福尼亚-旧金山-v2ray-4bb4ced4.ikunxiao.top:2096
   type: vmess
   server: 4bb4ced4.ikunxiao.top
   network: ws
@@ -751,7 +773,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2096
+- name: 美国-0-0-v2ray-lsb-gy.heinu.cf:2096
   type: vmess
   server: lsb-gy.heinu.cf
   network: ws
@@ -771,7 +793,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /84b4d2ac-699b-4ba5-a6b2-adaaa82b667d-vm
-- name: 美国-0-0-v2ray-woiden.739256.xyz:443
+- name: 美国-加利福尼亚-旧金山-v2ray-woiden.739256.xyz:443
   type: vmess
   server: woiden.739256.xyz
   network: ws
@@ -791,7 +813,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-frarmbc.76898102.xyz:2052
+- name: 美国-0-0-v2ray-frarmbc.76898102.xyz:2052
   type: vmess
   server: frarmbc.76898102.xyz
   network: ws
