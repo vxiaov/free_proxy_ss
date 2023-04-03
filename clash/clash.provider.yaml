@@ -11,6 +11,18 @@ proxies:
   port: 25270
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 新加坡-0-0-ss-3.1.50.20:443
+  type: ss
+  server: 3.1.50.20
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 美国-佐治亚-亚特兰大-ss-167.88.63.79:8009
+  type: ss
+  server: 167.88.63.79
+  port: 8009
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
 - name: 中国-广东-广州-ss-14.29.124.168:25271
   type: ss
   server: 14.29.124.168
@@ -197,6 +209,12 @@ proxies:
   port: 25245
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 日本-东京都-东京-ss-85.208.108.60:6679
+  type: ss
+  server: 85.208.108.60
+  port: 6679
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
 - name: 美国-康涅狄格-0-ss-13.215.177.64:443
   type: ss
   server: 13.215.177.64
@@ -257,6 +275,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.207.120.229:443
+  type: ss
+  server: 43.207.120.229
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-0-0-ss-36.138.140.208:11023
   type: ss
   server: 36.138.140.208
@@ -293,6 +317,12 @@ proxies:
   port: 25256
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 澳大利亚-0-0-ss-43.201.86.41:443
+  type: ss
+  server: 43.201.86.41
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-0-0-ss-36.139.166.244:11023
   type: ss
   server: 36.139.166.244
@@ -305,13 +335,19 @@ proxies:
   port: 25267
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 美国-佐治亚-亚特兰大-ss-167.88.63.79:7307
+  type: ss
+  server: 167.88.63.79
+  port: 7307
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
 - name: 中国-广东-广州-ss-14.29.124.168:25210
   type: ss
   server: 14.29.124.168
   port: 25210
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 中国-浙江-杭州-ss-oxaxcgs.772xx.cn:38403
+- name: 中国-广东-深圳-ss-oxaxcgs.772xx.cn:38403
   type: ss
   server: oxaxcgs.772xx.cn
   port: 38403
@@ -425,16 +461,6 @@ proxies:
   port: 25289
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 美国-康涅狄格-0-ssr-sg-am3.eqsunshine.com:32001
-  type: ssr
-  server: sg-am3.eqsunshine.com
-  password: 3g0dHlKME
-  obfs: tls1.2_ticket_auth
-  protocol: origin
-  port: 32001
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
 - name: 澳大利亚-0-0-ssr-jp-am48-6.eqnode.net:8081
   type: ssr
   server: jp-am48-6.eqnode.net
@@ -443,16 +469,6 @@ proxies:
   protocol: origin
   port: 8081
   cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
-- name: 中国-广东-广州-ssr-14.29.124.168:24000
-  type: ssr
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  obfs: plain
-  protocol: origin
-  port: 24000
-  cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
 - name: 中国-广东-广州-ssr-14.29.124.168:24008
@@ -465,16 +481,6 @@ proxies:
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 美国-弗吉尼亚-阿什本-ssr-playweb.ml:6983
-  type: ssr
-  server: playweb.ml
-  password: Hucloud12
-  obfs: plain
-  protocol: auth_sha1_v4
-  port: 6983
-  cipher: chacha20-ietf
-  protocol-param: ''
-  obfs-param: ''
 - name: 美国-0-0-v2ray-lv3.sharecentrepro.org:443
   type: vmess
   server: lv3.sharecentrepro.org
@@ -485,7 +491,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-dp1.scproxy.top:443
+- name: 美国-0-0-v2ray-dp1.scproxy.top:443
   type: vmess
   server: dp1.scproxy.top
   network: ws
@@ -495,7 +501,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2095
+- name: 美国-0-0-v2ray-lsb-gy.heinu.cf:2095
   type: vmess
   server: lsb-gy.heinu.cf
   network: ws
@@ -505,7 +511,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /@heinuhome
-- name: 美国-0-0-v2ray-example2.digimovie.tech:2096
+- name: 美国-加利福尼亚-旧金山-v2ray-example2.digimovie.tech:2096
   type: vmess
   server: example2.digimovie.tech
   network: ws
@@ -525,7 +531,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /11
-- name: 美国-0-0-v2ray-Amsterdam.v2ray.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-Amsterdam.v2ray.online:443
   type: vmess
   server: Amsterdam.v2ray.online
   network: ws
@@ -535,7 +541,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /speedtest
-- name: 美国-加利福尼亚-旧金山-v2ray-d.pgypgykmoljklj.xyz:443
+- name: 美国-0-0-v2ray-d.pgypgykmoljklj.xyz:443
   type: vmess
   server: d.pgypgykmoljklj.xyz
   network: ws
@@ -575,7 +581,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /111
-- name: 美国-0-0-v2ray-haxeu3.glucy.top:443
+- name: 美国-加利福尼亚-旧金山-v2ray-haxeu3.glucy.top:443
   type: vmess
   server: haxeu3.glucy.top
   network: ws
@@ -595,7 +601,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-lv1.sharecentrepro.org:443
+- name: 美国-0-0-v2ray-lv1.sharecentrepro.org:443
   type: vmess
   server: lv1.sharecentrepro.org
   network: ws
@@ -615,7 +621,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /11
-- name: 美国-0-0-v2ray-ny1.sharecentrepro.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-ny1.sharecentrepro.org:443
   type: vmess
   server: ny1.sharecentrepro.org
   network: ws
@@ -675,7 +681,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-germany2.yj2022.ga:443
+- name: 美国-0-0-v2ray-germany2.yj2022.ga:443
   type: vmess
   server: germany2.yj2022.ga
   network: ws
@@ -695,7 +701,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /index
-- name: 美国-加利福尼亚-旧金山-v2ray-ccdc2.6252369.xyz:8443
+- name: 美国-0-0-v2ray-ccdc2.6252369.xyz:8443
   type: vmess
   server: ccdc2.6252369.xyz
   network: ws
@@ -715,7 +721,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vvip
-- name: 美国-加利福尼亚-旧金山-v2ray-dp3.scproxy.top:443
+- name: 美国-0-0-v2ray-dp3.scproxy.top:443
   type: vmess
   server: dp3.scproxy.top
   network: ws
@@ -735,7 +741,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /@heinuhome
-- name: 美国-0-0-v2ray-sg.herofree66.tk:443
+- name: 美国-加利福尼亚-旧金山-v2ray-sg.herofree66.tk:443
   type: vmess
   server: sg.herofree66.tk
   network: ws
@@ -765,7 +771,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-pm.motori.pw:8880
+- name: 美国-0-0-v2ray-pm.motori.pw:8880
   type: vmess
   server: pm.motori.pw
   network: ws
