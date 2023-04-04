@@ -557,16 +557,6 @@ proxies:
   port: 25284
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 中国-广东-广州-ssr-14.29.124.168:24008
-  type: ssr
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  obfs: plain
-  protocol: origin
-  port: 24008
-  cipher: aes-128-cfb
-  protocol-param: ''
-  obfs-param: ''
 - name: 日本-东京都-东京-ssr-jp-am48-6.eqnode.net:8081
   type: ssr
   server: jp-am48-6.eqnode.net
@@ -575,16 +565,6 @@ proxies:
   protocol: origin
   port: 8081
   cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
-- name: 中国-广东-广州-ssr-14.29.124.168:24000
-  type: ssr
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  obfs: plain
-  protocol: origin
-  port: 24000
-  cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
 - name: 0-0-0-v2ray-max6.flash5g.com:80
@@ -617,6 +597,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /@heinuhome
+- name: 美国-0-0-v2ray-foxpol2.fovi.tk:2053
+  type: vmess
+  server: foxpol2.fovi.tk
+  network: ws
+  port: 2053
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /eisasqa
 - name: 中国-广东-0-v2ray-v2hk-ws-tls.ytv2line.top:48203
   type: vmess
   server: v2hk-ws-tls.ytv2line.top
@@ -647,7 +637,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /dp2.scproxy.top/shirker
-- name: 美国-0-0-v2ray-els200.jslist.tk:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
@@ -697,7 +687,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: ''
-- name: 美国-0-0-v2ray-finland1.yj2022.ga:443
+- name: 美国-加利福尼亚-旧金山-v2ray-finland1.yj2022.ga:443
   type: vmess
   server: finland1.yj2022.ga
   network: ws
@@ -747,7 +737,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /index
-- name: 美国-0-0-v2ray-4bb4ced4.ikunxiao.top:2096
+- name: 美国-加利福尼亚-旧金山-v2ray-4bb4ced4.ikunxiao.top:2096
   type: vmess
   server: 4bb4ced4.ikunxiao.top
   network: ws
@@ -757,7 +747,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /index
-- name: 美国-加利福尼亚-旧金山-v2ray-ccdc2.6252369.xyz:8443
+- name: 美国-0-0-v2ray-ccdc2.6252369.xyz:8443
   type: vmess
   server: ccdc2.6252369.xyz
   network: ws
@@ -767,7 +757,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /vxt99
-- name: 美国-加利福尼亚-旧金山-v2ray-dp3.scproxy.top:443
+- name: 美国-0-0-v2ray-dp3.scproxy.top:443
   type: vmess
   server: dp3.scproxy.top
   network: ws
