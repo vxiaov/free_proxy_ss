@@ -143,6 +143,12 @@ proxies:
   port: 25267
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 新加坡-0-0-ss-54.151.166.115:443
+  type: ss
+  server: 54.151.166.115
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ss-ten-hk-88fg7f.tianziyu.com:19875
   type: ss
   server: ten-hk-88fg7f.tianziyu.com
@@ -383,6 +389,12 @@ proxies:
   port: 9057
   cipher: aes-256-cfb
   password: wjTugX3ZtHMB9c3Z
+- name: 中国-广东-广州-ss-14.29.124.168:25252
+  type: ss
+  server: 14.29.124.168
+  port: 25252
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - name: 中国-广东-广州-ss-14.29.124.168:25247
   type: ss
   server: 14.29.124.168
@@ -505,6 +517,26 @@ proxies:
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
+- name: 中国-广东-广州-ssr-14.29.124.168:24008
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24008
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 新加坡-0-0-ssr-sg-am3.eqsunshine.com:32001
+  type: ssr
+  server: sg-am3.eqsunshine.com
+  password: 3g0dHlKME
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 32001
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 美国-康涅狄格-0-v2ray-n1674862978.ppinygu.cn:443
   type: vmess
   server: n1674862978.ppinygu.cn
@@ -515,7 +547,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
-- name: 美国-0-0-v2ray-lv3.sharecentrepro.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-lv3.sharecentrepro.org:443
   type: vmess
   server: lv3.sharecentrepro.org
   network: ws
@@ -525,7 +557,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-lsb-gy.heinu.cf:2095
+- name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2095
   type: vmess
   server: lsb-gy.heinu.cf
   network: ws
@@ -535,7 +567,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /@heinuhome
-- name: 美国-0-0-v2ray-dearmb.76898102.xyz:2052
+- name: 美国-加利福尼亚-旧金山-v2ray-dearmb.76898102.xyz:2052
   type: vmess
   server: dearmb.76898102.xyz
   network: ws
@@ -545,6 +577,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ancihgrt
+- name: 美国-加利福尼亚-旧金山-v2ray-greencloudkss.114514782.xyz:8880
+  type: vmess
+  server: greencloudkss.114514782.xyz
+  network: ws
+  port: 8880
+  uuid: 5f9c7bda-33f9-3dd0-bcf5-aca324418e31
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /usdbfaiuws
 - name: 美国-加利福尼亚-旧金山-v2ray-Amsterdam.v2ray.online:443
   type: vmess
   server: Amsterdam.v2ray.online
@@ -565,7 +607,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-s245.rpscloud3.cloud:80
+- name: 美国-加利福尼亚-旧金山-v2ray-s245.rpscloud3.cloud:80
   type: vmess
   server: s245.rpscloud3.cloud
   network: ws
@@ -625,7 +667,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /chat
-- name: 美国-0-0-v2ray-ny1.sharecentrepro.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-ny1.sharecentrepro.org:443
   type: vmess
   server: ny1.sharecentrepro.org
   network: ws
@@ -635,7 +677,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-vi.mot20.ga:8080
+- name: 美国-0-0-v2ray-vi.mot20.ga:8080
   type: vmess
   server: vi.mot20.ga
   network: ws
@@ -645,7 +687,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-finland1.yj2022.ga:443
+- name: 美国-0-0-v2ray-finland1.yj2022.ga:443
   type: vmess
   server: finland1.yj2022.ga
   network: ws
@@ -655,7 +697,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /WKtzeN11GLqwVNBTp9mX
-- name: 美国-0-0-v2ray-woiden.739256.xyz:443
+- name: 美国-加利福尼亚-旧金山-v2ray-woiden.739256.xyz:443
   type: vmess
   server: woiden.739256.xyz
   network: ws
@@ -675,7 +717,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-dl.filmino.online:2096
+- name: 美国-加利福尼亚-旧金山-v2ray-dl.filmino.online:2096
   type: vmess
   server: dl.filmino.online
   network: ws
@@ -685,7 +727,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /graphql
-- name: 美国-0-0-v2ray-4bb4ced4.ikunxiao.top:2096
+- name: 美国-加利福尼亚-旧金山-v2ray-4bb4ced4.ikunxiao.top:2096
   type: vmess
   server: 4bb4ced4.ikunxiao.top
   network: ws
@@ -705,7 +747,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /vxt99
-- name: 美国-加利福尼亚-旧金山-v2ray-dp3.scproxy.top:443
+- name: 美国-0-0-v2ray-dp3.scproxy.top:443
   type: vmess
   server: dp3.scproxy.top
   network: ws
@@ -725,7 +767,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /tg@herhero6
-- name: 美国-加利福尼亚-旧金山-v2ray-hg02.wruox.cf:2096
+- name: 美国-0-0-v2ray-hg02.wruox.cf:2096
   type: vmess
   server: hg02.wruox.cf
   network: ws
@@ -745,7 +787,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /chat
-- name: 美国-加利福尼亚-旧金山-v2ray-pm.motori.pw:8880
+- name: 美国-0-0-v2ray-pm.motori.pw:8880
   type: vmess
   server: pm.motori.pw
   network: ws
