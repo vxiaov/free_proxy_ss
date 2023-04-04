@@ -155,6 +155,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 中国-江苏-常州-ss-223.111.114.226:691
+  type: ss
+  server: 223.111.114.226
+  port: 691
+  cipher: chacha20-ietf-poly1305
+  password: 3a676efe-6f0a-42e2-843f-d07fd7a4ac8c
 - name: 中国-广东-广州-ss-14.29.124.168:25267
   type: ss
   server: 14.29.124.168
@@ -613,6 +619,26 @@ proxies:
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
+- name: 美国-康涅狄格-0-ssr-sg-am3.eqsunshine.com:32001
+  type: ssr
+  server: sg-am3.eqsunshine.com
+  password: 3g0dHlKME
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 32001
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 日本-东京都-东京-ssr-jp-am48-6.eqnode.net:8081
+  type: ssr
+  server: jp-am48-6.eqnode.net
+  password: eAokbaDN6
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 0-0-0-v2ray-max6.flash5g.com:80
   type: vmess
   server: max6.flash5g.com
@@ -693,7 +719,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-finland1.yj2022.ga:443
+- name: 美国-0-0-v2ray-finland1.yj2022.ga:443
   type: vmess
   server: finland1.yj2022.ga
   network: ws
@@ -713,7 +739,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /reffs7y26g0ua
-- name: 美国-加利福尼亚-旧金山-v2ray-4bb4ced4.8200860.xyz:2096
+- name: 美国-0-0-v2ray-4bb4ced4.8200860.xyz:2096
   type: vmess
   server: 4bb4ced4.8200860.xyz
   network: ws
@@ -743,7 +769,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /vxt99
-- name: 美国-0-0-v2ray-dp3.scproxy.top:443
+- name: 美国-加利福尼亚-旧金山-v2ray-dp3.scproxy.top:443
   type: vmess
   server: dp3.scproxy.top
   network: ws
