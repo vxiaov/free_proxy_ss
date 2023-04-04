@@ -113,6 +113,12 @@ proxies:
   port: 25271
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 中国-广东-广州-ss-14.29.124.168:24006
+  type: ss
+  server: 14.29.124.168
+  port: 24006
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - name: 中国-广东-广州-ss-14.29.124.168:24001
   type: ss
   server: 14.29.124.168
@@ -131,6 +137,12 @@ proxies:
   port: 25233
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 澳大利亚-0-0-ss-43.201.86.41:443
+  type: ss
+  server: 43.201.86.41
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:25241
   type: ss
   server: 14.29.124.168
@@ -321,36 +333,6 @@ proxies:
   cipher: chacha20-ietf
   protocol-param: ''
   obfs-param: ''
-- name: 新加坡-0-0-ssr-sg-am3.eqsunshine.com:32001
-  type: ssr
-  server: sg-am3.eqsunshine.com
-  password: 3g0dHlKME
-  obfs: tls1.2_ticket_auth
-  protocol: origin
-  port: 32001
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
-- name: 日本-东京都-东京-ssr-jp-am48-6.eqnode.net:8081
-  type: ssr
-  server: jp-am48-6.eqnode.net
-  password: eAokbaDN6
-  obfs: tls1.2_ticket_auth
-  protocol: origin
-  port: 8081
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
-- name: 中国-广东-广州-ssr-14.29.124.168:24000
-  type: ssr
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  obfs: plain
-  protocol: origin
-  port: 24000
-  cipher: aes-128-cfb
-  protocol-param: ''
-  obfs-param: ''
 - name: 美国-康涅狄格-0-v2ray-n1674862978.ppinygu.cn:443
   type: vmess
   server: n1674862978.ppinygu.cn
@@ -361,7 +343,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
-- name: 美国-0-0-v2ray-lv3.sharecentrepro.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-lv3.sharecentrepro.org:443
   type: vmess
   server: lv3.sharecentrepro.org
   network: ws
@@ -381,7 +363,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /@heinuhome
-- name: 美国-加利福尼亚-旧金山-v2ray-dearmb.76898102.xyz:2052
+- name: 美国-0-0-v2ray-dearmb.76898102.xyz:2052
   type: vmess
   server: dearmb.76898102.xyz
   network: ws
@@ -401,7 +383,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /usdbfaiuws
-- name: 美国-加利福尼亚-旧金山-v2ray-Amsterdam.v2ray.online:443
+- name: 美国-0-0-v2ray-Amsterdam.v2ray.online:443
   type: vmess
   server: Amsterdam.v2ray.online
   network: ws
@@ -411,7 +393,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /speedtest
-- name: 美国-0-0-v2ray-de1.sharecentrepro.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-de1.sharecentrepro.org:443
   type: vmess
   server: de1.sharecentrepro.org
   network: ws
@@ -421,7 +403,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-s245.rpscloud3.cloud:80
+- name: 美国-加利福尼亚-旧金山-v2ray-s245.rpscloud3.cloud:80
   type: vmess
   server: s245.rpscloud3.cloud
   network: ws
@@ -431,7 +413,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /graphql
-- name: 美国-加利福尼亚-旧金山-v2ray-bxawdbwdtyhjsgd.76898102.xyz:2052
+- name: 美国-0-0-v2ray-bxawdbwdtyhjsgd.76898102.xyz:2052
   type: vmess
   server: bxawdbwdtyhjsgd.76898102.xyz
   network: ws
@@ -441,7 +423,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /seifbibgef
-- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
+- name: 美国-0-0-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
@@ -491,7 +473,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-vi.mot20.ga:8080
+- name: 美国-加利福尼亚-旧金山-v2ray-vi.mot20.ga:8080
   type: vmess
   server: vi.mot20.ga
   network: ws
@@ -501,7 +483,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: ''
-- name: 美国-0-0-v2ray-finland1.yj2022.ga:443
+- name: 美国-加利福尼亚-旧金山-v2ray-finland1.yj2022.ga:443
   type: vmess
   server: finland1.yj2022.ga
   network: ws
@@ -531,7 +513,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
-- name: 美国-0-0-v2ray-lv2.sharecentrepro.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-lv2.sharecentrepro.org:443
   type: vmess
   server: lv2.sharecentrepro.org
   network: ws
@@ -551,7 +533,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /graphql
-- name: 美国-加利福尼亚-旧金山-v2ray-4bb4ced4.ikunxiao.top:2096
+- name: 美国-0-0-v2ray-4bb4ced4.ikunxiao.top:2096
   type: vmess
   server: 4bb4ced4.ikunxiao.top
   network: ws
@@ -561,7 +543,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /index
-- name: 美国-0-0-v2ray-ccdc2.6252369.xyz:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-ccdc2.6252369.xyz:8443
   type: vmess
   server: ccdc2.6252369.xyz
   network: ws
@@ -571,7 +553,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /vxt99
-- name: 美国-加利福尼亚-旧金山-v2ray-dp3.scproxy.top:443
+- name: 美国-0-0-v2ray-dp3.scproxy.top:443
   type: vmess
   server: dp3.scproxy.top
   network: ws
@@ -581,7 +563,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-sg.herofree66.tk:443
+- name: 美国-0-0-v2ray-sg.herofree66.tk:443
   type: vmess
   server: sg.herofree66.tk
   network: ws
@@ -591,7 +573,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /tg@herhero6
-- name: 美国-加利福尼亚-旧金山-v2ray-hg02.wruox.cf:2096
+- name: 美国-0-0-v2ray-hg02.wruox.cf:2096
   type: vmess
   server: hg02.wruox.cf
   network: ws
@@ -611,7 +593,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /chat
-- name: 美国-加利福尼亚-旧金山-v2ray-pm.motori.pw:8880
+- name: 美国-0-0-v2ray-pm.motori.pw:8880
   type: vmess
   server: pm.motori.pw
   network: ws
