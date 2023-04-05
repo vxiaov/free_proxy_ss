@@ -11,6 +11,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: doub.io
+- name: 澳大利亚-0-0-ss-43.200.6.0:443
+  type: ss
+  server: 43.200.6.0
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 美国-密歇根-0-ss-35.90.18.88:443
   type: ss
   server: 35.90.18.88
@@ -149,6 +155,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: doub.io
+- name: 日本-东京都-东京-ss-85.208.108.60:7307
+  type: ss
+  server: 85.208.108.60
+  port: 7307
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
 - name: 美国-康涅狄格-0-ss-13.214.212.27:443
   type: ss
   server: 13.214.212.27
@@ -287,12 +299,24 @@ proxies:
   port: 24009
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 日本-东京都-东京-ss-85.208.108.60:5000
+  type: ss
+  server: 85.208.108.60
+  port: 5000
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
 - name: 日本-东京都-东京-ss-85.208.108.60:8881
   type: ss
   server: 85.208.108.60
   port: 8881
   cipher: aes-256-gcm
   password: kDWvXYZoTBcGkC4
+- name: 日本-东京都-东京-ss-85.208.108.60:8009
+  type: ss
+  server: 85.208.108.60
+  port: 8009
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
 - name: 新加坡-0-0-ssr-sg-am3.eqsunshine.com:32001
   type: ssr
   server: sg-am3.eqsunshine.com
@@ -311,6 +335,16 @@ proxies:
   protocol: origin
   port: 24000
   cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 日本-东京都-东京-ssr-jp-am48-6.eqnode.net:8081
+  type: ssr
+  server: jp-am48-6.eqnode.net
+  password: eAokbaDN6
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
+  cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
 - name: 美国-加利福尼亚-旧金山-v2ray-woiden.739256.xyz:443
@@ -363,7 +397,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /dp2.scproxy.top/shirker
-- name: 美国-0-0-v2ray-els200.jslist.tk:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
@@ -373,7 +407,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /wo.php
-- name: 美国-加利福尼亚-旧金山-v2ray-1st.starvskii2world.top:443
+- name: 美国-0-0-v2ray-1st.starvskii2world.top:443
   type: vmess
   server: 1st.starvskii2world.top
   network: ws
@@ -403,7 +437,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /WKtzeN11GLqwVNBTp9mX
-- name: 美国-加利福尼亚-旧金山-v2ray-surongwei.eu.org:443
+- name: 美国-0-0-v2ray-surongwei.eu.org:443
   type: vmess
   server: surongwei.eu.org
   network: ws
@@ -453,7 +487,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /asdfas
-- name: 美国-0-0-v2ray-pm.motori.pw:8880
+- name: 美国-加利福尼亚-旧金山-v2ray-pm.motori.pw:8880
   type: vmess
   server: pm.motori.pw
   network: ws
