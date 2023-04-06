@@ -35,7 +35,7 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-浙江-杭州-ss-shankh.772xx.cn:17113
+- name: 中国-浙江-嘉兴-ss-shankh.772xx.cn:17113
   type: ss
   server: shankh.772xx.cn
   port: 17113
@@ -221,6 +221,12 @@ proxies:
   port: 8091
   cipher: aes-256-gcm
   password: PCnnH6SQSnfoS27
+- name: 澳大利亚-0-0-ss-43.201.29.13:443
+  type: ss
+  server: 43.201.29.13
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 美国-康涅狄格-0-ss-13.214.212.27:443
   type: ss
   server: 13.214.212.27
@@ -335,6 +341,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 日本-东京都-东京-ss-85.208.108.60:7002
+  type: ss
+  server: 85.208.108.60
+  port: 7002
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
 - name: 中国-0-0-ss-36.138.193.128:11023
   type: ss
   server: 36.138.193.128
@@ -491,6 +503,26 @@ proxies:
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
+- name: 中国-广东-广州-ssr-14.29.124.168:24008
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24008
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 日本-东京都-东京-ssr-jp-am48-6.eqnode.net:8081
+  type: ssr
+  server: jp-am48-6.eqnode.net
+  password: eAokbaDN6
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 中国-海南-海口-v2ray-fsyy.fosi.hk:13908
   type: vmess
   server: fsyy.fosi.hk
@@ -581,7 +613,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-baxamdyfa.76898102.xyz:2052
+- name: 美国-0-0-v2ray-baxamdyfa.76898102.xyz:2052
   type: vmess
   server: baxamdyfa.76898102.xyz
   network: ws
@@ -621,7 +653,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-finland1.yj2022.ga:443
+- name: 美国-0-0-v2ray-finland1.yj2022.ga:443
   type: vmess
   server: finland1.yj2022.ga
   network: ws
@@ -631,7 +663,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /WKtzeN11GLqwVNBTp9mX
-- name: 美国-0-0-v2ray-surongwei.eu.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-surongwei.eu.org:443
   type: vmess
   server: surongwei.eu.org
   network: ws
@@ -651,7 +683,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /auvbwbs
-- name: 美国-0-0-v2ray-greencloudkss.114514782.xyz:8880
+- name: 美国-加利福尼亚-旧金山-v2ray-greencloudkss.114514782.xyz:8880
   type: vmess
   server: greencloudkss.114514782.xyz
   network: ws
@@ -691,7 +723,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /v2ray
-- name: 美国-加利福尼亚-旧金山-v2ray-dp3.scproxy.top:443
+- name: 美国-0-0-v2ray-dp3.scproxy.top:443
   type: vmess
   server: dp3.scproxy.top
   network: ws
@@ -701,7 +733,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-hg02.wruox.cf:2096
+- name: 美国-加利福尼亚-旧金山-v2ray-hg02.wruox.cf:2096
   type: vmess
   server: hg02.wruox.cf
   network: ws
