@@ -59,12 +59,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 日本-东京都-东京-ss-52.69.182.30:443
-  type: ss
-  server: 52.69.182.30
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 美国-加利福尼亚-圣何塞-ss-167.88.61.213:9101
   type: ss
   server: 167.88.61.213
@@ -137,12 +131,6 @@ proxies:
   port: 24006
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 中国-河南-驻马店-ss-delivery.flareai.site:15543
-  type: ss
-  server: delivery.flareai.site
-  port: 15543
-  cipher: chacha20-ietf-poly1305
-  password: b5181de8-66d4-4f8f-904c-23e606303a13
 - name: 美国-俄勒冈-0-ss-54.185.193.85:443
   type: ss
   server: 54.185.193.85
@@ -173,12 +161,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 美国-康涅狄格-0-ss-172.99.188.99:2375
-  type: ss
-  server: 172.99.188.99
-  port: 2375
-  cipher: aes-256-gcm
-  password: faBAoD54k87UJG7
 - name: 澳大利亚-0-0-ss-43.201.86.41:443
   type: ss
   server: 43.201.86.41
@@ -227,12 +209,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.201.48.212:443
-  type: ss
-  server: 43.201.48.212
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 美国-加利福尼亚-圣何塞-ss-167.88.61.213:6379
   type: ss
   server: 167.88.61.213
@@ -269,12 +245,12 @@ proxies:
   port: 11023
   cipher: aes-256-gcm
   password: ll668668@
-- name: 中国-湖南-郴州-ss-media.flareai.store:15243
+- name: 美国-加利福尼亚-圣何塞-ss-167.88.61.213:3389
   type: ss
-  server: media.flareai.store
-  port: 15243
-  cipher: chacha20-ietf-poly1305
-  password: b5181de8-66d4-4f8f-904c-23e606303a13
+  server: 167.88.61.213
+  port: 3389
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
 - name: 澳大利亚-0-0-ss-43.201.14.240:443
   type: ss
   server: 43.201.14.240
@@ -290,18 +266,6 @@ proxies:
 - name: 新加坡-0-0-ss-18.141.158.14:443
   type: ss
   server: 18.141.158.14
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 中国-0-0-ss-36.139.166.231:11023
-  type: ss
-  server: 36.139.166.231
-  port: 11023
-  cipher: aes-256-gcm
-  password: ll668668@
-- name: 新加坡-0-0-ss-3.1.50.20:443
-  type: ss
-  server: 3.1.50.20
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -409,7 +373,7 @@ proxies:
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-woiden.739256.xyz:443
+- name: 美国-0-0-v2ray-woiden.739256.xyz:443
   type: vmess
   server: woiden.739256.xyz
   network: ws
@@ -449,6 +413,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /eisasqa
+- name: 美国-加利福尼亚-旧金山-v2ray-jpadwinfs.114514782.xyz:2052
+  type: vmess
+  server: jpadwinfs.114514782.xyz
+  network: ws
+  port: 2052
+  uuid: 5f9c7bda-33f9-3dd0-bcf5-aca324418e31
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /jwafgfdt
 - name: 美国-伊利诺伊-芝加哥-v2ray-USG.fljsm.com:443
   type: vmess
   server: USG.fljsm.com
@@ -479,7 +453,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /dp2.scproxy.top/shirker
-- name: 美国-0-0-v2ray-els200.jslist.tk:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
@@ -539,7 +513,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /bxtkmiao
-- name: 美国-加利福尼亚-旧金山-v2ray-lv2.sharecentrepro.org:443
+- name: 美国-0-0-v2ray-lv2.sharecentrepro.org:443
   type: vmess
   server: lv2.sharecentrepro.org
   network: ws
@@ -569,7 +543,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /reffs7y26g0ua
-- name: 美国-0-0-v2ray-asbawufh.114514782.xyz:2052
+- name: 美国-加利福尼亚-旧金山-v2ray-asbawufh.114514782.xyz:2052
   type: vmess
   server: asbawufh.114514782.xyz
   network: ws
@@ -579,7 +553,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /auvbwbs
-- name: 美国-0-0-v2ray-greencloudkss.114514782.xyz:8880
+- name: 美国-加利福尼亚-旧金山-v2ray-greencloudkss.114514782.xyz:8880
   type: vmess
   server: greencloudkss.114514782.xyz
   network: ws
@@ -589,7 +563,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /usdbfaiuws
-- name: 美国-0-0-v2ray-mebudsv.114514782.xyz:2052
+- name: 美国-加利福尼亚-旧金山-v2ray-mebudsv.114514782.xyz:2052
   type: vmess
   server: mebudsv.114514782.xyz
   network: ws
@@ -619,7 +593,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /yunavpn.com
-- name: 美国-0-0-v2ray-dp3.scproxy.top:443
+- name: 美国-加利福尼亚-旧金山-v2ray-dp3.scproxy.top:443
   type: vmess
   server: dp3.scproxy.top
   network: ws
