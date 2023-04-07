@@ -149,12 +149,24 @@ proxies:
   port: 24001
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 澳大利亚-0-0-ss-43.201.148.126:443
+  type: ss
+  server: 43.201.148.126
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.200.244.234:443
   type: ss
   server: 43.200.244.234
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 中国-0-0-ss-36.139.166.231:11023
+  type: ss
+  server: 36.139.166.231
+  port: 11023
+  cipher: aes-256-gcm
+  password: ll668668@
 - name: 中国-0-0-ss-36.139.166.244:11023
   type: ss
   server: 36.139.166.244
@@ -167,6 +179,16 @@ proxies:
   port: 39330
   cipher: aes-256-gcm
   password: 294b8d95-2302-4b95-8595-d1870305cedb
+- name: 澳大利亚-0-0-ssr-jp-am48-6.eqnode.net:8081
+  type: ssr
+  server: jp-am48-6.eqnode.net
+  password: eAokbaDN6
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 中国-海南-海口-v2ray-51a3ebc4-e74c-51cb-ba8d-6862387eb9d3.cnnic.rip:80
   type: vmess
   server: 51a3ebc4-e74c-51cb-ba8d-6862387eb9d3.cnnic.rip
@@ -177,7 +199,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2095
+- name: 美国-0-0-v2ray-lsb-gy.heinu.cf:2095
   type: vmess
   server: lsb-gy.heinu.cf
   network: ws
@@ -217,7 +239,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /dp2.scproxy.top/shirker
-- name: 美国-0-0-v2ray-vx.tony0339.ml:443
+- name: 美国-加利福尼亚-旧金山-v2ray-vx.tony0339.ml:443
   type: vmess
   server: vx.tony0339.ml
   network: ws
@@ -237,7 +259,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /vxt99
-- name: 美国-0-0-v2ray-sg1.sharecentrepro.com:443
+- name: 美国-加利福尼亚-旧金山-v2ray-sg1.sharecentrepro.com:443
   type: vmess
   server: sg1.sharecentrepro.com
   network: ws
@@ -277,7 +299,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-england1.yj2022.ga:443
+- name: 美国-加利福尼亚-旧金山-v2ray-england1.yj2022.ga:443
   type: vmess
   server: england1.yj2022.ga
   network: ws
@@ -307,7 +329,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /reffs7y26g0ua
-- name: 美国-0-0-v2ray-jp1.hnokkdf.top:443
+- name: 美国-加利福尼亚-旧金山-v2ray-jp1.hnokkdf.top:443
   type: vmess
   server: jp1.hnokkdf.top
   network: ws
@@ -337,7 +359,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-dp3.scproxy.top:443
+- name: 美国-加利福尼亚-旧金山-v2ray-dp3.scproxy.top:443
   type: vmess
   server: dp3.scproxy.top
   network: ws
@@ -347,7 +369,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 越南-河内-0-v2ray-vn1.4gviet.com:80
+- name: 0-0-0-v2ray-vn1.4gviet.com:80
   type: vmess
   server: vn1.4gviet.com
   network: ws
