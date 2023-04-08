@@ -77,6 +77,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.201.148.126:443
+  type: ss
+  server: 43.201.148.126
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 美国-俄勒冈-0-ss-18.236.190.65:443
   type: ss
   server: 18.236.190.65
@@ -195,6 +201,16 @@ proxies:
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
+- name: 中国-广东-广州-ssr-14.29.124.168:24008
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24008
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 0-0-0-v2ray-sg10.zeroland.top:443
   type: vmess
   server: sg10.zeroland.top
@@ -225,7 +241,17 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /aceamedv
-- name: 美国-0-0-v2ray-els200.jslist.tk:8443
+- name: 美国-0-0-v2ray-spectra.aryogen.store:2052
+  type: vmess
+  server: spectra.aryogen.store
+  network: ws
+  port: 2052
+  uuid: 606da12b-c5e2-43fc-e3b8-800c81ace4a6
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
@@ -235,7 +261,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /wo.php
-- name: 美国-0-0-v2ray-s245.rpscloud3.cloud:80
+- name: 美国-加利福尼亚-旧金山-v2ray-s245.rpscloud3.cloud:80
   type: vmess
   server: s245.rpscloud3.cloud
   network: ws
@@ -335,7 +361,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /E86414F638E11
-- name: 美国-0-0-v2ray-bawfewbwagr.76898102.xyz:2086
+- name: 美国-加利福尼亚-旧金山-v2ray-bawfewbwagr.76898102.xyz:2086
   type: vmess
   server: bawfewbwagr.76898102.xyz
   network: ws
@@ -385,7 +411,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /anti13.zingfast.vn
-- name: 美国-加利福尼亚-旧金山-v2ray-po-59.f-sub.xyz:8080
+- name: 美国-0-0-v2ray-po-59.f-sub.xyz:8080
   type: vmess
   server: po-59.f-sub.xyz
   network: ws
@@ -395,7 +421,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-jpwadnca.114514782.xyz:2052
+- name: 美国-加利福尼亚-旧金山-v2ray-jpwadnca.114514782.xyz:2052
   type: vmess
   server: jpwadnca.114514782.xyz
   network: ws
