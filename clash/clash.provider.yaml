@@ -71,12 +71,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.201.50.238:443
-  type: ss
-  server: 43.201.50.238
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 美国-康涅狄格-0-ss-13.215.183.79:443
   type: ss
   server: 13.215.183.79
@@ -87,12 +81,6 @@ proxies:
   type: ss
   server: 14.29.124.168
   port: 24006
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 中国-广东-广州-ss-14.29.124.168:24009
-  type: ss
-  server: 14.29.124.168
-  port: 24009
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
 - name: 中国-广东-揭阳-ss-120.240.236.28:37503
@@ -113,18 +101,6 @@ proxies:
   port: 5004
   cipher: aes-256-gcm
   password: g5MeD6Ft3CWlJId
-- name: 中国-广东-广州-ss-14.29.124.168:24000
-  type: ss
-  server: 14.29.124.168
-  port: 24000
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 中国-河南-驻马店-ss-delivery.flareai.site:15343
-  type: ss
-  server: delivery.flareai.site
-  port: 15343
-  cipher: chacha20-ietf-poly1305
-  password: b5181de8-66d4-4f8f-904c-23e606303a13
 - name: 中国-江苏-无锡-ss-180.101.193.226:10068
   type: ss
   server: 180.101.193.226
@@ -173,12 +149,6 @@ proxies:
   port: 11023
   cipher: aes-256-gcm
   password: ll668668@
-- name: 中国-广东-0-ss-120.233.31.72:39330
-  type: ss
-  server: 120.233.31.72
-  port: 39330
-  cipher: aes-256-gcm
-  password: 294b8d95-2302-4b95-8595-d1870305cedb
 - name: 澳大利亚-0-0-ss-43.201.146.228:443
   type: ss
   server: 43.201.146.228
@@ -191,12 +161,6 @@ proxies:
   port: 24001
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 澳大利亚-0-0-ss-43.207.225.151:443
-  type: ss
-  server: 43.207.225.151
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.200.244.234:443
   type: ss
   server: 43.200.244.234
@@ -283,7 +247,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /video
-- name: 美国-0-0-v2ray-lsb-gy.heinu.cf:2095
+- name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2095
   type: vmess
   server: lsb-gy.heinu.cf
   network: ws
@@ -323,7 +287,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /zh-cn/
-- name: 美国-0-0-v2ray-b.v2ray2333.tk:2053
+- name: 美国-加利福尼亚-旧金山-v2ray-b.v2ray2333.tk:2053
   type: vmess
   server: b.v2ray2333.tk
   network: ws
@@ -353,7 +317,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /dp2.scproxy.top/shirker
-- name: 美国-0-0-v2ray-vx.tony0339.ml:443
+- name: 美国-加利福尼亚-旧金山-v2ray-vx.tony0339.ml:443
   type: vmess
   server: vx.tony0339.ml
   network: ws
@@ -363,7 +327,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /lmm0422
-- name: 美国-加利福尼亚-旧金山-v2ray-ccdc2.6252369.xyz:8443
+- name: 美国-0-0-v2ray-ccdc2.6252369.xyz:8443
   type: vmess
   server: ccdc2.6252369.xyz
   network: ws
@@ -373,7 +337,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /vxt99
-- name: 美国-加利福尼亚-旧金山-v2ray-sg1.sharecentrepro.com:443
+- name: 美国-0-0-v2ray-sg1.sharecentrepro.com:443
   type: vmess
   server: sg1.sharecentrepro.com
   network: ws
@@ -383,7 +347,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-www.jfyu.site:2087
+- name: 美国-加利福尼亚-旧金山-v2ray-www.jfyu.site:2087
   type: vmess
   server: www.jfyu.site
   network: ws
@@ -443,7 +407,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-jp1.hnokkdf.top:443
+- name: 美国-0-0-v2ray-jp1.hnokkdf.top:443
   type: vmess
   server: jp1.hnokkdf.top
   network: ws
@@ -483,6 +447,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
+- name: 美国-德克萨斯-达拉斯-v2ray-ahsorathiyaa.fly.dev:443
+  type: vmess
+  server: ahsorathiyaa.fly.dev
+  network: ws
+  port: 443
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /vmess
 - name: 美国-0-0-v2ray-dp3.scproxy.top:443
   type: vmess
   server: dp3.scproxy.top
@@ -503,7 +477,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /aceamedv
-- name: 美国-加利福尼亚-旧金山-v2ray-chat.samrg.buzz:443
+- name: 美国-0-0-v2ray-chat.samrg.buzz:443
   type: vmess
   server: chat.samrg.buzz
   network: ws
@@ -513,7 +487,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /cutin
-- name: 美国-加利福尼亚-旧金山-v2ray-finland1.yj2022.ga:443
+- name: 美国-0-0-v2ray-finland1.yj2022.ga:443
   type: vmess
   server: finland1.yj2022.ga
   network: ws
