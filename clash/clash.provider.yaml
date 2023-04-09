@@ -221,12 +221,6 @@ proxies:
   port: 42689
   cipher: chacha20-ietf-poly1305
   password: fdba6b44-85d1-4e61-91a4-b49d4bea256e
-- name: 中国-江苏-无锡-ss-180.101.193.226:10068
-  type: ss
-  server: 180.101.193.226
-  port: 10068
-  cipher: aes-256-cfb
-  password: RsDk3peCSuo76B68
 - name: 中国-广东-广州-ss-14.29.124.168:31046
   type: ss
   server: 14.29.124.168
@@ -245,12 +239,6 @@ proxies:
   port: 32442
   cipher: chacha20-ietf-poly1305
   password: fdba6b44-85d1-4e61-91a4-b49d4bea256e
-- name: 美国-康涅狄格-0-ss-13.212.61.111:443
-  type: ss
-  server: 13.212.61.111
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-江苏-常州-ss-js.ygdyf.com:46477
   type: ss
   server: js.ygdyf.com
@@ -371,12 +359,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 新加坡-0-0-ss-54.151.195.139:443
-  type: ss
-  server: 54.151.195.139
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 美国-康涅狄格-0-ss-172.99.188.99:5000
   type: ss
   server: 172.99.188.99
@@ -431,12 +413,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.201.60.60:443
-  type: ss
-  server: 43.201.60.60
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 新加坡-0-0-ss-18.143.177.143:443
   type: ss
   server: 18.143.177.143
@@ -473,12 +449,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.206.194.235:443
-  type: ss
-  server: 43.206.194.235
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-江苏-常州-ss-js.ygdyf.com:44922
   type: ss
   server: js.ygdyf.com
@@ -494,12 +464,6 @@ proxies:
 - name: 澳大利亚-0-0-ss-43.201.149.16:443
   type: ss
   server: 43.201.149.16
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.200.244.234:443
-  type: ss
-  server: 43.200.244.234
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -647,7 +611,7 @@ proxies:
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 荷兰-0-0-ssr-t3.freegradely.xyz:20022
+- name: 美国-密苏里-堪萨斯城-ssr-t3.freegradely.xyz:20022
   type: ssr
   server: t3.freegradely.xyz
   password: dongtaiwang.com
@@ -657,7 +621,7 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 新加坡-0-0-ssr-sg-am3.eqsunshine.com:32001
+- name: 美国-康涅狄格-0-ssr-sg-am3.eqsunshine.com:32001
   type: ssr
   server: sg-am3.eqsunshine.com
   password: 3g0dHlKME
@@ -697,7 +661,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-lsb-gy.heinu.cf:2095
+- name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2095
   type: vmess
   server: lsb-gy.heinu.cf
   network: ws
@@ -717,7 +681,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-spectra.aryogen.store:2052
+- name: 美国-0-0-v2ray-spectra.aryogen.store:2052
   type: vmess
   server: spectra.aryogen.store
   network: ws
@@ -727,7 +691,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
+- name: 美国-0-0-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
@@ -767,7 +731,17 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /fr-888gikdlx
-- name: 美国-0-0-v2ray-pm.motori.pw:8880
+- name: 美国-弗吉尼亚-阿什本-v2ray-vin1.0bad.com:443
+  type: vmess
+  server: vin1.0bad.com
+  network: ws
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /chat
+- name: 美国-加利福尼亚-旧金山-v2ray-pm.motori.pw:8880
   type: vmess
   server: pm.motori.pw
   network: ws
@@ -777,7 +751,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-france1.yj2022.ga:443
+- name: 美国-加利福尼亚-旧金山-v2ray-france1.yj2022.ga:443
   type: vmess
   server: france1.yj2022.ga
   network: ws
@@ -787,7 +761,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /E86414F638E11
-- name: 美国-0-0-v2ray-england1.yj2022.ga:443
+- name: 美国-加利福尼亚-旧金山-v2ray-england1.yj2022.ga:443
   type: vmess
   server: england1.yj2022.ga
   network: ws
@@ -807,7 +781,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /anti13.zingfast.vn
-- name: 美国-0-0-v2ray-po-59.f-sub.xyz:8080
+- name: 美国-加利福尼亚-旧金山-v2ray-po-59.f-sub.xyz:8080
   type: vmess
   server: po-59.f-sub.xyz
   network: ws
@@ -837,7 +811,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /jp143-d2xddxxj
-- name: 美国-0-0-v2ray-finland1.yj2022.ga:443
+- name: 美国-加利福尼亚-旧金山-v2ray-finland1.yj2022.ga:443
   type: vmess
   server: finland1.yj2022.ga
   network: ws
