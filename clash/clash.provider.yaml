@@ -495,6 +495,16 @@ proxies:
   cipher: chacha20-ietf
   protocol-param: ''
   obfs-param: ''
+- name: 日本-东京都-东京-ssr-jp-am48-6.eqnode.net:8081
+  type: ssr
+  server: jp-am48-6.eqnode.net
+  password: eAokbaDN6
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 美国-0-0-v2ray-new3.hucloud-dns.xyz:443
   type: vmess
   server: new3.hucloud-dns.xyz
@@ -555,7 +565,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-els200.jslist.tk:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
