@@ -261,26 +261,6 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 新加坡-0-0-ssr-sg-am3.eqsunshine.com:32001
-  type: ssr
-  server: sg-am3.eqsunshine.com
-  password: 3g0dHlKME
-  obfs: tls1.2_ticket_auth
-  protocol: origin
-  port: 32001
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
-- name: 日本-东京都-东京-ssr-jp-am48-6.eqnode.net:8081
-  type: ssr
-  server: jp-am48-6.eqnode.net
-  password: eAokbaDN6
-  obfs: tls1.2_ticket_auth
-  protocol: origin
-  port: 8081
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
 - name: 中国-广东-广州-ssr-14.29.124.168:24000
   type: ssr
   server: 14.29.124.168
@@ -289,6 +269,16 @@ proxies:
   protocol: origin
   port: 24000
   cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 美国-弗吉尼亚-阿什本-ssr-playweb.ml:6983
+  type: ssr
+  server: playweb.ml
+  password: Hucloud12
+  obfs: plain
+  protocol: auth_sha1_v4
+  port: 6983
+  cipher: chacha20-ietf
   protocol-param: ''
   obfs-param: ''
 - name: 美国-0-0-v2ray-new3.hucloud-dns.xyz:443
@@ -341,7 +331,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-aisugvdiu.114514782.xyz:2082
+- name: 美国-0-0-v2ray-aisugvdiu.114514782.xyz:2082
   type: vmess
   server: aisugvdiu.114514782.xyz
   network: ws
@@ -381,6 +371,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /miaoshenzbck
+- name: 中国-湖南-郴州-v2ray-v01.gutingting.com:30027
+  type: vmess
+  server: v01.gutingting.com
+  network: ws
+  port: 30027
+  uuid: a9a41c04-efa7-429e-a83e-9cca809ec0e8
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /aceamedv
 - name: 美国-康涅狄格-0-v2ray-singapore01.aws02cdn.xn--57q977p.com:80
   type: vmess
   server: singapore01.aws02cdn.xn--57q977p.com
@@ -491,7 +491,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /speedtest
-- name: 美国-加利福尼亚-旧金山-v2ray-england1.yj2022.ga:443
+- name: 美国-0-0-v2ray-england1.yj2022.ga:443
   type: vmess
   server: england1.yj2022.ga
   network: ws
