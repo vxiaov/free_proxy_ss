@@ -29,6 +29,12 @@ proxies:
   port: 6379
   cipher: aes-256-gcm
   password: zDNVedRFPQexG9v
+- name: 美国-康涅狄格-0-ss-13.212.139.93:443
+  type: ss
+  server: 13.212.139.93
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:24002
   type: ss
   server: 14.29.124.168
@@ -145,7 +151,7 @@ proxies:
   cipher: chacha20-ietf
   protocol-param: ''
   obfs-param: ''
-- name: 俄罗斯-莫斯科-莫斯科-ssr-t3.freegradely.xyz:20022
+- name: 俄罗斯-Tatarstan-0-ssr-t3.freegradely.xyz:20022
   type: ssr
   server: t3.freegradely.xyz
   password: dongtaiwang.com
@@ -175,16 +181,6 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shares
-- name: 美国-俄勒冈-0-v2ray-146.190.106.136:38759
-  type: vmess
-  server: 146.190.106.136
-  network: ws
-  port: 38759
-  uuid: 17a5fed9-910c-4de2-a579-a478a8c65f4f
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
 - name: 美国-0-0-v2ray-lsb-gy.heinu.cf:2095
   type: vmess
   server: lsb-gy.heinu.cf
@@ -195,16 +191,6 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /@heinuhome
-- name: 瑞典-0-0-v2ray-suzhihan.eu.org:443
-  type: vmess
-  server: suzhihan.eu.org
-  network: ws
-  port: 443
-  uuid: 0b873cff-11ab-4716-c41a-04f886135091
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /roewesu
 - name: 美国-0-0-v2ray-spectra.aryogen.store:2052
   type: vmess
   server: spectra.aryogen.store
@@ -215,16 +201,6 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 0-0-0-v2ray-103.190.107.162:80
-  type: vmess
-  server: 103.190.107.162
-  network: ws
-  port: 80
-  uuid: a740cddf-bda7-4b58-8eda-35bece740b6e
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /anti13.zingfast.vn
 - name: 美国-佛罗里达-0-v2ray-vuk1.0bad.com:443
   type: vmess
   server: vuk1.0bad.com
@@ -235,7 +211,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /chat
-- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
+- name: 美国-0-0-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
@@ -245,7 +221,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /wo.php
-- name: 美国-加利福尼亚-旧金山-v2ray-4bb4ced4.8200860.xyz:2096
+- name: 美国-0-0-v2ray-4bb4ced4.8200860.xyz:2096
   type: vmess
   server: 4bb4ced4.8200860.xyz
   network: ws
@@ -265,27 +241,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: ''
-- name: 美国-康涅狄格-0-v2ray-singapore01.aws02cdn.xn--57q977p.com:80
-  type: vmess
-  server: singapore01.aws02cdn.xn--57q977p.com
-  network: ws
-  port: 80
-  uuid: 8131b9e9-332b-4402-a86a-72055b33a130
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /images
-- name: 新加坡-0-0-v2ray-hongkong.azure01.ddns.xn--57q977p.com:80
-  type: vmess
-  server: hongkong.azure01.ddns.xn--57q977p.com
-  network: ws
-  port: 80
-  uuid: 8131b9e9-332b-4402-a86a-72055b33a130
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /images
-- name: 美国-0-0-v2ray-vx.tony0339.ml:443
+- name: 美国-加利福尼亚-旧金山-v2ray-vx.tony0339.ml:443
   type: vmess
   server: vx.tony0339.ml
   network: ws
@@ -335,16 +291,6 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /chat
-- name: 美国-0-0-v2ray-Kansas.kotick.site:443
-  type: vmess
-  server: Kansas.kotick.site
-  network: ws
-  port: 443
-  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /speedtest
 - name: 美国-0-0-v2ray-petal.ga:443
   type: vmess
   server: petal.ga
@@ -355,7 +301,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /petalvws
-- name: 美国-0-0-v2ray-france1.yj2022.ga:443
+- name: 美国-加利福尼亚-旧金山-v2ray-france1.yj2022.ga:443
   type: vmess
   server: france1.yj2022.ga
   network: ws
@@ -385,46 +331,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Eynyyo4kJfl2fkJfl2f
-- name: 德国-0-0-v2ray-surongwei.eu.org:443
+- name: 美国-德克萨斯-休斯顿-v2ray-id-gcp.nirezzvpn.my.id:80
   type: vmess
-  server: surongwei.eu.org
-  network: ws
-  port: 443
-  uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /reffs7y26g0ua
-- name: 澳大利亚-0-0-v2ray-cloud.cluster.download.cloudsys.buzz:80
-  type: vmess
-  server: cloud.cluster.download.cloudsys.buzz
+  server: id-gcp.nirezzvpn.my.id
   network: ws
   port: 80
-  uuid: 522e8c21-156c-4125-b821-755956840e64
+  uuid: b1f2612b-a7ac-44d4-89b6-d25520e22b58
   alterId: 4
   cipher: auto
   tls: false
-  ws-path: /ac9c9cf8-d1c3-4eb7-aa66-5052edaf9a94.ts
-- name: 0-0-0-v2ray-cloudsever8.tuananh4g.com:80
-  type: vmess
-  server: cloudsever8.tuananh4g.com
-  network: ws
-  port: 80
-  uuid: b99d3702-2f7d-46bc-aaa1-d74d5e1a3bac
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /tuananh4g
-- name: 中国-广东-0-v2ray-v02.gutingting.com:30025
-  type: vmess
-  server: v02.gutingting.com
-  network: ws
-  port: 30025
-  uuid: aa46e085-696f-4f41-b5cb-ab1eb8d317ca
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /aceamedv
+  ws-path: /vmessws
 - name: 印度尼西亚-大雅加达-雅加达-v2ray-id.ftvpn.xyz:80
   type: vmess
   server: id.ftvpn.xyz
@@ -435,7 +351,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-0-0-v2ray-4bb4ced4.ikunxiao.top:2096
+- name: 美国-加利福尼亚-旧金山-v2ray-4bb4ced4.ikunxiao.top:2096
   type: vmess
   server: 4bb4ced4.ikunxiao.top
   network: ws
@@ -451,26 +367,6 @@ proxies:
   network: ws
   port: 8080
   uuid: 88b17347-96d2-4bc8-b739-5ecd3538640a
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
-- name: 美国-肯塔基-0-v2ray-x-render-4sow.onrender.com:443
-  type: vmess
-  server: x-render-4sow.onrender.com
-  network: ws
-  port: 443
-  uuid: 6610ecbb-704f-4288-95b8-f7aec921faa9
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /vmess
-- name: 越南-顺化省-0-v2ray-vpn.choomai.xyz:80
-  type: vmess
-  server: vpn.choomai.xyz
-  network: ws
-  port: 80
-  uuid: b3b67842-78f7-4706-dae5-38a47d2180ef
   alterId: 4
   cipher: auto
   tls: false
@@ -495,23 +391,3 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /WKtzeN11GLqwVNBTp9mX
-- name: 美国-0-0-v2ray-namer-us-sea-01-edgecast.qdns.live:2053
-  type: vmess
-  server: namer-us-sea-01-edgecast.qdns.live
-  network: ws
-  port: 2053
-  uuid: 94898122-6f57-3272-8ccf-87ab366b29ed
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /
-- name: 日本-0-0-v2ray-103.16.214.60:80
-  type: vmess
-  server: 103.16.214.60
-  network: ws
-  port: 80
-  uuid: a740cddf-bda7-4b58-8eda-35bece740b6e
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /anti13.zingfast.vn
