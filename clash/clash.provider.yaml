@@ -367,16 +367,6 @@ proxies:
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 俄罗斯-莫斯科-莫斯科-ssr-t3.freegradely.xyz:20022
-  type: ssr
-  server: t3.freegradely.xyz
-  password: dongtaiwang.com
-  obfs: tls1.2_ticket_auth
-  protocol: origin
-  port: 20022
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
 - name: 美国-伊利诺伊-芝加哥-v2ray-173.249.199.27:443
   type: vmess
   server: 173.249.199.27
@@ -457,6 +447,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /index
+- name: 美国-0-0-v2ray-new6.huvicloud.com:443
+  type: vmess
+  server: new6.huvicloud.com
+  network: ws
+  port: 443
+  uuid: a11ca760-9ef9-4a63-95c9-4c5c32d56251
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /
 - name: 中国-贵州-黔西南-v2ray-123.249.101.15:19709
   type: vmess
   server: 123.249.101.15
@@ -507,7 +507,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /chat
-- name: 美国-0-0-v2ray-france1.yj2022.ga:443
+- name: 美国-加利福尼亚-旧金山-v2ray-france1.yj2022.ga:443
   type: vmess
   server: france1.yj2022.ga
   network: ws
@@ -517,7 +517,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /E86414F638E11
-- name: 美国-0-0-v2ray-amsterdam.v2ray.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-amsterdam.v2ray.online:443
   type: vmess
   server: amsterdam.v2ray.online
   network: ws
@@ -577,7 +577,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmessws
-- name: 美国-加利福尼亚-旧金山-v2ray-4bb4ced4.ikunxiao.top:2096
+- name: 美国-0-0-v2ray-4bb4ced4.ikunxiao.top:2096
   type: vmess
   server: 4bb4ced4.ikunxiao.top
   network: ws
@@ -627,7 +627,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ac9c9cf8-d1c3-4eb7-aa66-5052edaf9a94.ts
-- name: 美国-加利福尼亚-旧金山-v2ray-finland1.yj2022.ga:443
+- name: 美国-0-0-v2ray-finland1.yj2022.ga:443
   type: vmess
   server: finland1.yj2022.ga
   network: ws
@@ -637,7 +637,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /WKtzeN11GLqwVNBTp9mX
-- name: 美国-0-0-v2ray-dj02.yumili.cf:2096
+- name: 美国-加利福尼亚-旧金山-v2ray-dj02.yumili.cf:2096
   type: vmess
   server: dj02.yumili.cf
   network: ws
