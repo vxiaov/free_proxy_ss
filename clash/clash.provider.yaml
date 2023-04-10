@@ -23,6 +23,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 美国-德克萨斯-达拉斯-ss-167.88.62.24:6379
+  type: ss
+  server: 167.88.62.24
+  port: 6379
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
 - name: 中国-广东-广州-ss-14.29.124.168:24002
   type: ss
   server: 14.29.124.168
@@ -71,6 +77,18 @@ proxies:
   port: 24009
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 中国-0-0-ss-36.139.166.231:11023
+  type: ss
+  server: 36.139.166.231
+  port: 11023
+  cipher: aes-256-gcm
+  password: ll668668@
+- name: 德国-慕尼黑-0-ss-46.183.185.15:989
+  type: ss
+  server: 46.183.185.15
+  port: 989
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
 - name: 美国-康涅狄格-0-ss-13.215.191.190:443
   type: ss
   server: 13.215.191.190
@@ -137,16 +155,6 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 中国-广东-广州-ssr-14.29.124.168:24000
-  type: ssr
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  obfs: plain
-  protocol: origin
-  port: 24000
-  cipher: aes-128-cfb
-  protocol-param: ''
-  obfs-param: ''
 - name: 日本-东京都-东京-ssr-jp-am48-6.eqnode.net:8081
   type: ssr
   server: jp-am48-6.eqnode.net
@@ -197,7 +205,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /roewesu
-- name: 美国-加利福尼亚-旧金山-v2ray-spectra.aryogen.store:2052
+- name: 美国-0-0-v2ray-spectra.aryogen.store:2052
   type: vmess
   server: spectra.aryogen.store
   network: ws
@@ -277,7 +285,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /images
-- name: 美国-加利福尼亚-旧金山-v2ray-vx.tony0339.ml:443
+- name: 美国-0-0-v2ray-vx.tony0339.ml:443
   type: vmess
   server: vx.tony0339.ml
   network: ws
@@ -357,7 +365,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /E86414F638E11
-- name: 美国-0-0-v2ray-amsterdam.v2ray.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-amsterdam.v2ray.online:443
   type: vmess
   server: amsterdam.v2ray.online
   network: ws
@@ -387,7 +395,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /reffs7y26g0ua
-- name: 美国-康涅狄格-0-v2ray-cloud.cluster.download.cloudsys.buzz:80
+- name: 澳大利亚-0-0-v2ray-cloud.cluster.download.cloudsys.buzz:80
   type: vmess
   server: cloud.cluster.download.cloudsys.buzz
   network: ws
@@ -427,7 +435,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-加利福尼亚-旧金山-v2ray-4bb4ced4.ikunxiao.top:2096
+- name: 美国-0-0-v2ray-4bb4ced4.ikunxiao.top:2096
   type: vmess
   server: 4bb4ced4.ikunxiao.top
   network: ws
@@ -437,7 +445,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /index
-- name: 美国-0-0-v2ray-po-59.f-sub.xyz:8080
+- name: 美国-加利福尼亚-旧金山-v2ray-po-59.f-sub.xyz:8080
   type: vmess
   server: po-59.f-sub.xyz
   network: ws
