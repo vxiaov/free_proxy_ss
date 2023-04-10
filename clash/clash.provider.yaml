@@ -23,12 +23,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 新加坡-0-0-ss-54.254.226.48:443
-  type: ss
-  server: 54.254.226.48
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 澳大利亚-0-0-ss-43.207.205.208:443
   type: ss
   server: 43.207.205.208
@@ -71,24 +65,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-江苏-无锡-ss-180.101.193.226:10068
-  type: ss
-  server: 180.101.193.226
-  port: 10068
-  cipher: aes-256-cfb
-  password: RsDk3peCSuo76B68
 - name: 美国-新泽西-0-ss-142.202.48.99:7306
   type: ss
   server: 142.202.48.99
   port: 7306
   cipher: aes-256-gcm
   password: FoOiGlkAA9yPEGP
-- name: 澳大利亚-0-0-ss-43.201.148.126:443
-  type: ss
-  server: 43.201.148.126
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 美国-康涅狄格-0-ss-172.99.188.99:8888
   type: ss
   server: 172.99.188.99
@@ -251,12 +233,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 澳大利亚-0-0-ss-43.201.146.202:443
-  type: ss
-  server: 43.201.146.202
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 日本-东京都-东京-ss-52.195.4.154:443
   type: ss
   server: 52.195.4.154
@@ -389,12 +365,6 @@ proxies:
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: 美国-康涅狄格-0-ss-13.215.183.79:443
-  type: ss
-  server: 13.215.183.79
-  port: 443
-  cipher: aes-256-cfb
-  password: doub.io
 - name: 美国-康涅狄格-0-ss-172.99.188.99:6379
   type: ss
   server: 172.99.188.99
@@ -453,7 +423,7 @@ proxies:
   cipher: chacha20-ietf
   protocol-param: ''
   obfs-param: ''
-- name: 荷兰-0-0-ssr-t3.freegradely.xyz:20022
+- name: 俄罗斯-莫斯科-莫斯科-ssr-t3.freegradely.xyz:20022
   type: ssr
   server: t3.freegradely.xyz
   password: dongtaiwang.com
@@ -493,7 +463,17 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /@heinuhome
-- name: 美国-0-0-v2ray-spectra.aryogen.store:2052
+- name: 瑞典-0-0-v2ray-suzhihan.eu.org:443
+  type: vmess
+  server: suzhihan.eu.org
+  network: ws
+  port: 443
+  uuid: 0b873cff-11ab-4716-c41a-04f886135091
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /roewesu
+- name: 美国-加利福尼亚-旧金山-v2ray-spectra.aryogen.store:2052
   type: vmess
   server: spectra.aryogen.store
   network: ws
@@ -533,7 +513,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /wo.php
-- name: 美国-0-0-v2ray-4bb4ced4.8200860.xyz:2096
+- name: 美国-加利福尼亚-旧金山-v2ray-4bb4ced4.8200860.xyz:2096
   type: vmess
   server: 4bb4ced4.8200860.xyz
   network: ws
@@ -573,7 +553,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /images
-- name: 美国-0-0-v2ray-vx.tony0339.ml:443
+- name: 美国-加利福尼亚-旧金山-v2ray-vx.tony0339.ml:443
   type: vmess
   server: vx.tony0339.ml
   network: ws
@@ -623,6 +603,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /chat
+- name: 美国-0-0-v2ray-petal.ga:443
+  type: vmess
+  server: petal.ga
+  network: ws
+  port: 443
+  uuid: b744f5cc-eab2-d2cd-f477-76646d17987f
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /petalvws
 - name: 美国-0-0-v2ray-france1.yj2022.ga:443
   type: vmess
   server: france1.yj2022.ga
@@ -633,7 +623,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /E86414F638E11
-- name: 美国-0-0-v2ray-amsterdam.v2ray.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-amsterdam.v2ray.online:443
   type: vmess
   server: amsterdam.v2ray.online
   network: ws
@@ -643,7 +633,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /speedtest
-- name: 美国-0-0-v2ray-england1.yj2022.ga:443
+- name: 美国-加利福尼亚-旧金山-v2ray-england1.yj2022.ga:443
   type: vmess
   server: england1.yj2022.ga
   network: ws
@@ -663,7 +653,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /reffs7y26g0ua
-- name: 澳大利亚-0-0-v2ray-cloud.cluster.download.cloudsys.buzz:80
+- name: 中国-0-0-v2ray-cloud.cluster.download.cloudsys.buzz:80
   type: vmess
   server: cloud.cluster.download.cloudsys.buzz
   network: ws
@@ -693,7 +683,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /index
-- name: 美国-加利福尼亚-旧金山-v2ray-po-59.f-sub.xyz:8080
+- name: 美国-0-0-v2ray-po-59.f-sub.xyz:8080
   type: vmess
   server: po-59.f-sub.xyz
   network: ws
@@ -733,7 +723,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /jp143-d2xddxxj
-- name: 美国-加利福尼亚-旧金山-v2ray-finland1.yj2022.ga:443
+- name: 美国-0-0-v2ray-finland1.yj2022.ga:443
   type: vmess
   server: finland1.yj2022.ga
   network: ws
