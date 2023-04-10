@@ -167,6 +167,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 意大利-0-0-ss-37.143.129.230:989
+  type: ss
+  server: 37.143.129.230
+  port: 989
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
 - name: 澳大利亚-0-0-ss-43.207.108.0:443
   type: ss
   server: 43.207.108.0
@@ -389,16 +395,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-广东-广州-ssr-14.29.124.168:24000
-  type: ssr
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  obfs: plain
-  protocol: origin
-  port: 24000
-  cipher: aes-128-cfb
-  protocol-param: ''
-  obfs-param: ''
 - name: 新加坡-0-0-ssr-sg-am3.eqsunshine.com:32001
   type: ssr
   server: sg-am3.eqsunshine.com
@@ -419,13 +415,23 @@ proxies:
   cipher: chacha20-ietf
   protocol-param: ''
   obfs-param: ''
-- name: 俄罗斯-Tatarstan-0-ssr-t3.freegradely.xyz:20022
+- name: 荷兰-0-0-ssr-t3.freegradely.xyz:20022
   type: ssr
   server: t3.freegradely.xyz
   password: dongtaiwang.com
   obfs: tls1.2_ticket_auth
   protocol: origin
   port: 20022
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 日本-东京都-东京-ssr-jp-am48-6.eqnode.net:8081
+  type: ssr
+  server: jp-am48-6.eqnode.net
+  password: eAokbaDN6
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
@@ -449,7 +455,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-lsb-gy.heinu.cf:2095
+- name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2095
   type: vmess
   server: lsb-gy.heinu.cf
   network: ws
@@ -469,7 +475,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /roewesu
-- name: 美国-0-0-v2ray-spectra.aryogen.store:2052
+- name: 美国-加利福尼亚-旧金山-v2ray-spectra.aryogen.store:2052
   type: vmess
   server: spectra.aryogen.store
   network: ws
@@ -499,7 +505,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /chat
-- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
+- name: 美国-0-0-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
@@ -509,7 +515,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /wo.php
-- name: 美国-0-0-v2ray-4bb4ced4.8200860.xyz:2096
+- name: 美国-加利福尼亚-旧金山-v2ray-4bb4ced4.8200860.xyz:2096
   type: vmess
   server: 4bb4ced4.8200860.xyz
   network: ws
@@ -549,7 +555,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /images
-- name: 美国-加利福尼亚-旧金山-v2ray-vx.tony0339.ml:443
+- name: 美国-0-0-v2ray-vx.tony0339.ml:443
   type: vmess
   server: vx.tony0339.ml
   network: ws
@@ -559,7 +565,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /lmm0422
-- name: 美国-加利福尼亚-旧金山-v2ray-ccdc2.6252369.xyz:8443
+- name: 美国-0-0-v2ray-ccdc2.6252369.xyz:8443
   type: vmess
   server: ccdc2.6252369.xyz
   network: ws
@@ -609,7 +615,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /petalvws
-- name: 美国-加利福尼亚-旧金山-v2ray-france1.yj2022.ga:443
+- name: 美国-0-0-v2ray-france1.yj2022.ga:443
   type: vmess
   server: france1.yj2022.ga
   network: ws
@@ -629,7 +635,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /speedtest
-- name: 美国-0-0-v2ray-england1.yj2022.ga:443
+- name: 美国-加利福尼亚-旧金山-v2ray-england1.yj2022.ga:443
   type: vmess
   server: england1.yj2022.ga
   network: ws
@@ -649,7 +655,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /reffs7y26g0ua
-- name: 澳大利亚-0-0-v2ray-cloud.cluster.download.cloudsys.buzz:80
+- name: 中国-香港-0-v2ray-cloud.cluster.download.cloudsys.buzz:80
   type: vmess
   server: cloud.cluster.download.cloudsys.buzz
   network: ws
@@ -679,7 +685,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-加利福尼亚-旧金山-v2ray-4bb4ced4.ikunxiao.top:2096
+- name: 美国-0-0-v2ray-4bb4ced4.ikunxiao.top:2096
   type: vmess
   server: 4bb4ced4.ikunxiao.top
   network: ws
@@ -729,7 +735,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /jp143-d2xddxxj
-- name: 美国-加利福尼亚-旧金山-v2ray-finland1.yj2022.ga:443
+- name: 美国-0-0-v2ray-finland1.yj2022.ga:443
   type: vmess
   server: finland1.yj2022.ga
   network: ws
