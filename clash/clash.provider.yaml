@@ -5,12 +5,6 @@ proxies:
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: 澳大利亚-0-0-ss-43.200.6.15:443
-  type: ss
-  server: 43.200.6.15
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 韩国-首尔-首尔-ss-158.247.213.230:989
   type: ss
   server: 158.247.213.230
@@ -65,12 +59,6 @@ proxies:
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: 澳大利亚-0-0-ss-43.201.14.240:443
-  type: ss
-  server: 43.201.14.240
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:24009
   type: ss
   server: 14.29.124.168
@@ -167,12 +155,6 @@ proxies:
   port: 2333
   cipher: aes-128-ctr
   password: doub.io
-- name: 中国-0-0-ss-36.137.106.115:11023
-  type: ss
-  server: 36.137.106.115
-  port: 11023
-  cipher: aes-256-gcm
-  password: ll668668@
 - name: 中国-0-0-ss-36.139.166.247:11023
   type: ss
   server: 36.139.166.247
@@ -323,6 +305,12 @@ proxies:
   port: 4433
   cipher: aes-256-gcm
   password: yy595721
+- name: 中国-广东-广州-ss-14.29.124.168:24000
+  type: ss
+  server: 14.29.124.168
+  port: 24000
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - name: 中国-0-0-ss-36.138.193.128:11023
   type: ss
   server: 36.138.193.128
@@ -335,12 +323,6 @@ proxies:
   port: 24006
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 中国-0-0-ss-36.139.166.252:11023
-  type: ss
-  server: 36.139.166.252
-  port: 11023
-  cipher: aes-256-gcm
-  password: ll668668@
 - name: 美国-俄勒冈-0-ss-18.236.190.65:443
   type: ss
   server: 18.236.190.65
@@ -353,21 +335,9 @@ proxies:
   port: 27762
   cipher: chacha20-ietf-poly1305
   password: 3ff0a476-8b54-4412-98b2-a17d54643682
-- name: 中国-0-0-ss-36.138.140.208:11023
-  type: ss
-  server: 36.138.140.208
-  port: 11023
-  cipher: aes-256-gcm
-  password: ll668668@
 - name: 日本-东京都-东京-ss-52.195.4.154:443
   type: ss
   server: 52.195.4.154
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 美国-康涅狄格-0-ss-13.214.212.14:443
-  type: ss
-  server: 13.214.212.14
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
@@ -457,7 +427,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /speedtest
-- name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2095
+- name: 美国-0-0-v2ray-lsb-gy.heinu.cf:2095
   type: vmess
   server: lsb-gy.heinu.cf
   network: ws
@@ -487,7 +457,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2096
+- name: 美国-0-0-v2ray-lsb-gy.heinu.cf:2096
   type: vmess
   server: lsb-gy.heinu.cf
   network: ws
@@ -527,7 +497,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /index
-- name: 美国-加利福尼亚-旧金山-v2ray-new6.huvicloud.com:443
+- name: 美国-0-0-v2ray-new6.huvicloud.com:443
   type: vmess
   server: new6.huvicloud.com
   network: ws
@@ -547,6 +517,16 @@ proxies:
   cipher: auto
   tls: false
   ws-path: ''
+- name: 美国-0-0-v2ray-zhuyong.hucloud-dns.xyz:443
+  type: vmess
+  server: zhuyong.hucloud-dns.xyz
+  network: ws
+  port: 443
+  uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /huhublog
 - name: 美国-德克萨斯-休斯顿-v2ray-id-gcp.nirezzvpn.my.id:443
   type: vmess
   server: id-gcp.nirezzvpn.my.id
@@ -567,7 +547,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ray
-- name: 美国-加利福尼亚-旧金山-v2ray-ccdc2.6252369.xyz:8443
+- name: 美国-0-0-v2ray-ccdc2.6252369.xyz:8443
   type: vmess
   server: ccdc2.6252369.xyz
   network: ws
@@ -587,7 +567,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /fr-888gikdlx
-- name: 美国-加利福尼亚-旧金山-v2ray-vi.mot20.ga:8080
+- name: 美国-0-0-v2ray-vi.mot20.ga:8080
   type: vmess
   server: vi.mot20.ga
   network: ws
@@ -697,7 +677,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmessws
-- name: 美国-加利福尼亚-旧金山-v2ray-pm.motori.pw:8880
+- name: 美国-0-0-v2ray-pm.motori.pw:8880
   type: vmess
   server: pm.motori.pw
   network: ws
@@ -717,7 +697,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /index
-- name: 美国-0-0-v2ray-po-59.f-sub.xyz:8080
+- name: 美国-加利福尼亚-旧金山-v2ray-po-59.f-sub.xyz:8080
   type: vmess
   server: po-59.f-sub.xyz
   network: ws
@@ -727,7 +707,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-lv1.sharecentrepro.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-lv1.sharecentrepro.org:443
   type: vmess
   server: lv1.sharecentrepro.org
   network: ws
@@ -757,7 +737,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /hahuutung
-- name: 美国-0-0-v2ray-www.jfyu.tech:2087
+- name: 美国-加利福尼亚-旧金山-v2ray-www.jfyu.tech:2087
   type: vmess
   server: www.jfyu.tech
   network: ws
@@ -777,7 +757,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 澳大利亚-0-0-v2ray-cloud.cluster.download.cloudsys.buzz:80
+- name: 美国-康涅狄格-0-v2ray-cloud.cluster.download.cloudsys.buzz:80
   type: vmess
   server: cloud.cluster.download.cloudsys.buzz
   network: ws
@@ -787,7 +767,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ac9c9cf8-d1c3-4eb7-aa66-5052edaf9a94.ts
-- name: 美国-0-0-v2ray-finland1.yj2022.ga:443
+- name: 美国-加利福尼亚-旧金山-v2ray-finland1.yj2022.ga:443
   type: vmess
   server: finland1.yj2022.ga
   network: ws
@@ -797,7 +777,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /WKtzeN11GLqwVNBTp9mX
-- name: 中国-广东-广州-v2ray-ct.fanqiecn.top:10034
+- name: 中国-广东-佛山-v2ray-ct.fanqiecn.top:10034
   type: vmess
   server: ct.fanqiecn.top
   network: ws
@@ -807,7 +787,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-dj02.yumili.cf:2096
+- name: 美国-加利福尼亚-旧金山-v2ray-dj02.yumili.cf:2096
   type: vmess
   server: dj02.yumili.cf
   network: ws
