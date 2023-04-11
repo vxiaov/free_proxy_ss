@@ -95,6 +95,12 @@ proxies:
   port: 39330
   cipher: aes-256-gcm
   password: 294b8d95-2302-4b95-8595-d1870305cedb
+- name: 中国-广东-广州-ss-14.29.124.168:31046
+  type: ss
+  server: 14.29.124.168
+  port: 31046
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - name: 以色列-Tel-Aviv-0-ss-193.182.144.183:989
   type: ss
   server: 193.182.144.183
@@ -137,6 +143,12 @@ proxies:
   port: 24002
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 美国-康涅狄格-0-ss-13.215.183.79:443
+  type: ss
+  server: 13.215.183.79
+  port: 443
+  cipher: aes-256-cfb
+  password: doub.io
 - name: 中国-0-0-ss-36.138.140.208:11023
   type: ss
   server: 36.138.140.208
@@ -197,6 +209,12 @@ proxies:
   port: 11023
   cipher: aes-256-gcm
   password: ll668668@
+- name: 澳大利亚-0-0-ss-43.201.48.212:443
+  type: ss
+  server: 43.201.48.212
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-0-0-ss-36.139.166.247:11023
   type: ss
   server: 36.139.166.247
@@ -265,7 +283,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /jp143-d2xddxxj
-- name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2095
+- name: 美国-0-0-v2ray-lsb-gy.heinu.cf:2095
   type: vmess
   server: lsb-gy.heinu.cf
   network: ws
@@ -285,17 +303,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
-- name: 中国-0-0-v2ray-n1680936925.aqdisrv.cn:443
-  type: vmess
-  server: n1680936925.aqdisrv.cn
-  network: ws
-  port: 443
-  uuid: 2b74cdf3-85a7-4738-aea3-97a82e95ede5
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /
-- name: 美国-0-0-v2ray-lsb-gy.heinu.cf:2096
+- name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2096
   type: vmess
   server: lsb-gy.heinu.cf
   network: ws
@@ -305,16 +313,6 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /@heinuhome
-- name: 中国-江苏-镇江-v2ray-hncu.xdyxuj.xyz:30007
-  type: vmess
-  server: hncu.xdyxuj.xyz
-  network: ws
-  port: 30007
-  uuid: 01885776-6232-3ac4-bbd3-daa77b23c18a
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: ''
 - name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
@@ -355,16 +353,6 @@ proxies:
   cipher: auto
   tls: false
   ws-path: ''
-- name: 美国-加利福尼亚-0-v2ray-luxl.xyz:10852
-  type: vmess
-  server: luxl.xyz
-  network: ws
-  port: 10852
-  uuid: 0b3d4b3b-06c4-4b87-87b2-8aac3772c7c5
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /10852
 - name: 美国-加利福尼亚-0-v2ray-45.89.106.102:443
   type: vmess
   server: 45.89.106.102
@@ -375,17 +363,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ray
-- name: 美国-加利福尼亚-0-v2ray-45.89.106.139:443
-  type: vmess
-  server: 45.89.106.139
-  network: ws
-  port: 443
-  uuid: 8366f30c-126b-4711-d6af-79ed68a138b5
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /ray
-- name: 美国-0-0-v2ray-ccdc2.6252369.xyz:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-ccdc2.6252369.xyz:8443
   type: vmess
   server: ccdc2.6252369.xyz
   network: ws
@@ -395,16 +373,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /vxt99
-- name: 美国-加利福尼亚-旧金山-v2ray-herofree66.tk:443
+- name: 美国-新泽西-0-v2ray-54.36.103.107:80
   type: vmess
-  server: herofree66.tk
+  server: 54.36.103.107
   network: ws
-  port: 443
-  uuid: 1c51101f-7de1-494b-a06e-c86a8fea97e1
+  port: 80
+  uuid: 556eddfa-7a44-43d8-82bd-7c1792fc563c
   alterId: 4
   cipher: auto
-  tls: true
-  ws-path: /电报群@herhero6
+  tls: false
+  ws-path: /vmess/
 - name: 美国-加利福尼亚-旧金山-v2ray-ca.ilovescp.com:443
   type: vmess
   server: ca.ilovescp.com
@@ -415,16 +393,6 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-petal.ga:443
-  type: vmess
-  server: petal.ga
-  network: ws
-  port: 443
-  uuid: b744f5cc-eab2-d2cd-f477-76646d17987f
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /petalvws
 - name: 美国-0-0-v2ray-france1.yj2022.ga:443
   type: vmess
   server: france1.yj2022.ga
@@ -455,7 +423,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Eynyyo4kJfl2fkJfl2f
-- name: 美国-0-0-v2ray-Amsterdam.v2ray.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-Amsterdam.v2ray.online:443
   type: vmess
   server: Amsterdam.v2ray.online
   network: ws
@@ -465,7 +433,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /speedtest
-- name: 美国-0-0-v2ray-us2.sanfencdn.net:443
+- name: 美国-加利福尼亚-旧金山-v2ray-us2.sanfencdn.net:443
   type: vmess
   server: us2.sanfencdn.net
   network: ws
@@ -485,16 +453,6 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /index
-- name: 美国-0-0-v2ray-po-59.f-sub.xyz:8080
-  type: vmess
-  server: po-59.f-sub.xyz
-  network: ws
-  port: 8080
-  uuid: 88b17347-96d2-4bc8-b739-5ecd3538640a
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
 - name: 美国-加利福尼亚-旧金山-v2ray-lv1.sharecentrepro.org:443
   type: vmess
   server: lv1.sharecentrepro.org
@@ -515,7 +473,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-康涅狄格-0-v2ray-cloud.cluster.download.cloudsys.buzz:80
+- name: 澳大利亚-0-0-v2ray-cloud.cluster.download.cloudsys.buzz:80
   type: vmess
   server: cloud.cluster.download.cloudsys.buzz
   network: ws
@@ -535,13 +493,3 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /WKtzeN11GLqwVNBTp9mX
-- name: 美国-密歇根-0-v2ray-jp80.fee68414a14e.sanfen004.me:80
-  type: vmess
-  server: jp80.fee68414a14e.sanfen004.me
-  network: ws
-  port: 80
-  uuid: 6d6e8b51-9c73-4c50-9957-904400e8f6fb
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /zh-cn
