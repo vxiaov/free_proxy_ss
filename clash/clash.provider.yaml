@@ -1,22 +1,4 @@
 proxies:
-- name: 中国-广东-广州-ss-14.29.124.168:24005
-  type: ss
-  server: 14.29.124.168
-  port: 24005
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 中国-0-0-ss-36.137.106.115:11023
-  type: ss
-  server: 36.137.106.115
-  port: 11023
-  cipher: aes-256-gcm
-  password: ll668668@
-- name: 中国-广东-广州-ss-14.29.124.168:24009
-  type: ss
-  server: 14.29.124.168
-  port: 24009
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
 - name: 中国-广东-广州-ss-14.29.124.168:24002
   type: ss
   server: 14.29.124.168
@@ -29,12 +11,6 @@ proxies:
   port: 24003
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 瑞典-0-0-ss-192.71.166.102:989
-  type: ss
-  server: 192.71.166.102
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
 - name: 中国-广东-广州-ss-14.29.124.168:24000
   type: ss
   server: 14.29.124.168
@@ -65,12 +41,6 @@ proxies:
   port: 24001
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 中国-0-0-ss-36.137.106.45:11023
-  type: ss
-  server: 36.137.106.45
-  port: 11023
-  cipher: aes-256-gcm
-  password: ll668668@
 - name: 葡萄牙-0-0-ss-171.22.254.17:989
   type: ss
   server: 171.22.254.17
@@ -83,16 +53,28 @@ proxies:
   port: 31046
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 中国-0-0-ss-36.138.193.128:11023
-  type: ss
-  server: 36.138.193.128
-  port: 11023
-  cipher: aes-256-gcm
-  password: ll668668@
 - name: 中国-广东-广州-ss-14.29.124.168:24008
   type: ss
   server: 14.29.124.168
   port: 24008
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 中国-广东-广州-ss-14.29.124.168:24005
+  type: ss
+  server: 14.29.124.168
+  port: 24005
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 澳大利亚-0-0-ss-43.206.194.235:443
+  type: ss
+  server: 43.206.194.235
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 中国-广东-广州-ss-14.29.124.168:24009
+  type: ss
+  server: 14.29.124.168
+  port: 24009
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
 - name: 荷兰-0-0-ssr-t3.freegradely.xyz:20022
@@ -205,7 +187,17 @@ proxies:
   cipher: auto
   tls: false
   ws-path: ''
-- name: 美国-0-0-v2ray-la.awsbest.com:443
+- name: 中国-广东-0-v2ray-gm150m.jikenodes.xyz:2000
+  type: vmess
+  server: gm150m.jikenodes.xyz
+  network: ws
+  port: 2000
+  uuid: 837f2e50-3930-4db5-a66a-8420b0390aa3
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /
+- name: 美国-加利福尼亚-旧金山-v2ray-la.awsbest.com:443
   type: vmess
   server: la.awsbest.com
   network: ws
@@ -235,7 +227,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess/
-- name: 美国-0-0-v2ray-new6.huvicloud.com:443
+- name: 美国-加利福尼亚-旧金山-v2ray-new6.huvicloud.com:443
   type: vmess
   server: new6.huvicloud.com
   network: ws
@@ -255,7 +247,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-france1.yj2022.ga:443
+- name: 美国-加利福尼亚-旧金山-v2ray-france1.yj2022.ga:443
   type: vmess
   server: france1.yj2022.ga
   network: ws
@@ -315,7 +307,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-dj02.yumili.cf:2096
+- name: 美国-0-0-v2ray-dj02.yumili.cf:2096
   type: vmess
   server: dj02.yumili.cf
   network: ws
@@ -335,7 +327,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /5tq5fad
-- name: 美国-加利福尼亚-旧金山-v2ray-lv1.sharecentrepro.org:443
+- name: 美国-0-0-v2ray-lv1.sharecentrepro.org:443
   type: vmess
   server: lv1.sharecentrepro.org
   network: ws
@@ -345,7 +337,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-hg02.wruox.ml:2096
+- name: 美国-加利福尼亚-旧金山-v2ray-hg02.wruox.ml:2096
   type: vmess
   server: hg02.wruox.ml
   network: ws
@@ -355,7 +347,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /3wer
-- name: 美国-马萨诸塞-波士顿-v2ray-cloud.cluster.download.cloudsys.buzz:80
+- name: 澳大利亚-0-0-v2ray-cloud.cluster.download.cloudsys.buzz:80
   type: vmess
   server: cloud.cluster.download.cloudsys.buzz
   network: ws
@@ -365,7 +357,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ac9c9cf8-d1c3-4eb7-aa66-5052edaf9a94.ts
-- name: 美国-加利福尼亚-旧金山-v2ray-finland1.yj2022.ga:443
+- name: 美国-0-0-v2ray-finland1.yj2022.ga:443
   type: vmess
   server: finland1.yj2022.ga
   network: ws
