@@ -137,6 +137,12 @@ proxies:
   port: 24000
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 澳大利亚-0-0-ss-43.201.70.114:443
+  type: ss
+  server: 43.201.70.114
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:25245
   type: ss
   server: 14.29.124.168
@@ -289,16 +295,6 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 荷兰-0-0-ssr-t3.freegradely.xyz:20022
-  type: ssr
-  server: t3.freegradely.xyz
-  password: dongtaiwang.com
-  obfs: tls1.2_ticket_auth
-  protocol: origin
-  port: 20022
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
 - name: 中国-广东-广州-ssr-14.29.124.168:24000
   type: ssr
   server: 14.29.124.168
@@ -369,7 +365,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-lsb-gy.heinu.cf:2096
+- name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2096
   type: vmess
   server: lsb-gy.heinu.cf
   network: ws
@@ -379,6 +375,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /@heinuhome
+- name: 中国-香港-0-v2ray-n1680936786.lyqrdde.cn:443
+  type: vmess
+  server: n1680936786.lyqrdde.cn
+  network: ws
+  port: 443
+  uuid: d4f0f6e9-dff8-4dc5-8e89-da0c5cc88c3d
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /
 - name: 中国-香港-0-v2ray-mir.mygugubird.xyz:443
   type: vmess
   server: mir.mygugubird.xyz
@@ -489,7 +495,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-france1.yj2022.ga:443
+- name: 美国-加利福尼亚-旧金山-v2ray-france1.yj2022.ga:443
   type: vmess
   server: france1.yj2022.ga
   network: ws
@@ -509,7 +515,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-england1.yj2022.ga:443
+- name: 美国-0-0-v2ray-england1.yj2022.ga:443
   type: vmess
   server: england1.yj2022.ga
   network: ws
@@ -519,7 +525,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Eynyyo4kJfl2fkJfl2f
-- name: 美国-0-0-v2ray-amsterdam.v2ray.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-amsterdam.v2ray.online:443
   type: vmess
   server: amsterdam.v2ray.online
   network: ws
@@ -578,6 +584,16 @@ proxies:
   alterId: 4
   cipher: auto
   tls: true
+  ws-path: /
+- name: 美国-0-0-v2ray-vi.mot20.ga:8080
+  type: vmess
+  server: vi.mot20.ga
+  network: ws
+  port: 8080
+  uuid: 342e932e-d990-4ad4-b38a-837a8ed3463c
+  alterId: 4
+  cipher: auto
+  tls: false
   ws-path: /
 - name: 中国-广东-广州-v2ray-ovhsg.v4.kiki789.com:23148
   type: vmess
