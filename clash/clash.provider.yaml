@@ -11,6 +11,12 @@ proxies:
   port: 24004
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 澳大利亚-0-0-ss-43.201.14.240:443
+  type: ss
+  server: 43.201.14.240
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:25226
   type: ss
   server: 14.29.124.168
@@ -123,6 +129,12 @@ proxies:
   type: ss
   server: 14.29.124.168
   port: 25222
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 中国-广东-广州-ss-14.29.124.168:25210
+  type: ss
+  server: 14.29.124.168
+  port: 25210
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
 - name: 澳大利亚-0-0-ss-43.201.48.212:443
@@ -333,7 +345,37 @@ proxies:
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 美国-0-0-v2ray-dp1.scproxy.top:443
+- name: 中国-广东-广州-ssr-14.29.124.168:24005
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24005
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 荷兰-0-0-ssr-t3.freegradely.xyz:20022
+  type: ssr
+  server: t3.freegradely.xyz
+  password: dongtaiwang.com
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 20022
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 中国-广东-广州-ssr-14.29.124.168:24000
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24000
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 美国-加利福尼亚-旧金山-v2ray-dp1.scproxy.top:443
   type: vmess
   server: dp1.scproxy.top
   network: ws
@@ -383,7 +425,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /jp143-d2xddxxj
-- name: 美国-0-0-v2ray-lsb-gy.heinu.cf:2095
+- name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2095
   type: vmess
   server: lsb-gy.heinu.cf
   network: ws
@@ -393,7 +435,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /@heinuhome
-- name: 美国-0-0-v2ray-hk-hytron.ilovescp.com:443
+- name: 美国-加利福尼亚-旧金山-v2ray-hk-hytron.ilovescp.com:443
   type: vmess
   server: hk-hytron.ilovescp.com
   network: ws
@@ -483,7 +525,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-ccdc2.6252369.xyz:8443
+- name: 美国-0-0-v2ray-ccdc2.6252369.xyz:8443
   type: vmess
   server: ccdc2.6252369.xyz
   network: ws
@@ -493,7 +535,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /vxt99
-- name: 美国-0-0-v2ray-fr2.cachexy.ga:80
+- name: 美国-加利福尼亚-旧金山-v2ray-fr2.cachexy.ga:80
   type: vmess
   server: fr2.cachexy.ga
   network: ws
@@ -533,7 +575,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /chat
-- name: 美国-0-0-v2ray-ca.ilovescp.com:443
+- name: 美国-加利福尼亚-旧金山-v2ray-ca.ilovescp.com:443
   type: vmess
   server: ca.ilovescp.com
   network: ws
@@ -603,7 +645,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
-- name: 美国-加利福尼亚-旧金山-v2ray-po-59.f-sub.xyz:8080
+- name: 美国-0-0-v2ray-po-59.f-sub.xyz:8080
   type: vmess
   server: po-59.f-sub.xyz
   network: ws
@@ -653,7 +695,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8
-- name: 美国-0-0-v2ray-dj02.yumili.ga:2096
+- name: 美国-加利福尼亚-旧金山-v2ray-dj02.yumili.ga:2096
   type: vmess
   server: dj02.yumili.ga
   network: ws
@@ -663,7 +705,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /5tq5fad
-- name: 美国-加利福尼亚-旧金山-v2ray-lv1.sharecentrepro.org:443
+- name: 美国-0-0-v2ray-lv1.sharecentrepro.org:443
   type: vmess
   server: lv1.sharecentrepro.org
   network: ws
@@ -673,7 +715,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-4bb4ced4.ikunxiao.top:2096
+- name: 美国-0-0-v2ray-4bb4ced4.ikunxiao.top:2096
   type: vmess
   server: 4bb4ced4.ikunxiao.top
   network: ws
@@ -693,7 +735,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /xiaodao?ed=2048
-- name: 美国-加利福尼亚-旧金山-v2ray-hg02.wruox.ml:2096
+- name: 美国-0-0-v2ray-hg02.wruox.ml:2096
   type: vmess
   server: hg02.wruox.ml
   network: ws
@@ -703,7 +745,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /3wer
-- name: 澳大利亚-0-0-v2ray-cloud.cluster.download.cloudsys.buzz:80
+- name: 中国-0-0-v2ray-cloud.cluster.download.cloudsys.buzz:80
   type: vmess
   server: cloud.cluster.download.cloudsys.buzz
   network: ws
@@ -723,7 +765,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /WKtzeN11GLqwVNBTp9mX
-- name: 美国-0-0-v2ray-lv3.sharecentrepro.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-lv3.sharecentrepro.org:443
   type: vmess
   server: lv3.sharecentrepro.org
   network: ws
