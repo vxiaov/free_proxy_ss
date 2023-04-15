@@ -35,6 +35,12 @@ proxies:
   port: 25222
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 新加坡-0-0-ss-13.250.37.238:443
+  type: ss
+  server: 13.250.37.238
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:25219
   type: ss
   server: 14.29.124.168
@@ -137,6 +143,12 @@ proxies:
   port: 25266
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 中国-广东-广州-ss-14.29.124.168:24007
+  type: ss
+  server: 14.29.124.168
+  port: 24007
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - name: 中国-广东-广州-ss-14.29.124.168:25231
   type: ss
   server: 14.29.124.168
@@ -185,6 +197,12 @@ proxies:
   port: 25272
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 澳大利亚-0-0-ss-43.201.60.60:443
+  type: ss
+  server: 43.201.60.60
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:24005
   type: ss
   server: 14.29.124.168
@@ -277,6 +295,16 @@ proxies:
   protocol: origin
   port: 20022
   cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 中国-广东-广州-ssr-14.29.124.168:24005
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24005
+  cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
 - name: 中国-广东-深圳-v2ray-59.36.139.14:63092
@@ -399,7 +427,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /202365768675
-- name: 中国-广东-佛山-v2ray-aflzzul.meiquankongjian.com:52512
+- name: 中国-江苏-镇江-v2ray-aflzzul.meiquankongjian.com:52512
   type: vmess
   server: aflzzul.meiquankongjian.com
   network: ws
@@ -439,7 +467,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /xiaodao?ed=2048
-- name: 美国-0-0-v2ray-vi.mot20.ga:8080
+- name: 美国-加利福尼亚-旧金山-v2ray-vi.mot20.ga:8080
   type: vmess
   server: vi.mot20.ga
   network: ws
@@ -559,7 +587,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /vm
-- name: 美国-0-0-v2ray-lv1.sharecentrepro.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-lv1.sharecentrepro.org:443
   type: vmess
   server: lv1.sharecentrepro.org
   network: ws
