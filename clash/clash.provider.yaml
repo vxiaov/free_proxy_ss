@@ -83,6 +83,12 @@ proxies:
   port: 24003
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 中国-广东-广州-ss-14.29.124.168:24005
+  type: ss
+  server: 14.29.124.168
+  port: 24005
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - name: 中国-广东-广州-ss-14.29.124.168:25235
   type: ss
   server: 14.29.124.168
@@ -107,6 +113,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 中国-广东-广州-ss-14.29.124.168:25268
+  type: ss
+  server: 14.29.124.168
+  port: 25268
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - name: 中国-0-0-ss-36.138.140.208:11023
   type: ss
   server: 36.138.140.208
@@ -203,6 +215,12 @@ proxies:
   port: 16611
   cipher: chacha20-ietf-poly1305
   password: 134e78bd-39d4-4c39-90d7-c7639167a7a9
+- name: 中国-0-0-ss-36.139.166.244:11023
+  type: ss
+  server: 36.139.166.244
+  port: 11023
+  cipher: aes-256-gcm
+  password: ll668668@
 - name: 日本-东京都-东京-ssr-jp-am48-6.eqnode.net:8081
   type: ssr
   server: jp-am48-6.eqnode.net
@@ -211,6 +229,16 @@ proxies:
   protocol: origin
   port: 8081
   cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 中国-广东-广州-ssr-14.29.124.168:24005
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24005
+  cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
 - name: 美国-加利福尼亚-0-v2ray-tk-002.xiaoxiaobujidao.xyz:20960
@@ -233,7 +261,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ArsalanTauBot
-- name: 美国-加利福尼亚-旧金山-v2ray-dp3.scproxy.top:443
+- name: 美国-0-0-v2ray-dp3.scproxy.top:443
   type: vmess
   server: dp3.scproxy.top
   network: ws
@@ -283,7 +311,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /wo.php
-- name: 美国-加利福尼亚-旧金山-v2ray-amsterdam.v2ray.online:443
+- name: 美国-0-0-v2ray-amsterdam.v2ray.online:443
   type: vmess
   server: amsterdam.v2ray.online
   network: ws
@@ -293,7 +321,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /speedtest
-- name: 美国-加利福尼亚-旧金山-v2ray-po-59.f-sub.xyz:8080
+- name: 美国-0-0-v2ray-po-59.f-sub.xyz:8080
   type: vmess
   server: po-59.f-sub.xyz
   network: ws
@@ -323,7 +351,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /@hashmakvpn 🇩🇪
-- name: 美国-加利福尼亚-旧金山-v2ray-finland1.yj2022.ga:443
+- name: 美国-0-0-v2ray-finland1.yj2022.ga:443
   type: vmess
   server: finland1.yj2022.ga
   network: ws
@@ -333,7 +361,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /WKtzeN11GLqwVNBTp9mX
-- name: 美国-0-0-v2ray-france1.yj2022.ga:443
+- name: 美国-加利福尼亚-旧金山-v2ray-france1.yj2022.ga:443
   type: vmess
   server: france1.yj2022.ga
   network: ws
@@ -353,7 +381,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-lv1.sharecentrepro.org:443
+- name: 美国-0-0-v2ray-lv1.sharecentrepro.org:443
   type: vmess
   server: lv1.sharecentrepro.org
   network: ws
@@ -423,7 +451,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ArsalanTauBot
-- name: 美国-0-0-v2ray-lv3.sharecentrepro.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-lv3.sharecentrepro.org:443
   type: vmess
   server: lv3.sharecentrepro.org
   network: ws
@@ -433,7 +461,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-england1.yj2022.ga:443
+- name: 美国-0-0-v2ray-england1.yj2022.ga:443
   type: vmess
   server: england1.yj2022.ga
   network: ws
