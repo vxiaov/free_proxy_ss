@@ -17,6 +17,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 美国-俄勒冈-0-ss-18.236.78.139:443
+  type: ss
+  server: 18.236.78.139
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 瑞典-0-0-ss-192.121.87.147:989
   type: ss
   server: 192.121.87.147
@@ -41,6 +47,16 @@ proxies:
   port: 19009
   cipher: aes-256-cfb
   password: 3165469c4b
+- name: 中国-广东-广州-ssr-14.29.124.168:24005
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24005
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 美国-0-0-v2ray-finland1.yj2022.ga:443
   type: vmess
   server: finland1.yj2022.ga
@@ -91,7 +107,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /vm
-- name: 美国-0-0-v2ray-po-59.f-sub.xyz:8080
+- name: 美国-加利福尼亚-旧金山-v2ray-po-59.f-sub.xyz:8080
   type: vmess
   server: po-59.f-sub.xyz
   network: ws
@@ -131,7 +147,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /zh-cn/
-- name: 美国-加利福尼亚-旧金山-v2ray-germany1.unlimiteddev.co:80
+- name: 美国-0-0-v2ray-germany1.unlimiteddev.co:80
   type: vmess
   server: germany1.unlimiteddev.co
   network: ws
