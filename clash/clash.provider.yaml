@@ -143,6 +143,18 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 日本-东京都-东京-ss-54.248.57.88:443
+  type: ss
+  server: 54.248.57.88
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 新加坡-0-0-ss-54.169.160.39:801
+  type: ss
+  server: 54.169.160.39
+  port: 801
+  cipher: chacha20-ietf-poly1305
+  password: tvX1v#NSFP_LG_bJ
 - name: 新加坡-0-0-ss-18.141.13.226:443
   type: ss
   server: 18.141.13.226
@@ -245,6 +257,12 @@ proxies:
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
+- name: 美国-德克萨斯-0-ss-uk1.connecton.surf:19009
+  type: ss
+  server: uk1.connecton.surf
+  port: 19009
+  cipher: aes-256-cfb
+  password: 3165469c4b
 - name: 中国-0-0-ss-36.137.106.45:11023
   type: ss
   server: 36.137.106.45
@@ -277,17 +295,17 @@ proxies:
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-finland1.yj2022.ga:443
+- name: 中国-湖南-郴州-v2ray-ccc-11.rabbitpro-in-3.com:27011
   type: vmess
-  server: finland1.yj2022.ga
+  server: ccc-11.rabbitpro-in-3.com
   network: ws
-  port: 443
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  port: 27011
+  uuid: b9fc10b6-5e82-3238-91d1-f9f8b488bb1a
   alterId: 4
   cipher: auto
-  tls: true
-  ws-path: /WKtzeN11GLqwVNBTp9mX
-- name: 美国-0-0-v2ray-au-01.legeth.xyz:80
+  tls: false
+  ws-path: /hls
+- name: 美国-加利福尼亚-旧金山-v2ray-au-01.legeth.xyz:80
   type: vmess
   server: au-01.legeth.xyz
   network: ws
@@ -297,7 +315,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-0-0-v2ray-els200.jslist.tk:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
@@ -307,26 +325,6 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /wo.php
-- name: 美国-加利福尼亚-旧金山-v2ray-fr2.cachexy.ga:80
-  type: vmess
-  server: fr2.cachexy.ga
-  network: ws
-  port: 80
-  uuid: c8c9867b-df9a-4217-8161-67824e20cb57
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /g5D0hFMY/
-- name: 美国-德克萨斯-休斯顿-v2ray-Replit-v2ray.Nothingness-Voi.repl.co:443
-  type: vmess
-  server: Replit-v2ray.Nothingness-Voi.repl.co
-  network: ws
-  port: 443
-  uuid: 7e7e8b3b-aba8-49a0-b3bb-769c88baba22
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /vm
 - name: 美国-0-0-v2ray-po-59.f-sub.xyz:8080
   type: vmess
   server: po-59.f-sub.xyz
@@ -337,16 +335,6 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 中国-广东-湛江-v2ray-hntelecom.ifanr.org:28874
-  type: vmess
-  server: hntelecom.ifanr.org
-  network: ws
-  port: 28874
-  uuid: 90b52869-dffc-3d97-9331-02f4686c2b4f
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /microsoft/support
 - name: 美国-0-0-v2ray-hax2.freeair.eu.org:80
   type: vmess
   server: hax2.freeair.eu.org
@@ -367,46 +355,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-germany2.yj2022.ga:443
+- name: 美国-加利福尼亚-旧金山-v2ray-d.pgypgykmoljklj.xyz:443
   type: vmess
-  server: germany2.yj2022.ga
+  server: d.pgypgykmoljklj.xyz
   network: ws
   port: 443
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  uuid: fa4cb529-3ac9-4268-bb04-ed4253813508
   alterId: 4
   cipher: auto
   tls: true
-  ws-path: /8kH8qnepjkprbsidLrLkmX
-- name: 美国-0-0-v2ray-hk80.8b750e3e20aa.sanfen004.me:80
-  type: vmess
-  server: hk80.8b750e3e20aa.sanfen004.me
-  network: ws
-  port: 80
-  uuid: 1172d7fe-4a5d-4d07-92f6-aefa4212347f
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /zh-cn/
-- name: 美国-加利福尼亚-旧金山-v2ray-germany1.unlimiteddev.co:80
-  type: vmess
-  server: germany1.unlimiteddev.co
-  network: ws
-  port: 80
-  uuid: 97ea79a6-615c-4ad7-8083-4f3b49cbe8a2
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
-- name: 中国-广东-广州-v2ray-yycmvm.ifaner.top:17617
-  type: vmess
-  server: yycmvm.ifaner.top
-  network: ws
-  port: 17617
-  uuid: 90b52869-dffc-3d97-9331-02f4686c2b4f
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /microsoft/support
+  ws-path: /mR17oBKzZ7
 - name: 美国-0-0-v2ray-foxpol2.fovi.tk:2053
   type: vmess
   server: foxpol2.fovi.tk
@@ -427,7 +385,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ArsalanTauBot
-- name: 美国-0-0-v2ray-lv3.sharecentrepro.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-lv3.sharecentrepro.org:443
   type: vmess
   server: lv3.sharecentrepro.org
   network: ws
