@@ -107,6 +107,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 美国-佐治亚-亚特兰大-ss-167.88.63.79:9101
+  type: ss
+  server: 167.88.63.79
+  port: 9101
+  cipher: aes-256-gcm
+  password: e4FCWrgpkji3QY
 - name: 美国-康涅狄格-0-ss-13.215.179.197:443
   type: ss
   server: 13.215.179.197
@@ -233,6 +239,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 中国-广东-广州-ss-14.29.124.168:24008
+  type: ss
+  server: 14.29.124.168
+  port: 24008
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - name: 新加坡-0-0-ss-18.141.207.55:443
   type: ss
   server: 18.141.207.55
@@ -301,6 +313,16 @@ proxies:
   protocol: origin
   port: 24005
   cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 日本-东京都-东京-ssr-jp-am48-6.eqnode.net:8081
+  type: ssr
+  server: jp-am48-6.eqnode.net
+  password: eAokbaDN6
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
+  cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
 - name: 中国-湖南-郴州-v2ray-ccc-11.rabbitpro-in-3.com:27011
@@ -403,7 +425,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 美国-加利福尼亚-旧金山-v2ray-hax2.freeair.eu.org:80
+- name: 美国-0-0-v2ray-hax2.freeair.eu.org:80
   type: vmess
   server: hax2.freeair.eu.org
   network: ws
@@ -483,7 +505,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /eisasqa
-- name: 美国-加利福尼亚-旧金山-v2ray-4.mamadcucu.com:8880
+- name: 美国-0-0-v2ray-4.mamadcucu.com:8880
   type: vmess
   server: 4.mamadcucu.com
   network: ws
@@ -493,7 +515,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ArsalanTauBot
-- name: 美国-加利福尼亚-旧金山-v2ray-lv3.sharecentrepro.org:443
+- name: 美国-0-0-v2ray-lv3.sharecentrepro.org:443
   type: vmess
   server: lv3.sharecentrepro.org
   network: ws
@@ -503,7 +525,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-england1.yj2022.ga:443
+- name: 美国-0-0-v2ray-england1.yj2022.ga:443
   type: vmess
   server: england1.yj2022.ga
   network: ws
@@ -513,7 +535,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /Eynyyo4kJfl2fkJfl2f
-- name: 荷兰-0-0-v2ray-0001.sg.genzpn.com:80
+- name: 美国-德克萨斯-达拉斯-v2ray-0001.sg.genzpn.com:80
   type: vmess
   server: 0001.sg.genzpn.com
   network: ws
