@@ -1,10 +1,22 @@
 proxies:
+- name: 中国-0-0-ss-36.138.193.128:11023
+  type: ss
+  server: 36.138.193.128
+  port: 11023
+  cipher: aes-256-gcm
+  password: ll668668@
 - name: 美国-俄勒冈-0-ss-18.236.78.139:443
   type: ss
   server: 18.236.78.139
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 美国-德克萨斯-0-ss-198.244.252.93:19009
+  type: ss
+  server: 198.244.252.93
+  port: 19009
+  cipher: aes-256-cfb
+  password: 3165469c4b
 - name: 日本-东京都-东京-ss-52.195.0.115:443
   type: ss
   server: 52.195.0.115
@@ -141,6 +153,16 @@ proxies:
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
+- name: 日本-东京都-东京-ssr-jp-am48-6.eqnode.net:8081
+  type: ssr
+  server: jp-am48-6.eqnode.net
+  password: eAokbaDN6
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 美国-加利福尼亚-旧金山-v2ray-finland1.yj2022.ga:443
   type: vmess
   server: finland1.yj2022.ga
@@ -211,7 +233,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /microsoft/support
-- name: 美国-加利福尼亚-旧金山-v2ray-hax2.freeair.eu.org:80
+- name: 美国-0-0-v2ray-hax2.freeair.eu.org:80
   type: vmess
   server: hax2.freeair.eu.org
   network: ws
