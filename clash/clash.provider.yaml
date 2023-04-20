@@ -95,12 +95,6 @@ proxies:
   port: 24003
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 美国-康涅狄格-0-ss-13.214.212.14:443
-  type: ss
-  server: 13.214.212.14
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 美国-密歇根-0-ss-35.85.47.249:443
   type: ss
   server: 35.85.47.249
@@ -113,12 +107,6 @@ proxies:
   port: 11023
   cipher: aes-256-gcm
   password: ll668668@
-- name: 日本-东京都-东京-ss-18.183.194.95:443
-  type: ss
-  server: 18.183.194.95
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 日本-东京都-东京-ss-52.195.0.115:443
   type: ss
   server: 52.195.0.115
@@ -191,12 +179,6 @@ proxies:
   port: 11023
   cipher: aes-256-gcm
   password: ll668668@
-- name: 澳大利亚-0-0-ss-43.206.233.169:443
-  type: ss
-  server: 43.206.233.169
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:24001
   type: ss
   server: 14.29.124.168
@@ -353,7 +335,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /v2ray
-- name: 澳大利亚-0-0-v2ray-cloud.cluster.download.cloudsys.buzz:80
+- name: 中国-香港-0-v2ray-cloud.cluster.download.cloudsys.buzz:80
   type: vmess
   server: cloud.cluster.download.cloudsys.buzz
   network: ws
@@ -363,7 +345,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ac9c9cf8-d1c3-4eb7-aa66-5052edaf9a94.ts
-- name: 美国-加利福尼亚-旧金山-v2ray-hax2.freeair.eu.org:80
+- name: 美国-0-0-v2ray-hax2.freeair.eu.org:80
   type: vmess
   server: hax2.freeair.eu.org
   network: ws
@@ -433,7 +415,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /v2ray
-- name: 美国-0-0-v2ray-surongwei.eu.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-surongwei.eu.org:443
   type: vmess
   server: surongwei.eu.org
   network: ws
@@ -503,6 +485,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /speedtest
+- name: 美国-0-0-v2ray-hk-hytron.ilovescp.com:443
+  type: vmess
+  server: hk-hytron.ilovescp.com
+  network: ws
+  port: 443
+  uuid: 2e496758-950e-4549-8842-d5eec98d9fde
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /shirker
 - name: 美国-0-0-v2ray-4.mamadcucu.com:8880
   type: vmess
   server: 4.mamadcucu.com
