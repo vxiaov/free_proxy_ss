@@ -23,6 +23,12 @@ proxies:
   port: 24001
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 澳大利亚-0-0-ss-43.201.31.215:443
+  type: ss
+  server: 43.201.31.215
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:31046
   type: ss
   server: 14.29.124.168
@@ -35,6 +41,16 @@ proxies:
   port: 9101
   cipher: aes-256-gcm
   password: e4FCWrgpkji3QY
+- name: 日本-东京都-东京-ssr-jp-am48-6.eqnode.net:8081
+  type: ssr
+  server: jp-am48-6.eqnode.net
+  password: eAokbaDN6
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 美国-德克萨斯-休斯顿-v2ray-Replit-v2ray.Nothingness-Voi.repl.co:443
   type: vmess
   server: Replit-v2ray.Nothingness-Voi.repl.co
@@ -45,7 +61,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /vm
-- name: 美国-加利福尼亚-旧金山-v2ray-3.mamadcucu.com:2086
+- name: 美国-0-0-v2ray-3.mamadcucu.com:2086
   type: vmess
   server: 3.mamadcucu.com
   network: ws
@@ -75,7 +91,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /lisa
-- name: 美国-0-0-v2ray-lv2.sharecentrepro.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-lv2.sharecentrepro.org:443
   type: vmess
   server: lv2.sharecentrepro.org
   network: ws
@@ -105,7 +121,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ArsalanTauBot
-- name: 美国-加利福尼亚-旧金山-v2ray-lv3.sharecentrepro.org:443
+- name: 美国-0-0-v2ray-lv3.sharecentrepro.org:443
   type: vmess
   server: lv3.sharecentrepro.org
   network: ws
