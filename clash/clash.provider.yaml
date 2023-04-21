@@ -1,58 +1,4 @@
 proxies:
-- name: 美国-佐治亚-亚特兰大-ss-167.88.63.79:3389
-  type: ss
-  server: 167.88.63.79
-  port: 3389
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 中国-广东-广州-ss-14.29.124.168:24009
-  type: ss
-  server: 14.29.124.168
-  port: 24009
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 意大利-0-0-ss-37.143.129.230:989
-  type: ss
-  server: 37.143.129.230
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-- name: 澳大利亚-0-0-ss-43.206.233.169:443
-  type: ss
-  server: 43.206.233.169
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 中国-0-0-ss-36.137.106.45:11023
-  type: ss
-  server: 36.137.106.45
-  port: 11023
-  cipher: aes-256-gcm
-  password: ll668668@
-- name: 中国-0-0-ss-36.138.193.128:11023
-  type: ss
-  server: 36.138.193.128
-  port: 11023
-  cipher: aes-256-gcm
-  password: ll668668@
-- name: 中国-广东-广州-ss-14.29.124.168:31046
-  type: ss
-  server: 14.29.124.168
-  port: 31046
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 中国-广东-广州-ss-14.29.124.168:24001
-  type: ss
-  server: 14.29.124.168
-  port: 24001
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 中国-广东-广州-ss-14.29.124.168:24002
-  type: ss
-  server: 14.29.124.168
-  port: 24002
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
 - name: 美国-佐治亚-亚特兰大-ss-167.88.63.79:443
   type: ss
   server: 167.88.63.79
@@ -83,12 +29,48 @@ proxies:
   port: 24007
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 中国-广东-广州-ss-14.29.124.168:24009
+  type: ss
+  server: 14.29.124.168
+  port: 24009
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - name: 澳大利亚-0-0-ss-43.207.149.87:443
   type: ss
   server: 43.207.149.87
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 澳大利亚-0-0-ss-43.201.14.240:443
+  type: ss
+  server: 43.201.14.240
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 意大利-0-0-ss-37.143.129.230:989
+  type: ss
+  server: 37.143.129.230
+  port: 989
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+- name: 澳大利亚-0-0-ss-43.206.233.169:443
+  type: ss
+  server: 43.206.233.169
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 中国-广东-广州-ss-14.29.124.168:24002
+  type: ss
+  server: 14.29.124.168
+  port: 24002
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 中国-0-0-ss-36.138.193.128:11023
+  type: ss
+  server: 36.138.193.128
+  port: 11023
+  cipher: aes-256-gcm
+  password: ll668668@
 - name: 澳大利亚-0-0-ss-43.200.6.15:443
   type: ss
   server: 43.200.6.15
@@ -107,12 +89,42 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 美国-佐治亚-亚特兰大-ss-167.88.63.79:3389
+  type: ss
+  server: 167.88.63.79
+  port: 3389
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 美国-佐治亚-亚特兰大-ss-167.88.63.79:5003
+  type: ss
+  server: 167.88.63.79
+  port: 5003
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
 - name: 美国-佐治亚-亚特兰大-ss-167.88.63.79:8882
   type: ss
   server: 167.88.63.79
   port: 8882
   cipher: aes-256-gcm
   password: kDWvXYZoTBcGkC4
+- name: 中国-0-0-ss-36.137.106.45:11023
+  type: ss
+  server: 36.137.106.45
+  port: 11023
+  cipher: aes-256-gcm
+  password: ll668668@
+- name: 中国-广东-广州-ss-14.29.124.168:24001
+  type: ss
+  server: 14.29.124.168
+  port: 24001
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 中国-广东-广州-ss-14.29.124.168:31046
+  type: ss
+  server: 14.29.124.168
+  port: 31046
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - name: 德国-0-0-v2ray-oracle.kelee.cn:443
   type: vmess
   server: oracle.kelee.cn
@@ -163,7 +175,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vpnjantit
-- name: 美国-加利福尼亚-旧金山-v2ray-hax1.freeair.eu.org:80
+- name: 美国-0-0-v2ray-hax1.freeair.eu.org:80
   type: vmess
   server: hax1.freeair.eu.org
   network: ws
@@ -173,7 +185,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /hax1
-- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
+- name: 美国-0-0-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
@@ -183,7 +195,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /wo.php
-- name: 马来西亚-雪兰莪-0-v2ray-join-bede.vmessorg.fun:80
+- name: 美国-弗吉尼亚-阿什本-v2ray-join-bede.vmessorg.fun:80
   type: vmess
   server: join-bede.vmessorg.fun
   network: ws
@@ -193,7 +205,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 中国-云南-昆明-v2ray-hzcm.mm2022.top:11425
+- name: 中国-广东-深圳-v2ray-hzcm.mm2022.top:11425
   type: vmess
   server: hzcm.mm2022.top
   network: ws
@@ -223,7 +235,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /chat
-- name: 美国-加利福尼亚-旧金山-v2ray-ca.ilovescp.com:443
+- name: 美国-0-0-v2ray-ca.ilovescp.com:443
   type: vmess
   server: ca.ilovescp.com
   network: ws
@@ -233,7 +245,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 澳大利亚-0-0-v2ray-cloud.cluster.download.cloudsys.buzz:80
+- name: 中国-香港-0-v2ray-cloud.cluster.download.cloudsys.buzz:80
   type: vmess
   server: cloud.cluster.download.cloudsys.buzz
   network: ws
@@ -253,7 +265,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /chat
-- name: 美国-0-0-v2ray-lsb-gy.heinu.cf:2095
+- name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2095
   type: vmess
   server: lsb-gy.heinu.cf
   network: ws
@@ -343,7 +355,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: lisa
-- name: 美国-加利福尼亚-旧金山-v2ray-hk-hytron.ilovescp.com:443
+- name: 美国-0-0-v2ray-hk-hytron.ilovescp.com:443
   type: vmess
   server: hk-hytron.ilovescp.com
   network: ws
@@ -373,7 +385,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ArsalanTauBot
-- name: 美国-0-0-v2ray-lv3.sharecentrepro.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-lv3.sharecentrepro.org:443
   type: vmess
   server: lv3.sharecentrepro.org
   network: ws
@@ -383,7 +395,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-0-0-v2ray-england1.yj2022.ga:443
+- name: 美国-加利福尼亚-旧金山-v2ray-england1.yj2022.ga:443
   type: vmess
   server: england1.yj2022.ga
   network: ws
