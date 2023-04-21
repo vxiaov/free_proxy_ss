@@ -89,6 +89,12 @@ proxies:
   port: 9101
   cipher: aes-256-gcm
   password: e4FCWrgpkji3QY
+- name: 澳大利亚-0-0-ss-43.200.6.15:443
+  type: ss
+  server: 43.200.6.15
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 美国-佐治亚-亚特兰大-ss-167.88.63.79:2375
   type: ss
   server: 167.88.63.79
@@ -131,16 +137,6 @@ proxies:
   port: 8881
   cipher: aes-256-gcm
   password: kDWvXYZoTBcGkC4
-- name: 德国-0-0-v2ray-oracle.kelee.cn:443
-  type: vmess
-  server: oracle.kelee.cn
-  network: ws
-  port: 443
-  uuid: dbfc09dc-5720-47ee-a461-d572ea0d2d4a
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /45c1cfec65c0e42c95717c1df2bf5c78
 - name: 中国-海南-海口-v2ray-2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip:10099
   type: vmess
   server: 2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip
@@ -161,27 +157,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ArsalanTauBot
-- name: 美国-加利福尼亚-0-v2ray-flos.ydnode.us:80
-  type: vmess
-  server: flos.ydnode.us
-  network: ws
-  port: 80
-  uuid: db0af0f2-a278-3019-9ef8-f064d7a0726c
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /v2ray
-- name: 美国-佐治亚-亚特兰大-v2ray-15.235.140.54:10000
-  type: vmess
-  server: 15.235.140.54
-  network: ws
-  port: 10000
-  uuid: 929b981a-ddd4-11ed-a802-176210d3729b
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /vpnjantit
-- name: 美国-加利福尼亚-旧金山-v2ray-hax1.freeair.eu.org:80
+- name: 美国-0-0-v2ray-hax1.freeair.eu.org:80
   type: vmess
   server: hax1.freeair.eu.org
   network: ws
@@ -191,7 +167,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /hax1
-- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
+- name: 美国-0-0-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
@@ -201,7 +177,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /wo.php
-- name: 美国-弗吉尼亚-阿什本-v2ray-join-bede.vmessorg.fun:80
+- name: 马来西亚-雪兰莪-0-v2ray-join-bede.vmessorg.fun:80
   type: vmess
   server: join-bede.vmessorg.fun
   network: ws
@@ -221,7 +197,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /lisa
-- name: 美国-0-0-v2ray-lsb-gy.heinu.cf:2096
+- name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2096
   type: vmess
   server: lsb-gy.heinu.cf
   network: ws
@@ -231,16 +207,6 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /@heinuhome
-- name: 新加坡-0-0-v2ray-vus4.0bad.com:443
-  type: vmess
-  server: vus4.0bad.com
-  network: ws
-  port: 443
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /chat
 - name: 美国-0-0-v2ray-ca.ilovescp.com:443
   type: vmess
   server: ca.ilovescp.com
@@ -251,16 +217,6 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 中国-0-0-v2ray-cloud.cluster.download.cloudsys.buzz:80
-  type: vmess
-  server: cloud.cluster.download.cloudsys.buzz
-  network: ws
-  port: 80
-  uuid: 522e8c21-156c-4125-b821-755956840e64
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /ac9c9cf8-d1c3-4eb7-aa66-5052edaf9a94.ts
 - name: 美国-佛罗里达-0-v2ray-vuk1.0bad.com:443
   type: vmess
   server: vuk1.0bad.com
@@ -271,17 +227,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /chat
-- name: 美国-伊利诺伊-0-v2ray-vde2.0bad.com:443
-  type: vmess
-  server: vde2.0bad.com
-  network: ws
-  port: 443
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /chat
-- name: 美国-0-0-v2ray-lsb-gy.heinu.cf:2095
+- name: 美国-加利福尼亚-旧金山-v2ray-lsb-gy.heinu.cf:2095
   type: vmess
   server: lsb-gy.heinu.cf
   network: ws
@@ -291,26 +237,6 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /@heinuhome
-- name: 新加坡-0-0-v2ray-188.166.188.209:80
-  type: vmess
-  server: 188.166.188.209
-  network: ws
-  port: 80
-  uuid: addbf473-e902-419d-b18d-74dcf1a4799a
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /ph5gvpn
-- name: 美国-华盛顿-雷德蒙德-v2ray-96cfae9d-7c6c-0722-5eb8-a2b8e9d53aee.cnnic.rip:80
-  type: vmess
-  server: 96cfae9d-7c6c-0722-5eb8-a2b8e9d53aee.cnnic.rip
-  network: ws
-  port: 80
-  uuid: 8d3b7f9c-6077-42f3-9fb4-35e5f7ffb088
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
 - name: 中国-海南-海口-v2ray-2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip:20004
   type: vmess
   server: 2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip
@@ -321,26 +247,6 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /
-- name: 新加坡-0-0-v2ray-51.79.249.23:10000
-  type: vmess
-  server: 51.79.249.23
-  network: ws
-  port: 10000
-  uuid: 702b4afa-ddd4-11ed-aeae-67576d6f141a
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /vpnjantit
-- name: 美国-0-0-v2ray-germany2.yj2022.ga:443
-  type: vmess
-  server: germany2.yj2022.ga
-  network: ws
-  port: 443
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /8kH8qnepjkprbsidLrLkmX
 - name: 中国-贵州-黔西南-v2ray-123.249.101.15:19709
   type: vmess
   server: 123.249.101.15
@@ -351,16 +257,6 @@ proxies:
   cipher: auto
   tls: false
   ws-path: ''
-- name: 俄罗斯-莫斯科-莫斯科-v2ray-ru1.xiaolongyun.xyz:50403
-  type: vmess
-  server: ru1.xiaolongyun.xyz
-  network: ws
-  port: 50403
-  uuid: fc2038b4-ed83-38e7-a123-17e717c2e543
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /vv
 - name: 中国-广东-汕头-v2ray-hncu1.mm2022.top:16032
   type: vmess
   server: hncu1.mm2022.top
@@ -371,7 +267,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: lisa
-- name: 美国-0-0-v2ray-hk-hytron.ilovescp.com:443
+- name: 美国-加利福尼亚-旧金山-v2ray-hk-hytron.ilovescp.com:443
   type: vmess
   server: hk-hytron.ilovescp.com
   network: ws
@@ -381,17 +277,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 法国-0-0-v2ray-188.165.170.83:80
-  type: vmess
-  server: 188.165.170.83
-  network: ws
-  port: 80
-  uuid: 860a862a-2798-4037-8513-b060e310e7fc
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: ''
-- name: 美国-0-0-v2ray-4.mamadcucu.com:8880
+- name: 美国-加利福尼亚-旧金山-v2ray-4.mamadcucu.com:8880
   type: vmess
   server: 4.mamadcucu.com
   network: ws
@@ -401,7 +287,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ArsalanTauBot
-- name: 美国-0-0-v2ray-lv3.sharecentrepro.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-lv3.sharecentrepro.org:443
   type: vmess
   server: lv3.sharecentrepro.org
   network: ws
@@ -411,13 +297,3 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-england1.yj2022.ga:443
-  type: vmess
-  server: england1.yj2022.ga
-  network: ws
-  port: 443
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /Eynyyo4kJfl2fkJfl2f
