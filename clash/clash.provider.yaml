@@ -1,4 +1,10 @@
 proxies:
+- name: 美国-佐治亚-0-ss-157.90.4.240:19488
+  type: ss
+  server: 157.90.4.240
+  port: 19488
+  cipher: aes-256-cfb
+  password: e8301e5bd3
 - name: 美国-佛罗里达-迈阿密-ss-45.58.126.153:19094
   type: ss
   server: 45.58.126.153
@@ -107,6 +113,12 @@ proxies:
   port: 15243
   cipher: chacha20-ietf-poly1305
   password: d5dd371c-11db-4cfb-b458-072f0fbd0e18
+- name: 澳大利亚-0-0-ss-43.206.233.169:443
+  type: ss
+  server: 43.206.233.169
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ss-assets.flareai.site:15243
   type: ss
   server: assets.flareai.site
@@ -125,6 +137,12 @@ proxies:
   port: 31046
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
+- name: 澳大利亚-0-0-ss-43.206.240.195:443
+  type: ss
+  server: 43.206.240.195
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:24009
   type: ss
   server: 14.29.124.168
@@ -189,7 +207,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /vm
-- name: 美国-加利福尼亚-旧金山-v2ray-Kansas.v2ray.online:443
+- name: 美国-0-0-v2ray-Kansas.v2ray.online:443
   type: vmess
   server: Kansas.v2ray.online
   network: ws
@@ -299,7 +317,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: ''
-- name: 美国-加利福尼亚-旧金山-v2ray-hk-hytron.ilovescp.com:443
+- name: 美国-0-0-v2ray-hk-hytron.ilovescp.com:443
   type: vmess
   server: hk-hytron.ilovescp.com
   network: ws
@@ -329,7 +347,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /ArsalanTauBot
-- name: 美国-0-0-v2ray-lv3.sharecentrepro.org:443
+- name: 美国-加利福尼亚-旧金山-v2ray-lv3.sharecentrepro.org:443
   type: vmess
   server: lv3.sharecentrepro.org
   network: ws
