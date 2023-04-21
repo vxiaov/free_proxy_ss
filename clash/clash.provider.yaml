@@ -1,10 +1,4 @@
 proxies:
-- name: 澳大利亚-0-0-ss-43.201.31.215:443
-  type: ss
-  server: 43.201.31.215
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-广东-广州-ss-14.29.124.168:24007
   type: ss
   server: 14.29.124.168
@@ -59,12 +53,6 @@ proxies:
   port: 49771
   cipher: aes-128-gcm
   password: f8e4d8e3-36b5-42b1-af33-f0e1719976b4
-- name: 澳大利亚-0-0-ss-43.206.233.169:443
-  type: ss
-  server: 43.206.233.169
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 中国-0-0-ss-36.138.193.128:11023
   type: ss
   server: 36.138.193.128
@@ -101,12 +89,6 @@ proxies:
   port: 24005
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 中国-海南-海口-ss-sz.cny.page:25984
-  type: ss
-  server: sz.cny.page
-  port: 25984
-  cipher: aes-128-gcm
-  password: 2cfc4c58-88cb-4e00-9977-ef0a37559a22
 - name: 中国-广东-广州-ss-14.29.124.168:24009
   type: ss
   server: 14.29.124.168
@@ -161,6 +143,16 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /vm
+- name: 美国-0-0-v2ray-Kansas.v2ray.online:443
+  type: vmess
+  server: Kansas.v2ray.online
+  network: ws
+  port: 443
+  uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /speedtest
 - name: 印度尼西亚-大雅加达-雅加达-v2ray-rajasa.nirezzvpn.my.id:80
   type: vmess
   server: rajasa.nirezzvpn.my.id
@@ -171,7 +163,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmessws
-- name: 美国-0-0-v2ray-els200.jslist.tk:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
@@ -211,7 +203,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /shirker
-- name: 美国-加利福尼亚-旧金山-v2ray-4.mamadcucu.com:8880
+- name: 美国-0-0-v2ray-4.mamadcucu.com:8880
   type: vmess
   server: 4.mamadcucu.com
   network: ws
