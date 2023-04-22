@@ -5,12 +5,6 @@ proxies:
   port: 595
   cipher: chacha20-ietf-poly1305
   password: a2f3e987-f987-4bee-9b7c-e85f18c77580
-- name: 中国-广东-汕头-ss-00.node.vmssr.info:30002
-  type: ss
-  server: 00.node.vmssr.info
-  port: 30002
-  cipher: chacha20-ietf-poly1305
-  password: b964e07b-2a54-480c-9ea0-ad5314a09507
 - name: 意大利-0-0-ss-37.143.129.230:989
   type: ss
   server: 37.143.129.230
@@ -155,18 +149,6 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-江苏-常州-ss-223.111.114.252:788
-  type: ss
-  server: 223.111.114.252
-  port: 788
-  cipher: chacha20-ietf-poly1305
-  password: a2f3e987-f987-4bee-9b7c-e85f18c77580
-- name: 中国-上海-上海-ss-139.226.136.165:35509
-  type: ss
-  server: 139.226.136.165
-  port: 35509
-  cipher: aes-256-gcm
-  password: 4d5a811b-2289-43c3-a042-abd484e7505b
 - name: 中国-江苏-0-ss-223.109.67.30:777
   type: ss
   server: 223.109.67.30
@@ -209,12 +191,12 @@ proxies:
   port: 591
   cipher: chacha20-ietf-poly1305
   password: a2f3e987-f987-4bee-9b7c-e85f18c77580
-- name: 法国-0-0-ss-135.125.244.103:989
+- name: 澳大利亚-0-0-ss-43.206.233.169:443
   type: ss
-  server: 135.125.244.103
-  port: 989
+  server: 43.206.233.169
+  port: 443
   cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
+  password: amazonskr05
 - name: 中国-广东-广州-ssr-14.29.124.168:24008
   type: ssr
   server: 14.29.124.168
@@ -295,7 +277,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vpnjantit
-- name: 美国-0-0-v2ray-hax1.freeair.eu.org:80
+- name: 美国-加利福尼亚-旧金山-v2ray-hax1.freeair.eu.org:80
   type: vmess
   server: hax1.freeair.eu.org
   network: ws
@@ -305,7 +287,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /hax1
-- name: 中国-香港-0-v2ray-hkt.52147.top:80
+- name: 意大利-0-0-v2ray-hkt.52147.top:80
   type: vmess
   server: hkt.52147.top
   network: ws
@@ -445,7 +427,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /qwe123321ewq
-- name: 美国-0-0-v2ray-pm.motori.pw:8880
+- name: 美国-加利福尼亚-旧金山-v2ray-pm.motori.pw:8880
   type: vmess
   server: pm.motori.pw
   network: ws
@@ -515,3 +497,13 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8
+- name: 美国-加利福尼亚-旧金山-v2ray-ming2.kiwireich.com:443
+  type: vmess
+  server: ming2.kiwireich.com
+  network: ws
+  port: 443
+  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /ray
