@@ -1,1 +1,21 @@
-proxies: []
+proxies:
+- name: 中国-广东-广州-ssr-14.29.124.168:24008
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24008
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 新加坡-0-0-v2ray-asia.artunnel57.host:443
+  type: vmess
+  server: asia.artunnel57.host
+  network: ws
+  port: 443
+  uuid: 65e44501-defd-4609-a4e3-7028dc417b50
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /vmess-tls
