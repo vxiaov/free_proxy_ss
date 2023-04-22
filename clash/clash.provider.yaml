@@ -173,7 +173,7 @@ proxies:
   port: 34436
   cipher: chacha20-ietf-poly1305
   password: f0a9a2e2-0b62-4d46-a97c-c16eb25a88c7
-- name: 中国-广东-佛山-ss-cm1-wk.go001.buzz:19421
+- name: 中国-浙江-杭州-ss-cm1-wk.go001.buzz:19421
   type: ss
   server: cm1-wk.go001.buzz
   port: 19421
@@ -197,6 +197,12 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 中国-浙江-杭州-ss-cm1-wk.go001.buzz:19461
+  type: ss
+  server: cm1-wk.go001.buzz
+  port: 19461
+  cipher: chacha20-ietf-poly1305
+  password: 0ce70213-1b78-4f51-b9fa-9493c00cd6f5
 - name: 中国-广东-广州-ssr-14.29.124.168:24008
   type: ssr
   server: 14.29.124.168
@@ -277,7 +283,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vpnjantit
-- name: 美国-加利福尼亚-旧金山-v2ray-hax1.freeair.eu.org:80
+- name: 美国-0-0-v2ray-hax1.freeair.eu.org:80
   type: vmess
   server: hax1.freeair.eu.org
   network: ws
@@ -287,7 +293,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /hax1
-- name: 意大利-0-0-v2ray-hkt.52147.top:80
+- name: 中国-香港-0-v2ray-hkt.52147.top:80
   type: vmess
   server: hkt.52147.top
   network: ws
@@ -507,3 +513,13 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /ray
+- name: 美国-伊利诺伊-0-v2ray-vde2.0bad.com:443
+  type: vmess
+  server: vde2.0bad.com
+  network: ws
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /chat
