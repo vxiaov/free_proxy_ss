@@ -191,7 +191,7 @@ proxies:
   port: 25984
   cipher: aes-128-gcm
   password: 2cfc4c58-88cb-4e00-9977-ef0a37559a22
-- name: 中国-广东-广州-ss-api-wx-4.rancho.gay:50003
+- name: 中国-江西-南昌-ss-api-wx-4.rancho.gay:50003
   type: ss
   server: api-wx-4.rancho.gay
   port: 50003
@@ -201,6 +201,18 @@ proxies:
   type: ss
   server: 223.109.67.25
   port: 595
+  cipher: chacha20-ietf-poly1305
+  password: a2f3e987-f987-4bee-9b7c-e85f18c77580
+- name: 中国-江苏-常州-ss-223.111.113.195:820
+  type: ss
+  server: 223.111.113.195
+  port: 820
+  cipher: chacha20-ietf-poly1305
+  password: a2f3e987-f987-4bee-9b7c-e85f18c77580
+- name: 中国-江苏-常州-ss-223.111.114.252:788
+  type: ss
+  server: 223.111.114.252
+  port: 788
   cipher: chacha20-ietf-poly1305
   password: a2f3e987-f987-4bee-9b7c-e85f18c77580
 - name: 中国-广东-广州-ssr-14.29.124.168:24008
@@ -283,7 +295,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /hax1
-- name: 韩国-0-0-v2ray-hkt.52147.top:80
+- name: 德国-Nordrhein-Westfalen-0-v2ray-hkt.52147.top:80
   type: vmess
   server: hkt.52147.top
   network: ws
@@ -423,7 +435,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /qwe123321ewq
-- name: 美国-0-0-v2ray-pm.motori.pw:8880
+- name: 美国-加利福尼亚-旧金山-v2ray-pm.motori.pw:8880
   type: vmess
   server: pm.motori.pw
   network: ws
@@ -523,7 +535,7 @@ proxies:
   cipher: auto
   tls: true
   ws-path: /vm
-- name: 美国-0-0-v2ray-els200.jslist.tk:8443
+- name: 美国-加利福尼亚-旧金山-v2ray-els200.jslist.tk:8443
   type: vmess
   server: els200.jslist.tk
   network: ws
@@ -573,3 +585,23 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /80b48db1-7a27-4d2b-a12b-009feb033b04.j.live001.m3u8
+- name: 美国-加利福尼亚-旧金山-v2ray-amsterdam.v2ray.online:443
+  type: vmess
+  server: amsterdam.v2ray.online
+  network: ws
+  port: 443
+  uuid: A59E320C-BAC6-45E3-8A27-1518610708D0
+  alterId: 4
+  cipher: auto
+  tls: true
+  ws-path: /speedtest
+- name: 瑞士-0-0-v2ray-45.90.59.186:10000
+  type: vmess
+  server: 45.90.59.186
+  network: ws
+  port: 10000
+  uuid: b14bcbcc-ddd4-11ed-ab89-cb7c2de02f9d
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /vpnjantit
