@@ -143,12 +143,6 @@ proxies:
   port: 24006
   cipher: aes-128-cfb
   password: QazEdcTgb159@$*
-- name: 中国-浙江-杭州-ss-cm1-wk.go001.buzz:19421
-  type: ss
-  server: cm1-wk.go001.buzz
-  port: 19421
-  cipher: chacha20-ietf-poly1305
-  password: 0ce70213-1b78-4f51-b9fa-9493c00cd6f5
 - name: 美国-密歇根-0-ss-jp-02.cn2.run:10000
   type: ss
   server: jp-02.cn2.run
@@ -167,7 +161,7 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 中国-广东-佛山-ss-cm1-wk.go001.buzz:19461
+- name: 中国-浙江-杭州-ss-cm1-wk.go001.buzz:19461
   type: ss
   server: cm1-wk.go001.buzz
   port: 19461
@@ -183,12 +177,6 @@ proxies:
   type: ss
   server: 223.109.67.25
   port: 595
-  cipher: chacha20-ietf-poly1305
-  password: a2f3e987-f987-4bee-9b7c-e85f18c77580
-- name: 中国-江苏-常州-ss-223.111.113.195:820
-  type: ss
-  server: 223.111.113.195
-  port: 820
   cipher: chacha20-ietf-poly1305
   password: a2f3e987-f987-4bee-9b7c-e85f18c77580
 - name: 中国-江苏-常州-ss-223.111.114.252:788
@@ -209,12 +197,24 @@ proxies:
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: 中国-广东-佛山-ss-catlog.flareai.science:15443
+- name: 中国-广东-广州-ss-iplc.hk.fp-dns.xyz:34436
   type: ss
-  server: catlog.flareai.science
-  port: 15443
+  server: iplc.hk.fp-dns.xyz
+  port: 34436
   cipher: chacha20-ietf-poly1305
-  password: d5dd371c-11db-4cfb-b458-072f0fbd0e18
+  password: f0a9a2e2-0b62-4d46-a97c-c16eb25a88c7
+- name: 中国-江苏-常州-ss-223.111.114.232:651
+  type: ss
+  server: 223.111.114.232
+  port: 651
+  cipher: chacha20-ietf-poly1305
+  password: a2f3e987-f987-4bee-9b7c-e85f18c77580
+- name: 中国-0-0-ss-36.137.106.45:11023
+  type: ss
+  server: 36.137.106.45
+  port: 11023
+  cipher: aes-256-gcm
+  password: ll668668@
 - name: 中国-广东-广州-ssr-14.29.124.168:24008
   type: ssr
   server: 14.29.124.168
@@ -275,7 +275,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vpnjantit
-- name: 美国-0-0-v2ray-hax1.freeair.eu.org:80
+- name: 美国-加利福尼亚-旧金山-v2ray-hax1.freeair.eu.org:80
   type: vmess
   server: hax1.freeair.eu.org
   network: ws
@@ -405,7 +405,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /qwe123321ewq
-- name: 美国-加利福尼亚-旧金山-v2ray-pm.motori.pw:8880
+- name: 美国-0-0-v2ray-pm.motori.pw:8880
   type: vmess
   server: pm.motori.pw
   network: ws
@@ -465,7 +465,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8
-- name: 美国-加利福尼亚-旧金山-v2ray-ming2.kiwireich.com:443
+- name: 美国-0-0-v2ray-ming2.kiwireich.com:443
   type: vmess
   server: ming2.kiwireich.com
   network: ws
@@ -738,6 +738,26 @@ proxies:
 - name: 美国-俄勒冈-0-v2ray-sing01.4gviet.com:80
   type: vmess
   server: sing01.4gviet.com
+  network: ws
+  port: 80
+  uuid: de672279-b96b-4108-9b37-d92765210428
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /4gviet.com
+- name: 中国-广东-0-v2ray-hbng.cdn.node.a.tddns-ounk.com:50026
+  type: vmess
+  server: hbng.cdn.node.a.tddns-ounk.com
+  network: ws
+  port: 50026
+  uuid: 9288e85f-9b18-3e89-bd66-221acdafbd1a
+  alterId: 4
+  cipher: auto
+  tls: false
+  ws-path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8
+- name: 越南-河内-0-v2ray-vn13.4gviet.com:80
+  type: vmess
+  server: vn13.4gviet.com
   network: ws
   port: 80
   uuid: de672279-b96b-4108-9b37-d92765210428
