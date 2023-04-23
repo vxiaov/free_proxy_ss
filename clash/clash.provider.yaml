@@ -1,94 +1,22 @@
 proxies:
-- name: 中国-江苏-常州-ss-223.111.114.234:591
-  type: ss
-  server: 223.111.114.234
-  port: 591
-  cipher: chacha20-ietf-poly1305
-  password: a2f3e987-f987-4bee-9b7c-e85f18c77580
-- name: 美国-新泽西-0-ss-142.202.48.99:3389
-  type: ss
-  server: 142.202.48.99
-  port: 3389
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 美国-佐治亚-亚特兰大-ss-167.88.63.79:3306
-  type: ss
-  server: 167.88.63.79
-  port: 3306
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 中国-广东-广州-ss-14.29.124.168:24006
-  type: ss
-  server: 14.29.124.168
-  port: 24006
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 中国-江苏-常州-ss-223.111.114.234:590
-  type: ss
-  server: 223.111.114.234
-  port: 590
-  cipher: chacha20-ietf-poly1305
-  password: a2f3e987-f987-4bee-9b7c-e85f18c77580
-- name: 中国-江苏-常州-ss-223.111.114.226:671
-  type: ss
-  server: 223.111.114.226
-  port: 671
-  cipher: chacha20-ietf-poly1305
-  password: a2f3e987-f987-4bee-9b7c-e85f18c77580
-- name: 澳大利亚-0-0-ss-43.206.233.169:443
-  type: ss
-  server: 43.206.233.169
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 中国-广东-广州-ss-14.29.124.168:24003
-  type: ss
-  server: 14.29.124.168
-  port: 24003
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 中国-江苏-0-ss-223.109.67.28:652
-  type: ss
-  server: 223.109.67.28
-  port: 652
-  cipher: chacha20-ietf-poly1305
-  password: a2f3e987-f987-4bee-9b7c-e85f18c77580
-- name: 日本-东京都-东京-ss-85.208.108.21:443
+- name: 日本-东京都-东京-ss-85.208.108.21:8090
   type: ss
   server: 85.208.108.21
-  port: 443
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-- name: 中国-0-0-ss-36.137.106.45:11023
-  type: ss
-  server: 36.137.106.45
-  port: 11023
-  cipher: aes-256-gcm
-  password: ll668668@
-- name: 日本-东京都-东京-ss-85.208.108.21:8008
-  type: ss
-  server: 85.208.108.21
-  port: 8008
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-- name: 中国-广东-广州-ss-14.29.124.168:24007
-  type: ss
-  server: 14.29.124.168
-  port: 24007
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- name: 美国-加利福尼亚-圣何塞-ss-167.88.61.213:8091
-  type: ss
-  server: 167.88.61.213
-  port: 8091
+  port: 8090
   cipher: aes-256-gcm
   password: PCnnH6SQSnfoS27
-- name: 中国-广东-广州-ss-14.29.124.168:24002
+- name: 荷兰-0-0-ss-45.131.248.199:45265
   type: ss
-  server: 14.29.124.168
-  port: 24002
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
+  server: 45.131.248.199
+  port: 45265
+  cipher: aes-256-gcm
+  password: Trdm4IPLAn
+- name: 美国-佐治亚-亚特兰大-ss-167.88.63.79:8882
+  type: ss
+  server: 167.88.63.79
+  port: 8882
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
 - name: 美国-加利福尼亚-圣何塞-ss-167.88.61.213:443
   type: ss
   server: 167.88.61.213
@@ -137,12 +65,54 @@ proxies:
   port: 11023
   cipher: aes-256-gcm
   password: ll668668@
+- name: 澳大利亚-0-0-ss-43.206.233.169:443
+  type: ss
+  server: 43.206.233.169
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 中国-江苏-常州-ss-223.111.114.234:590
+  type: ss
+  server: 223.111.114.234
+  port: 590
+  cipher: chacha20-ietf-poly1305
+  password: a2f3e987-f987-4bee-9b7c-e85f18c77580
+- name: 美国-新泽西-0-ss-142.202.48.99:3389
+  type: ss
+  server: 142.202.48.99
+  port: 3389
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 中国-江苏-0-ss-223.109.67.28:652
+  type: ss
+  server: 223.109.67.28
+  port: 652
+  cipher: chacha20-ietf-poly1305
+  password: a2f3e987-f987-4bee-9b7c-e85f18c77580
+- name: 日本-东京都-东京-ss-85.208.108.21:443
+  type: ss
+  server: 85.208.108.21
+  port: 443
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+- name: 美国-新泽西-0-ss-142.202.48.99:5004
+  type: ss
+  server: 142.202.48.99
+  port: 5004
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
 - name: 美国-佐治亚-亚特兰大-ss-167.88.63.79:8118
   type: ss
   server: 167.88.63.79
   port: 8118
   cipher: aes-256-gcm
   password: cdBIDV42DCwnfIN
+- name: 日本-东京都-东京-ss-85.208.108.21:5601
+  type: ss
+  server: 85.208.108.21
+  port: 5601
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
 - name: 日本-东京都-东京-ss-85.208.108.21:8080
   type: ss
   server: 85.208.108.21
@@ -155,6 +125,12 @@ proxies:
   port: 8000
   cipher: aes-256-gcm
   password: KixLvKzwjekG00rm
+- name: 美国-佐治亚-亚特兰大-ss-167.88.63.79:5003
+  type: ss
+  server: 167.88.63.79
+  port: 5003
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
 - name: 日本-东京都-东京-ss-85.208.108.21:7306
   type: ss
   server: 85.208.108.21
@@ -173,12 +149,24 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 中国-广东-广州-ss-14.29.124.168:24005
+  type: ss
+  server: 14.29.124.168
+  port: 24005
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
 - name: 乌克兰-0-0-ss-176.126.113.151:26623
   type: ss
   server: 176.126.113.151
   port: 26623
   cipher: chacha20-ietf-poly1305
   password: pVTWnDrxRjpiGabFDupRJq
+- name: 新加坡-0-0-ss-176.97.65.241:989
+  type: ss
+  server: 176.97.65.241
+  port: 989
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
 - name: 法国-0-0-ss-135.125.244.103:989
   type: ss
   server: 135.125.244.103
@@ -233,6 +221,84 @@ proxies:
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
+- name: 中国-江苏-常州-ss-223.111.114.234:591
+  type: ss
+  server: 223.111.114.234
+  port: 591
+  cipher: chacha20-ietf-poly1305
+  password: a2f3e987-f987-4bee-9b7c-e85f18c77580
+- name: 中国-江苏-常州-ss-223.111.114.226:671
+  type: ss
+  server: 223.111.114.226
+  port: 671
+  cipher: chacha20-ietf-poly1305
+  password: a2f3e987-f987-4bee-9b7c-e85f18c77580
+- name: 中国-广东-广州-ss-14.29.124.168:24006
+  type: ss
+  server: 14.29.124.168
+  port: 24006
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 美国-佐治亚-亚特兰大-ss-167.88.63.79:3306
+  type: ss
+  server: 167.88.63.79
+  port: 3306
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+- name: 中国-广东-广州-ss-14.29.124.168:24003
+  type: ss
+  server: 14.29.124.168
+  port: 24003
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 韩国-首尔-首尔-ss-54.180.82.158:6983
+  type: ss
+  server: 54.180.82.158
+  port: 6983
+  cipher: chacha20-ietf
+  password: Hucloud12
+- name: 中国-浙江-嘉兴-ss-zjcu.lele233.top:26111
+  type: ss
+  server: zjcu.lele233.top
+  port: 26111
+  cipher: chacha20-ietf-poly1305
+  password: fd6b031e-7b35-4716-8e53-060c755b5259
+- name: 日本-东京都-东京-ss-85.208.108.21:8008
+  type: ss
+  server: 85.208.108.21
+  port: 8008
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+- name: 中国-0-0-ss-36.137.106.45:11023
+  type: ss
+  server: 36.137.106.45
+  port: 11023
+  cipher: aes-256-gcm
+  password: ll668668@
+- name: 美国-加利福尼亚-圣何塞-ss-167.88.61.213:8091
+  type: ss
+  server: 167.88.61.213
+  port: 8091
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+- name: 中国-广东-广州-ss-14.29.124.168:24007
+  type: ss
+  server: 14.29.124.168
+  port: 24007
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 中国-广东-广州-ss-14.29.124.168:24002
+  type: ss
+  server: 14.29.124.168
+  port: 24002
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- name: 美国-加利福尼亚-圣何塞-ss-167.88.61.213:3389
+  type: ss
+  server: 167.88.61.213
+  port: 3389
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
 - name: 中国-广东-广州-ssr-14.29.124.168:24005
   type: ssr
   server: 14.29.124.168
@@ -343,7 +409,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-0-0-v2ray-amsterdam.v2ray.online:443
+- name: 美国-加利福尼亚-旧金山-v2ray-amsterdam.v2ray.online:443
   type: vmess
   server: amsterdam.v2ray.online
   network: ws
