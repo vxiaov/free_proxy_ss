@@ -107,6 +107,12 @@ proxies:
   port: 652
   cipher: chacha20-ietf-poly1305
   password: a2f3e987-f987-4bee-9b7c-e85f18c77580
+- name: 美国-佐治亚-亚特兰大-ss-167.88.63.79:7307
+  type: ss
+  server: 167.88.63.79
+  port: 7307
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
 - name: 日本-东京都-东京-ss-85.208.108.21:443
   type: ss
   server: 85.208.108.21
@@ -359,36 +365,6 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /sina.cn
-- name: 中国-广东-广州-v2ray-aasx2.cdn.node.a.tddns-ounk.com:50018
-  type: vmess
-  server: aasx2.cdn.node.a.tddns-ounk.com
-  network: ws
-  port: 50018
-  uuid: 9288e85f-9b18-3e89-bd66-221acdafbd1a
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8
-- name: 法国-0-0-v2ray-146.59.32.32:10000
-  type: vmess
-  server: 146.59.32.32
-  network: ws
-  port: 10000
-  uuid: 2377e47a-ddd4-11ed-aab6-43faf4c03025
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /vpnjantit
-- name: 美国-0-0-v2ray-hax1.freeair.eu.org:80
-  type: vmess
-  server: hax1.freeair.eu.org
-  network: ws
-  port: 80
-  uuid: 2ca15318-1015-486d-ef3e-4652102a235a
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /hax1
 - name: 中国-0-0-v2ray-n1681279098.lyqrdde.cn:443
   type: vmess
   server: n1681279098.lyqrdde.cn
@@ -439,36 +415,6 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vmess
-- name: 美国-加利福尼亚-旧金山-v2ray-amsterdam.v2ray.online:443
-  type: vmess
-  server: amsterdam.v2ray.online
-  network: ws
-  port: 443
-  uuid: A59E320C-BAC6-45E3-8A27-1518610708D0
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /speedtest
-- name: 瑞士-0-0-v2ray-45.90.59.186:10000
-  type: vmess
-  server: 45.90.59.186
-  network: ws
-  port: 10000
-  uuid: b14bcbcc-ddd4-11ed-ab89-cb7c2de02f9d
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /vpnjantit
-- name: 美国-纽约-纽约-v2ray-107.172.60.35:80
-  type: vmess
-  server: 107.172.60.35
-  network: ws
-  port: 80
-  uuid: 4297dcc2-376b-4db3-b9e0-d5dff64dce83
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /
 - name: 美国-0-0-v2ray-hax.smely.eu.org:80
   type: vmess
   server: hax.smely.eu.org
@@ -489,17 +435,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /vpnjantit
-- name: 美国-0-0-v2ray-fetr.qasb.shop:443
-  type: vmess
-  server: fetr.qasb.shop
-  network: ws
-  port: 443
-  uuid: 09b8b7af-668e-4f73-8b85-463fd616b7ec
-  alterId: 4
-  cipher: auto
-  tls: true
-  ws-path: /
-- name: 美国-0-0-v2ray-hax2.freeair.eu.org:80
+- name: 美国-加利福尼亚-旧金山-v2ray-hax2.freeair.eu.org:80
   type: vmess
   server: hax2.freeair.eu.org
   network: ws
@@ -509,23 +445,3 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /hax2
-- name: 中国-广东-0-v2ray-bnm4.cdn.node.a.tddns-ounk.com:50030
-  type: vmess
-  server: bnm4.cdn.node.a.tddns-ounk.com
-  network: ws
-  port: 50030
-  uuid: 9288e85f-9b18-3e89-bd66-221acdafbd1a
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8
-- name: 中国-辽宁-辽阳-v2ray-dc.xmrthnode.com:42054
-  type: vmess
-  server: dc.xmrthnode.com
-  network: ws
-  port: 42054
-  uuid: 61a06847-820f-3785-af90-506d3e988a12
-  alterId: 4
-  cipher: auto
-  tls: false
-  ws-path: /th
