@@ -11,12 +11,6 @@ proxies:
   password: QazEdcTgb159@$*
   port: 24003
   cipher: aes-128-cfb
-- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24009
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24009
-  cipher: aes-128-cfb
 - name: 🇰🇷韩国-首尔-首尔-ss-3.35.55.5:443
   type: ss
   server: 3.35.55.5
@@ -28,18 +22,6 @@ proxies:
   server: 62.12.116.66
   password: f8f7aCzcPKbsF8p3
   port: 989
-  cipher: aes-256-cfb
-- name: 🇨🇳中国-广东-佛山-ss-gdcm.v-too.cloud:47998
-  type: ss
-  server: gdcm.v-too.cloud
-  password: 17f51140-ad9d-4d80-bed6-e228fc648523
-  port: 47998
-  cipher: chacha20-ietf-poly1305
-- name: 🇦🇺澳大利亚-0-0-ss-43.206.210.193:443
-  type: ss
-  server: 43.206.210.193
-  password: amazonskr05
-  port: 443
   cipher: aes-256-cfb
 - name: 🇨🇳中国-广东-佛山-ss-gdcm.v-too.cloud:34644
   type: ss
@@ -53,24 +35,12 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24002
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24002
-  cipher: aes-128-cfb
 - name: 🇨🇳中国-广东-佛山-ss-gdcm.v-too.cloud:31710
   type: ss
   server: gdcm.v-too.cloud
   password: 17f51140-ad9d-4d80-bed6-e228fc648523
   port: 31710
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳中国-0-0-ss-36.137.106.45:11023
-  type: ss
-  server: 36.137.106.45
-  password: ll668668@
-  port: 11023
-  cipher: aes-256-gcm
 - name: 🇨🇳中国-广东-佛山-ss2-gdcm.v-too.cloud:31710
   type: ss
   server: gdcm.v-too.cloud
@@ -467,6 +437,17 @@ proxies:
   network: ws
   port: 2095
   uuid: 56fc3d21-4a2f-4f68-8f78-eebd6a051101
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇺🇸美国-加利福尼亚-0-v2ray-pm.motori.pw:8880
+  type: vmess
+  server: pm.motori.pw
+  network: ws
+  port: 8880
+  uuid: d1c59699-1874-49f1-b9ba-bbbfd7968075
   alterId: 4
   cipher: auto
   udp: false
