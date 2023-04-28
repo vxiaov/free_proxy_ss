@@ -59,6 +59,12 @@ proxies:
   password: 17f51140-ad9d-4d80-bed6-e228fc648523
   port: 24629
   cipher: chacha20-ietf-poly1305
+- name: 🇨🇳中国-广东-佛山-ss2-gdcm.v-too.cloud:31710
+  type: ss
+  server: gdcm.v-too.cloud
+  password: 17f51140-ad9d-4d80-bed6-e228fc648523
+  port: 31710
+  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸美国-佛罗里达-0-ss2-143.42.61.105:35815
   type: ss
   server: 143.42.61.105
@@ -71,24 +77,24 @@ proxies:
   password: 192f5819-f870-4b20-ae3e-628c4518d4b2
   port: 37382
   cipher: chacha20-ietf-poly1305
-- name: 🇸🇬新加坡-0-0-ssr-sg-am3.eqsunshine.com:32001
+- name: 🇨🇳中国-广东-广州-ssr-14.29.124.168:24000
   type: ssr
-  server: sg-am3.eqsunshine.com
-  password: 3g0dHlKME
-  obfs: tls1.2_ticket_auth
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
   protocol: origin
-  port: 32001
-  cipher: aes-256-cfb
+  port: 24000
+  cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 🇯🇵日本-东京都-东京-ssr-jp-am48-6.eqnode.net:8081
+- name: 🇨🇳中国-广东-广州-ssr-14.29.124.168:24008
   type: ssr
-  server: jp-am48-6.eqnode.net
-  password: eAokbaDN6
-  obfs: tls1.2_ticket_auth
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
   protocol: origin
-  port: 8081
-  cipher: aes-256-cfb
+  port: 24008
+  cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
 - name: 🇩🇪德国-0-0-v2ray-sg-v.sshmax.xyz:80
@@ -476,14 +482,3 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇺🇸美国-加利福尼亚-0-v2ray-4.mamadcucu.com:8880
-  type: vmess
-  server: 4.mamadcucu.com
-  network: ws
-  port: 8880
-  uuid: 51ba5a9a-4b7c-4c62-b4ae-0e53ec8d3024
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /ArsalanTauBot
