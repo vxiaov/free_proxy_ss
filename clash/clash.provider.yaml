@@ -137,7 +137,17 @@ proxies:
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 🇨🇳中国-广东-广州-v2ray-v.vpchi.tk:2086
+- name: 🇯🇵日本-东京都-东京-ssr-jp-am48-6.eqnode.net:8081
+  type: ssr
+  server: jp-am48-6.eqnode.net
+  password: eAokbaDN6
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇯🇵日本-东京都-东京-v2ray-v.vpchi.tk:2086
   type: vmess
   server: v.vpchi.tk
   network: ws
@@ -148,7 +158,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇨🇳中国-广东-广州-v2ray-inf.314156.xyz:443
+- name: 🇯🇵日本-东京都-东京-v2ray-inf.314156.xyz:443
   type: vmess
   server: inf.314156.xyz
   network: ws
@@ -247,7 +257,7 @@ proxies:
   udp: false
   tls: true
   ws-path: /speedtest
-- name: 🇨🇳中国-浙江-杭州-v2ray-t.cccao.cyou:16618
+- name: 🇨🇳中国-广东-深圳-v2ray-t.cccao.cyou:16618
   type: vmess
   server: t.cccao.cyou
   network: ws
@@ -269,3 +279,14 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇨🇳中国-广东-广州-v2ray-lv2.sharecentrepro.org:443
+  type: vmess
+  server: lv2.sharecentrepro.org
+  network: ws
+  port: 443
+  uuid: 2e496758-950e-4549-8842-d5eec98d9fde
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /shirker
