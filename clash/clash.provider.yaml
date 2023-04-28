@@ -35,6 +35,30 @@ proxies:
   password: QazEdcTgb159@$*
   port: 24006
   cipher: aes-128-cfb
+- name: 🇨🇳中国-广东-佛山-ss-gdcm.v-too.cloud:47998
+  type: ss
+  server: gdcm.v-too.cloud
+  password: 3f486c00-10d9-4b38-aca9-43f5636b290b
+  port: 47998
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳中国-广东-佛山-ss-gdcm.v-too.cloud:28138
+  type: ss
+  server: gdcm.v-too.cloud
+  password: 17f51140-ad9d-4d80-bed6-e228fc648523
+  port: 28138
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳中国-安徽-马鞍山-ss-ahcm.v-too.cloud:10259
+  type: ss
+  server: ahcm.v-too.cloud
+  password: 17f51140-ad9d-4d80-bed6-e228fc648523
+  port: 10259
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24007
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24007
+  cipher: aes-128-cfb
 - name: 🇨🇳中国-广东-佛山-ss2-gdcm.v-too.cloud:33684
   type: ss
   server: gdcm.v-too.cloud
@@ -53,6 +77,12 @@ proxies:
   password: KixLvKzwjekG00rm
   port: 5500
   cipher: aes-256-gcm
+- name: 🇨🇳中国-上海-上海-ss2-139.226.136.165:35509
+  type: ss
+  server: 139.226.136.165
+  password: 4d5a811b-2289-43c3-a042-abd484e7505b
+  port: 35509
+  cipher: aes-256-gcm
 - name: 🇦🇺澳大利亚-0-0-ssr-jp-am48-6.eqnode.net:8081
   type: ssr
   server: jp-am48-6.eqnode.net
@@ -63,7 +93,37 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 🇦🇺澳大利亚-0-0-v2ray-v.vpchi.tk:2086
+- name: 🇨🇳中国-广东-广州-ssr-14.29.124.168:24005
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24005
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇨🇳中国-广东-广州-ssr-14.29.124.168:24000
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24000
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇨🇳中国-广东-广州-ssr-14.29.124.168:24008
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24008
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇨🇳中国-广东-广州-v2ray-v.vpchi.tk:2086
   type: vmess
   server: v.vpchi.tk
   network: ws
@@ -74,7 +134,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇦🇺澳大利亚-0-0-v2ray-inf.314156.xyz:443
+- name: 🇨🇳中国-广东-广州-v2ray-inf.314156.xyz:443
   type: vmess
   server: inf.314156.xyz
   network: ws
@@ -118,3 +178,47 @@ proxies:
   udp: false
   tls: true
   ws-path: /
+- name: 🇨🇳中国-香港-0-v2ray-n1682396197.edpmvga.cn:443
+  type: vmess
+  server: n1682396197.edpmvga.cn
+  network: ws
+  port: 443
+  uuid: 2d6feb24-efc5-4932-a255-d15c791e9b3a
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /
+- name: 🇨🇳中国-香港-0-v2ray-i.vpchi.tk:2082
+  type: vmess
+  server: i.vpchi.tk
+  network: ws
+  port: 2082
+  uuid: 1cbcbeff-de07-4f43-8ca9-4cb3a2a508ab
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇨🇳中国-香港-0-v2ray-dp1.scproxy.top:443
+  type: vmess
+  server: dp1.scproxy.top
+  network: ws
+  port: 443
+  uuid: 2e496758-950e-4549-8842-d5eec98d9fde
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /shirker
+- name: 🇧🇪比利时-0-0-v2ray-de-v.sshmax.xyz:80
+  type: vmess
+  server: de-v.sshmax.xyz
+  network: ws
+  port: 80
+  uuid: 5668ff97-631f-4602-a13f-b56552c67abe
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /vmess
