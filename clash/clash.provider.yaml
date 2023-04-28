@@ -65,6 +65,24 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
+- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24009
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24009
+  cipher: aes-128-cfb
+- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24006
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24006
+  cipher: aes-128-cfb
+- name: 🇦🇺澳大利亚-0-0-ss-43.207.233.159:443
+  type: ss
+  server: 43.207.233.159
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
 - name: 🇨🇳中国-广东-佛山-ss2-gdcm.v-too.cloud:24629
   type: ss
   server: gdcm.v-too.cloud
@@ -83,7 +101,7 @@ proxies:
   password: 17f51140-ad9d-4d80-bed6-e228fc648523
   port: 33684
   cipher: chacha20-ietf-poly1305
-- name: 🇸🇬新加坡-0-0-ssr-sg-am3.eqsunshine.com:32001
+- name: 🇺🇸美国-康涅狄格-0-ssr-sg-am3.eqsunshine.com:32001
   type: ssr
   server: sg-am3.eqsunshine.com
   password: 3g0dHlKME
@@ -93,16 +111,6 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 🇨🇳中国-广东-广州-ssr-14.29.124.168:24008
-  type: ssr
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  obfs: plain
-  protocol: origin
-  port: 24008
-  cipher: aes-128-cfb
-  protocol-param: ''
-  obfs-param: ''
 - name: 🇨🇳中国-广东-广州-ssr-14.29.124.168:24000
   type: ssr
   server: 14.29.124.168
@@ -110,16 +118,6 @@ proxies:
   obfs: plain
   protocol: origin
   port: 24000
-  cipher: aes-128-cfb
-  protocol-param: ''
-  obfs-param: ''
-- name: 🇨🇳中国-广东-广州-ssr-14.29.124.168:24005
-  type: ssr
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  obfs: plain
-  protocol: origin
-  port: 24005
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
@@ -178,3 +176,14 @@ proxies:
   udp: false
   tls: true
   ws-path: /ray
+- name: 🇨🇳中国-上海-上海-v2ray-v.vpchi.tk:2086
+  type: vmess
+  server: v.vpchi.tk
+  network: ws
+  port: 2086
+  uuid: 7165a97e-9a41-421f-f709-e33e9e23f4d0
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
