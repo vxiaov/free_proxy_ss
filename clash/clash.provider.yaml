@@ -11,12 +11,6 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇫🇷法国-0-0-ss-135.125.244.103:989
-  type: ss
-  server: 135.125.244.103
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  cipher: aes-256-cfb
 - name: 🇦🇺澳大利亚-0-0-ss-43.206.240.122:443
   type: ss
   server: 43.206.240.122
@@ -41,12 +35,6 @@ proxies:
   password: 8fc67dfc-5fe9-4e82-ab64-005deea8c57d
   port: 2001
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24003
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24003
-  cipher: aes-128-cfb
 - name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24007
   type: ss
   server: 14.29.124.168
@@ -71,12 +59,12 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24001
+- name: 🇦🇺澳大利亚-0-0-ss-43.207.233.159:443
   type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24001
-  cipher: aes-128-cfb
+  server: 43.207.233.159
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
 - name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24009
   type: ss
   server: 14.29.124.168
@@ -107,6 +95,18 @@ proxies:
   password: 8fc67dfc-5fe9-4e82-ab64-005deea8c57d
   port: 2002
   cipher: chacha20-ietf-poly1305
+- name: 🇨🇳中国-广东-揭阳-ss2-120.240.168.166:2003
+  type: ss
+  server: 120.240.168.166
+  password: 8fc67dfc-5fe9-4e82-ab64-005deea8c57d
+  port: 2003
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳中国-辽宁-辽阳-ss2-60.18.196.204:2002
+  type: ss
+  server: 60.18.196.204
+  password: 8fc67dfc-5fe9-4e82-ab64-005deea8c57d
+  port: 2002
+  cipher: chacha20-ietf-poly1305
 - name: 🇨🇳中国-广东-广州-ssr-14.29.124.168:24008
   type: ssr
   server: 14.29.124.168
@@ -128,6 +128,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /PGV2vtMvxwNFt2
+- name: 🇩🇪德国-法兰克福-法兰克福-v2ray-pm.motori.pw:8880
+  type: vmess
+  server: pm.motori.pw
+  network: ws
+  port: 8880
+  uuid: d1c59699-1874-49f1-b9ba-bbbfd7968075
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇩🇪德国-法兰克福-法兰克福-v2ray-ming2.kiwireich.com:443
   type: vmess
   server: ming2.kiwireich.com
@@ -304,7 +315,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /opt/video/images
-- name: 🇨🇳中国-陕西-咸阳-v2ray-yes.iamagoodman.net:16618
+- name: 🇨🇳中国-湖南-岳阳-v2ray-yes.iamagoodman.net:16618
   type: vmess
   server: yes.iamagoodman.net
   network: ws
