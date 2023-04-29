@@ -1,9 +1,21 @@
 proxies:
+- name: 🇨🇳中国-广东-揭阳-ss-120.240.168.166:2003
+  type: ss
+  server: 120.240.168.166
+  password: 8fc67dfc-5fe9-4e82-ab64-005deea8c57d
+  port: 2003
+  cipher: chacha20-ietf-poly1305
 - name: 🇦🇺澳大利亚-0-0-ss-43.206.210.193:443
   type: ss
   server: 43.206.210.193
   password: amazonskr05
   port: 443
+  cipher: aes-256-cfb
+- name: 🇫🇷法国-0-0-ss-135.125.244.103:989
+  type: ss
+  server: 135.125.244.103
+  password: f8f7aCzcPKbsF8p3
+  port: 989
   cipher: aes-256-cfb
 - name: 🇦🇺澳大利亚-0-0-ss-43.206.240.122:443
   type: ss
@@ -47,6 +59,12 @@ proxies:
   password: QazEdcTgb159@$*
   port: 24006
   cipher: aes-128-cfb
+- name: 🇨🇳中国-广东-揭阳-ss-120.240.168.166:2002
+  type: ss
+  server: 120.240.168.166
+  password: 8fc67dfc-5fe9-4e82-ab64-005deea8c57d
+  port: 2002
+  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵日本-东京都-东京-ss-52.194.213.108:443
   type: ss
   server: 52.194.213.108
@@ -65,6 +83,12 @@ proxies:
   password: QazEdcTgb159@$*
   port: 24009
   cipher: aes-128-cfb
+- name: 🇨🇳中国-广东-揭阳-ss-120.240.168.164:2003
+  type: ss
+  server: 120.240.168.164
+  password: 8fc67dfc-5fe9-4e82-ab64-005deea8c57d
+  port: 2003
+  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸美国-佐治亚-亚特兰大-ss-169.197.141.187:8888
   type: ss
   server: 169.197.141.187
@@ -302,6 +326,17 @@ proxies:
   udp: false
   tls: true
   ws-path: /vm
+- name: 🇸🇬新加坡-0-0-v2ray-sgddnsfz.apcloudcdn.com:80
+  type: vmess
+  server: sgddnsfz.apcloudcdn.com
+  network: ws
+  port: 80
+  uuid: d0634311-d055-4640-ba14-48f27afecd0a
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇸🇬新加坡-0-0-v2ray-sigma.jandapirang.my.id:80
   type: vmess
   server: sigma.jandapirang.my.id
@@ -324,7 +359,7 @@ proxies:
   udp: false
   tls: true
   ws-path: /E86414F638E11
-- name: 🇨🇳中国-广东-广州-v2ray-m.lwvzmdu.cn:16618
+- name: 🇨🇳中国-广东-佛山-v2ray-m.lwvzmdu.cn:16618
   type: vmess
   server: m.lwvzmdu.cn
   network: ws
