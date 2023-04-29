@@ -191,6 +191,12 @@ proxies:
   password: TEzjfAYq2IjtuoS
   port: 6697
   cipher: aes-256-gcm
+- name: 🇺🇸美国-佐治亚-亚特兰大-ss-169.197.141.187:2375
+  type: ss
+  server: 169.197.141.187
+  password: faBAoD54k87UJG7
+  port: 2375
+  cipher: aes-256-gcm
 - name: 🇳🇱荷兰-阿姆斯特丹-阿姆斯特丹-ss-213.108.110.202:8080
   type: ss
   server: 213.108.110.202
@@ -293,26 +299,30 @@ proxies:
   password: FoOiGlkAA9yPEGP
   port: 7306
   cipher: aes-256-gcm
-- name: 🇺🇸美国-康涅狄格-0-ss-172.99.190.61:7002
-  type: ss
-  server: 172.99.190.61
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  cipher: aes-256-gcm
 - name: 🇺🇸美国-加利福尼亚-圣何塞-ss2-167.88.61.213:8881
   type: ss
   server: 167.88.61.213
   password: kDWvXYZoTBcGkC4
   port: 8881
   cipher: aes-256-gcm
-- name: 🇷🇺俄罗斯-Novosibirskaya-0-v2ray-v.vpchi.tk:2086
+- name: 🇸🇬新加坡-0-0-ssr-sg-am3.eqsunshine.com:32001
+  type: ssr
+  server: sg-am3.eqsunshine.com
+  password: 3g0dHlKME
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 32001
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇺🇸美国-伊利诺伊-芝加哥-v2ray-usg.fljsm.com:443
   type: vmess
-  server: v.vpchi.tk
+  server: usg.fljsm.com
   network: ws
-  port: 2086
-  uuid: 7165a97e-9a41-421f-f709-e33e9e23f4d0
+  port: 443
+  uuid: e5543efd-5400-3760-9bb6-02767728e888
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /
+  ws-path: /video
