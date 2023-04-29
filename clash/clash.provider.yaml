@@ -5,9 +5,21 @@ proxies:
   password: 8fc67dfc-5fe9-4e82-ab64-005deea8c57d
   port: 2003
   cipher: chacha20-ietf-poly1305
+- name: 🇨🇳中国-广东-揭阳-ss-120.240.168.166:2002
+  type: ss
+  server: 120.240.168.166
+  password: 8fc67dfc-5fe9-4e82-ab64-005deea8c57d
+  port: 2002
+  cipher: chacha20-ietf-poly1305
 - name: 🇦🇺澳大利亚-0-0-ss-43.206.210.193:443
   type: ss
   server: 43.206.210.193
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
+- name: 🇸🇬新加坡-0-0-ss-18.142.44.79:443
+  type: ss
+  server: 18.142.44.79
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
@@ -29,6 +41,12 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
+- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24006
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24006
+  cipher: aes-128-cfb
 - name: 🇯🇵日本-东京都-东京-ss-52.194.213.108:443
   type: ss
   server: 52.194.213.108
@@ -122,6 +140,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /PGV2vtMvxwNFt2
+- name: 🇩🇪德国-法兰克福-法兰克福-v2ray-us-01.legeth.xyz:80
+  type: vmess
+  server: us-01.legeth.xyz
+  network: ws
+  port: 80
+  uuid: 0c117b0d-bf59-4fc7-98ef-6205a18282b5
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: ''
 - name: 🇩🇪德国-法兰克福-法兰克福-v2ray-pm.motori.pw:8880
   type: vmess
   server: pm.motori.pw
@@ -331,7 +360,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /opt/video/images
-- name: 🇨🇳中国-陕西-咸阳-v2ray-yes.iamagoodman.net:16618
+- name: 🇨🇳中国-湖南-岳阳-v2ray-yes.iamagoodman.net:16618
   type: vmess
   server: yes.iamagoodman.net
   network: ws
@@ -353,7 +382,7 @@ proxies:
   udp: false
   tls: true
   ws-path: /vm
-- name: 🇺🇸美国-康涅狄格-0-v2ray-sgddnsfz.apcloudcdn.com:80
+- name: 🇸🇬新加坡-0-0-v2ray-sgddnsfz.apcloudcdn.com:80
   type: vmess
   server: sgddnsfz.apcloudcdn.com
   network: ws
@@ -386,7 +415,7 @@ proxies:
   udp: false
   tls: true
   ws-path: /E86414F638E11
-- name: 🇨🇳中国-广东-广州-v2ray-m.lwvzmdu.cn:16618
+- name: 🇨🇳中国-广东-佛山-v2ray-m.lwvzmdu.cn:16618
   type: vmess
   server: m.lwvzmdu.cn
   network: ws
