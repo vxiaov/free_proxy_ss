@@ -5,27 +5,39 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24003
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24003
-  cipher: aes-128-cfb
 - name: 🇨🇳中国-广东-揭阳-ss-120.240.168.166:2003
   type: ss
   server: 120.240.168.166
   password: 8fc67dfc-5fe9-4e82-ab64-005deea8c57d
   port: 2003
   cipher: chacha20-ietf-poly1305
-- name: 🇸🇬新加坡-0-0-ss-18.141.146.6:443
-  type: ss
-  server: 18.141.146.6
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
 - name: 🇦🇺澳大利亚-0-0-ss-43.206.210.193:443
   type: ss
   server: 43.206.210.193
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
+- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:31046
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 31046
+  cipher: aes-128-cfb
+- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24003
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24003
+  cipher: aes-128-cfb
+- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24001
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24001
+  cipher: aes-128-cfb
+- name: 🇸🇬新加坡-0-0-ss-18.141.146.6:443
+  type: ss
+  server: 18.141.146.6
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
@@ -53,6 +65,12 @@ proxies:
   password: b8d14c55-8108-4a44-9d05-21ebd78ec73c
   port: 2002
   cipher: chacha20-ietf-poly1305
+- name: 🇨🇳中国-上海-上海-ss2-139.226.136.165:35509
+  type: ss
+  server: 139.226.136.165
+  password: 4d5a811b-2289-43c3-a042-abd484e7505b
+  port: 35509
+  cipher: aes-256-gcm
 - name: 🇨🇳中国-广东-广州-ssr-14.29.124.168:24008
   type: ssr
   server: 14.29.124.168
@@ -60,16 +78,6 @@ proxies:
   obfs: plain
   protocol: origin
   port: 24008
-  cipher: aes-128-cfb
-  protocol-param: ''
-  obfs-param: ''
-- name: 🇨🇳中国-广东-广州-ssr-14.29.124.168:24000
-  type: ssr
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  obfs: plain
-  protocol: origin
-  port: 24000
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
@@ -138,6 +146,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /vmess
+- name: 🇺🇸美国-弗吉尼亚-阿什本-v2ray-amsterdam.v2ray.online:443
+  type: vmess
+  server: amsterdam.v2ray.online
+  network: ws
+  port: 443
+  uuid: A59E320C-BAC6-45E3-8A27-1518610708D0
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /speedtest
 - name: 🇨🇳中国-0-0-v2ray-Amsterdam.v2ray.online:443
   type: vmess
   server: Amsterdam.v2ray.online
@@ -171,6 +190,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /bb
+- name: 🇺🇸美国-加利福尼亚-0-v2ray-wwwow.ir:443
+  type: vmess
+  server: wwwow.ir
+  network: ws
+  port: 443
+  uuid: 84b4d2ac-699b-4ba5-a6b2-adaaa82b667d
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /84b4d2ac-699b-4ba5-a6b2-adaaa82b667d-vm
 - name: 🇨🇳中国-0-0-v2ray-i.vpchi.tk:2082
   type: vmess
   server: i.vpchi.tk
@@ -281,7 +311,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /opt/video/images
-- name: 🇨🇳中国-湖南-岳阳-v2ray-yes.iamagoodman.net:16618
+- name: 🇨🇳中国-陕西-咸阳-v2ray-yes.iamagoodman.net:16618
   type: vmess
   server: yes.iamagoodman.net
   network: ws
@@ -303,7 +333,7 @@ proxies:
   udp: false
   tls: true
   ws-path: /vm
-- name: 🇺🇸美国-康涅狄格-0-v2ray-sgddnsfz.apcloudcdn.com:80
+- name: 🇸🇬新加坡-0-0-v2ray-sgddnsfz.apcloudcdn.com:80
   type: vmess
   server: sgddnsfz.apcloudcdn.com
   network: ws
@@ -336,7 +366,7 @@ proxies:
   udp: false
   tls: true
   ws-path: /E86414F638E11
-- name: 🇨🇳中国-广东-广州-v2ray-m.lwvzmdu.cn:16618
+- name: 🇨🇳中国-广东-佛山-v2ray-m.lwvzmdu.cn:16618
   type: vmess
   server: m.lwvzmdu.cn
   network: ws
