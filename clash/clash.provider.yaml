@@ -1,19 +1,31 @@
 proxies:
+- name: 🇯🇵日本-东京都-东京-ss-52.194.213.108:443
+  type: ss
+  server: 52.194.213.108
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
+- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24003
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24003
+  cipher: aes-128-cfb
 - name: 🇨🇳中国-广东-揭阳-ss-120.240.168.166:2003
   type: ss
   server: 120.240.168.166
   password: 8fc67dfc-5fe9-4e82-ab64-005deea8c57d
   port: 2003
   cipher: chacha20-ietf-poly1305
-- name: 🇦🇺澳大利亚-0-0-ss-43.206.210.193:443
+- name: 🇸🇬新加坡-0-0-ss-18.141.146.6:443
   type: ss
-  server: 43.206.210.193
+  server: 18.141.146.6
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇯🇵日本-东京都-东京-ss-52.194.213.108:443
+- name: 🇦🇺澳大利亚-0-0-ss-43.206.210.193:443
   type: ss
-  server: 52.194.213.108
+  server: 43.206.210.193
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
@@ -38,7 +50,7 @@ proxies:
 - name: 🇨🇳中国-辽宁-辽阳-ss2-60.18.196.204:2002
   type: ss
   server: 60.18.196.204
-  password: 8fc67dfc-5fe9-4e82-ab64-005deea8c57d
+  password: b8d14c55-8108-4a44-9d05-21ebd78ec73c
   port: 2002
   cipher: chacha20-ietf-poly1305
 - name: 🇨🇳中国-广东-广州-ssr-14.29.124.168:24008
@@ -49,6 +61,26 @@ proxies:
   protocol: origin
   port: 24008
   cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇨🇳中国-广东-广州-ssr-14.29.124.168:24000
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24000
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇯🇵日本-东京都-东京-ssr-jp-am48-6.eqnode.net:8081
+  type: ssr
+  server: jp-am48-6.eqnode.net
+  password: eAokbaDN6
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
+  cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
 - name: 🇩🇪德国-法兰克福-法兰克福-v2ray-165.227.133.55:80
@@ -249,7 +281,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /opt/video/images
-- name: 🇨🇳中国-陕西-咸阳-v2ray-yes.iamagoodman.net:16618
+- name: 🇨🇳中国-湖南-岳阳-v2ray-yes.iamagoodman.net:16618
   type: vmess
   server: yes.iamagoodman.net
   network: ws
