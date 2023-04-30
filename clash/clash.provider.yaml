@@ -41,6 +41,12 @@ proxies:
   password: QazEdcTgb159@$*
   port: 24007
   cipher: aes-128-cfb
+- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24003
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24003
+  cipher: aes-128-cfb
 - name: 🇨🇳中国-广东-揭阳-ss2-120.240.168.166:2002
   type: ss
   server: 120.240.168.166
@@ -50,7 +56,7 @@ proxies:
 - name: 🇨🇳中国-广东-揭阳-ss2-120.240.168.166:2003
   type: ss
   server: 120.240.168.166
-  password: 8fc67dfc-5fe9-4e82-ab64-005deea8c57d
+  password: b8d14c55-8108-4a44-9d05-21ebd78ec73c
   port: 2003
   cipher: chacha20-ietf-poly1305
 - name: 🇨🇳中国-辽宁-辽阳-ss2-60.18.196.204:2002
@@ -75,17 +81,7 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 🇨🇳中国-广东-广州-ssr-14.29.124.168:24000
-  type: ssr
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  obfs: plain
-  protocol: origin
-  port: 24000
-  cipher: aes-128-cfb
-  protocol-param: ''
-  obfs-param: ''
-- name: 🇨🇳中国-广东-广州-v2ray-d.pgypgykmoljklj.xyz:443
+- name: 🇯🇵日本-东京都-东京-v2ray-d.pgypgykmoljklj.xyz:443
   type: vmess
   server: d.pgypgykmoljklj.xyz
   network: ws
@@ -228,7 +224,18 @@ proxies:
   udp: false
   tls: false
   ws-path: /ny
-- name: 🇨🇳中国-广东-江门-v2ray-la.awsbest.com:443
+- name: 🇨🇳中国-0-0-v2ray-afshar.zanbil-mo.cf:2086
+  type: vmess
+  server: afshar.zanbil-mo.cf
+  network: ws
+  port: 2086
+  uuid: 437457a9-d5db-4378-af8a-43a074de3903
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇨🇳中国-上海-上海-v2ray-la.awsbest.com:443
   type: vmess
   server: la.awsbest.com
   network: ws
