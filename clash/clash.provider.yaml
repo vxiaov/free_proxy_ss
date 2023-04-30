@@ -53,6 +53,18 @@ proxies:
   password: d7bee830-09aa-43b2-8945-3b341b8787db
   port: 26107
   cipher: chacha20-ietf-poly1305
+- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24007
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24007
+  cipher: aes-128-cfb
+- name: 🇰🇷韩国-首尔-首尔-ss-3.35.55.5:443
+  type: ss
+  server: 3.35.55.5
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
 - name: 🇨🇦加拿大-魁北克-博阿努瓦-ss2-167.114.194.138:14783
   type: ss
   server: 167.114.194.138
@@ -71,17 +83,7 @@ proxies:
   password: d7bee830-09aa-43b2-8945-3b341b8787db
   port: 26107
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳中国-广东-广州-ssr-14.29.124.168:24000
-  type: ssr
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  obfs: plain
-  protocol: origin
-  port: 24000
-  cipher: aes-128-cfb
-  protocol-param: ''
-  obfs-param: ''
-- name: 🇦🇺澳大利亚-0-0-ssr-jp-am48-6.eqnode.net:8081
+- name: 🇯🇵日本-东京都-东京-ssr-jp-am48-6.eqnode.net:8081
   type: ssr
   server: jp-am48-6.eqnode.net
   password: eAokbaDN6
@@ -145,6 +147,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /vmess
+- name: 🇨🇳中国-广东-广州-v2ray-gm1g.jikenodes.xyz:4015
+  type: vmess
+  server: gm1g.jikenodes.xyz
+  network: ws
+  port: 4015
+  uuid: 8a1391f9-ff42-458b-8463-2cc532acdd52
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇨🇳中国-0-0-v2ray-n1681962788.aqdisrv.cn:443
   type: vmess
   server: n1681962788.aqdisrv.cn
@@ -233,7 +246,7 @@ proxies:
   udp: false
   tls: true
   ws-path: /
-- name: 🇨🇳中国-广东-江门-v2ray-v2-ca1.silverdragon.cn:443
+- name: 🇨🇳中国-上海-上海-v2ray-v2-ca1.silverdragon.cn:443
   type: vmess
   server: v2-ca1.silverdragon.cn
   network: ws
