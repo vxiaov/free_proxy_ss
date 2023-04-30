@@ -89,6 +89,18 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
+- name: 🇦🇺澳大利亚-0-0-ss-43.206.240.122:443
+  type: ss
+  server: 43.206.240.122
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
+- name: 🇸🇬新加坡-0-0-ss-54.255.198.173:443
+  type: ss
+  server: 54.255.198.173
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
 - name: 🇨🇦加拿大-魁北克-博阿努瓦-ss2-167.114.194.138:14783
   type: ss
   server: 167.114.194.138
@@ -106,6 +118,12 @@ proxies:
   server: p1.bxy-fun2.com
   password: d7bee830-09aa-43b2-8945-3b341b8787db
   port: 23101
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳中国-安徽-0-ss2-p1.bxy-fun1.com:23102
+  type: ss
+  server: p1.bxy-fun1.com
+  password: d7bee830-09aa-43b2-8945-3b341b8787db
+  port: 23102
   cipher: chacha20-ietf-poly1305
 - name: 🇯🇵日本-东京都-东京-ssr-jp-am48-6.eqnode.net:8081
   type: ssr
@@ -125,16 +143,6 @@ proxies:
   protocol: origin
   port: 24005
   cipher: aes-128-cfb
-  protocol-param: ''
-  obfs-param: ''
-- name: 🇸🇬新加坡-0-0-ssr-sg-am3.eqsunshine.com:32001
-  type: ssr
-  server: sg-am3.eqsunshine.com
-  password: 3g0dHlKME
-  obfs: tls1.2_ticket_auth
-  protocol: origin
-  port: 32001
-  cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
 - name: 🇩🇪德国-法兰克福-法兰克福-v2ray-85.208.107.119:38183
@@ -214,6 +222,17 @@ proxies:
   udp: false
   tls: true
   ws-path: /
+- name: 🇫🇷法国-0-0-v2ray-de2-vmess.greenssh.xyz:80
+  type: vmess
+  server: de2-vmess.greenssh.xyz
+  network: ws
+  port: 80
+  uuid: 754fe786-8b02-4a7e-93a5-c34a67745291
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /vmess
 - name: 🇨🇳中国-0-0-v2ray-i.vpchi.tk:2082
   type: vmess
   server: i.vpchi.tk
