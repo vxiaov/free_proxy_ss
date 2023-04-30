@@ -1,16 +1,4 @@
 proxies:
-- name: 🇦🇺澳大利亚-0-0-ss-43.206.235.124:443
-  type: ss
-  server: 43.206.235.124
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
-- name: 🇯🇵日本-东京都-东京-ss-52.194.213.108:443
-  type: ss
-  server: 52.194.213.108
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
 - name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24003
   type: ss
   server: 14.29.124.168
@@ -23,23 +11,17 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇸🇬新加坡-0-0-ss-54.169.202.53:443
+- name: 🇸🇬新加坡-0-0-ss-18.141.146.6:443
   type: ss
-  server: 54.169.202.53
+  server: 18.141.146.6
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:25296
+- name: 🇨🇳中国-上海-上海-ss-139.226.136.165:35509
   type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 25296
-  cipher: aes-128-cfb
-- name: 🇺🇸美国-佐治亚-亚特兰大-ss-169.197.141.187:8888
-  type: ss
-  server: 169.197.141.187
-  password: Y6R9pAtvxxzmGC
-  port: 8888
+  server: 139.226.136.165
+  password: 4d5a811b-2289-43c3-a042-abd484e7505b
+  port: 35509
   cipher: aes-256-gcm
 - name: 🇺🇸美国-佐治亚-亚特兰大-ss2-169.197.141.187:8888
   type: ss
@@ -47,17 +29,7 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 8888
   cipher: aes-256-gcm
-- name: 🇨🇳中国-广东-广州-ssr-14.29.124.168:24005
-  type: ssr
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  obfs: plain
-  protocol: origin
-  port: 24005
-  cipher: aes-128-cfb
-  protocol-param: ''
-  obfs-param: ''
-- name: 🇨🇳中国-广东-广州-v2ray-d.pgypgykmoljklj.xyz:443
+- name: 🇺🇸美国-佐治亚-亚特兰大-v2ray-d.pgypgykmoljklj.xyz:443
   type: vmess
   server: d.pgypgykmoljklj.xyz
   network: ws
@@ -156,7 +128,18 @@ proxies:
   udp: false
   tls: true
   ws-path: /speedtest
-- name: 🇨🇳中国-上海-上海-v2ray-wwwow.ir:443
+- name: 🇨🇳中国-0-0-v2ray-n1681962788.aqdisrv.cn:443
+  type: vmess
+  server: n1681962788.aqdisrv.cn
+  network: ws
+  port: 443
+  uuid: 541a9ac1-96c3-4916-b12e-025d80248de1
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /
+- name: 🇨🇳中国-0-0-v2ray-wwwow.ir:443
   type: vmess
   server: wwwow.ir
   network: ws
