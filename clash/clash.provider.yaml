@@ -5,27 +5,15 @@ proxies:
   password: QazEdcTgb159@$*
   port: 24003
   cipher: aes-128-cfb
-- name: 🇸🇬新加坡-0-0-ss-18.141.146.6:443
-  type: ss
-  server: 18.141.146.6
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
-- name: 🇨🇳中国-上海-上海-ss-139.226.136.165:35509
-  type: ss
-  server: 139.226.136.165
-  password: 4d5a811b-2289-43c3-a042-abd484e7505b
-  port: 35509
-  cipher: aes-256-gcm
-- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24007
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24007
-  cipher: aes-128-cfb
 - name: 🇯🇵日本-东京都-东京-ss-52.194.213.108:443
   type: ss
   server: 52.194.213.108
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
+- name: 🇰🇷韩国-首尔-首尔-ss-3.35.55.5:443
+  type: ss
+  server: 3.35.55.5
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
@@ -145,6 +133,17 @@ proxies:
   udp: false
   tls: false
   ws-path: ''
+- name: 🇩🇪德国-黑森-0-v2ray-51.75.74.253:10000
+  type: vmess
+  server: 51.75.74.253
+  network: ws
+  port: 10000
+  uuid: df05adba-e5fb-11ed-a1bd-5fee106af88d
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /vpnjantit
 - name: 🇨🇳中国-0-0-v2ray-afshar.zanbil-mo.cf:2086
   type: vmess
   server: afshar.zanbil-mo.cf
