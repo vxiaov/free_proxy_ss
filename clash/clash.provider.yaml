@@ -23,12 +23,6 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇺🇸美国-密苏里-堪萨斯城-ss-185.199.224.226:22277
-  type: ss
-  server: 185.199.224.226
-  password: dongtaiwang.com
-  port: 22277
-  cipher: aes-256-gcm
 - name: 🇦🇺澳大利亚-0-0-ss-43.206.210.193:443
   type: ss
   server: 43.206.210.193
@@ -41,12 +35,6 @@ proxies:
   password: QazEdcTgb159@$*
   port: 31046
   cipher: aes-128-cfb
-- name: 🇨🇳中国-上海-上海-ss2-139.226.136.165:35509
-  type: ss
-  server: 139.226.136.165
-  password: 4d5a811b-2289-43c3-a042-abd484e7505b
-  port: 35509
-  cipher: aes-256-gcm
 - name: 🇺🇸美国-密苏里-堪萨斯城-ss2-185.199.224.226:22277
   type: ss
   server: 185.199.224.226
@@ -206,6 +194,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /vpnjantit
+- name: 🇺🇸美国-伊利诺伊-芝加哥-v2ray-173.249.199.27:443
+  type: vmess
+  server: 173.249.199.27
+  network: ws
+  port: 443
+  uuid: e5543efd-5400-3760-9bb6-02767728e888
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /video
 - name: 🇨🇳中国-0-0-v2ray-afshar.zanbil-mo.cf:2086
   type: vmess
   server: afshar.zanbil-mo.cf
