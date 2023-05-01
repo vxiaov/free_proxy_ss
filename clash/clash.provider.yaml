@@ -17,18 +17,6 @@ proxies:
   password: d7bee830-09aa-43b2-8945-3b341b8787db
   port: 26107
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24007
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24007
-  cipher: aes-128-cfb
-- name: 🇸🇬新加坡-0-0-ss-18.142.44.79:443
-  type: ss
-  server: 18.142.44.79
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
 - name: 🇸🇬新加坡-0-0-ss-18.142.255.196:443
   type: ss
   server: 18.142.255.196
@@ -59,12 +47,6 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇨🇳中国-广东-广州-ss-ctkr1.createmofa.xyz:32999
-  type: ss
-  server: ctkr1.createmofa.xyz
-  password: 7d4f9435-456e-4810-9ff2-a7af1b4847c1
-  port: 32999
-  cipher: chacha20-ietf-poly1305
 - name: 🇨🇳中国-湖南-长沙-ss-p1.bxy-fun3.com:35127
   type: ss
   server: p1.bxy-fun3.com
@@ -107,71 +89,29 @@ proxies:
   password: d7bee830-09aa-43b2-8945-3b341b8787db
   port: 24105
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24001
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24001
-  cipher: aes-128-cfb
 - name: 🇨🇳中国-安徽-0-ss-p1.bxy-fun1.com:44101
   type: ss
   server: p1.bxy-fun1.com
   password: d7bee830-09aa-43b2-8945-3b341b8787db
   port: 44101
   cipher: chacha20-ietf-poly1305
+- name: 🇯🇵日本-东京都-东京-ss-52.194.213.108:443
+  type: ss
+  server: 52.194.213.108
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
 - name: 🇨🇳中国-安徽-0-ss2-p1.bxy-fun1.com:11407
   type: ss
   server: p1.bxy-fun1.com
   password: d7bee830-09aa-43b2-8945-3b341b8787db
   port: 11407
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳中国-广东-广州-ss2-ctkr1.createmofa.xyz:32999
-  type: ss
-  server: ctkr1.createmofa.xyz
-  password: 7d4f9435-456e-4810-9ff2-a7af1b4847c1
-  port: 32999
-  cipher: chacha20-ietf-poly1305
 - name: 🇨🇳中国-浙江-嘉兴-ss2-us.luosi.me:40003
   type: ss
   server: us.luosi.me
   password: 2623bac4-e2f4-4d09-8415-77655202df90
   port: 40003
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇳中国-广东-广州-ss2-a.gfw.services:64739
-  type: ss
-  server: a.gfw.services
-  password: abc9a8de-024e-42ea-b1f3-b9ea7a85f9ed
-  port: 64739
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇳中国-安徽-0-ss2-p1.bxy-fun1.com:30470
-  type: ss
-  server: p1.bxy-fun1.com
-  password: d7bee830-09aa-43b2-8945-3b341b8787db
-  port: 30470
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇦加拿大-魁北克-博阿努瓦-ss2-167.114.194.138:14783
-  type: ss
-  server: 167.114.194.138
-  password: 8c80d838-253c-41df-afda-d0f04a2c0873
-  port: 14783
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇳中国-江苏-常州-ss2-zzfw.sknat.top:53025
-  type: ss
-  server: zzfw.sknat.top
-  password: f01e4771-6dd0-46b9-917d-554c9d9977de
-  port: 53025
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇳中国-湖南-长沙-ss2-p1.bxy-fun3.com:35127
-  type: ss
-  server: p1.bxy-fun3.com
-  password: d7bee830-09aa-43b2-8945-3b341b8787db
-  port: 35127
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇳中国-湖南-长沙-ss2-p1.bxy-fun3.com:24105
-  type: ss
-  server: p1.bxy-fun3.com
-  password: d7bee830-09aa-43b2-8945-3b341b8787db
-  port: 24105
   cipher: chacha20-ietf-poly1305
 - name: 🇸🇬新加坡-0-0-ssr-51.79.222.99:443
   type: ssr
@@ -205,7 +145,18 @@ proxies:
   udp: false
   tls: true
   ws-path: /mR17oBKzZ7
-- name: 🇩🇪德国-法兰克福-法兰克福-v2ray-l1.zanbil-mo.cf:2095
+- name: 🇺🇸美国-佛罗里达-0-v2ray-ydhdlbain.114514782.xyz:2052
+  type: vmess
+  server: ydhdlbain.114514782.xyz
+  network: ws
+  port: 2052
+  uuid: 00204673-d0f1-349d-ae61-1fa9346849ef
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /uasfbbc
+- name: 🇺🇸美国-佛罗里达-0-v2ray-l1.zanbil-mo.cf:2095
   type: vmess
   server: l1.zanbil-mo.cf
   network: ws
@@ -216,7 +167,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇩🇪德国-法兰克福-法兰克福-v2ray-pm.motori.pw:8880
+- name: 🇺🇸美国-佛罗里达-0-v2ray-pm.motori.pw:8880
   type: vmess
   server: pm.motori.pw
   network: ws
@@ -348,7 +299,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /vpnjantit
-- name: 🇳🇱荷兰-0-0-v2ray-asbiasncs.114514782.xyz:2052
+- name: 0-0-0-v2ray-asbiasncs.114514782.xyz:2052
   type: vmess
   server: asbiasncs.114514782.xyz
   network: ws
@@ -359,6 +310,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /auvbwbs
+- name: 🇺🇸美国-内华达-0-v2ray-aduibdfg.114514782.xyz:2052
+  type: vmess
+  server: aduibdfg.114514782.xyz
+  network: ws
+  port: 2052
+  uuid: 3c6a7937-52f5-38ab-8161-d1456ed68964
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /flkfhzz
 - name: 🇫🇷法国-0-0-v2ray-de2-vmess.greenssh.xyz:443
   type: vmess
   server: de2-vmess.greenssh.xyz
@@ -392,7 +354,7 @@ proxies:
   udp: false
   tls: true
   ws-path: /
-- name: 🇨🇳中国-广东-江门-v2ray-v2-ca1.silverdragon.cn:443
+- name: 🇨🇳中国-上海-上海-v2ray-v2-ca1.silverdragon.cn:443
   type: vmess
   server: v2-ca1.silverdragon.cn
   network: ws
@@ -403,3 +365,25 @@ proxies:
   udp: false
   tls: true
   ws-path: /ca/v2wss
+- name: 🇸🇬新加坡-0-0-v2ray-sigma.jandapirang.my.id:80
+  type: vmess
+  server: sigma.jandapirang.my.id
+  network: ws
+  port: 80
+  uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /vmess
+- name: 🇨🇳中国-0-0-v2ray-sg-01.legeth.xyz:80
+  type: vmess
+  server: sg-01.legeth.xyz
+  network: ws
+  port: 80
+  uuid: 6ba2b939-9b8f-4c5e-ba99-b91391fe21c1
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
