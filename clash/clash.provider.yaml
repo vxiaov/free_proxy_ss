@@ -107,23 +107,29 @@ proxies:
   password: d7bee830-09aa-43b2-8945-3b341b8787db
   port: 23102
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳中国-广东-广州-ss2-p1.bxy-fun2.com:23105
+- name: 🇸🇬新加坡-0-0-ss-18.142.44.79:443
   type: ss
-  server: p1.bxy-fun2.com
-  password: d7bee830-09aa-43b2-8945-3b341b8787db
-  port: 23105
-  cipher: chacha20-ietf-poly1305
+  server: 18.142.44.79
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
+- name: 🇦🇺澳大利亚-0-0-ss-43.201.23.76:6983
+  type: ss
+  server: 43.201.23.76
+  password: Hucloud12
+  port: 6983
+  cipher: chacha20-ietf
+- name: 🇦🇺澳大利亚-0-0-ss-43.207.87.2:443
+  type: ss
+  server: 43.207.87.2
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
 - name: 🇨🇳中国-安徽-0-ss2-p1.bxy-fun1.com:26105
   type: ss
   server: p1.bxy-fun1.com
   password: d7bee830-09aa-43b2-8945-3b341b8787db
   port: 26105
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇳中国-安徽-0-ss2-p1.bxy-fun1.com:44101
-  type: ss
-  server: p1.bxy-fun1.com
-  password: d7bee830-09aa-43b2-8945-3b341b8787db
-  port: 44101
   cipher: chacha20-ietf-poly1305
 - name: 🇩🇪德国-法兰克福-法兰克福-ss2-95.179.241.32:8313
   type: ss
@@ -131,17 +137,23 @@ proxies:
   password: ljqdalu13..
   port: 8313
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸美国-新泽西-0-ss2-156.146.56.130:33992
-  type: ss
-  server: 156.146.56.130
-  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
-  port: 33992
-  cipher: aes-256-gcm
 - name: 🇨🇦加拿大-魁北克-博阿努瓦-ss2-167.114.194.138:14783
   type: ss
   server: 167.114.194.138
   password: 8c80d838-253c-41df-afda-d0f04a2c0873
   port: 14783
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸美国-伊利诺伊-芝加哥-ss2-64.44.42.196:35294
+  type: ss
+  server: 64.44.42.196
+  password: J9Y2ncrdPEC38gwydNFFGBna
+  port: 35294
+  cipher: aes-256-gcm
+- name: 🇨🇳中国-安徽-0-ss2-p1.bxy-fun1.com:23102
+  type: ss
+  server: p1.bxy-fun1.com
+  password: d7bee830-09aa-43b2-8945-3b341b8787db
+  port: 23102
   cipher: chacha20-ietf-poly1305
 - name: 🇸🇬新加坡-0-0-ssr-51.79.222.99:443
   type: ssr
@@ -151,26 +163,6 @@ proxies:
   protocol: origin
   port: 443
   cipher: aes-256-ctr
-  protocol-param: ''
-  obfs-param: ''
-- name: 🇯🇵日本-东京都-东京-ssr-jp-am48-6.eqnode.net:8081
-  type: ssr
-  server: jp-am48-6.eqnode.net
-  password: eAokbaDN6
-  obfs: tls1.2_ticket_auth
-  protocol: origin
-  port: 8081
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
-- name: 🇸🇬新加坡-0-0-ssr-sg-am3.eqsunshine.com:32001
-  type: ssr
-  server: sg-am3.eqsunshine.com
-  password: 3g0dHlKME
-  obfs: tls1.2_ticket_auth
-  protocol: origin
-  port: 32001
-  cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
 - name: 🇩🇪德国-法兰克福-法兰克福-v2ray-85.208.107.119:38183
@@ -195,7 +187,7 @@ proxies:
   udp: false
   tls: true
   ws-path: /mR17oBKzZ7
-- name: 🇩🇪德国-0-0-v2ray-ydhdlbain.114514782.xyz:2052
+- name: 🇺🇦乌克兰-0-0-v2ray-ydhdlbain.114514782.xyz:2052
   type: vmess
   server: ydhdlbain.114514782.xyz
   network: ws
@@ -206,7 +198,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /uasfbbc
-- name: 🇩🇪德国-0-0-v2ray-l1.zanbil-mo.cf:2095
+- name: 🇺🇦乌克兰-0-0-v2ray-l1.zanbil-mo.cf:2095
   type: vmess
   server: l1.zanbil-mo.cf
   network: ws
@@ -217,7 +209,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇩🇪德国-0-0-v2ray-pm.motori.pw:8880
+- name: 🇺🇦乌克兰-0-0-v2ray-pm.motori.pw:8880
   type: vmess
   server: pm.motori.pw
   network: ws
@@ -360,7 +352,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /vpnjantit
-- name: 🇺🇸美国-明尼苏达-圣保罗-v2ray-asbiasncs.114514782.xyz:2052
+- name: 🇬🇧英国-0-0-v2ray-asbiasncs.114514782.xyz:2052
   type: vmess
   server: asbiasncs.114514782.xyz
   network: ws
@@ -371,7 +363,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /auvbwbs
-- name: 🇦🇺澳大利亚-0-0-v2ray-aduibdfg.114514782.xyz:2052
+- name: 🇬🇧英国-0-0-v2ray-aduibdfg.114514782.xyz:2052
   type: vmess
   server: aduibdfg.114514782.xyz
   network: ws
