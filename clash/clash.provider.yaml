@@ -77,21 +77,9 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   cipher: aes-256-cfb
-- name: 🇫🇷法国-0-0-ss-135.125.244.103:989
-  type: ss
-  server: 135.125.244.103
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  cipher: aes-256-cfb
 - name: 🇺🇸美国-康涅狄格-0-ss-13.215.194.174:443
   type: ss
   server: 13.215.194.174
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
-- name: 🇸🇬新加坡-0-0-ss-18.141.146.6:443
-  type: ss
-  server: 18.141.146.6
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
@@ -125,18 +113,6 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇺🇸美国-密苏里-堪萨斯城-ss-185.199.224.226:22277
-  type: ss
-  server: 185.199.224.226
-  password: dongtaiwang.com
-  port: 22277
-  cipher: aes-256-gcm
-- name: 🇺🇸美国-新泽西-0-ss2-156.146.56.130:33992
-  type: ss
-  server: 156.146.56.130
-  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
-  port: 33992
-  cipher: aes-256-gcm
 - name: 🇨🇳中国-广东-广州-ss2-a.gfw.services:64739
   type: ss
   server: a.gfw.services
@@ -155,11 +131,11 @@ proxies:
   password: 8c80d838-253c-41df-afda-d0f04a2c0873
   port: 14783
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸美国-密苏里-堪萨斯城-ss2-185.199.224.226:22277
+- name: 🇺🇸美国-伊利诺伊-芝加哥-ss2-64.44.42.196:35294
   type: ss
-  server: 185.199.224.226
-  password: dongtaiwang.com
-  port: 22277
+  server: 64.44.42.196
+  password: J9Y2ncrdPEC38gwydNFFGBna
+  port: 35294
   cipher: aes-256-gcm
 - name: 🇨🇳中国-广东-广州-ssr-14.29.124.168:24008
   type: ssr
@@ -289,6 +265,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /vpnjantit
+- name: 🇩🇪德国-黑森-0-v2ray-chat.samrg.buzz:443
+  type: vmess
+  server: chat.samrg.buzz
+  network: ws
+  port: 443
+  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /cutino
 - name: 🇯🇵日本-东京都-东京-v2ray-v2-ca1.silverdragon.cn:443
   type: vmess
   server: v2-ca1.silverdragon.cn
