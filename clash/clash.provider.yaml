@@ -17,18 +17,6 @@ proxies:
   password: dongtaiwang.com
   port: 22277
   cipher: aes-256-gcm
-- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24001
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24001
-  cipher: aes-128-cfb
-- name: 🇰🇷韩国-首尔-首尔-ss-13.124.175.117:443
-  type: ss
-  server: 13.124.175.117
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
 - name: 🇨🇳中国-安徽-0-ss-p1.bxy-fun1.com:11407
   type: ss
   server: p1.bxy-fun1.com
@@ -83,36 +71,12 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇸🇬新加坡-0-0-ss-54.255.198.173:443
-  type: ss
-  server: 54.255.198.173
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
-- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24006
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24006
-  cipher: aes-128-cfb
 - name: 🇦🇺澳大利亚-0-0-ss-43.207.87.2:443
   type: ss
   server: 43.207.87.2
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇺🇸美国-康涅狄格-0-ss-13.215.194.174:443
-  type: ss
-  server: 13.215.194.174
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
-- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24003
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24003
-  cipher: aes-128-cfb
 - name: 🇰🇷韩国-首尔-首尔-ss-3.35.55.5:443
   type: ss
   server: 3.35.55.5
@@ -125,12 +89,6 @@ proxies:
   password: 7d4f9435-456e-4810-9ff2-a7af1b4847c1
   port: 32999
   cipher: chacha20-ietf-poly1305
-- name: 🇫🇷法国-0-0-ss-135.125.244.103:989
-  type: ss
-  server: 135.125.244.103
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  cipher: aes-256-cfb
 - name: 🇨🇳中国-广东-广州-ss-14.29.124.168:31046
   type: ss
   server: 14.29.124.168
@@ -143,24 +101,12 @@ proxies:
   password: d7bee830-09aa-43b2-8945-3b341b8787db
   port: 11407
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳中国-广东-广州-ss2-p1.bxy-fun2.com:23101
+- name: 🇨🇳中国-安徽-马鞍山-ss2-ahcm.v-too.cloud:10259
   type: ss
-  server: p1.bxy-fun2.com
-  password: d7bee830-09aa-43b2-8945-3b341b8787db
-  port: 23101
+  server: ahcm.v-too.cloud
+  password: 13c03703-de70-4a82-9473-009493fa1a0b
+  port: 10259
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳中国-安徽-0-ss2-p1.bxy-fun1.com:23102
-  type: ss
-  server: p1.bxy-fun1.com
-  password: d7bee830-09aa-43b2-8945-3b341b8787db
-  port: 23102
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇳中国-上海-上海-ss2-139.226.136.165:35509
-  type: ss
-  server: 139.226.136.165
-  password: 4d5a811b-2289-43c3-a042-abd484e7505b
-  port: 35509
-  cipher: aes-256-gcm
 - name: 🇨🇳中国-广东-广州-ssr-14.29.124.168:24008
   type: ssr
   server: 14.29.124.168
@@ -412,3 +358,47 @@ proxies:
   udp: false
   tls: true
   ws-path: /
+- name: 🇨🇳中国-广东-江门-v2ray-v2-ca1.silverdragon.cn:443
+  type: vmess
+  server: v2-ca1.silverdragon.cn
+  network: ws
+  port: 443
+  uuid: e790e3bf-c553-40ed-b2b6-436afd3f5f5c
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /ca/v2wss
+- name: 🇺🇸美国-加利福尼亚-费利蒙-v2ray-vus2.0bad.com:443
+  type: vmess
+  server: vus2.0bad.com
+  network: ws
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /chat
+- name: 🇸🇬新加坡-0-0-v2ray-sigma.jandapirang.my.id:80
+  type: vmess
+  server: sigma.jandapirang.my.id
+  network: ws
+  port: 80
+  uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /vmess
+- name: 🇨🇳中国-0-0-v2ray-sgp1.looooooongnet.lol:443
+  type: vmess
+  server: sgp1.looooooongnet.lol
+  network: ws
+  port: 443
+  uuid: cb19e01e-6832-46c7-92c2-1fb93f09e1a8
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: ''
