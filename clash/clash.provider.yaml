@@ -113,6 +113,12 @@ proxies:
   password: QazEdcTgb159@$*
   port: 24001
   cipher: aes-128-cfb
+- name: 🇨🇳中国-安徽-0-ss-p1.bxy-fun1.com:44101
+  type: ss
+  server: p1.bxy-fun1.com
+  password: d7bee830-09aa-43b2-8945-3b341b8787db
+  port: 44101
+  cipher: chacha20-ietf-poly1305
 - name: 🇨🇳中国-安徽-0-ss2-p1.bxy-fun1.com:11407
   type: ss
   server: p1.bxy-fun1.com
@@ -161,6 +167,22 @@ proxies:
   password: d7bee830-09aa-43b2-8945-3b341b8787db
   port: 35127
   cipher: chacha20-ietf-poly1305
+- name: 🇨🇳中国-湖南-长沙-ss2-p1.bxy-fun3.com:24105
+  type: ss
+  server: p1.bxy-fun3.com
+  password: d7bee830-09aa-43b2-8945-3b341b8787db
+  port: 24105
+  cipher: chacha20-ietf-poly1305
+- name: 🇸🇬新加坡-0-0-ssr-51.79.222.99:443
+  type: ssr
+  server: 51.79.222.99
+  password: bypasser2020qwerty
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 443
+  cipher: aes-256-ctr
+  protocol-param: ''
+  obfs-param: ''
 - name: 🇩🇪德国-法兰克福-法兰克福-v2ray-85.208.107.119:38183
   type: vmess
   server: 85.208.107.119
@@ -326,7 +348,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /vpnjantit
-- name: 🇰🇿哈萨克斯坦-0-0-v2ray-asbiasncs.114514782.xyz:2052
+- name: 🇳🇱荷兰-0-0-v2ray-asbiasncs.114514782.xyz:2052
   type: vmess
   server: asbiasncs.114514782.xyz
   network: ws
@@ -370,7 +392,7 @@ proxies:
   udp: false
   tls: true
   ws-path: /
-- name: 🇨🇳中国-上海-上海-v2ray-v2-ca1.silverdragon.cn:443
+- name: 🇨🇳中国-广东-江门-v2ray-v2-ca1.silverdragon.cn:443
   type: vmess
   server: v2-ca1.silverdragon.cn
   network: ws
@@ -381,14 +403,3 @@ proxies:
   udp: false
   tls: true
   ws-path: /ca/v2wss
-- name: 🇸🇬新加坡-0-0-v2ray-sigma.jandapirang.my.id:80
-  type: vmess
-  server: sigma.jandapirang.my.id
-  network: ws
-  port: 80
-  uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /vmess
