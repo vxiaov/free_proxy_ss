@@ -47,6 +47,12 @@ proxies:
   password: 6ffdceff-fba7-473e-8942-8911df2a9dd4
   port: 24183
   cipher: chacha20-ietf-poly1305
+- name: 🇦🇺澳大利亚-0-0-ss-43.207.87.2:443
+  type: ss
+  server: 43.207.87.2
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
 - name: 🇩🇪德国-法兰克福-法兰克福-ss2-95.179.241.32:8313
   type: ss
   server: 95.179.241.32
@@ -67,6 +73,26 @@ proxies:
   protocol: origin
   port: 443
   cipher: aes-256-ctr
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇨🇳中国-广东-广州-ssr-14.29.124.168:24008
+  type: ssr
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
+  protocol: origin
+  port: 24008
+  cipher: aes-128-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇯🇵日本-东京都-东京-ssr-jp-am48-6.eqnode.net:8081
+  type: ssr
+  server: jp-am48-6.eqnode.net
+  password: eAokbaDN6
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
+  cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
 - name: 🇸🇬新加坡-0-0-v2ray-139.59.99.243:80
