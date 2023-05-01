@@ -125,12 +125,6 @@ proxies:
   password: QazEdcTgb159@$*
   port: 24003
   cipher: aes-128-cfb
-- name: 🇨🇦加拿大-魁北克-博阿努瓦-ss2-167.114.194.138:14783
-  type: ss
-  server: 167.114.194.138
-  password: 8c80d838-253c-41df-afda-d0f04a2c0873
-  port: 14783
-  cipher: chacha20-ietf-poly1305
 - name: 🇨🇳中国-安徽-0-ss2-p1.bxy-fun1.com:11407
   type: ss
   server: p1.bxy-fun1.com
@@ -159,13 +153,13 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 🇨🇳中国-广东-广州-ssr-14.29.124.168:24005
+- name: 🇨🇳中国-广东-广州-ssr-14.29.124.168:24008
   type: ssr
   server: 14.29.124.168
   password: QazEdcTgb159@$*
   obfs: plain
   protocol: origin
-  port: 24005
+  port: 24008
   cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
@@ -208,6 +202,17 @@ proxies:
   network: ws
   port: 2095
   uuid: 56fc3d21-4a2f-4f68-8f78-eebd6a051101
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇩🇪德国-法兰克福-法兰克福-v2ray-pm.motori.pw:8880
+  type: vmess
+  server: pm.motori.pw
+  network: ws
+  port: 8880
+  uuid: d1c59699-1874-49f1-b9ba-bbbfd7968075
   alterId: 4
   cipher: auto
   udp: false
@@ -356,7 +361,7 @@ proxies:
   udp: false
   tls: true
   ws-path: /
-- name: 🇨🇳中国-上海-上海-v2ray-v2-ca1.silverdragon.cn:443
+- name: 🇨🇳中国-广东-江门-v2ray-v2-ca1.silverdragon.cn:443
   type: vmess
   server: v2-ca1.silverdragon.cn
   network: ws
