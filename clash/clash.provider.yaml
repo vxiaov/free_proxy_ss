@@ -119,6 +119,24 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
+- name: 🇨🇳中国-广东-广州-ss-ctkr1.createmofa.xyz:32999
+  type: ss
+  server: ctkr1.createmofa.xyz
+  password: 7d4f9435-456e-4810-9ff2-a7af1b4847c1
+  port: 32999
+  cipher: chacha20-ietf-poly1305
+- name: 🇫🇷法国-0-0-ss-135.125.244.103:989
+  type: ss
+  server: 135.125.244.103
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  cipher: aes-256-cfb
+- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:31046
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 31046
+  cipher: aes-128-cfb
 - name: 🇨🇳中国-安徽-0-ss2-p1.bxy-fun1.com:11407
   type: ss
   server: p1.bxy-fun1.com
@@ -261,7 +279,18 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇨🇳中国-广东-广州-v2ray-au-01.legeth.xyz:80
+- name: 🇷🇺俄罗斯-0-0-v2ray-91.199.84.125:80
+  type: vmess
+  server: 91.199.84.125
+  network: ws
+  port: 80
+  uuid: 2cfc4c58-88cb-4e00-9977-ef0a37559a22
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇷🇺俄罗斯-0-0-v2ray-au-01.legeth.xyz:80
   type: vmess
   server: au-01.legeth.xyz
   network: ws
@@ -349,6 +378,17 @@ proxies:
   udp: false
   tls: true
   ws-path: /shares
+- name: 🇩🇪德国-黑森-0-v2ray-france1.yj2022.ga:443
+  type: vmess
+  server: france1.yj2022.ga
+  network: ws
+  port: 443
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /E86414F638E11
 - name: 🇫🇷法国-0-0-v2ray-de2-vmess.greenssh.xyz:443
   type: vmess
   server: de2-vmess.greenssh.xyz
@@ -371,47 +411,3 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇨🇳中国-香港-0-v2ray-n1681196439.aqdisrv.cn:443
-  type: vmess
-  server: n1681196439.aqdisrv.cn
-  network: ws
-  port: 443
-  uuid: 1780a2d3-a892-4559-b242-d6bfdad4d869
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /
-- name: 🇨🇳中国-上海-上海-v2ray-v2-ca1.silverdragon.cn:443
-  type: vmess
-  server: v2-ca1.silverdragon.cn
-  network: ws
-  port: 443
-  uuid: e790e3bf-c553-40ed-b2b6-436afd3f5f5c
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /ca/v2wss
-- name: 🇸🇬新加坡-0-0-v2ray-sigma.jandapirang.my.id:80
-  type: vmess
-  server: sigma.jandapirang.my.id
-  network: ws
-  port: 80
-  uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /vmess
-- name: 🇨🇳中国-0-0-v2ray-sgp1.looooooongnet.lol:443
-  type: vmess
-  server: sgp1.looooooongnet.lol
-  network: ws
-  port: 443
-  uuid: cb19e01e-6832-46c7-92c2-1fb93f09e1a8
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: ''
