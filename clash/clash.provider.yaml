@@ -113,6 +113,18 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
+- name: 🇨🇳中国-上海-上海-ss-139.226.136.165:35509
+  type: ss
+  server: 139.226.136.165
+  password: 4d5a811b-2289-43c3-a042-abd484e7505b
+  port: 35509
+  cipher: aes-256-gcm
+- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24003
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24003
+  cipher: aes-128-cfb
 - name: 🇨🇦加拿大-魁北克-博阿努瓦-ss2-167.114.194.138:14783
   type: ss
   server: 167.114.194.138
@@ -212,12 +224,34 @@ proxies:
   udp: false
   tls: false
   ws-path: /vmess
+- name: 🇸🇬新加坡-0-0-v2ray-vi.mot20.ga:8080
+  type: vmess
+  server: vi.mot20.ga
+  network: ws
+  port: 8080
+  uuid: 342e932e-d990-4ad4-b38a-837a8ed3463c
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇨🇳中国-广东-广州-v2ray-gm1g.jikenodes.xyz:4015
   type: vmess
   server: gm1g.jikenodes.xyz
   network: ws
   port: 4015
   uuid: 8a1391f9-ff42-458b-8463-2cc532acdd52
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇨🇳中国-广东-广州-v2ray-au-01.legeth.xyz:80
+  type: vmess
+  server: au-01.legeth.xyz
+  network: ws
+  port: 80
+  uuid: 32bf4cf8-dc02-44a7-9e6d-62c0ecbf26cd
   alterId: 4
   cipher: auto
   udp: false
@@ -322,7 +356,7 @@ proxies:
   udp: false
   tls: true
   ws-path: /
-- name: 🇨🇳中国-广东-江门-v2ray-v2-ca1.silverdragon.cn:443
+- name: 🇨🇳中国-上海-上海-v2ray-v2-ca1.silverdragon.cn:443
   type: vmess
   server: v2-ca1.silverdragon.cn
   network: ws
