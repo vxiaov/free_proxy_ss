@@ -101,6 +101,12 @@ proxies:
   password: QazEdcTgb159@$*
   port: 24006
   cipher: aes-128-cfb
+- name: 🇨🇳中国-安徽-0-ss-p1.bxy-fun1.com:11407
+  type: ss
+  server: p1.bxy-fun1.com
+  password: d7bee830-09aa-43b2-8945-3b341b8787db
+  port: 11407
+  cipher: chacha20-ietf-poly1305
 - name: 🇨🇳中国-广东-广州-ss2-p1.bxy-fun2.com:23105
   type: ss
   server: p1.bxy-fun2.com
@@ -141,6 +147,16 @@ proxies:
   cipher: aes-256-ctr
   protocol-param: ''
   obfs-param: ''
+- name: 🇯🇵日本-东京都-东京-ssr-jp-am48-6.eqnode.net:8081
+  type: ssr
+  server: jp-am48-6.eqnode.net
+  password: eAokbaDN6
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
 - name: 🇩🇪德国-法兰克福-法兰克福-v2ray-85.208.107.119:38183
   type: vmess
   server: 85.208.107.119
@@ -163,7 +179,7 @@ proxies:
   udp: false
   tls: true
   ws-path: /mR17oBKzZ7
-- name: 🇺🇦乌克兰-0-0-v2ray-ydhdlbain.114514782.xyz:2052
+- name: 🇦🇺澳大利亚-0-0-v2ray-ydhdlbain.114514782.xyz:2052
   type: vmess
   server: ydhdlbain.114514782.xyz
   network: ws
@@ -174,7 +190,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /uasfbbc
-- name: 🇺🇦乌克兰-0-0-v2ray-l1.zanbil-mo.cf:2095
+- name: 🇦🇺澳大利亚-0-0-v2ray-l1.zanbil-mo.cf:2095
   type: vmess
   server: l1.zanbil-mo.cf
   network: ws
@@ -185,7 +201,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇺🇦乌克兰-0-0-v2ray-pm.motori.pw:8880
+- name: 🇦🇺澳大利亚-0-0-v2ray-pm.motori.pw:8880
   type: vmess
   server: pm.motori.pw
   network: ws
@@ -328,7 +344,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /vpnjantit
-- name: 🇩🇪德国-法兰克福-法兰克福-v2ray-asbiasncs.114514782.xyz:2052
+- name: 🇦🇺澳大利亚-0-0-v2ray-asbiasncs.114514782.xyz:2052
   type: vmess
   server: asbiasncs.114514782.xyz
   network: ws
@@ -339,7 +355,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /auvbwbs
-- name: 🇺🇸美国-0-0-v2ray-aduibdfg.114514782.xyz:2052
+- name: 🇦🇺澳大利亚-0-0-v2ray-aduibdfg.114514782.xyz:2052
   type: vmess
   server: aduibdfg.114514782.xyz
   network: ws
@@ -372,6 +388,17 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇫🇷法国-0-0-v2ray-scaleway.696960.xyz:443
+  type: vmess
+  server: scaleway.696960.xyz
+  network: ws
+  port: 443
+  uuid: e357cd63-f1a5-4c8e-c42e-26da11207fee
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /root/
 - name: 🇨🇳中国-香港-0-v2ray-n1681196439.aqdisrv.cn:443
   type: vmess
   server: n1681196439.aqdisrv.cn
@@ -404,26 +431,4 @@ proxies:
   cipher: auto
   udp: false
   tls: true
-  ws-path: /
-- name: 🇸🇬新加坡-0-0-v2ray-sigma.jandapirang.my.id:80
-  type: vmess
-  server: sigma.jandapirang.my.id
-  network: ws
-  port: 80
-  uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /vmess
-- name: 🇨🇳中国-0-0-v2ray-sg-01.legeth.xyz:80
-  type: vmess
-  server: sg-01.legeth.xyz
-  network: ws
-  port: 80
-  uuid: 6ba2b939-9b8f-4c5e-ba99-b91391fe21c1
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
   ws-path: /
