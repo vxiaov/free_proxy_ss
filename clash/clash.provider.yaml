@@ -11,48 +11,42 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇨🇳中国-广东-江门-ss-relay-tw-2.nxunfan.com:38161
-  type: ss
-  server: relay-tw-2.nxunfan.com
-  password: f6837505-a97e-4e9f-aa65-896b1a7ec074
-  port: 38161
-  cipher: chacha20-ietf-poly1305
-- name: 🇰🇷韩国-首尔-首尔-ss-3.35.55.5:443
-  type: ss
-  server: 3.35.55.5
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
-- name: 🇩🇪德国-法兰克福-法兰克福-ss-95.179.241.32:8313
-  type: ss
-  server: 95.179.241.32
-  password: ljqdalu13..
-  port: 8313
-  cipher: chacha20-ietf-poly1305
 - name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24003
   type: ss
   server: 14.29.124.168
   password: QazEdcTgb159@$*
   port: 24003
   cipher: aes-128-cfb
-- name: 🇸🇬新加坡-0-0-ss-18.142.44.79:443
+- name: 🇦🇺澳大利亚-0-0-ss-playweb.ml:6983
   type: ss
-  server: 18.142.44.79
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
-- name: 🇨🇳中国-广东-江门-ss-relay-sg1.nxunfan.com:24183
+  server: playweb.ml
+  password: Hucloud12
+  port: 6983
+  cipher: chacha20-ietf
+- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24007
   type: ss
-  server: relay-sg1.nxunfan.com
-  password: 6ffdceff-fba7-473e-8942-8911df2a9dd4
-  port: 24183
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24007
+  cipher: aes-128-cfb
+- name: 🇨🇳中国-广东-广州-ss-a.gfw.services:64739
+  type: ss
+  server: a.gfw.services
+  password: abc9a8de-024e-42ea-b1f3-b9ea7a85f9ed
+  port: 64739
   cipher: chacha20-ietf-poly1305
-- name: 🇦🇺澳大利亚-0-0-ss-43.207.87.2:443
+- name: 🇸🇬新加坡-0-0-ss-18.141.146.6:443
   type: ss
-  server: 43.207.87.2
+  server: 18.141.146.6
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
+- name: 🇺🇸美国-0-0-ss-38.143.66.187:9101
+  type: ss
+  server: 38.143.66.187
+  password: e4FCWrgpkji3QY
+  port: 9101
+  cipher: aes-256-gcm
 - name: 🇩🇪德国-法兰克福-法兰克福-ss2-95.179.241.32:8313
   type: ss
   server: 95.179.241.32
@@ -75,26 +69,17 @@ proxies:
   cipher: aes-256-ctr
   protocol-param: ''
   obfs-param: ''
-- name: 🇨🇳中国-广东-广州-ssr-14.29.124.168:24008
-  type: ssr
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  obfs: plain
-  protocol: origin
-  port: 24008
-  cipher: aes-128-cfb
-  protocol-param: ''
-  obfs-param: ''
-- name: 🇯🇵日本-东京都-东京-ssr-jp-am48-6.eqnode.net:8081
-  type: ssr
-  server: jp-am48-6.eqnode.net
-  password: eAokbaDN6
-  obfs: tls1.2_ticket_auth
-  protocol: origin
-  port: 8081
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
+- name: 🇳🇱荷兰-Flevoland-0-v2ray-195.123.217.74:443
+  type: vmess
+  server: 195.123.217.74
+  network: ws
+  port: 443
+  uuid: e320897e-e3df-11ed-a8e9-4b5d63d41668
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /vpnjantit
 - name: 🇸🇬新加坡-0-0-v2ray-139.59.99.243:80
   type: vmess
   server: 139.59.99.243
