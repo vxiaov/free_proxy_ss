@@ -29,6 +29,12 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
+- name: 🇺🇸美国-新泽西-0-ss-38.68.135.18:6697
+  type: ss
+  server: 38.68.135.18
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  cipher: aes-256-gcm
 - name: 🇺🇸美国-0-0-ss-134.195.196.149:8090
   type: ss
   server: 134.195.196.149
@@ -293,26 +299,20 @@ proxies:
   password: dongtaiwang.com
   port: 22277
   cipher: aes-256-gcm
-- name: 🇸🇬新加坡-0-0-ss-13.250.63.16:443
+- name: 🇳🇱荷兰-0-0-ss2-185.88.140.138:8080
   type: ss
-  server: 13.250.63.16
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
-- name: 🇺🇸美国-0-0-ss2-38.75.136.102:443
-  type: ss
-  server: 38.75.136.102
-  password: pKEW8JPByTVTLtM
-  port: 443
-  cipher: aes-256-gcm
-- name: 🇨🇳中国-广东-广州-ssr-14.29.124.168:24000
+  server: 185.88.140.138
+  password: qGjmI8WQlF0tfhDbkLqGdN
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+- name: 🇸🇬新加坡-0-0-ssr-51.79.222.99:443
   type: ssr
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  obfs: plain
+  server: 51.79.222.99
+  password: bypasser2020qwerty
+  obfs: tls1.2_ticket_auth
   protocol: origin
-  port: 24000
-  cipher: aes-128-cfb
+  port: 443
+  cipher: aes-256-ctr
   protocol-param: ''
   obfs-param: ''
 - name: 🇯🇵日本-东京都-东京-v2ray-vjp1.0bad.com:443
