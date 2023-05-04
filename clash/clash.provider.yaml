@@ -1,22 +1,4 @@
 proxies:
-- name: 🇺🇸美国-新泽西-0-ss-38.68.135.18:5601
-  type: ss
-  server: 38.68.135.18
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  cipher: aes-256-gcm
-- name: 🇩🇪德国-慕尼黑-0-ss-46.183.185.15:989
-  type: ss
-  server: 46.183.185.15
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  cipher: aes-256-cfb
-- name: 🇺🇸美国-新泽西-0-ss-142.202.48.99:3306
-  type: ss
-  server: 142.202.48.99
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  cipher: aes-256-gcm
 - name: 🇺🇸美国-0-0-ss-38.75.136.102:2376
   type: ss
   server: 38.75.136.102
@@ -46,6 +28,12 @@ proxies:
   server: 169.197.141.187
   password: Y6R9pAtvxxzmGC
   port: 5600
+  cipher: aes-256-gcm
+- name: 🇺🇸美国-0-0-ss-134.195.198.95:8080
+  type: ss
+  server: 134.195.198.95
+  password: KixLvKzwjekG00rm
+  port: 8080
   cipher: aes-256-gcm
 - name: 🇺🇸美国-0-0-ss-38.75.136.102:7001
   type: ss
@@ -203,6 +191,12 @@ proxies:
   password: 6ffdceff-fba7-473e-8942-8911df2a9dd4
   port: 38161
   cipher: chacha20-ietf-poly1305
+- name: 🇺🇸美国-佐治亚-亚特兰大-ss-169.197.141.187:8009
+  type: ss
+  server: 169.197.141.187
+  password: XKFKl2rULjIp74
+  port: 8009
+  cipher: aes-256-gcm
 - name: 🇨🇦加拿大-安大略-多伦多-ss-38.111.114.246:8119
   type: ss
   server: 38.111.114.246
@@ -250,6 +244,12 @@ proxies:
   server: 169.197.141.187
   password: kDWvXYZoTBcGkC4
   port: 8881
+  cipher: aes-256-gcm
+- name: 🇨🇳中国-安徽-马鞍山-ss-111.38.40.132:45195
+  type: ss
+  server: 111.38.40.132
+  password: 4d5a811b-2289-43c3-a042-abd484e7505b
+  port: 45195
   cipher: aes-256-gcm
 - name: 🇺🇸美国-康涅狄格-0-ss-172.99.188.99:5003
   type: ss
@@ -299,22 +299,12 @@ proxies:
   password: PCnnH6SQSnfoS27
   port: 8091
   cipher: aes-256-gcm
-- name: 🇺🇸美国-佐治亚-亚特兰大-ss2-169.197.143.232:6379
+- name: 🇨🇦加拿大-安大略-多伦多-ss2-38.64.138.145:8000
   type: ss
-  server: 169.197.143.232
-  password: zDNVedRFPQexG9v
-  port: 6379
+  server: 38.64.138.145
+  password: KixLvKzwjekG00rm
+  port: 8000
   cipher: aes-256-gcm
-- name: 🇨🇳中国-广东-广州-ssr-14.29.124.168:24000
-  type: ssr
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  obfs: plain
-  protocol: origin
-  port: 24000
-  cipher: aes-128-cfb
-  protocol-param: ''
-  obfs-param: ''
 - name: 🇨🇦加拿大-魁北克-博阿努瓦-v2ray-ca1.xvless.xyz:443
   type: vmess
   server: ca1.xvless.xyz
