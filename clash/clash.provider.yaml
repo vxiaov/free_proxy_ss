@@ -1,4 +1,10 @@
 proxies:
+- name: 🇳🇱荷兰-阿姆斯特丹-阿姆斯特丹-ss-213.108.110.119:8080
+  type: ss
+  server: 213.108.110.119
+  password: qGjmI8WQlF0tfhDbkLqGdN
+  port: 8080
+  cipher: chacha20-ietf-poly1305
 - name: 🇩🇪德国-黑森-0-ss-145.239.1.100:5004
   type: ss
   server: 145.239.1.100
@@ -10,12 +16,6 @@ proxies:
   server: 38.64.138.145
   password: pKEW8JPByTVTLtM
   port: 443
-  cipher: aes-256-gcm
-- name: 🇺🇸美国-康涅狄格-0-ss-172.99.190.149:5500
-  type: ss
-  server: 172.99.190.149
-  password: KixLvKzwjekG00rm
-  port: 5500
   cipher: aes-256-gcm
 - name: 🇺🇸美国-0-0-ss-38.75.136.34:8080
   type: ss
@@ -29,12 +29,12 @@ proxies:
   password: FoOiGlkAA9yPEGP
   port: 7306
   cipher: aes-256-gcm
-- name: 🇵🇱波兰-0-0-ss-185.255.123.90:989
+- name: 🇺🇸美国-佐治亚-亚特兰大-ss-169.197.141.187:7307
   type: ss
-  server: 185.255.123.90
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  cipher: aes-256-cfb
+  server: 169.197.141.187
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  cipher: aes-256-gcm
 - name: 🇦🇺澳大利亚-0-0-ss-43.207.109.92:443
   type: ss
   server: 43.207.109.92
@@ -71,11 +71,17 @@ proxies:
   password: KixLvKzwjekG00rm
   port: 8000
   cipher: aes-256-gcm
-- name: 🇫🇷法国-0-0-ss-ak1640.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:7001
+- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24007
   type: ss
-  server: ak1640.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  password: RexnBgU7EV5ADxG
-  port: 7001
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24007
+  cipher: aes-128-cfb
+- name: 🇩🇪德国-法兰克福-法兰克福-ss-ak1746.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:9102
+  type: ss
+  server: ak1746.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  password: e4FCWrgpkji3QY
+  port: 9102
   cipher: aes-256-gcm
 - name: 🇨🇦加拿大-安大略-多伦多-ss-38.111.114.246:9102
   type: ss
@@ -95,11 +101,17 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 5601
   cipher: aes-256-gcm
-- name: 🇺🇸美国-0-0-ss-134.195.196.107:8119
+- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24006
   type: ss
-  server: 134.195.196.107
-  password: cdBIDV42DCwnfIN
-  port: 8119
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24006
+  cipher: aes-128-cfb
+- name: 🇨🇦加拿大-安大略-多伦多-ss-38.64.138.145:8009
+  type: ss
+  server: 38.64.138.145
+  password: XKFKl2rULjIp74
+  port: 8009
   cipher: aes-256-gcm
 - name: 🇺🇦乌克兰-0-0-ss-195.28.182.217:51348
   type: ss
@@ -107,35 +119,17 @@ proxies:
   password: shwoghRia
   port: 51348
   cipher: chacha20-ietf-poly1305
-- name: 🇬🇧英国-伦敦-伦敦-ss-ak1749.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:4444
-  type: ss
-  server: ak1749.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  cipher: aes-256-gcm
 - name: 🇯🇵日本-东京都-东京-ss-185.172.113.182:810
   type: ss
   server: 185.172.113.182
   password: G!yBwPWH3Vao
   port: 810
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇦加拿大-安大略-多伦多-ss-38.64.138.145:7001
+- name: 🇺🇸美国-0-0-ss-38.75.136.102:9102
   type: ss
-  server: 38.64.138.145
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  cipher: aes-256-gcm
-- name: 🇨🇦加拿大-安大略-多伦多-ss-38.111.114.246:443
-  type: ss
-  server: 38.111.114.246
-  password: pKEW8JPByTVTLtM
-  port: 443
-  cipher: aes-256-gcm
-- name: 🇺🇸美国-康涅狄格-0-ss-172.99.190.149:2375
-  type: ss
-  server: 172.99.190.149
-  password: faBAoD54k87UJG7
-  port: 2375
+  server: 38.75.136.102
+  password: e4FCWrgpkji3QY
+  port: 9102
   cipher: aes-256-gcm
 - name: 🇺🇸美国-0-0-ss-ak1627.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:7306
   type: ss
@@ -155,17 +149,17 @@ proxies:
   password: bwhskrskr03
   port: 246
   cipher: aes-256-cfb
-- name: 🇨🇳中国-广东-广州-ss-2f36c18cfe76.sanfen004.me:14454
+- name: 🇺🇸美国-康涅狄格-0-ss-172.99.190.61:8000
   type: ss
-  server: 2f36c18cfe76.sanfen004.me
-  password: f17ae953-bb51-4932-a139-66c37122f45e
-  port: 14454
+  server: 172.99.190.61
+  password: KixLvKzwjekG00rm
+  port: 8000
   cipher: aes-256-gcm
-- name: 🇦🇺澳大利亚-0-0-ss-43.207.109.56:443
+- name: 🇩🇪德国-慕尼黑-0-ss-46.183.184.60:989
   type: ss
-  server: 43.207.109.56
-  password: amazonskr05
-  port: 443
+  server: 46.183.184.60
+  password: f8f7aCzcPKbsF8p3
+  port: 989
   cipher: aes-256-cfb
 - name: 🇺🇸美国-康涅狄格-0-ss-172.99.190.61:8090
   type: ss
@@ -178,12 +172,6 @@ proxies:
   server: 172.99.190.149
   password: g5MeD6Ft3CWlJId
   port: 5003
-  cipher: aes-256-gcm
-- name: 🇺🇸美国-康涅狄格-0-ss-172.99.190.61:8080
-  type: ss
-  server: 172.99.190.61
-  password: KixLvKzwjekG00rm
-  port: 8080
   cipher: aes-256-gcm
 - name: 🇺🇸美国-康涅狄格-0-ss-172.99.190.61:443
   type: ss
@@ -215,11 +203,17 @@ proxies:
   password: g5MeD6Ft3CWlJId
   port: 5004
   cipher: aes-256-gcm
-- name: 🇺🇸美国-新泽西-0-ss-38.68.135.18:8009
+- name: 🇨🇳中国-安徽-马鞍山-ss-ahcm.v-too.cloud:46108
   type: ss
-  server: 38.68.135.18
-  password: XKFKl2rULjIp74
-  port: 8009
+  server: ahcm.v-too.cloud
+  password: 93db748f-faba-4b98-a4a7-6568e09f264c
+  port: 46108
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸美国-佐治亚-亚特兰大-ss-167.88.63.79:8882
+  type: ss
+  server: 167.88.63.79
+  password: kDWvXYZoTBcGkC4
+  port: 8882
   cipher: aes-256-gcm
 - name: 0-0-0-ss-103.163.218.2:989
   type: ss
@@ -227,23 +221,11 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   cipher: aes-256-cfb
-- name: 🇺🇸美国-0-0-ss-38.75.136.102:443
-  type: ss
-  server: 38.75.136.102
-  password: pKEW8JPByTVTLtM
-  port: 443
-  cipher: aes-256-gcm
 - name: 🇺🇸美国-康涅狄格-0-ss-172.99.190.149:8080
   type: ss
   server: 172.99.190.149
   password: KixLvKzwjekG00rm
   port: 8080
-  cipher: aes-256-gcm
-- name: 🇨🇦加拿大-安大略-多伦多-ss-38.64.138.145:5500
-  type: ss
-  server: 38.64.138.145
-  password: KixLvKzwjekG00rm
-  port: 5500
   cipher: aes-256-gcm
 - name: 🇯🇵日本-东京都-东京-ss-185.172.113.182:804
   type: ss
@@ -263,23 +245,23 @@ proxies:
   password: G!yBwPWH3Vao
   port: 809
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸美国-0-0-ss-134.195.198.95:8080
+- name: 🇺🇸美国-佐治亚-亚特兰大-ss-167.88.63.79:8119
   type: ss
-  server: 134.195.198.95
-  password: KixLvKzwjekG00rm
-  port: 8080
+  server: 167.88.63.79
+  password: cdBIDV42DCwnfIN
+  port: 8119
   cipher: aes-256-gcm
-- name: 🇨🇦加拿大-安大略-多伦多-ss-38.64.138.145:6697
+- name: 🇨🇦加拿大-安大略-多伦多-ss-38.64.138.145:3306
   type: ss
   server: 38.64.138.145
-  password: TEzjfAYq2IjtuoS
-  port: 6697
+  password: Y6R9pAtvxxzmGC
+  port: 3306
   cipher: aes-256-gcm
-- name: 🇺🇸美国-德克萨斯-达拉斯-ss-ak1666.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:2375
+- name: 🇨🇦加拿大-安大略-多伦多-ss-38.64.138.145:8090
   type: ss
-  server: ak1666.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  password: faBAoD54k87UJG7
-  port: 2375
+  server: 38.64.138.145
+  password: PCnnH6SQSnfoS27
+  port: 8090
   cipher: aes-256-gcm
 - name: 🇺🇸美国-新泽西-0-ss-54.36.174.181:5600
   type: ss
@@ -299,20 +281,38 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇺🇸美国-加利福尼亚-圣何塞-ss2-167.88.61.213:5004
+- name: 🇺🇸美国-新泽西-0-ss-38.68.135.18:5003
   type: ss
-  server: 167.88.61.213
+  server: 38.68.135.18
   password: g5MeD6Ft3CWlJId
-  port: 5004
+  port: 5003
   cipher: aes-256-gcm
-- name: 🇫🇷法国-巴黎-0-ssr-fr-am1-5.eqsunshine.com:8181
+- name: 🇺🇸美国-0-0-ss-134.195.198.95:5003
+  type: ss
+  server: 134.195.198.95
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  cipher: aes-256-gcm
+- name: 🇺🇸美国-0-0-ss-134.195.198.95:3389
+  type: ss
+  server: 134.195.198.95
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  cipher: aes-256-gcm
+- name: 🇺🇸美国-德克萨斯-达拉斯-ss2-38.121.43.65:2375
+  type: ss
+  server: 38.121.43.65
+  password: faBAoD54k87UJG7
+  port: 2375
+  cipher: aes-256-gcm
+- name: 🇨🇳中国-广东-广州-ssr-14.29.124.168:24000
   type: ssr
-  server: fr-am1-5.eqsunshine.com
-  password: RcfVcDzzB
-  obfs: tls1.2_ticket_auth
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  obfs: plain
   protocol: origin
-  port: 8181
-  cipher: aes-256-cfb
+  port: 24000
+  cipher: aes-128-cfb
   protocol-param: ''
   obfs-param: ''
 - name: 🇺🇸美国-华盛顿-雷德蒙德-v2ray-petal.ga:443
