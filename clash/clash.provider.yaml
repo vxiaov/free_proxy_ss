@@ -1,10 +1,4 @@
 proxies:
-- name: 🇨🇦加拿大-安大略-多伦多-ss-ak1667.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:5004
-  type: ss
-  server: ak1667.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  cipher: aes-256-gcm
 - name: 🇺🇸美国-康涅狄格-0-ss-ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:5000
   type: ss
   server: ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
@@ -17,31 +11,25 @@ proxies:
   password: TEzjfAYq2IjtuoS
   port: 6679
   cipher: aes-256-gcm
-- name: 🇯🇵日本-东京都-东京-ss-54.178.201.232:443
+- name: 🇨🇳中国-广东-深圳-ss-as.unlimitedtraffic.top:25815
   type: ss
-  server: 54.178.201.232
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
-- name: 🇯🇵日本-东京都-东京-ss-18.176.61.169:443
+  server: as.unlimitedtraffic.top
+  password: a3aed593-3415-4672-997d-15798bb301f1
+  port: 25815
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳中国-广东-深圳-ss2-as.unlimitedtraffic.top:25815
   type: ss
-  server: 18.176.61.169
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
-- name: 🇩🇪德国-黑森-0-ss-145.239.1.100:7306
-  type: ss
-  server: 145.239.1.100
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  cipher: aes-256-gcm
+  server: as.unlimitedtraffic.top
+  password: a3aed593-3415-4672-997d-15798bb301f1
+  port: 25815
+  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸美国-康涅狄格-0-ss2-ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:5000
   type: ss
   server: ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   password: Y6R9pAtvxxzmGC
   port: 5000
   cipher: aes-256-gcm
-- name: 🇷🇺俄罗斯-Novosibirskaya-0-v2ray-dallas.starsea.vip:443
+- name: 🇷🇺俄罗斯-莫斯科-莫斯科-v2ray-dallas.starsea.vip:443
   type: vmess
   server: dallas.starsea.vip
   network: ws
@@ -63,20 +51,9 @@ proxies:
   udp: false
   tls: true
   ws-path: /sometimesnaive
-- name: 🇺🇸美国-加利福尼亚-0-v2ray-v2ray3.webgfw.top:2083
+- name: 🇺🇸美国-加利福尼亚-0-v2ray-yn1.01dj.sbs:443
   type: vmess
-  server: v2ray3.webgfw.top
-  network: ws
-  port: 2083
-  uuid: 4cc72565-0d05-41e6-bc34-72aba9da544f
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /X9piqfat/
-- name: 🇺🇸美国-加利福尼亚-0-v2ray-us1.01dj.sbs:443
-  type: vmess
-  server: us1.01dj.sbs
+  server: yn1.01dj.sbs
   network: ws
   port: 443
   uuid: 4dc3b73e-9c0a-477c-8a29-843849e9194e
@@ -85,3 +62,69 @@ proxies:
   udp: false
   tls: true
   ws-path: /sometimesnaive
+- name: 🇺🇸美国-加利福尼亚-0-v2ray-us4.01dj.sbs:443
+  type: vmess
+  server: us4.01dj.sbs
+  network: ws
+  port: 443
+  uuid: 4dc3b73e-9c0a-477c-8a29-843849e9194e
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /sometimesnaive
+- name: 🇺🇸美国-加利福尼亚-0-v2ray-jp1.01dj.sbs:443
+  type: vmess
+  server: jp1.01dj.sbs
+  network: ws
+  port: 443
+  uuid: 4dc3b73e-9c0a-477c-8a29-843849e9194e
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /sometimesnaive
+- name: 🇩🇪德国-法兰克福-法兰克福-v2ray-80.240.16.199:2087
+  type: vmess
+  server: 80.240.16.199
+  network: ws
+  port: 2087
+  uuid: d5350465-ab63-4d30-ebda-5cbe0751cbd6
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇨🇳中国-福建-厦门-v2ray-suidao.vipxgyun.com:10018
+  type: vmess
+  server: suidao.vipxgyun.com
+  network: ws
+  port: 10018
+  uuid: f451d9d5-2d8a-3b3e-bb06-42b3ea1d86a8
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /ny
+- name: 🇨🇳中国-福建-厦门-v2ray-tv4.gcpf.eu.org:443
+  type: vmess
+  server: tv4.gcpf.eu.org
+  network: ws
+  port: 443
+  uuid: 5f3b039e-22a0-4250-b2bd-64ef4ff68b35
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /
+- name: 🇳🇱荷兰-阿姆斯特丹-阿姆斯特丹-v2ray-95.179.190.81:2083
+  type: vmess
+  server: 95.179.190.81
+  network: ws
+  port: 2083
+  uuid: ce03a832-d6bb-45a3-9121-f7bd6f189469
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
