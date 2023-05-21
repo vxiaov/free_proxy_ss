@@ -1,10 +1,4 @@
 proxies:
-- name: 🇨🇳中国-浙江-杭州-ss-gzdx.jcnode.top:23001
-  type: ss
-  server: gzdx.jcnode.top
-  password: 052bc769-0489-49c7-97f2-51b3bb8e5486
-  port: 23001
-  cipher: aes-256-gcm
 - name: 🇨🇳中国-上海-上海-ss-62e2186f.f0acf363.83df.34fb5e38.cc:30001
   type: ss
   server: 62e2186f.f0acf363.83df.34fb5e38.cc
@@ -17,24 +11,12 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 5000
   cipher: aes-256-gcm
-- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24008
+- name: 🇨🇳中国-浙江-杭州-ss-gzdx.jcnode.top:23001
   type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24008
-  cipher: aes-128-cfb
-- name: 🇨🇳中国-浙江-绍兴-ss-hz-dx.duaaoped.xyz:41191
-  type: ss
-  server: hz-dx.duaaoped.xyz
-  password: adc570f1-d591-4a5a-93f0-0013bba3f116
-  port: 41191
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24005
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24005
-  cipher: aes-128-cfb
+  server: gzdx.jcnode.top
+  password: 052bc769-0489-49c7-97f2-51b3bb8e5486
+  port: 23001
+  cipher: aes-256-gcm
 - name: 🇨🇳中国-上海-上海-ss2-62e2186f.f0acf363.83df.34fb5e38.cc:30001
   type: ss
   server: 62e2186f.f0acf363.83df.34fb5e38.cc
@@ -47,38 +29,12 @@ proxies:
   password: 052bc769-0489-49c7-97f2-51b3bb8e5486
   port: 23001
   cipher: aes-256-gcm
-- name: 🇨🇳中国-浙江-绍兴-ss2-hz-dx.duaaoped.xyz:41191
-  type: ss
-  server: hz-dx.duaaoped.xyz
-  password: adc570f1-d591-4a5a-93f0-0013bba3f116
-  port: 41191
-  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸美国-康涅狄格-0-ss2-ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:5000
   type: ss
   server: ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   password: Y6R9pAtvxxzmGC
   port: 5000
   cipher: aes-256-gcm
-- name: 🇨🇳中国-广东-广州-ssr-14.29.124.168:24008
-  type: ssr
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  obfs: plain
-  protocol: origin
-  port: 24008
-  cipher: aes-128-cfb
-  protocol-param: ''
-  obfs-param: ''
-- name: 🇦🇺澳大利亚-0-0-ssr-jp-am48-6.eqnode.net:8081
-  type: ssr
-  server: jp-am48-6.eqnode.net
-  password: eAokbaDN6
-  obfs: tls1.2_ticket_auth
-  protocol: origin
-  port: 8081
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
 - name: 🇺🇸美国-加利福尼亚-0-v2ray-us2.01dj.sbs:443
   type: vmess
   server: us2.01dj.sbs
@@ -112,27 +68,6 @@ proxies:
   udp: false
   tls: true
   ws-path: /sometimesnaive
-- name: 🇳🇱荷兰-Drenthe-0-v2ray-185.162.235.250:2054
-  type: vmess
-  server: 185.162.235.250
-  network: ws
-  port: 2054
-  uuid: 6f117af4-cd52-40f8-9236-7c5e3f357cc8
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /socket.io
-- name: 🇺🇸美国-加利福尼亚-圣何塞-v2ray-104.233.163.112:36389
-  type: vmess
-  server: 104.233.163.112
-  network: ws
-  port: 36389
-  uuid: fee64de4-3b04-44af-858b-84c1722b4d44
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
 - name: 🇨🇳中国-广东-广州-v2ray-gzzz.8bqyato.ml:13252
   type: vmess
   server: gzzz.8bqyato.ml
@@ -155,14 +90,34 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇩🇪德国-0-0-v2ray-91.107.243.156:36590
+- name: 🇫🇷法国-0-0-v2ray-pl2-vmess.greenssh.xyz:443
   type: vmess
-  server: 91.107.243.156
+  server: pl2-vmess.greenssh.xyz
   network: ws
-  port: 36590
-  uuid: da6244b6-fa2b-4067-fa5e-d477e0dca533
+  port: 443
+  uuid: 2e68015f-a8b2-4893-a7a3-4edb19b178d9
   alterId: 4
   cipher: auto
   udp: false
-  tls: false
+  tls: true
+  ws-path: /vmess
+- name: 🇫🇷法国-0-0-v2ray-tou.wang66.homes:80
+  type: vmess
+  server: tou.wang66.homes
+  network: ws
+  port: 80
+  uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /qazxcv518
+- name: 🇺🇸美国-加利福尼亚-0-v2ray-138.2.71.111:80
+  type: vmess
+  server: 138.2.71.111
+  network: ws
+  port: 80
+  uuid: b2947942-701b-4de2-91cd-f6810d5d03bc
+  alterId: 0
+  cipher: auto
+  udp: false
   ws-path: /
