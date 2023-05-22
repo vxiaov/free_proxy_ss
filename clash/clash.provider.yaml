@@ -1,17 +1,23 @@
 proxies:
-- name: 🇦🇺澳大利亚-0-0-ss-43.202.33.9:443
-  type: ss
-  server: 43.202.33.9
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
-- name: 🇺🇸美国-加利福尼亚-0-v2ray-138.2.71.111:80
+- name: 🇯🇵日本-东京都-东京-v2ray-jp4.01dj.sbs:443
   type: vmess
-  server: 138.2.71.111
+  server: jp4.01dj.sbs
   network: ws
-  port: 80
-  uuid: b2947942-701b-4de2-91cd-f6810d5d03bc
-  alterId: 0
+  port: 443
+  uuid: 95b2dc83-a476-4a82-93b2-0d77b4c30c18
+  alterId: 4
   cipher: auto
   udp: false
-  ws-path: ''
+  tls: true
+  ws-path: /sometimesnaive
+- name: 🇯🇵日本-东京都-东京-v2ray-jp3.01dj.sbs:443
+  type: vmess
+  server: jp3.01dj.sbs
+  network: ws
+  port: 443
+  uuid: 95b2dc83-a476-4a82-93b2-0d77b4c30c18
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /sometimesnaive
