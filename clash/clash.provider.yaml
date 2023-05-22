@@ -11,12 +11,6 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇺🇸美国-俄勒冈-0-ss-54.213.178.70:443
-  type: ss
-  server: 54.213.178.70
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
 - name: 🇦🇺澳大利亚-0-0-ss-43.207.233.231:443
   type: ss
   server: 43.207.233.231
@@ -29,12 +23,6 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇳🇿新西兰-0-0-ss-hk.nutcloud.de:443
-  type: ss
-  server: hk.nutcloud.de
-  password: od176M3UVTFsyZAYYkT8Xe/Ip2V69M5Ml2q00slKFak=
-  port: 443
-  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵日本-东京都-东京-ss-54.64.196.107:443
   type: ss
   server: 54.64.196.107
@@ -51,4 +39,45 @@ proxies:
   cipher: auto
   udp: false
   tls: false
+  ws-path: ''
+- name: 🇵🇭菲律宾-马尼拉-马尼拉-v2ray-49.157.28.247:10000
+  type: vmess
+  server: 49.157.28.247
+  network: ws
+  port: 10000
+  uuid: f243b5fc-f758-11ed-bde1-b7ca26423dc8
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /vpnjantit
+- name: 🇺🇸美国-加利福尼亚-0-v2ray-dm1-154.jike123.xyz:5003
+  type: vmess
+  server: dm1-154.jike123.xyz
+  network: ws
+  port: 5003
+  uuid: 468ca404-3b4d-40bd-9921-44d13832d4da
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: ''
+- name: 🇧🇬保加利亚-Sofia-0-v2ray-195.123.228.112:10000
+  type: vmess
+  server: 195.123.228.112
+  network: ws
+  port: 10000
+  uuid: 0a2bbe96-f757-11ed-8582-1facd6cb996a
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /vpnjantit
+- name: 🇺🇸美国-加利福尼亚-0-v2ray-138.2.71.111:80
+  type: vmess
+  server: 138.2.71.111
+  network: ws
+  port: 80
+  uuid: b2947942-701b-4de2-91cd-f6810d5d03bc
+  alterId: 0
+  cipher: auto
+  udp: false
   ws-path: ''
