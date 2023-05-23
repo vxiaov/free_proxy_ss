@@ -1,11 +1,69 @@
 proxies:
-- name: 🇺🇸美国-0-0-ss-38.150.15.176:8388
+- name: 🇺🇸美国-康涅狄格-0-ss-172.99.188.99:5001
   type: ss
-  server: 38.150.15.176
-  password: daozhang
-  port: 8388
+  server: 172.99.188.99
+  password: Y6R9pAtvxxzmGC
+  port: 5001
   cipher: aes-256-gcm
-- name: 🇺🇸美国-0-0-v2ray-tou.vtcss.top:443
+- name: 🇺🇸美国-康涅狄格-0-ss-172.99.188.99:8882
+  type: ss
+  server: 172.99.188.99
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  cipher: aes-256-gcm
+- name: 🇺🇸美国-康涅狄格-0-ss-172.99.188.99:4444
+  type: ss
+  server: 172.99.188.99
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  cipher: aes-256-gcm
+- name: 🇺🇸美国-康涅狄格-0-ss-172.99.188.99:2375
+  type: ss
+  server: 172.99.188.99
+  password: faBAoD54k87UJG7
+  port: 2375
+  cipher: aes-256-gcm
+- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24001
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24001
+  cipher: aes-128-cfb
+- name: 🇺🇸美国-康涅狄格-0-ss2-172.99.188.99:5004
+  type: ss
+  server: 172.99.188.99
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  cipher: aes-256-gcm
+- name: 🇺🇸美国-康涅狄格-0-ss2-172.99.188.99:4444
+  type: ss
+  server: 172.99.188.99
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  cipher: aes-256-gcm
+- name: 🇬🇧英国-伦敦-伦敦-ss2-145.239.6.202:4444
+  type: ss
+  server: 145.239.6.202
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  cipher: aes-256-gcm
+- name: 🇺🇸美国-康涅狄格-0-ss2-172.99.188.99:2375
+  type: ss
+  server: 172.99.188.99
+  password: faBAoD54k87UJG7
+  port: 2375
+  cipher: aes-256-gcm
+- name: 🇺🇸美国-俄勒冈-0-ssr-us-am3.eqnode.net:8081
+  type: ssr
+  server: us-am3.eqnode.net
+  password: fou8MBGij
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇺🇸美国-俄勒冈-0-v2ray-tou.vtcss.top:443
   type: vmess
   server: tou.vtcss.top
   network: ws
@@ -16,7 +74,7 @@ proxies:
   udp: false
   tls: true
   ws-path: /qazxcv522
-- name: 🇺🇸美国-0-0-v2ray-uk.minl.me:8080
+- name: 🇺🇸美国-俄勒冈-0-v2ray-uk.minl.me:8080
   type: vmess
   server: uk.minl.me
   network: ws
@@ -27,3 +85,36 @@ proxies:
   udp: false
   tls: false
   ws-path: /play1
+- name: 🇺🇸美国-加利福尼亚-0-v2ray-aaaa.wxx.gay:443
+  type: vmess
+  server: aaaa.wxx.gay
+  network: ws
+  port: 443
+  uuid: b58726dc-f8b9-11ed-9945-000017022008
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /look
+- name: 🇨🇳中国-浙江-杭州-v2ray-gzdx.jcnode.top:48002
+  type: vmess
+  server: gzdx.jcnode.top
+  network: ws
+  port: 48002
+  uuid: 247f7c60-986e-4ce5-b91b-f064b5e213e8
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /fly
+- name: 🇨🇳中国-北京-北京-v2ray-t.cccao.cyou:16620
+  type: vmess
+  server: t.cccao.cyou
+  network: ws
+  port: 16620
+  uuid: 16925dca-05be-4d7c-b469-6bcbd8a227ce
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
