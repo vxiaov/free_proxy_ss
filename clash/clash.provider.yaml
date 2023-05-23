@@ -23,23 +23,35 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
+- name: 🇺🇸美国-康涅狄格-0-ss-ak1643.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:8888
+  type: ss
+  server: ak1643.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  cipher: aes-256-gcm
+- name: 🇩🇪德国-法兰克福-法兰克福-ss-193.108.118.34:2376
+  type: ss
+  server: 193.108.118.34
+  password: faBAoD54k87UJG7
+  port: 2376
+  cipher: aes-256-gcm
 - name: 🇺🇸美国-0-0-ss-38.150.15.176:8388
   type: ss
   server: 38.150.15.176
   password: daozhang
   port: 8388
   cipher: aes-256-gcm
-- name: 🇺🇸美国-新泽西-0-ss-54.36.174.181:5600
-  type: ss
-  server: 54.36.174.181
-  password: Y6R9pAtvxxzmGC
-  port: 5600
-  cipher: aes-256-gcm
 - name: 🇺🇸美国-康涅狄格-0-ss-ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:5000
   type: ss
   server: ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   password: Y6R9pAtvxxzmGC
   port: 5000
+  cipher: aes-256-gcm
+- name: 🇩🇪德国-法兰克福-法兰克福-ss-193.108.118.34:8091
+  type: ss
+  server: 193.108.118.34
+  password: PCnnH6SQSnfoS27
+  port: 8091
   cipher: aes-256-gcm
 - name: 🇩🇪德国-法兰克福-法兰克福-ss2-193.108.118.34:2375
   type: ss
@@ -65,11 +77,11 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 5600
   cipher: aes-256-gcm
-- name: 🇺🇸美国-0-0-ss2-38.150.15.176:8388
+- name: 🇩🇪德国-法兰克福-法兰克福-ss2-193.108.118.34:8091
   type: ss
-  server: 38.150.15.176
-  password: daozhang
-  port: 8388
+  server: 193.108.118.34
+  password: PCnnH6SQSnfoS27
+  port: 8091
   cipher: aes-256-gcm
 - name: 🇺🇸美国-康涅狄格-0-ss2-ak1643.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:8888
   type: ss
@@ -99,7 +111,7 @@ proxies:
   udp: false
   tls: true
   ws-path: /
-- name: 🇮🇷伊朗-0-0-v2ray-x.leonard.eu.org:443
+- name: 🇨🇳中国-香港-0-v2ray-x.leonard.eu.org:443
   type: vmess
   server: x.leonard.eu.org
   network: ws
@@ -120,16 +132,6 @@ proxies:
   cipher: auto
   udp: false
   ws-path: ''
-- name: 🇯🇵日本-东京都-东京-v2ray-172.105.217.55:80
-  type: vmess
-  server: 172.105.217.55
-  network: ws
-  port: 80
-  uuid: ec7c94b5-6ca6-4289-b44b-c6583f2c5f6c
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /fuzzyng?ed=2048
 - name: 🇺🇸美国-加利福尼亚-0-v2ray-ap-kr-north.292228.xyz:80
   type: vmess
   server: ap-kr-north.292228.xyz
@@ -161,14 +163,36 @@ proxies:
   cipher: auto
   udp: false
   ws-path: /
-- name: 🇺🇸美国-康涅狄格-0-v2ray-13.215.190.191:80
+- name: 🇺🇸美国-加利福尼亚-0-v2ray-aaaa.wxx.gay:443
   type: vmess
-  server: 13.215.190.191
+  server: aaaa.wxx.gay
   network: ws
-  port: 80
-  uuid: ca7febc2-bb45-4e6d-810e-ab0af6009c4e
+  port: 443
+  uuid: dfa52aee-f982-11ed-bd51-000017022008
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /look
+- name: 🇨🇳中国-湖北-武汉-v2ray-gzyd.jcnode.top:20000
+  type: vmess
+  server: gzyd.jcnode.top
+  network: ws
+  port: 20000
+  uuid: 55e06db4-70f4-4649-9bbb-ac8ae479450a
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /aws-china-media/Y699Gjx2rNw.mp4
+  ws-path: ''
+- name: 🇨🇳中国-福建-厦门-v2ray-suidao.vipxgyun.com:10016
+  type: vmess
+  server: suidao.vipxgyun.com
+  network: ws
+  port: 10016
+  uuid: 738055ad-9399-33c2-b298-751006e331c6
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /ny
