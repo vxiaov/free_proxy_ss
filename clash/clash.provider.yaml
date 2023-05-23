@@ -1,21 +1,21 @@
 proxies:
+- name: 🇺🇸美国-康涅狄格-0-ss-172.99.188.99:4444
+  type: ss
+  server: 172.99.188.99
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  cipher: aes-256-gcm
 - name: 🇺🇸美国-康涅狄格-0-ss-172.99.188.99:5001
   type: ss
   server: 172.99.188.99
   password: Y6R9pAtvxxzmGC
   port: 5001
   cipher: aes-256-gcm
-- name: 🇺🇸美国-康涅狄格-0-ss-172.99.188.99:8882
+- name: 🇺🇸美国-加利福尼亚-0-ss-167.160.91.118:33110
   type: ss
-  server: 172.99.188.99
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  cipher: aes-256-gcm
-- name: 🇺🇸美国-康涅狄格-0-ss-172.99.188.99:4444
-  type: ss
-  server: 172.99.188.99
-  password: pKEW8JPByTVTLtM
-  port: 4444
+  server: 167.160.91.118
+  password: dongtaiwang.com
+  port: 33110
   cipher: aes-256-gcm
 - name: 🇺🇸美国-康涅狄格-0-ss-172.99.188.99:2375
   type: ss
@@ -23,23 +23,11 @@ proxies:
   password: faBAoD54k87UJG7
   port: 2375
   cipher: aes-256-gcm
-- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24001
-  type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24001
-  cipher: aes-128-cfb
 - name: 🇺🇸美国-康涅狄格-0-ss2-172.99.188.99:5004
   type: ss
   server: 172.99.188.99
   password: g5MeD6Ft3CWlJId
   port: 5004
-  cipher: aes-256-gcm
-- name: 🇺🇸美国-康涅狄格-0-ss2-172.99.188.99:4444
-  type: ss
-  server: 172.99.188.99
-  password: pKEW8JPByTVTLtM
-  port: 4444
   cipher: aes-256-gcm
 - name: 🇬🇧英国-伦敦-伦敦-ss2-145.239.6.202:4444
   type: ss
@@ -53,7 +41,7 @@ proxies:
   password: faBAoD54k87UJG7
   port: 2375
   cipher: aes-256-gcm
-- name: 🇺🇸美国-俄勒冈-0-ssr-us-am3.eqnode.net:8081
+- name: 🇺🇸美国-密歇根-0-ssr-us-am3.eqnode.net:8081
   type: ssr
   server: us-am3.eqnode.net
   password: fou8MBGij
@@ -63,18 +51,58 @@ proxies:
   cipher: aes-256-cfb
   protocol-param: ''
   obfs-param: ''
-- name: 🇺🇸美国-俄勒冈-0-v2ray-tou.vtcss.top:443
+- name: 🇫🇷法国-巴黎-0-ssr-fr-am1-5.eqsunshine.com:8181
+  type: ssr
+  server: fr-am1-5.eqsunshine.com
+  password: RcfVcDzzB
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8181
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇨🇳中国-福建-厦门-v2ray-t.cccao.cyou:16620
   type: vmess
-  server: tou.vtcss.top
+  server: t.cccao.cyou
   network: ws
-  port: 443
-  uuid: 9588cb0f-5102-4e66-d5fb-f96cba9acdda
+  port: 16620
+  uuid: 16925dca-05be-4d7c-b469-6bcbd8a227ce
   alterId: 4
   cipher: auto
   udp: false
-  tls: true
-  ws-path: /qazxcv522
-- name: 🇺🇸美国-俄勒冈-0-v2ray-uk.minl.me:8080
+  tls: false
+  ws-path: /
+- name: 🇺🇸美国-加利福尼亚-0-v2ray-138.2.71.111:80
+  type: vmess
+  server: 138.2.71.111
+  network: ws
+  port: 80
+  uuid: b2947942-701b-4de2-91cd-f6810d5d03bc
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: ''
+- name: 🇫🇷法国-0-0-v2ray-188.165.170.83:80
+  type: vmess
+  server: 188.165.170.83
+  network: ws
+  port: 80
+  uuid: 860a862a-2798-4037-8513-b060e310e7fc
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /
+- name: 🇺🇸美国-加利福尼亚-圣何塞-v2ray-104.233.163.112:36389
+  type: vmess
+  server: 104.233.163.112
+  network: ws
+  port: 36389
+  uuid: fee64de4-3b04-44af-858b-84c1722b4d44
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: ''
+- name: 🇺🇸美国-加利福尼亚-圣何塞-v2ray-uk.minl.me:8080
   type: vmess
   server: uk.minl.me
   network: ws
@@ -85,34 +113,45 @@ proxies:
   udp: false
   tls: false
   ws-path: /play1
-- name: 🇺🇸美国-加利福尼亚-0-v2ray-aaaa.wxx.gay:443
+- name: 🇺🇸美国-加利福尼亚-圣何塞-v2ray-v2ray3.webgfw.top:2083
   type: vmess
-  server: aaaa.wxx.gay
+  server: v2ray3.webgfw.top
   network: ws
-  port: 443
-  uuid: b58726dc-f8b9-11ed-9945-000017022008
+  port: 2083
+  uuid: 07e90bec-b70d-414c-a00e-c844f1ea3345
   alterId: 4
   cipher: auto
   udp: false
   tls: true
-  ws-path: /look
-- name: 🇨🇳中国-浙江-杭州-v2ray-gzdx.jcnode.top:48002
+  ws-path: /X9piqfat/
+- name: 🇰🇷韩国-首尔-首尔-v2ray-152.67.218.38:443
   type: vmess
-  server: gzdx.jcnode.top
+  server: 152.67.218.38
   network: ws
-  port: 48002
-  uuid: 247f7c60-986e-4ce5-b91b-f064b5e213e8
+  port: 443
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /fly
-- name: 🇨🇳中国-北京-北京-v2ray-t.cccao.cyou:16620
+  ws-path: /
+- name: 🇩🇪德国-法兰克福-法兰克福-v2ray-vde2.0bad.com:443
   type: vmess
-  server: t.cccao.cyou
+  server: vde2.0bad.com
   network: ws
-  port: 16620
-  uuid: 16925dca-05be-4d7c-b469-6bcbd8a227ce
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /chat
+- name: 🇩🇪德国-0-0-v2ray-168.119.58.112:80
+  type: vmess
+  server: 168.119.58.112
+  network: ws
+  port: 80
+  uuid: e42d68db-4297-4c17-b5cf-44d421aef400
   alterId: 4
   cipher: auto
   udp: false
