@@ -5,6 +5,12 @@ proxies:
   password: 0afcc41c-8a1a-4229-82d9-c483b48d5389
   port: 10259
   cipher: chacha20-ietf-poly1305
+- name: 🇩🇪德国-法兰克福-法兰克福-ss-193.108.118.79:8091
+  type: ss
+  server: 193.108.118.79
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  cipher: aes-256-gcm
 - name: 🇩🇪德国-法兰克福-法兰克福-ss-193.108.118.34:2375
   type: ss
   server: 193.108.118.34
@@ -29,12 +35,42 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 8888
   cipher: aes-256-gcm
+- name: 🇦🇺澳大利亚-0-0-ss-43.207.202.45:443
+  type: ss
+  server: 43.207.202.45
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
+- name: 🇨🇳中国-浙江-杭州-ss-oxaxcgs.xfltd.cc:38406
+  type: ss
+  server: oxaxcgs.xfltd.cc
+  password: b7483136-c9f7-4a22-92c2-2e0c768a26c7
+  port: 38406
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸美国-新泽西-0-ss-54.36.115.241:989
+  type: ss
+  server: 54.36.115.241
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  cipher: aes-256-cfb
+- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24003
+  type: ss
+  server: 14.29.124.168
+  password: QazEdcTgb159@$*
+  port: 24003
+  cipher: aes-128-cfb
 - name: 🇺🇸美国-0-0-ss-38.150.15.176:8388
   type: ss
   server: 38.150.15.176
   password: daozhang
   port: 8388
   cipher: aes-256-gcm
+- name: 🇨🇳中国-广东-深圳-ss2-oxaxcgs.xfltd.cc:38406
+  type: ss
+  server: oxaxcgs.xfltd.cc
+  password: b7483136-c9f7-4a22-92c2-2e0c768a26c7
+  port: 38406
+  cipher: chacha20-ietf-poly1305
 - name: 🇩🇪德国-法兰克福-法兰克福-ss2-193.108.118.34:2375
   type: ss
   server: 193.108.118.34
@@ -46,6 +82,12 @@ proxies:
   server: ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   password: Y6R9pAtvxxzmGC
   port: 5000
+  cipher: aes-256-gcm
+- name: 🇩🇪德国-法兰克福-法兰克福-ss2-193.108.118.79:8091
+  type: ss
+  server: 193.108.118.79
+  password: PCnnH6SQSnfoS27
+  port: 8091
   cipher: aes-256-gcm
 - name: 🇩🇪德国-法兰克福-法兰克福-ss2-193.108.118.34:8091
   type: ss
@@ -59,7 +101,17 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 8888
   cipher: aes-256-gcm
-- name: 🇺🇸美国-康涅狄格-0-v2ray-x.leonard.eu.org:443
+- name: 🇯🇵日本-东京都-东京-ssr-jp-am48-6.eqnode.net:8081
+  type: ssr
+  server: jp-am48-6.eqnode.net
+  password: eAokbaDN6
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇯🇵日本-东京都-东京-v2ray-x.leonard.eu.org:443
   type: vmess
   server: x.leonard.eu.org
   network: ws
@@ -111,7 +163,7 @@ proxies:
   cipher: auto
   udp: false
   ws-path: /
-- name: 🇺🇸美国-加利福尼亚-0-v2ray-aaaa.wxx.gay:443
+- name: 🇩🇪德国-0-0-v2ray-aaaa.wxx.gay:443
   type: vmess
   server: aaaa.wxx.gay
   network: ws
@@ -122,29 +174,7 @@ proxies:
   udp: false
   tls: true
   ws-path: /look
-- name: 🇨🇳中国-福建-厦门-v2ray-suidao.vipxgyun.com:10016
-  type: vmess
-  server: suidao.vipxgyun.com
-  network: ws
-  port: 10016
-  uuid: 738055ad-9399-33c2-b298-751006e331c6
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /ny
-- name: 🇨🇳中国-福建-厦门-v2ray-amd.tlz.asia:8080
-  type: vmess
-  server: amd.tlz.asia
-  network: ws
-  port: 8080
-  uuid: 30fccf70-7d08-4cef-92c7-9f970bd7644a
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇨🇳中国-福建-厦门-v2ray-us-east-2.292228.xyz:80
+- name: 🇩🇪德国-0-0-v2ray-us-east-2.292228.xyz:80
   type: vmess
   server: us-east-2.292228.xyz
   network: ws
@@ -155,3 +185,36 @@ proxies:
   udp: false
   tls: false
   ws-path: /filetransfer
+- name: 🇺🇸美国-亚利桑那-凤凰城-v2ray-158.101.7.8:80
+  type: vmess
+  server: 158.101.7.8
+  network: ws
+  port: 80
+  uuid: 95b45c49-f5c0-4959-bb64-2b8fbc4a869c
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇺🇸美国-亚利桑那-凤凰城-v2ray-ap-sg-central-1.292228.xyz:80
+  type: vmess
+  server: ap-sg-central-1.292228.xyz
+  network: ws
+  port: 80
+  uuid: 12b1bed9-1534-41db-a530-a1dbf6c2a7c6
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /filetransfer
+- name: 🇺🇸美国-亚利桑那-凤凰城-v2ray-jidannigeyadan.top:2053
+  type: vmess
+  server: jidannigeyadan.top
+  network: ws
+  port: 2053
+  uuid: 25c4bc9a-e8e8-4adf-c96d-4960bda94dc1
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /
