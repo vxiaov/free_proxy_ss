@@ -1,22 +1,22 @@
 proxies:
-- name: 🇩🇪德国-法兰克福-法兰克福-ss-193.108.118.34:2375
+- name: 🇩🇪德国-法兰克福-法兰克福-ss-193.108.118.79:8091
   type: ss
-  server: 193.108.118.34
+  server: 193.108.118.79
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  cipher: aes-256-gcm
+- name: 🇨🇦加拿大-安大略-多伦多-ss-38.64.138.145:7306
+  type: ss
+  server: 38.64.138.145
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  cipher: aes-256-gcm
+- name: 🇨🇦加拿大-安大略-多伦多-ss-38.64.138.145:2376
+  type: ss
+  server: 38.64.138.145
   password: faBAoD54k87UJG7
-  port: 2375
+  port: 2376
   cipher: aes-256-gcm
-- name: 🇺🇸美国-康涅狄格-0-ss-ak1643.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:8888
-  type: ss
-  server: ak1643.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  cipher: aes-256-gcm
-- name: 🇨🇳中国-广东-深圳-ss-oxaxcgs.xfltd.cc:38406
-  type: ss
-  server: oxaxcgs.xfltd.cc
-  password: b7483136-c9f7-4a22-92c2-2e0c768a26c7
-  port: 38406
-  cipher: chacha20-ietf-poly1305
 - name: 🇬🇧英国-伦敦-伦敦-ss-145.239.6.202:4444
   type: ss
   server: 145.239.6.202
@@ -29,23 +29,11 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 4444
   cipher: aes-256-gcm
-- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24003
+- name: 🇨🇦加拿大-安大略-多伦多-ss-38.64.138.145:5004
   type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24003
-  cipher: aes-128-cfb
-- name: 🇨🇳中国-浙江-杭州-ss2-oxaxcgs.xfltd.cc:38406
-  type: ss
-  server: oxaxcgs.xfltd.cc
-  password: b7483136-c9f7-4a22-92c2-2e0c768a26c7
-  port: 38406
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸美国-康涅狄格-0-ss2-ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:5000
-  type: ss
-  server: ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  password: Y6R9pAtvxxzmGC
-  port: 5000
+  server: 38.64.138.145
+  password: g5MeD6Ft3CWlJId
+  port: 5004
   cipher: aes-256-gcm
 - name: 🇩🇪德国-法兰克福-法兰克福-ss2-193.108.118.79:8091
   type: ss
@@ -53,22 +41,12 @@ proxies:
   password: PCnnH6SQSnfoS27
   port: 8091
   cipher: aes-256-gcm
-- name: 🇺🇸美国-康涅狄格-0-ss2-ak1643.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:8888
+- name: 🇨🇦加拿大-安大略-多伦多-ss2-38.64.138.145:2376
   type: ss
-  server: ak1643.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  password: Y6R9pAtvxxzmGC
-  port: 8888
+  server: 38.64.138.145
+  password: faBAoD54k87UJG7
+  port: 2376
   cipher: aes-256-gcm
-- name: 🇯🇵日本-东京都-东京-ssr-jp-am48-6.eqnode.net:8081
-  type: ssr
-  server: jp-am48-6.eqnode.net
-  password: eAokbaDN6
-  obfs: tls1.2_ticket_auth
-  protocol: origin
-  port: 8081
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
 - name: 🇩🇪德国-0-0-v2ray-51.15.75.140:443
   type: vmess
   server: 51.15.75.140
@@ -79,17 +57,6 @@ proxies:
   cipher: auto
   udp: false
   ws-path: /
-- name: 🇩🇪德国-0-0-v2ray-ap-sg-central-1.292228.xyz:80
-  type: vmess
-  server: ap-sg-central-1.292228.xyz
-  network: ws
-  port: 80
-  uuid: 12b1bed9-1534-41db-a530-a1dbf6c2a7c6
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /filetransfer
 - name: 🇩🇪德国-0-0-v2ray-v2ray3.webgfw.top:2083
   type: vmess
   server: v2ray3.webgfw.top
@@ -101,13 +68,14 @@ proxies:
   udp: false
   tls: true
   ws-path: /X9piqfat/
-- name: 🇯🇵日本-东京都-东京-v2ray-v7.583181.xyz:443
+- name: 🇩🇪德国-0-0-v2ray-jidannigeyadan.top:2053
   type: vmess
-  server: v7.583181.xyz
+  server: jidannigeyadan.top
   network: ws
-  port: 443
-  uuid: c59ffd70-a414-4d7d-a061-a2621349fa69
-  alterId: 0
+  port: 2053
+  uuid: 25c4bc9a-e8e8-4adf-c96d-4960bda94dc1
+  alterId: 4
   cipher: auto
   udp: false
-  ws-path: /
+  tls: true
+  ws-path: ''
