@@ -5,12 +5,6 @@ proxies:
   password: faBAoD54k87UJG7
   port: 2375
   cipher: aes-256-gcm
-- name: 🇨🇳中国-浙江-杭州-ss-02-1.qqingca.cc:20319
-  type: ss
-  server: 02-1.qqingca.cc
-  password: 27e2f037-effd-493a-bd28-6004cd9ff1cf
-  port: 20319
-  cipher: chacha20-ietf-poly1305
 - name: 🇸🇬新加坡-0-0-ss-sgp01.669990.xyz:25566
   type: ss
   server: sgp01.669990.xyz
@@ -23,12 +17,12 @@ proxies:
   password: b605e314-f6f8-481e-9c74-e8d5621e379d
   port: 19521
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸美国-佐治亚-亚特兰大-ss2-167.88.63.99:2375
+- name: 🇯🇵日本-东京都-东京-ss-13.231.193.143:443
   type: ss
-  server: 167.88.63.99
-  password: faBAoD54k87UJG7
-  port: 2375
-  cipher: aes-256-gcm
+  server: 13.231.193.143
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
 - name: 🇸🇬新加坡-0-0-ss2-sgp01.669990.xyz:25566
   type: ss
   server: sgp01.669990.xyz
@@ -41,18 +35,34 @@ proxies:
   password: 27e2f037-effd-493a-bd28-6004cd9ff1cf
   port: 20319
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳中国-安徽-马鞍山-ss2-cm1-nc.go001.buzz:19521
-  type: ss
-  server: cm1-nc.go001.buzz
-  password: b605e314-f6f8-481e-9c74-e8d5621e379d
-  port: 19521
-  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳中国-湖北-武汉-v2ray-gzyd.jcnode.top:20000
+  type: vmess
+  server: gzyd.jcnode.top
+  network: ws
+  port: 20000
+  uuid: 10cf6de6-5067-4e7c-a864-81fb8e07b7d3
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: ''
+- name: 🇬🇧英国-伦敦-伦敦-v2ray-178.239.171.103:80
+  type: vmess
+  server: 178.239.171.103
+  network: ws
+  port: 80
+  uuid: 61280f80-cd25-4c7b-8e5a-b1560617047a
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /T5t5p1DPeSIooUZfEmkFAYfTxZ
 - name: 🇨🇳中国-浙江-杭州-v2ray-gzdx.jcnode.top:48002
   type: vmess
   server: gzdx.jcnode.top
   network: ws
   port: 48002
-  uuid: d654b3bc-fe99-42d1-b61b-129d28d6537e
+  uuid: c2343916-a08e-4bec-9f13-d35ccaded698
   alterId: 4
   cipher: auto
   udp: false
