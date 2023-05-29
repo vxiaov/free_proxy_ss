@@ -5,24 +5,24 @@ proxies:
   password: b08c30a2-7d68-5e25-4eed-4b9851bfa776
   port: 25566
   cipher: aes-256-gcm
-- name: 🇺🇸美国-加利福尼亚-0-ss-139.144.179.178:40248
+- name: 🇨🇳中国-0-0-ss-36.139.166.231:11023
   type: ss
-  server: 139.144.179.178
-  password: '3850825944'
-  port: 40248
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸美国-佛罗里达-迈阿密-ss-37.218.241.130:443
-  type: ss
-  server: 37.218.241.130
-  password: j4wkIrreHEdC
-  port: 443
-  cipher: chacha20-ietf-poly1305
+  server: 36.139.166.231
+  password: ll668668@
+  port: 11023
+  cipher: aes-256-gcm
 - name: 🇺🇸美国-康涅狄格-0-ss-172.99.188.99:8888
   type: ss
   server: 172.99.188.99
   password: Y6R9pAtvxxzmGC
   port: 8888
   cipher: aes-256-gcm
+- name: 🇺🇸美国-加利福尼亚-0-ss-139.144.179.178:40248
+  type: ss
+  server: 139.144.179.178
+  password: '3850825944'
+  port: 40248
+  cipher: chacha20-ietf-poly1305
 - name: 🇩🇪德国-法兰克福-法兰克福-ss-193.108.118.79:8090
   type: ss
   server: 193.108.118.79
@@ -53,6 +53,12 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 8888
   cipher: aes-256-gcm
+- name: 🇨🇳中国-0-0-ss2-36.139.166.231:11023
+  type: ss
+  server: 36.139.166.231
+  password: ll668668@
+  port: 11023
+  cipher: aes-256-gcm
 - name: 🇫🇷法国-0-0-v2ray-fr2-vmess.greenssh.xyz:80
   type: vmess
   server: fr2-vmess.greenssh.xyz
@@ -74,3 +80,24 @@ proxies:
   cipher: auto
   udp: false
   ws-path: /4gmp
+- name: 🇰🇷韩国-首尔-首尔-v2ray-141.164.43.153:80
+  type: vmess
+  server: 141.164.43.153
+  network: ws
+  port: 80
+  uuid: 8afbd60f-aa52-49e6-8f37-9aca0b90f2c8
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /zingfast.vn
+- name: 🇺🇸美国-加利福尼亚-0-v2ray-lv.nscdn.eu.org:80
+  type: vmess
+  server: lv.nscdn.eu.org
+  network: ws
+  port: 80
+  uuid: c65dc0ad-dee8-4e43-869d-ef4f11bc66df
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
