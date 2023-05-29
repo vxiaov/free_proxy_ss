@@ -1,4 +1,16 @@
 proxies:
+- name: 🇸🇬新加坡-0-0-ss-sgp03.669990.xyz:25566
+  type: ss
+  server: sgp03.669990.xyz
+  password: b08c30a2-7d68-5e25-4eed-4b9851bfa776
+  port: 25566
+  cipher: aes-256-gcm
+- name: 🇺🇸美国-加利福尼亚-0-ss-139.144.179.178:40248
+  type: ss
+  server: 139.144.179.178
+  password: '3850825944'
+  port: 40248
+  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸美国-佛罗里达-迈阿密-ss-37.218.241.130:443
   type: ss
   server: 37.218.241.130
@@ -11,30 +23,54 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 8888
   cipher: aes-256-gcm
+- name: 🇩🇪德国-法兰克福-法兰克福-ss-193.108.118.79:8090
+  type: ss
+  server: 193.108.118.79
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  cipher: aes-256-gcm
+- name: 🇩🇪德国-法兰克福-法兰克福-ss2-193.108.118.79:8090
+  type: ss
+  server: 193.108.118.79
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  cipher: aes-256-gcm
+- name: 🇺🇸美国-加利福尼亚-0-ss2-139.144.179.178:40248
+  type: ss
+  server: 139.144.179.178
+  password: '3850825944'
+  port: 40248
+  cipher: chacha20-ietf-poly1305
+- name: 🇸🇬新加坡-0-0-ss2-sgp03.669990.xyz:25566
+  type: ss
+  server: sgp03.669990.xyz
+  password: b08c30a2-7d68-5e25-4eed-4b9851bfa776
+  port: 25566
+  cipher: aes-256-gcm
 - name: 🇺🇸美国-康涅狄格-0-ss2-172.99.188.99:8888
   type: ss
   server: 172.99.188.99
   password: Y6R9pAtvxxzmGC
   port: 8888
   cipher: aes-256-gcm
-- name: 🇰🇷韩国-首尔-首尔-v2ray-141.164.43.153:80
+- name: 🇫🇷法国-0-0-v2ray-fr2-vmess.greenssh.xyz:80
   type: vmess
-  server: 141.164.43.153
+  server: fr2-vmess.greenssh.xyz
   network: ws
   port: 80
-  uuid: 8afbd60f-aa52-49e6-8f37-9aca0b90f2c8
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /zingfast.vn
-- name: 🇰🇷韩国-首尔-首尔-v2ray-kr4.jisuyun.co:443
-  type: vmess
-  server: kr4.jisuyun.co
-  network: ws
-  port: 443
-  uuid: 778762c1-251c-4125-ba11-fceb0785db58
+  uuid: 9a555ca5-111c-4a88-a893-ed9b25b817a2
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /
+  ws-path: /vmess
+- name: 🇰🇷韩国-首尔-首尔-v2ray-140.238.1.117:80
+  type: vmess
+  server: 140.238.1.117
+  network: ws
+  port: 80
+  uuid: c4a6952e-138a-3fe9-803b-8f2d2dd0254b
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /4gmp
