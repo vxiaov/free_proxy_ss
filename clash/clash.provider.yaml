@@ -1,24 +1,23 @@
 proxies:
-- name: 🇨🇳中国-0-0-ss-36.138.193.128:11023
-  type: ss
-  server: 36.138.193.128
-  password: ll668668@
-  port: 11023
-  cipher: aes-256-gcm
-- name: 🇨🇳中国-0-0-ss-36.139.166.231:11023
-  type: ss
-  server: 36.139.166.231
-  password: ll668668@
-  port: 11023
-  cipher: aes-256-gcm
-- name: 🇷🇺俄罗斯-莫斯科-莫斯科-v2ray-v2ray3.webgfw.top:2083
+- name: 🇷🇺俄罗斯-Novosibirskaya-0-v2ray-klax.keeeeeeir.me:443
   type: vmess
-  server: v2ray3.webgfw.top
+  server: klax.keeeeeeir.me
   network: ws
-  port: 2083
-  uuid: ea9de06d-2436-42e9-8187-9e6d5fc40407
+  port: 443
+  uuid: B3C53EA0-D40F-4937-AA0D-1AAF63484E7C
   alterId: 4
   cipher: auto
   udp: false
   tls: true
-  ws-path: /X9piqfat/
+  ws-path: /login
+- name: 🇺🇸美国-加利福尼亚-0-v2ray-ssrsub.v01.ssrsub.com:8080
+  type: vmess
+  server: ssrsub.v01.ssrsub.com
+  network: ws
+  port: 8080
+  uuid: 4427eafb-3b3a-4265-9a32-fe0ea9cfd736
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /api/v3/download.getFile
