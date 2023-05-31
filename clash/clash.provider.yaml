@@ -1,16 +1,4 @@
 proxies:
-- name: 🇦🇺澳大利亚-0-0-ss-43.201.251.42:443
-  type: ss
-  server: 43.201.251.42
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
-- name: 🇺🇸美国-康涅狄格-0-ss-ak1643.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:8888
-  type: ss
-  server: ak1643.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  cipher: aes-256-gcm
 - name: 🇸🇬新加坡-0-0-ss2-sgp01.669990.xyz:25567
   type: ss
   server: sgp01.669990.xyz
@@ -34,7 +22,7 @@ proxies:
   udp: false
   tls: true
   ws-path: /
-- name: 🇳🇱荷兰-0-0-v2ray-hkdsubv.114514782.xyz:2082
+- name: 🇬🇧英国-0-0-v2ray-hkdsubv.114514782.xyz:2082
   type: vmess
   server: hkdsubv.114514782.xyz
   network: ws
@@ -45,3 +33,24 @@ proxies:
   udp: false
   tls: false
   ws-path: /sdubfc
+- name: 🇬🇧英国-0-0-v2ray-cdn-xjp4.cqjsl.xyz:443
+  type: vmess
+  server: cdn-xjp4.cqjsl.xyz
+  network: ws
+  port: 443
+  uuid: d155a539-c3ff-4430-b389-fe3ce4a81900
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /
+- name: 🇺🇸美国-加利福尼亚-0-v2ray-138.2.71.111:80
+  type: vmess
+  server: 138.2.71.111
+  network: ws
+  port: 80
+  uuid: b2947942-701b-4de2-91cd-f6810d5d03bc
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /
