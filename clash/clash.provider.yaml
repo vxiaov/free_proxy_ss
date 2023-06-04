@@ -1,10 +1,4 @@
 proxies:
-- name: 🇯🇵日本-东京都-东京-ss-13.230.159.245:443
-  type: ss
-  server: 13.230.159.245
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
 - name: 🇨🇳中国-江苏-徐州-ss-p1.bxy-fun1.com:11407
   type: ss
   server: p1.bxy-fun1.com
@@ -17,7 +11,13 @@ proxies:
   password: d7bee830-09aa-43b2-8945-3b341b8787db
   port: 23102
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳中国-江苏-徐州-v2ray-cloudflare.piaole.me:443
+- name: 🇳🇱荷兰-阿姆斯特丹-阿姆斯特丹-ss2-40.113.153.173:45160
+  type: ss
+  server: 40.113.153.173
+  password: kQpaDJdFPnltYcbBYF4KtK
+  port: 45160
+  cipher: chacha20-ietf-poly1305
+- name: 🇳🇱荷兰-阿姆斯特丹-阿姆斯特丹-v2ray-cloudflare.piaole.me:443
   type: vmess
   server: cloudflare.piaole.me
   network: ws
@@ -38,13 +38,3 @@ proxies:
   cipher: auto
   udp: false
   ws-path: /vmessws
-- name: 🇺🇸美国-加利福尼亚-0-v2ray-138.2.71.111:80
-  type: vmess
-  server: 138.2.71.111
-  network: ws
-  port: 80
-  uuid: b2947942-701b-4de2-91cd-f6810d5d03bc
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /
