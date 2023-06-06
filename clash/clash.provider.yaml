@@ -1,11 +1,21 @@
 proxies:
-- name: 🇨🇳中国-广东-广州-ss-14.29.124.168:24001
+- name: 🇺🇸美国-加利福尼亚-圣何塞-ss-167.88.61.60:8119
   type: ss
-  server: 14.29.124.168
-  password: QazEdcTgb159@$*
-  port: 24001
-  cipher: aes-128-cfb
-- name: 🇨🇳中国-广东-广州-v2ray-cloudflare.piaole.me:443
+  server: 167.88.61.60
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  cipher: aes-256-gcm
+- name: 🇺🇸美国-加利福尼亚-圣何塞-v2ray-banterbener.my.id:80
+  type: vmess
+  server: banterbener.my.id
+  network: ws
+  port: 80
+  uuid: 5d956feb-4605-4523-a866-2a8b45f1216f
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /xrayvws
+- name: 🇺🇸美国-加利福尼亚-圣何塞-v2ray-cloudflare.piaole.me:443
   type: vmess
   server: cloudflare.piaole.me
   network: ws
@@ -16,18 +26,7 @@ proxies:
   udp: false
   tls: true
   ws-path: /huawei
-- name: 🇨🇳中国-广东-广州-v2ray-tou.vtcss.top:443
-  type: vmess
-  server: tou.vtcss.top
-  network: ws
-  port: 443
-  uuid: 2c3a22f0-2087-4f86-b30d-664317f8c820
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /qwer
-- name: 🇨🇳中国-广东-广州-v2ray-tou.vtcss.top:8080
+- name: 🇺🇸美国-加利福尼亚-圣何塞-v2ray-tou.vtcss.top:8080
   type: vmess
   server: tou.vtcss.top
   network: ws
@@ -38,24 +37,3 @@ proxies:
   udp: false
   tls: false
   ws-path: /qazxcv00
-- name: 🇨🇳中国-广东-广州-v2ray-aaaa.wxx.gay:443
-  type: vmess
-  server: aaaa.wxx.gay
-  network: ws
-  port: 443
-  uuid: 07239f88-03ba-11ee-8738-000017022008
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /look
-- name: 🇨🇳中国-广东-广州-v2ray-banterbener.my.id:80
-  type: vmess
-  server: banterbener.my.id
-  network: ws
-  port: 80
-  uuid: 5d956feb-4605-4523-a866-2a8b45f1216f
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /xrayvws
