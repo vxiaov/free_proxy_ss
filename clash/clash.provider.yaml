@@ -1,9 +1,9 @@
 proxies:
-- name: 🇺🇸美国-康涅狄格-0-ss-172.99.190.87:7306
+- name: 🇺🇸美国-康涅狄格-0-ss-172.99.190.87:8881
   type: ss
   server: 172.99.190.87
-  password: FoOiGlkAA9yPEGP
-  port: 7306
+  password: kDWvXYZoTBcGkC4
+  port: 8881
   cipher: aes-256-gcm
 - name: 🇺🇸美国-康涅狄格-0-ss2-172.99.190.87:5601
   type: ss
@@ -11,6 +11,23 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 5601
   cipher: aes-256-gcm
+- name: 🇺🇸美国-康涅狄格-0-ss2-172.99.190.87:8881
+  type: ss
+  server: 172.99.190.87
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  cipher: aes-256-gcm
+- name: 🇺🇸美国-康涅狄格-0-v2ray-banterbener.my.id:443
+  type: vmess
+  server: banterbener.my.id
+  network: ws
+  port: 443
+  uuid: 5d956feb-4605-4523-a866-2a8b45f1216f
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /xrayvws
 - name: 🇺🇸美国-科罗拉多-0-v2ray-143.198.94.243:80
   type: vmess
   server: 143.198.94.243
@@ -21,17 +38,6 @@ proxies:
   cipher: auto
   udp: false
   ws-path: /v2ray
-- name: 🇺🇸美国-科罗拉多-0-v2ray-goodbyefilteringchannel.space:443
-  type: vmess
-  server: goodbyefilteringchannel.space
-  network: ws
-  port: 443
-  uuid: 0f2b98a6-eccf-46a5-f47e-d3c4f9c95999
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /ports/20926
 - name: 🇸🇬新加坡-0-0-v2ray-0kxedm1x8q8lksmj17.xingbayun.buzz:443
   type: vmess
   server: 0kxedm1x8q8lksmj17.xingbayun.buzz
