@@ -1,9 +1,9 @@
 proxies:
-- name: 🇺🇸美国-康涅狄格-0-ss-172.99.190.87:8080
+- name: 🇺🇸美国-康涅狄格-0-ss-172.99.190.87:7306
   type: ss
   server: 172.99.190.87
-  password: KixLvKzwjekG00rm
-  port: 8080
+  password: FoOiGlkAA9yPEGP
+  port: 7306
   cipher: aes-256-gcm
 - name: 🇺🇸美国-康涅狄格-0-ss2-172.99.190.87:5601
   type: ss
@@ -11,33 +11,6 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 5601
   cipher: aes-256-gcm
-- name: 🇺🇸美国-康涅狄格-0-ss2-172.99.190.87:8080
-  type: ss
-  server: 172.99.190.87
-  password: KixLvKzwjekG00rm
-  port: 8080
-  cipher: aes-256-gcm
-- name: 🇺🇸美国-康涅狄格-0-v2ray-new8.huvicloud.com:443
-  type: vmess
-  server: new8.huvicloud.com
-  network: ws
-  port: 443
-  uuid: a11ca760-9ef9-4a63-95c9-4c5c32d56251
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: ''
-- name: 🇺🇸美国-加利福尼亚-0-v2ray-138.2.71.111:80
-  type: vmess
-  server: 138.2.71.111
-  network: ws
-  port: 80
-  uuid: b2947942-701b-4de2-91cd-f6810d5d03bc
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /
 - name: 🇺🇸美国-科罗拉多-0-v2ray-143.198.94.243:80
   type: vmess
   server: 143.198.94.243
@@ -59,3 +32,13 @@ proxies:
   udp: false
   tls: true
   ws-path: /ports/20926
+- name: 🇸🇬新加坡-0-0-v2ray-0kxedm1x8q8lksmj17.xingbayun.buzz:443
+  type: vmess
+  server: 0kxedm1x8q8lksmj17.xingbayun.buzz
+  network: ws
+  port: 443
+  uuid: 89d679fb-e2fb-42ff-b830-38e5ae86065c
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /zh-cn
