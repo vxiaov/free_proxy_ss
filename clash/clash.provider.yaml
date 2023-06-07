@@ -1,9 +1,27 @@
 proxies:
-- name: 🇺🇸美国-康涅狄格-0-ss-172.99.190.87:8881
+- name: 🇫🇷法国-巴黎-0-ss-ak1660.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:8000
+  type: ss
+  server: ak1660.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  password: KixLvKzwjekG00rm
+  port: 8000
+  cipher: aes-256-gcm
+- name: 🇯🇵日本-东京都-东京-ss-13.115.199.73:443
+  type: ss
+  server: 13.115.199.73
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
+- name: 🇺🇸美国-康涅狄格-0-ss2-172.99.190.87:7002
   type: ss
   server: 172.99.190.87
-  password: kDWvXYZoTBcGkC4
-  port: 8881
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  cipher: aes-256-gcm
+- name: 🇫🇷法国-巴黎-0-ss2-ak1660.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:8000
+  type: ss
+  server: ak1660.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  password: KixLvKzwjekG00rm
+  port: 8000
   cipher: aes-256-gcm
 - name: 🇺🇸美国-康涅狄格-0-ss2-172.99.190.87:8881
   type: ss
@@ -11,13 +29,58 @@ proxies:
   password: kDWvXYZoTBcGkC4
   port: 8881
   cipher: aes-256-gcm
-- name: 🇸🇬新加坡-0-0-v2ray-0kxedm1x8q8lksmj17.xingbayun.buzz:443
+- name: 🇺🇸美国-伊利诺伊-芝加哥-v2ray-new8.huvicloud.com:443
   type: vmess
-  server: 0kxedm1x8q8lksmj17.xingbayun.buzz
+  server: new8.huvicloud.com
   network: ws
   port: 443
-  uuid: 89d679fb-e2fb-42ff-b830-38e5ae86065c
-  alterId: 0
+  uuid: a11ca760-9ef9-4a63-95c9-4c5c32d56251
+  alterId: 4
   cipher: auto
   udp: false
-  ws-path: /zh-cn
+  tls: true
+  ws-path: /
+- name: 🇺🇸美国-伊利诺伊-芝加哥-v2ray-tou.vtcss.top:8880
+  type: vmess
+  server: tou.vtcss.top
+  network: ws
+  port: 8880
+  uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /qazxcv00
+- name: 🇺🇸美国-伊利诺伊-芝加哥-v2ray-cloudflare.piaole.me:443
+  type: vmess
+  server: cloudflare.piaole.me
+  network: ws
+  port: 443
+  uuid: e8dacfc5-79b1-4289-92f1-e390080d56aa
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /huawei
+- name: 🇺🇸美国-伊利诺伊-芝加哥-v2ray-banterbener.my.id:80
+  type: vmess
+  server: banterbener.my.id
+  network: ws
+  port: 80
+  uuid: 5d956feb-4605-4523-a866-2a8b45f1216f
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /xrayvws
+- name: 🇺🇸美国-佛罗里达-0-v2ray-vde1.0bad.com:443
+  type: vmess
+  server: vde1.0bad.com
+  network: ws
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /chat
