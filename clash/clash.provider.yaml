@@ -5,12 +5,18 @@ proxies:
   password: KixLvKzwjekG00rm
   port: 8000
   cipher: aes-256-gcm
-- name: 🇺🇸美国-康涅狄格-0-ss-172.99.190.87:8881
+- name: 🇨🇳中国-广东-佛山-ss-cttw1.createmofa.xyz:34999
   type: ss
-  server: 172.99.190.87
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  cipher: aes-256-gcm
+  server: cttw1.createmofa.xyz
+  password: 15a0ea9b-a6b6-40e9-bd41-8427e46c2bb3
+  port: 34999
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳中国-浙江-金华-ss-shankh.xfltd.cc:17120
+  type: ss
+  server: shankh.xfltd.cc
+  password: 5488c11f-6cb8-4e32-b1f8-d5603008d23f
+  port: 17120
+  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸美国-佐治亚-亚特兰大-ss-167.88.63.99:2375
   type: ss
   server: 167.88.63.99
@@ -47,7 +53,19 @@ proxies:
   password: 184b4b61-de57-4cac-aed4-be3e13cdcce4
   port: 35634
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳中国-河南-驻马店-v2ray-8x69c3-8080.csb.app:443
+- name: 🇨🇳中国-广东-佛山-ss2-cttw1.createmofa.xyz:34999
+  type: ss
+  server: cttw1.createmofa.xyz
+  password: 15a0ea9b-a6b6-40e9-bd41-8427e46c2bb3
+  port: 34999
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳中国-广东-深圳-ss2-shankh.xfltd.cc:17120
+  type: ss
+  server: shankh.xfltd.cc
+  password: 5488c11f-6cb8-4e32-b1f8-d5603008d23f
+  port: 17120
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳中国-广东-深圳-v2ray-8x69c3-8080.csb.app:443
   type: vmess
   server: 8x69c3-8080.csb.app
   network: ws
@@ -58,7 +76,7 @@ proxies:
   udp: false
   tls: true
   ws-path: /vmabcd
-- name: 🇨🇳中国-河南-驻马店-v2ray-v2ray3.webgfw.top:2083
+- name: 🇨🇳中国-广东-深圳-v2ray-v2ray3.webgfw.top:2083
   type: vmess
   server: v2ray3.webgfw.top
   network: ws
@@ -69,17 +87,6 @@ proxies:
   udp: false
   tls: true
   ws-path: /X9piqfat/
-- name: 🇩🇪德国-法兰克福-法兰克福-v2ray-cloudflare.piaole.me:443
-  type: vmess
-  server: cloudflare.piaole.me
-  network: ws
-  port: 443
-  uuid: e8dacfc5-79b1-4289-92f1-e390080d56aa
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /huawei
 - name: 🇺🇸美国-马萨诸塞-波士顿-v2ray-new8.huvicloud.com:443
   type: vmess
   server: new8.huvicloud.com
@@ -102,3 +109,58 @@ proxies:
   udp: false
   tls: true
   ws-path: /root/
+- name: 🇺🇸美国-马萨诸塞-波士顿-v2ray-banterbener.my.id:80
+  type: vmess
+  server: banterbener.my.id
+  network: ws
+  port: 80
+  uuid: 5d956feb-4605-4523-a866-2a8b45f1216f
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /xrayvws
+- name: 🇺🇸美国-马萨诸塞-波士顿-v2ray-cloudflare.piaole.me:443
+  type: vmess
+  server: cloudflare.piaole.me
+  network: ws
+  port: 443
+  uuid: e8dacfc5-79b1-4289-92f1-e390080d56aa
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /huawei
+- name: 🇺🇸美国-加利福尼亚-0-v2ray-bb.hk1997.pro:1000
+  type: vmess
+  server: bb.hk1997.pro
+  network: ws
+  port: 1000
+  uuid: 0fa2f4ff-d1c3-47b2-8b05-8b7e4916c290
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /jash-weh-peft-pseb-lous-jass
+- name: 🇫🇷法国-0-0-v2ray-188.165.170.83:80
+  type: vmess
+  server: 188.165.170.83
+  network: ws
+  port: 80
+  uuid: 860a862a-2798-4037-8513-b060e310e7fc
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇫🇷法国-0-0-v2ray-x.leonard.eu.org:443
+  type: vmess
+  server: x.leonard.eu.org
+  network: ws
+  port: 443
+  uuid: 1441af41-5cee-497e-a47c-c26af169f9ff
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /
