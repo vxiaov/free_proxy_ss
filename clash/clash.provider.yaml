@@ -1,16 +1,32 @@
 proxies:
-- name: 🇨🇳中国-广东-0-ss2-120.233.47.180:43699
+- name: 🇯🇵日本-东京都-东京-ss-13.231.201.125:443
   type: ss
-  server: 120.233.47.180
-  password: 8a784c36-dd4f-41f4-a6cd-863d1297d3b3
-  port: 43699
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸美国-康涅狄格-0-ss2-172.99.190.87:7306
-  type: ss
-  server: 172.99.190.87
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  cipher: aes-256-gcm
+  server: 13.231.201.125
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
+- name: 🇺🇸美国-伊利诺伊-芝加哥-v2ray-172.98.14.60:45246
+  type: vmess
+  server: 172.98.14.60
+  network: ws
+  port: 45246
+  uuid: 847b3ffc-e743-4e14-81e8-0d2e641f2165
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /?ed=2048
+- name: 🇲🇾马来西亚-雪兰莪-0-v2ray-join-bede.vmessorg.fun:80
+  type: vmess
+  server: join-bede.vmessorg.fun
+  network: ws
+  port: 80
+  uuid: af463851-0483-4557-8dff-87dcc5b808af
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
 - name: 🇨🇳中国-北京-北京-v2ray-t.cccao.cyou:16617
   type: vmess
   server: t.cccao.cyou
