@@ -1,10 +1,40 @@
 proxies:
-- name: 🇯🇵日本-东京都-东京-ss-13.231.201.125:443
+- name: 🇮🇪爱尔兰-Dublin-0-ss-13.69.252.86:6091
   type: ss
-  server: 13.231.201.125
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
+  server: 13.69.252.86
+  password: 1uB3vmXVoz1hnB3wiZ83mD
+  port: 6091
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳中国-广东-深圳-ss-gzcm.mepuuf.cn:21429
+  type: ss
+  server: gzcm.mepuuf.cn
+  password: 8a784c36-dd4f-41f4-a6cd-863d1297d3b3
+  port: 21429
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳中国-广东-广州-ss-gd-cm.32jr.com:56018
+  type: ss
+  server: gd-cm.32jr.com
+  password: de758a28-2e57-4fdd-8548-4ae2e490bcff
+  port: 56018
+  cipher: chacha20-ietf-poly1305
+- name: 🇮🇪爱尔兰-Dublin-0-ss2-13.69.252.86:6091
+  type: ss
+  server: 13.69.252.86
+  password: 1uB3vmXVoz1hnB3wiZ83mD
+  port: 6091
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳中国-广东-深圳-ss2-gzcm.mepuuf.cn:21429
+  type: ss
+  server: gzcm.mepuuf.cn
+  password: 8a784c36-dd4f-41f4-a6cd-863d1297d3b3
+  port: 21429
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳中国-广东-广州-ss2-gd-cm.32jr.com:56018
+  type: ss
+  server: gd-cm.32jr.com
+  password: de758a28-2e57-4fdd-8548-4ae2e490bcff
+  port: 56018
+  cipher: chacha20-ietf-poly1305
 - name: 🇳🇱荷兰-0-0-v2ray-scaleway.696960.xyz:443
   type: vmess
   server: scaleway.696960.xyz
@@ -60,17 +90,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /?ed=2048
-- name: 🇩🇪德国-Sachsen-0-v2ray-5.9.161.57:63906
-  type: vmess
-  server: 5.9.161.57
-  network: ws
-  port: 63906
-  uuid: b39dcc1e-95d6-4932-84c7-753857d45361
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /?ed=2048
 - name: 🇺🇸美国-弗吉尼亚-阿什本-v2ray-185.249.227.220:42653
   type: vmess
   server: 185.249.227.220
@@ -93,3 +112,36 @@ proxies:
   udp: false
   tls: false
   ws-path: /
+- name: 🇫🇷法国-0-0-v2ray-pl2-vmess.greenssh.xyz:80
+  type: vmess
+  server: pl2-vmess.greenssh.xyz
+  network: ws
+  port: 80
+  uuid: a60d4d2f-6a61-4c16-9d63-94a97e65d1f3
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /vmess
+- name: 🇳🇱荷兰-阿姆斯特丹-阿姆斯特丹-v2ray-185.101.139.74:54945
+  type: vmess
+  server: 185.101.139.74
+  network: ws
+  port: 54945
+  uuid: 395b48b9-52bf-47f5-987b-d4ad0caab331
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /?ed=2048
+- name: 🇩🇪德国-Sachsen-0-v2ray-5.9.161.57:63906
+  type: vmess
+  server: 5.9.161.57
+  network: ws
+  port: 63906
+  uuid: b39dcc1e-95d6-4932-84c7-753857d45361
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: ''
