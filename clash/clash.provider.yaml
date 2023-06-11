@@ -1,39 +1,9 @@
 proxies:
-- name: 🇸🇬新加坡-0-0-ss-18.142.251.219:443
-  type: ss
-  server: 18.142.251.219
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
-- name: 🇺🇸美国-0-0-ss-134.195.196.149:8090
-  type: ss
-  server: 134.195.196.149
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  cipher: aes-256-gcm
-- name: 🇨🇦加拿大-魁北克-蒙特利尔-ss-158.51.121.154:2376
-  type: ss
-  server: 158.51.121.154
-  password: faBAoD54k87UJG7
-  port: 2376
-  cipher: aes-256-gcm
-- name: 🇺🇸美国-康涅狄格-0-ss-172.99.188.99:2375
-  type: ss
-  server: 172.99.188.99
-  password: faBAoD54k87UJG7
-  port: 2375
-  cipher: aes-256-gcm
 - name: 🇫🇷法国-0-0-ss-149.202.82.172:5003
   type: ss
   server: 149.202.82.172
   password: g5MeD6Ft3CWlJId
   port: 5003
-  cipher: aes-256-gcm
-- name: 🇫🇷法国-0-0-ss-149.202.82.172:5500
-  type: ss
-  server: 149.202.82.172
-  password: KixLvKzwjekG00rm
-  port: 5500
   cipher: aes-256-gcm
 - name: 🇷🇺俄罗斯-列宁格勒-圣彼得堡-ss-45.89.52.66:9014
   type: ss
@@ -41,46 +11,24 @@ proxies:
   password: KnJGad3FqTvjqbaX
   port: 9014
   cipher: aes-256-cfb
-- name: 🇨🇦加拿大-魁北克-蒙特利尔-ss2-158.51.121.154:2376
+- name: 🇬🇧英国-伦敦-伦敦-ss-212.102.53.197:443
   type: ss
-  server: 158.51.121.154
-  password: faBAoD54k87UJG7
-  port: 2376
-  cipher: aes-256-gcm
-- name: 🇫🇷法国-0-0-ss2-149.202.82.172:5500
+  server: 212.102.53.197
+  password: shadowsocks
+  port: 443
+  cipher: aes-128-gcm
+- name: 🇬🇧英国-伦敦-伦敦-ss2-212.102.53.197:443
   type: ss
-  server: 149.202.82.172
-  password: KixLvKzwjekG00rm
-  port: 5500
-  cipher: aes-256-gcm
-- name: 🇺🇸美国-0-0-ss2-134.195.196.149:3306
+  server: 212.102.53.197
+  password: shadowsocks
+  port: 443
+  cipher: aes-128-gcm
+- name: 🇮🇪爱尔兰-Dublin-0-ss2-13.69.252.86:6091
   type: ss
-  server: 134.195.196.149
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  cipher: aes-256-gcm
-- name: 🇺🇸美国-0-0-v2ray-20.230.34.117:13000
-  type: vmess
-  server: 20.230.34.117
-  network: ws
-  port: 13000
-  uuid: dbb32d08-2b61-4a13-ed76-3ca672bc388f
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /?ed=2048
-- name: 🇺🇸美国-0-0-v2ray-38.54.96.233:58962
-  type: vmess
-  server: 38.54.96.233
-  network: ws
-  port: 58962
-  uuid: 06fdaaba-37d4-4a0b-b2ac-e8c9d944e7d8
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /?ed=2048
+  server: 13.69.252.86
+  password: 1uB3vmXVoz1hnB3wiZ83mD
+  port: 6091
+  cipher: chacha20-ietf-poly1305
 - name: 🇬🇧英国-伦敦-伦敦-v2ray-5.188.6.222:35354
   type: vmess
   server: 5.188.6.222
@@ -113,12 +61,22 @@ proxies:
   udp: false
   tls: true
   ws-path: /
-- name: 🇺🇸美国-德克萨斯-达拉斯-v2ray-172.245.226.96:31236
+- name: 🇺🇸美国-加利福尼亚-0-v2ray-lovebinahayat.ddns.net:80
   type: vmess
-  server: 172.245.226.96
+  server: lovebinahayat.ddns.net
   network: ws
-  port: 31236
-  uuid: 9d1c420a-63bb-4402-d791-8cae1f13f2a2
+  port: 80
+  uuid: a1a0bbfd-390b-437c-e8aa-3f61654fc7a8
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /mehdi
+- name: 🇺🇸美国-0-0-v2ray-38.54.96.233:58962
+  type: vmess
+  server: 38.54.96.233
+  network: ws
+  port: 58962
+  uuid: 06fdaaba-37d4-4a0b-b2ac-e8c9d944e7d8
   alterId: 4
   cipher: auto
   udp: false
@@ -135,13 +93,13 @@ proxies:
   udp: false
   tls: false
   ws-path: ''
-- name: 🇳🇱荷兰-0-0-v2ray-lovebinahayat.ddns.net:80
+- name: 🇳🇱荷兰-0-0-v2ray-bidari.ddns.net:80
   type: vmess
-  server: lovebinahayat.ddns.net
+  server: bidari.ddns.net
   network: ws
   port: 80
-  uuid: a1a0bbfd-390b-437c-e8aa-3f61654fc7a8
-  alterId: 0
+  uuid: 0e88120c-14e5-449b-8f2e-c22ec0df6599
+  alterId: 64
   cipher: auto
   udp: false
   ws-path: /mehdi
