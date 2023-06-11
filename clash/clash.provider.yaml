@@ -1,22 +1,10 @@
 proxies:
-- name: 🇫🇷法国-0-0-ss-149.202.82.172:5003
+- name: 🇮🇪爱尔兰-Dublin-0-ss-13.69.252.86:6091
   type: ss
-  server: 149.202.82.172
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  cipher: aes-256-gcm
-- name: 🇷🇺俄罗斯-列宁格勒-圣彼得堡-ss-45.89.52.66:9014
-  type: ss
-  server: 45.89.52.66
-  password: KnJGad3FqTvjqbaX
-  port: 9014
-  cipher: aes-256-cfb
-- name: 🇬🇧英国-伦敦-伦敦-ss-212.102.53.197:443
-  type: ss
-  server: 212.102.53.197
-  password: shadowsocks
-  port: 443
-  cipher: aes-128-gcm
+  server: 13.69.252.86
+  password: 1uB3vmXVoz1hnB3wiZ83mD
+  port: 6091
+  cipher: chacha20-ietf-poly1305
 - name: 🇬🇧英国-伦敦-伦敦-ss2-212.102.53.197:443
   type: ss
   server: 212.102.53.197
@@ -29,17 +17,6 @@ proxies:
   password: 1uB3vmXVoz1hnB3wiZ83mD
   port: 6091
   cipher: chacha20-ietf-poly1305
-- name: 🇬🇧英国-伦敦-伦敦-v2ray-5.188.6.222:35354
-  type: vmess
-  server: 5.188.6.222
-  network: ws
-  port: 35354
-  uuid: e28880e5-16ed-479b-90c8-57fe3c9fbdf1
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
 - name: 🇺🇸美国-加利福尼亚-0-v2ray-138.2.71.111:80
   type: vmess
   server: 138.2.71.111
@@ -50,50 +27,7 @@ proxies:
   cipher: auto
   udp: false
   ws-path: ''
-- name: 🇺🇸美国-加利福尼亚-0-v2ray-x.leonard.eu.org:443
-  type: vmess
-  server: x.leonard.eu.org
-  network: ws
-  port: 443
-  uuid: 1441af41-5cee-497e-a47c-c26af169f9ff
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /
-- name: 🇺🇸美国-加利福尼亚-0-v2ray-lovebinahayat.ddns.net:80
-  type: vmess
-  server: lovebinahayat.ddns.net
-  network: ws
-  port: 80
-  uuid: a1a0bbfd-390b-437c-e8aa-3f61654fc7a8
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /mehdi
-- name: 🇺🇸美国-0-0-v2ray-38.54.96.233:58962
-  type: vmess
-  server: 38.54.96.233
-  network: ws
-  port: 58962
-  uuid: 06fdaaba-37d4-4a0b-b2ac-e8c9d944e7d8
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: ''
-- name: 🇳🇱荷兰-0-0-v2ray-45.131.248.228:59102
-  type: vmess
-  server: 45.131.248.228
-  network: ws
-  port: 59102
-  uuid: ac027362-c988-4670-f78f-021b5be6f4e3
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: ''
-- name: 🇳🇱荷兰-0-0-v2ray-bidari.ddns.net:80
+- name: 🇺🇸美国-加利福尼亚-0-v2ray-bidari.ddns.net:80
   type: vmess
   server: bidari.ddns.net
   network: ws
@@ -103,3 +37,45 @@ proxies:
   cipher: auto
   udp: false
   ws-path: /mehdi
+- name: 🇺🇸美国-0-0-v2ray-51.158.98.130:443
+  type: vmess
+  server: 51.158.98.130
+  network: ws
+  port: 443
+  uuid: 8ec62dcf-9ead-48d6-afec-4aa4ed264a95
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇺🇸美国-加利福尼亚-0-v2ray-2.58.87.124:36590
+  type: vmess
+  server: 2.58.87.124
+  network: ws
+  port: 36590
+  uuid: da6244b6-fa2b-4067-fa5e-d477e0dca533
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /?ed=2048
+- name: 🇺🇸美国-加利福尼亚-0-v2ray-213.232.114.211:49757
+  type: vmess
+  server: 213.232.114.211
+  network: ws
+  port: 49757
+  uuid: ec0fd7b8-9b6e-43d8-fb08-2cc98860f638
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /
+- name: 🇳🇱荷兰-0-0-v2ray-185.229.222.127:52065
+  type: vmess
+  server: 185.229.222.127
+  network: ws
+  port: 52065
+  uuid: 3ab1377e-f868-480f-b551-ffe40523642a
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /?ed=2048
