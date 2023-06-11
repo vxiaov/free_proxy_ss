@@ -1,33 +1,11 @@
 proxies:
-- name: 🇮🇪爱尔兰-Dublin-0-ss-13.69.252.86:6091
-  type: ss
-  server: 13.69.252.86
-  password: 1uB3vmXVoz1hnB3wiZ83mD
-  port: 6091
-  cipher: chacha20-ietf-poly1305
 - name: 🇬🇧英国-伦敦-伦敦-ss2-212.102.53.197:443
   type: ss
   server: 212.102.53.197
   password: shadowsocks
   port: 443
   cipher: aes-128-gcm
-- name: 🇮🇪爱尔兰-Dublin-0-ss2-13.69.252.86:6091
-  type: ss
-  server: 13.69.252.86
-  password: 1uB3vmXVoz1hnB3wiZ83mD
-  port: 6091
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸美国-加利福尼亚-0-v2ray-138.2.71.111:80
-  type: vmess
-  server: 138.2.71.111
-  network: ws
-  port: 80
-  uuid: b2947942-701b-4de2-91cd-f6810d5d03bc
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: ''
-- name: 🇺🇸美国-加利福尼亚-0-v2ray-bidari.ddns.net:80
+- name: 🇷🇺俄罗斯-Novosibirskaya-0-v2ray-bidari.ddns.net:80
   type: vmess
   server: bidari.ddns.net
   network: ws
@@ -79,3 +57,57 @@ proxies:
   cipher: auto
   udp: false
   ws-path: /?ed=2048
+- name: 🇳🇱荷兰-0-0-v2ray-v2ray3.webgfw.top:2083
+  type: vmess
+  server: v2ray3.webgfw.top
+  network: ws
+  port: 2083
+  uuid: ea9de06d-2436-42e9-8187-9e6d5fc40407
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /X9piqfat/
+- name: 🇳🇱荷兰-0-0-v2ray-45.131.248.228:59102
+  type: vmess
+  server: 45.131.248.228
+  network: ws
+  port: 59102
+  uuid: ac027362-c988-4670-f78f-021b5be6f4e3
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /
+- name: 🇦🇺澳大利亚-0-0-v2ray-dubawtgfnewi.76898102.xyz:2052
+  type: vmess
+  server: dubawtgfnewi.76898102.xyz
+  network: ws
+  port: 2052
+  uuid: 78fd41e5-346a-3bf4-b942-be0fad711979
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /flkfhzz
+- name: 🇬🇧英国-伦敦-伦敦-v2ray-5.188.6.222:35354
+  type: vmess
+  server: 5.188.6.222
+  network: ws
+  port: 35354
+  uuid: e28880e5-16ed-479b-90c8-57fe3c9fbdf1
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇬🇧英国-伦敦-伦敦-v2ray-x.leonard.eu.org:443
+  type: vmess
+  server: x.leonard.eu.org
+  network: ws
+  port: 443
+  uuid: 1441af41-5cee-497e-a47c-c26af169f9ff
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /
