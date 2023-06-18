@@ -1,39 +1,16 @@
 proxies:
-- name: 🇸🇬新加坡-0-0-ss-3.0.183.226:443
-  type: ss
-  server: 3.0.183.226
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
-- name: 🇺🇸美国-康涅狄格-0-ss-172.99.190.87:3306
-  type: ss
-  server: 172.99.190.87
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  cipher: aes-256-gcm
 - name: 🇺🇸美国-加利福尼亚-0-ss-167.160.90.254:23355
   type: ss
   server: 167.160.90.254
   password: dongtaiwang.com
   port: 23355
   cipher: aes-256-gcm
-- name: 🇺🇸美国-加利福尼亚-0-ss2-167.160.90.254:23355
+- name: 🇺🇸美国-康涅狄格-0-ss2-172.99.190.87:3306
   type: ss
-  server: 167.160.90.254
-  password: dongtaiwang.com
-  port: 23355
+  server: 172.99.190.87
+  password: Y6R9pAtvxxzmGC
+  port: 3306
   cipher: aes-256-gcm
-- name: 🇺🇸美国-加利福尼亚-0-v2ray-x.leonard.eu.org:443
-  type: vmess
-  server: x.leonard.eu.org
-  network: ws
-  port: 443
-  uuid: 1441af41-5cee-497e-a47c-c26af169f9ff
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: ''
 - name: 🇩🇪德国-法兰克福-法兰克福-v2ray-eddf.keeeeeeir.me:443
   type: vmess
   server: eddf.keeeeeeir.me
@@ -55,17 +32,6 @@ proxies:
   cipher: auto
   udp: false
   ws-path: ''
-- name: 🇸🇬新加坡-0-0-v2ray-v2ray.ibgfw.top:2096
-  type: vmess
-  server: v2ray.ibgfw.top
-  network: ws
-  port: 2096
-  uuid: c4efb9e9-2ba5-47d5-9f98-286c33a64a13
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /4k6OGg3U/
 - name: 🇱🇹立陶宛-0-0-v2ray-89.116.144.73:44354
   type: vmess
   server: 89.116.144.73
@@ -77,29 +43,7 @@ proxies:
   udp: false
   tls: false
   ws-path: /?ed=2048
-- name: 🇧🇷巴西-0-0-v2ray-meetzoom.disnet.gq:443
-  type: vmess
-  server: meetzoom.disnet.gq
-  network: ws
-  port: 443
-  uuid: a869c557-5c7d-426f-9039-0279c16352bc
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /vmessws
-- name: 🇺🇸美国-马萨诸塞-0-v2ray-64.176.188.230:2053
-  type: vmess
-  server: 64.176.188.230
-  network: ws
-  port: 2053
-  uuid: 4134efe7-d935-416c-c2cc-24943e4a80ca
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇺🇸美国-马萨诸塞-0-v2ray-cn.apallg.top:443
+- name: 🇱🇹立陶宛-0-0-v2ray-cn.apallg.top:443
   type: vmess
   server: cn.apallg.top
   network: ws
@@ -132,16 +76,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇺🇸美国-马萨诸塞-0-v2ray-64.176.188.230:2096
-  type: vmess
-  server: 64.176.188.230
-  network: ws
-  port: 2096
-  uuid: 3f9cf9f3-a8d4-4999-dd5e-8068fdc0c37e
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: ''
 - name: 🇧🇪比利时-0-0-v2ray-uk1-vmess.greenssh.xyz:80
   type: vmess
   server: uk1-vmess.greenssh.xyz
@@ -152,23 +86,25 @@ proxies:
   cipher: auto
   udp: false
   ws-path: /vmess
-- name: 🇺🇸美国-马萨诸塞-0-v2ray-64.176.188.230:8443
+- name: 🇧🇪比利时-0-0-v2ray-v2ray.ibgfw.top:2096
   type: vmess
-  server: 64.176.188.230
+  server: v2ray.ibgfw.top
   network: ws
-  port: 8443
-  uuid: 3d0c8ee5-3329-4252-aa1c-65f3fdaa0343
-  alterId: 0
+  port: 2096
+  uuid: c4efb9e9-2ba5-47d5-9f98-286c33a64a13
+  alterId: 4
   cipher: auto
   udp: false
-  ws-path: /
-- name: 🇯🇵日本-0-0-v2ray-146.56.174.31:8080
+  tls: true
+  ws-path: /4k6OGg3U/
+- name: 🇧🇪比利时-0-0-v2ray-x.leonard.eu.org:443
   type: vmess
-  server: 146.56.174.31
+  server: x.leonard.eu.org
   network: ws
-  port: 8080
-  uuid: c2eb5ff8-508d-4100-e0ca-9739f4d1c52c
-  alterId: 0
+  port: 443
+  uuid: 1441af41-5cee-497e-a47c-c26af169f9ff
+  alterId: 4
   cipher: auto
   udp: false
-  ws-path: /tg@herhero6
+  tls: true
+  ws-path: ''
