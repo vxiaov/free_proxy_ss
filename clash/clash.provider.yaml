@@ -17,18 +17,6 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇨🇳中国-广东-深圳-ss-ctjp2.createmofa.xyz:38998
-  type: ss
-  server: ctjp2.createmofa.xyz
-  password: 63732d49-e448-44a1-97e0-9bd9636d758c
-  port: 38998
-  cipher: chacha20-ietf-poly1305
-- name: 🇸🇬新加坡-0-0-ss-3.0.183.226:443
-  type: ss
-  server: 3.0.183.226
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
 - name: 🇺🇸美国-康涅狄格-0-ss2-172.99.190.87:3306
   type: ss
   server: 172.99.190.87
@@ -131,16 +119,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇨🇳中国-辽宁-鞍山-v2ray-pepsiii.ddns.net:80
-  type: vmess
-  server: pepsiii.ddns.net
-  network: ws
-  port: 80
-  uuid: fa773763-0a31-4ee0-9494-141e7ec50eef
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /mehdi
 - name: 🇨🇳中国-辽宁-鞍山-v2ray-dl6.v001sssv.pw:80
   type: vmess
   server: dl6.v001sssv.pw
@@ -161,23 +139,137 @@ proxies:
   cipher: auto
   udp: false
   ws-path: /ylks0
+- name: 🇨🇳中国-辽宁-鞍山-v2ray-x.leonard.eu.org:443
+  type: vmess
+  server: x.leonard.eu.org
+  network: ws
+  port: 443
+  uuid: 1441af41-5cee-497e-a47c-c26af169f9ff
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: ''
+- name: 🇺🇸美国-佐治亚-0-v2ray-157.90.174.20:80
+  type: vmess
+  server: 157.90.174.20
+  network: ws
+  port: 80
+  uuid: a6457d28-e328-4202-99fe-0606d7ad69a9
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /6rXqecLmchrWkX7cy1ilLjMBLUC
+- name: 🇩🇪德国-法兰克福-法兰克福-v2ray-vde1.0bad.com:443
+  type: vmess
+  server: vde1.0bad.com
+  network: ws
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /chat
+- name: 🇩🇪德国-0-0-v2ray-168.119.58.112:80
+  type: vmess
+  server: 168.119.58.112
+  network: ws
+  port: 80
+  uuid: e42d68db-4297-4c17-b5cf-44d421aef400
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇸🇬新加坡-0-0-v2ray-157.230.242.199:80
+  type: vmess
+  server: 157.230.242.199
+  network: ws
+  port: 80
+  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /anti13.zingfast.vn
+- name: 🇺🇸美国-0-0-v2ray-51.195.209.132:2002
+  type: vmess
+  server: 51.195.209.132
+  network: ws
+  port: 2002
+  uuid: a853d91e-c28b-42c8-ee08-a45771005cc2
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /
+- name: 🇺🇸美国-0-0-v2ray-v2ray.ibgfw.top:2096
+  type: vmess
+  server: v2ray.ibgfw.top
+  network: ws
+  port: 2096
+  uuid: c4efb9e9-2ba5-47d5-9f98-286c33a64a13
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /4k6OGg3U/
+- name: 🇫🇷法国-巴黎-0-v2ray-45.32.149.108:2083
+  type: vmess
+  server: 45.32.149.108
+  network: ws
+  port: 2083
+  uuid: ce03a832-d6bb-45a3-9121-f7bd6f189469
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /
+- name: 🇫🇷法国-巴黎-0-v2ray-pepsiii.ddns.net:80
+  type: vmess
+  server: pepsiii.ddns.net
+  network: ws
+  port: 80
+  uuid: fa773763-0a31-4ee0-9494-141e7ec50eef
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /mehdi
+- name: 🇺🇸美国-加利福尼亚-0-v2ray-138.2.71.111:80
+  type: vmess
+  server: 138.2.71.111
+  network: ws
+  port: 80
+  uuid: b2947942-701b-4de2-91cd-f6810d5d03bc
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: ''
+- name: 🇳🇱荷兰-阿姆斯特丹-阿姆斯特丹-v2ray-45.32.238.111:2083
+  type: vmess
+  server: 45.32.238.111
+  network: ws
+  port: 2083
+  uuid: ce03a832-d6bb-45a3-9121-f7bd6f189469
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /
+- name: 🇷🇺俄罗斯-莫斯科-莫斯科-v2ray-195.133.53.90:80
+  type: vmess
+  server: 195.133.53.90
+  network: ws
+  port: 80
+  uuid: 130def25-7e22-429f-a831-0bb376b5862b
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /
 - name: 🇺🇸美国-加利福尼亚-0-v2ray-173.82.206.193:42727
   type: vmess
   server: 173.82.206.193
   network: ws
   port: 42727
   uuid: 97c9efa5-4ea2-44b9-97b0-983faf0c6c52
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: ''
-- name: 🇩🇪德国-0-0-v2ray-162.55.11.203:57882
-  type: vmess
-  server: 162.55.11.203
-  network: ws
-  port: 57882
-  uuid: d6bdd5c1-fcd7-40b4-831e-887bed98d1a1
   alterId: 4
   cipher: auto
   udp: false
