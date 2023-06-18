@@ -5,23 +5,30 @@ proxies:
   password: dongtaiwang.com
   port: 23355
   cipher: aes-256-gcm
-- name: 🇺🇸美国-康涅狄格-0-ss2-172.99.190.87:3306
+- name: 🇺🇸美国-康涅狄格-0-ss-172.99.190.87:3306
   type: ss
   server: 172.99.190.87
   password: Y6R9pAtvxxzmGC
   port: 3306
   cipher: aes-256-gcm
-- name: 🇩🇪德国-法兰克福-法兰克福-v2ray-eddf.keeeeeeir.me:443
-  type: vmess
-  server: eddf.keeeeeeir.me
-  network: ws
+- name: 🇩🇪德国-法兰克福-法兰克福-ss-193.108.118.36:7306
+  type: ss
+  server: 193.108.118.36
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  cipher: aes-256-gcm
+- name: 🇸🇬新加坡-0-0-ss-3.0.183.226:443
+  type: ss
+  server: 3.0.183.226
+  password: amazonskr05
   port: 443
-  uuid: FF8A5176-6E92-4DC5-A98D-A56238B83687
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /login
+  cipher: aes-256-cfb
+- name: 🇩🇪德国-法兰克福-法兰克福-ss2-193.108.118.36:7306
+  type: ss
+  server: 193.108.118.36
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  cipher: aes-256-gcm
 - name: 🇺🇸美国-加利福尼亚-0-v2ray-138.2.71.111:80
   type: vmess
   server: 138.2.71.111
@@ -86,18 +93,29 @@ proxies:
   cipher: auto
   udp: false
   ws-path: /vmess
-- name: 🇧🇪比利时-0-0-v2ray-v2ray.ibgfw.top:2096
+- name: 🇧🇪比利时-0-0-v2ray-eddf.keeeeeeir.me:443
   type: vmess
-  server: v2ray.ibgfw.top
+  server: eddf.keeeeeeir.me
   network: ws
-  port: 2096
-  uuid: c4efb9e9-2ba5-47d5-9f98-286c33a64a13
+  port: 443
+  uuid: FF8A5176-6E92-4DC5-A98D-A56238B83687
   alterId: 4
   cipher: auto
   udp: false
   tls: true
-  ws-path: /4k6OGg3U/
-- name: 🇧🇪比利时-0-0-v2ray-x.leonard.eu.org:443
+  ws-path: /login
+- name: 🇺🇸美国-新泽西-0-v2ray-5.252.197.78:54185
+  type: vmess
+  server: 5.252.197.78
+  network: ws
+  port: 54185
+  uuid: 3ab4cb1a-d846-4cf1-b3da-211dccb53107
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: ''
+- name: 🇺🇸美国-新泽西-0-v2ray-x.leonard.eu.org:443
   type: vmess
   server: x.leonard.eu.org
   network: ws
@@ -108,3 +126,14 @@ proxies:
   udp: false
   tls: true
   ws-path: ''
+- name: 🇺🇸美国-新泽西-0-v2ray-v2ray.ibgfw.top:2096
+  type: vmess
+  server: v2ray.ibgfw.top
+  network: ws
+  port: 2096
+  uuid: c4efb9e9-2ba5-47d5-9f98-286c33a64a13
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /4k6OGg3U/
