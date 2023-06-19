@@ -1,27 +1,9 @@
 proxies:
-- name: 🇩🇪德国-法兰克福-法兰克福-ss-193.108.118.36:7306
-  type: ss
-  server: 193.108.118.36
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  cipher: aes-256-gcm
-- name: 🇨🇳中国-广东-广州-ss-02.xn--nqv95at51fi1h.com:48401
-  type: ss
-  server: 02.xn--nqv95at51fi1h.com
-  password: d895805c-ab4c-4995-a02d-6761f8367277
-  port: 48401
-  cipher: chacha20-ietf-poly1305
 - name: 🇨🇳中国-江苏-南京-ss-cttw1.createmofa.xyz:34999
   type: ss
   server: cttw1.createmofa.xyz
   password: d8802921-8f08-4130-b4d0-e28715087e57
   port: 34999
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸美国-加利福尼亚-旧金山-ss-fuck5.lianpi.xyz:59019
-  type: ss
-  server: fuck5.lianpi.xyz
-  password: 7335c755-8c4c-4e85-821c-589d3d6e20b8
-  port: 59019
   cipher: chacha20-ietf-poly1305
 - name: 🇺🇸美国-加利福尼亚-旧金山-ss-fuck7.lianpi.xyz:37829
   type: ss
@@ -29,31 +11,31 @@ proxies:
   password: 7335c755-8c4c-4e85-821c-589d3d6e20b8
   port: 37829
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇳中国-广东-广州-ss2-02.xn--nqv95at51fi1h.com:48401
+- name: 🇫🇷法国-巴黎-0-ss-195.154.200.150:2376
   type: ss
-  server: 02.xn--nqv95at51fi1h.com
-  password: d895805c-ab4c-4995-a02d-6761f8367277
-  port: 48401
-  cipher: chacha20-ietf-poly1305
+  server: 195.154.200.150
+  password: faBAoD54k87UJG7
+  port: 2376
+  cipher: aes-256-gcm
 - name: 🇨🇳中国-江苏-南京-ss2-cttw1.createmofa.xyz:34999
   type: ss
   server: cttw1.createmofa.xyz
   password: d8802921-8f08-4130-b4d0-e28715087e57
   port: 34999
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸美国-加利福尼亚-旧金山-ss2-fuck7.lianpi.xyz:37829
+- name: 🇺🇸美国-新泽西-0-ss2-54.36.174.181:8000
   type: ss
-  server: fuck7.lianpi.xyz
-  password: 7335c755-8c4c-4e85-821c-589d3d6e20b8
-  port: 37829
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸美国-加利福尼亚-旧金山-ss2-fuck5.lianpi.xyz:59019
+  server: 54.36.174.181
+  password: KixLvKzwjekG00rm
+  port: 8000
+  cipher: aes-256-gcm
+- name: 🇫🇷法国-巴黎-0-ss2-195.154.200.150:2376
   type: ss
-  server: fuck5.lianpi.xyz
-  password: 7335c755-8c4c-4e85-821c-589d3d6e20b8
-  port: 59019
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸美国-加利福尼亚-旧金山-v2ray-tou.vtcss.top:2086
+  server: 195.154.200.150
+  password: faBAoD54k87UJG7
+  port: 2376
+  cipher: aes-256-gcm
+- name: 🇫🇷法国-巴黎-0-v2ray-tou.vtcss.top:2086
   type: vmess
   server: tou.vtcss.top
   network: ws
@@ -63,7 +45,7 @@ proxies:
   cipher: auto
   udp: false
   ws-path: /ylks0
-- name: 0-0-0-v2ray-cloudflare.piaole.me:443
+- name: 🇫🇷法国-巴黎-0-v2ray-cloudflare.piaole.me:443
   type: vmess
   server: cloudflare.piaole.me
   network: ws
@@ -74,17 +56,6 @@ proxies:
   udp: false
   tls: true
   ws-path: /huawei
-- name: 0-0-0-v2ray-us5222.fof124.top:2052
-  type: vmess
-  server: us5222.fof124.top
-  network: ws
-  port: 2052
-  uuid: 62abbbe0-c896-44f1-8fd4-08e44e298205
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /aries?ed=2048
 - name: 🇨🇳中国-广东-广州-v2ray-dallas.starsea.vip:443
   type: vmess
   server: dallas.starsea.vip
@@ -96,17 +67,6 @@ proxies:
   udp: false
   tls: true
   ws-path: ''
-- name: 🇦🇺澳大利亚-0-0-v2ray-hk-c.pelejd.top:10011
-  type: vmess
-  server: hk-c.pelejd.top
-  network: ws
-  port: 10011
-  uuid: 8a73d8c7-08b8-4520-873f-816de33b95cd
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /hk
 - name: 🇺🇸美国-德克萨斯-达拉斯-v2ray-us-b.pelejd.top:10011
   type: vmess
   server: us-b.pelejd.top
@@ -138,26 +98,6 @@ proxies:
   cipher: auto
   udp: false
   ws-path: /mehdi
-- name: 🇸🇬新加坡-0-0-v2ray-pepsiii.ddns.net:80
-  type: vmess
-  server: pepsiii.ddns.net
-  network: ws
-  port: 80
-  uuid: fa773763-0a31-4ee0-9494-141e7ec50eef
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /mehdi
-- name: 🇸🇬新加坡-0-0-v2ray-sg10.zingfast.vn:80
-  type: vmess
-  server: sg10.zingfast.vn
-  network: ws
-  port: 80
-  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /anti13.zingfast.vn
 - name: 🇸🇬新加坡-0-0-v2ray-vizooooo.ddns.net:80
   type: vmess
   server: vizooooo.ddns.net
@@ -188,13 +128,14 @@ proxies:
   cipher: auto
   udp: false
   ws-path: /anti13.zingfast.vn
-- name: 🇺🇸美国-德克萨斯-0-v2ray-sg7.zingfast.vn:80
+- name: 🇺🇸美国-德克萨斯-0-v2ray-us5222.fof124.top:2052
   type: vmess
-  server: sg7.zingfast.vn
+  server: us5222.fof124.top
   network: ws
-  port: 80
-  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
-  alterId: 0
+  port: 2052
+  uuid: 62abbbe0-c896-44f1-8fd4-08e44e298205
+  alterId: 4
   cipher: auto
   udp: false
-  ws-path: /anti13.zingfast.vn
+  tls: false
+  ws-path: /aries?ed=2048
