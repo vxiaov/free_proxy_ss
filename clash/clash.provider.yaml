@@ -1,49 +1,16 @@
 proxies:
-- name: 🇰🇷韩国-首尔-首尔-ss-3.38.211.225:443
-  type: ss
-  server: 3.38.211.225
-  password: amazonskr05
+- name: 🇷🇺俄罗斯-莫斯科-莫斯科-v2ray-ming2.kiwireich.com:443
+  type: vmess
+  server: ming2.kiwireich.com
+  network: ws
   port: 443
-  cipher: aes-256-cfb
-- name: 🇨🇦加拿大-魁北克-蒙特利尔-ss-158.51.121.154:2376
-  type: ss
-  server: 158.51.121.154
-  password: faBAoD54k87UJG7
-  port: 2376
-  cipher: aes-256-gcm
-- name: 🇺🇸美国-康涅狄格-0-ss2-172.99.188.99:8882
-  type: ss
-  server: 172.99.188.99
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  cipher: aes-256-gcm
-- name: 🇨🇦加拿大-魁北克-蒙特利尔-ss2-158.51.121.154:2376
-  type: ss
-  server: 158.51.121.154
-  password: faBAoD54k87UJG7
-  port: 2376
-  cipher: aes-256-gcm
-- name: 🇸🇬新加坡-0-0-v2ray-157.230.242.199:80
-  type: vmess
-  server: 157.230.242.199
-  network: ws
-  port: 80
-  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
-  alterId: 0
+  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+  alterId: 4
   cipher: auto
   udp: false
-  ws-path: /anti13.zingfast.vn
-- name: 🇸🇬新加坡-0-0-v2ray-bidari.ddns.net:80
-  type: vmess
-  server: bidari.ddns.net
-  network: ws
-  port: 80
-  uuid: 0e88120c-14e5-449b-8f2e-c22ec0df6599
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /mehdi
-- name: 🇸🇬新加坡-0-0-v2ray-tou.vtcss.top:2086
+  tls: true
+  ws-path: /ray
+- name: 🇷🇺俄罗斯-莫斯科-莫斯科-v2ray-tou.vtcss.top:2086
   type: vmess
   server: tou.vtcss.top
   network: ws
@@ -53,36 +20,3 @@ proxies:
   cipher: auto
   udp: false
   ws-path: /ylks0
-- name: 🇸🇬新加坡-0-0-v2ray-aaaa.wxx.gay:443
-  type: vmess
-  server: aaaa.wxx.gay
-  network: ws
-  port: 443
-  uuid: c3e4f9b4-0e55-11ee-b574-000017022008
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /look
-- name: 🇸🇬新加坡-0-0-v2ray-cloudflare.piaole.me:443
-  type: vmess
-  server: cloudflare.piaole.me
-  network: ws
-  port: 443
-  uuid: e8dacfc5-79b1-4289-92f1-e390080d56aa
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /huawei
-- name: 🇸🇬新加坡-0-0-v2ray-linkedin.disnet.gq:443
-  type: vmess
-  server: linkedin.disnet.gq
-  network: ws
-  port: 443
-  uuid: a869c557-5c7d-426f-9039-0279c16352bc
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: /vmessws
