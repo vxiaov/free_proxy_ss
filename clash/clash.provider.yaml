@@ -5,23 +5,6 @@ proxies:
   password: dongtaiwang.com
   port: 23355
   cipher: aes-256-gcm
-- name: 🇩🇪德国-法兰克福-法兰克福-ss-193.108.118.36:7306
-  type: ss
-  server: 193.108.118.36
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  cipher: aes-256-gcm
-- name: 🇱🇹立陶宛-0-0-v2ray-89.116.144.73:44354
-  type: vmess
-  server: 89.116.144.73
-  network: ws
-  port: 44354
-  uuid: 1cc55cbb-dbea-46f8-999e-c887989e97ce
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /?ed=2048
 - name: 🇩🇪德国-法兰克福-法兰克福-v2ray-104.238.167.226:2096
   type: vmess
   server: 104.238.167.226
@@ -33,17 +16,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /
-- name: 🇩🇪德国-法兰克福-法兰克福-v2ray-x.leonard.eu.org:443
-  type: vmess
-  server: x.leonard.eu.org
-  network: ws
-  port: 443
-  uuid: 1441af41-5cee-497e-a47c-c26af169f9ff
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: true
-  ws-path: ''
 - name: 🇩🇪德国-0-0-v2ray-ghostprotocol.citadel98.top:8880
   type: vmess
   server: ghostprotocol.citadel98.top
@@ -65,17 +37,7 @@ proxies:
   cipher: auto
   udp: false
   ws-path: /
-- name: 🇺🇸美国-0-0-v2ray-51.195.209.132:2002
-  type: vmess
-  server: 51.195.209.132
-  network: ws
-  port: 2002
-  uuid: a853d91e-c28b-42c8-ee08-a45771005cc2
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /
-- name: 🇺🇸美国-0-0-v2ray-dl6.v001sssv.pw:80
+- name: 🇩🇪德国-0-0-v2ray-dl6.v001sssv.pw:80
   type: vmess
   server: dl6.v001sssv.pw
   network: ws
@@ -118,3 +80,25 @@ proxies:
   udp: false
   tls: true
   ws-path: /
+- name: 🇨🇦加拿大-魁北克-博阿努瓦-v2ray-hyd.eccoedmond.shop:8443
+  type: vmess
+  server: hyd.eccoedmond.shop
+  network: ws
+  port: 8443
+  uuid: 720f3c43-d22b-4237-8355-620fc653224e
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: ''
+- name: 🇨🇦加拿大-魁北克-博阿努瓦-v2ray-x.leonard.eu.org:443
+  type: vmess
+  server: x.leonard.eu.org
+  network: ws
+  port: 443
+  uuid: 1441af41-5cee-497e-a47c-c26af169f9ff
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: ''
