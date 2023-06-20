@@ -1,4 +1,16 @@
 proxies:
+- name: 🇨🇳中国-浙江-金华-ss2-zjyd.jcnlzq.top:46399
+  type: ss
+  server: zjyd.jcnlzq.top
+  password: ad5e95a9-2a64-4e93-80c7-0005df0d7f73
+  port: 46399
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳中国-江苏-镇江-ss2-120.195.181.142:13972
+  type: ss
+  server: 120.195.181.142
+  password: a83ecf95-9efe-479f-bbaa-4e41b0308fb8
+  port: 13972
+  cipher: aes-256-gcm
 - name: 🇸🇬新加坡-0-0-v2ray-sp01.tangreny.com:10031
   type: vmess
   server: sp01.tangreny.com
@@ -10,14 +22,24 @@ proxies:
   udp: false
   tls: false
   ws-path: xn--gmq47msybdu2a
-- name: 🇸🇬新加坡-0-0-v2ray-fra1.looooooongnet.lol:443
+- name: 🇯🇵日本-东京都-东京-v2ray-jp01.tangreny.com:10034
   type: vmess
-  server: fra1.looooooongnet.lol
+  server: jp01.tangreny.com
   network: ws
-  port: 443
-  uuid: 4559e95a-7326-4cb5-87dc-af5651025669
+  port: 10034
+  uuid: 93d833a9-0202-42ee-8308-bedd946ec698
   alterId: 4
   cipher: auto
   udp: false
-  tls: true
-  ws-path: /
+  tls: false
+  ws-path: xn--gmq47msybdu2a
+- name: 🇯🇵日本-东京都-东京-v2ray-jp1.669990.xyz:80
+  type: vmess
+  server: jp1.669990.xyz
+  network: ws
+  port: 80
+  uuid: eefddbfa-f02b-476a-ba63-76b64c5e872b
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /KX9anGaj02iy6hnU
