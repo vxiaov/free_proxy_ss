@@ -1,51 +1,45 @@
 proxies:
-- name: 🇨🇳中国-江苏-苏州-ss-cttw1.createmofa.xyz:34999
+- name: 🇨🇳中国-江苏-南京-ss-cttw1.createmofa.xyz:34999
   type: ss
   server: cttw1.createmofa.xyz
   password: d8802921-8f08-4130-b4d0-e28715087e57
   port: 34999
   cipher: chacha20-ietf-poly1305
-- name: 🇬🇧英国-伦敦-伦敦-ss-212.102.53.197:443
+- name: 🇺🇸美国-康涅狄格-0-ss-172.99.190.87:5500
   type: ss
-  server: 212.102.53.197
-  password: shadowsocks
-  port: 443
-  cipher: aes-128-gcm
-- name: 🇸🇬新加坡-0-0-ss-54.151.179.33:443
+  server: 172.99.190.87
+  password: KixLvKzwjekG00rm
+  port: 5500
+  cipher: aes-256-gcm
+- name: 🇺🇸美国-康涅狄格-0-ss2-172.99.190.87:5500
   type: ss
-  server: 54.151.179.33
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
-- name: 🇦🇺澳大利亚-0-0-ss-43.202.49.224:443
-  type: ss
-  server: 43.202.49.224
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
-- name: 🇨🇳中国-浙江-金华-ss-01.xn--nqv95at51fi1h.com:46399
-  type: ss
-  server: 01.xn--nqv95at51fi1h.com
-  password: d895805c-ab4c-4995-a02d-6761f8367277
-  port: 46399
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇳中国-浙江-金华-ss2-01.xn--nqv95at51fi1h.com:46399
-  type: ss
-  server: 01.xn--nqv95at51fi1h.com
-  password: d895805c-ab4c-4995-a02d-6761f8367277
-  port: 46399
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇳中国-浙江-金华-v2ray-lovebinahayat.ddns.net:80
+  server: 172.99.190.87
+  password: KixLvKzwjekG00rm
+  port: 5500
+  cipher: aes-256-gcm
+- name: 🇩🇪德国-法兰克福-法兰克福-v2ray-vde1.0bad.com:443
   type: vmess
-  server: lovebinahayat.ddns.net
+  server: vde1.0bad.com
   network: ws
-  port: 80
-  uuid: a1a0bbfd-390b-437c-e8aa-3f61654fc7a8
-  alterId: 0
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 4
   cipher: auto
   udp: false
-  ws-path: /mehdi
-- name: 🇨🇳中国-浙江-金华-v2ray-cloudflare.piaole.me:443
+  tls: true
+  ws-path: /chat
+- name: 🇺🇸美国-纽约-纽约-v2ray-us9.ss361.xyz:2095
+  type: vmess
+  server: us9.ss361.xyz
+  network: ws
+  port: 2095
+  uuid: 600d53b5-b034-4889-80ec-3817c5658e3d
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: ''
+- name: 🇺🇸美国-纽约-纽约-v2ray-cloudflare.piaole.me:443
   type: vmess
   server: cloudflare.piaole.me
   network: ws
@@ -56,60 +50,7 @@ proxies:
   udp: false
   tls: true
   ws-path: /huawei
-- name: 🇨🇳中国-浙江-金华-v2ray-vizooooo.ddns.net:80
-  type: vmess
-  server: vizooooo.ddns.net
-  network: ws
-  port: 80
-  uuid: 336ae92f-b745-40dc-cc4d-01e8313a5d51
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /mehdi
-- name: 🇫🇷法国-0-0-v2ray-188.165.170.83:80
-  type: vmess
-  server: 188.165.170.83
-  network: ws
-  port: 80
-  uuid: 860a862a-2798-4037-8513-b060e310e7fc
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇧🇪比利时-0-0-v2ray-uk1-vmess.greenssh.xyz:80
-  type: vmess
-  server: uk1-vmess.greenssh.xyz
-  network: ws
-  port: 80
-  uuid: b5aafe8c-3527-4502-8add-9ca7417cfc88
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: ''
-- name: 🇯🇵日本-东京都-东京-v2ray-jp1.669990.xyz:80
-  type: vmess
-  server: jp1.669990.xyz
-  network: ws
-  port: 80
-  uuid: eefddbfa-f02b-476a-ba63-76b64c5e872b
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /KX9anGaj02iy6hnU
-- name: 🇨🇳中国-广东-广州-v2ray-shck8bq.olb8qsg.top:37295
-  type: vmess
-  server: shck8bq.olb8qsg.top
-  network: ws
-  port: 37295
-  uuid: 6c452644-1914-47f8-b12f-090fdf94ae10
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇨🇳中国-广东-广州-v2ray-dallas.starsea.vip:443
+- name: 🇺🇸美国-纽约-纽约-v2ray-dallas.starsea.vip:443
   type: vmess
   server: dallas.starsea.vip
   network: ws
@@ -119,26 +60,4 @@ proxies:
   cipher: auto
   udp: false
   tls: true
-  ws-path: /
-- name: 🇩🇪德国-法兰克福-法兰克福-v2ray-104.238.167.226:2083
-  type: vmess
-  server: 104.238.167.226
-  network: ws
-  port: 2083
-  uuid: ce03a832-d6bb-45a3-9121-f7bd6f189469
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇩🇪德国-法兰克福-法兰克福-v2ray-us5222.fof124.top:2052
-  type: vmess
-  server: us5222.fof124.top
-  network: ws
-  port: 2052
-  uuid: 62abbbe0-c896-44f1-8fd4-08e44e298205
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /aries?ed=2048
+  ws-path: ''
