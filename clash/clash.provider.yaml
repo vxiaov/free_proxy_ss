@@ -1,21 +1,27 @@
 proxies:
-- name: 🇩🇪德国-法兰克福-法兰克福-ss-193.108.118.36:8090
+- name: 🇸🇬新加坡-0-0-ss-54.151.179.33:443
   type: ss
-  server: 193.108.118.36
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  cipher: aes-256-gcm
-- name: 🇺🇸美国-内华达-拉斯维加斯-v2ray-205.185.125.200:11451
+  server: 54.151.179.33
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
+- name: 🇸🇬新加坡-0-0-ss-3.0.183.226:443
+  type: ss
+  server: 3.0.183.226
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
+- name: 🇳🇱荷兰-阿姆斯特丹-阿姆斯特丹-v2ray-45.32.238.111:2087
   type: vmess
-  server: 205.185.125.200
+  server: 45.32.238.111
   network: ws
-  port: 11451
-  uuid: 165bdbb6-3fd0-4d1a-e6fb-0e5cd2a0154f
+  port: 2087
+  uuid: d5350465-ab63-4d30-ebda-5cbe0751cbd6
   alterId: 0
   cipher: auto
   udp: false
   ws-path: /
-- name: 🇺🇸美国-内华达-拉斯维加斯-v2ray-vizooooo.ddns.net:80
+- name: 🇳🇱荷兰-阿姆斯特丹-阿姆斯特丹-v2ray-vizooooo.ddns.net:80
   type: vmess
   server: vizooooo.ddns.net
   network: ws
@@ -45,3 +51,23 @@ proxies:
   cipher: auto
   udp: false
   ws-path: /
+- name: 🇱🇹立陶宛-0-0-v2ray-bidari.ddns.net:80
+  type: vmess
+  server: bidari.ddns.net
+  network: ws
+  port: 80
+  uuid: 0e88120c-14e5-449b-8f2e-c22ec0df6599
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /mehdi
+- name: 🇬🇧英国-伦敦-伦敦-v2ray-144.24.147.134:80
+  type: vmess
+  server: 144.24.147.134
+  network: ws
+  port: 80
+  uuid: 1d69d4ab-2546-3337-abf0-b24a4043e8f2
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /v2ray
