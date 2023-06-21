@@ -1,9 +1,39 @@
 proxies:
-- name: 🇨🇳中国-浙江-金华-ss-zjyd.jcnlzq.top:46399
+- name: 🇺🇸美国-康涅狄格-0-ss-13.212.181.221:443
   type: ss
-  server: zjyd.jcnlzq.top
-  password: ad5e95a9-2a64-4e93-80c7-0005df0d7f73
-  port: 46399
+  server: 13.212.181.221
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
+- name: 🇯🇵日本-东京都-东京-ss-18.183.168.162:443
+  type: ss
+  server: 18.183.168.162
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
+- name: 🇸🇬新加坡-0-0-ss-18.139.163.228:443
+  type: ss
+  server: 18.139.163.228
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
+- name: 🇸🇬新加坡-0-0-ss-54.255.237.136:2333
+  type: ss
+  server: 54.255.237.136
+  password: doub.io
+  port: 2333
+  cipher: aes-256-cfb
+- name: 🇯🇵日本-东京都-东京-ss-jp3.lianpi.xyz:34234
+  type: ss
+  server: jp3.lianpi.xyz
+  password: 7e319f7a-4c47-4606-8008-ce6c92634dd8
+  port: 34234
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳中国-江苏-南京-ss-cthk3.createmofa.xyz:35997
+  type: ss
+  server: cthk3.createmofa.xyz
+  password: b312f9e6-7a7e-4ce3-9a65-e3cfffa61895
+  port: 35997
   cipher: chacha20-ietf-poly1305
 - name: 🇨🇳中国-江苏-镇江-ss2-120.195.181.142:13972
   type: ss
@@ -11,34 +41,12 @@ proxies:
   password: a83ecf95-9efe-479f-bbaa-4e41b0308fb8
   port: 13972
   cipher: aes-256-gcm
-- name: 🇨🇳中国-浙江-金华-ss2-zjyd.jcnlzq.top:46399
+- name: 🇨🇳中国-江苏-南京-ss2-cthk3.createmofa.xyz:35997
   type: ss
-  server: zjyd.jcnlzq.top
-  password: ad5e95a9-2a64-4e93-80c7-0005df0d7f73
-  port: 46399
+  server: cthk3.createmofa.xyz
+  password: b312f9e6-7a7e-4ce3-9a65-e3cfffa61895
+  port: 35997
   cipher: chacha20-ietf-poly1305
-- name: 🇸🇬新加坡-0-0-v2ray-sp01.tangreny.com:10031
-  type: vmess
-  server: sp01.tangreny.com
-  network: ws
-  port: 10031
-  uuid: 93d833a9-0202-42ee-8308-bedd946ec698
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: xn--gmq47msybdu2a
-- name: 🇯🇵日本-东京都-东京-v2ray-jp01.tangreny.com:10034
-  type: vmess
-  server: jp01.tangreny.com
-  network: ws
-  port: 10034
-  uuid: 93d833a9-0202-42ee-8308-bedd946ec698
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: xn--gmq47msybdu2a
 - name: 🇯🇵日本-东京都-东京-v2ray-jp1.669990.xyz:80
   type: vmess
   server: jp1.669990.xyz
@@ -49,3 +57,46 @@ proxies:
   cipher: auto
   udp: false
   ws-path: /KX9anGaj02iy6hnU
+- name: 🇨🇳中国-香港-0-v2ray-156.234.76.179:80
+  type: vmess
+  server: 156.234.76.179
+  network: ws
+  port: 80
+  uuid: 3a861425-e0d8-47c3-aa1d-a825d7629ae9
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /
+- name: 🇺🇸美国-加利福尼亚-0-v2ray-2.58.87.49:53792
+  type: vmess
+  server: 2.58.87.49
+  network: ws
+  port: 53792
+  uuid: 8581d57d-23b0-4055-f704-7c8d4d75aae7
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇨🇳中国-广东-广州-v2ray-gzdx.jcnode.top:48002
+  type: vmess
+  server: gzdx.jcnode.top
+  network: ws
+  port: 48002
+  uuid: 6eba975a-3854-4e37-ba2d-a335d62d874b
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /fly
+- name: 🇺🇸美国-纽约-纽约-v2ray-172.245.206.84:50760
+  type: vmess
+  server: 172.245.206.84
+  network: ws
+  port: 50760
+  uuid: 21f7e3d2-bdc7-41d4-cb21-f61db592356d
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
