@@ -1,26 +1,10 @@
 proxies:
-- name: 🇺🇸美国-新泽西-0-ss-54.36.174.181:8000
-  type: ss
-  server: 54.36.174.181
-  password: KixLvKzwjekG00rm
-  port: 8000
-  cipher: aes-256-gcm
 - name: 🇺🇸美国-新泽西-0-ss2-54.36.174.181:8000
   type: ss
   server: 54.36.174.181
   password: KixLvKzwjekG00rm
   port: 8000
   cipher: aes-256-gcm
-- name: 🇺🇸美国-新泽西-0-v2ray-vizooooo.ddns.net:80
-  type: vmess
-  server: vizooooo.ddns.net
-  network: ws
-  port: 80
-  uuid: 336ae92f-b745-40dc-cc4d-01e8313a5d51
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /mehdi
 - name: 🇺🇸美国-俄勒冈-0-v2ray-usgpt.tangreny.com:10090
   type: vmess
   server: usgpt.tangreny.com
@@ -32,6 +16,16 @@ proxies:
   udp: false
   tls: false
   ws-path: xn--gmq47msybdu2a
+- name: 🇨🇳中国-台湾-0-v2ray-bidari.ddns.net:80
+  type: vmess
+  server: bidari.ddns.net
+  network: ws
+  port: 80
+  uuid: 0e88120c-14e5-449b-8f2e-c22ec0df6599
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /mehdi
 - name: 🇨🇳中国-台湾-0-v2ray-cloudflare.piaole.me:443
   type: vmess
   server: cloudflare.piaole.me
@@ -43,3 +37,13 @@ proxies:
   udp: false
   tls: true
   ws-path: /huawei
+- name: 🇨🇳中国-台湾-0-v2ray-vizooooo.ddns.net:80
+  type: vmess
+  server: vizooooo.ddns.net
+  network: ws
+  port: 80
+  uuid: 336ae92f-b745-40dc-cc4d-01e8313a5d51
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /mehdi
