@@ -5,6 +5,72 @@ proxies:
   password: faBAoD54k87UJG7
   port: 2376
   cipher: aes-256-gcm
+- name: 🇺🇸美国-新泽西-0-ss-54.36.174.181:6679
+  type: ss
+  server: 54.36.174.181
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  cipher: aes-256-gcm
+- name: 🇺🇸美国-俄勒冈-0-ss-54.190.212.115:443
+  type: ss
+  server: 54.190.212.115
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
+- name: 🇨🇳中国-江苏-南京-ss-ctkr2.createmofa.xyz:32998
+  type: ss
+  server: ctkr2.createmofa.xyz
+  password: 1c74f602-87e2-4101-93e0-f8360264870a
+  port: 32998
+  cipher: chacha20-ietf-poly1305
+- name: 🇯🇵日本-东京都-东京-ss-3.112.28.34:443
+  type: ss
+  server: 3.112.28.34
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
+- name: 🇦🇺澳大利亚-0-0-ss-43.201.19.172:443
+  type: ss
+  server: 43.201.19.172
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
+- name: 🇫🇷法国-0-0-ss-149.202.82.172:8008
+  type: ss
+  server: 149.202.82.172
+  password: XKFKl2rULjIp74
+  port: 8008
+  cipher: aes-256-gcm
+- name: 🇨🇳中国-广东-广州-ss-183.240.37.215:2001
+  type: ss
+  server: 183.240.37.215
+  password: 72d6143e-df0d-4f59-8a31-a38f8a640c4d
+  port: 2001
+  cipher: chacha20-ietf-poly1305
+- name: 🇦🇺澳大利亚-0-0-ss-43.202.64.174:443
+  type: ss
+  server: 43.202.64.174
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
+- name: 🇰🇷韩国-首尔-首尔-ss-3.38.211.225:443
+  type: ss
+  server: 3.38.211.225
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
+- name: 🇦🇺澳大利亚-0-0-ss-43.202.49.224:443
+  type: ss
+  server: 43.202.49.224
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
+- name: 🇯🇵日本-东京都-东京-ss-13.230.137.173:443
+  type: ss
+  server: 13.230.137.173
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
 - name: 🇫🇷法国-巴黎-0-ss2-195.154.200.150:2376
   type: ss
   server: 195.154.200.150
@@ -17,7 +83,29 @@ proxies:
   password: TEzjfAYq2IjtuoS
   port: 6679
   cipher: aes-256-gcm
-- name: 🇺🇸美国-新泽西-0-v2ray-dl.v001sssv.pw:80
+- name: 🇨🇳中国-江苏-南京-ss2-ctkr2.createmofa.xyz:32998
+  type: ss
+  server: ctkr2.createmofa.xyz
+  password: 1c74f602-87e2-4101-93e0-f8360264870a
+  port: 32998
+  cipher: chacha20-ietf-poly1305
+- name: 🇫🇷法国-0-0-ss2-149.202.82.172:8008
+  type: ss
+  server: 149.202.82.172
+  password: XKFKl2rULjIp74
+  port: 8008
+  cipher: aes-256-gcm
+- name: 🇺🇸美国-华盛顿-0-ssr-fr-am1-5.eqsunshine.com:8181
+  type: ssr
+  server: fr-am1-5.eqsunshine.com
+  password: RcfVcDzzB
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8181
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- name: 🇺🇸美国-华盛顿-0-v2ray-dl.v001sssv.pw:80
   type: vmess
   server: dl.v001sssv.pw
   network: ws
@@ -39,39 +127,6 @@ proxies:
   udp: false
   tls: false
   ws-path: ''
-- name: 🇧🇷巴西-0-0-v2ray-168.138.204.253:8080
-  type: vmess
-  server: 168.138.204.253
-  network: ws
-  port: 8080
-  uuid: 88c6d12b-614f-485f-83fc-fb0cc57c4801
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: ''
-- name: 🇧🇷巴西-0-0-v2ray-168.138.221.229:8080
-  type: vmess
-  server: 168.138.221.229
-  network: ws
-  port: 8080
-  uuid: 88c6d12b-614f-485f-83fc-fb0cc57c4801
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
-- name: 🇺🇸美国-加利福尼亚-0-v2ray-129.146.43.103:8080
-  type: vmess
-  server: 129.146.43.103
-  network: ws
-  port: 8080
-  uuid: 88c6d12b-614f-485f-83fc-fb0cc57c4801
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: ''
 - name: 🇺🇸美国-加利福尼亚-0-v2ray-129.146.245.188:443
   type: vmess
   server: 129.146.245.188
@@ -83,16 +138,6 @@ proxies:
   udp: false
   tls: false
   ws-path: ''
-- name: 🇺🇸美国-加利福尼亚-0-v2ray-vizooooo.ddns.net:80
-  type: vmess
-  server: vizooooo.ddns.net
-  network: ws
-  port: 80
-  uuid: 336ae92f-b745-40dc-cc4d-01e8313a5d51
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /mehdi
 - name: 🇺🇸美国-加利福尼亚-0-v2ray-ming2.kiwireich.com:443
   type: vmess
   server: ming2.kiwireich.com
@@ -104,3 +149,25 @@ proxies:
   udp: false
   tls: true
   ws-path: /ray
+- name: 🇺🇸美国-0-0-v2ray-51.195.209.132:2002
+  type: vmess
+  server: 51.195.209.132
+  network: ws
+  port: 2002
+  uuid: a853d91e-c28b-42c8-ee08-a45771005cc2
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /
+- name: 🇧🇷巴西-0-0-v2ray-168.138.221.229:8080
+  type: vmess
+  server: 168.138.221.229
+  network: ws
+  port: 8080
+  uuid: 88c6d12b-614f-485f-83fc-fb0cc57c4801
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: ''
