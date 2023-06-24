@@ -1,22 +1,34 @@
 proxies:
-- name: 🇺🇸美国-0-0-ss-134.195.196.149:3306
+- name: 🇺🇦乌克兰-0-0-ss-95.164.17.164:60602
   type: ss
-  server: 134.195.196.149
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  cipher: aes-256-gcm
-- name: 🇺🇸美国-加利福尼亚-0-ss-167.160.90.254:51108
+  server: 95.164.17.164
+  password: tKWXGR9aod6RVbTKXPMtmo
+  port: 60602
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳中国-上海-上海-ss-fn-sh.freelandernode.shop:27514
   type: ss
-  server: 167.160.90.254
-  password: dongtaiwang.com
-  port: 51108
-  cipher: aes-256-gcm
-- name: 🇺🇸美国-加利福尼亚-0-ss2-167.160.90.254:51108
+  server: fn-sh.freelandernode.shop
+  password: f2918b61-40e9-44ed-873d-3fdb624342d1
+  port: 27514
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇦乌克兰-0-0-ss2-95.164.36.192:64751
   type: ss
-  server: 167.160.90.254
-  password: dongtaiwang.com
-  port: 51108
-  cipher: aes-256-gcm
+  server: 95.164.36.192
+  password: xSOmiMASb2uLAcS0z8fvCI
+  port: 64751
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇳中国-上海-上海-ss2-fn-sh.freelandernode.shop:27514
+  type: ss
+  server: fn-sh.freelandernode.shop
+  password: f2918b61-40e9-44ed-873d-3fdb624342d1
+  port: 27514
+  cipher: chacha20-ietf-poly1305
+- name: 🇨🇿捷克-布拉格-布拉格-ss2-195.123.246.15:51348
+  type: ss
+  server: 195.123.246.15
+  password: cyi4FDe4FdrTG3rUpna
+  port: 51348
+  cipher: chacha20-ietf-poly1305
 - name: 🇯🇵日本-东京都-东京-v2ray-139.162.67.119:80
   type: vmess
   server: 139.162.67.119
@@ -28,16 +40,6 @@ proxies:
   udp: false
   tls: false
   ws-path: /KX9anGaj02iy6hnU
-- name: 🇸🇬新加坡-0-0-v2ray-157.230.242.199:80
-  type: vmess
-  server: 157.230.242.199
-  network: ws
-  port: 80
-  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
-  alterId: 0
-  cipher: auto
-  udp: false
-  ws-path: /anti13.zingfast.vn
 - name: 🇸🇬新加坡-0-0-v2ray-206.189.91.242:80
   type: vmess
   server: 206.189.91.242
@@ -48,6 +50,36 @@ proxies:
   cipher: auto
   udp: false
   ws-path: /zingfast.vn
+- name: 🇺🇸美国-德克萨斯-0-v2ray-159.223.83.87:80
+  type: vmess
+  server: 159.223.83.87
+  network: ws
+  port: 80
+  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /anti13.zingfast.vn
+- name: 🇫🇷法国-0-0-v2ray-188.165.170.83:80
+  type: vmess
+  server: 188.165.170.83
+  network: ws
+  port: 80
+  uuid: 860a862a-2798-4037-8513-b060e310e7fc
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /
+- name: 🇫🇷法国-0-0-v2ray-vizooooo.ddns.net:80
+  type: vmess
+  server: vizooooo.ddns.net
+  network: ws
+  port: 80
+  uuid: 336ae92f-b745-40dc-cc4d-01e8313a5d51
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /mehdi
 - name: 🇺🇸美国-德克萨斯-0-v2ray-159.223.67.234:80
   type: vmess
   server: 159.223.67.234
@@ -58,3 +90,46 @@ proxies:
   cipher: auto
   udp: false
   ws-path: /anti13.zingfast.vn
+- name: 🇨🇳中国-台湾-0-v2ray-freenode.me.cd:21233
+  type: vmess
+  server: freenode.me.cd
+  network: ws
+  port: 21233
+  uuid: f369a419-1dc2-4ade-d0ed-c062857cf9ba
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /testws
+- name: 🇸🇬新加坡-0-0-v2ray-157.230.242.199:80
+  type: vmess
+  server: 157.230.242.199
+  network: ws
+  port: 80
+  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
+  alterId: 0
+  cipher: auto
+  udp: false
+  ws-path: /anti13.zingfast.vn
+- name: 🇸🇬新加坡-0-0-v2ray-fn-us-cdn.freelandernode.shop:443
+  type: vmess
+  server: fn-us-cdn.freelandernode.shop
+  network: ws
+  port: 443
+  uuid: f2918b61-40e9-44ed-873d-3fdb624342d1
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /uscdn
+- name: 🇸🇬新加坡-0-0-v2ray-krcfahucnfd.76898102.xyz:2082
+  type: vmess
+  server: krcfahucnfd.76898102.xyz
+  network: ws
+  port: 2082
+  uuid: 12d06bb6-d797-3cf3-b368-a903b8702f2c
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /awbufyuit
