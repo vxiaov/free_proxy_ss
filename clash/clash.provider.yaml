@@ -1,17 +1,11 @@
 proxies:
-- name: 🇫🇷法国-0-0-ss-149.202.82.172:8008
-  type: ss
-  server: 149.202.82.172
-  password: XKFKl2rULjIp74
-  port: 8008
-  cipher: aes-256-gcm
 - name: 🇯🇵日本-东京都-东京-ss-54.199.83.239:2333
   type: ss
   server: 54.199.83.239
   password: doub.io
   port: 2333
   cipher: aes-256-cfb
-- name: 🇷🇺俄罗斯-Novosibirskaya-0-v2ray-xt.ylks01.eu.org:443
+- name: 🇯🇵日本-东京都-东京-v2ray-xt.ylks01.eu.org:443
   type: vmess
   server: xt.ylks01.eu.org
   network: ws
@@ -21,4 +15,15 @@ proxies:
   cipher: auto
   udp: false
   tls: true
+  ws-path: /blue
+- name: 🇯🇵日本-东京都-东京-v2ray-xt.ylks01.eu.org:2095
+  type: vmess
+  server: xt.ylks01.eu.org
+  network: ws
+  port: 2095
+  uuid: b710770a-fdaf-41fb-bbe4-68a6c41e2605
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
   ws-path: /blue
