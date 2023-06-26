@@ -1,16 +1,4 @@
 proxies:
-- name: 🇨🇳中国-江苏-0-ss-223.113.136.103:2001
-  type: ss
-  server: 223.113.136.103
-  password: 341b2b60-3e94-451a-b0d4-22d86988a611
-  port: 2001
-  cipher: chacha20-ietf-poly1305
-- name: 🇨🇳中国-广东-广州-ss-183.240.37.215:2001
-  type: ss
-  server: 183.240.37.215
-  password: 341b2b60-3e94-451a-b0d4-22d86988a611
-  port: 2001
-  cipher: chacha20-ietf-poly1305
 - name: 🇻🇳越南-岘港市-0-v2ray-202.158.244.220:80
   type: vmess
   server: 202.158.244.220
@@ -22,14 +10,25 @@ proxies:
   udp: false
   tls: false
   ws-path: /zingfast.vn
-- name: 🇫🇷法国-0-0-v2ray-188.165.170.83:80
+- name: 🇻🇳越南-岘港市-0-v2ray-ming2.kiwireich.com:443
   type: vmess
-  server: 188.165.170.83
+  server: ming2.kiwireich.com
   network: ws
-  port: 80
-  uuid: 860a862a-2798-4037-8513-b060e310e7fc
+  port: 443
+  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /ray
+- name: 🇺🇸美国-0-0-v2ray-51.195.209.132:2002
+  type: vmess
+  server: 51.195.209.132
+  network: ws
+  port: 2002
+  uuid: a853d91e-c28b-42c8-ee08-a45771005cc2
   alterId: 4
   cipher: auto
   udp: false
   tls: false
-  ws-path: /
+  ws-path: /?ed=2048
