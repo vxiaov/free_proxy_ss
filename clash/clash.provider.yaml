@@ -1,36 +1,57 @@
 proxies:
-- name: 🇺🇸美国-加利福尼亚-0-ss-167.160.90.254:60011
+- name: 🇺🇸美国-加利福尼亚-0-ss2-167.160.90.254:60011
   type: ss
   server: 167.160.90.254
   password: dongtaiwang.com
   port: 60011
   cipher: aes-256-gcm
-- name: 🇫🇷法国-0-0-ss-149.202.82.172:8008
-  type: ss
-  server: 149.202.82.172
-  password: XKFKl2rULjIp74
-  port: 8008
-  cipher: aes-256-gcm
-- name: 🇯🇵日本-东京都-东京-ss-54.199.83.239:2333
-  type: ss
-  server: 54.199.83.239
-  password: doub.io
-  port: 2333
-  cipher: aes-256-cfb
 - name: 🇫🇷法国-0-0-ss2-149.202.82.172:8008
   type: ss
   server: 149.202.82.172
   password: XKFKl2rULjIp74
   port: 8008
   cipher: aes-256-gcm
-- name: 🇫🇷法国-巴黎-0-v2ray-45.77.60.66:8443
+- name: 🇳🇴挪威-0-0-v2ray-141.145.203.70:80
   type: vmess
-  server: 45.77.60.66
+  server: 141.145.203.70
   network: ws
-  port: 8443
-  uuid: 3d0c8ee5-3329-4252-aa1c-65f3fdaa0343
+  port: 80
+  uuid: e9ee407f-2500-3e9d-bc00-26722f99ed06
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
+- name: 🇷🇺俄罗斯-莫斯科-莫斯科-v2ray-195.133.53.253:443
+  type: vmess
+  server: 195.133.53.253
+  network: ws
+  port: 443
+  uuid: 04b38baf-5b78-4937-b27a-83057b08b776
   alterId: 4
   cipher: auto
   udp: false
   tls: false
   ws-path: /
+- name: 🇷🇺俄罗斯-莫斯科-莫斯科-v2ray-txx.vtcss.top:443
+  type: vmess
+  server: txx.vtcss.top
+  network: ws
+  port: 443
+  uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /qwer
+- name: 🇳🇴挪威-0-0-v2ray-141.145.193.48:80
+  type: vmess
+  server: 141.145.193.48
+  network: ws
+  port: 80
+  uuid: e9ee407f-2500-3e9d-bc00-26722f99ed06
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
