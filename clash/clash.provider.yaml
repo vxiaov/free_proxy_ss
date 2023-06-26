@@ -1,43 +1,19 @@
 proxies:
-- name: 🇦🇺澳大利亚-0-0-ss-43.202.52.108:443
-  type: ss
-  server: 43.202.52.108
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
-- name: 🇺🇸美国-康涅狄格-0-ss-13.213.46.196:443
-  type: ss
-  server: 13.213.46.196
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
 - name: 🇫🇷法国-0-0-ss-149.202.82.172:8008
   type: ss
   server: 149.202.82.172
   password: XKFKl2rULjIp74
   port: 8008
   cipher: aes-256-gcm
-- name: 🇨🇳中国-广东-0-ss-cm1-nc.go001.buzz:19584
+- name: 🇨🇳中国-安徽-马鞍山-ss-cm1-nc.go001.buzz:19584
   type: ss
   server: cm1-nc.go001.buzz
   password: 5dffba42-4be9-447e-a6d5-61567a360e70
   port: 19584
   cipher: chacha20-ietf-poly1305
-- name: 🇸🇬新加坡-0-0-ss-18.139.2.255:443
-  type: ss
-  server: 18.139.2.255
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
 - name: 🇦🇺澳大利亚-0-0-ss-43.201.19.172:443
   type: ss
   server: 43.201.19.172
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
-- name: 🇸🇬新加坡-0-0-ss-52.221.214.113:443
-  type: ss
-  server: 52.221.214.113
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
@@ -47,12 +23,56 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇺🇸美国-康涅狄格-0-ss-13.215.46.225:443
+- name: 🇯🇵日本-东京都-东京-ss-54.199.83.239:2333
   type: ss
-  server: 13.215.46.225
-  password: amazonskr05
-  port: 443
+  server: 54.199.83.239
+  password: doub.io
+  port: 2333
   cipher: aes-256-cfb
+- name: 🇸🇬新加坡-0-0-v2ray-sg10.zingfast.vn:80
+  type: vmess
+  server: sg10.zingfast.vn
+  network: ws
+  port: 80
+  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /anti13.zingfast.vn
+- name: 🇬🇧英国-Coventry-0-v2ray-81.208.161.46:80
+  type: vmess
+  server: 81.208.161.46
+  network: ws
+  port: 80
+  uuid: e9ee407f-2500-3e9d-bc00-26722f99ed06
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
+- name: 🇺🇸美国-加利福尼亚-0-v2ray-129.153.53.167:80
+  type: vmess
+  server: 129.153.53.167
+  network: ws
+  port: 80
+  uuid: e9ee407f-2500-3e9d-bc00-26722f99ed06
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: false
+  ws-path: /v2ray
+- name: 🇺🇸美国-加利福尼亚-0-v2ray-linkedin.disnet.gq:443
+  type: vmess
+  server: linkedin.disnet.gq
+  network: ws
+  port: 443
+  uuid: a869c557-5c7d-426f-9039-0279c16352bc
+  alterId: 4
+  cipher: auto
+  udp: false
+  tls: true
+  ws-path: /vmessws
 - name: 🇷🇺俄罗斯-莫斯科-莫斯科-v2ray-195.133.53.253:443
   type: vmess
   server: 195.133.53.253
