@@ -1,19 +1,7 @@
 proxies:
-- name: 🇺🇸美国-0-0-ss-134.195.196.149:3306
-  type: ss
-  server: 134.195.196.149
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  cipher: aes-256-gcm
 - name: 🇦🇺澳大利亚-0-0-ss-43.202.52.108:443
   type: ss
   server: 43.202.52.108
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
-- name: 🇦🇺澳大利亚-0-0-ss-43.207.74.136:443
-  type: ss
-  server: 43.207.74.136
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
@@ -23,27 +11,21 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇺🇸美国-0-0-ss-134.195.196.149:8090
+- name: 🇫🇷法国-0-0-ss-149.202.82.172:8008
   type: ss
-  server: 134.195.196.149
-  password: PCnnH6SQSnfoS27
-  port: 8090
+  server: 149.202.82.172
+  password: XKFKl2rULjIp74
+  port: 8008
   cipher: aes-256-gcm
-- name: 🇦🇺澳大利亚-0-0-ss-43.200.1.53:443
+- name: 🇨🇳中国-广东-0-ss-cm1-nc.go001.buzz:19584
   type: ss
-  server: 43.200.1.53
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
-- name: 🇸🇬新加坡-0-0-ss-18.139.163.228:443
+  server: cm1-nc.go001.buzz
+  password: 5dffba42-4be9-447e-a6d5-61567a360e70
+  port: 19584
+  cipher: chacha20-ietf-poly1305
+- name: 🇸🇬新加坡-0-0-ss-18.139.2.255:443
   type: ss
-  server: 18.139.163.228
-  password: amazonskr05
-  port: 443
-  cipher: aes-256-cfb
-- name: 🇦🇺澳大利亚-0-0-ss-43.202.49.224:443
-  type: ss
-  server: 43.202.49.224
+  server: 18.139.2.255
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
@@ -53,9 +35,15 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇸🇬新加坡-0-0-ss-3.0.183.226:443
+- name: 🇸🇬新加坡-0-0-ss-52.221.214.113:443
   type: ss
-  server: 3.0.183.226
+  server: 52.221.214.113
+  password: amazonskr05
+  port: 443
+  cipher: aes-256-cfb
+- name: 🇰🇷韩国-首尔-首尔-ss-3.38.211.225:443
+  type: ss
+  server: 3.38.211.225
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
@@ -65,40 +53,6 @@ proxies:
   password: amazonskr05
   port: 443
   cipher: aes-256-cfb
-- name: 🇫🇷法国-0-0-ss2-149.202.82.172:8008
-  type: ss
-  server: 149.202.82.172
-  password: XKFKl2rULjIp74
-  port: 8008
-  cipher: aes-256-gcm
-- name: 🇨🇳中国-安徽-马鞍山-ss2-cm1-nc.go001.buzz:19584
-  type: ss
-  server: cm1-nc.go001.buzz
-  password: 5dffba42-4be9-447e-a6d5-61567a360e70
-  port: 19584
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸美国-0-0-v2ray-51.195.209.132:2002
-  type: vmess
-  server: 51.195.209.132
-  network: ws
-  port: 2002
-  uuid: a853d91e-c28b-42c8-ee08-a45771005cc2
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /?ed=2048
-- name: 🇩🇪德国-0-0-v2ray-168.119.58.112:80
-  type: vmess
-  server: 168.119.58.112
-  network: ws
-  port: 80
-  uuid: e42d68db-4297-4c17-b5cf-44d421aef400
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /
 - name: 🇷🇺俄罗斯-莫斯科-莫斯科-v2ray-195.133.53.253:443
   type: vmess
   server: 195.133.53.253
@@ -109,15 +63,4 @@ proxies:
   cipher: auto
   udp: false
   tls: false
-  ws-path: /
-- name: 🇨🇳中国-广东-深圳-v2ray-dearma.76898102.xyz:2052
-  type: vmess
-  server: dearma.76898102.xyz
-  network: ws
-  port: 2052
-  uuid: 1262dace-d355-3868-915f-b7418c2e7390
-  alterId: 4
-  cipher: auto
-  udp: false
-  tls: false
-  ws-path: /abuciwyg
+  ws-path: ''
