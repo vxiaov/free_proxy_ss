@@ -1,5 +1,7 @@
 # 说明
 
+> 2024年,分享节点功能再次复活! 仅更新Clash订阅节点，即 clash/clash.provider.yaml 文件。
+
 分享来自互联网上的shadowsocks(SS)/ShadowsocksR(SSR)/V2ray(vmess)代理
 
 定期更新，每次分享少量可用代理,偶尔出现不可用也是有可能的。
@@ -14,13 +16,6 @@
 
 使用Clash配置，大多数人都使用一个启动配置文件config.yaml包含所有代理节点信息, 原本这里提供的Clash配置是拆分为两个，启动配置文件`clash/config.yaml`不包含代理节点信息，`clash/clash.provider.yaml`中包含变化的节点信息。 
 
-但是很多人不会用，导致反馈不好用。
-
-因此，这里提供了一个包含代理节点的Clash启动配置文件[config.yaml](https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/config.yaml) , 这个配置就是所谓的拿来即用的配置了
-
-配置文件下载：
-- GitHub原始链接(可能下载失败)： https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/config.yaml
-- 使用CDN加速链接(推荐)： https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/config.yaml
 
 
 ### Clash订阅节点更新地址(每小时更新)
