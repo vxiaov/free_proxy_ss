@@ -2,89 +2,43 @@
 
 > 2024年,分享节点功能再次复活! 仅更新Clash订阅节点，即 clash/clash.provider.yaml 文件。
 
-分享来自互联网上的shadowsocks(SS)/ShadowsocksR(SSR)/V2ray(vmess)代理
-
-定期更新，每次分享少量可用代理,偶尔出现不可用也是有可能的。
+分享来自互联网上的shadowsocks(SS)/ShadowsocksR(SSR)/V2ray(vmess)代理 ，定期更新，每次分享少量可用代理,偶尔出现不可用也是有可能的。
 
 欢迎大家Star !
 
-可以订阅 [@free_proxy_001](https://t.me/free_proxy_001) Telegram电报频道，这里会定期发布可用代理。
+可以订阅 [@free_proxy_001](https://t.me/free_proxy_001) Telegram电报频道和讨论组。
 
-## Clash订阅配置
-> 小猫咪Clash提供了远程自动更新结点的功能，非常容易使用。因此这里也提供了一份远程订阅地址。
-
-
-使用Clash配置，大多数人都使用一个启动配置文件config.yaml包含所有代理节点信息, 原本这里提供的Clash配置是拆分为两个，启动配置文件`clash/config.yaml`不包含代理节点信息，`clash/clash.provider.yaml`中包含变化的节点信息。 
-
-
-
-### Clash订阅节点更新地址(每小时更新)
+## Clash订阅节点更新地址
 > 代理节点包含ss/ssr/vmess,均来源于网络
 
-- Clash订阅地址(使用CDN链接,有延迟): https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/clash.provider.yaml
-- Clash订阅地址(原地址，需要通过代理访问): https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml
+- Clash订阅地址(使用CDN链接,有延迟): https://cdn.jsdelivr.net/gh/vxiaov/free_proxy_ss@main/clash/clash.provider.yaml
+- Clash订阅地址(原地址，需要通过代理访问): https://raw.githubusercontent.com/vxiaov/free_proxy_ss/main/clash/clash.provider.yaml
+
+## 科普：免费节点如何测试可用？
 
 
-### Linux客户端使用方法:
-```
-# 以配置目录为`~/clash`为例
-mkdir ~/clash
+免费节点的可用怎么判断呢？
 
-# 下载基础配置文件
-# wget -O ~/clash/config.xml -c https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/config.yaml
-wget -O ~/clash/config.xml -c https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/config.yaml
+最简单有效的方法：直接用客户端工具解析并启用这个节点来测试能不能上网就知道了。
 
-# 启动clash客户端
-clash-cli -d ~/clash
+是的，那么，写一个程序，将这个过程自动化，就是本项目测试节点可用的逻辑了。
 
-```
+主要测试过程分为了几个阶段：
 
-正常情况下输出内容为：
-```
-INFO[0000] Start initial provider provider01            
-INFO[0002] Start initial provider provider02            
-INFO[0002] HTTP proxy listening at: :7890               
-INFO[0002] SOCKS5 proxy listening at: :1080             
-INFO[0002] RESTful API listening at: 127.0.0.1:9090 
-```
-如果看到上面信息，就说明已经正确下载了远程订阅地址的配置信息了，默认设置是一小时更新一次(100+可用结点)。
+1. 节点采集
+2. 初级筛选： 端口可访问测试（TCP端口测试），这一部就可以筛选出一大批无效的节点，比检测IP地址能不能ping通更稳定有效。
+3. 终极筛选： 提取节点配置，启动一个客户端，测试访问某个网站(某度/油管/谷歌等看用途)，保留测试通过的节点，此时此刻可以证明这个节点100%有效。
 
-小猫咪客户端下载地址：
-- Arm路由器(斐逊K3可用-Armv5): [clash premium](https://github.com/Dreamacro/clash/releases/tag/premium)
-- 斐讯K3路由器梅林AM380固件可用的Clash插件： [Clash for meilin 380](https://github.com/learnhard-cn/clash)
-- openwrt固件可用KoolClash插件: [Koolshare-Clash](https://github.com/SukkaW/Koolshare-Clash)
-- Linux/Win/Mac : [官方Clash](https://github.com/Dreamacro/clash/releases/latest)
-- Android客户端 : <a href="https://play.google.com/store/apps/details?id=com.github.kr328.clash"><img width="200px" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"/></a> or [Releases](https://github.com/Kr328/ClashForAndroid/releases)
-
-## 客户端
-> 客户端工具很多，为安全期间尽量从Github、GooglePlay等平台下载安装包。
+> 如果各位理解上面含义，还可以更深入扩展：比如筛选针对某网站可用的代理节点池（爬虫必备的最爱）。
 
 
-| 代理类型| PC端-Windows| PC端-MacOS| PC端-Linux| 移动端-Android| 移动端-iOS|
-|:---|:---|:---|:---|:---|:---|
-| ss| [shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows/releases),[客户端地址列表](https://shadowsocks.org/en/download/clients.html)| [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG/releases/),[客户端地址列表](https://shadowsocks.org/en/download/clients.html)| [客户端地址列表](https://shadowsocks.org/en/download/clients.html)| [客户端地址列表](https://shadowsocks.org/en/download/clients.html)| [客户端地址列表](https://shadowsocks.org/en/download/clients.html)|
-| ssr| [SSR-native版本-跨平台](https://github.com/ShadowsocksR-Live/shadowsocksr-native/releases/latest)| [SSR-native版本-跨平台](https://github.com/ShadowsocksR-Live/shadowsocksr-native/releases/latest)| [SSR-native版本-跨平台](https://github.com/ShadowsocksR-Live/shadowsocksr-native/releases/latest)| [SSR安卓-个人维护的版本](https://github.com/HMBSbige/ShadowsocksR-Android/releases)| [shadowrocket](https://apps.apple.com/us/app/shadowrocket/id932747118),[potatso-lite](https://apps.apple.com/us/app/potatso-lite/id1239860606)|
-| v2ray| [v2rayN-支持ss/v2ray](https://github.com/2dust/v2rayN/releases),[Qv2ray客户端](https://github.com/Qv2ray/Qv2ray/releases),<a href="https://play.google.com/store/apps/details?id=com.v2ray.ang"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="165" height="64" /></a>| [v2ray官方客户端](https://github.com/v2fly/v2ray-core/releases),[Qv2ray客户端](https://github.com/Qv2ray/Qv2ray/releases)| [v2ray官方客户端](https://github.com/v2fly/v2ray-core/releases),[Qv2ray客户端](https://github.com/Qv2ray/Qv2ray/releases)| [AnXray](https://github.com/XTLS/AnXray),[v2rayNG](https://github.com/2dust/v2rayNG/releases/latest)| [Kitsunebi客户端](https://itunes.apple.com/us/app/kitsunebi-proxy-utility/id1446584073?mt=8)|
 
+也许，有的客官就质疑了：为什么节点到我手里就不能用了呢？ 可能性如下：
 
-> SSR客户端更新订阅如果有问题就换个版本吧，可以使用 `SSR安卓个人维护版本` 是没问题的。
+1. 免费节点就这么不稳定，你用的时候就失效了，没有免费的午餐，也没有永久免费的节点。
+2. 节点的域名/IP/端口被墙了，节点是好的，就是你的国家不让你访问，那怎么用？ 知识点：**二级中继节点组可以为你解决**。
+3. 很低的概率，但不是不可能：你的网络环境有问题，全局代理，切换节点时的DNS缓存等等问题因素也是由的。
 
-
-更多客户端支持可以访问 [https://www.v2ray.com/awesome/tools.html](https://www.v2ray.com/awesome/tools.html) 了解。
-
-## 订阅源使用方法
-
-1. 安装v2ray客户端(支持ss和v2ray配置)
-2. 添加订阅源地址 `https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free`
-3. 更新订阅源
-
-
-完成更新后客户端就会显示可用结点了,选择一个启用试试吧。
-
-- 优质代理 **不在多,在于可用** ,分享的代理都是经过PC客户端验证过可用的。
-- 免费资源虽好，也是有人分享获得，希望这样的朋友越多越好。如果您有资源链接可以留言。
-
-免费资源是网友们共同构建起来的。
 
 ## 安全说明
 
@@ -94,9 +48,6 @@ INFO[0002] RESTful API listening at: 127.0.0.1:9090
 
 - 免费资源有写是机场开放的，服务端地址本来写着的都是域名，经过处理后都变成了实际的IP地址了。这些机场真的有点贵，能自己搭建梯子的还是自己动手，毕竟也不难。
 
-
-
-> 如果帮助到了您，希望可以给个Star! 
 
 
 ---
